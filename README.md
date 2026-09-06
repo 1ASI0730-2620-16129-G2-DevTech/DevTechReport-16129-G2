@@ -3,27 +3,20 @@
 "/>
 
 ## **Universidad Peruana de Ciencias Aplicadas**
-## **Carrera de Ingeniería de Software**
+### **Carrera de Ingeniería de Software**
 <br>
 
-#### **1ASI0729**
-### **Desarrollo de Aplicaciones Open Source**
+**Curso: Aplicaciones Web**
 
+**NRC: 16129**
 
-### **NRC**
-### **16129**
-
+**Docente: Alberto Wilmer Sanchez Seña**
 
 ### **Informe del Trabajo Final**
 
-#### **Docente**
-### **Alberto Wilmer Sanchez Seña**
+**Nombre de la Startup:** DevTech
 
-#### **Equipo**
-### **DevTech**
-
-#### **Proyecto**
-### **WashTrack**
+**Nombre del producto:** WashTrack
 
 ### **Integrantes**
 
@@ -35,42 +28,41 @@
         <th style="border: none; padding: 0 0 6px 0; text-align: center;">Apellidos y Nombres</th>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">u202416053</td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U20241D338</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Pérez Vásquez, Ariana Valeria</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202416053</td>
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramirez Gutierrez, Gabriel</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202018427</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramos Fuentes Rivera, Adriana Nicole</td>
     </tr>
     <tr>
         <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202422642</td>
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">Sayago Vidal, Sebastián Leonardo</td>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">u20241D338</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Perez Vasquez, Ariana Valeria</td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202216240</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Tufiño Argüelles, Luis Angel</td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 0 0; text-align: center;"></td>
-        <td style="border: none; padding: 0; text-align: center;"></td>
+        <td style="border: none; padding: 0 18px 0 0; text-align: center;">U202216240</td>
+        <td style="border: none; padding: 0; text-align: center;">Tufiño Argüelles, Luis Angel</td>
     </tr>
 </table>
 
 <div align="center">
 
-
-#### **Período 2026-02**
-
-
-
+*Setiembre, 2026*
 
 </div>
 
-## Registro de Versiones
+---
+
+# Registro de Versiones del Informe
 
 | Versión | Fecha      | Autor                         | Descripcion                                              |
 | :--- |:-----------|:------------------------------|:---------------------------------------------------------|
-| 1.0.0 | 28/09/2026 | Gabriel Ramirez y Luis Tufiño | Creó el repositorio junto a los branch de cada capítulo. |
+| 1.0.0 | 28/08/2026 | Gabriel Ramirez y Luis Tufiño | Creó el repositorio junto a los branch de cada capítulo. |
+| 1.1.0 | 02/09/2026 | Adriana Ramos | Agregó el Capítulo I |
 | 1.1.0 | 04/09/2026 | Ariana Perez | Agregó su parte en student Outcome y desarrollo avance del capítulo IV junto a la Landing Page |
 ---
 
@@ -82,7 +74,215 @@
 
 // Falta Imagen 
 
-# Tabla de Contenido
+---
+
+# Contenido
+
+## Tabla de Contenidos
+
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](#31-user-stories)
+  - [3.2. Impact Mapping](#32-impact-mapping)
+  - [3.3. Product Backlog](#33-product-backlog)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagrams](#481-database-diagrams)
+
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
+
+- [Bibliografía](#bibliografía)
+
+- [Anexos](#anexos)
+
+---
+
+# Student Outcome
+El curso contribuye al cumplimiento del Student Outcome ABET:
+**ABET – EAC - Student Outcome 5**
+
+<p align="justify">
+<b>Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.</b>
+</p>
+
+<p align="justify">
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Trabaja en equipo para proporcionar liderazgo en forma conjunta</strong></td>
+      <td>
+        <b>Pérez Vásquez, Ariana Valeria</b><br>
+        <em><b>AV1</b></em><br>
+        Elaboré el Capítulo IV del proyecto WashTrack, desarrollando las Style Guidelines, donde se establecieron los lineamientos generales y web para mantener una interfaz consistente, clara, accesible y fácil de utilizar.<br>
+        <em><b>AV2</b></em><br>
+        Desarrollé la Information Architecture, la Landing Page UI, elaborando el wireframe y mock-up de la página principal de WashTrack, considerando la distribución de los elementos, jerarquía visual, navegación y presentación de la propuesta de valor del producto.<br>
+        ...<br>
+        <b>Ramirez Gutierrez, Gabriel</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Sayago Vidal, Sebastián Leonardo</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Tufiño Argüelles, Luis Angel</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+      </td>
+      <td>
+        Fusce cursus dolor et nulla suscipit, sit amet ullamcorper nibh vestibulum.<br>
+        Nam ornare massa eu lobortis porttitor.<br>
+        Nam ut erat feugiat libero pretium semper at ac metus.<br>
+        Sed at eros dapibus, fermentum quam ut, bibendum lacus.<br>
+        Curabitur eget orci eget urna varius commodo.<br>
+        ...
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</strong></td>
+      <td>
+        <b>Pérez Vásquez, Ariana Valeria</b><br>
+        <em><b>AV1</b></em><br>
+        Participé en la planificación y organización de las actividades del equipo, coordinando las tareas asignadas para el desarrollo del proyecto WashTrack y contribuyendo al cumplimiento de los objetivos establecidos para el avance<br>
+        <em><b>AV2</b></em><br>
+        Desarrollé las secciones asignadas del Capítulo IV, relacionadas con Style Guidelines, Information Architecture y Landing Page UI Design, coordinando con los integrantes del equipo para mantener la coherencia del proyecto y cumplir con las actividades planificadas<br>
+        ...<br>
+        <b>Ramirez Gutierrez, Gabriel</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Sayago Vidal, Sebastián Leonardo</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Tufiño Argüelles, Luis Angel</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+      </td>
+      <td>
+        Fusce mattis augue a nisl bibendum, quis fringilla neque scelerisque.<br>
+        Vivamus commodo libero eget venenatis imperdiet.<br>
+        Etiam imperdiet quam condimentum velit tempor porttitor.<br>
+        Suspendisse blandit nisl quis mauris vehicula faucibus.<br>
+        ...
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
 
 ## Capítulo I: Introducción
 
@@ -116,7 +316,10 @@
 
 </p>
 
-* 1.1.2. Perfiles de integrantes del equipo
+#### 1.1.2. Perfiles de integrantes del equipo
+
+
+
 
 ### 1.2. Solution Profile
 <p align="justify">
@@ -370,21 +573,21 @@
 
 ### 2.1. Competidores
 
-* 2.1.1. Análisis competitivo
-* 2.1.2. Estrategias y tácticas frente a competidores
+#### 2.1.1. Análisis competitivo
+#### 2.1.2. Estrategias y tácticas frente a competidores
 
 ### 2.2. Entrevistas
 
-* 2.2.1. Diseño de entrevistas
-* 2.2.2. Registro de entrevistas
-* 2.2.3. Análisis de entrevistas
+#### 2.2.1. Diseño de entrevistas
+#### 2.2.2. Registro de entrevistas
+#### 2.2.3. Análisis de entrevistas
 
 ### 2.3. Needfinding
 
-* 2.3.1. User Personas
-* 2.3.2. User Task Matrix
-* 2.3.3. User Journey Mapping
-* 2.3.4. Empathy Mapping
+#### 2.3.1. User Personas
+#### 2.3.2. User Task Matrix
+#### 2.3.3. User Journey Mapping
+#### 2.3.4. Empathy Mapping
 
 ### 2.4. Big Picture EventStorming
 
@@ -408,7 +611,7 @@
 
 WashTrack es una plataforma web enfocada en la gestión y seguimiento digital de servicios de lavandería, conectando a clientes con lavanderías para facilitar la programación, procesamiento y monitoreo de sus pedidos. Para brindar una experiencia moderna, clara e intuitiva, se ha optado por un diseño visual limpio, minimalista y funcional. Predominan colores como azul, celeste, blanco y tonos oscuros, que transmiten confianza, limpieza, tecnología y rapidez. El diseño prioriza la simplicidad, organización y accesibilidad, permitiendo que tanto los clientes como los encargados de las lavanderías puedan navegar y gestionar las órdenes de manera sencilla. Además, se emplean elementos visuales diferenciados para representar el estado de cada pedido, facilitando el seguimiento del proceso desde la recepción de las prendas hasta su entrega.
 
-* 4.1.1. General Style Guidelines
+#### 4.1.1. General Style Guidelines
 <p>Las guías generales de estilo de WashTrack establecen los principios visuales y comunicacionales que orientan el diseño de la plataforma, buscando mantener una experiencia consistente, clara y fácil de utilizar. Las decisiones se basan en principios de diseño como consistencia, jerarquía visual, legibilidad, simplicidad y accesibilidad, aplicados a los diferentes componentes de la interfaz. Asimismo, se consideran aspectos de branding, tipografía, colores, espaciado y tono de comunicación, con el propósito de transmitir una identidad relacionada con la tecnología, limpieza, confianza y eficiencia que caracteriza al servicio de lavandería digital.
 
 Para mantener una identidad visual coherente, WashTrack utiliza una combinación de <b>tonos azules, celestes, blancos y grises, acompañados de una tipografía diferenciada para títulos y contenido general.</b> La distribución de los elementos utiliza espacios y márgenes que permiten organizar la información sin sobrecargar la interfaz, mientras que botones, tarjetas, indicadores y formularios mantienen características visuales consistentes. En cuanto al lenguaje, la comunicación de WashTrack <b>adopta un tono serio, profesional, cercano y entusiasta</b>, evitando expresiones excesivamente formales o técnicas para facilitar la comprensión tanto de los clientes como de los encargados de las lavanderías.
@@ -522,7 +725,7 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
 </div>
   </p>    
 
-* 4.1.2. Web Style Guidelines
+#### 4.1.2. Web Style Guidelines
 <p>La versión web de WashTrack ha sido diseñada bajo un enfoque Responsive-First y modular, buscando garantizar una experiencia consistente y accesible para administradores de lavanderías y usuarios finales, independientemente del dispositivo utilizado. Los estándares visuales y de interacción definidos para la interfaz son los siguientes:</p>
 
 <ul>
@@ -633,231 +836,40 @@ La arquitectura de la información de **WashTrack** busca ofrecer una experienci
 
 La información se estructura mediante una jerarquía clara y una categorización modular, permitiendo que cada usuario encuentre rápidamente las funcionalidades correspondientes a su perfil. Asimismo, la navegación <b>sigue una secuencia lógica que facilita el acceso a las principales secciones del sistema</b>, tales como la barra de navegación superior, la sección de características, que presenta el seguimiento en tiempo real de las seis etapas del proceso de lavado, la sección orientada a los diferentes perfiles de usuario ("Para quién"), la presentación institucional ("Sobre nosotros") y el formulario de atención ubicado al final de la página. Esta organización <b>permite reducir la carga cognitiva y mejorar la experiencia de uso.</b>
 
-* 4.2.1. Organization Systems
-<p>Los sistemas de organización en WashTrack establecen la estructura lógica mediante la cual se clasifican y presentan los contenidos y funcionalidades de la plataforma, permitiendo que tanto los clientes como los administradores naveguen de forma intuitiva, localicen rápidamente el estado de sus pedidos de lavandería y accedan a las herramientas de gestión sin fricciones. Aqui presentamos su sistema de organización de nuestra aplicación WashTrack:</p>
-
-- <b>Organización jerárquica (Visual Hierarchy):</b><br/>
-  Se aplica principalmente en la página principal y en la presentación de los contenidos informativos. La información se organiza de acuerdo con diferentes niveles de importancia, utilizando títulos, subtítulos, tamaños de texto, colores, espacios y botones para dirigir la atención del usuario hacia los elementos principales. Por ejemplo, en la página de inicio se prioriza la propuesta de valor de WashTrack y posteriormente se presentan sus características y demás contenidos.
-<p></p>
-
-- <b>Organización secuencial (Step-by-Step):</b><br/>
-  Se utiliza en la representación del proceso de seguimiento del servicio de lavado. Las seis etapas del proceso se presentan siguiendo un orden determinado, permitiendo que el usuario comprenda progresivamente el estado de su ropa y conozca en qué etapa se encuentra. Este sistema resulta especialmente útil para representar procesos que requieren una secuencia lógica.
-<p></p>
-
-- <b>Organización matricial:</b><br/>
-  Se utiliza para relacionar las funcionalidades de WashTrack con los diferentes perfiles de usuarios. La información puede organizarse considerando tanto el tipo de usuario como las necesidades o funcionalidades disponibles para cada perfil, facilitando la identificación de los servicios que corresponden a cada audiencia.
-<p></p>
-
-- <b>Categorización por tópicos:</b><br/>
-  Se utiliza para agrupar la información de acuerdo con su temática. De esta manera, los contenidos se distribuyen en secciones como características de la plataforma, seguimiento del proceso, información sobre WashTrack y atención al usuario, evitando mezclar contenidos de diferente naturaleza.
-<p></p>
-
-- <b>Categorización según audiencia:</b><br/>
-  Se aplica principalmente en la sección <b>“Para quién”</b>, donde la información se presenta de acuerdo con los diferentes perfiles a los que está dirigida la solución. Esta organización permite que cada grupo de usuarios identifique rápidamente los beneficios y funcionalidades relevantes para sus necesidades.
-<p></p>
-
-- <b>Categorización cronológica:</b><br/>
-  Se aplica principalmente al seguimiento del proceso de lavado y al historial de ciclos. La información relacionada con las etapas del servicio se presenta siguiendo un orden temporal, permitiendo comprender la evolución del proceso desde su inicio hasta su finalización.
-
-<p></p>
-
-
-* 4.2.2. Labeling Systems
-<p>Los sistemas de etiquetado en WashTrack han sido diseñados bajo principios de simplicidad, concisión y claridad para representar los conjuntos de información y sus asociaciones sin generar confusión en los visitantes y usuarios. Las etiquetas emplean el mínimo número de palabras posibles, utilizando una terminología intuitiva y estandarizada que facilita la navegación tanto en la versión pública como en el panel operativo del sistema.</p>
-
-<b>*Landing Page*</b>
-| **Etiqueta** | **Descripción** |
-|---|---|
-| **Inicio** | Presenta la propuesta de valor principal de WashTrack mediante una interfaz visual y llamadas a la acción directas. |
-| **Características** | Agrupa de forma modular las funcionalidades clave del servicio, como pedidos, seguimiento, IoT y pagos. |
-| **Sobre nosotros** | Muestra la identidad corporativa de DevTech, su misión y sus valores orientados a la transformación digital. |
-| **Para quién** | Segmenta los beneficios y soluciones dirigidas tanto a dueños de lavanderías como a clientes finales. |
-| **Planes** | Detalla las opciones de servicio e integración tecnológica disponibles para los negocios. |
-| **Comenzar ahora** | Botón de llamada a la acción (CTA) principal para el registro o acceso directo al formulario de atención. |
-
-<b>*App Web*</b>
-
-| **Etiqueta** | **Descripción** |
-|---|---|
-| **Panel Hoy / Dashboard** | Presenta una vista general del estado operativo actual, métricas clave y alertas de lavadoras en tiempo real. |
-| **Monitoreo IoT** | Permite visualizar el estado, rendimiento y alertas predictivas de las lavadoras conectadas. |
-| **Pedidos** | Permite gestionar órdenes, clientes, estados de entrega y filtrar información según las etapas del proceso de lavado. |
-| **Seguimiento en Vivo** | Muestra de manera secuencial las seis etapas del proceso de lavado para facilitar el control del usuario. |
-| **Reportes** | Presenta el historial de operaciones, métricas de rendimiento y estadísticas de la lavandería. |
-| **Configuración** | Permite gestionar los ajustes de cuenta, preferencias del usuario y parámetros operativos del sistema. |
-| **Cerrar Sesión** | Permite salir de forma segura de la plataforma para proteger los datos del negocio y del usuario. |
-<p></p>
-
-* 4.2.3. SEO Tags and Meta Tags
-<p>Para mejorar la visibilidad de WashTrack en los motores de búsqueda y atraer a los usuarios adecuados, se han definido los siguientes SEO Tags y Meta Tags para las principales páginas de la experiencia, considerando tanto el sitio web estático que es la Landing Page como la Web Application. Para cada página se especifican los valores correspondientes a Title, Meta Description, Keywords y Author.</p>
-
-
-#### Landing Page
-<p></p>
-
-- <b>Title:</b> WashTrack - Gestión Inteligente y Monitoreo IoT para Lavanderías
-- <b>Meta Description:</b> WashTrack conecta pedidos, sensores IoT y pagos en una sola plataforma. Digitaliza tu lavandería tradicional con alertas automáticas, seguimiento en vivo y control total de la operación.
-- <b>Keywords:</b> lavandería digital, gestión de lavanderías, monitoreo IoT, seguimiento en tiempo real, software para lavanderías, recojo a domicilio, WashTrack.
-- <b>Author:</b> DevTech Team
-
-<p></p>
-
-#### Dashboard / Inicio
-<p></p>
-
-- <b>Title:</b> Dashboard de WashTrack - Resumen de Operaciones y Estado de Lavadoras
-- <b>Meta Description:</b> Accede al resumen general de tu actividad de lavado, estado operativo de las máquinas y métricas clave de tu negocio en tiempo real.
-- <b>Keywords:</b> dashboard de lavandería, panel hoy, estado de lavadoras, control operativo, WashTrack app.
-- <b>Author:</b> DevTech Team
-
-<p></p>
-
-#### Características
-<p></p>
-
-- <b>Title:</b> Características de WashTrack - Todo lo que tu Lavandería Necesita
-- <b>Meta Description:</b> Explora las soluciones de WashTrack: gestión integral de pedidos, seguimiento en vivo de prendas, monitoreo IoT predictivo y logística de pagos digitales.
-- <b>Keywords:</b> características de WashTrack, gestión de pedidos, seguimiento en vivo, monitoreo IoT, logística y pagos.
-- <b>Author:</b> DevTech Team
-
-<p></p>
-
-#### Seguimiento en Vivo
-<p></p>
-
-- <b>Title:</b> Seguimiento en Vivo de Pedidos en WashTrack - Estado Exacto de tus Prendas
-- <b>Meta Description:</b> Conoce el estado exacto de tu ropa sin necesidad de llamar. Visualiza las etapas desde la recepción y clasificación hasta el lavado, secado y entrega.
-- <b>Keywords:</b> seguimiento en vivo, estado de pedidos, lavado de ropa, etapas de lavado, notificaciones automáticas.
-- <b>Author:</b> DevTech Team
-
-<p></p>
-
-#### Sobre Nosotros
-<p></p>
-
-- <b>Title:</b> Sobre Nosotros - Conoce al Equipo de DevTech detrás de WashTrack
-- <b>Meta Description:</b> Somos DevTech, estudiantes de la UPC construyendo tecnología para negocios tradicionales en Latinoamérica. Descubre nuestra misión, visión y valores.
-- <b>Keywords:</b> DevTech, sobre nosotros, equipo UPC, tecnología para negocios tradicionales, transformación digital.
-- <b>Author:</b> DevTech Team
-
-<p></p>
-
-#### Planes y Contacto
-<p></p>
-
-- <b>Title:</b> Planes y Precios de WashTrack - Digitaliza tu Negocio de Lavandería
-- <b>Meta Description:</b> Elige el plan ideal para digitalizar tu lavandería o solicita más información completando nuestro formulario de atención para dueños de negocios y clientes.
-- <b>Keywords:</b> planes de WashTrack, precios, digitalizar lavandería, contacto, formulario de atención.
-- <b>Author:</b> DevTech Team
-
-<p></p>
-
-* 4.2.4. Searching Systems
-<p>El sistema de búsqueda diseñado para <b>WashTrack</b> tiene como objetivo facilitar a los usuarios y administradores la <b>localización eficiente de información</b> relacionada con la gestión de pedidos, el estado de las prendas, las alertas de las lavadoras inteligentes y los reportes operativos. Para ello, <b>se emplean campos de búsqueda y filtros</b> que permiten reducir la cantidad de información mostrada y encontrar rápidamente los datos relevantes según el perfil del usuario y la actividad que desea consultar o gestionar.</p>
-
-| <b>Nombre del Filtro</b> | <b>Descripción</b> |
-|---|---|
-| <b>Buscar pedidos por código</b> | Permite ingresar el código de un pedido para localizar rápidamente la información correspondiente y consultar su estado actual. |
-| <b>Filtrar pedidos por estado</b> | Permite organizar y visualizar los pedidos según su estado dentro del proceso de servicio, facilitando la identificación del progreso de cada pedido. |
-| <b>Filtrar pedidos por fecha</b> | Permite consultar pedidos correspondientes a un periodo determinado, facilitando la búsqueda de información específica dentro del historial del servicio. |
-| <b>Filtrar pedidos por prioridad</b> | Permite identificar los pedidos asociados al <b>plan VIP</b>, los cuales cuentan con prioridad en la atención y procesamiento del servicio. |
-| <b>Consultar seguimiento del pedido</b> | Permite acceder a la información relacionada con el progreso del pedido y visualizar las diferentes etapas del proceso de lavado de manera ordenada. |
-
-<p></p>
-
-
-
-* 4.2.5. Navigation Systems
-<p>El sistema de navegación de WashTrack ha sido diseñado para guiar de manera intuitiva y fluida a los usuarios, tanto clientes finales como dueños de lavanderías, a través de la Landing Page y la aplicación web. Para ello, se combinan diferentes técnicas de navegación y recorridos que permiten al usuario encontrar la información necesaria, interactuar con las funcionalidades y alcanzar sus objetivos con el menor esfuerzo posible.</p>
-
-#### Landing Page o Sitio Web 
-
-- <b>Estructura y Recorrido:</b><br/>
-  La navegación se plantea mediante un recorrido vertical de una sola página, complementado por una barra de navegación superior. El usuario comienza visualizando la propuesta de valor principal y continúa hacia las características del servicio, el funcionamiento del proceso, los beneficios según su perfil en la sección <b>“Para quién”</b>, los planes disponibles y finalmente el formulario de atención.
-<p></p>
-
-- <b>Acción del Usuario:</b><br/>
-  El visitante puede desplazarse libremente por las diferentes secciones y utilizar los botones de llamada a la acción (<i>Call to Action</i>), como <b>“Comenzar ahora”</b>, para acceder al registro o formulario de atención según su interés.
-<p></p>
-
-#### App Web - Panel Hoy o Dashboard 
-
-- <b>Estructura y Recorrido:</b><br/>
-  El Dashboard funciona como punto principal de acceso después del inicio de sesión. La información se organiza mediante accesos directos y tarjetas visuales que permiten acceder rápidamente a las diferentes funcionalidades de la aplicación.
-<p></p>
-
-- <b>Acción del Usuario:</b><br/>
-  El usuario consulta un resumen de su actividad y puede dirigirse hacia las secciones de pedidos, seguimiento, reportes u otras funcionalidades disponibles. En el caso del <b>plan VIP</b>, se contempla la identificación visual de los pedidos que requieren atención prioritaria.
-<p></p>
-
-#### Sección: Pedidos
-
-- <b>Estructura y Recorrido:</b><br/>
-  Presenta la información de los pedidos de manera organizada, permitiendo utilizar opciones de búsqueda y filtrado para localizar órdenes según diferentes criterios, como código, estado, fecha o prioridad.
-<p></p>
-
-- <b>Acción del Usuario:</b><br/>
-  El usuario selecciona un pedido para consultar su información y verificar el estado en el que se encuentra. Asimismo, los pedidos asociados al <b>plan VIP</b> pueden identificarse mediante un indicador de prioridad.
-<p></p>
-
-#### Sección: Seguimiento en Vivo
-
-- <b>Estructura y Recorrido:</b><br/>
-  La navegación se organiza mediante un flujo visual secuencial (<i>step-by-step</i>) que representa las seis etapas del proceso: <b>Recepción, Clasificación, Lavado, Secado/Planchado, Empaquetado y Listo</b>.
-<p></p>
-
-- <b>Acción del Usuario:</b><br/>
-  El cliente consulta el progreso de su pedido y reconoce visualmente la etapa actual en la que se encuentra su ropa. Para los usuarios con plan VIP, se contempla la identificación de la prioridad del servicio dentro del seguimiento.
-<p></p>
-
-#### Sección: Reportes
-
-- <b>Estructura y Recorrido:</b><br/>
-  La sección organiza la información histórica mediante filtros temporales, como día, mes o año, permitiendo acceder de manera ordenada a los registros y estadísticas disponibles.
-<p></p>
-
-- <b>Acción del Usuario:</b><br/>
-  El administrador puede consultar información histórica para analizar el funcionamiento de la lavandería, mientras que el cliente puede acceder a información relacionada con sus servicios realizados, de acuerdo con las funcionalidades definidas para cada perfil.
-<p></p>
-
-#### Sección: Configuración
-
-- <b>Estructura y Recorrido:</b><br/>
-  La sección permite organizar las opciones relacionadas con la cuenta, los datos del perfil, las preferencias y la gestión del plan contratado.
-<p></p>
-
-- <b>Acción del Usuario:</b><br/>
-  El usuario puede consultar o modificar la información disponible de su cuenta y gestionar las opciones relacionadas con su suscripción. Finalmente, puede utilizar la opción <b>“Cerrar Sesión”</b> para salir de manera segura de la plataforma.
-<p></p>
+#### 4.2.1. Organization Systems
+#### 4.2.2. Labeling Systems
+#### 4.2.3. SEO Tags and Meta Tags
+#### 4.2.4. Searching Systems
+#### 4.2.5. Navigation Systems
 
 ### 4.3. Landing Page UI Design
 
-* 4.3.1. Landing Page Wireframe
-* 4.3.2. Landing Page Mock-up
+#### 4.3.1. Landing Page Wireframe
+#### 4.3.2. Landing Page Mock-up
 
 ### 4.4. Web Applications UX/UI Design
 
-* 4.4.1. Web Applications Wireframes
-* 4.4.2. Web Applications Wireflow Diagrams
-* 4.4.3. Web Applications Mock-ups
-* 4.4.4. Web Applications User Flow Diagrams
+#### 4.4.1. Web Applications Wireframes
+#### 4.4.2. Web Applications Wireflow Diagrams
+#### 4.4.3. Web Applications Mock-ups
+#### 4.4.4. Web Applications User Flow Diagrams
 
 ### 4.5. Web Applications Prototyping
 
 ### 4.6. Domain-Driven Software Architecture
 
-* 4.6.1. Design-Level EventStorming
-* 4.6.2. Software Architecture Context Diagram
-* 4.6.3. Software Architecture Container Diagrams
-* 4.6.4. Software Architecture Components Diagrams
+#### 4.6.1. Design-Level EventStorming
+#### 4.6.2. Software Architecture Context Diagram
+#### 4.6.3. Software Architecture Container Diagrams
+#### 4.6.4. Software Architecture Components Diagrams
 
 ### 4.7. Software Object-Oriented Design
 
-* 4.7.1. Class Diagrams
+#### 4.7.1. Class Diagrams
 
 ### 4.8. Database Design
 
-* 4.8.1. Database Diagrams
+#### 4.8.1. Database Diagrams
 
 ---
 
@@ -865,34 +877,40 @@ La información se estructura mediante una jerarquía clara y una categorizació
 
 ### 5.1. Software Configuration Management
 
-* 5.1.1. Software Development Environment Configuration
-* 5.1.2. Source Code Management
-* 5.1.3. Source Code Style Guide & Conventions
-* 5.1.4. Software Deployment Configuration
+#### 5.1.1. Software Development Environment Configuration
+#### 5.1.2. Source Code Management
+#### 5.1.3. Source Code Style Guide & Conventions
+#### 5.1.4. Software Deployment Configuration
 
 ### 5.2. Landing Page, Services & Applications Implementation
 
 #### 5.2.1. Sprint 1
 
-* 5.2.1.1. Sprint Planning 1
-* 5.2.1.2. Aspect Leaders and Collaborators
-* 5.2.1.3. Sprint Backlog 1
-* 5.2.1.4. Development Evidence for Sprint Review
-* 5.2.1.5. Execution Evidence for Sprint Review
-* 5.2.1.6. Services Documentation Evidence for Sprint Review
-* 5.2.1.7. Software Deployment Evidence for Sprint Review
-* 5.2.1.8. Team Collaboration Insights during Sprint
+##### 5.2.1.1. Sprint Planning 1
+##### 5.2.1.2. Aspect Leaders and Collaborators
+##### 5.2.1.3. Sprint Backlog 1
+##### 5.2.1.4. Development Evidence for Sprint Review
+##### 5.2.1.5. Execution Evidence for Sprint Review
+##### 5.2.1.6. Services Documentation Evidence for Sprint Review
+##### 5.2.1.7. Software Deployment Evidence for Sprint Review
+##### 5.2.1.8. Team Collaboration Insights during Sprint
 
 ### 5.3. Validation Interviews
 
-* 5.3.1. Diseño de Entrevistas
-* 5.3.2. Registro de Entrevistas
-* 5.3.3. Evaluaciones según heurísticas
+#### 5.3.1. Diseño de Entrevistas
+#### 5.3.2. Registro de Entrevistas
+#### 5.3.3. Evaluaciones según heurísticas
 
 ### 5.4. Video About-the-Product
 
+---
 
-* [Bibliografía](#bibliografía)
-* [Anexos](#anexos)
+# Bibliografía
+
+---
+
+
+# Anexos
+
 
 ---

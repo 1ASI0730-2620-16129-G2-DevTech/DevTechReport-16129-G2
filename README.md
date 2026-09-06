@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/upc_logo.png" alt="UPC Logo" width="150"
+<img src="assets/Chapter1/upc_logo.png" alt="UPC Logo" width="150"
 "/>
 
 ## **Universidad Peruana de Ciencias Aplicadas**
@@ -483,9 +483,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     La solución adoptará un modelo de suscripción mensual dirigido principalmente a las lavanderías, permitiendo que los negocios seleccionen el plan que mejor se adapte a su tamaño, cantidad de pedidos y necesidades de gestión. Se plantean inicialmente tres alternativas, un plan gratuito, orientado a lavanderías que deseen comenzar a digitalizar sus operaciones y conocer la plataforma, un plan básico de S/ 49 mensuales, dirigido a pequeños negocios que requieren mayores capacidades de gestión y seguimiento, y un plan avanzado de S/ 99 mensuales, orientado a lavanderías con un mayor volumen de operaciones y que necesitan acceder a funcionalidades más completas. Además, el acceso de los clientes de las lavanderías no tendría un costo adicional, ya que su participación forma parte del servicio contratado por el negocio. Por lo tanto, esta estructura permitirá establecer una estrategia de monetización escalonada, facilitando la captación de nuevos usuarios mediante el plan gratuito y generando ingresos recurrentes a través de los planes de pago.
 </p>
 
-**1.2.2. Lean UX Process**
+#### 1.2.2. Lean UX Process
 
-**1.2.2.1. Lean UX Problem Statements**
+##### 1.2.2.1. Lean UX Problem Statements
 
 **Problem statement 1:**
 <p align="justify">
@@ -541,7 +541,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     Por tanto, nos preguntamos: ¿Cómo podríamos mejorar la comunicación y el seguimiento de los pedidos entre las lavanderías y sus clientes para brindar información más oportuna y confiable, medido a través de la reducción de consultas sobre el estado de los pedidos y el incremento en la satisfacción de los usuarios?
 </p>
 
-**1.2.2.2. Lean UX Assumptions**
+##### 1.2.2.2. Lean UX Assumptions
 
 **1.2.2.2.1. ¿Quién es el usuario?**
 <p align="justify">
@@ -628,7 +628,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     </ul>
 </p>
 
-**1.2.2.3. Lean UX Hypothesis Statements**
+##### 1.2.2.3. Lean UX Hypothesis Statements
 
 **Hypothesis Statement 1**
 <p align="justify">
@@ -650,10 +650,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     Creemos que ofrecer un modelo de suscripción escalonado, compuesto por un plan gratuito y planes de pago con funcionalidades adicionales, facilitará la adopción de la plataforma por parte de pequeñas y medianas lavanderías, permitiéndoles probar la solución antes de asumir un costo mensual. Sabremos que esto es cierto cuando al menos el 40% de las lavanderías que comiencen utilizando el plan gratuito permanezcan activas después del periodo inicial de prueba y un porcentaje de ellas migre posteriormente hacia alguno de los planes de pago.
 </p>
 
-**1.2.2.4. Lean UX Canvas**
+##### 1.2.2.4. Lean UX Canvas
 
 <div>
-  <img src="assets/Lean_UX_Canvas.png" alt="Foto Lean UX Canvas (V2)" width="1000"/>
+  <img src="assets/Chapter1/Lean_UX_Canvas.png" alt="Foto Lean UX Canvas (V2)" width="1000"/>
 </div>
 
 ### 1.3. Segmentos objetivo

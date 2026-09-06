@@ -576,6 +576,21 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   En esta sección se realiza la identificación y descripción de los principales competidores directos de Easy Wash, considerando aquellas soluciones digitales orientadas a la gestión y administración de lavanderías.
 </p>
 
+ - **Clean Cloud**
+
+<p align="justify">
+  CleanCloud es una plataforma integral de gestión dirigida a lavanderías, tintorerías y otros negocios relacionados con el cuidado de prendas. Su propuesta centraliza diferentes procesos operativos y comerciales en un mismo sistema, incluyendo punto de venta, gestión de pedidos, seguimiento de prendas, pagos, recojo y entrega a domicilio, notificaciones, reportes, marketing y administración de múltiples establecimientos. También incorpora herramientas como códigos de barras para el seguimiento de prendas y funcionalidades para gestionar los procesos de lavado y doblado.
+</p>
+
+- **Tunki Wash**
+<p align="justify">
+  Tunki Wash es un sistema web desarrollado específicamente para la gestión de lavanderías y tintorerías en Perú, orientado principalmente a optimizar la administración y control de las operaciones del negocio. Entre sus principales funcionalidades se encuentran el registro de ventas de servicios, órdenes de compra, facturación electrónica, gestión de caja, reportes e indicadores de gestión, promociones, programas de fidelización mediante puntos, convenios con empresas e instituciones y administración de múltiples sucursales y usuarios. Además, funciona en la nube y puede utilizarse desde diferentes dispositivos con conexión a internet.
+</p>
+
+- **Laundry Soft**
+<p align="justify">
+  LaundrySoft es un software peruano especializado en la administración y control de lavanderías, con una propuesta orientada a facilitar la gestión de las operaciones del negocio. Sus principales funcionalidades incluyen gestión de pedidos y clientes, control de inventario, facturación electrónica, reportes de ventas, ingresos y entregas, monitoreo de las operaciones en tiempo real y acceso multiplataforma. Asimismo, ofrece una solución adaptable a las necesidades de cada lavandería, junto con soporte, capacitación y actualizaciones periódicas.
+</p>
 
 #### 2.1.1. Análisis competitivo
 #### 2.1.2. Estrategias y tácticas frente a competidores

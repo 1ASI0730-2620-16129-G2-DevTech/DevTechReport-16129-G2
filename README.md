@@ -63,7 +63,7 @@
 | :--- |:-----------|:------------------------------|:---------------------------------------------------------|
 | 1.0.0 | 28/08/2026 | Gabriel Ramirez y Luis Tufiño | Creó el repositorio junto a los branch de cada capítulo. |
 | 1.1.0 | 02/09/2026 | Adriana Ramos | Agregó el Capítulo I |
-
+| 1.1.0 | 04/09/2026 | Ariana Perez | Agregó su parte en student Outcome y desarrollo avance del capítulo IV junto a la Landing Page |
 ---
 
 ## Project Report Collaboration Insights

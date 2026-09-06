@@ -353,6 +353,12 @@
 
 ### 1.3. Segmentos objetivo
 
+**1.3.1. Dueños de lavanderías independientes**
+<p align="justify">
+    Propietarios de pequeñas y medianas lavanderías que gestionan de manera directa las operaciones de sus establecimientos, incluyendo el registro de clientes, recepción de pedidos, control de prendas, actualización de estados, coordinación de entregas y seguimiento de los servicios realizados. Este segmento presenta una necesidad de mejorar la organización y centralización de sus procesos, especialmente cuando emplea métodos manuales o herramientas no integradas para administrar la información. WashTrack está orientada a facilitar la gestión operativa, reducir posibles errores y proporcionar un mayor control sobre los pedidos y servicios ofrecidos.
+</p>
+
+
 ---
 
 ## Capítulo II: Requirements Elicitation & Analysis

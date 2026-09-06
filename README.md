@@ -737,10 +737,10 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
   <table align="center" style="border: none;">
   <tr>
     <td align="center" style="border: none;">
-      <img src="assets/responsive1.PNG" alt="Responsive 1" width="400"/>
+      <img src="assets/Responsive1.PNG" alt="Responsive 1" width="400"/>
     </td>
     <td align="center" style="border: none;">
-      <img src="assets/responsive2.PNG" alt="Responsive 2" width="300"/>
+      <img src="assets/Responsive2.PNG" alt="Responsive 2" width="300"/>
     </td>
   </tr>
 </table>
@@ -1031,6 +1031,10 @@ La información se estructura mediante una jerarquía clara y una categorizació
 <p></p>
 
 ### 4.3. Landing Page UI Design
+
+<p align="justify">
+El diseño de la interfaz de usuario (UI) de la Landing Page de <b>WashTrack</b> busca presentar de forma clara y atractiva la propuesta de valor de la plataforma. La interfaz organiza visualmente sus principales funcionalidades, beneficios y características, destacando la gestión de pedidos, el seguimiento en tiempo real, el monitoreo IoT y la automatización de procesos. Esta estructura sirve como base para la elaboración del wireframe y posteriormente del mock-up de la Landing Page.
+</p>
 
 #### 4.3.1. Landing Page Wireframe
 #### 4.3.2. Landing Page Mock-up

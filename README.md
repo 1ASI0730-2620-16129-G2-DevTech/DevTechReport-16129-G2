@@ -323,7 +323,28 @@
     </ul>
 </p>
 
-  * 1.2.2.3. Lean UX Hypothesis Statements
+**1.2.2.3. Lean UX Hypothesis Statements**
+
+**Hypothesis Statement 1**
+<p align="justify">
+    Creemos que centralizar la gestión de clientes, pedidos y prendas en una plataforma digital intuitiva permitirá a los propietarios y trabajadores de las lavanderías reducir los errores asociados al registro y seguimiento manual de las órdenes y mejorar el control sobre sus operaciones. Sabremos que esto es cierto cuando observemos una reducción de al menos 30% en las incidencias relacionadas con pedidos, prendas y fechas de entrega, así como una disminución en el tiempo promedio destinado al registro y consulta de información.
+</p>
+
+**Hypothesis Statement 2**
+<p align="justify">
+    Creemos que permitir a los clientes consultar digitalmente el estado de sus pedidos y prendas mejorará la transparencia del servicio y disminuirá la necesidad de comunicarse directamente con la lavandería para realizar consultas. Sabremos que esto es cierto cuando al menos el 70% de los clientes utilice la función de seguimiento y se registre una reducción de al menos 30% en las consultas relacionadas con el estado de los pedidos.
+</p>
+
+**Hypothesis Statement 3**
+<p align="justify">
+    Creemos que incorporar pagos digitales y servicios de recojo y entrega a domicilio permitirá a los clientes gestionar sus servicios de lavandería de manera más cómoda y reducir el tiempo y esfuerzo asociado a estas actividades. Sabremos que esto es cierto cuando al menos el 60% de los usuarios activos utilice alguna de estas funcionalidades y los clientes reporten una mejora de al menos 30% en su percepción de comodidad y facilidad de uso.
+</p>
+
+**Hypothesis Statement 4**
+<p align="justify">
+    Creemos que ofrecer un modelo de suscripción escalonado, compuesto por un plan gratuito y planes de pago con funcionalidades adicionales, facilitará la adopción de la plataforma por parte de pequeñas y medianas lavanderías, permitiéndoles probar la solución antes de asumir un costo mensual. Sabremos que esto es cierto cuando al menos el 40% de las lavanderías que comiencen utilizando el plan gratuito permanezcan activas después del periodo inicial de prueba y un porcentaje de ellas migre posteriormente hacia alguno de los planes de pago.
+</p>
+
   * 1.2.2.4. Lean UX Canvas
 
 ### 1.3. Segmentos objetivo

@@ -61,7 +61,9 @@
 
 | Versión | Fecha      | Autor                         | Descripcion                                              |
 | :--- |:-----------|:------------------------------|:---------------------------------------------------------|
-| 1.0.0 | 28/09/2026 | Gabriel Ramirez y Luis Tufiño | Creó el repositorio junto a los branch de cada capítulo. |
+| 1.0.0 | 28/08/2026 | Gabriel Ramirez y Luis Tufiño | Creó el repositorio junto a los branch de cada capítulo. |
+| 1.1.0 | 02/09/2026 | Adriana Ramos | Agregó el Capítulo I |
+
 ---
 
 ## Project Report Collaboration Insights

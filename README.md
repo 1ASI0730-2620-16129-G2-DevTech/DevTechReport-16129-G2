@@ -321,7 +321,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <table>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/ArianaPerez.png" alt="Foto de" width="500"/>
+      <img src="assets/Chapter1/MemberProfile/ArianaPerez.png" alt="Foto de" width="500"/>
     </td>
     <td><b>Nombre:</b> Perez Vasquez Ariana Valeria</td>
   </tr>
@@ -383,7 +383,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   </tr>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/foto_adriana.jpg" alt="Foto de Adriana Ramos" width="500"/>
+      <img src="assets/Chapter1/MemberProfile/foto_adriana_profile.jpeg" alt="Foto de Adriana Ramos" width="500"/>
     </td>
     <td><b>Nombre:</b> Adriana Nicole Ramos Fuentes Rivera</td>
   </tr>

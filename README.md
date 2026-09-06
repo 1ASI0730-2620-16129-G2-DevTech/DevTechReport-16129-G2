@@ -345,7 +345,11 @@
     Creemos que ofrecer un modelo de suscripción escalonado, compuesto por un plan gratuito y planes de pago con funcionalidades adicionales, facilitará la adopción de la plataforma por parte de pequeñas y medianas lavanderías, permitiéndoles probar la solución antes de asumir un costo mensual. Sabremos que esto es cierto cuando al menos el 40% de las lavanderías que comiencen utilizando el plan gratuito permanezcan activas después del periodo inicial de prueba y un porcentaje de ellas migre posteriormente hacia alguno de los planes de pago.
 </p>
 
-  * 1.2.2.4. Lean UX Canvas
+**1.2.2.4. Lean UX Canvas**
+
+<div>
+  <img src="assets/Lean_UX_Canvas.png" alt="Foto Lean UX Canvas (V2)" width="1000"/>
+</div>
 
 ### 1.3. Segmentos objetivo
 

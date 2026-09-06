@@ -63,7 +63,7 @@
 | :--- |:-----------|:------------------------------|:---------------------------------------------------------|
 | 1.0.0 | 28/08/2026 | Gabriel Ramirez y Luis Tufiño | Creó el repositorio junto a los branch de cada capítulo. |
 | 1.1.0 | 02/09/2026 | Adriana Ramos | Agregó el Capítulo I |
-
+| 1.1.0 | 04/09/2026 | Ariana Perez | Agregó su parte en student Outcome y desarrollo avance del capítulo IV junto a la Landing Page |
 ---
 
 ## Project Report Collaboration Insights
@@ -199,9 +199,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td>
         <b>Pérez Vásquez, Ariana Valeria</b><br>
         <em><b>AV1</b></em><br>
-        Poner avances av1<br>
+        Elaboré el Capítulo IV del proyecto WashTrack, desarrollando las Style Guidelines, donde se establecieron los lineamientos generales y web para mantener una interfaz consistente, clara, accesible y fácil de utilizar.<br>
         <em><b>AV2</b></em><br>
-        Poner avances av2<br>
+        Desarrollé la Information Architecture, la Landing Page UI, elaborando el wireframe y mock-up de la página principal de WashTrack, considerando la distribución de los elementos, jerarquía visual, navegación y presentación de la propuesta de valor del producto.<br>
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
@@ -242,9 +242,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td>
         <b>Pérez Vásquez, Ariana Valeria</b><br>
         <em><b>AV1</b></em><br>
-        Poner avances av1<br>
+        Participé en la planificación y organización de las actividades del equipo, coordinando las tareas asignadas para el desarrollo del proyecto WashTrack y contribuyendo al cumplimiento de los objetivos establecidos para el avance<br>
         <em><b>AV2</b></em><br>
-        Poner avances av2<br>
+        Desarrollé las secciones asignadas del Capítulo IV, relacionadas con Style Guidelines, Information Architecture y Landing Page UI Design, coordinando con los integrantes del equipo para mantener la coherencia del proyecto y cumplir con las actividades planificadas<br>
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
@@ -609,10 +609,232 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ### 4.1. Style Guidelines
 
+WashTrack es una plataforma web enfocada en la gestión y seguimiento digital de servicios de lavandería, conectando a clientes con lavanderías para facilitar la programación, procesamiento y monitoreo de sus pedidos. Para brindar una experiencia moderna, clara e intuitiva, se ha optado por un diseño visual limpio, minimalista y funcional. Predominan colores como azul, celeste, blanco y tonos oscuros, que transmiten confianza, limpieza, tecnología y rapidez. El diseño prioriza la simplicidad, organización y accesibilidad, permitiendo que tanto los clientes como los encargados de las lavanderías puedan navegar y gestionar las órdenes de manera sencilla. Además, se emplean elementos visuales diferenciados para representar el estado de cada pedido, facilitando el seguimiento del proceso desde la recepción de las prendas hasta su entrega.
+
 #### 4.1.1. General Style Guidelines
+<p>Las guías generales de estilo de WashTrack establecen los principios visuales y comunicacionales que orientan el diseño de la plataforma, buscando mantener una experiencia consistente, clara y fácil de utilizar. Las decisiones se basan en principios de diseño como consistencia, jerarquía visual, legibilidad, simplicidad y accesibilidad, aplicados a los diferentes componentes de la interfaz. Asimismo, se consideran aspectos de branding, tipografía, colores, espaciado y tono de comunicación, con el propósito de transmitir una identidad relacionada con la tecnología, limpieza, confianza y eficiencia que caracteriza al servicio de lavandería digital.
+
+Para mantener una identidad visual coherente, WashTrack utiliza una combinación de <b>tonos azules, celestes, blancos y grises, acompañados de una tipografía diferenciada para títulos y contenido general.</b> La distribución de los elementos utiliza espacios y márgenes que permiten organizar la información sin sobrecargar la interfaz, mientras que botones, tarjetas, indicadores y formularios mantienen características visuales consistentes. En cuanto al lenguaje, la comunicación de WashTrack <b>adopta un tono serio, profesional, cercano y entusiasta</b>, evitando expresiones excesivamente formales o técnicas para facilitar la comprensión tanto de los clientes como de los encargados de las lavanderías.
+
+A continuación, se detallan las <b>principales decisiones de estilo </b>consideradas para la construcción de la interfaz de WashTrack.</p>
+<ul>
+  <li>
+    <b>Branding:</b><br/>
+    <p>El logotipo de WashTrack representa su enfoque en la digitalización, el monitoreo y la rapidez de los servicios de lavandería mediante un diseño moderno, claro y simbólico. En el centro, se muestra una lavadora estilizada acompañada de una pila de prendas dobladas de manera ordenada, reflejando el <b>cuidado textil y la gestión eficiente de los pedidos</b>. Al lado, se integra la silueta de una prenda en su interior de la lavadora, el cual <b>simboliza el seguimiento en tiempo real y la logística de recojo y entrega.</b> Asimismo, la línea de ruta discontinua refuerza visualmente la idea de conectividad, desplazamiento y seguimiento del servicio.</p>
+    <p>Todo este conjunto visual utiliza una paleta de colores basada en tonos <b >azules oscuros y celestes vibrantes, complementados con blanco y destellos brillantes</b>. Los tonos azules transmiten confianza, tecnología y seguridad, mientras que los celestes y blancos se relacionan con la limpieza, frescura y claridad, conceptos asociados directamente al servicio de lavandería. Los destellos aportan una sensación de dinamismo y rapidez, reforzando la propuesta de valor de WashTrack.</p>
+    <p>Finalmente, el nombre WashTrack se presenta mediante una <b>tipografía amigable y dinámica</b>, buscando facilitar su reconocimiento y transmitir cercanía e innovación. El eslogan <b>“TU ROPA, LISTA EN MENOS TIEMPO”</b> complementa la identidad de la marca al comunicar de manera directa su principal beneficio que es ofrecer un servicio eficiente, rápido y fácil de gestionar, logrando una identidad que permite asociar fácilmente a WashTrack con los conceptos de <b>lavandería, tecnología, seguimiento y rapidez.</b></p>
+  </li>
+</ul>
+
+<div align="center">
+  <img src="assets/Logo WachTrack.png" alt="Logotipo de WashTrack" width="200"/>
+</div>
+
+<ul>
+  <li>
+    <b>Typography (Tipografía):
+    </b><br/>
+    <p>WashTrack utiliza una jerarquía tipográfica clara y consistente para <b>garantizar una adecuada legibilidad</b> tanto en interfaces de escritorio como en dispositivos móviles. Se emplea <b>Poppins como tipografía principal</b> para los elementos generales de la interfaz, como menús, botones, etiquetas, párrafos y textos secundarios. Su diseño limpio y moderno <b>permite transmitir una identidad amigable, tecnológica y fácil de utilizar.</b></p>
+    <p>Para los títulos principales, encabezados y elementos visuales destacados, se utiliza <b>Playfair Display como tipografía complementaria.</b> Su estilo elegante con serifas genera un contraste visual con la simplicidad de Poppins, permitiendo establecer una mayor jerarquía y otorgando personalidad a la identidad de WashTrack.</p>
+    <p>La combinación de <b>Poppins y Playfair Display permite equilibrar funcionalidad e identidad visual.</b> Poppins prioriza la claridad y facilidad de lectura, mientras que Playfair Display aporta elegancia y énfasis a los contenidos importantes. Esta jerarquía facilita que el usuario identifique rápidamente la información relevante sin sobrecargar visualmente la interfaz.</p>
+    <b>Escala y Métricas:</b>
+    <p>Se establece una escala tipográfica basada en un tamaño de referencia de 16px, utilizando una escala de 1.25. El interlineado o line-height se establece en 1.2 para los títulos y elementos destacados, mientras que los textos de lectura pueden utilizar un interlineado mayor para mejorar la legibilidad y proporcionar un adecuado respiro visual.</p>
+    <b>Weights:</b>
+<ul>
+    <li>Delgado (Thin)</li>
+    <li>Extra Fino (Extra Light)</li>
+    <li>Fino (Light)</li>
+    <li>Normal (Regular)</li>
+    <li>Mediano (Medium)</li>
+    <li>Semi Negrita (Semi Bold)</li>
+    <li>Negrita (Bold)</li>
+    <li>Extra Negrita (Extra Bold)</li>
+    <li>Grueso (Black)</li>
+  
+</ul>
+<b>Nomenclatura:</b>
+<div align="center">
+    <img src="assets/nomenclatura.png" alt="Nomenclatura" width="300"/>
+</div>
+  </li>
+</ul>
+
+<ul>
+  <li>
+    <b>Colors o Paleta de colores:</b><br/>
+    <p>
+      La paleta de colores de WashTrack está diseñada para transmitir limpieza,
+      confianza, modernidad y eficiencia tecnológica. Los colores se organizan
+      según su función dentro de la interfaz, manteniendo una identidad visual
+      coherente y una experiencia agradable para el usuario.
+    </p>
+     <ul>
+      <li>
+        <b>Color Primario:</b> Azul Oscuro / Marino
+        (<code>#123B7A</code> / <code>#0B192C</code>):<br/>
+        Se utiliza en la barra de navegación superior, textos principales,
+        encabezados y botones de llamada a la acción (CTA). Transmite
+        confianza, solidez y profesionalismo.
+      </li>
+      <li>
+        <b>Color Secundario:</b> Celeste Brillante / Azul Interactivo
+        (<code>#087FEA</code> / <code>#22B8F0</code>):<br/>
+        Se emplea en elementos interactivos, enlaces activos, bordes de enfoque
+        (<i>focus</i>) y gráficos estadísticos destacados. Aporta dinamismo,
+        frescura y modernidad a la interfaz.
+      </li>
+      <li>
+        <b>Fondos y Superficies:</b> Celeste Suave / Blanco
+        (<code>#EAF8FF</code> / <code>#FFFFFF</code>):<br/>
+        Se aplican en tarjetas, contenedores, secciones principales
+        (<i>hero sections</i>) y fondos generales. Estos colores aportan
+        amplitud visual, limpieza y frescura, conceptos relacionados con el
+        servicio de lavandería.
+      </li>
+      <li>
+        <b>Colores de Soporte y Estados:</b>
+        <ul>
+          <li>
+            <b>Verde Éxito (<code>#1A8A5F</code>):</b>
+            Se utiliza para indicadores como "En línea", pedidos completados
+            y métricas positivas.
+          </li>
+          <li>
+            <b>Rojo Alerta (<code>#C2452F</code>):</b>
+            Se utiliza para notificaciones críticas y situaciones que requieren
+            atención inmediata.
+          </li>
+          <li>
+            <b>Naranja Alerta (<code>#D97706</code>):</b>
+            Se emplea para avisos de mantenimiento de las lavadoras y alertas
+            IoT que requieren revisión por parte del administrador.
+          </li>
+        </ul>
+      </li>
+    </ul>
+     <p>
+      En conjunto, esta paleta permite diferenciar visualmente las funciones y
+      estados de la plataforma, manteniendo una identidad asociada con la
+      <b>limpieza, tecnología, confianza y eficiencia</b>.
+    </p>
+  </li>
+</ul>
+<p>
+<div align="center">
+    <img src="assets/PaletaColores.png" alt="Paleta de Colores" width="400"/>
+</div>
+  </p>    
+
 #### 4.1.2. Web Style Guidelines
+<p>La versión web de WashTrack ha sido diseñada bajo un enfoque Responsive-First y modular, buscando garantizar una experiencia consistente y accesible para administradores de lavanderías y usuarios finales, independientemente del dispositivo utilizado. Los estándares visuales y de interacción definidos para la interfaz son los siguientes:</p>
+
+<ul>
+  <li>
+    <b>Diseño Responsivo (Responsive Layout):
+    </b><br/>
+    <p>La interfaz utiliza una estructura flexible que permite adaptar la distribución y el tamaño de los componentes según el dispositivo. Se consideran diferentes puntos de quiebre que son los breakpoints para dispositivos móviles, tabletas y pantallas de escritorio, asegurando que los contenidos, elementos visuales y controles táctiles mantengan una correcta distribución y legibilidad.</p>
+  </li>
+  <table align="center" style="border: none;">
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="assets/responsive1.PNG" alt="Responsive 1" width="400"/>
+    </td>
+    <td align="center" style="border: none;">
+      <img src="assets/responsive2.PNG" alt="Responsive 2" width="300"/>
+    </td>
+  </tr>
+</table>
+<li>
+    <b>Sistema de Navegación (Navbar & Menús):
+    </b><br/>
+    <p>La barra de navegación superior (Navbar) permite acceder de forma rápida a las principales funcionalidades de la plataforma, como Inicio, Monitoreo de Lavadoras, Reportes, Alertas IoT y Soporte. En dispositivos móviles, la navegación se adapta mediante un menú tipo hamburguesa, reduciendo la cantidad de elementos visibles y facilitando su interacción.</p>
+  </li>
+  <div align="center">
+    <img src="assets/SN1.png" alt="SN1" width="500"/>
+</div>
+<br>
+<div align="center">
+    <img src="assets/SN2.PNG" alt="SN2" width="500"/>
+</div>
+
+  <li>
+    <b>Sistema de Espaciado y Distribución:
+    </b><br/>
+    <p>Los contenidos se organizan mediante una <b>estructura modular basada en columnas, márgenes y espacios consistentes entre componentes.</b> Se mantiene una separación visual adecuada entre títulos, textos, botones, tarjetas y secciones para evitar la saturación de información y facilitar la lectura.</p>
+  </li>
+  <li>
+    <b>Componentes y Botones:
+    </b><br/>
+    <p>Los botones y elementos interactivos mantienen una apariencia consistente con la identidad visual de WashTrack. Los botones principales utilizan el color primario de la marca, mientras que los elementos secundarios emplean colores complementarios. Se consideran diferentes estados de interacción, como estado normal, hover, focus y disabled, proporcionando una respuesta visual clara ante las acciones del usuario.</p>
+  </li>
+  <table align="center" style="border: none;">
+
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="assets/bot1.PNG" alt="Bot 1" width="200"/>
+    </td>
+    <td align="center" style="border: none;">
+      <img src="assets/bot2.PNG" alt="Bot 2" width="200"/>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="assets/bot3.PNG" alt="Bot 3" width="200"/>
+    </td>
+    <td align="center" style="border: none;">
+      <img src="assets/bot4.PNG" alt="Bot 4" width="200"/>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="assets/bot5.PNG" alt="Bot 5" width="200"/>
+    </td>
+    <td align="center" style="border: none;">
+      <img src="assets/bot6.PNG" alt="Bot 6" width="200"/>
+    </td>
+  </tr>
+</table>
+<li>
+    <b>Paneles Modulares y Visualización de Datos:
+    </b><br/>
+    <p>La información se presenta mediante tarjetas con bordes redondeados y fondos claros sobre superficies en tonos celestes suaves. Este sistema permite organizar métricas, estados de las máquinas, alertas y gráficos de manera independiente, facilitando la lectura y el monitoreo de la información.</p>
+  </li>
+  <div align="center">
+    <img src="assets/Panel.PNG" alt="Panel" width="300"/>
+</div>
+<li>
+    <b>Estados, Alertas y Retroalimentación:
+    </b><br/>
+    <p>El sistema utiliza colores diferenciados para comunicar estados y acciones. El verde representa operaciones exitosas o máquinas en línea, mientras que el rojo y naranja se utilizan para alertas, errores o situaciones que requieren atención. De esta manera, la información crítica puede identificarse rápidamente.</p>
+  </li>
+   <div align="center">
+    <img src="assets/coloresTipo.PNG" alt="Panel" width="300"/>
+</div>
+ <li>
+    <b>Transiciones y Animaciones:
+    </b><br/>
+    <p>Las transiciones se utilizan de manera moderada para acompañar cambios de estado, apertura de modales, despliegue de menús y acciones interactivas. <b>Se emplean animaciones suaves para evitar cambios abruptos y mantener una experiencia fluida </b>sin distraer al usuario.</p>
+  </li>
+ <li>
+    <b>Consistencia Visual:
+    </b><br/>
+    <p>Los componentes mantienen patrones visuales consistentes en toda la plataforma, utilizando la misma paleta de colores, tipografías, bordes, botones, iconografía y estilos de interacción definidos previamente en el sistema de diseño. Esto permite que el usuario reconozca y comprenda los elementos de la interfaz con mayor facilidad.</p>
+  </li>
+  <div align="center">
+    <img src="assets/conVis1.PNG" alt="Panel" width="500"/>
+</div>
+</ul>
+<p>Todas ellas se representan mediante las diferentes vistas de la interfaz web de WashTrack, incluyendo la versión de escritorio, adaptación para dispositivos móviles, sistema de navegación, tarjetas informativas, botones, estados y paneles de monitoreo.</p>
+
+
 
 ### 4.2. Information Architecture
+
+La arquitectura de la información de **WashTrack** busca ofrecer una experiencia fluida e intuitiva para los diferentes perfiles de usuarios de la plataforma, como clientes y administradores de lavanderías. La organización y el etiquetado de los contenidos se diseñaron para guiar al usuario de manera eficiente desde el acceso inicial y registro hasta el monitoreo de las lavadoras, la consulta del historial de ciclos de lavado y el acceso a las funcionalidades relacionadas con el sistema IoT.
+
+La información se estructura mediante una jerarquía clara y una categorización modular, permitiendo que cada usuario encuentre rápidamente las funcionalidades correspondientes a su perfil. Asimismo, la navegación <b>sigue una secuencia lógica que facilita el acceso a las principales secciones del sistema</b>, tales como la barra de navegación superior, la sección de características, que presenta el seguimiento en tiempo real de las seis etapas del proceso de lavado, la sección orientada a los diferentes perfiles de usuario ("Para quién"), la presentación institucional ("Sobre nosotros") y el formulario de atención ubicado al final de la página. Esta organización <b>permite reducir la carga cognitiva y mejorar la experiencia de uso.</b>
 
 #### 4.2.1. Organization Systems
 #### 4.2.2. Labeling Systems

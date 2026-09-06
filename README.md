@@ -532,6 +532,61 @@
       <td style="border: 1px solid black; padding: 8px;">EP-008: Reportes y dashboard</td>
     </tr>
   </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-015</td>
+      <td style="border: 1px solid black; padding: 8px;">Administrar servicios y precios</td>
+      <td style="border: 1px solid black; padding: 8px;">Como propietario, quiero configurar los servicios y precios de mi lavandería para mantener actualizada la oferta.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. Se pueden crear, editar, activar y desactivar servicios.<br>2. Cada servicio tiene un precio y tiempo estimado.<br>3. Los cambios se reflejan en los nuevos pedidos.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-009: Configuración de la lavandería</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-016</td>
+      <td style="border: 1px solid black; padding: 8px;">Gestionar usuarios y roles</td>
+      <td style="border: 1px solid black; padding: 8px;">Como propietario, quiero administrar los accesos del personal para controlar qué acciones puede realizar cada usuario.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El propietario puede crear y desactivar usuarios.<br>2. Puede asignar roles de propietario, administrador o trabajador.<br>3. El sistema restringe las funciones según los permisos asignados.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-010: Administración de usuarios</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-017</td>
+      <td style="border: 1px solid black; padding: 8px;">Confirmar entrega del pedido</td>
+      <td style="border: 1px solid black; padding: 8px;">Como encargado, quiero registrar la entrega de un pedido para cerrar correctamente el proceso.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. Se registra la fecha, hora y responsable de la entrega.<br>2. Se solicita confirmación del cliente o encargado.<br>3. El pedido cambia al estado entregado y permanece en el historial.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-018</td>
+      <td style="border: 1px solid black; padding: 8px;">Calificar el servicio</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero calificar el servicio recibido para expresar mi nivel de satisfacción y ayudar a la lavandería a mejorar.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El cliente puede calificar de 1 a 5.<br>2. Puede agregar un comentario opcional.<br>3. La evaluación queda asociada al pedido y aparece en los reportes.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-011: Satisfacción del cliente</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-019</td>
+      <td style="border: 1px solid black; padding: 8px;">Gestionar suscripción</td>
+      <td style="border: 1px solid black; padding: 8px;">Como propietario, quiero seleccionar un plan de suscripción para utilizar las funcionalidades disponibles según las necesidades de mi lavandería.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. Se muestran los planes, precios, límites y beneficios.<br>2. El propietario puede cambiar de plan.<br>3. El sistema informa el estado de la suscripción.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-012: Suscripciones</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-020</td>
+      <td style="border: 1px solid black; padding: 8px;">Exportar reportes</td>
+      <td style="border: 1px solid black; padding: 8px;">Como propietario, quiero exportar reportes de pedidos y pagos para analizarlos o conservarlos como respaldo.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. Se puede filtrar la información por periodo.<br>2. El sistema permite exportar el reporte en PDF o Excel.<br>3. El reporte incluye totales y detalle de las operaciones.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-008: Reportes y dashboard</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 3.2. Impact Mapping
 

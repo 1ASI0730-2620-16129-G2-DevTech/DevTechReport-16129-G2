@@ -518,7 +518,7 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
 </ul>
 <p>
 <div align="center">
-    <img src="assets/PaletaColores.PNG" alt="Paleta de Colores" width="400"/>
+    <img src="assets/PaletaColores.png" alt="Paleta de Colores" width="400"/>
 </div>
   </p>    
 
@@ -547,7 +547,7 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
     <p>La barra de navegación superior (Navbar) permite acceder de forma rápida a las principales funcionalidades de la plataforma, como Inicio, Monitoreo de Lavadoras, Reportes, Alertas IoT y Soporte. En dispositivos móviles, la navegación se adapta mediante un menú tipo hamburguesa, reduciendo la cantidad de elementos visibles y facilitando su interacción.</p>
   </li>
   <div align="center">
-    <img src="assets/SN1.PNG" alt="SN1" width="500"/>
+    <img src="assets/SN1.png" alt="SN1" width="500"/>
 </div>
 <br>
 <div align="center">
@@ -601,11 +601,64 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
   <div align="center">
     <img src="assets/Panel.PNG" alt="Panel" width="300"/>
 </div>
+<li>
+    <b>Estados, Alertas y Retroalimentación:
+    </b><br/>
+    <p>El sistema utiliza colores diferenciados para comunicar estados y acciones. El verde representa operaciones exitosas o máquinas en línea, mientras que el rojo y naranja se utilizan para alertas, errores o situaciones que requieren atención. De esta manera, la información crítica puede identificarse rápidamente.</p>
+  </li>
+   <div align="center">
+    <img src="assets/coloresTipo.PNG" alt="Panel" width="300"/>
+</div>
+ <li>
+    <b>Transiciones y Animaciones:
+    </b><br/>
+    <p>Las transiciones se utilizan de manera moderada para acompañar cambios de estado, apertura de modales, despliegue de menús y acciones interactivas. <b>Se emplean animaciones suaves para evitar cambios abruptos y mantener una experiencia fluida </b>sin distraer al usuario.</p>
+  </li>
+ <li>
+    <b>Consistencia Visual:
+    </b><br/>
+    <p>Los componentes mantienen patrones visuales consistentes en toda la plataforma, utilizando la misma paleta de colores, tipografías, bordes, botones, iconografía y estilos de interacción definidos previamente en el sistema de diseño. Esto permite que el usuario reconozca y comprenda los elementos de la interfaz con mayor facilidad.</p>
+  </li>
+  <div align="center">
+    <img src="assets/conVis1.PNG" alt="Panel" width="500"/>
+</div>
+</ul>
+<p>Todas ellas se representan mediante las diferentes vistas de la interfaz web de WashTrack, incluyendo la versión de escritorio, adaptación para dispositivos móviles, sistema de navegación, tarjetas informativas, botones, estados y paneles de monitoreo.</p>
+
 
 
 ### 4.2. Information Architecture
 
+La arquitectura de la información de **WashTrack** busca ofrecer una experiencia fluida e intuitiva para los diferentes perfiles de usuarios de la plataforma, como clientes y administradores de lavanderías. La organización y el etiquetado de los contenidos se diseñaron para guiar al usuario de manera eficiente desde el acceso inicial y registro hasta el monitoreo de las lavadoras, la consulta del historial de ciclos de lavado y el acceso a las funcionalidades relacionadas con el sistema IoT.
+
+La información se estructura mediante una jerarquía clara y una categorización modular, permitiendo que cada usuario encuentre rápidamente las funcionalidades correspondientes a su perfil. Asimismo, la navegación <b>sigue una secuencia lógica que facilita el acceso a las principales secciones del sistema</b>, tales como la barra de navegación superior, la sección de características, que presenta el seguimiento en tiempo real de las seis etapas del proceso de lavado, la sección orientada a los diferentes perfiles de usuario ("Para quién"), la presentación institucional ("Sobre nosotros") y el formulario de atención ubicado al final de la página. Esta organización <b>permite reducir la carga cognitiva y mejorar la experiencia de uso.</b>
+
 * 4.2.1. Organization Systems
+<p>Los sistemas de organización en WashTrack establecen la estructura lógica mediante la cual se clasifican y presentan los contenidos y funcionalidades de la plataforma, permitiendo que tanto los clientes como los administradores naveguen de forma intuitiva, localicen rápidamente el estado de sus pedidos de lavandería y accedan a las herramientas de gestión sin fricciones. Aqui presentamos su sistema de organización de nuestra aplicación WashTrack:</p>
+
+- <b>Organización jerárquica (Visual Hierarchy):</b><br/>
+  Se aplica principalmente en la página principal y en la presentación de los contenidos informativos. La información se organiza de acuerdo con diferentes niveles de importancia, utilizando títulos, subtítulos, tamaños de texto, colores, espacios y botones para dirigir la atención del usuario hacia los elementos principales. Por ejemplo, en la página de inicio se prioriza la propuesta de valor de WashTrack y posteriormente se presentan sus características y demás contenidos.
+<p></p>
+
+- <b>Organización secuencial (Step-by-Step):</b><br/>
+  Se utiliza en la representación del proceso de seguimiento del servicio de lavado. Las seis etapas del proceso se presentan siguiendo un orden determinado, permitiendo que el usuario comprenda progresivamente el estado de su ropa y conozca en qué etapa se encuentra. Este sistema resulta especialmente útil para representar procesos que requieren una secuencia lógica.
+<p></p>
+
+- <b>Organización matricial:</b><br/>
+  Se utiliza para relacionar las funcionalidades de WashTrack con los diferentes perfiles de usuarios. La información puede organizarse considerando tanto el tipo de usuario como las necesidades o funcionalidades disponibles para cada perfil, facilitando la identificación de los servicios que corresponden a cada audiencia.
+<p></p>
+
+- <b>Categorización por tópicos:</b><br/>
+  Se utiliza para agrupar la información de acuerdo con su temática. De esta manera, los contenidos se distribuyen en secciones como características de la plataforma, seguimiento del proceso, información sobre WashTrack y atención al usuario, evitando mezclar contenidos de diferente naturaleza.
+<p></p>
+
+- <b>Categorización según audiencia:</b><br/>
+  Se aplica principalmente en la sección <b>“Para quién”</b>, donde la información se presenta de acuerdo con los diferentes perfiles a los que está dirigida la solución. Esta organización permite que cada grupo de usuarios identifique rápidamente los beneficios y funcionalidades relevantes para sus necesidades.
+<p></p>
+
+- <b>Categorización cronológica:</b><br/>
+  Se aplica principalmente al seguimiento del proceso de lavado y al historial de ciclos. La información relacionada con las etapas del servicio se presenta siguiendo un orden temporal, permitiendo comprender la evolución del proceso desde su inicio hasta su finalización.
+
 * 4.2.2. Labeling Systems
 * 4.2.3. SEO Tags and Meta Tags
 * 4.2.4. Searching Systems

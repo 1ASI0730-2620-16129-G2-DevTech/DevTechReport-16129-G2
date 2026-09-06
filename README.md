@@ -100,6 +100,10 @@
     La misión de DevTech es desarrollar soluciones tecnológicas accesibles, intuitivas y eficientes que permitan a los negocios tradicionales digitalizar sus procesos, optimizar su gestión y mejorar la experiencia de sus clientes.
 </p
 
+<p align="justify">
+    Nuestra visión es consolidarnos como una startup innovadora en el desarrollo de soluciones digitales para pequeñas y medianas empresas en Latinoamérica, contribuyendo a su transformación digital mediante plataformas que simplifiquen sus operaciones y generen valor tanto para los negocios como para sus clientes.
+</p>
+
 * 1.1.2. Perfiles de integrantes del equipo
 
 ### 1.2. Solution Profile

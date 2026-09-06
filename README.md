@@ -572,6 +572,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ## Capítulo II: Requirements Elicitation & Analysis
 
 ### 2.1. Competidores
+<p align="justify">
+  En esta sección se realiza la identificación y descripción de los principales competidores directos de Easy Wash, considerando aquellas soluciones digitales orientadas a la gestión y administración de lavanderías.
+</p>
+
 
 #### 2.1.1. Análisis competitivo
 #### 2.1.2. Estrategias y tácticas frente a competidores

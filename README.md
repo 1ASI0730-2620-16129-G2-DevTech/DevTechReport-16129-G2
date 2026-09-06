@@ -659,6 +659,9 @@ La información se estructura mediante una jerarquía clara y una categorizació
 - <b>Categorización cronológica:</b><br/>
   Se aplica principalmente al seguimiento del proceso de lavado y al historial de ciclos. La información relacionada con las etapas del servicio se presenta siguiendo un orden temporal, permitiendo comprender la evolución del proceso desde su inicio hasta su finalización.
 
+<p></p>
+
+
 * 4.2.2. Labeling Systems
 <p>Los sistemas de etiquetado en WashTrack han sido diseñados bajo principios de simplicidad, concisión y claridad para representar los conjuntos de información y sus asociaciones sin generar confusión en los visitantes y usuarios. Las etiquetas emplean el mínimo número de palabras posibles, utilizando una terminología intuitiva y estandarizada que facilita la navegación tanto en la versión pública como en el panel operativo del sistema.</p>
 
@@ -683,11 +686,149 @@ La información se estructura mediante una jerarquía clara y una categorizació
 | **Reportes** | Presenta el historial de operaciones, métricas de rendimiento y estadísticas de la lavandería. |
 | **Configuración** | Permite gestionar los ajustes de cuenta, preferencias del usuario y parámetros operativos del sistema. |
 | **Cerrar Sesión** | Permite salir de forma segura de la plataforma para proteger los datos del negocio y del usuario. |
-
+<p></p>
 
 * 4.2.3. SEO Tags and Meta Tags
+<p>Para mejorar la visibilidad de WashTrack en los motores de búsqueda y atraer a los usuarios adecuados, se han definido los siguientes SEO Tags y Meta Tags para las principales páginas de la experiencia, considerando tanto el sitio web estático que es la Landing Page como la Web Application. Para cada página se especifican los valores correspondientes a Title, Meta Description, Keywords y Author.</p>
+
+
+#### Landing Page
+<p></p>
+
+- <b>Title:</b> WashTrack - Gestión Inteligente y Monitoreo IoT para Lavanderías
+- <b>Meta Description:</b> WashTrack conecta pedidos, sensores IoT y pagos en una sola plataforma. Digitaliza tu lavandería tradicional con alertas automáticas, seguimiento en vivo y control total de la operación.
+- <b>Keywords:</b> lavandería digital, gestión de lavanderías, monitoreo IoT, seguimiento en tiempo real, software para lavanderías, recojo a domicilio, WashTrack.
+- <b>Author:</b> DevTech Team
+
+<p></p>
+
+#### Dashboard / Inicio
+<p></p>
+
+- <b>Title:</b> Dashboard de WashTrack - Resumen de Operaciones y Estado de Lavadoras
+- <b>Meta Description:</b> Accede al resumen general de tu actividad de lavado, estado operativo de las máquinas y métricas clave de tu negocio en tiempo real.
+- <b>Keywords:</b> dashboard de lavandería, panel hoy, estado de lavadoras, control operativo, WashTrack app.
+- <b>Author:</b> DevTech Team
+
+<p></p>
+
+#### Características
+<p></p>
+
+- <b>Title:</b> Características de WashTrack - Todo lo que tu Lavandería Necesita
+- <b>Meta Description:</b> Explora las soluciones de WashTrack: gestión integral de pedidos, seguimiento en vivo de prendas, monitoreo IoT predictivo y logística de pagos digitales.
+- <b>Keywords:</b> características de WashTrack, gestión de pedidos, seguimiento en vivo, monitoreo IoT, logística y pagos.
+- <b>Author:</b> DevTech Team
+
+<p></p>
+
+#### Seguimiento en Vivo
+<p></p>
+
+- <b>Title:</b> Seguimiento en Vivo de Pedidos en WashTrack - Estado Exacto de tus Prendas
+- <b>Meta Description:</b> Conoce el estado exacto de tu ropa sin necesidad de llamar. Visualiza las etapas desde la recepción y clasificación hasta el lavado, secado y entrega.
+- <b>Keywords:</b> seguimiento en vivo, estado de pedidos, lavado de ropa, etapas de lavado, notificaciones automáticas.
+- <b>Author:</b> DevTech Team
+
+<p></p>
+
+#### Sobre Nosotros
+<p></p>
+
+- <b>Title:</b> Sobre Nosotros - Conoce al Equipo de DevTech detrás de WashTrack
+- <b>Meta Description:</b> Somos DevTech, estudiantes de la UPC construyendo tecnología para negocios tradicionales en Latinoamérica. Descubre nuestra misión, visión y valores.
+- <b>Keywords:</b> DevTech, sobre nosotros, equipo UPC, tecnología para negocios tradicionales, transformación digital.
+- <b>Author:</b> DevTech Team
+
+<p></p>
+
+#### Planes y Contacto
+<p></p>
+
+- <b>Title:</b> Planes y Precios de WashTrack - Digitaliza tu Negocio de Lavandería
+- <b>Meta Description:</b> Elige el plan ideal para digitalizar tu lavandería o solicita más información completando nuestro formulario de atención para dueños de negocios y clientes.
+- <b>Keywords:</b> planes de WashTrack, precios, digitalizar lavandería, contacto, formulario de atención.
+- <b>Author:</b> DevTech Team
+
+<p></p>
+
 * 4.2.4. Searching Systems
+<p>El sistema de búsqueda diseñado para <b>WashTrack</b> tiene como objetivo facilitar a los usuarios y administradores la <b>localización eficiente de información</b> relacionada con la gestión de pedidos, el estado de las prendas, las alertas de las lavadoras inteligentes y los reportes operativos. Para ello, <b>se emplean campos de búsqueda y filtros</b> que permiten reducir la cantidad de información mostrada y encontrar rápidamente los datos relevantes según el perfil del usuario y la actividad que desea consultar o gestionar.</p>
+
+| <b>Nombre del Filtro</b> | <b>Descripción</b> |
+|---|---|
+| <b>Buscar pedidos por código</b> | Permite ingresar el código de un pedido para localizar rápidamente la información correspondiente y consultar su estado actual. |
+| <b>Filtrar pedidos por estado</b> | Permite organizar y visualizar los pedidos según su estado dentro del proceso de servicio, facilitando la identificación del progreso de cada pedido. |
+| <b>Filtrar pedidos por fecha</b> | Permite consultar pedidos correspondientes a un periodo determinado, facilitando la búsqueda de información específica dentro del historial del servicio. |
+| <b>Filtrar pedidos por prioridad</b> | Permite identificar los pedidos asociados al <b>plan VIP</b>, los cuales cuentan con prioridad en la atención y procesamiento del servicio. |
+| <b>Consultar seguimiento del pedido</b> | Permite acceder a la información relacionada con el progreso del pedido y visualizar las diferentes etapas del proceso de lavado de manera ordenada. |
+
+<p></p>
+
+
+
 * 4.2.5. Navigation Systems
+<p>El sistema de navegación de WashTrack ha sido diseñado para guiar de manera intuitiva y fluida a los usuarios, tanto clientes finales como dueños de lavanderías, a través de la Landing Page y la aplicación web. Para ello, se combinan diferentes técnicas de navegación y recorridos que permiten al usuario encontrar la información necesaria, interactuar con las funcionalidades y alcanzar sus objetivos con el menor esfuerzo posible.</p>
+
+#### Landing Page o Sitio Web 
+
+- <b>Estructura y Recorrido:</b><br/>
+  La navegación se plantea mediante un recorrido vertical de una sola página, complementado por una barra de navegación superior. El usuario comienza visualizando la propuesta de valor principal y continúa hacia las características del servicio, el funcionamiento del proceso, los beneficios según su perfil en la sección <b>“Para quién”</b>, los planes disponibles y finalmente el formulario de atención.
+<p></p>
+
+- <b>Acción del Usuario:</b><br/>
+  El visitante puede desplazarse libremente por las diferentes secciones y utilizar los botones de llamada a la acción (<i>Call to Action</i>), como <b>“Comenzar ahora”</b>, para acceder al registro o formulario de atención según su interés.
+<p></p>
+
+#### App Web - Panel Hoy o Dashboard 
+
+- <b>Estructura y Recorrido:</b><br/>
+  El Dashboard funciona como punto principal de acceso después del inicio de sesión. La información se organiza mediante accesos directos y tarjetas visuales que permiten acceder rápidamente a las diferentes funcionalidades de la aplicación.
+<p></p>
+
+- <b>Acción del Usuario:</b><br/>
+  El usuario consulta un resumen de su actividad y puede dirigirse hacia las secciones de pedidos, seguimiento, reportes u otras funcionalidades disponibles. En el caso del <b>plan VIP</b>, se contempla la identificación visual de los pedidos que requieren atención prioritaria.
+<p></p>
+
+#### Sección: Pedidos
+
+- <b>Estructura y Recorrido:</b><br/>
+  Presenta la información de los pedidos de manera organizada, permitiendo utilizar opciones de búsqueda y filtrado para localizar órdenes según diferentes criterios, como código, estado, fecha o prioridad.
+<p></p>
+
+- <b>Acción del Usuario:</b><br/>
+  El usuario selecciona un pedido para consultar su información y verificar el estado en el que se encuentra. Asimismo, los pedidos asociados al <b>plan VIP</b> pueden identificarse mediante un indicador de prioridad.
+<p></p>
+
+#### Sección: Seguimiento en Vivo
+
+- <b>Estructura y Recorrido:</b><br/>
+  La navegación se organiza mediante un flujo visual secuencial (<i>step-by-step</i>) que representa las seis etapas del proceso: <b>Recepción, Clasificación, Lavado, Secado/Planchado, Empaquetado y Listo</b>.
+<p></p>
+
+- <b>Acción del Usuario:</b><br/>
+  El cliente consulta el progreso de su pedido y reconoce visualmente la etapa actual en la que se encuentra su ropa. Para los usuarios con plan VIP, se contempla la identificación de la prioridad del servicio dentro del seguimiento.
+<p></p>
+
+#### Sección: Reportes
+
+- <b>Estructura y Recorrido:</b><br/>
+  La sección organiza la información histórica mediante filtros temporales, como día, mes o año, permitiendo acceder de manera ordenada a los registros y estadísticas disponibles.
+<p></p>
+
+- <b>Acción del Usuario:</b><br/>
+  El administrador puede consultar información histórica para analizar el funcionamiento de la lavandería, mientras que el cliente puede acceder a información relacionada con sus servicios realizados, de acuerdo con las funcionalidades definidas para cada perfil.
+<p></p>
+
+#### Sección: Configuración
+
+- <b>Estructura y Recorrido:</b><br/>
+  La sección permite organizar las opciones relacionadas con la cuenta, los datos del perfil, las preferencias y la gestión del plan contratado.
+<p></p>
+
+- <b>Acción del Usuario:</b><br/>
+  El usuario puede consultar o modificar la información disponible de su cuenta y gestionar las opciones relacionadas con su suscripción. Finalmente, puede utilizar la opción <b>“Cerrar Sesión”</b> para salir de manera segura de la plataforma.
+<p></p>
 
 ### 4.3. Landing Page UI Design
 

@@ -104,6 +104,17 @@
     Nuestra visión es consolidarnos como una startup innovadora en el desarrollo de soluciones digitales para pequeñas y medianas empresas en Latinoamérica, contribuyendo a su transformación digital mediante plataformas que simplifiquen sus operaciones y generen valor tanto para los negocios como para sus clientes.
 </p>
 
+<p align="justify">
+    Nuestros valores son:
+    <ul>
+        <li>Innovación: Desarrollar soluciones tecnológicas que respondan a las necesidades actuales de los negocios y sus clientes.</li>
+        <li>Compromiso: Crear herramientas enfocadas en resolver problemas reales y generar valor para nuestros usuarios.</li>
+        <li>Accesibilidad: Diseñar soluciones fáciles de utilizar y accesibles para pequeñas y medianas empresas.</li>
+        <li>Transparencia: Facilitar información clara y actualizada sobre los procesos y pedidos de los clientes.</li>
+    </ul>
+
+</p>
+
 * 1.1.2. Perfiles de integrantes del equipo
 
 ### 1.2. Solution Profile

@@ -660,6 +660,31 @@ La información se estructura mediante una jerarquía clara y una categorizació
   Se aplica principalmente al seguimiento del proceso de lavado y al historial de ciclos. La información relacionada con las etapas del servicio se presenta siguiendo un orden temporal, permitiendo comprender la evolución del proceso desde su inicio hasta su finalización.
 
 * 4.2.2. Labeling Systems
+<p>Los sistemas de etiquetado en WashTrack han sido diseñados bajo principios de simplicidad, concisión y claridad para representar los conjuntos de información y sus asociaciones sin generar confusión en los visitantes y usuarios. Las etiquetas emplean el mínimo número de palabras posibles, utilizando una terminología intuitiva y estandarizada que facilita la navegación tanto en la versión pública como en el panel operativo del sistema.</p>
+
+<b>*Landing Page*</b>
+| **Etiqueta** | **Descripción** |
+|---|---|
+| **Inicio** | Presenta la propuesta de valor principal de WashTrack mediante una interfaz visual y llamadas a la acción directas. |
+| **Características** | Agrupa de forma modular las funcionalidades clave del servicio, como pedidos, seguimiento, IoT y pagos. |
+| **Sobre nosotros** | Muestra la identidad corporativa de DevTech, su misión y sus valores orientados a la transformación digital. |
+| **Para quién** | Segmenta los beneficios y soluciones dirigidas tanto a dueños de lavanderías como a clientes finales. |
+| **Planes** | Detalla las opciones de servicio e integración tecnológica disponibles para los negocios. |
+| **Comenzar ahora** | Botón de llamada a la acción (CTA) principal para el registro o acceso directo al formulario de atención. |
+
+<b>*App Web*</b>
+
+| **Etiqueta** | **Descripción** |
+|---|---|
+| **Panel Hoy / Dashboard** | Presenta una vista general del estado operativo actual, métricas clave y alertas de lavadoras en tiempo real. |
+| **Monitoreo IoT** | Permite visualizar el estado, rendimiento y alertas predictivas de las lavadoras conectadas. |
+| **Pedidos** | Permite gestionar órdenes, clientes, estados de entrega y filtrar información según las etapas del proceso de lavado. |
+| **Seguimiento en Vivo** | Muestra de manera secuencial las seis etapas del proceso de lavado para facilitar el control del usuario. |
+| **Reportes** | Presenta el historial de operaciones, métricas de rendimiento y estadísticas de la lavandería. |
+| **Configuración** | Permite gestionar los ajustes de cuenta, preferencias del usuario y parámetros operativos del sistema. |
+| **Cerrar Sesión** | Permite salir de forma segura de la plataforma para proteger los datos del negocio y del usuario. |
+
+
 * 4.2.3. SEO Tags and Meta Tags
 * 4.2.4. Searching Systems
 * 4.2.5. Navigation Systems

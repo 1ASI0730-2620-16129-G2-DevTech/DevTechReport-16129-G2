@@ -318,6 +318,110 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
+<table>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/ArianaPerez.jpeg" alt="Foto de Ariana" width="800"/>
+    </td>
+    <td><b>Nombre:</b> Perez Vasquez Ariana Valeria</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> U20241D338</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      Tengo un fuerte interés en el <b>desarrollo de soluciones tecnológicas que permitan optimizar procesos y mejorar la experiencia de los usuarios</b>. Me considero una persona <b>responsable, organizada y comprometida </b>con las actividades que realizo. Además, me interesa el diseño de interfaces y la organización de la información, buscando que las soluciones desarrolladas sean claras, funcionales y fáciles de utilizar.
+      <br/><br/>
+      Dentro del equipo, participo en el <b>desarrollo y diseño de la propuesta de WashTrack</b>, aportando principalmente en la elaboración de las Style Guidelines, la arquitectura de información y el diseño de la Landing Page. Mi objetivo es contribuir a que la plataforma presente una estructura visual coherente, una navegación sencilla y una experiencia adecuada tanto para los negocios de lavandería como para sus clientes. Asimismo, valoro el trabajo colaborativo y la comunicación con los demás integrantes para lograr una propuesta integrada y cumplir con los objetivos establecidos del proyecto.
+    </td>
+  </tr>
+  <tr>
+  </tr>
+
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/Gabriel_Ramirez.jpg" alt="Foto de" width="500"/>
+    </td>
+    <td><b>Nombre:</b> Gabriel Ramirez Gutierrez</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> U202416053</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+            Mi nombre es <b>Gabriel Ramirez Gutierrez</b> y estudio Ingeniería de Software en la UPC. Me interesa transformar necesidades reales en soluciones tecnológicas prácticas y seguir fortaleciendo mis habilidades mediante nuevos retos de aprendizaje. Tengo experiencia trabajando con C++, C# y Python, así como con bases de datos relacionales y no relacionales, como SQL y MongoDB.
+      <br/><br/>
+      Dentro del equipo cumplo con la funcion del diseño de funcionalidades de la aplicacion, ademas del desarrollo de esta, tomando en cuenta mis conocimientos en Domain Driven Design y diseño Web.
+    </td>
+  </tr>
+<tr>
+
+</tr>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/foto_nombre.png" alt="Foto de" width="500"/>
+    </td>
+    <td><b>Nombre:</b> Sebastián Leonardo Sayago Vidal</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> U202422642</td>
+  </tr>
+  <tr>
+    <td>
+    <div align="Justify">
+      <b>Descripción:</b><br/>
+       Mi nombre es <b>Sebastián Leonardo Sayago Vidal</b>, estudio Ingeniería de Software en la UPC, estando presente en el 5to ciclo de la carrera.  Me considero una persona responsable al cumplir con mi trabajo asignado en el plazo respectivo. Busco que lo que tenga que hacer, se haga de la forma correcta y tenga una buena presentación y priorizar la calidad de mis resultados. 
+      <br/><br/>
+      Dentro del equipo, participo principalmente en el desarrollo técnico y la documentación del proyecto, apoyando en el diseño de la arquitectura de software, el modelado del sistema y la elaboración de los diagramas correspondientes. También colaboro en la organización y revisión de la documentación técnica, procurando que las propuestas mantengan coherencia con los requerimientos y objetivos de WashTrack.
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+  </tr>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/foto_adriana.jpg" alt="Foto de Adriana Ramos" width="500"/>
+    </td>
+    <td><b>Nombre:</b> Adriana Nicole Ramos Fuentes Rivera</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> u202018427</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      Soy <b>Adriana Nicole Ramos Fuentes Rivera</b>, estudio la carrera de Ingeniería de Software en la UPC, actualmente estoy en el 5to ciclo. Me gusta aprender nuevas tecnologias y conocimientos complementarios que me permitan desarrollar soluciones a problematicas dentro de un contexto real. Cuento con experiencia en lenguajes de programación como C++ y Python, además de conocimientos en base de datos relacional y no relacional como SQL y MongoDB.
+      <br/><br/>
+      Dentro del equipo, me enfoco en el desarrollo de backend, aplicando principios de Domain Driven Design para mantener una lógica de negocio clara. Me considero una persona organizada y empática.
+    </td>
+  </tr>
+
+  <tr>
+  </tr>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/foto_nombre.png" alt="Foto de " width="500"/>
+    </td>
+    <td><b>Nombre:</b> NOMBRE COMPLETO </td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> PONER TU CODIGO DE U </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+    Breve descripcion
+      <br/><br/>
+    Dentro del equipo... (que funcion cumples)  
+    </td>
+  </tr>
+
+</table>
+
+
 
 
 

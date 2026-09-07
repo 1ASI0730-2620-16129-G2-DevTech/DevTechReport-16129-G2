@@ -1292,8 +1292,280 @@ El diseño de la interfaz de usuario (UI) de la Landing Page de <b>WashTrack</b>
 #### 4.6.4. Software Architecture Components Diagrams
 
 ### 4.7. Software Object-Oriented Design
+El diseño orientado a objetos representa los principales elementos del dominio mediante clases, atributos, operaciones, enumeraciones e interfaces.
 
 #### 4.7.1. Class Diagrams
+### 4.7.1.1. Order Management
+
+```mermaid
+classDiagram
+    class Customer {
+        -UUID customerId
+        -String fullName
+        -String email
+        -String phone
+        +createOrder()
+        +getOrders()
+    }
+
+    class Order {
+        -UUID orderId
+        -UUID customerId
+        -UUID laundryId
+        -DateTime createdAt
+        -OrderStatus status
+        -DeliveryMethod deliveryMethod
+        -String specialCareInstructions
+        +create()
+        +updateStatus(status)
+        +addGarment(item)
+        +setDeliveryMethod(method)
+    }
+
+    class GarmentItem {
+        -UUID garmentItemId
+        -String type
+        -int quantity
+        -String careInstructions
+        +updateCareInstructions(instructions)
+    }
+
+    class OrderStatus {
+        <<enumeration>>
+        Created
+        Received
+        Classified
+        Washing
+        Drying
+        Packaging
+        Ready
+        Completed
+        Cancelled
+    }
+
+    class DeliveryMethod {
+        <<enumeration>>
+        Pickup
+        Branch
+    }
+
+    Customer "1" --> "0..*" Order : places
+    Order "1" *-- "1..*" GarmentItem : contains
+    Order --> OrderStatus
+    Order --> DeliveryMethod
+```
+
+### 4.7.1.2. Subscription & Payment
+
+```mermaid
+classDiagram
+    class SubscriptionPlan {
+        -UUID planId
+        -String name
+        -decimal price
+        -int credits
+        -int durationDays
+        +activate()
+    }
+
+    class Subscription {
+        -UUID subscriptionId
+        -UUID customerId
+        -UUID planId
+        -Date startDate
+        -Date expirationDate
+        -SubscriptionStatus status
+        -int credits
+        +isActive()
+        +consumeCredit()
+        +applyBenefit()
+    }
+
+    class Payment {
+        -UUID paymentId
+        -UUID customerId
+        -UUID orderId
+        -decimal amount
+        -PaymentStatus status
+        -String transactionId
+        -DateTime processedAt
+        +process()
+        +approve()
+        +reject()
+    }
+
+    class PaymentGateway {
+        <<interface>>
+        +processPayment(amount) PaymentResult
+    }
+
+    class PaymentResult {
+        -String transactionId
+        -bool approved
+        -String message
+    }
+
+    class SubscriptionStatus {
+        <<enumeration>>
+        Pending
+        Active
+        Expired
+        Cancelled
+    }
+
+    class PaymentStatus {
+        <<enumeration>>
+        Pending
+        Approved
+        Rejected
+        Refunded
+    }
+
+    SubscriptionPlan "1" --> "0..*" Subscription : defines
+    Subscription "1" --> "1" SubscriptionPlan : uses
+    Subscription "1" --> "1" Customer : belongs to
+    Payment "1" --> "1" Customer : paid by
+    Payment "0..*" --> "0..1" Order : pays for
+    Payment ..> PaymentGateway : uses
+    PaymentGateway --> PaymentResult
+```
+
+### 4.7.1.3. Laundry Operations
+
+```mermaid
+classDiagram
+    class Laundry {
+        -UUID laundryId
+        -String businessName
+        -String address
+        +getAvailableResources()
+    }
+
+    class LaundryOrder {
+        -UUID laundryOrderId
+        -UUID orderId
+        -ProcessingStage currentStage
+        -Priority priority
+        -DateTime expectedCompletionTime
+        +receive()
+        +classify()
+        +assignCycle(cycle)
+        +assignResource(resource)
+        +advanceStage()
+        +setPriority(priority)
+    }
+
+    class WashingCycle {
+        -UUID washingCycleId
+        -String name
+        -int durationMinutes
+        -String compatibleGarmentType
+        +isCompatible(item)
+    }
+
+    class LaundryResource {
+        -UUID resourceId
+        -String name
+        -ResourceStatus status
+        -int capacity
+        +isAvailable()
+        +assign()
+        +release()
+    }
+
+    class ProcessingStage {
+        <<enumeration>>
+        Reception
+        Classification
+        Washing
+        DryingIroning
+        Packaging
+        Ready
+    }
+
+    class ResourceStatus {
+        <<enumeration>>
+        Available
+        Busy
+        Maintenance
+    }
+
+    class Priority {
+        <<enumeration>>
+        Normal
+        VIP
+    }
+
+    Laundry "1" --> "0..*" LaundryOrder : processes
+    Laundry "1" --> "0..*" LaundryResource : owns
+    LaundryOrder "1" --> "0..1" WashingCycle : uses
+    LaundryOrder "1" --> "0..1" LaundryResource : assigned to
+    LaundryOrder --> ProcessingStage
+    LaundryOrder --> Priority
+    LaundryResource --> ResourceStatus
+```
+
+### 4.7.1.4. Tracking & Notifications
+
+```mermaid
+classDiagram
+    class Tracking {
+        -UUID trackingId
+        -UUID orderId
+        -OrderStatus currentStatus
+        +addStatus(status)
+        +getTimeline()
+    }
+
+    class StatusHistory {
+        -UUID statusHistoryId
+        -OrderStatus status
+        -DateTime occurredAt
+        +register()
+    }
+
+    class Notification {
+        -UUID notificationId
+        -UUID recipientId
+        -UUID orderId
+        -String message
+        -NotificationChannel channel
+        -NotificationStatus status
+        -DateTime createdAt
+        +send()
+        +markAsSent()
+        +markAsFailed()
+    }
+
+    class NotificationSender {
+        <<interface>>
+        +send(notification) bool
+    }
+
+    class EmailNotificationSender {
+        +send(notification) bool
+    }
+
+    class NotificationChannel {
+        <<enumeration>>
+        Web
+        Email
+    }
+
+    class NotificationStatus {
+        <<enumeration>>
+        Pending
+        Sent
+        Failed
+    }
+
+    Tracking "1" *-- "1..*" StatusHistory : contains
+    Tracking "1" --> "1" Order : tracks
+    Notification --> NotificationSender : uses
+    NotificationSender <|.. EmailNotificationSender
+    Notification --> NotificationChannel
+    Notification --> NotificationStatus
+```
 
 ### 4.8. Database Design
 

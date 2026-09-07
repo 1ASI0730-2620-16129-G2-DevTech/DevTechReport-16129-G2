@@ -572,9 +572,197 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ## Capítulo II: Requirements Elicitation & Analysis
 
 ### 2.1. Competidores
+<p align="justify">
+  En esta sección se realiza la identificación y descripción de los principales competidores directos de Easy Wash, considerando aquellas soluciones digitales orientadas a la gestión y administración de lavanderías.
+</p>
+
+ - **Clean Cloud**
+
+<p align="justify">
+  CleanCloud es una plataforma integral de gestión dirigida a lavanderías, tintorerías y otros negocios relacionados con el cuidado de prendas. Su propuesta centraliza diferentes procesos operativos y comerciales en un mismo sistema, incluyendo punto de venta, gestión de pedidos, seguimiento de prendas, pagos, recojo y entrega a domicilio, notificaciones, reportes, marketing y administración de múltiples establecimientos. También incorpora herramientas como códigos de barras para el seguimiento de prendas y funcionalidades para gestionar los procesos de lavado y doblado.
+</p>
+
+- **Tunki Wash**
+<p align="justify">
+  Tunki Wash es un sistema web desarrollado específicamente para la gestión de lavanderías y tintorerías en Perú, orientado principalmente a optimizar la administración y control de las operaciones del negocio. Entre sus principales funcionalidades se encuentran el registro de ventas de servicios, órdenes de compra, facturación electrónica, gestión de caja, reportes e indicadores de gestión, promociones, programas de fidelización mediante puntos, convenios con empresas e instituciones y administración de múltiples sucursales y usuarios. Además, funciona en la nube y puede utilizarse desde diferentes dispositivos con conexión a internet.
+</p>
+
+- **Laundry Soft**
+<p align="justify">
+  LaundrySoft es un software peruano especializado en la administración y control de lavanderías, con una propuesta orientada a facilitar la gestión de las operaciones del negocio. Sus principales funcionalidades incluyen gestión de pedidos y clientes, control de inventario, facturación electrónica, reportes de ventas, ingresos y entregas, monitoreo de las operaciones en tiempo real y acceso multiplataforma. Asimismo, ofrece una solución adaptable a las necesidades de cada lavandería, junto con soporte, capacitación y actualizaciones periódicas.
+</p>
 
 #### 2.1.1. Análisis competitivo
+
+<table>
+  <tr>
+    <th colspan="7" valign="top"><b>Competitive Analysis Landscape</b></th>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2">¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="5">Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis.</td>
+  </tr>
+  <tr>
+    <td colspan="5">El análisis competitivo es fundamental para entender el entorno en el que DebtGo opera, identificar las fortalezas y debilidades de los competidores, y descubrir oportunidades y amenazas en el mercado. Este análisis ayuda a posicionar mejor nuestra startup en relación con los competidores y a definir estrategias que maximicen nuestra ventaja competitiva.</td>
+  </tr>
+  <tr>
+    <td colspan="3">Nombre y Logo</td>
+    <td colspan="1" valign="top" style="font-weight: bold;">
+        Wash Track
+        <br>
+        <div style="text-align: center; margin-top: 10px;">
+                <img src="assets/Logo WachTrack.png" alt="Logo WashTrack" style="width: 65;"></img>
+        </div>
+    <td colspan="1" valign="top" style="font-weight: bold;">
+    Clean Cloud
+    <div style="text-align: center;">
+                <img src="assets/Logo_CleanCloud.png" alt="Logo Mint" style="width: 40;"></img>
+        </div>
+    </td>
+    <td colspan="1" valign="top" style="font-weight: bold;">
+      Tunki Wash
+      <div style="text-align: center; margin-top: 20px;">
+      </td>
+    <td colspan="1" valign="top" style="font-weight: bold;" >
+      Laundry Soft
+      <div style="text-align: center; margin-top: 10px;">
+                <img src="assets/Logo_LaundrySoft.jpg" alt="Logo Laundry Soft" style="width: 65;"></img>
+            </div>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="2"><p>Perfil</p></td>
+    <td colspan="2">Overview</td>
+    <td colspan="1" valign="top">Plataforma digital orientada a la gestión de lavanderías y a mejorar la experiencia de sus clientes mediante la gestión de pedidos, prendas, estados, pagos y servicios de recojo y entrega.</td>
+    <td colspan="1" valign="top">Plataforma integral para lavanderías y tintorerías que centraliza operaciones, punto de venta, seguimiento de prendas, pagos, marketing, reportes y recojo y entrega.</td>
+    <td colspan="1" valign="top">Sistema web especializado en la gestión de lavanderías, orientado al control de ventas, compras, facturación, caja, promociones, convenios y reportes.</td>
+    <td colspan="1" valign="top">Software peruano para la administración y control de lavanderías, que permite gestionar pedidos, clientes, inventario, facturación y reportes del negocio.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Ventaja competitiva<br>¿Qué valor ofrece a los clientes?</td>
+    <td colspan="1" valign="top">Integra la gestión de la lavandería con la experiencia digital del cliente, facilitando el seguimiento de pedidos, pagos y servicios de recojo y entrega.</td>
+    <td colspan="1" valign="top">Solución integral y altamente escalable que reúne operaciones, pagos, seguimiento, marketing, reportes, aplicaciones y gestión multitienda. </td>
+    <td colspan="1" valign="top">Sistema especializado y personalizable para administrar las operaciones comerciales y administrativas de una lavandería. </td>
+    <td colspan="1" valign="top">Solución orientada al control y administración del negocio, con facturación electrónica, gestión de pedidos, clientes e inventario. </td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="2"><p>Perfil de Marketing</p></td>
+    <td colspan="2">Mercado objetivo</td>
+    <td colspan="1" valign="top">Lavanderías independientes y pequeñas/medianas, junto con sus clientes que requieren servicios de lavandería.</td>
+    <td colspan="1" valign="top">Lavanderías, tintorerías, lavanderías autoservicio y negocios relacionados, desde establecimientos independientes hasta operaciones multi-tienda. </td>
+    <td colspan="1" valign="top">Lavanderías y tintorerías que buscan digitalizar y controlar sus procesos administrativos y comerciales.</td>
+    <td colspan="1" valign="top">Lavanderías peruanas que buscan mejorar la administración, control y seguimiento de sus operaciones. </td>
+  </tr>
+  <tr>
+    <td colspan="2">Estrategias de marketing</td>
+    <td colspan="1" valign="top">Modelo freemium, prueba de la plataforma, presencia digital y captación de lavanderías mediante una propuesta de valor centrada en la digitalización y experiencia del cliente.</td>
+    <td colspan="1" valign="top">Prueba gratuita, demostraciones, marketing automatizado, campañas por email/SMS, herramientas SEO, programas de referidos y fidelización.</td>
+    <td colspan="1" valign="top">Solicitud de cotización y prueba gratuita, demostración del sistema y comunicación de sus beneficios de gestión.</td>
+    <td colspan="1" valign="top">Solicitud de demo, presentación de planes, contenido informativo y comunicación de beneficios relacionados con la digitalización de lavanderías.</td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="3"><p>Perfil de Producto</p></td>
+    <td colspan="2">Productos & Servicios</td>
+    <td colspan="1" valign="top">Gestión de clientes, pedidos, prendas, estados e historial, seguimiento para clientes, pagos digitales, recojo y entrega a domicilio. </td>
+    <td colspan="1" valign="top">POS, gestión de pedidos y prendas, seguimiento mediante códigos de barras, pagos, recogida y entrega, aplicaciones, marketing, reportes, inventario, multitienda y otras herramientas avanzadas. </td>
+    <td colspan="1" valign="top">Gestión de ventas de servicios, compras, facturación electrónica, caja, indicadores, promociones, convenios y múltiples sucursales/usuarios. </td>
+    <td colspan="1" valign="top">Gestión de pedidos, clientes e inventario, facturación electrónica, reportes de ventas, ingresos y entregas, software multiplataforma y soporte. </td>
+  </tr>
+  <tr>
+    <td colspan="2">Precios & Costos</td>
+    <td colspan="1" valign="top">Cuenta con un plan gratuito, un plan Básico de S/49 al mes y un plan Premium de S/99 al mes.</td>
+    <td colspan="1" valign="top">Ofrece 4 planes de pago mensuales, el plan Lite a &#36;43, el plan Pro a &#36;60, el plan Grow a &#36;95 y el plan Grow+ a &#36;325.</td>
+    <td colspan="1" valign="top">Brindan un precio mediante cotización, pero ofrecen prueba gratuita del sistema.</td>
+    <td colspan="1" valign="top">Ofrecen un plan mensual de S/89 y un plan anual de S/945</td>
+  </tr>
+  <tr>
+    <td colspan="2">Canales de distribución (Web y/o Móvil)</td>
+    <td colspan="1" valign="top">Web y móvil.</td>
+    <td colspan="1" valign="top">Web y móvil.</td>
+    <td colspan="1" valign="top">Web.</td>
+    <td colspan="1" valign="top">Web.</td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="5"><p>Análisis SWOT</p></td>
+    <td colspan="6">Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus oportunidades y contribuir a lo que ustedes definen como su posible ventaja competitiva.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Fortalezas</td>
+    <td colspan="1" valign="top">Integración entre gestión de lavandería y experiencia del cliente, seguimiento de pedidos, pagos digitales, posibilidad de recojo y entrega, modelo escalonado de precios.</td>
+    <td colspan="1" valign="top">Amplia variedad de funcionalidades, seguimiento de prendas, pagos, recogida y entrega, aplicaciones, marketing, reportes, escalabilidad y gestión multitienda.</td>
+    <td colspan="1" valign="top">Especialización en lavanderías, plataforma web, personalización, facturación electrónica, gestión de caja, reportes, promociones y convenios. </td>
+    <td colspan="1" valign="top">Experiencia en el sector, especialización en lavanderías, gestión de pedidos, clientes e inventario, facturación electrónica, reportes y soporte.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Debilidades</td>
+    <td colspan="1" valign="top">Producto en etapa inicial, menor reconocimiento de marca, menor cantidad de funcionalidades avanzadas frente a plataformas consolidadas, necesidad de validar disposición de pago y adopción.</td>
+    <td colspan="1" valign="top">Amplia cantidad de funcionalidades puede generar mayor complejidad para negocios pequeños, solución orientada a un mercado internacional y no exclusivamente al contexto peruano.</td>
+    <td colspan="1" valign="top">Menor énfasis visible en la experiencia digital del cliente final y seguimiento del pedido frente a Easy Wash y CleanCloud, precio mediante cotización.</td>
+    <td colspan="1" valign="top">Menor énfasis en funcionalidades orientadas directamente al cliente final, menor amplitud funcional frente a CleanCloud.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Oportunidades</td>
+    <td colspan="1" valign="top">Digitalización de pequeñas lavanderías, crecimiento de servicios bajo demanda, mayor uso de pagos digitales, necesidad de mejorar la comunicación entre lavanderías y clientes.</td>
+    <td colspan="1" valign="top">Expansión hacia nuevos mercados, crecimiento de servicios de recogida y entrega, incorporación de nuevas tecnologías e integraciones.</td>
+    <td colspan="1" valign="top">Digitalización de lavanderías peruanas, expansión de funcionalidades, incorporación de herramientas orientadas directamente al cliente.</td>
+    <td colspan="1" valign="top">Continuar digitalizando lavanderías peruanas, incorporar funcionalidades móviles y servicios orientados al cliente.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Amenazas</td>
+    <td colspan="1" valign="top">Competidores con mayor trayectoria y funcionalidades, resistencia de algunas lavanderías a adoptar tecnología, aparición de nuevas plataformas especializadas.</td>
+    <td colspan="1" valign="top">Competidores locales especializados, soluciones de menor costo, necesidades específicas de adaptación a mercados nacionales.</td>
+    <td colspan="1" valign="top">Competidores con mayor variedad de funcionalidades, nuevas plataformas SaaS, cambios en las necesidades tecnológicas de las lavanderías.</td>
+    <td colspan="1" valign="top">Competidores SaaS más modernos, soluciones con modelos freemium, nuevas plataformas con mayor enfoque en experiencia del cliente.</td>
+  </tr>
+</table>
+
+
 #### 2.1.2. Estrategias y tácticas frente a competidores
+<p align="justify">
+  A partir del análisis competitivo realizado, se plantean las estrategias y tácticas preliminares que serán implementadas por Easy Wash para responder a las fortalezas y debilidades identificadas en sus principales competidores, así como para aprovechar las oportunidades y afrontar las amenazas presentes en el mercado.
+</p>
+
+**Estrategia 1: Competir mediante accesibilidad y facilidad de adopción**
+<p align="justify">
+  Objetivo: Reducir la barrera de entrada para pequeñas y medianas lavanderías que todavía utilizan procesos manuales.
+</p>
+
+**Tácticas:**
+
+<ul>
+  <li>Mantener un plan gratuito con funcionalidades básicas.</li>
+  <li>Ofrecer planes de pago escalonados según las necesidades del negocio.</li>
+  <li>Diseñar un proceso de registro y configuración sencillo.</li>
+  <li>Proporcionar tutoriales y material de capacitación.</li>
+  <li>Ofrecer acompañamiento durante la implementación inicial.</li>
+  <li>Evitar que la lavandería necesite conocimientos técnicos especializados para utilizar la plataforma.</li>
+</ul>
+
+<p align="justify">
+  Frente a soluciones con una gran cantidad de funcionalidades, Easy Wash puede posicionarse inicialmente como una alternativa fácil de comprender y utilizar, especialmente para negocios que recién comienzan su proceso de digitalización.
+</p>
+<br>
+
+**Estrategia 2: Estrategia de fidelización y construcción de relaciones a largo plazo**
+<p align="justify">
+  Objetivo: Reducir la posibilidad de que las lavanderías y sus clientes abandonen Easy Wash frente a otras alternativas.
+</p>
+
+**Tácticas:**
+
+<ul>
+  <li>Brindar soporte técnico y atención rápida a las lavanderías.</li>
+  <li>Recoger periódicamente opiniones y sugerencias de los usuarios.</li>
+  <li>Implementar programas de fidelización para los clientes finales.</li>
+  <li>Ofrecer beneficios por permanencia o renovación de la suscripción.</li>
+  <li>Enviar notificaciones y promociones personalizadas.</li>
+  <li>Facilitar la comunicación entre lavandería y cliente.</li>
+  <li>Crear un sistema de recomendaciones que incentive a los clientes a invitar a otros usuarios.</li>
+</ul>
+
+<p align="justify">
+  La fidelización es particularmente relevante porque los competidores ya incorporan herramientas de marketing y retención. CleanCloud, por ejemplo, ofrece puntos de fidelidad, códigos de referidos, promociones y campañas automatizadas.
+</p>
 
 ### 2.2. Entrevistas
 

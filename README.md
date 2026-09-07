@@ -718,6 +718,51 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
+<p align="justify">
+  A partir del análisis competitivo realizado, se plantean las estrategias y tácticas preliminares que serán implementadas por Easy Wash para responder a las fortalezas y debilidades identificadas en sus principales competidores, así como para aprovechar las oportunidades y afrontar las amenazas presentes en el mercado.
+</p>
+
+**Estrategia 1: Competir mediante accesibilidad y facilidad de adopción**
+<p align="justify">
+  Objetivo: Reducir la barrera de entrada para pequeñas y medianas lavanderías que todavía utilizan procesos manuales.
+</p>
+
+**Tácticas:**
+
+<ul>
+  <li>Mantener un plan gratuito con funcionalidades básicas.</li>
+  <li>Ofrecer planes de pago escalonados según las necesidades del negocio.</li>
+  <li>Diseñar un proceso de registro y configuración sencillo.</li>
+  <li>Proporcionar tutoriales y material de capacitación.</li>
+  <li>Ofrecer acompañamiento durante la implementación inicial.</li>
+  <li>Evitar que la lavandería necesite conocimientos técnicos especializados para utilizar la plataforma.</li>
+</ul>
+
+<p align="justify">
+  Frente a soluciones con una gran cantidad de funcionalidades, Easy Wash puede posicionarse inicialmente como una alternativa fácil de comprender y utilizar, especialmente para negocios que recién comienzan su proceso de digitalización.
+</p>
+<br>
+
+**Estrategia 2: Estrategia de fidelización y construcción de relaciones a largo plazo**
+<p align="justify">
+  Objetivo: Reducir la posibilidad de que las lavanderías y sus clientes abandonen Easy Wash frente a otras alternativas.
+</p>
+
+**Tácticas:**
+
+<ul>
+  <li>Brindar soporte técnico y atención rápida a las lavanderías.</li>
+  <li>Recoger periódicamente opiniones y sugerencias de los usuarios.</li>
+  <li>Implementar programas de fidelización para los clientes finales.</li>
+  <li>Ofrecer beneficios por permanencia o renovación de la suscripción.</li>
+  <li>Enviar notificaciones y promociones personalizadas.</li>
+  <li>Facilitar la comunicación entre lavandería y cliente.</li>
+  <li>Crear un sistema de recomendaciones que incentive a los clientes a invitar a otros usuarios.</li>
+</ul>
+
+<p align="justify">
+  La fidelización es particularmente relevante porque los competidores ya incorporan herramientas de marketing y retención. CleanCloud, por ejemplo, ofrece puntos de fidelidad, códigos de referidos, promociones y campañas automatizadas.
+</p>
 
 ### 2.2. Entrevistas
 

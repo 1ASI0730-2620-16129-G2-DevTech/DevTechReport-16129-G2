@@ -948,7 +948,20 @@ de comportamiento histórico para analizar anomalías a lo largo del tiempo.
 ![LavadoraDescripcion_wireframe.png](assets/LavadoraDescripcion_wireframe.png)
 
 #### 4.4.2. Web Applications Wireflow Diagrams
+
 #### 4.4.3. Web Applications Mock-ups
+
+**DashBoard**
+
+El Dashboard permite a la encargada de turno conocer el estado de la lavandería rápidamente, sin navegar a otras secciones.
+
+* **KPIs superiores:** muestran los indicadores principales de forma clara y uniforme para facilitar su comparación.
+* **Máquinas y alertas:** se presentan juntas para relacionar rápidamente el estado de las máquinas con posibles incidencias.
+* **Gráficos inferiores:** muestran tendencias y análisis, priorizando primero la información operativa inmediata.
+* **Sidebar persistente:** mantiene una navegación constante y facilita el reconocimiento de las funciones del sistema.
+
+![Dashboard_mockup.png](assets/Dashboard_mockup.png)
+
 #### 4.4.4. Web Applications User Flow Diagrams
 
 ### 4.5. Web Applications Prototyping

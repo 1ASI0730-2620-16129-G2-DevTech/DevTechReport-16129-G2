@@ -1077,6 +1077,20 @@ Este módulo permite **supervisar en tiempo real el estado físico de las lavado
 
 ![MonitoreoIOTDetalle_mockup.png](assets/MonitoreoIOTDetalle_mockup.png)
 
+
+**Alertas**
+
+Este módulo permite **concentrarse únicamente en las lavadoras que requieren atención**, funcionando como una vista filtrada de Monitoreo IoT.
+
+* **Estados reducidos:** solo muestra "Revisión" y "Posible falla", enfocándose en situaciones que requieren acción.
+* **Lista vertical:** presenta pocas alertas en orden, facilitando la identificación de las más urgentes.
+* **Tarjetas consistentes:** mantiene el mismo diseño y detalle de Monitoreo IoT para evitar un nuevo aprendizaje.
+* **Detalle reutilizado:** al seleccionar una alerta, se accede al mismo detalle de métricas de la lavadora.
+* **Navegación agrupada:** Alertas y Monitoreo IoT están dentro de "Monitoreo", diferenciándolos de las funciones operativas.
+* **Propósito claro:** permite pasar de la supervisión general a la atención específica de problemas.
+
+
+
 #### 4.4.4. Web Applications User Flow Diagrams
 
 ### 4.5. Web Applications Prototyping

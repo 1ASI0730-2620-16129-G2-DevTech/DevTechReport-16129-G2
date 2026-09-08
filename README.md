@@ -867,6 +867,16 @@ lateral izquierdo Sidebar y un panel de contenido central Main Area.
 
 ![Dashboard_wireframe.png](assets/Dashboard_wireframe.png)
 
+**Pedidos**
+
+La vista de Pedidos está orientada a centralizar el flujo de trabajo operativo de la lavandería
+en el rol de Encargada de turno. Presenta una tabla de datos con filtros de búsqueda y acciones
+rápidas como "+ Nuevo pedido", permitiendo monitorear el estado de recepción, entregas estimadas, pagos y detalles de cada orden de manera eficiente.
+
+
+![Pedidos_wireframe.png](assets/Pedidos_wireframe.png)
+
+
 #### 4.4.2. Web Applications Wireflow Diagrams
 #### 4.4.3. Web Applications Mock-ups
 #### 4.4.4. Web Applications User Flow Diagrams

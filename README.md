@@ -930,6 +930,14 @@ el ciclo en curso, el tiempo restante y la sincronización en vivo para evitar i
 
 ![Alertas_wireframe.png](assets/Alertas_wireframe.png)
 
+**Detalle de alerta por lavadora**
+
+El wireframe de esta vista presenta el diagnóstico técnico individualizado de una máquina específica para la Encargada
+de turno. Estructura la información mediante indicadores generales de estado, métricas de sensores en tiempo real como
+humedad, corriente, consumo, vibración, velocidad y nivel de agua frente a sus rangos esperados, e incluye un gráfico
+de comportamiento histórico para analizar anomalías a lo largo del tiempo.
+
+![LavadoraDescripcion_wireframe.png](assets/LavadoraDescripcion_wireframe.png)
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 #### 4.4.3. Web Applications Mock-ups

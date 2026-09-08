@@ -966,6 +966,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 </p>
 
 #### 2.3.2. User Task Matrix
+<p align="justify">
+  En esta sección se presenta el User Task Matrix, elaborado a partir de los dos segmentos objetivo identificados, que nos permite identificar las principales tareas que cada segmento realiza para alcanzar sus objetivos y clasificarlas según su frecuencia e importancia, sin considerar las funcionalidades de una solución tecnológica específica.
+</p>
 
 | Tarea | Pedro Fernández - Frecuencia | Pedro Fernández - Importancia | Valeria Torres - Frecuencia | Valeria Torres - Importancia |
 |---|---|---|---|---|

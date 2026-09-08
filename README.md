@@ -904,6 +904,14 @@ tiempo seleccionado.
 
 ![Servicios_wireframe.png](assets/Servicios_wireframe.png)
 
+**Pagos**
+El siguiente wireframe organiza el registro y control de cobros para la Encargada de turno. Incluye una barra de 
+búsqueda dedicada en la parte superior y una tabla de datos detallada que muestra el identificador de cada pago, 
+el pedido asociado, el cliente, el monto cobrado, el método de pago y el estado de la transacción, complementada 
+con un gráfico de tendencia de los pagos registrados en las últimas 24 horas.
+
+![Pagos_wireframe.png](assets/Pagos_wireframe.png)
+
 **Recojos y Entregas**
 
 El siguiente wireframe organiza la logística de despacho y recolección de prendas para la Encargada de turno. Incluye

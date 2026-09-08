@@ -956,6 +956,12 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   <br/><i>User Persona: Pedro Fernández</i>
 </p>
 
+**Segundo segmento: Personas independientes que utilicen el servicio de lavanderías**
+<p align="center">
+  <img src="assets/img/Chapter2/UserPerson/UserPersona_ValeriaTorres.png" alt="User Persona Valeria" width="500"/>
+  <br/><i>User Persona: Valeria Torres</i>
+</p>
+
 #### 2.3.2. User Task Matrix
 #### 2.3.3. User Journey Mapping
 #### 2.3.4. Empathy Mapping

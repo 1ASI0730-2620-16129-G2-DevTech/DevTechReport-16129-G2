@@ -947,6 +947,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ### 2.3. Needfinding
 
 #### 2.3.1. User Personas
+<p align="justify">
+  En esta sección se elaboran los User Personas a partir del análisis de entrevistas a propietarios de lavanderías independientes y personas independientes que utilicen el servicio de lavanderías. Por consecuencia, cada perfil representa las necesidades, comportamientos y dificultades de cada segmento objetivo, lo cual nos permite comprender con mayor profundidad a los usuarios, identificar oportunidades de mejora y orientar el diseño de la solución hacia sus necesidades reales, priorizando funcionalidades y características que generen valor para cada tipo de usuario.
+</p>
 
 **Primer segmento: Propietarios de lavanderias independientes**
 

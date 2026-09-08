@@ -865,7 +865,7 @@ El wireframe representa el Dashboard  de la aplicación web WashTrack,
 diseñado bajo un esquema de maquetación de dos columnas principales: un menú de navegación
 lateral izquierdo Sidebar y un panel de contenido central Main Area.
 
-![Dashboard_wireframe.png](../Dev-Tech-Report/assets/Dashboard_wireframe.png)
+![Dashboard_wireframe.png](assets/Dashboard_wireframe.png)
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 #### 4.4.3. Web Applications Mock-ups

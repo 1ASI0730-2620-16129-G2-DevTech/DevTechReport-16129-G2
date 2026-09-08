@@ -1422,10 +1422,158 @@ El diseño de la interfaz de usuario (UI) de la Landing Page de <b>WashTrack</b>
 #### 4.7.1. Class Diagrams
 
 ### 4.8. Database Design
+WashTrack requiere persistir información de clientes, lavanderías, órdenes, prendas, procesos operativos, membresías, pagos, seguimiento y notificaciones.
+
+Se propone una base de datos relacional para organizar las relaciones entre las entidades principales.
 
 #### 4.8.1. Database Diagrams
+```mermaid
+erDiagram
+    USERS {
+        uuid id PK
+        varchar email
+        varchar password_hash
+        varchar role
+        timestamp created_at
+    }
 
----
+    CUSTOMERS {
+        uuid id PK
+        uuid user_id FK
+        varchar full_name
+        varchar phone
+    }
+
+    LAUNDRIES {
+        uuid id PK
+        varchar business_name
+        varchar address
+        varchar phone
+    }
+
+    ORDERS {
+        uuid id PK
+        uuid customer_id FK
+        uuid laundry_id FK
+        varchar status
+        varchar delivery_method
+        text special_care_instructions
+        timestamp created_at
+    }
+
+    GARMENT_ITEMS {
+        uuid id PK
+        uuid order_id FK
+        varchar type
+        int quantity
+        text care_instructions
+    }
+
+    LAUNDRY_ORDERS {
+        uuid id PK
+        uuid order_id FK
+        varchar current_stage
+        varchar priority
+        uuid washing_cycle_id FK
+        uuid resource_id FK
+        timestamp expected_completion
+    }
+
+    WASHING_CYCLES {
+        uuid id PK
+        varchar name
+        int duration_minutes
+        varchar compatible_type
+    }
+
+    LAUNDRY_RESOURCES {
+        uuid id PK
+        uuid laundry_id FK
+        varchar name
+        varchar status
+        int capacity
+    }
+
+    SUBSCRIPTION_PLANS {
+        uuid id PK
+        varchar name
+        decimal price
+        int credits
+        int duration_days
+    }
+
+    SUBSCRIPTIONS {
+        uuid id PK
+        uuid customer_id FK
+        uuid plan_id FK
+        date start_date
+        date expiration_date
+        varchar status
+        int credits
+    }
+
+    PAYMENTS {
+        uuid id PK
+        uuid customer_id FK
+        uuid order_id FK
+        decimal amount
+        varchar status
+        varchar transaction_id
+        timestamp processed_at
+    }
+
+    TRACKING {
+        uuid id PK
+        uuid order_id FK
+        varchar current_status
+    }
+
+    STATUS_HISTORY {
+        uuid id PK
+        uuid tracking_id FK
+        varchar status
+        timestamp occurred_at
+    }
+
+    NOTIFICATIONS {
+        uuid id PK
+        uuid recipient_id FK
+        uuid order_id FK
+        varchar channel
+        text message
+        varchar status
+        timestamp created_at
+    }
+
+    USERS ||--o| CUSTOMERS : has
+    CUSTOMERS ||--o{ ORDERS : places
+    LAUNDRIES ||--o{ ORDERS : processes
+    ORDERS ||--|{ GARMENT_ITEMS : contains
+    ORDERS ||--o| LAUNDRY_ORDERS : has
+    WASHING_CYCLES ||--o{ LAUNDRY_ORDERS : used_by
+    LAUNDRIES ||--o{ LAUNDRY_RESOURCES : owns
+    LAUNDRY_RESOURCES ||--o{ LAUNDRY_ORDERS : assigned_to
+    CUSTOMERS ||--o{ SUBSCRIPTIONS : owns
+    SUBSCRIPTION_PLANS ||--o{ SUBSCRIPTIONS : defines
+    CUSTOMERS ||--o{ PAYMENTS : makes
+    ORDERS ||--o{ PAYMENTS : has
+    ORDERS ||--o| TRACKING : has
+    TRACKING ||--o{ STATUS_HISTORY : contains
+    USERS ||--o{ NOTIFICATIONS : receives
+    ORDERS ||--o{ NOTIFICATIONS : generates
+```
+
+### Relación entre Bounded Contexts y tablas
+
+| Bounded Context | Tablas principales |
+|---|---|
+| Identity & Access | `users` |
+| Customer & Business Management | `customers`, `laundries` |
+| Order Management | `orders`, `garment_items` |
+| Laundry Operations | `laundry_orders`, `washing_cycles`, `laundry_resources` |
+| Subscription & Payment | `subscription_plans`, `subscriptions`, `payments` |
+| Tracking & Notifications | `tracking`, `status_history`, `notifications` |
+
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 

@@ -1011,6 +1011,22 @@ Este módulo gestiona el catálogo de prendas y su demanda, facilitando tanto la
 
 ![NuevaPrenda_mockup.png](assets/NuevaPrenda_mockup.png)
 
+**Servicios**
+
+Este módulo gestiona el **catálogo de servicios y su demanda**, manteniendo una estructura similar al módulo de Prendas para facilitar el uso.
+
+* **Estructura consistente:** utiliza la misma distribución de Prendas: tabla arriba, gráfico de demanda abajo y modal de registro.
+* **Categorías de servicios:** agrupan las operaciones según su naturaleza, como Lavado, Tintorería, Planchado y Acabado.
+* **Precio y tiempo estimado:** se muestran juntos para facilitar la información al cliente y la planificación de entregas.
+* **Gráfico de demanda:** permite identificar rápidamente el servicio más solicitado.
+* **Modal de registro:** mantiene el mismo diseño de Prendas, reduciendo el aprendizaje y los errores de captura.
+* **Estado mediante botones:** "Activo/Inactivo" permite seleccionar rápidamente la disponibilidad del servicio.
+
+
+![Servicio_mockup.png](assets/Servicio_mockup.png)
+
+![NuevoServicio_mockup.png](assets/NuevoServicio_mockup.png)
+
 #### 4.4.4. Web Applications User Flow Diagrams
 
 ### 4.5. Web Applications Prototyping

@@ -850,6 +850,23 @@ La información se estructura mediante una jerarquía clara y una categorizació
 ### 4.4. Web Applications UX/UI Design
 
 #### 4.4.1. Web Applications Wireframes
+La propuesta de wireframes para WashTrack fue desarrollada teniendo en cuenta los principios
+de usabilidad, diseño inclusivo, claridad visual y jerarquía informativa, con el fin de brindar
+una experiencia coherente, accesible y personalizada tanto para usuarios empresariales como
+personas naturales.
+La aplicación se estructura en seis secciones principales, accesibles desde una barra de
+navegación que varía en función del perfil del usuario. Estas secciones son: Inicio,
+Panel de Control, Operaciones, Monitoreo IoT, Clientes y Reportes.
+
+---
+**Dashboard**
+
+El wireframe representa el Dashboard  de la aplicación web WashTrack,
+diseñado bajo un esquema de maquetación de dos columnas principales: un menú de navegación
+lateral izquierdo Sidebar y un panel de contenido central Main Area.
+
+![Dashboard_wireframe.png](../Dev-Tech-Report/assets/Dashboard_wireframe.png)
+
 #### 4.4.2. Web Applications Wireflow Diagrams
 #### 4.4.3. Web Applications Mock-ups
 #### 4.4.4. Web Applications User Flow Diagrams

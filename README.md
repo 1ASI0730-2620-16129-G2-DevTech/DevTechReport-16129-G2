@@ -997,10 +997,16 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 **Primer segmento: Propietarios de lavanderias independientes**
 <p align="center">
-  <img src="assets/img/Chapter2/UserJourneyMap/Pedro_journey_mapping.png" alt="User Persona Pedro" width="800"/>
-  <br/><i>User Journey Mapping: Pedro Fernández</i>
+  <img src="assets/img/Chapter2/UserJourneyMap/Pedro_journey_mapping.png" alt="User Journey Mapping Pedro" width="800"/>
+  <br/><i>User Journey Mapping de Pedro Fernández</i>
 </p>
+<br>
 
+**Segundo segmento: Personas independientes que utilicen el servicio de lavanderías**
+<p align="center">
+  <img src="assets/img/Chapter2/UserJourneyMap/Valeria_journey_mapping.png" alt="User Journey Mapping Valeria" width="800"/>
+  <br/><i>User Journey Mapping de Valeria Torres</i>
+</p>
 
 #### 2.3.4. Empathy Mapping
 

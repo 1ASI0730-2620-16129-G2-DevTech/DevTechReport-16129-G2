@@ -894,6 +894,17 @@ que ayuda a analizar las prendas más solicitadas a lo largo del tiempo.
 ![Prendas_wireframe.png](assets/Prendas_wireframe.png)
 
 
+**Servicios**
+
+Esta sección está destinada a la gestión del portafolio de prestaciones ofrecidas por la lavandería. Muestra en la
+parte superior métricas sobre el total de servicios, la cantidad de activos, las categorías configuradas y el costo
+promedio, seguidas por una tabla de datos detallada con tarifas, duraciones estimadas y estados operativos. En la
+zona inferior incorpora un gráfico de tendencias para evaluar los servicios con mayor demanda según el intervalo de
+tiempo seleccionado.
+
+![Servicios_wireframe.png](assets/Servicios_wireframe.png)
+
+
 #### 4.4.2. Web Applications Wireflow Diagrams
 #### 4.4.3. Web Applications Mock-ups
 #### 4.4.4. Web Applications User Flow Diagrams

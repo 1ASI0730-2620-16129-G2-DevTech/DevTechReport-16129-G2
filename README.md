@@ -921,6 +921,16 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 #### 2.2.2. Registro de entrevistas
 #### 2.2.3. Análisis de entrevistas
+**Primer segmento: Propietarios de lavanderias independientes**
+<ul>
+  <li>El 100 % de los propietarios entrevistados registra información relacionada con los clientes y sus pedidos, incluyendo datos de contacto, prendas, cantidades, servicio solicitado y tiempo estimado de entrega.</li><br>
+  <li>El 66,7 % de los propietarios entrevistados utiliza WhatsApp y llamadas telefónicas para comunicarse con sus clientes, principalmente para informar que un pedido está listo, atender consultas o comunicar inconvenientes relacionados con la entrega.</li><br>
+  <li>El 66,7 % de los propietarios entrevistados prioriza los pedidos considerando principalmente la fecha prevista de entrega, aunque también puede tomar en cuenta características especiales del pedido o compromisos de recojo y entrega.</li><br>
+  <li>El 33,3 % de los propietarios entrevistados ofrece el servicio de entrega a domicilio de manera no sistematizada, coordinando las direcciones y horarios directamente con los clientes mediante WhatsApp.</li><br>
+  <li>El 66,7 % de los propietarios entrevistados considera que el registro de los pedidos representa una actividad que consume una cantidad considerable de tiempo, especialmente cuando aumenta el número de clientes y es necesario revisar diferentes registros.</li><br>
+  <li>El 66,7 % de los propietarios entrevistados evidencia dificultades para realizar un seguimiento eficiente de los pedidos cuando existe una alta demanda, debido a que deben consultar registros manuales y organizar los pedidos de acuerdo con sus fechas de entrega.</li><br>
+  <li>El 100 % de los propietarios entrevistados ha experimentado situaciones relacionadas con la confusión, pérdida o incorrecta asignación de prendas, aunque la frecuencia de estos problemas varía entre los establecimientos.</li><br>
+</ul>
 
 ### 2.3. Needfinding
 

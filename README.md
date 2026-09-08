@@ -947,6 +947,15 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ### 2.3. Needfinding
 
 #### 2.3.1. User Personas
+
+**Primer segmento: Propietarios de lavanderias independientes**
+
+
+<p align="center">
+  <img src="assets/img/Chapter2/UserPerson/UserPersona_PedroFernandez.png" alt="User Persona Pedro" width="500"/>
+  <br/><i>User Persona: Pedro Fernández</i>
+</p>
+
 #### 2.3.2. User Task Matrix
 #### 2.3.3. User Journey Mapping
 #### 2.3.4. Empathy Mapping

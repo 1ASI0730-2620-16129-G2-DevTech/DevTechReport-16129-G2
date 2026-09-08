@@ -1016,9 +1016,15 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 **Primer segmento: Propietarios de lavanderías independientes**
 <p align="center">
   <img src="assets/img/Chapter2/EmpathyMap/Pedro_empathy_map.png" alt="Empathy Mapping Pedro" width="800"/>
-  <br/><i>Empathy Mapping de Pedro Fernández</i>
+  <br/><i>Empathy Map de Pedro Fernández</i>
 </p>
 <br>
+
+**Segundo segmento: Personas independientes que utilicen el servicio de lavanderías**
+<p align="center">
+  <img src="assets/img/Chapter2/EmpathyMap/Valeria_Empathy_Map.png" alt="Empathy Mapping Valeria" width="800"/>
+  <br/><i>Empathy Map de Valeria Torres</i>
+</p>
 
 ### 2.4. Big Picture EventStorming
 

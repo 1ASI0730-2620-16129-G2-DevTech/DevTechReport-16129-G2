@@ -991,6 +991,23 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | Consultar servicios realizados anteriormente | Media | Media | Media | Media |
 
 #### 2.3.3. User Journey Mapping
+<p align="justify">
+  En esta sección se presenta el User Journey Mapping de los principales segmentos objetivo de Wash Track, con el propósito de representar el recorrido que realizan Pedro Fernández, como dueño de una lavandería, y Valeria Torres, como persona que consume el servicio de lavandería, identificando sus acciones, puntos de contacto, pensamientos, emociones, dificultades y oportunidades de mejora a lo largo del servicio.
+</p>
+
+**Primer segmento: Propietarios de lavanderias independientes**
+<p align="center">
+  <img src="assets/img/Chapter2/UserJourneyMap/Pedro_journey_mapping.png" alt="User Journey Mapping Pedro" width="800"/>
+  <br/><i>User Journey Mapping de Pedro Fernández</i>
+</p>
+<br>
+
+**Segundo segmento: Personas independientes que utilicen el servicio de lavanderías**
+<p align="center">
+  <img src="assets/img/Chapter2/UserJourneyMap/Valeria_journey_mapping.png" alt="User Journey Mapping Valeria" width="800"/>
+  <br/><i>User Journey Mapping de Valeria Torres</i>
+</p>
+
 #### 2.3.4. Empathy Mapping
 
 ### 2.4. Big Picture EventStorming

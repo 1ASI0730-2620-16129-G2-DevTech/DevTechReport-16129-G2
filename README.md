@@ -912,6 +912,16 @@ datos detallada que registra identificadores, tipo de operación, cliente, direc
 
 ![Recojos_entregas_wireframe.png](assets/Recojos_entregas_wireframe.png)
 
+**Monitoreo IOT**
+
+Esta vista permite a la Encargada de turno supervisar en tiempo real el estado técnico y operativo de toda la
+maquinaria conectada. Mediante un panel de tarjetas individuales para cada lavadora, facilita el control de
+parámetros en vivo como el ciclo actual, el tiempo restante de lavado y la última sincronización de datos de
+los sensores.
+
+![MonitoreoIOT_wireframe.png](assets/MonitoreoIOT_wireframe.png)
+
+
 #### 4.4.2. Web Applications Wireflow Diagrams
 #### 4.4.3. Web Applications Mock-ups
 #### 4.4.4. Web Applications User Flow Diagrams

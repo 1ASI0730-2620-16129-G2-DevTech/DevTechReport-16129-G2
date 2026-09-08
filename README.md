@@ -876,6 +876,14 @@ rápidas como "+ Nuevo pedido", permitiendo monitorear el estado de recepción, 
 
 ![Pedidos_wireframe.png](assets/Pedidos_wireframe.png)
 
+**Clientes**
+
+Esta pantalla está destinada a la administración del directorio de usuarios por parte de la Encargada
+de turno. Dispone de una tabla detallada con filtro de búsqueda y la opción para registrar nuevos usuarios,
+lo que agiliza la localización de información de contacto, identificadores y documentos de identidad.
+
+![Clientes_wireframe.png](assets/Clientes_wireframe.png)
+
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 #### 4.4.3. Web Applications Mock-ups

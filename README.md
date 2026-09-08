@@ -995,7 +995,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   En esta sección se presenta el User Journey Mapping de los principales segmentos objetivo de Wash Track, con el propósito de representar el recorrido que realizan Pedro Fernández, como dueño de una lavandería, y Valeria Torres, como persona que consume el servicio de lavandería, identificando sus acciones, puntos de contacto, pensamientos, emociones, dificultades y oportunidades de mejora a lo largo del servicio.
 </p>
 
-**Primer segmento: Propietarios de lavanderias independientes**
+**Primer segmento: Propietarios de lavanderías independientes**
 <p align="center">
   <img src="assets/img/Chapter2/UserJourneyMap/Pedro_journey_mapping.png" alt="User Journey Mapping Pedro" width="800"/>
   <br/><i>User Journey Mapping de Pedro Fernández</i>
@@ -1009,6 +1009,22 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 </p>
 
 #### 2.3.4. Empathy Mapping
+<p align="justify">
+  En esta sección se presenta el Empathy Map de los principales User Persona de Easy Wash, con el propósito de comprender mejor sus necesidades, comportamientos, pensamientos, emociones, dificultades y expectativas durante el uso de los servicios de lavandería. Esta herramienta permite organizar la información obtenida de la investigación de usuarios y generar una visión más clara de su experiencia, facilitando la identificación de oportunidades de mejora para la solución.
+</p>
+
+**Primer segmento: Propietarios de lavanderías independientes**
+<p align="center">
+  <img src="assets/img/Chapter2/EmpathyMap/Pedro_empathy_map.png" alt="Empathy Mapping Pedro" width="800"/>
+  <br/><i>Empathy Map de Pedro Fernández</i>
+</p>
+<br>
+
+**Segundo segmento: Personas independientes que utilicen el servicio de lavanderías**
+<p align="center">
+  <img src="assets/img/Chapter2/EmpathyMap/Valeria_Empathy_Map.png" alt="Empathy Mapping Valeria" width="800"/>
+  <br/><i>Empathy Map de Valeria Torres</i>
+</p>
 
 ### 2.4. Big Picture EventStorming
 

@@ -1058,6 +1058,25 @@ Este módulo gestiona las **operaciones logísticas y el seguimiento de entregas
 
 ![MonitoreoEntrega_mockup.png](assets/MonitoreoEntrega_mockup.png)
 
+----
+**Monitoreo IoT**
+
+Este módulo permite **supervisar en tiempo real el estado físico de las lavadoras**, utilizando una interfaz orientada al monitoreo técnico.
+
+* **Leyenda de estados:** explica los cinco estados y sus colores para facilitar su interpretación.
+* **Tarjetas en cuadrícula:** cada lavadora se presenta como una unidad independiente, permitiendo detectar anomalías rápidamente.
+* **Orden de información:** muestra primero Estado, Ciclo, Tiempo y Actualización, siguiendo la prioridad de monitoreo.
+* **Timestamp relativo:** indica cuánto tiempo ha pasado desde la última actualización.
+* **Detalle en pantalla completa:** permite consultar el estado y las métricas de una lavadora sin perder contexto.
+* **Resumen superior:** mantiene la información principal de la tarjeta y añade el estado de conexión.
+* **Métricas con rango y veredicto:** cada sensor muestra su valor, rango esperado y resultado, facilitando la interpretación.
+* **Grid de seis métricas:** permite comparar varios indicadores simultáneamente.
+* **Gráfico histórico:** muestra una métrica a la vez para analizar su comportamiento y detectar posibles anomalías.
+
+![MonitoreoIOT_mockup.png](assets/MonitoreoIOT_mockup.png)
+
+![MonitoreoIOTDetalle_mockup.png](assets/MonitoreoIOTDetalle_mockup.png)
+
 #### 4.4.4. Web Applications User Flow Diagrams
 
 ### 4.5. Web Applications Prototyping

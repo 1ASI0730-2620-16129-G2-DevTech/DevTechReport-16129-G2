@@ -995,6 +995,22 @@ Este módulo gestiona la información principal de los clientes, priorizando su 
 
 ![NuevoCliente_mockup.png](assets/NuevoCliente_mockup.png)
 
+**Prendas**
+
+Este módulo gestiona el catálogo de prendas y su demanda, facilitando tanto la consulta como el análisis.
+
+* **Catálogo y análisis separados:** la tabla muestra primero la información actual y el gráfico inferior presenta las tendencias de demanda.
+* **Categoría como agrupador:** permite identificar rápidamente las familias de prendas sin navegación adicional.
+* **Precio y tiempo estimado:** se colocan juntos porque son datos relacionados para la atención al cliente y planificación.
+* **Estado por color:** "Activo" en verde e "Inactivo" en gris permiten identificar rápidamente la disponibilidad.
+* **Estado con botones:** al ser una opción binaria, "Activo/Inactivo" permite seleccionar directamente y visualizar la opción elegida.
+* **Formulario en dos columnas:** el nombre ocupa todo el ancho y los demás atributos se agrupan para reducir el recorrido visual.
+* **Filtros temporales:** permiten cambiar rápidamente el periodo del gráfico y muestran claramente cuál está seleccionado.
+
+![Prenda-mockup.png](assets/Prenda-mockup.png)
+
+![NuevaPrenda_mockup.png](assets/NuevaPrenda_mockup.png)
+
 #### 4.4.4. Web Applications User Flow Diagrams
 
 ### 4.5. Web Applications Prototyping

@@ -884,6 +884,15 @@ lo que agiliza la localización de información de contacto, identificadores y d
 
 ![Clientes_wireframe.png](assets/Clientes_wireframe.png)
 
+**Prendas**
+
+La interfaz descrita permite estructurar el catálogo operativo de la lavandería para la Encargada de turno.
+Muestra métricas clave sobre los tipos de prendas registrados y su valor promedio, acompañadas de un listado
+organizado por categorías, precios y disponibilidad. La parte inferior añade una gráfica interactiva de tendencias
+que ayuda a analizar las prendas más solicitadas a lo largo del tiempo.
+
+![Prendas_wireframe.png](assets/Prendas_wireframe.png)
+
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 #### 4.4.3. Web Applications Mock-ups

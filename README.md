@@ -962,6 +962,23 @@ El Dashboard permite a la encargada de turno conocer el estado de la lavandería
 
 ![Dashboard_mockup.png](assets/Dashboard_mockup.png)
 
+**Pedidos**
+
+Este módulo cubre el flujo principal del negocio: **consultar pedidos y registrar nuevos** de forma rápida y sencilla.
+
+* **Tabla de pedidos:** las columnas siguen el orden lógico del proceso: cliente, fechas, prendas, servicio y finalmente estado y pago.
+* **Estados por color:** permite identificar rápidamente la situación de cada pedido mediante atributos visuales.
+* **Botón "+ Nuevo pedido":** mantiene una ubicación consistente y facilita el acceso a la acción principal.
+* **Formulario modal:** permite crear pedidos sin perder el contexto de la lista.
+* **Campos agrupados:** los datos relacionados se organizan en dos columnas para reducir el desplazamiento.
+* **Cliente primero:** utiliza un buscador para facilitar su selección.
+* **Valores predeterminados:** Estado y Pago vienen preestablecidos para reducir errores y tiempo de captura.
+* **Botones:** "Guardar" destaca como acción principal y "Cancelar" como acción secundaria.
+
+![Pedidos_mockup.png](assets/Pedidos_mockup.png)
+
+![CrearPedido_mockup.png](assets/CrearPedido_mockup.png)
+
 #### 4.4.4. Web Applications User Flow Diagrams
 
 ### 4.5. Web Applications Prototyping

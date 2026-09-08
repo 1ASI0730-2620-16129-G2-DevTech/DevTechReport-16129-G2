@@ -1027,6 +1027,19 @@ Este módulo gestiona el **catálogo de servicios y su demanda**, manteniendo un
 
 ![NuevoServicio_mockup.png](assets/NuevoServicio_mockup.png)
 
+
+**Pagos**
+
+Este módulo permite **consultar y controlar las transacciones realizadas**, adaptando la estructura de los catálogos a la gestión de cobros.
+
+* **Pedido como referencia:** se muestra junto al ID para relacionar directamente cada pago con su pedido correspondiente.
+* **Monto y método:** se colocan juntos para identificar rápidamente cuánto y cómo se realizó el pago.
+* **Fecha:** se presenta al final y los registros se ordenan de más reciente a más antiguo para priorizar los cobros actuales.
+* **Estado por color:** mantiene el mismo código visual de otros módulos, facilitando la identificación de registros activos e inactivos.
+* **Estructura consistente:** conserva la arquitectura general del sistema, reduciendo la carga cognitiva del usuario.
+
+![Pagos_mockup.png](assets/Pagos_mockup.png)
+
 #### 4.4.4. Web Applications User Flow Diagrams
 
 ### 4.5. Web Applications Prototyping

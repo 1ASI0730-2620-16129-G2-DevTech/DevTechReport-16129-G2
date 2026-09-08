@@ -966,6 +966,27 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 </p>
 
 #### 2.3.2. User Task Matrix
+
+| Tarea | Pedro Fernández - Frecuencia | Pedro Fernández - Importancia | Valeria Torres - Frecuencia | Valeria Torres - Importancia |
+|---|---|---|---|---|
+| Identificar la necesidad de lavar sus prendas | — | — | Alta | Alta |
+| Buscar y elegir una lavandería | — | — | Media | Alta |
+| Solicitar un servicio de lavandería | — | — | Alta | Alta |
+| Entregar las prendas e indicar el servicio requerido | Alta | Alta | Alta | Alta |
+| Registrar y gestionar un pedido | Alta | Alta | — | — |
+| Identificar y contabilizar las prendas | Alta | Alta | — | — |
+| Supervisar el procesamiento de las prendas | Alta | Alta | — | — |
+| Consultar o verificar el estado del pedido | Alta | Alta | Alta | Alta |
+| Comunicarse con la otra parte sobre el pedido | Alta | Alta | Media | Alta |
+| Coordinar la fecha de entrega | Alta | Alta | Alta | Alta |
+| Preparar/verificar el pedido para la entrega | Alta | Alta | — | — |
+| Coordinar el recojo o entrega de las prendas | Alta | Alta | Alta | Alta |
+| Realizar o recibir el pago del servicio | Alta | Alta | Alta | Alta |
+| Verificar que las prendas estén completas y correctas | Alta | Alta | Alta | Alta |
+| Recoger o entregar las prendas | Alta | Alta | Alta | Alta |
+| Resolver inconvenientes relacionados con el pedido | Media | Alta | Baja | Alta |
+| Consultar servicios realizados anteriormente | Media | Media | Media | Media |
+
 #### 2.3.3. User Journey Mapping
 #### 2.3.4. Empathy Mapping
 

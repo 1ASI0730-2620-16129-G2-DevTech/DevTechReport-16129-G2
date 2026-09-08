@@ -921,6 +921,15 @@ los sensores.
 
 ![MonitoreoIOT_wireframe.png](assets/MonitoreoIOT_wireframe.png)
 
+**Alertas**
+
+El wireframe de esta sección está diseñado para centralizar las notificaciones de fallas técnicas en la interfaz
+de la Encargada de turno. Mediante un esquema de tarjetas informativas clasificadas por nivel de criticidad, este
+wireframe permite identificar con rapidez alertas de revisión alta y posibles fallas en la maquinaria, desplegando
+el ciclo en curso, el tiempo restante y la sincronización en vivo para evitar interrupciones operativas.
+
+![Alertas_wireframe.png](assets/Alertas_wireframe.png)
+
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 #### 4.4.3. Web Applications Mock-ups

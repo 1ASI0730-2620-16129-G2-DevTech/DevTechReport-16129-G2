@@ -1040,6 +1040,24 @@ Este módulo permite **consultar y controlar las transacciones realizadas**, ada
 
 ![Pagos_mockup.png](assets/Pagos_mockup.png)
 
+**Recojos y Entregas**
+
+Este módulo gestiona las **operaciones logísticas y el seguimiento de entregas**, combinando consulta, asignación y monitoreo.
+
+* **Tipo y Estado diferenciados:** utilizan códigos de color independientes para evitar confusiones entre la operación y su situación.
+* **Dirección visible:** se muestra completa, incluso en dos líneas, para evitar errores durante el recojo o entrega.
+* **Repartidor visible:** permite identificar rápidamente quién está a cargo de cada operación.
+* **Seguimiento mediante clic:** cada registro permite acceder a una pantalla dedicada de monitoreo.
+* **Mapa como elemento principal:** ocupa la mayor parte del espacio para facilitar la visualización de la ubicación y recorrido.
+* **Ruta diferenciada:** el tramo recorrido es sólido y el pendiente es punteado, permitiendo identificar rápidamente el avance.
+* **Tiempo estimado junto al repartidor:** muestra de forma inmediata cuánto falta para llegar.
+* **Stepper de estados:** muestra claramente el progreso: Confirmado, Recojido y En Camino.
+* **Detalle de entrega:** presenta los datos del pedido como información de apoyo debajo del estado.
+
+![RecojosYEntregas_mockup.png](assets/RecojosYEntregas_mockup.png)
+
+![MonitoreoEntrega_mockup.png](assets/MonitoreoEntrega_mockup.png)
+
 #### 4.4.4. Web Applications User Flow Diagrams
 
 ### 4.5. Web Applications Prototyping

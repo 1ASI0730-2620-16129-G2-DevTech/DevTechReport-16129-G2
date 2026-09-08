@@ -979,6 +979,22 @@ Este módulo cubre el flujo principal del negocio: **consultar pedidos y registr
 
 ![CrearPedido_mockup.png](assets/CrearPedido_mockup.png)
 
+**Clientes**
+
+Este módulo gestiona la información principal de los clientes, priorizando su identificación rápida y el registro sencillo**.
+
+* **Tabla simplificada:** muestra únicamente ID, cliente, teléfono y documento, evitando información transaccional innecesaria.
+* **Nombre como dato principal:** se ubica después del ID por ser el criterio más natural para identificar un cliente.
+* **Orden consistente:** teléfono y documento mantienen la misma secuencia utilizada en el formulario.
+* **Botón "+ Agregar Nuevo Cliente":** mantiene la posición estándar del sistema, facilitando su localización.
+* **Formulario vertical:** al ser corto, los campos se presentan en una sola columna para facilitar la lectura.
+* **Tipo de documento:** utiliza una lista desplegable para evitar datos incorrectos o inconsistentes.
+* **Modal consistente:** conserva el mismo patrón visual del sistema, con "Guardar" como acción principal y "Cancelar" como secundaria.
+
+![Cliente_mockup.png](assets/Cliente_mockup.png)
+
+![NuevoCliente_mockup.png](assets/NuevoCliente_mockup.png)
+
 #### 4.4.4. Web Applications User Flow Diagrams
 
 ### 4.5. Web Applications Prototyping

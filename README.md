@@ -1009,6 +1009,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 </p>
 
 #### 2.3.4. Empathy Mapping
+<p align="justify">
+  En esta sección se presenta el Empathy Map de los principales User Persona de Easy Wash, con el propósito de comprender mejor sus necesidades, comportamientos, pensamientos, emociones, dificultades y expectativas durante el uso de los servicios de lavandería. Esta herramienta permite organizar la información obtenida de la investigación de usuarios y generar una visión más clara de su experiencia, facilitando la identificación de oportunidades de mejora para la solución.
+</p>
 
 ### 2.4. Big Picture EventStorming
 

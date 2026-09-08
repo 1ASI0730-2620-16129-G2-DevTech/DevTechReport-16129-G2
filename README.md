@@ -904,6 +904,13 @@ tiempo seleccionado.
 
 ![Servicios_wireframe.png](assets/Servicios_wireframe.png)
 
+**Recojos y Entregas**
+
+El siguiente wireframe organiza la logística de despacho y recolección de prendas para la Encargada de turno. Incluye
+una barra de búsqueda dedicada, un botón de acción principal para programar nuevos recojos o entregas y una tabla de
+datos detallada que registra identificadores, tipo de operación, cliente, dirección de destino, repartidor asignado, fecha, hora y estado del servicio
+
+![Recojos_entregas_wireframe.png](assets/Recojos_entregas_wireframe.png)
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 #### 4.4.3. Web Applications Mock-ups

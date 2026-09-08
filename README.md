@@ -921,6 +921,28 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 #### 2.2.2. Registro de entrevistas
 #### 2.2.3. Análisis de entrevistas
+**Primer segmento: Propietarios de lavanderias independientes**
+<ul>
+  <li>El 100% de los propietarios entrevistados registra información relacionada con los clientes y sus pedidos, incluyendo datos de contacto, prendas, cantidades, servicio solicitado y tiempo estimado de entrega.</li><br>
+  <li>El 66,7% de los propietarios entrevistados utiliza WhatsApp y llamadas telefónicas para comunicarse con sus clientes, principalmente para informar que un pedido está listo, atender consultas o comunicar inconvenientes relacionados con la entrega.</li><br>
+  <li>El 66,7% de los propietarios entrevistados prioriza los pedidos considerando principalmente la fecha prevista de entrega, aunque también puede tomar en cuenta características especiales del pedido o compromisos de recojo y entrega.</li><br>
+  <li>El 33,3% de los propietarios entrevistados ofrece el servicio de entrega a domicilio de manera no sistematizada, coordinando las direcciones y horarios directamente con los clientes mediante WhatsApp.</li><br>
+  <li>El 66,7% de los propietarios entrevistados considera que el registro de los pedidos representa una actividad que consume una cantidad considerable de tiempo, especialmente cuando aumenta el número de clientes y es necesario revisar diferentes registros.</li><br>
+  <li>El 66,7% de los propietarios entrevistados evidencia dificultades para realizar un seguimiento eficiente de los pedidos cuando existe una alta demanda, debido a que deben consultar registros manuales y organizar los pedidos de acuerdo con sus fechas de entrega.</li><br>
+  <li>El 100% de los propietarios entrevistados ha experimentado situaciones relacionadas con la confusión, pérdida o incorrecta asignación de prendas, aunque la frecuencia de estos problemas varía entre los establecimientos.</li><br>
+</ul>
+
+**Segundo segmento: Personas independientes que utilicen el servicio de lavanderías**
+<ul>
+  <li>El 100% de los entrevistados manifestó interés en conocer el estado de su pedido durante el proceso de lavado. </li><br>
+  <li>El 100% de los entrevistados considera relevante conocer con precisión cuándo estará listo su pedido, evidenciándose una necesidad de mayor certeza respecto al tiempo de entrega. </li><br>
+  <li>El 100% de los entrevistados evidencia la necesidad de contar con seguridad y confianza en la gestión de sus prendas, ya sea mediante el registro adecuado, la identificación de las prendas o la garantía de que estas serán entregadas correctamente.</li><br>
+  <li>El 66,7% de los entrevistados considera que el traslado de las prendas hacia la lavandería puede resultar incómodo o tedioso, especialmente cuando se trata de prendas voluminosas o pesadas.</li><br>
+  <li>El 66,7% de los entrevistados considera el precio como un factor relevante al elegir una lavandería, aunque su importancia puede variar de acuerdo con el tipo de prendas y servicio requerido.</li><br>
+  <li>El 100% de los entrevistados realiza un registro de las prendas y del servicio solicitado al momento de dejarlas en la lavandería.</li><br>
+  <li>El 100% de los entrevistados evidencia una necesidad de mejorar la comunicación con la lavandería, aunque el nivel de interacción esperado varía según el cliente y su nivel de confianza en el establecimiento.</li><br>
+</ul>
+
 
 ### 2.3. Needfinding
 

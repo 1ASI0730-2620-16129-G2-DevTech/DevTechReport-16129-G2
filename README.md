@@ -812,6 +812,7 @@
     </tr>
   </tbody>
 </table>
+<table style="border-collapse: collapse; width: 100%;">
   <thead>
     <tr>
       <th style="border: 1px solid black; padding: 8px; text-align: left;">Epic / Story ID</th>
@@ -1066,7 +1067,67 @@
   </tbody>
   <tbody>
     <tr>
-      <td style>
+      <td style="border: 1px solid black; padding: 8px;">US-028</td>
+      <td style="border: 1px solid black; padding: 8px;">Panel de Control en Vivo</td>
+      <td style="border: 1px solid black; padding: 8px;">Como dueño de lavandería, quiero ver un panel central con métricas en tiempo real (pedidos hoy, entregados, alertas IoT) para tener control total de mi operación sin pausas.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El panel muestra contadores actualizados en tiempo real, como pedidos del día y pedidos entregados.<br>2. El sistema muestra una alerta visual cuando un equipo se encuentra cerca de su límite de uso.<br>3. Cada métrica muestra una comparación con el periodo anterior, por ejemplo, un incremento del 18% respecto al día anterior.<br>4. La información se actualiza sin que el propietario tenga que recargar la página.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-008: Reportes y dashboard</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-029</td>
+      <td style="border: 1px solid black; padding: 8px;">Consultar el seguimiento del pedido en seis etapas</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente final, quiero ver el estado exacto de mi ropa en seis etapas claras para conocer el avance sin llamar a la lavandería.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El cliente puede ingresar su número de pedido, por ejemplo #WT-001.<br>2. El sistema muestra las etapas Recepción, Clasificación, Lavado, Secado/Planchado, Empaquetado y Listo.<br>3. Cada etapa indica si está Completada o Pendiente.<br>4. El seguimiento se actualiza automáticamente sin recargar la página.<br>5. La información se visualiza correctamente desde un celular.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-030</td>
+      <td style="border: 1px solid black; padding: 8px;">Recibir notificaciones automáticas por etapa</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente final, quiero recibir notificaciones automáticas cuando cambie el estado de mi pedido para evitar llamadas de consulta.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. Cuando cambia la etapa de un pedido, el sistema genera una notificación automática para el cliente asociado.<br>2. La notificación identifica el pedido y comunica claramente el nuevo avance.<br>3. La notificación se muestra sin letra pequeña ni información ambigua.<br>4. El cliente puede consultar la notificación desde la plataforma sin llamar a la lavandería.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-031</td>
+      <td style="border: 1px solid black; padding: 8px;">Recibir alertas IoT predictivas</td>
+      <td style="border: 1px solid black; padding: 8px;">Como dueño de lavandería, quiero recibir alertas sobre el uso de mis equipos para anticipar fallas y planificar su reemplazo.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El sistema recibe y procesa las mediciones de los sensores IoT de las lavadoras.<br>2. Cuando un equipo alcanza un umbral cercano a su límite de uso, el panel genera una alerta visible con el nombre del equipo.<br>3. Cuando un equipo llega al fin de su vida útil, el sistema genera una alerta específica de reemplazo.<br>4. El propietario puede consultar el uso acumulado y el estado de cada equipo desde el panel.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-013: Monitoreo de equipos IoT</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-032</td>
+      <td style="border: 1px solid black; padding: 8px;">Enviar formulario de captura de leads</td>
+      <td style="border: 1px solid black; padding: 8px;">Como nuevo usuario, quiero completar un formulario con mis datos y necesidades para recibir información sobre planes y servicios adecuados para mi negocio.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El formulario solicita Nombres, Correo, Tipo de Usuario, Servicio y Mensaje.<br>2. Todos los campos son obligatorios antes de enviar la solicitud.<br>3. Si falta algún campo, el sistema muestra el mensaje "Complete todos los campos" y no envía el formulario.<br>4. En Tipo de Usuario se puede seleccionar Cliente o Dueño de lavandería.<br>5. Cuando los datos están completos, el sistema confirma el envío de la solicitud.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-014: Captura de leads</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-033</td>
+      <td style="border: 1px solid black; padding: 8px;">Gestionar integralmente los pedidos</td>
+      <td style="border: 1px solid black; padding: 8px;">Como dueño de lavandería, quiero digitalizar la recepción de pedidos, prendas y notas de cuidado para evitar errores y pérdida de prendas.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. Al recibir una orden, el sistema registra el tipo y cantidad de prendas.<br>2. El dueño puede registrar notas de cuidado especial asociadas al pedido.<br>3. El pedido puede organizarse en el flujo Recepción, Clasificación, Lavado, Secado/Planchado, Empaquetado y Listo.<br>4. El sistema conserva el historial de cambios del pedido y sus observaciones.<br>5. La información queda centralizada y disponible sin depender de cuadernos o papeles sueltos.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-034</td>
+      <td style="border: 1px solid black; padding: 8px;">Coordinar logística y pagos digitales</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente final, quiero coordinar el recojo o envío de mi pedido y realizar pagos digitales para gestionar el servicio sin complicaciones.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. Al crear una solicitud, el cliente puede elegir la modalidad Recojo o Envío a domicilio.<br>2. El sistema permite registrar la dirección, fecha y rango horario cuando la modalidad lo requiera.<br>3. El cliente puede realizar pagos digitales integrados durante el proceso.<br>4. El sistema confirma el resultado del pago y lo asocia al pedido.<br>5. El dueño puede consultar y gestionar el estado de la logística desde el panel central.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio / EP-006: Gestión de pagos</td>
+    </tr>
+  </tbody>
 </table>
 
 ### 3.2. Impact Mapping

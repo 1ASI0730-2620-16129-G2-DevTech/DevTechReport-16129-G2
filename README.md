@@ -402,7 +402,7 @@
       <th style="border: 1px solid black; padding: 8px; text-align: left;">Epic / Story ID</th>
       <th style="border: 1px solid black; padding: 8px; text-align: left;">Título</th>
       <th style="border: 1px solid black; padding: 8px; text-align: left;">Descripción</th>
-      <th style="border: 1px solid black; padding: 8px; text-align: left;">Criterios de Aceptación (Gherkin)</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Criterios de Aceptación</th>
       <th style="border: 1px solid black; padding: 8px; text-align: left;">Relacionado con (Epic ID)</th>
     </tr>
   </thead>
@@ -1064,6 +1064,9 @@
       <td style="border: 1px solid black; padding: 8px;">EP-007: Atención de incidencias</td>
     </tr>
   </tbody>
+  <tbody>
+    <tr>
+      <td style>
 </table>
 
 ### 3.2. Impact Mapping

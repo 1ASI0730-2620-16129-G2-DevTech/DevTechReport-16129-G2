@@ -1474,6 +1474,9 @@ El diseño de la interfaz de usuario (UI) de la Landing Page de <b>WashTrack</b>
 </p>
 
 #### 4.3.1. Landing Page Wireframe
+<p align="justify">
+A continuación, se presentan los wireframes correspondientes a la interfaz de la Landing Page de <b>WashTrack</b>. Estos bocetos de baja fidelidad estructuran la disposición visual de los elementos clave, permitiendo validar la jerarquía de la información, la distribución de los componentes y la experiencia de navegación inicial del usuario antes de proceder con el diseño de alta fidelidad.
+</p>
 #### 4.3.2. Landing Page Mock-up
 
 ### 4.4. Web Applications UX/UI Design

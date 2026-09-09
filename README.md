@@ -586,6 +586,69 @@
       <td style="border: 1px solid black; padding: 8px;">EP-008: Reportes y dashboard</td>
     </tr>
   </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-021</td>
+      <td style="border: 1px solid black; padding: 8px;">Priorizar pedidos por fecha de entrega</td>
+      <td style="border: 1px solid black; padding: 8px;">Como propietario de lavandería, quiero ordenar los pedidos según su fecha prevista de entrega para atender primero los pedidos más próximos a vencer.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El sistema ordena los pedidos por fecha prevista de entrega.<br>2. Los pedidos próximos a vencer o atrasados se identifican visualmente.<br>3. El propietario puede considerar observaciones sobre características especiales del pedido o compromisos de recojo y entrega.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-022</td>
+      <td style="border: 1px solid black; padding: 8px;">Visualizar pedidos pendientes y próximos a entregar</td>
+      <td style="border: 1px solid black; padding: 8px;">Como trabajador de lavandería, quiero visualizar los pedidos pendientes y próximos a entregar en una sola pantalla para organizar el trabajo durante los periodos de alta demanda.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El sistema muestra los pedidos pendientes en una vista centralizada.<br>2. Se pueden filtrar los pedidos por estado y fecha de entrega.<br>3. Los pedidos atrasados se diferencian de los pedidos dentro del plazo.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-023</td>
+      <td style="border: 1px solid black; padding: 8px;">Registrar instrucciones especiales del pedido</td>
+      <td style="border: 1px solid black; padding: 8px;">Como encargado de lavandería, quiero registrar instrucciones especiales y compromisos de recojo o entrega para asegurar que el pedido sea atendido según lo acordado con el cliente.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El encargado puede registrar observaciones del pedido.<br>2. Las observaciones se muestran durante la gestión y entrega del pedido.<br>3. El sistema conserva las instrucciones en el historial del pedido.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-024</td>
+      <td style="border: 1px solid black; padding: 8px;">Registrar comunicaciones con el cliente</td>
+      <td style="border: 1px solid black; padding: 8px;">Como encargado de lavandería, quiero registrar las comunicaciones realizadas mediante WhatsApp o llamadas telefónicas para mantener un historial de avisos, consultas e inconvenientes del pedido.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. Se puede registrar el canal de comunicación utilizado.<br>2. Se puede indicar el motivo y el resumen de la comunicación.<br>3. El registro queda asociado al cliente y al pedido correspondiente.<br>4. Se guarda la fecha y hora de la comunicación.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-007: Atención de incidencias</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-025</td>
+      <td style="border: 1px solid black; padding: 8px;">Coordinar entregas a domicilio</td>
+      <td style="border: 1px solid black; padding: 8px;">Como propietario de lavandería, quiero consultar las direcciones y horarios acordados para organizar las entregas a domicilio de manera ordenada.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El sistema muestra las entregas pendientes de coordinación.<br>2. Se puede consultar la dirección y el horario acordado con el cliente.<br>3. La entrega puede marcarse como programada, realizada o no realizada.<br>4. El pedido conserva el historial de coordinación.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-026</td>
+      <td style="border: 1px solid black; padding: 8px;">Identificar las prendas mediante un código</td>
+      <td style="border: 1px solid black; padding: 8px;">Como trabajador de lavandería, quiero identificar cada pedido mediante un código o etiqueta para evitar la pérdida, confusión o asignación incorrecta de prendas.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. Cada pedido tiene un código único visible en su detalle.<br>2. El código puede asociarse a las prendas del pedido.<br>3. El trabajador puede consultar el código antes de procesar o entregar las prendas.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-027</td>
+      <td style="border: 1px solid black; padding: 8px;">Validar las prendas antes de entregar el pedido</td>
+      <td style="border: 1px solid black; padding: 8px;">Como trabajador de lavandería, quiero revisar el detalle de las prendas antes de entregar un pedido para confirmar que corresponde al cliente correcto.</td>
+      <td style="border: 1px solid black; padding: 8px;">1. El sistema muestra las prendas y cantidades registradas.<br>2. El trabajador puede confirmar la validación del pedido.<br>3. La entrega queda registrada con fecha, hora y responsable.<br>4. Si existe una diferencia, el trabajador puede registrar una incidencia antes de cerrar la entrega.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-007: Atención de incidencias</td>
+    </tr>
+  </tbody>
 </table>
 
 ### 3.2. Impact Mapping

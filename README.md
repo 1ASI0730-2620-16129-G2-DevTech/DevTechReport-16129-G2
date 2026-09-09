@@ -1477,6 +1477,40 @@ El diseño de la interfaz de usuario (UI) de la Landing Page de <b>WashTrack</b>
 <p align="justify">
 A continuación, se presentan los wireframes correspondientes a la interfaz de la Landing Page de <b>WashTrack</b>. Estos bocetos de baja fidelidad estructuran la disposición visual de los elementos clave, permitiendo validar la jerarquía de la información, la distribución de los componentes y la experiencia de navegación inicial del usuario antes de proceder con el diseño de alta fidelidad.
 </p>
+
+<div align="center">
+  <img src="./assets/LandingPage-Wireframe1.png" width="700px" alt="Landing Page Wireframe 1">
+  <p><b>Figura 1:</b> Sección principal con propuesta de valor, accesos rápidos y vista previa de la plataforma.</p>
+  <p></p>
+  
+  <img src="./assets/LandingPage-Wireframe2.png" width="700px" alt="Landing Page Wireframe 2">
+  <p><b>Figura 2:</b> Sección de identificación del problema y solución principal para los negocios de lavandería.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Wireframe3.png" width="700px" alt="Landing Page Wireframe 3">
+  <p><b>Figura 3:</b> Sección de características clave y descripción del funcionamiento general de WashTrack.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Wireframe4.png" width="700px" alt="Landing Page Wireframe 4">
+  <p><b>Figura 4:</b> Módulo detallado de seguimiento en tiempo real y listas de control de operaciones.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Wireframe5.png" width="700px" alt="Landing Page Wireframe 5">
+  <p><b>Figura 5:</b> Sección orientada a los dos lados de la misma lavandería.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Wireframe6.png" width="700px" alt="Landing Page Wireframe 6">
+  <p><b>Figura 6:</b> Sección "Sobre Nosotros" que presenta al equipo desarrollador y las cualidades de la plataforma.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Wireframe7.png" width="700px" alt="Landing Page Wireframe 7">
+  <p><b>Figura 7:</b> Sección de planes y precios adaptados a cada tamaño de lavandería.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Wireframe8.png" width="700px" alt="Landing Page Wireframe 8">
+  <p><b>Figura 8:</b> Formulario de atención, pie de página (footer) y enlaces legales de la plataforma.</p>
+</div>
+
 #### 4.3.2. Landing Page Mock-up
 
 ### 4.4. Web Applications UX/UI Design

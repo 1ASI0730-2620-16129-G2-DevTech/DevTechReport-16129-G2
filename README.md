@@ -811,8 +811,7 @@
       <td style="border: 1px solid black; padding: 8px;">EP-007: Atención de incidencias</td>
     </tr>
   </tbody>
-</table>
-<table style="border-collapse: collapse; width: 100%;">
+<!--
   <thead>
     <tr>
       <th style="border: 1px solid black; padding: 8px; text-align: left;">Epic / Story ID</th>
@@ -1065,12 +1064,14 @@
       <td style="border: 1px solid black; padding: 8px;">EP-007: Atención de incidencias</td>
     </tr>
   </tbody>
+  </tbody>
+-->
   <tbody>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-028</td>
       <td style="border: 1px solid black; padding: 8px;">Panel de Control en Vivo</td>
       <td style="border: 1px solid black; padding: 8px;">Como dueño de lavandería, quiero ver un panel central con métricas en tiempo real (pedidos hoy, entregados, alertas IoT) para tener control total de mi operación sin pausas.</td>
-      <td style="border: 1px solid black; padding: 8px;">1. El panel muestra contadores actualizados en tiempo real, como pedidos del día y pedidos entregados.<br>2. El sistema muestra una alerta visual cuando un equipo se encuentra cerca de su límite de uso.<br>3. Cada métrica muestra una comparación con el periodo anterior, por ejemplo, un incremento del 18% respecto al día anterior.<br>4. La información se actualiza sin que el propietario tenga que recargar la página.</td>
+      <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Visualización del panel en vivo</b><br><b>Dado</b> que el dueño de la lavandería accede al panel principal<br><b>Cuando</b> consulta la operación del día<br><b>Entonces</b> el sistema muestra contadores actualizados de pedidos y entregas<br><b>Y</b> presenta una comparación porcentual con el periodo anterior.<br><br><b>Escenario: Alerta de uso de equipos</b><br><b>Dado</b> que una lavadora se encuentra cerca de su límite de uso<br><b>Cuando</b> el sensor IoT reporta el umbral configurado<br><b>Entonces</b> el panel muestra una alerta visual con el nombre del equipo<br><b>Y</b> la información se actualiza sin recargar la página.</td>
       <td style="border: 1px solid black; padding: 8px;">EP-008: Reportes y dashboard</td>
     </tr>
   </tbody>
@@ -1079,7 +1080,7 @@
       <td style="border: 1px solid black; padding: 8px;">US-029</td>
       <td style="border: 1px solid black; padding: 8px;">Consultar el seguimiento del pedido en seis etapas</td>
       <td style="border: 1px solid black; padding: 8px;">Como cliente final, quiero ver el estado exacto de mi ropa en seis etapas claras para conocer el avance sin llamar a la lavandería.</td>
-      <td style="border: 1px solid black; padding: 8px;">1. El cliente puede ingresar su número de pedido, por ejemplo #WT-001.<br>2. El sistema muestra las etapas Recepción, Clasificación, Lavado, Secado/Planchado, Empaquetado y Listo.<br>3. Cada etapa indica si está Completada o Pendiente.<br>4. El seguimiento se actualiza automáticamente sin recargar la página.<br>5. La información se visualiza correctamente desde un celular.</td>
+      <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Consulta del seguimiento por pedido</b><br><b>Dado</b> que el cliente cuenta con un número de pedido, por ejemplo #WT-001<br><b>Cuando</b> ingresa el código en el módulo de seguimiento<br><b>Entonces</b> el sistema muestra Recepción, Clasificación, Lavado, Secado/Planchado, Empaquetado y Listo<br><b>Y</b> cada etapa indica si está Completada o Pendiente.<br><br><b>Escenario: Seguimiento desde celular</b><br><b>Dado</b> que el cliente consulta su pedido desde un dispositivo móvil<br><b>Cuando</b> la lavandería actualiza una etapa<br><b>Entonces</b> el estado se refleja automáticamente sin recargar la página<br><b>Y</b> la información permanece visible y legible.</td>
       <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
     </tr>
   </tbody>
@@ -1088,7 +1089,7 @@
       <td style="border: 1px solid black; padding: 8px;">US-030</td>
       <td style="border: 1px solid black; padding: 8px;">Recibir notificaciones automáticas por etapa</td>
       <td style="border: 1px solid black; padding: 8px;">Como cliente final, quiero recibir notificaciones automáticas cuando cambie el estado de mi pedido para evitar llamadas de consulta.</td>
-      <td style="border: 1px solid black; padding: 8px;">1. Cuando cambia la etapa de un pedido, el sistema genera una notificación automática para el cliente asociado.<br>2. La notificación identifica el pedido y comunica claramente el nuevo avance.<br>3. La notificación se muestra sin letra pequeña ni información ambigua.<br>4. El cliente puede consultar la notificación desde la plataforma sin llamar a la lavandería.</td>
+      <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Notificación automática por cambio de etapa</b><br><b>Dado</b> que un pedido tiene un cliente asociado<br><b>Cuando</b> la lavandería actualiza su etapa<br><b>Entonces</b> el sistema envía una notificación automática identificando el pedido y su nuevo avance<br><b>Y</b> el cliente puede consultarla claramente desde la plataforma sin realizar una llamada.</td>
       <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
     </tr>
   </tbody>
@@ -1097,7 +1098,7 @@
       <td style="border: 1px solid black; padding: 8px;">US-031</td>
       <td style="border: 1px solid black; padding: 8px;">Recibir alertas IoT predictivas</td>
       <td style="border: 1px solid black; padding: 8px;">Como dueño de lavandería, quiero recibir alertas sobre el uso de mis equipos para anticipar fallas y planificar su reemplazo.</td>
-      <td style="border: 1px solid black; padding: 8px;">1. El sistema recibe y procesa las mediciones de los sensores IoT de las lavadoras.<br>2. Cuando un equipo alcanza un umbral cercano a su límite de uso, el panel genera una alerta visible con el nombre del equipo.<br>3. Cuando un equipo llega al fin de su vida útil, el sistema genera una alerta específica de reemplazo.<br>4. El propietario puede consultar el uso acumulado y el estado de cada equipo desde el panel.</td>
+      <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Equipo cercano al límite de uso</b><br><b>Dado</b> que un sensor IoT monitorea una lavadora en operación<br><b>Cuando</b> el uso alcanza el umbral cercano al límite configurado<br><b>Entonces</b> el panel genera una alerta visible con el nombre del equipo.<br><br><b>Escenario: Fin de vida útil del equipo</b><br><b>Dado</b> que el uso acumulado de una lavadora alcanza su límite<br><b>Cuando</b> el sensor reporta el fin de su vida útil<br><b>Entonces</b> el sistema genera una alerta de reemplazo<br><b>Y</b> el propietario puede consultar el uso y estado del equipo.</td>
       <td style="border: 1px solid black; padding: 8px;">EP-013: Monitoreo de equipos IoT</td>
     </tr>
   </tbody>
@@ -1106,7 +1107,7 @@
       <td style="border: 1px solid black; padding: 8px;">US-032</td>
       <td style="border: 1px solid black; padding: 8px;">Enviar formulario de captura de leads</td>
       <td style="border: 1px solid black; padding: 8px;">Como nuevo usuario, quiero completar un formulario con mis datos y necesidades para recibir información sobre planes y servicios adecuados para mi negocio.</td>
-      <td style="border: 1px solid black; padding: 8px;">1. El formulario solicita Nombres, Correo, Tipo de Usuario, Servicio y Mensaje.<br>2. Todos los campos son obligatorios antes de enviar la solicitud.<br>3. Si falta algún campo, el sistema muestra el mensaje "Complete todos los campos" y no envía el formulario.<br>4. En Tipo de Usuario se puede seleccionar Cliente o Dueño de lavandería.<br>5. Cuando los datos están completos, el sistema confirma el envío de la solicitud.</td>
+      <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Envío válido del formulario</b><br><b>Dado</b> que el usuario accede a Contacto o Planes<br><b>Cuando</b> completa Nombres, Correo, Tipo de Usuario, Servicio y Mensaje, seleccionando Cliente o Dueño de lavandería<br><b>Entonces</b> el sistema confirma el envío de la solicitud.<br><br><b>Escenario: Validación de campos obligatorios</b><br><b>Dado</b> que falta uno o más campos del formulario<br><b>Cuando</b> el usuario intenta enviarlo<br><b>Entonces</b> el sistema muestra el mensaje "Complete todos los campos"<br><b>Y</b> no envía la solicitud.</td>
       <td style="border: 1px solid black; padding: 8px;">EP-014: Captura de leads</td>
     </tr>
   </tbody>
@@ -1115,7 +1116,7 @@
       <td style="border: 1px solid black; padding: 8px;">US-033</td>
       <td style="border: 1px solid black; padding: 8px;">Gestionar integralmente los pedidos</td>
       <td style="border: 1px solid black; padding: 8px;">Como dueño de lavandería, quiero digitalizar la recepción de pedidos, prendas y notas de cuidado para evitar errores y pérdida de prendas.</td>
-      <td style="border: 1px solid black; padding: 8px;">1. Al recibir una orden, el sistema registra el tipo y cantidad de prendas.<br>2. El dueño puede registrar notas de cuidado especial asociadas al pedido.<br>3. El pedido puede organizarse en el flujo Recepción, Clasificación, Lavado, Secado/Planchado, Empaquetado y Listo.<br>4. El sistema conserva el historial de cambios del pedido y sus observaciones.<br>5. La información queda centralizada y disponible sin depender de cuadernos o papeles sueltos.</td>
+      <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Registro integral de una orden</b><br><b>Dado</b> que el dueño recibe una solicitud de servicio<br><b>Cuando</b> registra las prendas, cantidades y notas de cuidado especial<br><b>Entonces</b> el sistema asocia la información al pedido<br><b>Y</b> permite organizarlo en Recepción, Clasificación, Lavado, Secado/Planchado, Empaquetado y Listo.<br><br><b>Escenario: Consulta centralizada</b><br><b>Dado</b> que el pedido tiene información registrada<br><b>Cuando</b> el dueño consulta su detalle<br><b>Entonces</b> visualiza el historial y las observaciones sin depender de cuadernos o papeles sueltos.</td>
       <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
     </tr>
   </tbody>
@@ -1124,8 +1125,71 @@
       <td style="border: 1px solid black; padding: 8px;">US-034</td>
       <td style="border: 1px solid black; padding: 8px;">Coordinar logística y pagos digitales</td>
       <td style="border: 1px solid black; padding: 8px;">Como cliente final, quiero coordinar el recojo o envío de mi pedido y realizar pagos digitales para gestionar el servicio sin complicaciones.</td>
-      <td style="border: 1px solid black; padding: 8px;">1. Al crear una solicitud, el cliente puede elegir la modalidad Recojo o Envío a domicilio.<br>2. El sistema permite registrar la dirección, fecha y rango horario cuando la modalidad lo requiera.<br>3. El cliente puede realizar pagos digitales integrados durante el proceso.<br>4. El sistema confirma el resultado del pago y lo asocia al pedido.<br>5. El dueño puede consultar y gestionar el estado de la logística desde el panel central.</td>
+      <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Solicitud con modalidad y pago digital</b><br><b>Dado</b> que el cliente crea una solicitud<br><b>Cuando</b> selecciona Recojo o Envío a domicilio, registra los datos logísticos y realiza el pago digital<br><b>Entonces</b> el sistema confirma el resultado del pago y lo asocia al pedido<br><b>Y</b> el dueño puede gestionar el estado logístico desde el panel central.</td>
       <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio / EP-006: Gestión de pagos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-035</td>
+      <td style="border: 1px solid black; padding: 8px;">Consultar el avance del pedido en tiempo real</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero consultar el avance de mi pedido durante el proceso de lavado para saber qué se ha realizado y qué falta completar.</td>
+      <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Consulta del avance del pedido</b><br><b>Dado</b> que el cliente tiene un pedido en proceso<br><b>Cuando</b> ingresa a la plataforma<br><b>Entonces</b> visualiza la etapa completada, la etapa en curso y las etapas pendientes<br><b>Y</b> el estado se actualiza automáticamente sin necesidad de llamar a la lavandería.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-036</td>
+      <td style="border: 1px solid black; padding: 8px;">Conocer la fecha comprometida de entrega</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero conocer con precisión cuándo estará listo mi pedido para organizar mi tiempo y tener certeza sobre la entrega.</td>
+      <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Visualización de fecha comprometida</b><br><b>Dado</b> que el cliente tiene un pedido registrado<br><b>Cuando</b> consulta el resumen o detalle del pedido<br><b>Entonces</b> el sistema muestra la fecha y hora estimadas de disponibilidad.<br><br><b>Escenario: Actualización por retraso</b><br><b>Dado</b> que el pedido presenta un retraso<br><b>Cuando</b> la lavandería actualiza la fecha estimada<br><b>Entonces</b> el sistema comunica la nueva fecha y el motivo<br><b>Y</b> notifica al cliente cuando el pedido está listo.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-037</td>
+      <td style="border: 1px solid black; padding: 8px;">Garantizar la trazabilidad de las prendas</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero que mis prendas estén identificadas y registradas correctamente para tener seguridad y confianza durante todo el servicio.</td>
+      <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Trazabilidad de las prendas</b><br><b>Dado</b> que se recibe un pedido<br><b>Cuando</b> el personal registra las prendas, cantidades y características<br><b>Entonces</b> el sistema asigna un código único y conserva la información durante el proceso<br><b>Y</b> permite verificarla antes de cada etapa y de la entrega.<br><br><b>Escenario: Diferencia en las prendas</b><br><b>Dado</b> que existe una diferencia durante la verificación<br><b>Cuando</b> el personal la registra<br><b>Entonces</b> el sistema crea una incidencia visible en el historial del pedido.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos / EP-007: Atención de incidencias</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-038</td>
+      <td style="border: 1px solid black; padding: 8px;">Solicitar recojo para prendas voluminosas</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero solicitar el recojo de prendas voluminosas o pesadas para evitar traslados incómodos hacia la lavandería.</td>
+      <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Recojo de prendas voluminosas</b><br><b>Dado</b> que el cliente necesita trasladar prendas voluminosas o pesadas<br><b>Cuando</b> selecciona el recojo a domicilio e indica el tipo o volumen de prendas<br><b>Entonces</b> el sistema muestra disponibilidad, costo y rango horario<br><b>Y</b> confirma la solicitud y permite consultar su estado.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-039</td>
+      <td style="border: 1px solid black; padding: 8px;">Consultar precios antes de confirmar el servicio</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero conocer el precio del servicio según mis prendas y modalidad para comparar alternativas y tomar una decisión informada.</td>
+      <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Consulta del precio del servicio</b><br><b>Dado</b> que el cliente selecciona prendas, servicio y modalidad<br><b>Cuando</b> revisa el resumen de la solicitud<br><b>Entonces</b> el sistema muestra el precio estimado y separa el costo logístico cuando corresponda<br><b>Y</b> permite revisar el total antes de confirmar o pagar.<br><br><b>Escenario: Cambio del precio final</b><br><b>Dado</b> que el precio cambia después de recibir las prendas<br><b>Cuando</b> la lavandería registra el nuevo monto<br><b>Entonces</b> el sistema solicita la confirmación del cliente y conserva el motivo del cambio.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-006: Gestión de pagos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-040</td>
+      <td style="border: 1px solid black; padding: 8px;">Registrar prendas y servicio solicitado</td>
+      <td style="border: 1px solid black; padding: 8px;">Como encargado de lavandería, quiero registrar las prendas y el servicio solicitado al recibirlas para conservar un detalle completo de la orden.</td>
+      <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Registro de prendas y servicio</b><br><b>Dado</b> que el encargado recibe las prendas del cliente<br><b>Cuando</b> registra el tipo, cantidad, servicio solicitado y observaciones de cuidado<br><b>Entonces</b> el sistema guarda el detalle asociado al pedido<br><b>Y</b> el cliente y el encargado pueden consultarlo antes de iniciar el procesamiento.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-041</td>
+      <td style="border: 1px solid black; padding: 8px;">Mantener una comunicación clara con el cliente</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero recibir comunicaciones claras y oportunas sobre mi pedido para confiar en el servicio y reducir consultas repetitivas.</td>
+      <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Comunicación automática del pedido</b><br><b>Dado</b> que ocurre la recepción, un cambio relevante, un retraso o la disponibilidad del pedido<br><b>Cuando</b> el sistema registra el evento<br><b>Entonces</b> comunica al cliente un mensaje breve, claro e identificado con su pedido<br><b>Y</b> conserva la comunicación en el historial.<br><br><b>Escenario: Comunicación manual</b><br><b>Dado</b> que el encargado necesita informar una situación al cliente<br><b>Cuando</b> registra la comunicación desde el pedido<br><b>Entonces</b> el sistema la asocia al historial correspondiente.</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos / EP-007: Atención de incidencias</td>
     </tr>
   </tbody>
 </table>

@@ -1512,6 +1512,42 @@ A continuación, se presentan los wireframes correspondientes a la interfaz de l
 </div>
 
 #### 4.3.2. Landing Page Mock-up
+<p align="justify">
+A continuación, se presentan los mock-ups correspondientes al diseño de alta fidelidad de la Landing Page de <b>WashTrack</b>. Estas interfaces visuales incorporan la paleta de colores definitiva, la tipografía, los elementos gráficos y los componentes interactivos estilizados, reflejando el aspecto visual final y la experiencia de usuario (UI/UX) implementada en el desarrollo del proyecto.
+</p>
+
+<div align="center">
+  <img src="./assets/LandingPage-Mockup1.PNG" width="700px" alt="Landing Page Mock-up 1">
+  <p><b>Figura 9:</b> Vista de la sección principal con propuesta de valor, accesos rápidos, botones de llamada a la acción y un panel interactivo flotante con métricas en tiempo real.</p>
+  <p></p>
+  
+  <img src="./assets/LandingPage-Mockup2.PNG" width="700px" alt="Landing Page Mock-up 2">
+  <p><b>Figura 10:</b> Sección de problema y solución que contrasta la gestión tradicional basada en cuadernos con la automatización digital de la plataforma.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Mockup3.PNG" width="700px" alt="Landing Page Mock-up 3">
+  <p><b>Figura 11:</b> Sección de características clave y descripción del flujo operativo general de la plataforma respaldado por imágenes reales de instalaciones.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Mockup4.PNG" width="700px" alt="Landing Page Mock-up 4">
+  <p><b>Figura 12:</b> Módulo detallado de seguimiento en tiempo real que detalla las diferentes etapas del estado de los pedidos de los clientes.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Mockup5.PNG" width="700px" alt="Landing Page Mock-up 5">
+  <p><b>Figura 13:</b> Sección dual orientada tanto a los administradores de lavanderías como a los usuarios finales que buscan simplificar el lavado de sus prendas.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Mockup6.PNG" width="700px" alt="Landing Page Mock-up 6">
+  <p><b>Figura 14:</b> Sección Sobre Nosotros que presenta al equipo desarrollador junto con los pilares fundamentales y valores de la plataforma.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Mockup7.PNG" width="700px" alt="Landing Page Mock-up 7">
+  <p><b>Figura 15:</b> Sección de planes y precios adaptados para cada tamaño de negocio con un acceso directo para establecer contacto.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Mockup8.PNG" width="700px" alt="Landing Page Mock-up 8">
+  <p><b>Figura 16:</b> Formulario de atención interactivo seguido del pie de página oficial que incluye la identidad de la marca y enlaces legales.</p>
+</div>
 
 ### 4.4. Web Applications UX/UI Design
 

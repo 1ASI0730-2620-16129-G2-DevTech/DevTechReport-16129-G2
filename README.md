@@ -920,6 +920,13 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 - ¿Qué tendría que mejorar una lavandería para que estuvieras más satisfecho con su servicio? 
 
 #### 2.2.2. Registro de entrevistas
+<p align="center">
+  <img src="assets/img/Chapter2/Interview/Registro_Entrevistas.png" alt="Video de registro de entrevistas de ambos segmentos" width="500"/>
+  <br/><i>Evidencia de entrevista (ambos segmentos)</i>
+</p>
+
+***Enlace del video:*** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQBteAOvFWmaTb9BO9km69zHARlBa-PbkxSnjg9gsWnRY-I?e=qibbPs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 #### 2.2.3. Análisis de entrevistas
 **Primer segmento: Propietarios de lavanderias independientes**
 <ul>

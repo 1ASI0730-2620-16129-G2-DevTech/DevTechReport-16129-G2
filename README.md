@@ -921,7 +921,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 #### 2.2.2. Registro de entrevistas
 **Primer Segmento: Propietarios de lavanderías independientes**
-<u>Entrevista 1:</u>
+<p><u>Entrevista 1:</u><p>
 
 <br>
 <u>Entrevista 2:</u>
@@ -966,7 +966,29 @@ Datos del entrevistado:
 </div>
 <br>
 
-<u>Entrevista 2:</u>
+<p><u>Entrevista 2:</u></p>
+
+Entrevistador: Perez Vasquez Ariana Valeria
+
+Datos del entrevistado:
+
+- **Nombre:** Renzo
+- **Apellidos:** Mongrut
+- **Edad:** 20 años
+- **Distrito:** Jesus María
+- **Timing:** 00:43:02 - 00:53:07
+
+<div align="justify">
+
+Renzo Mongrut, de 20 años y residente en Jesús María, es un cliente frecuente de lavanderías, ya que utiliza este servicio aproximadamente dos a tres veces por semana. Durante la entrevista, mencionó que una de sus principales dificultades es la desconfianza hacia algunas lavanderías, debido a experiencias en las que sus prendas no fueron entregadas correctamente. Asimismo, señaló haber tenido problemas relacionados con el cuidado de su ropa, como prendas desgastadas y botones dañados o rotos durante el proceso.
+
+Por otro lado, considera importante conocer con precisión qué prendas lleva a la lavandería y poder realizar un seguimiento de ellas durante todo el proceso, desde la recepción hasta la entrega. Debido a que estudia y trabaja, dispone de poco tiempo, por lo que el traslado desde su domicilio hacia la lavandería y, especialmente, el recojo de sus prendas representan una dificultad. En este sentido, manifestó interés en contar con un servicio de lavandería que incluya delivery, de manera que pueda ahorrar tiempo y evitar desplazamientos innecesarios.
+
+Finalmente, Renzo considera que contar con un sistema que permita registrar las prendas entregadas, realizar un seguimiento de su estado y recibir información sobre el avance del servicio podría brindarle mayor confianza y seguridad. Además, un servicio de recojo y entrega a domicilio se ajustaría mejor a su rutina de estudio y trabajo.
+
+</div>
+<br>
+
 <u>Entrevista 3:</u>
 
 <p align="center">

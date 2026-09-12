@@ -949,6 +949,13 @@ de comportamiento histórico para analizar anomalías a lo largo del tiempo.
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 
+Esta sección presenta los wireflows de WashTrack, diseñada para propietarios de lavanderías independientes, y de la app 
+cliente, enfocada en sus usuarios finales. Ambos diagramas parten de los wireframes de baja fidelidad para detallar las 
+interacciones necesarias que permiten cumplir objetivos específicos. Asimismo, elaborados en FigJam, ilustran de forma 
+visual tanto el flujo principal como las rutas alternativas ante posibles errores.
+
+
+
 #### 4.4.3. Web Applications Mock-ups
 
 **DashBoard**
@@ -1088,7 +1095,6 @@ Este módulo permite **concentrarse únicamente en las lavadoras que requieren a
 * **Detalle reutilizado:** al seleccionar una alerta, se accede al mismo detalle de métricas de la lavadora.
 * **Navegación agrupada:** Alertas y Monitoreo IoT están dentro de "Monitoreo", diferenciándolos de las funciones operativas.
 * **Propósito claro:** permite pasar de la supervisión general a la atención específica de problemas.
-
 
 
 #### 4.4.4. Web Applications User Flow Diagrams

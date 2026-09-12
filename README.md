@@ -966,7 +966,28 @@ Datos del entrevistado:
 </div>
 <br>
 
+
+
 <p><u>Entrevista 2:</u></p>
+
+Entrevistador: 
+
+Datos del entrevistado:
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:** 20 
+- **Distrito:**  
+- **Timing:** 00:43:02 - 00:53:07
+
+<div align="justify">
+
+
+
+</div>
+<br>
+
+<p><u>Entrevista 3:</u></p>
 
 Entrevistador: Perez Vasquez Ariana Valeria
 
@@ -986,10 +1007,6 @@ Por otro lado, considera importante conocer con precisión qué prendas lleva a 
 
 Finalmente, Renzo considera que contar con un sistema que permita registrar las prendas entregadas, realizar un seguimiento de su estado y recibir información sobre el avance del servicio podría brindarle mayor confianza y seguridad. Además, un servicio de recojo y entrega a domicilio se ajustaría mejor a su rutina de estudio y trabajo.
 
-</div>
-<br>
-
-<u>Entrevista 3:</u>
 
 <p align="center">
   <img src="assets/img/Chapter2/Interview/Registro_Entrevistas.png" alt="Video de registro de entrevistas de ambos segmentos" width="500"/>

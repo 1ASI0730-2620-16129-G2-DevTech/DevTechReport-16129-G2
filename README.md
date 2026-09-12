@@ -1135,6 +1135,15 @@ Finalmente, Renzo considera que contar con un sistema que permita registrar las 
 </p>
 <br>
 
+**Step 2: Sorting Domain Events (chronologically)**
+<p align="justify">
+    Después, los eventos del dominio se ordenan cronológicamente según el momento en que ocurrieron. Esto permite mantener la secuencia correcta de las acciones dentro del sistema y garantizar que los eventos sean procesados respetando el orden en el que sucedieron.
+</p>
+
+<p align="center">
+  <img src="assets/img/Chapter2/BigPictureEventStorming/step2.png" alt="step2_big_picture" width="500"/>
+</p>
+
 ### 2.5. Ubiquitous Language
 
 ---

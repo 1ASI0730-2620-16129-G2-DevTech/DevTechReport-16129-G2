@@ -954,7 +954,63 @@ cliente, enfocada en sus usuarios finales. Ambos diagramas parten de los wirefra
 interacciones necesarias que permiten cumplir objetivos específicos. Asimismo, elaborados en FigJam, ilustran de forma 
 visual tanto el flujo principal como las rutas alternativas ante posibles errores.
 
+---
+### Registrar un nuevo pedido
 
+User Goal: Registrar un nuevo pedido en el sistema, desde que el encargado de turno recibe la solicitud del cliente hasta 
+que el pedido queda guardado y visible en la Lista de Pedidos.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería.
+
+![img.pn![RegistrarNuevoPedido.png](assets/RegistrarNuevoPedido.png)g](assets/RegistrarNuevoPedido.png)(Imagen)
+
+**Explicación del flujo:**
+
+*Happy path:* El usuario ingresa al Dashboard, navega a Pedidos, hace clic en "+ Nuevo pedido", el sistema despliega el 
+formulario sobre la lista atenuada, el usuario busca y selecciona un cliente, completa o confirma los campos restantes 
+(fechas, servicio, cantidad de prendas, estado, pago, tipo de entrega, método de pago) y guarda. El sistema valida los datos,
+cierra el formulario y muestra el pedido al inicio de la tabla.
+
+*Unhappy paths:*
+
+- Cliente no encontrado en la búsqueda: el sistema muestra "Sin resultados" y el flujo no avanza hasta seleccionar un cliente válido.
+
+- Error de validación al guardar: el formulario permanece abierto y se muestra el mensaje de error debajo del campo correspondiente, sin perder los datos ya ingresados.
+
+- Cancelación: el usuario cierra el formulario en cualquier momento sin que se guarde ningún cambio.
+
+---
+### Consultar el estado de un pedido específico
+
+
+---
+### Registrar un nuevo cliente
+
+---
+### Registrar un pago asociado a un pedido
+
+---
+### Asignar y monitorear un recojo/entrega en curso
+
+---
+### Revisar y atender una alerta de posible falla en una máquina
+
+---
+### Solicitar un nuevo pedido de lavandería 
+
+---
+### Consultar el estado de su pedido sin llamar a la lavandería
+
+---
+### Solicitar recojo o entrega a domicilio
+
+---
+### Pagar un pedido en línea
+
+---
+### Consultar historial de pedidos anteriores
+
+---
 
 #### 4.4.3. Web Applications Mock-ups
 

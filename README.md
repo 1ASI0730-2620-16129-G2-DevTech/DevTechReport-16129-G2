@@ -1156,6 +1156,36 @@ Finalmente, Renzo considera que contar con un sistema que permita registrar las 
 
 
 ### 2.5. Ubiquitous Language
+<p align="justify">
+    El ubiquitous language es un lenguaje común y compartido entre los expertos del negocio y el equipo de desarrollo, su objetivo es asegurar que todos utilicen los mismos términos y conceptos para describir el dominio, evitando malentendidos y facilitando una comunicación clara y consistente durante el diseño y desarrollo del sistema. A continuación, se detallará el Ubiquitous Language, incluyendo los principales términos y conceptos que seran utilizados durante el desarrollo del proyecto.
+</p>
+<br>
+
+- **Customer:** Persona que solicita y utiliza los servicios de una lavandería.
+- **Order:** Conjunto de prendas pertenecientes a un cliente que son entregadas a la lavandería para recibir uno o más servicios.
+- **Garment:** Prenda individual que forma parte de un pedido.
+- **Service Type:** Tipo específico de servicio solicitado, como lavado, secado, planchado o doblado.
+- **Price:** Importe que el cliente debe pagar por los servicios solicitados.
+- **Order Record:** Registro que contiene la información asociada a un pedido, como cliente, prendas, servicios, precio y fechas.
+- **Order Registration:** Proceso mediante el cual se crea y registra un nuevo pedido con la información proporcionada por el cliente.
+- **Garment Identification:** Proceso de identificar y registrar las prendas que forman parte de un pedido.
+- **Order Status:** Estado actual en el que se encuentra un pedido durante el proceso de lavandería.
+- **Order Tracking:** Seguimiento que permite conocer el estado y avance de un pedido durante su procesamiento.
+- **Status Update:** Actualización realizada para reflejar un cambio en el estado del pedido.
+- **Delivery Date:** Fecha acordada para que el pedido esté disponible o sea entregado al cliente.
+- **Special Instructions:** Indicaciones adicionales proporcionadas por el cliente sobre el cuidado o tratamiento de sus prendas.
+- **Washing:** Proceso mediante el cual las prendas son limpiadas de acuerdo con el servicio solicitado.
+- **Drying:** Proceso mediante el cual se elimina la humedad de las prendas después del lavado.
+- **Ironing:** Proceso mediante el cual se eliminan las arrugas de las prendas utilizando calor y presión.
+- **Folding:** Proceso de doblar y organizar las prendas después de su procesamiento.
+- **Garment Inspection:** Revisión de las prendas para comprobar que hayan sido procesadas correctamente.
+- **Order Verification:** Revisión final para comprobar que el pedido esté completo y coincida con la información registrada.
+- **Order Completed:** Evento que indica que los servicios solicitados para el pedido han sido finalizados.
+- **Order Ready:** Evento que indica que el pedido está listo para ser recogido o entregado.
+- **Pickup:** Proceso mediante el cual las prendas son recogidas en la lavandería o en la ubicación acordada.
+- **Delivery:** Proceso mediante el cual las prendas procesadas son entregadas al cliente.
+- **Notification:** Comunicación enviada al cliente para informarle sobre un evento o cambio relacionado con su pedido.
+
 
 ---
 

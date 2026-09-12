@@ -1124,7 +1124,16 @@ Finalmente, Renzo considera que contar con un sistema que permita registrar las 
   <br/><i>Empathy Map de Valeria Torres</i>
 </p>
 
-### 2.4. Big Picture EventStorming
+### 2.4. Big Picture Event Storming
+**Step 1: Generating Domain Events**
+<p align="justify">
+    Primero, nos encargamos de identificar los eventos del dominio, los cuales representan hechos importantes que han ocurrido dentro del dominio de negocio. Su objetivo principal es capturar el mayor volumen posible de eventos utilizando el lenguaje del dominio, sin preocuparse aún por el orden cronológico.
+</p>
+
+<p align="center">
+  <img src="assets/img/Chapter2/BigPictureEventStorming/step1.png" alt="step1_big_picture" width="500"/>
+</p>
+<br>
 
 ### 2.5. Ubiquitous Language
 

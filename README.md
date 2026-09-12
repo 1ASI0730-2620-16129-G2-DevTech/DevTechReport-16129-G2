@@ -1143,6 +1143,17 @@ Finalmente, Renzo considera que contar con un sistema que permita registrar las 
 <p align="center">
   <img src="assets/img/Chapter2/BigPictureEventStorming/step2.png" alt="step2_big_picture" width="500"/>
 </p>
+<br>
+
+**Step 3: Adding Actors and External systems**
+<p align="justify">
+    Finalmente, se identifican los actores y sistemas externos que interactúan con el dominio. Esto permite entender quién inicia o participa en las acciones y qué sistemas externos influyen en el flujo del proceso, proporcionando una visión más completa del contexto del sistema.
+</p>
+
+<p align="center">
+  <img src="assets/img/Chapter2/BigPictureEventStorming/step3.png" alt="step3_big_picture" width="500"/>
+</p>
+
 
 ### 2.5. Ubiquitous Language
 

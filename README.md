@@ -85,6 +85,8 @@ u202216240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tufiño Ar
 
 // Falta Imagen 
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 # Contenido
@@ -181,6 +183,8 @@ u202216240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tufiño Ar
 - [Bibliografía](#bibliografía)
 
 - [Anexos](#anexos)
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -292,6 +296,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     </tr>
   </tbody>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 ---
 

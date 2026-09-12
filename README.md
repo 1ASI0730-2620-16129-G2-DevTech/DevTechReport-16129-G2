@@ -980,8 +980,28 @@ cierra el formulario y muestra el pedido al inicio de la tabla.
 - Cancelación: el usuario cierra el formulario en cualquier momento sin que se guarde ningún cambio.
 
 ---
-### Consultar el estado de un pedido específico
+### Consultar el estado de un pedido 
 
+**User Goal:** Ubicar rápidamente uno o varios pedidos según su estado actual, sin tener que revisar la tabla completa fila por fila.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería.
+
+![img.![ConsultarEstadoPedido.png](assets/ConsultarEstadoPedido.png)png](assets/ConsultarEstadoPedido.png)
+
+**Explicación del flujo:**
+
+*Happy path:*  
+El usuario ingresa a la Lista de Pedidos, hace clic en el filtro "Estado", el sistema despliega un 
+panel con los estados disponibles , el usuario selecciona uno o varios estados y hace clic en "Aplicar". El sistema actualiza la tabla mostrando únicamente los pedidos que cumplen el filtro seleccionado.
+
+
+*Unhappy paths:*
+
+- Ningún pedido coincide con los estados seleccionados: el sistema muestra un mensaje de "Sin resultados" en la tabla.
+
+- El usuario hace clic en "Limpiar": el panel deselecciona todas las opciones y la tabla vuelve a mostrar todos los pedidos.
+
+- El usuario cierra el panel sin hacer clic en "Aplicar": el filtro anterior se mantiene sin cambios.
 
 ---
 ### Registrar un nuevo cliente

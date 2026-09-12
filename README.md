@@ -30,33 +30,52 @@ Proyecto
 **WashTrack**
 
 <br>
-<br>
 
-**Integrantes**
+
+
+<h4 align="center">Integrantes</h4>
+
+<div style="display: flex; gap: 60px;">
+
+<div>
+
+**Código**
+
+u20241D338 
+u202416053  
+u202018427  
+u202422642  
+u202216240
 
 </div>
 
-<p align="center">
-    <b>Código&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apellidos y Nombres</b>
-</p>
-<p align="center">
-u20241D338&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pérez Vásquez, Ariana Valeria<br>
-u202416053&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ramirez Gutierrez, Gabriel<br>
-u202018427&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ramos Fuentes Rivera, Adriana Nicole<br>
-u202422642&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sayago Vidal, Sebastián Leonardo<br>
-u202216240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tufiño Argüelles, Luis Angel<br>
-</p>
+<div>
+
+**Apellidos y Nombres**
+
+Pérez Vásquez, Ariana Valeria 
+Ramirez Gutierrez, Gabriel
+Ramos Fuentes Rivera, Adriana Nicole  
+Sayago Vidal, Sebastián Leonardo  
+Tufiño Argüelles, Luis Angel 
+
+</div>
+
+</div>
+
+
 <br>
 
 <div align="center">
 
 **Periodo 202620**
+</div>
 <br>
+<div align="center">
 
 **Setiembre 2026**
 
 </div>
-<br>
 <br>
 <br>
 <br>

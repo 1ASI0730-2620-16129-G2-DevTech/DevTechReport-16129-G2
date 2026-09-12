@@ -2,58 +2,70 @@
 <img src="assets/upc_logo.png" alt="UPC Logo" width="150"
 "/>
 
-## **Universidad Peruana de Ciencias Aplicadas**
-### **Carrera de Ingeniería de Software**
+Universidad Peruana de Ciencias Aplicadas
+Carrera de Ingeniería de Software
 <br>
 
-**Curso: Aplicaciones Web**
+**1ASI030**
 
-**NRC: 16129**
+**Aplicaciones Web**
 
-**Docente: Alberto Wilmer Sanchez Seña**
+NRC
+**16129**
 
-### **Informe del Trabajo Final**
+**Informe del Trabajo Final**
 
-**Nombre de la Startup:** DevTech
+Docente
 
-**Nombre del producto:** WashTrack
+**Sanchez Seña, Alberto Wilmer**
+<br>
 
-### **Integrantes**
+Equipo
+
+**DevTech**
+
+Proyecto
+
+**WashTrack**
+
+<br>
+<br>
+
+**Integrantes**
 
 </div>
 
-<table align="center" style="border-collapse: collapse; border: none; margin-left: auto; margin-right: auto;">
-    <tr>
-        <th style="border: none; padding: 0 18px 6px 0; text-align: center;">Código</th>
-        <th style="border: none; padding: 0 0 6px 0; text-align: center;">Apellidos y Nombres</th>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U20241D338</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Pérez Vásquez, Ariana Valeria</td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202416053</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramirez Gutierrez, Gabriel</td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202018427</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramos Fuentes Rivera, Adriana Nicole</td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202422642</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Sayago Vidal, Sebastián Leonardo</td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 0 0; text-align: center;">U202216240</td>
-        <td style="border: none; padding: 0; text-align: center;">Tufiño Argüelles, Luis Angel</td>
-    </tr>
-</table>
+<p align="center">
+
+**Código**      **Apellidos y Nombres**
+</p>
+<p align="center">
+
+u20241D338      Pérez Vásquez, Ariana Valeria<br>
+u202416053      Ramirez Gutierrez, Gabriel<br>
+u202018427      Ramos Fuentes Rivera, Adriana Nicole<br>
+u202422642      Sayago Vidal, Sebastián Leonardo<br>
+u202216240      Tufiño Argüelles, Luis Angel<br>
+</p>
+<br>
 
 <div align="center">
 
-*Setiembre, 2026*
+**Periodo 202620**
+
+**Setiembre 2026**
 
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ---
 

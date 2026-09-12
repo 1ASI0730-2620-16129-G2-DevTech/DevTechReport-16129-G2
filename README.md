@@ -999,9 +999,7 @@ panel con los estados disponibles , el usuario selecciona uno o varios estados y
 
 - Ningún pedido coincide con los estados seleccionados: el sistema muestra un mensaje de "Sin resultados" en la tabla.
 
-- El usuario hace clic en "Limpiar": el panel deselecciona todas las opciones y la tabla vuelve a mostrar todos los pedidos.
-
-- El usuario cierra el panel sin hacer clic en "Aplicar": el filtro anterior se mantiene sin cambios.
+- El usuario cierra el panel sin seleccionar el estado: el filtro anterior se mantiene sin cambios.
 
 ---
 ### Registrar un nuevo cliente

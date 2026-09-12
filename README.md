@@ -2,58 +2,66 @@
 <img src="assets/upc_logo.png" alt="UPC Logo" width="150"
 "/>
 
-## **Universidad Peruana de Ciencias Aplicadas**
-### **Carrera de Ingeniería de Software**
+Universidad Peruana de Ciencias Aplicadas
+
+Carrera de Ingeniería de Software
 <br>
 
-**Curso: Aplicaciones Web**
+**1ASI030**
 
-**NRC: 16129**
+**Aplicaciones Web**
 
-**Docente: Alberto Wilmer Sanchez Seña**
+NRC
+**16129**
 
-### **Informe del Trabajo Final**
+#### Informe del Trabajo Final
 
-**Nombre de la Startup:** DevTech
+Docente
 
-**Nombre del producto:** WashTrack
+**Sanchez Seña, Alberto Wilmer**
+<br>
 
-### **Integrantes**
+Equipo
+
+**DevTech**
+
+Proyecto
+
+**WashTrack**
+
+<br>
+
+**Integrantes**
 
 </div>
 
-<table align="center" style="border-collapse: collapse; border: none; margin-left: auto; margin-right: auto;">
-    <tr>
-        <th style="border: none; padding: 0 18px 6px 0; text-align: center;">Código</th>
-        <th style="border: none; padding: 0 0 6px 0; text-align: center;">Apellidos y Nombres</th>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U20241D338</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Pérez Vásquez, Ariana Valeria</td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202416053</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramirez Gutierrez, Gabriel</td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202018427</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramos Fuentes Rivera, Adriana Nicole</td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202422642</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Sayago Vidal, Sebastián Leonardo</td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 0 0; text-align: center;">U202216240</td>
-        <td style="border: none; padding: 0; text-align: center;">Tufiño Argüelles, Luis Angel</td>
-    </tr>
-</table>
+<p align="center">
+    <b>Código&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apellidos y Nombres</b>
+</p>
+<p align="center">
+u20241D338&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pérez Vásquez, Ariana Valeria<br>
+u202416053&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ramirez Gutierrez, Gabriel<br>
+u202018427&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ramos Fuentes Rivera, Adriana Nicole<br>
+u202422642&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sayago Vidal, Sebastián Leonardo<br>
+u202216240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tufiño Argüelles, Luis Angel<br>
+</p>
+<br>
 
 <div align="center">
 
-*Setiembre, 2026*
+**Periodo 202620**
+<br>
+
+**Setiembre 2026**
 
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -64,6 +72,9 @@
 | 1.0.0 | 28/08/2026 | Gabriel Ramirez y Luis Tufiño | Creó el repositorio junto a los branch de cada capítulo. |
 | 1.1.0 | 02/09/2026 | Adriana Ramos | Agregó el Capítulo I |
 | 1.1.0 | 04/09/2026 | Ariana Perez | Agregó su parte en student Outcome y desarrollo avance del capítulo IV junto a la Landing Page |
+
+<div style="page-break-after: always;"></div>
+
 ---
 
 ## Project Report Collaboration Insights
@@ -73,6 +84,8 @@
 *Reporte de colaboración de la entrega del TP:*
 
 // Falta Imagen 
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -170,6 +183,8 @@
 - [Bibliografía](#bibliografía)
 
 - [Anexos](#anexos)
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -281,6 +296,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     </tr>
   </tbody>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 ---
 

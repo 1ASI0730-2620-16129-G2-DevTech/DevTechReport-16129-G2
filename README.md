@@ -14,7 +14,7 @@ Carrera de Ingeniería de Software
 NRC
 **16129**
 
-**Informe del Trabajo Final**
+#### Informe del Trabajo Final
 
 Docente
 
@@ -55,8 +55,6 @@ u202216240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tufiño Ar
 **Setiembre 2026**
 
 </div>
-<br>
-<br>
 <br>
 <br>
 <br>

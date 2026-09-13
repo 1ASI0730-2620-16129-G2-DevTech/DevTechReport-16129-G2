@@ -1024,6 +1024,25 @@ panel con los estados disponibles , el usuario selecciona uno o varios estados y
 ---
 ### Registrar un pago asociado a un pedido
 
+**User Goal:** Registrar el cobro correspondiente a un pedido, dejando constancia del monto y el método de pago utilizado.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería.
+
+![RegistrarPagoAsociadoPedido.png](assets/RegistrarPagoAsociadoPedido.png)
+
+**Explicación del flujo:**
+
+*Happy path:* el usuario ingresa a Pagos, ubica el pedido correspondiente (o accede desde el detalle del pedido en Pedidos), registra el monto cobrado y selecciona el método de pago (Yape, Tarjeta, Efectivo), y guarda. El sistema actualiza el estado de pago del pedido y lo refleja en la tabla de Pagos.
+
+*Unhappy paths:*
+
+- Monto inválido (negativo o distinto al total del pedido): el sistema muestra un mensaje de error y no permite guardar hasta corregirlo.
+
+- Pedido ya pagado: el sistema advierte que el pedido ya cuenta con un pago registrado y solicita confirmación antes de continuar.
+
+- Cancelación: el usuario cierra el formulario sin registrar el pago.
+
+
 ---
 ### Asignar y monitorear un recojo/entrega en curso
 

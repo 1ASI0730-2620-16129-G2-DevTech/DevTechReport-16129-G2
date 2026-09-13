@@ -69,9 +69,10 @@ u202216240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tufiño Ar
 
 | Versión | Fecha      | Autor                         | Descripcion                                              |
 | :--- |:-----------|:------------------------------|:---------------------------------------------------------|
-| 1.0.0 | 28/08/2026 | Gabriel Ramirez y Luis Tufiño | Creó el repositorio junto a los branch de cada capítulo. |
-| 1.1.0 | 02/09/2026 | Adriana Ramos | Agregó el Capítulo I |
-| 1.1.0 | 04/09/2026 | Ariana Perez | Agregó su parte en student Outcome y desarrollo avance del capítulo IV junto a la Landing Page |
+| 0.1.0 | 28/08/2026 | Gabriel Ramirez y Luis Tufiño | Creó el repositorio junto a los branch de cada capítulo. |
+| 0.2.0 | 02/09/2026 | Adriana Ramos | Agregó el Capítulo I |
+| 0.3.0 | 04/09/2026 | Ariana Perez | Agregó su parte en student Outcome y desarrollo avance del capítulo IV junto a la Landing Page |
+| 0.4.0 | 06/09/2026 | DevTech | Desarrollo por partes del documento |
 
 <div style="page-break-after: always;"></div>
 
@@ -214,27 +215,21 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td>
         <b>Pérez Vásquez, Ariana Valeria</b><br>
         <em><b>AV1</b></em><br>
-        Elaboré el Capítulo IV del proyecto WashTrack, desarrollando las Style Guidelines, donde se establecieron los lineamientos generales y web para mantener una interfaz consistente, clara, accesible y fácil de utilizar.<br>
-        <em><b>AV2</b></em><br>
+        Elaboré el Capítulo IV del proyecto WashTrack, desarrollando las Style Guidelines, donde se establecieron los lineamientos generales y web para mantener una interfaz consistente, clara, accesible y fácil de utilizar.
         Desarrollé la Information Architecture, la Landing Page UI, elaborando el wireframe y mock-up de la página principal de WashTrack, considerando la distribución de los elementos, jerarquía visual, navegación y presentación de la propuesta de valor del producto.<br>
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
         Poner avances av1<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
         ...<br>
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
         Poner avances av1<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
         ...<br>
         <b>Sayago Vidal, Sebastián Leonardo</b><br>
         <em><b>AV1</b></em><br>
-        Poner avances av1<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
+          Participé activamente en el desarrollo del proyecto WashTrack, asumiendo responsabilidades relacionadas con el diseño y documentación técnica del sistema.
+        Desarrollé y estructuré los contenidos correspondientes a la arquitectura de software, EventStorming, diagramas C4, diagramas de componentes, diseño orientado a objetos y diseño de base de datos. 
         ...<br>
         <b>Tufiño Argüelles, Luis Angel</b><br>
         <em><b>AV1</b></em><br>
@@ -257,33 +252,25 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td>
         <b>Pérez Vásquez, Ariana Valeria</b><br>
         <em><b>AV1</b></em><br>
-        Participé en la planificación y organización de las actividades del equipo, coordinando las tareas asignadas para el desarrollo del proyecto WashTrack y contribuyendo al cumplimiento de los objetivos establecidos para el avance<br>
-        <em><b>AV2</b></em><br>
+        Participé en la planificación y organización de las actividades del equipo, coordinando las tareas asignadas para el desarrollo del proyecto WashTrack y contribuyendo al cumplimiento de los objetivos establecidos para el avance
         Desarrollé las secciones asignadas del Capítulo IV, relacionadas con Style Guidelines, Information Architecture y Landing Page UI Design, coordinando con los integrantes del equipo para mantener la coherencia del proyecto y cumplir con las actividades planificadas<br>
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
-        Poner avances av1<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
+        Poner avances av1
         ...<br>
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
-        Poner avances av1<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
+        Poner avances av1
         ...<br>
         <b>Sayago Vidal, Sebastián Leonardo</b><br>
         <em><b>AV1</b></em><br>
-        Poner avances av1<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
+        Durante el desarrollo del avance colaboré con los integrantes del equipo mediante la coordinación y revisión de los aportes relacionados con el diseño del sistema, buscando que las diferentes partes del proyecto mantuvieran una estructura y enfoque coherentes.
+        Cumplí con las actividades asignadas dentro del plazo establecido y apoyé en la integración de los distintos aportes del equipo para completar el entregable.
         ...<br>
         <b>Tufiño Argüelles, Luis Angel</b><br>
         <em><b>AV1</b></em><br>
-        Poner avances av1<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
+        Poner avances av1
         ...<br>
       </td>
       <td>

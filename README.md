@@ -1069,6 +1069,21 @@ panel con los estados disponibles , el usuario selecciona uno o varios estados y
 
 ### Revisar y atender una alerta de posible falla en una máquina
 
+**User Goal:** Identificar qué lavadoras requieren atención inmediata y revisar el detalle técnico antes de tomar una acción correctiva.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería.
+
+![RevisarAlerta.png](assets/RevisarAlerta.png)
+
+**Explicación del flujo:**
+
+*Happy path:* el usuario ingresa a Alertas desde el grupo "Monitoreo" del sidebar, revisa la lista de lavadoras en estado "Revisión" o "Posible falla", hace clic en la tarjeta correspondiente, y el sistema navega al Detalle de Lavadora, donde se muestran las métricas (valor, rango esperado, veredicto) y el gráfico histórico de la métrica en alerta.
+
+*Unhappy paths:*
+- No hay alertas activas: la pantalla de Alertas muestra un estado vacío indicando que no hay lavadoras que requieran atención.
+- La lavadora pierde conexión mientras se revisa el detalle: el sistema actualiza el estado a "Sin conexión" y deja de refrescar las métricas en tiempo real.
+- El usuario regresa a la lista sin realizar ninguna acción: el sistema conserva el estado de la lavadora sin cambios.
+
 ---
 ### Solicitar un nuevo pedido de lavandería 
 

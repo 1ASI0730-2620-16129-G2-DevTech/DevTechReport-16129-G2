@@ -2023,6 +2023,62 @@ Finalmente, Renzo considera que contar con un sistema que permita registrar las 
 
 ### 3.3. Product Backlog
 
+El Product Backlog de WashTrack contiene las historias de usuario identificadas durante el levantamiento de requisitos. El orden se define por el valor para el negocio y el impacto en la experiencia del cliente. Las historias relacionadas con el sitio web estático se consideran desde el primer sprint. Los puntos de historia utilizan una escala de Fibonacci: 1, 2, 3, 5 y 8.
+
+| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+|---:|---|---|---|---:|
+| 1 | US-032 | Enviar formulario de captura de leads | Como nuevo usuario, quiero completar un formulario con mis datos y necesidades para recibir información sobre planes y servicios adecuados para mi negocio. | 3 |
+| 2 | US-005 | Registrar clientes | Como encargado de lavandería, quiero registrar los datos de mis clientes para mantener organizada su información. | 3 |
+| 3 | US-006 | Crear pedidos | Como encargado de lavandería, quiero crear un pedido asociado a un cliente para controlar el servicio solicitado. | 5 |
+| 4 | US-007 | Registrar prendas | Como encargado, quiero registrar las prendas incluidas en un pedido para evitar pérdidas o confusiones. | 5 |
+| 5 | US-040 | Registrar prendas y servicio solicitado | Como encargado de lavandería, quiero registrar las prendas y el servicio solicitado al recibirlas para conservar un detalle completo de la orden. | 3 |
+| 6 | US-026 | Identificar las prendas mediante un código | Como trabajador de lavandería, quiero identificar cada pedido mediante un código o etiqueta para evitar la pérdida, confusión o asignación incorrecta de prendas. | 3 |
+| 7 | US-037 | Garantizar la trazabilidad de las prendas | Como cliente, quiero que mis prendas estén identificadas y registradas correctamente para tener seguridad y confianza durante todo el servicio. | 5 |
+| 8 | US-023 | Registrar instrucciones especiales del pedido | Como encargado de lavandería, quiero registrar instrucciones especiales y compromisos de recojo o entrega para asegurar que el pedido sea atendido según lo acordado con el cliente. | 3 |
+| 9 | US-015 | Administrar servicios y precios | Como propietario, quiero configurar los servicios y precios de mi lavandería para mantener actualizada la oferta. | 5 |
+| 10 | US-016 | Gestionar usuarios y roles | Como propietario, quiero administrar los accesos del personal para controlar qué acciones puede realizar cada usuario. | 5 |
+| 11 | US-033 | Gestionar integralmente los pedidos | Como dueño de lavandería, quiero digitalizar la recepción de pedidos, prendas y notas de cuidado para evitar errores y pérdida de prendas. | 8 |
+| 12 | US-008 | Actualizar estado del pedido | Como trabajador de lavandería, quiero actualizar el estado de un pedido para que el cliente conozca su progreso. | 3 |
+| 13 | US-029 | Consultar el seguimiento del pedido en seis etapas | Como cliente final, quiero ver el estado exacto de mi ropa en seis etapas claras para conocer el avance sin llamar a la lavandería. | 5 |
+| 14 | US-035 | Consultar el avance del pedido en tiempo real | Como cliente, quiero consultar el avance de mi pedido durante el proceso de lavado para saber qué se ha realizado y qué falta completar. | 5 |
+| 15 | US-036 | Conocer la fecha comprometida de entrega | Como cliente, quiero conocer con precisión cuándo estará listo mi pedido para organizar mi tiempo y tener certeza sobre la entrega. | 3 |
+| 16 | US-002 | Consultar la hora estimada de finalización | Como cliente, quiero consultar la hora estimada en la que estarán listas mis prendas para organizar mi tiempo y decidir cuándo recogerlas o solicitar su entrega. | 3 |
+| 17 | US-022 | Visualizar pedidos pendientes y próximos a entregar | Como trabajador de lavandería, quiero visualizar los pedidos pendientes y próximos a entregar en una sola pantalla para organizar el trabajo durante los periodos de alta demanda. | 5 |
+| 18 | US-021 | Priorizar pedidos por fecha de entrega | Como propietario de lavandería, quiero ordenar los pedidos según su fecha prevista de entrega para atender primero los pedidos más próximos a vencer. | 3 |
+| 19 | US-030 | Recibir notificaciones automáticas por etapa | Como cliente final, quiero recibir notificaciones automáticas cuando cambie el estado de mi pedido para evitar llamadas de consulta. | 5 |
+| 20 | US-001 | Recibir notificaciones del estado del pedido | Como cliente, quiero recibir notificaciones sobre los cambios de estado de mis prendas para conocer el avance de mi pedido sin comunicarme con la lavandería. | 5 |
+| 21 | US-041 | Mantener una comunicación clara con el cliente | Como cliente, quiero recibir comunicaciones claras y oportunas sobre mi pedido para confiar en el servicio y reducir consultas repetitivas. | 5 |
+| 22 | US-027 | Validar las prendas antes de entregar el pedido | Como trabajador de lavandería, quiero revisar el detalle de las prendas antes de entregar un pedido para confirmar que corresponde al cliente correcto. | 3 |
+| 23 | US-017 | Confirmar entrega del pedido | Como encargado, quiero registrar la entrega de un pedido para cerrar correctamente el proceso. | 3 |
+| 24 | US-010 | Buscar y filtrar pedidos | Como encargado, quiero buscar y filtrar pedidos para encontrar rápidamente una orden. | 5 |
+| 25 | US-011 | Registrar pagos | Como encargado, quiero registrar el pago de un pedido para mantener actualizado el estado financiero de la orden. | 3 |
+| 26 | US-039 | Consultar precios antes de confirmar el servicio | Como cliente, quiero conocer el precio del servicio según mis prendas y modalidad para comparar alternativas y tomar una decisión informada. | 5 |
+| 27 | US-012 | Realizar pagos digitales | Como cliente, quiero pagar mi pedido desde la plataforma para completar el servicio de forma rápida y segura. | 8 |
+| 28 | US-014 | Visualizar dashboard operativo | Como propietario de lavandería, quiero consultar indicadores del negocio para conocer el estado de mis operaciones. | 5 |
+| 29 | US-020 | Exportar reportes | Como propietario, quiero exportar reportes de pedidos y pagos para analizarlos o conservarlos como respaldo. | 5 |
+| 30 | US-009 | Consultar historial de pedidos | Como cliente, quiero consultar mis pedidos anteriores para revisar los servicios realizados y sus detalles. | 3 |
+| 31 | US-013 | Gestionar incidencias | Como encargado, quiero registrar incidencias relacionadas con prendas o pedidos para comunicar una solución al cliente. | 5 |
+| 32 | US-024 | Registrar comunicaciones con el cliente | Como encargado de lavandería, quiero registrar las comunicaciones realizadas para mantener un historial de avisos, consultas e inconvenientes del pedido. | 3 |
+| 33 | US-018 | Calificar el servicio | Como cliente, quiero calificar el servicio recibido para expresar mi satisfacción y ayudar a la lavandería a mejorar. | 3 |
+| 34 | US-019 | Gestionar suscripción | Como propietario, quiero seleccionar un plan de suscripción para utilizar las funcionalidades disponibles según las necesidades de mi lavandería. | 5 |
+| 35 | US-003 | Solicitar recojo de prendas a domicilio | Como cliente, quiero solicitar el recojo de mis prendas desde mi domicilio para enviar mi ropa a la lavandería sin trasladarme al establecimiento. | 8 |
+| 36 | US-004 | Solicitar entrega de prendas a domicilio | Como cliente, quiero solicitar la entrega de mis prendas a domicilio cuando estén listas para recibirlas sin ir a la lavandería. | 8 |
+| 37 | US-025 | Coordinar entregas a domicilio | Como propietario de lavandería, quiero consultar las direcciones y horarios acordados para organizar las entregas a domicilio. | 5 |
+| 38 | US-034 | Coordinar logística y pagos digitales | Como cliente final, quiero coordinar el recojo o envío de mi pedido y realizar pagos digitales para gestionar el servicio sin complicaciones. | 8 |
+| 39 | US-038 | Solicitar recojo para prendas voluminosas | Como cliente, quiero solicitar el recojo de prendas voluminosas o pesadas para evitar traslados incómodos hacia la lavandería. | 5 |
+| 40 | US-031 | Recibir alertas IoT predictivas | Como dueño de lavandería, quiero recibir alertas sobre el uso de mis equipos para anticipar fallas y planificar su reemplazo. | 8 |
+| 41 | US-028 | Panel de Control en Vivo | Como dueño de lavandería, quiero ver un panel central con métricas en tiempo real para tener control total de mi operación. | 8 |
+
+#### Criterios de priorización
+
+- **Must:** funcionalidad indispensable para que el MVP registre pedidos, reduzca la pérdida o confusión de prendas y permita conocer el estado del servicio.
+- **Should:** funcionalidad de alto valor que mejora la eficiencia, la comunicación o la experiencia, pero que no impide operar el MVP.
+- **Could:** funcionalidad complementaria o diferenciadora que puede implementarse después de validar el flujo principal.
+
+#### Definition of Done
+
+Una historia se considera terminada cuando cumple sus criterios de aceptación, cuenta con validaciones de datos y manejo de errores, tiene pruebas funcionales, se integra con el flujo correspondiente, se verifica en escritorio y dispositivo móvil y queda documentada para el equipo.
+
 ---
 
 ## Capítulo IV: Product Design

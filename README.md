@@ -1106,20 +1106,30 @@ panel con los estados disponibles , el usuario selecciona uno o varios estados y
 
 - Cancelación de la solicitud: la usuaria cierra el formulario antes de confirmar y no se genera ningún pedido.
 
----
+--- 
 
 ### Consultar el estado de su pedido sin llamar a la lavandería
 
----
-### Solicitar recojo o entrega a domicilio
+**User Goal:** Conocer en qué etapa se encuentra su pedido en cualquier momento, sin necesidad de comunicarse directamente con la lavandería.
+
+**User Persona:** Valeria Torres, Cliente de Lavandería.
+
+![ConsultarPedido.png](assets/ConsultarPedido.png)
+
+**Explicación del flujo:**
+
+*Happy path:* la usuaria ingresa a la sección "Mis pedidos", selecciona el pedido activo, y el sistema muestra el estado actual (por ejemplo, "En proceso", "Listo para entrega") junto con la fecha estimada de entrega.
+
+*Unhappy paths:*
+- El pedido aún no ha sido registrado por la lavandería: el sistema muestra un estado "Pendiente de confirmación".
+
+- Error de conexión al cargar el estado: se muestra un mensaje de error con opción de reintentar la carga.
+
+- El pedido fue cancelado por la lavandería: el sistema muestra el estado "Cancelado" junto con el motivo, si está disponible.
 
 ---
-### Pagar un pedido en línea
 
----
-### Consultar historial de pedidos anteriores
 
----
 
 #### 4.4.3. Web Applications Mock-ups
 

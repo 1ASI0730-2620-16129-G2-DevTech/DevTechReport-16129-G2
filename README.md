@@ -1151,6 +1151,30 @@ panel con los estados disponibles , el usuario selecciona uno o varios estados y
 - Cancelación de la solicitud de recojo/entrega: la usuaria cambia a la opción "Llevo yo mi ropa" antes de confirmar, y el pedido continúa sin el servicio a domicilio asociado.
 
 
+---
+
+### Pagar un pedido en línea
+
+**User Goal:** Realizar el pago de un pedido de forma digital, sin depender de efectivo al momento de la entrega.
+
+**User Persona:** Valeria Torres, Cliente de Lavandería.
+
+![PagarPedidoLinea.png](assets/PagarPedidoLinea.png)
+
+**Explicación del flujo:**
+
+*Happy path:* la usuaria ingresa al detalle de su pedido o a la sección Pagos, selecciona "Pagar ahora", el sistema muestra el resumen del pedido junto al monto total y el método de pago disponible, la usuaria completa la transacción y el sistema actualiza el estado de pago a "Completado", mostrando una confirmación.
+
+*Unhappy paths:*
+
+- Pago rechazado por el proveedor de pagos: el sistema muestra un mensaje de error y permite reintentar con el mismo u otro método.
+
+- Sesión expirada durante el proceso de pago: el sistema solicita reautenticación antes de completar la transacción.
+
+- Cancelación del pago: la usuaria abandona el proceso y el pedido permanece con estado de pago "Pendiente".
+
+---
+
 
 #### 4.4.3. Web Applications Mock-ups
 

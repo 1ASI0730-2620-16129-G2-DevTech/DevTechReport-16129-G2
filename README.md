@@ -1175,6 +1175,27 @@ panel con los estados disponibles , el usuario selecciona uno o varios estados y
 
 ---
 
+### Consultar historial de pedidos anteriores
+
+**User Goal:** Revisar los pedidos realizados anteriormente, para consultar detalles de servicios ya utilizados.
+
+**User Persona:** Valeria Torres, Cliente de Lavandería.
+
+![ConsultarHistorialPedidos.png](assets/ConsultarHistorialPedidos.png)
+
+**Explicación del flujo:**
+
+*Happy path:* la usuaria ingresa a "Mis pedidos" y cambia a la pestaña "Historial", el sistema muestra la lista de pedidos anteriores ordenados por fecha descendente, y al seleccionar uno, se muestra el detalle completo (servicio, prendas, monto pagado, fecha de entrega).
+
+*Unhappy paths:*
+
+- No existen pedidos anteriores: el sistema muestra un estado vacío indicando que aún no se han registrado pedidos.
+
+- Error al cargar el historial: se muestra un mensaje de error con opción de reintentar.
+
+- Búsqueda sin resultados dentro del historial: el sistema muestra "Sin resultados" al aplicar una búsqueda por número de pedido que no coincide con ningún registro.
+
+---
 
 #### 4.4.3. Web Applications Mock-ups
 

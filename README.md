@@ -1129,6 +1129,27 @@ panel con los estados disponibles , el usuario selecciona uno o varios estados y
 
 ---
 
+### Solicitar recojo o entrega a domicilio
+
+**User Goal:** Coordinar que sus prendas sean recogidas o entregadas en su domicilio, sin necesidad de trasladarse hasta el local.
+
+**User Persona:** Valeria Torres, Cliente de Lavandería.
+
+
+![SolicitarRecojoEntrega.png](assets/SolicitarRecojoEntrega.png)
+
+**Explicación del flujo:**
+
+*Happy path:* la usuaria, dentro del flujo de creación de un pedido, selecciona la opción "Recojo a domicilio", confirma o elige una dirección guardada (o ingresa una nueva), selecciona una franja horaria disponible, y continúa con el resto del pedido. El sistema asocia el servicio de recojo/entrega al pedido y lo refleja en el resumen antes de confirmar.
+
+*Unhappy paths:*
+
+- No hay franjas horarias disponibles para la fecha elegida: el sistema muestra las siguientes fechas disponibles.
+
+- Dirección fuera de cobertura: el sistema informa que la dirección ingresada no está dentro del área de servicio.
+
+- Cancelación de la solicitud de recojo/entrega: la usuaria cambia a la opción "Llevo yo mi ropa" antes de confirmar, y el pedido continúa sin el servicio a domicilio asociado.
+
 
 
 #### 4.4.3. Web Applications Mock-ups

@@ -1340,6 +1340,38 @@ Este módulo permite **concentrarse únicamente en las lavadoras que requieren a
 
 #### 4.4.4. Web Applications User Flow Diagrams
 
+Esta sección presenta los User Flows de WashTrack, diseñada para propietarios de lavanderías independientes, y de la app cliente, 
+enfocada en sus usuarios finales. Ambos diagramas son la evolución directa de los Wireflows presentados en la sección anterior, 
+conservando exactamente la misma secuencia de pantallas y decisiones definida en los wireframes de baja fidelidad; lo único que 
+cambia es que aquí cada pantalla se representa con su Mock-up de alta fidelidad, aplicando el Design System establecido para los 
+productos digitales, en lugar del esquema en escala de grises. Asimismo, elaborados en FigJam, ilustran de forma visual tanto el 
+camino feliz (happy path) como las rutas alternativas (unhappy paths) ante posibles condiciones o errores.
+
+
+---
+### Registrar un nuevo pedido
+
+**User Goal:** Registrar un nuevo pedido en el sistema, desde que el encargado de turno recibe la solicitud del cliente hasta que el pedido queda guardado y visible en la Lista de Pedidos.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería.
+
+**Consistencia con el Wireflow:** Este diagrama conserva exactamente la misma secuencia de pantallas y decisiones (Dashboard → Lista de Pedidos → Modal Nuevo Pedido → confirmación) definida en el Wireflow de la sección 4.4.2.
+
+![RegistrarPedidoNuevo.png](assets/RegistrarPedidoNuevo.png)
+
+**Explicación del flujo:**
+
+*Happy path:* el usuario ingresa al Dashboard, navega a Pedidos, hace clic en "+ Nuevo pedido", el sistema despliega el formulario sobre la lista atenuada, el usuario busca y selecciona un cliente, completa o confirma los campos restantes (fechas, servicio, cantidad de prendas, estado, pago, tipo de entrega, método de pago) y guarda. El sistema valida los datos, cierra el formulario y muestra el pedido al inicio de la tabla.
+
+*Unhappy paths:*
+
+- Cliente no encontrado en la búsqueda: el sistema muestra "Sin resultados" y el flujo no avanza hasta seleccionar un cliente válido.
+- Error de validación al guardar: el formulario permanece abierto y se muestra el mensaje de error debajo del campo correspondiente, sin perder los datos ya ingresados.
+- Cancelación: el usuario cierra el formulario en cualquier momento sin que se guarde ningún cambio.
+
+
+
+
 ### 4.5. Web Applications Prototyping
 
 ### 4.6. Domain-Driven Software Architecture

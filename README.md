@@ -1369,6 +1369,25 @@ camino feliz (happy path) como las rutas alternativas (unhappy paths) ante posib
 - Error de validación al guardar: el formulario permanece abierto y se muestra el mensaje de error debajo del campo correspondiente, sin perder los datos ya ingresados.
 - Cancelación: el usuario cierra el formulario en cualquier momento sin que se guarde ningún cambio.
 
+---
+### Consultar el estado de un pedido
+
+**User Goal:** Ubicar rápidamente uno o varios pedidos según su estado actual, sin tener que revisar la tabla completa fila por fila.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería.
+
+**Consistencia con el Wireflow:** Este diagrama conserva exactamente la misma secuencia (Lista de Pedidos → Panel de filtro "Estado" → tabla actualizada) definida en el Wireflow de la sección 4.4.2.
+
+![ConsultarEstadoPedido_Mockup.png](assets/ConsultarEstadoPedido_Mockup.png)
+
+**Explicación del flujo:**
+
+*Happy path:* el usuario ingresa a la Lista de Pedidos, hace clic en el filtro "Estado", el sistema despliega un panel con los estados disponibles, el usuario selecciona uno o varios estados y hace clic en "Aplicar". El sistema actualiza la tabla mostrando únicamente los pedidos que cumplen el filtro seleccionado.
+
+*Unhappy paths:*
+
+- Ningún pedido coincide con los estados seleccionados: el sistema muestra un mensaje de "Sin resultados" en la tabla.
+- El usuario cierra el panel sin seleccionar el estado: el filtro anterior se mantiene sin cambios.
 
 
 

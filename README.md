@@ -3340,6 +3340,12 @@ erDiagram
 <p align="justify">
   Durante el Sprint 1, se ha avanzado en la definición y simulación de la captura de datos desde la interfaz de la Landing Page de WashTrack. Se estructuraron los formularios clave de interacción con el cliente y se definieron las especificaciones de los parámetros de entrada y respuestas del sistema (mock responses) para asegurar la integración fluida con la arquitectura de Web Services.
 </p>
+<br>
+
+| Endpoint / Interacción | Acción (HTTP) | Parámetros (Input IDs) | Descripción del Response |
+|---|---|---|---|
+| `index.html#contactForm` | **POST (Mock)** | `nombre`, `correo`, `tipo`, `intereses`, `mensaje` | **202 Accepted:** Confirmación visual de envío mediante mensaje de éxito y reinicio automático de los campos del formulario (`reset`). |
+
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
 ##### 5.2.1.8. Team Collaboration Insights during Sprint

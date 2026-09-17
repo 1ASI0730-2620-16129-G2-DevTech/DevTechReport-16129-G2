@@ -1390,6 +1390,28 @@ camino feliz (happy path) como las rutas alternativas (unhappy paths) ante posib
 - El usuario cierra el panel sin seleccionar el estado: el filtro anterior se mantiene sin cambios.
 
 
+---
+### Registrar un nuevo cliente
+
+**User Goal:** Registrar los datos de un cliente nuevo en la base de datos maestra, para que quede disponible al momento de crear pedidos.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería.
+
+**Consistencia con el Wireflow:** Este diagrama conserva exactamente la misma secuencia (Clientes → Modal Agregar Nuevo Cliente → confirmación) definida en el Wireflow de la sección 4.4.2.
+
+![RegistrarNuevoCliente_mockup.png](assets/RegistrarNuevoCliente_mockup.png)
+
+**Explicación del flujo:**
+
+*Happy path:* el usuario ingresa a Clientes, hace clic en "+ Agregar Nuevo Cliente", el sistema despliega el formulario (Nombre Completo, Teléfono, Tipo de Documento, Número de Documento) sobre la lista atenuada, el usuario completa los campos y guarda. El sistema valida los datos, cierra el formulario y muestra el nuevo cliente en la tabla.
+
+*Unhappy paths:*
+
+- Documento duplicado: el sistema muestra un mensaje de error indicando que el número de documento ya está registrado, sin cerrar el formulario.
+- Campo obligatorio vacío: se muestra el mensaje de error debajo del campo correspondiente y el formulario permanece abierto con los demás datos ya ingresados.
+- Cancelación: el usuario cierra el formulario sin guardar ningún cambio.
+
+---
 
 ### 4.5. Web Applications Prototyping
 

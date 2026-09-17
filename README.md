@@ -3348,6 +3348,10 @@ erDiagram
 
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
+<p align="justigy">
+  Durante el Sprint 1, se llevaron a cabo las actividades de configuración y despliegue del producto correspondiente a la Landing Page del proyecto. Se seleccionó la plataforma de infraestructura en la nube de GitHub Pages por su integración nativa con el control de versiones y su soporte para entornos de producción con certificados HTTPS automáticos.
+</p>
+
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
 ### 5.3. Validation Interviews

@@ -301,10 +301,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         ...<br>
         <b>Tufiño Argüelles, Luis Angel</b><br>
         <em><b>AV1</b></em><br>
-        Poner avances av1<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
-        ...<br>
+        -Propuso y sustentó ante el equipo los criterios de usabilidad y arquitectura de información aplicados en el diseño de las pantallas de WashTrack (Dashboard, Pedidos, Clientes, Pagos), argumentando cada decisión con heurísticas de Nielsen y principios de Gestalt.<br>- Lideró la identificación de los User Goals a partir de los User Persona del proyecto, coordinando con el equipo la priorización de los flujos por segmento (Propietario de lavandería y Cliente). | *(Sección grupal — se completa en conjunto con el equipo)* |
+        | Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos <br>
+
       </td>
       <td>
         Fusce cursus dolor et nulla suscipit, sit amet ullamcorper nibh vestibulum.<br>
@@ -338,8 +337,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         ...<br>
         <b>Tufiño Argüelles, Luis Angel</b><br>
         <em><b>AV1</b></em><br>
-        Poner avances av1
-        ...<br>
+        Participé en la planificación y organización de las actividades del equipo, coordinando las tareas asignadas para el desarrollo del proyecto WashTrack y contribuyendo al cumplimiento de los objetivos establecidos para el avance Desarrollé las secciones asignadas del Capítulo IV, relacionadas con Style Guidelines, Information Architecture y Landing Page UI Design, coordinando con los integrantes del equipo para mantener la coherencia del proyecto y cumplir con las actividades planificadas
+      <br>
       </td>
       <td>
         Fusce mattis augue a nisl bibendum, quis fringilla neque scelerisque.<br>

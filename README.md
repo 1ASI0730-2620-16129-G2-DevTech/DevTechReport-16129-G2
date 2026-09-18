@@ -3361,6 +3361,9 @@ erDiagram
     <li><b>Aprovisionamiento de SSL y Dominio Público:</b> Validación de la generación del certificado de seguridad SSL para habilitar la navegación segura vía HTTPS y verificación de la disponibilidad pública en la URL asignada por GitHub Pages.</li>
   </ul>
 </p>
+<br>
+
+**Url del despliegue de la landing page:** [https://1asi0730-2620-16129-g2-devtech.github.io/DevTech-LandingPage-16129-G2/](https://1asi0730-2620-16129-g2-devtech.github.io/DevTech-LandingPage-16129-G2/)
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 

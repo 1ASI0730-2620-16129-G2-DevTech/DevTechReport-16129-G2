@@ -433,7 +433,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 </tr>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/foto_nombre.png" alt="Foto de" width="500"/>
+      <img src="assets/SebastiánSayago_Foto.png" alt="Foto de Sebastián" width="500"/>
     </td>
     <td><b>Nombre:</b> Sebastián Leonardo Sayago Vidal</td>
   </tr>

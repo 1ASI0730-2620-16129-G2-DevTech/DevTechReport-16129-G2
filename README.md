@@ -1454,6 +1454,27 @@ camino feliz (happy path) como las rutas alternativas (unhappy paths) ante posib
 - Cliente no se encuentra en el domicilio al momento de la entrega: el repartidor reporta la incidencia, el registro cambia a un estado que refleje la entrega no concluida, y el usuario debe coordinar un nuevo intento de envío.
 
 ---
+### Revisar y atender una alerta de posible falla en una máquina
+
+**User Goal:** Identificar qué lavadoras requieren atención inmediata y revisar el detalle técnico antes de tomar una acción correctiva.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería.
+
+**Consistencia con el Wireflow:** Este diagrama conserva exactamente la misma secuencia (Alertas → Detalle de Lavadora) definida en el Wireflow de la sección 4.4.2.
+
+![RevisarAlertaPosibleFalla_mockup.png](assets/RevisarAlertaPosibleFalla_mockup.png)
+
+**Explicación del flujo:**
+
+*Happy path:* el usuario ingresa a Alertas desde el grupo "Monitoreo" del sidebar, revisa la lista de lavadoras en estado "Revisión" o "Posible falla", hace clic en la tarjeta correspondiente, y el sistema navega al Detalle de Lavadora, donde se muestran las métricas (valor, rango esperado, veredicto) y el gráfico histórico de la métrica en alerta.
+
+*Unhappy paths:*
+
+- La lavadora pierde conexión mientras se revisa el detalle: el sistema actualiza el estado a "Sin conexión" y deja de refrescar las métricas en tiempo real.
+
+- El usuario regresa a la lista sin realizar ninguna acción: el sistema conserva el estado de la lavadora sin cambios.
+
+---
 
 
 ### 4.5. Web Applications Prototyping

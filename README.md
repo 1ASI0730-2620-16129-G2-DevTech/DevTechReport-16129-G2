@@ -775,7 +775,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Wash Track
         <br>
         <div style="text-align: center; margin-top: 10px;">
-                <img src="assets/Logo WachTrack.png" alt="Logo WashTrack" style="width: 65;"></img>
+                <img src="assets/Logo_WachTrack.png" alt="Logo WashTrack" style="width: 65;"></img>
         </div>
     <td colspan="1" valign="top" style="font-weight: bold;">
     Clean Cloud

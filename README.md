@@ -3425,8 +3425,46 @@ El resultado esperado del Sprint Backlog es una primera versión de la Landing P
 |---|---|---|---|
 | `index.html#contactForm` | **POST (Mock)** | `nombre`, `correo`, `tipo`, `intereses`, `mensaje` | **202 Accepted:** Confirmación visual de envío mediante mensaje de éxito y reinicio automático de los campos del formulario (`reset`). |
 
+- **URL del Repositorio de Landing Page:** [https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2)
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
+<p align="justigy">
+  Durante el Sprint 1, se llevaron a cabo las actividades de configuración y despliegue del producto correspondiente a la Landing Page del proyecto. Se seleccionó la plataforma de infraestructura en la nube de GitHub Pages por su integración nativa con el control de versiones y su soporte para entornos de producción con certificados HTTPS automáticos.
+</p>
+<br>
+
+**Actividades realizadas**
+<p align="justify">
+  <ul>
+    <li><b>Configuración del Entorno de GitHub Pages:</b> Habilitación y configuración del servicio de hosting en la nube a través del panel de administración del repositorio DevTech-LandingPage-16129-G2.</li><br>
+    <li><b>Vinculación de la Rama de Producción:</b> Configuración del flujo de publicación continua para tomar automáticamente la fuente del sitio desde la rama main, garantizando que cada actualización del código fuente active un build y despliegue del sitio estático.</li><br>
+    <li><b>Aprovisionamiento de SSL y Dominio Público:</b> Validación de la generación del certificado de seguridad SSL para habilitar la navegación segura vía HTTPS y verificación de la disponibilidad pública en la URL asignada por GitHub Pages.</li>
+  </ul>
+</p>
+<br>
+
+
+**Evidencia del deploy: Landing page web responsive**
+
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint1/landing_page_web_deploy_evidence.png" width="700px" alt="Landing Page Web Responsive">
+  <p>Deployed Landing Page - Web</p>
+  <p></p>
+</div>
+<br>
+
+**Evidencia del deploy: Landing page mobile responsive**
+
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint1/landing_page_mobile_deploy_evidence.jpeg" width="200px" alt="Landing Page Mobile Responsive">
+  <p>Deployed Landing Page - Mobile</p>
+  <p></p>
+</div>
+
+<br>
+
+- **Url del despliegue de la landing page:** [https://1asi0730-2620-16129-g2-devtech.github.io/DevTech-LandingPage-16129-G2/](https://1asi0730-2620-16129-g2-devtech.github.io/DevTech-LandingPage-16129-G2/) 
+
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
 ### 5.3. Validation Interviews

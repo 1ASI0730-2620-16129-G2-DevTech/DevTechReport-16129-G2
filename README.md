@@ -4428,9 +4428,6 @@ El resultado esperado del Sprint Backlog es una primera versión de la Landing P
 
 ---
 
-# Conclusiones
-# Conclusiones y Recomendaciones
-
 ## Conclusiones
 
 A partir del desarrollo del proyecto **WashTrack** que desarrollo nuestro equipo <b>DevTech</b>, se logró avanzar desde la identificación de las necesidades de los usuarios hasta la implementación y despliegue de una primera versión de la Landing Page. El proyecto permitió integrar las actividades de levantamiento y análisis de requisitos, especificación de requisitos, diseño del producto, gestión de configuración, implementación y despliegue, manteniendo una relación directa entre las necesidades identificadas y las funcionalidades propuestas para la solución.

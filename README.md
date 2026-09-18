@@ -306,12 +306,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         ...
       </td>
       <td>
-        Fusce cursus dolor et nulla suscipit, sit amet ullamcorper nibh vestibulum.<br>
-        Nam ornare massa eu lobortis porttitor.<br>
-        Nam ut erat feugiat libero pretium semper at ac metus.<br>
-        Sed at eros dapibus, fermentum quam ut, bibendum lacus.<br>
-        Curabitur eget orci eget urna varius commodo.<br>
-        ...
+        <b>AV1</b><br>
+        <p>En conclusión, logramos ejercer un liderazgo conjunto y transversal a lo largo de todas las fases del proyecto, desde la asignación estratégica de roles iniciales y la facilitación compartida del Lean UX Process, Needfinding y Big Picture EventStorming (Capítulos I y II), hasta la toma de decisiones técnicas para el Product Backlog, arquitectura DDD y diseño de bases de datos (Capítulos III y IV). Asimismo, asumimos de forma colaborativa la dirección de los Sprints y la asignación de líderes por aspectos en la fase de implementación (Capítulo V), demostrando una capacidad constante para orientar al grupo hacia el cumplimiento de cada hito técnico y estratégico del proyecto.</p>
       </td>
     </tr>
     <tr>
@@ -341,11 +337,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <br>
       </td>
       <td>
-        Fusce mattis augue a nisl bibendum, quis fringilla neque scelerisque.<br>
-        Vivamus commodo libero eget venenatis imperdiet.<br>
-        Etiam imperdiet quam condimentum velit tempor porttitor.<br>
-        Suspendisse blandit nisl quis mauris vehicula faucibus.<br>
-        ...
+        <b>AV1</b><br>
+        <p>En conclusión, consolidamos un entorno de trabajo altamente colaborativo e inclusivo al integrar las opiniones e ideas de todos los integrantes durante las dinámicas de brainstorming, diseño UX/UI y definición de requisitos (Capítulos I al IV). Además, demostramos rigurosidad en el establecimiento de metas y planificación de tareas al gestionar de forma ordenada el Sprint Backlog, los entornos de desarrollo, la documentación de servicios y las revisiones de código y despliegue (Capítulo V), lo que nos permitió alcanzar con éxito los objetivos de software y entregar un producto funcional dentro de los plazos establecidos.</p>
       </td>
     </tr>
   </tbody>

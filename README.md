@@ -1476,6 +1476,28 @@ camino feliz (happy path) como las rutas alternativas (unhappy paths) ante posib
 
 ---
 
+### Solicitar un nuevo pedido de lavandería
+
+**User Goal:** Solicitar un servicio de lavandería de forma digital, sin necesidad de llamar o escribir directamente a la lavandería.
+
+**User Persona:** Valeria Torres, Cliente de Lavandería.
+
+**Consistencia con el Wireflow:** Este diagrama conserva exactamente la misma secuencia (Nuevo pedido → selección de servicio y prendas → confirmación) definida en el Wireflow de la sección 4.4.2.
+
+![SolicitarNuevoPedido_mockup.png](assets/SolicitarNuevoPedido_mockup.png)
+
+**Explicación del flujo:**
+
+*Happy path:* la usuaria ingresa a la aplicación web, selecciona "Nuevo pedido", elige el servicio deseado y la cantidad de prendas, selecciona la fecha y el tipo de entrega, y confirma la solicitud. El sistema muestra una confirmación y agrega el pedido a su historial con estado inicial "En proceso".
+
+*Unhappy paths:*
+
+- Servicio no disponible en la zona de la usuaria: el sistema muestra un mensaje indicando que el servicio no cubre esa ubicación.
+- Error de validación en el formulario: se muestra el mensaje de error debajo del campo correspondiente sin perder los datos ya ingresados.
+- Cancelación de la solicitud: la usuaria cierra el formulario antes de confirmar y no se genera ningún pedido.
+
+---
+
 
 ### 4.5. Web Applications Prototyping
 

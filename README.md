@@ -80,11 +80,41 @@ u202216240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tufiño Ar
 
 ## Project Report Collaboration Insights
 
-// Enlaces  de repositorios
+URL del repositorio (report): [https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTechReport-16129-G2](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTechReport-16129-G2)
 
-*Reporte de colaboración de la entrega del TP:*
+URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2)
 
-// Falta Imagen 
+<br>
+
+**Primera entrega (AV1)**
+
+<p align="justify">
+  Durante la fase inicial del proyecto, correspondiente a la primera entrega, el equipo organizó sus actividades bajo un esquema de trabajo coordinado, distribuyendo la carga operativa en función de las especialidades de cada integrante.
+</p>
+
+<p align="justify">
+  Las actividades se enfocaron en la construcción estratégica y los fundamentos del proyecto dentro del Capítulo I. El equipo trabajó en la definición detallada del perfil de la startup y la presentación formal de sus integrantes, para luego abordar el planteamiento de la solución aplicando la metodología Lean UX. Esto abarcó la formulación rigurosa de las declaraciones de problema, la identificación de suposiciones, la definición de hipótesis verificables y la elaboración sintética del Lean UX Canvas, culminando con la caracterización técnica de los segmentos de mercado objetivo.
+</p>
+
+<p align="justify">
+  Posteriormente, en el Capítulo II se llevaron a cabo las dinámicas de elicitación y análisis de requerimientos. El equipo ejecutó un análisis competitivo exhaustivo, diseñó y aplicó guías de entrevista estructuradas a usuarios del segmento objetivo, y procesó los hallazgos mediante técnicas de Needfinding. Como resultado, se consolidaron los User Personas, las matrices de tareas, los User Journey Maps y los Empathy Maps. Adicionalmente, se facilitaron sesiones colaborativas de Big Picture EventStorming para mapear la complejidad del dominio de negocio y consensuar el Ubiquitous Language que rige la arquitectura del sistema.
+</p>
+
+<p align="justify">
+  En el marco de la especificación de requerimientos del Capítulo III, se estructuraron las historias de usuario asociadas a mapas de impacto (Impact Mapping) y se organizó el Product Backlog priorizado. A la par, el Capítulo IV demandó un esfuerzo multidisciplinario significativo en diseño de producto y arquitectura de software. En esta etapa se establecieron las guías de estilo para aplicaciones web, la arquitectura de información detallada (sistemas de organización, etiquetado, búsqueda, navegación y metadatos SEO), así como el diseño de la interfaz y experiencia de usuario a nivel de Wireframes, Mockups, Wireflows, User Flows y prototipos interactivos. Asimismo, aplicando Domain-Driven Design (DDD), se ejecutó el Design-Level EventStorming y se construyeron los diagramas C4 (Context, Container y Component), acompañados de los diagramas de clases orientados a objetos y el modelado completo de la base de datos.
+</p>
+
+<p align="justify">
+  Por último, el Capítulo V concentró la configuración del entorno de gestión del código fuente, donde se definieron las convenciones de desarrollo, los estándares de estilo de código, la estrategia de ramificación (GitFlow) y las pautas para el despliegue de las aplicaciones y servicios, asentando las bases técnicas para el ciclo de vida del desarrollo de software.
+</p>
+
+**Evidencias de colaboración y analíticos en GitHub**
+
+<p align="justify">
+  Para garantizar la coherencia metodológica con el Registro de Versiones del Informe y verificar el compromiso y la participación equitativa de todos los integrantes del equipo DevTech, se adjuntan los analíticos y registros de actividad extraídos directamente de las métricas internas del repositorio en GitHub.
+</p>
+
+
 
 <div style="page-break-after: always;"></div>
 

@@ -3385,6 +3385,18 @@ CSS3 se utiliza para definir la presentación visual, distribución y adaptació
 * **Diseño responsive:** Los estilos están orientados a permitir que la interfaz se adapte a diferentes tamaños de pantalla (celulares, tablets y computadoras).
 
 ---
+### JavaScript
+
+JavaScript se utiliza para incorporar interactividad a la Landing Page. Entre sus funciones se encuentran el control del menú de navegación y el cambio entre los idiomas español e inglés. Las principales convenciones aplicadas son:
+
+* **camelCase:** Se utiliza esta convención para variables y funciones, como `navCollapse`, `isOpen`, `translatableElements`, `originalTexts`, `applyAttrTranslations` y `setLanguage`.
+* **Nombres descriptivos:** Las variables y funciones representan la acción o elemento que controlan. Por ejemplo, `setLanguage()` identifica claramente la función encargada de establecer el idioma.
+* **Funciones con responsabilidades específicas:** Las funcionalidades se separan en funciones como `normalize()`, `applyAttrTranslations()` y `setLanguage()`, facilitando la organización del código.
+* **Uso de constantes:** Se utiliza `const` para referencias que no necesitan ser reasignadas, como `btn`, `navCollapse`, `translations` y `translatableAttrs`.
+* **Comentarios:** Se utilizan comentarios para separar y explicar bloques funcionales del código, como el selector de idioma EN/ES.
+* **Manipulación del DOM:** Se emplean métodos como `querySelector()`, `querySelectorAll()`, `classList.toggle()`, `setAttribute()` y eventos `addEventListener()` para controlar dinámicamente la interfaz.
+
+---
 
 
 #### 5.1.4. Software Deployment Configuration

@@ -1412,7 +1412,26 @@ camino feliz (happy path) como las rutas alternativas (unhappy paths) ante posib
 - Cancelación: el usuario cierra el formulario sin guardar ningún cambio.
 
 ---
+### Registrar un pago asociado a un pedido
 
+**User Goal:** Registrar el cobro correspondiente a un pedido, dejando constancia del monto y el método de pago utilizado.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería.
+
+**Consistencia con el Wireflow:** Este diagrama conserva exactamente la misma secuencia (Pagos → registro de monto y método → actualización de tabla) definida en el Wireflow de la sección 4.4.2.
+
+![RegistrarPagoAsociadoPedido_mockup.png](assets/RegistrarPagoAsociadoPedido_mockup.png)
+
+**Explicación del flujo:**
+
+*Happy path:* el usuario ingresa a Pagos, ubica el pedido correspondiente (o accede desde el detalle del pedido en Pedidos), registra el monto cobrado y selecciona el método de pago (Yape, Tarjeta, Efectivo), y guarda. El sistema actualiza el estado de pago del pedido y lo refleja en la tabla de Pagos.
+
+*Unhappy paths:*
+
+- Monto inválido (negativo o distinto al total del pedido): el sistema muestra un mensaje de error y no permite guardar hasta corregirlo.
+- Pedido ya pagado: el sistema advierte que el pedido ya cuenta con un pago registrado y solicita confirmación antes de continuar.
+- Cancelación: el usuario cierra el formulario sin registrar el pago.
+---
 ### 4.5. Web Applications Prototyping
 
 ### 4.6. Domain-Driven Software Architecture

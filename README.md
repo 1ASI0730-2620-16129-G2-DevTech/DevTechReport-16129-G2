@@ -3374,7 +3374,7 @@ El Design-Level EventStorming identifica los principales **Commands, Aggregates,
 ### EventStorming
 
 ```mermaid
-flowchart LR
+flowchart TB
     C1["Command: Create Order"] --> E1["Event: OrderCreated"]
     E1 --> C2["Command: Validate Subscription"]
     C2 --> E2["Event: SubscriptionValidated"]

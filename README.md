@@ -4469,6 +4469,71 @@ Evidencia el funcionamiento del selector de idioma (ES/EN) ubicado en la barra d
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
+## Explicación del trabajo en equipo - Report 
+
+Durante el Sprint 1, los cinco integrantes trabajaron en paralelo con un flujo de **ramas `feature/`** creadas a partir de `develop`. Cada entregable se desarrolló en su propia rama y se integró mediante **Pull Request**, lo que permitió avanzar sin bloquearse entre sí y mantener `develop` estable.
+
+Entre el 11 y el 18 de septiembre de 2026 se fusionaron **13 Pull Requests** (ninguno quedó abierto). Los 5 integrantes hicieron push: **106 commits** en todas las ramas, 63 de ellos en `develop`, con 109 archivos modificados (1850 líneas añadidas y 300 eliminadas). Los PRs cubrieron el despliegue del software, la documentación de servicios, la guía de estilo y convenciones de código, el reporte de collaboration insights y las conclusiones.
+
+## Evidencia de participación de todos los miembros
+
+| Integrante (GitHub) | Commits | Líneas añadidas | Líneas eliminadas |
+|---|---|---|---|
+| adriana832 | 64 | 1322 | 206 |
+| ArianaPerez34 | 35 | 963 | 50 |
+| SSayag0V | 13 | 1726 | 631 |
+| LuisTufino2 | 13 | 797 | 21 |
+| GabrielRamirez06 | 12 | 1058 | 95 |
+
+*Fuente: GitHub Insights – Contributors (`develop`, sin commits de merge).*
+
+## Capturas de GitHub
+
+
+*Figura 1. Aporte individual y commits a lo largo del tiempo.*
+
+![Figura 2. Insights – Pulse (11–18 sep 2026)](assets/img/Chapter5/sprint1/insights-pulse.png)
+*Figura 2. Actividad del sprint y Pull Requests fusionados.*
+
+![Figura 3. Insights – Network graph](assets/img/Chapter5/sprint1/insights-network.png)
+*Figura 3. Flujo de ramas `feature/` y merges.*
+
+![Figura 4. Historial de commits](assets/img/Chapter5/sprint1/commits-history.png)
+*Figura 4. Historial de commits del repositorio.*
+
+
+----
+
+## Explicación del trabajo en equipo - Landing Page 
+
+El desarrollo de la Landing Page se organizó con un flujo de **ramas y Pull Requests**: la rama `feature/landing` se usó para la construcción inicial de la página y `feature/finalVersion` para la versión final. Ambas se integraron a `develop`, y `develop` se fusionó a `main` mediante Pull Request, lo que mantuvo `main` con una versión estable de la página.
+
+La mayor parte del desarrollo se concentró entre finales de agosto y mediados de septiembre, con actividad en tres semanas consecutivas (aproximadamente 6, 7 y 1 commits a `main`, 14 en total). Entre el 11 y el 18 de septiembre de 2026 se cerró la etapa de ajustes finales: se fusionaron **2 Pull Requests** (#3 `docs: add id in form` y #4 `Develop`), realizados por 2 personas y sin ningún PR abierto. En el Network graph se observa que la rama `feature/finalVersion` acumuló varios commits antes de integrarse (16 de septiembre), y que `develop` se fusionó a `main` el 17 de septiembre.
+
+## Evidencia de participación
+
+| Integrante (GitHub) | Commits en `main` | Líneas añadidas | Líneas eliminadas |
+|---|---|---|---|
+| ArianaPerez34 | 13 | 4059 | 1575 |
+| adriana832 | 1 | 1 | 1 |
+
+*Fuente: GitHub Insights – Contributors (`main`, sin commits de merge, del 13 de junio al 12 de septiembre de 2026).*
+
+## Capturas de GitHub
+
+![Figura 1. Insights – Contributors](assets/img/Chapter5/sprint1/landing-contributors.png)
+*Figura 1. Aporte individual y commits a lo largo del tiempo en `main`.*
+
+![Figura 2. Insights – Pulse (11–18 sep 2026)](assets/img/Chapter5/sprint1/landing-pulse.png)
+*Figura 2. Actividad de la última semana y Pull Requests fusionados.*
+
+![Figura 3. Insights – Network graph](assets/img/Chapter5/sprint1/landing-network.png)
+*Figura 3. Flujo de ramas `feature/landing`, `feature/finalVersion`, `develop` y `main`.*
+
+![Figura 4. Historial de commits](assets/img/Chapter5/sprint1/landing-commits-history.png)
+*Figura 4. Historial de commits del repositorio de la Landing Page.*
+
+
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas

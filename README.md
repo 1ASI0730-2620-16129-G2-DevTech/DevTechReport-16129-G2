@@ -2133,7 +2133,7 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
 </ul>
 
 <div align="center">
-  <img src="assets/img/Chapter4/LogoWachTrack.png" alt="Logotipo de WashTrack" width="200"/>
+  <img src="assets/img/Chapter4/Logo WachTrack.png" alt="Logotipo de WashTrack" width="200"/>
 </div>
 
 <ul>

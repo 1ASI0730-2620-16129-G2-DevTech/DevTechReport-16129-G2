@@ -4386,6 +4386,37 @@ Durante el Sprint 1, el equipo implementó la primera versión funcional de la L
 
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 
+Como resultado del Sprint 1, se logró desplegar la primera versión funcional de la Landing Page de WashTrack, cumpliendo con las tres User Stories priorizadas en el Sprint Backlog. A nivel de ejecución, la interfaz presenta de forma clara la propuesta de valor de WashTrack en su sección principal, seguida de los accesos diferenciados que permiten al visitante identificar y navegar hacia la experiencia correspondiente a su perfil, ya sea como cliente o como proveedor de servicios de lavandería. La navegación entre secciones se implementó mediante un menú responsivo, adaptado tanto a la versión de escritorio como a dispositivos móviles, y el formulario de contacto ubicado al final de la página quedó enlazado a la política de privacidad del proyecto. A continuación se presentan las capturas de pantalla que evidencian la visualización y navegación alcanzadas durante este Sprint, junto con el enlace al video de demostración correspondiente.
+
+
+A continuación se presentan las capturas de pantalla más representativas de las vistas implementadas y puestas en funcionamiento durante el Sprint 1, correspondientes a la primera versión de la Landing Page de WashTrack.
+
+**Sección principal (Hero) — Propuesta de valor de WashTrack**
+
+![LandingPage_Hero.png](assets/img/Chapter5/sprint1/LandingPage_Hero.png)
+
+Presenta el mensaje principal "Tu lavandería, bajo control. En tiempo real.", junto con un panel visual que anticipa las funcionalidades clave del producto (pedidos, entregas, alertas IoT), evidenciando el cumplimiento de US01 – Conocer WashTrack.
+
+**Sección de características — Funcionalidades del producto**
+
+![LandingPage_Caracteristicas.png](assets/img/Chapter5/sprint1/LandingPage_Caracteristicas.png)
+
+Muestra las cuatro funcionalidades principales de la plataforma (Gestión integral de pedidos, Seguimiento en tiempo real, Monitoreo IoT predictivo, Logística y pagos), reforzando la propuesta de valor comunicada en la sección Hero.
+
+**Sección "Para quién" — Accesos diferenciados por segmento**
+
+![LandingPage_ParaQuien.png](assets/img/Chapter5/sprint1/LandingPage_ParaQuien.png)
+
+Presenta los dos segmentos objetivo (Dueños de lavandería y Clientes finales), cada uno con su propio mensaje y call-to-action, evidenciando el cumplimiento de US02 – Acceder como cliente y US03 – Acceder como proveedor.
+
+**Selector de idioma — Internacionalización (i18n)**
+
+![LandingPage_EN.png](assets/img/Chapter5/sprint1/LandingPage_EN.png)
+
+Evidencia el funcionamiento del selector de idioma (ES/EN) ubicado en la barra de navegación, mostrando la sección principal traducida al inglés, en línea con el enfoque de internacionalización definido para el proyecto.
+
+* **Landing Page:** [DevTech Landing Page](https://1asi0730-2620-16129-g2-devtech.github.io/DevTech-LandingPage-16129-G2/)
+
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 <p align="justify">
   Durante el Sprint 1, se ha avanzado en la definición y simulación de la captura de datos desde la interfaz de la Landing Page de WashTrack. Se estructuraron los formularios clave de interacción con el cliente y se definieron las especificaciones de los parámetros de entrada y respuestas del sistema (mock responses) para asegurar la integración fluida con la arquitectura de Web Services.

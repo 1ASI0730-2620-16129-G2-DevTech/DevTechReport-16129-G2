@@ -447,7 +447,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   </tr>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/foto_adriana.jpg" alt="Foto de Adriana Ramos" width="500"/>
+      <img src="assets/foto_adriana_profile.jpeg" alt="Foto de Adriana Ramos" width="500"/>
     </td>
     <td><b>Nombre:</b> Adriana Nicole Ramos Fuentes Rivera</td>
   </tr>

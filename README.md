@@ -296,14 +296,14 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         ...<br>
         <b>Sayago Vidal, Sebastián Leonardo</b><br>
         <em><b>AV1</b></em><br>
-          Participé activamente en el desarrollo del proyecto WashTrack, asumiendo responsabilidades relacionadas con el diseño y documentación técnica del sistema.
-        Desarrollé y estructuré los contenidos correspondientes a la arquitectura de software, EventStorming, diagramas C4, diagramas de componentes, diseño orientado a objetos y diseño de base de datos. 
+        Participé activamente en el desarrollo del proyecto WashTrack, asumiendo responsabilidades relacionadas con el diseño y documentación técnica del sistema.
+        Desarrollé y estructuré los contenidos correspondientes a la arquitectura de software, EventStorming, diagramas C4, diagramas de componentes, diseño orientado a objetos y diseño de base de datos.
         ...<br>
         <b>Tufiño Argüelles, Luis Angel</b><br>
         <em><b>AV1</b></em><br>
-        -Propuso y sustentó ante el equipo los criterios de usabilidad y arquitectura de información aplicados en el diseño de las pantallas de WashTrack (Dashboard, Pedidos, Clientes, Pagos), argumentando cada decisión con heurísticas de Nielsen y principios de Gestalt.<br>- Lideró la identificación de los User Goals a partir de los User Persona del proyecto, coordinando con el equipo la priorización de los flujos por segmento (Propietario de lavandería y Cliente). | *(Sección grupal — se completa en conjunto con el equipo)* |
-        | Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos <br>
-
+        - Propuso y sustentó ante el equipo los criterios de usabilidad y arquitectura de información aplicados en el diseño de las pantallas de WashTrack (Dashboard, Pedidos, Clientes, Pagos), argumentando cada decisión con heurísticas de Nielsen y principios de Gestalt.<br>
+        - Lideró la identificación de los User Goals a partir de los User Persona del proyecto, coordinando con el equipo la priorización de los flujos por segmento (Propietario de lavandería y Cliente).
+        ...
       </td>
       <td>
         Fusce cursus dolor et nulla suscipit, sit amet ullamcorper nibh vestibulum.<br>
@@ -319,8 +319,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td>
         <b>Pérez Vásquez, Ariana Valeria</b><br>
         <em><b>AV1</b></em><br>
-        Participé en la planificación y organización de las actividades del equipo, coordinando las tareas asignadas para el desarrollo del proyecto WashTrack y contribuyendo al cumplimiento de los objetivos establecidos para el avance
-        Desarrollé las secciones asignadas del Capítulo IV, relacionadas con Style Guidelines, Information Architecture y Landing Page UI Design, coordinando con los integrantes del equipo para mantener la coherencia del proyecto y cumplir con las actividades planificadas<br>
+        Participé en la planificación y organización de las actividades del equipo, coordinando las tareas asignadas para el desarrollo del proyecto WashTrack y contribuyendo al cumplimiento de los objetivos establecidos para el avance.
+        Desarrollé las secciones asignadas del Capítulo IV, relacionadas con Style Guidelines, Information Architecture y Landing Page UI Design, coordinando con los integrantes del equipo para mantener la coherencia del proyecto y cumplir con las actividades planificadas.<br>
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
@@ -337,7 +337,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         ...<br>
         <b>Tufiño Argüelles, Luis Angel</b><br>
         <em><b>AV1</b></em><br>
-        Participé en la planificación y organización de las actividades del equipo, coordinando las tareas asignadas para el desarrollo del proyecto WashTrack y contribuyendo al cumplimiento de los objetivos establecidos para el avance Desarrollé las secciones asignadas del Capítulo IV, relacionadas con Style Guidelines, Information Architecture y Landing Page UI Design, coordinando con los integrantes del equipo para mantener la coherencia del proyecto y cumplir con las actividades planificadas
+        - Elaboró los Wireframes, Wireflow Diagrams y Mock-ups correspondientes a los principales módulos de WashTrack y de la App Cliente, organizando el avance por pantalla para cumplir con el alcance planteado para AV1.<br>
+        - Incorporó la retroalimentación del equipo para ajustar los flujos propuestos (por ejemplo, separar el goal de asignar un repartidor del de monitorear un envío en curso), cumpliendo con los plazos acordados para esta entrega.
       <br>
       </td>
       <td>

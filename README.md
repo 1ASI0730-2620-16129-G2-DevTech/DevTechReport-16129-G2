@@ -477,17 +477,17 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     <td rowspan="4" align="center">
       <img src="assets/foto_nombre.png" alt="Foto de " width="500"/>
     </td>
-    <td><b>Nombre:</b> NOMBRE COMPLETO </td>
+    <td><b>Nombre:</b> Luis Angel Tufiño Argüelles </td>
   </tr>
   <tr>
-    <td><b>Código:</b> PONER TU CODIGO DE U </td>
+    <td><b>Código:</b> U202216240 </td>
   </tr>
   <tr>
     <td>
       <b>Descripción:</b><br/>
-    Breve descripcion
+      Soy <br/>Luis Angel Tufiño Argüelles<br/> estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me destaco por mi capacidad de análisis, enfoque en soluciones efectivas y apertura para escuchar y aplicar nuevas ideas en proyectos colaborativos. Poseo experiencia en diseño de interfaces de usuario y desarrollo web, con manejo de HTML y CSS, así como habilidades en programación con C++ y Python. Me interesa contribuir en proyectos innovadores, optimizando la experiencia del usuario y garantizando un desarrollo de software eficiente y de calidad.
       <br/><br/>
-    Dentro del equipo... (que funcion cumples)  
+      Dentro del equipo, me enfoco en el diseño de interfaces y la experiencia de usuario, cuidando que cada pantalla sea clara e intuitiva antes de llevarla a código. Me considero una persona analítica y receptiva a la retroalimentación del equipo.
     </td>
   </tr>
 

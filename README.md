@@ -4460,6 +4460,8 @@ Como parte de los siguientes pasos en el **Roadmap** de los productos digitales 
 
 # Bibliografía
 
+* Instituto Nacional de Estadística e Informática [INEI]. (2024). *Encuesta Nacional de Uso del Tiempo (ENUT) 2024: Principales resultados*. Gobierno del Perú. Retrieved from [https://cdn.www.gob.pe/uploads/document/file/7838198/6610655-encuesta-nacional-de-uso-del-tiempo-2024-principales-resultados.pdf?v=1743092246](https://cdn.www.gob.pe/uploads/document/file/7838198/6610655-encuesta-nacional-de-uso-del-tiempo-2024-principales-resultados.pdf?v=1743092246)
+* Instituto Nacional de Estadística e Informática [INEI]. (2026). *Condiciones de Vida en el Perú: I Trimestre 2026 (Resultados de la Encuesta Nacional de Hogares - ENAHO)*. Gobierno del Perú. Retrieved from [https://cdn.www.gob.pe/uploads/document/file/10184760/8285402-condiciones-de-vida-en-el-peru-i-trimestre-2025.pdf?v=1782145344](https://cdn.www.gob.pe/uploads/document/file/10184760/8285402-condiciones-de-vida-en-el-peru-i-trimestre-2025.pdf?v=1782145344)
 * Jansen, S. M. (2019). *Practical Domain-Driven Design in Enterprise Java: Using Jakarta EE, NoSQL Databases, and Microservices*. Apress. Retrieved from [https://bit.ly/4flQyB7](https://bit.ly/4flQyB7)
 * Microsoft. (n.d.). *What is ASP.NET Core?* Microsoft. Retrieved from [https://dotnet.microsoft.com/es-es/learn/aspnet/what-is-aspnet-core](https://dotnet.microsoft.com/es-es/learn/aspnet/what-is-aspnet-core)
 * W3Schools. (n.d.). *Responsive Web Design*. W3Schools Online Web Tutorials. Retrieved from [https://www.w3schools.com/html/html_responsive.asp](https://www.w3schools.com/html/html_responsive.asp)

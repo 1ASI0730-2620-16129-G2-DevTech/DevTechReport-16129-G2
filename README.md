@@ -2133,7 +2133,7 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
 </ul>
 
 <div align="center">
-  <img src="assets/Logo WachTrack.png" alt="Logotipo de WashTrack" width="200"/>
+  <img src="assets/img/Chapter4/LogoWachTrack.png" alt="Logotipo de WashTrack" width="200"/>
 </div>
 
 <ul>
@@ -2160,7 +2160,7 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
 </ul>
 <b>Nomenclatura:</b>
 <div align="center">
-    <img src="assets/nomenclatura.png" alt="Nomenclatura" width="300"/>
+    <img src="assets/img/Chapter4/nomenclatura.png" alt="Nomenclatura" width="300"/>
 </div>
   </li>
 </ul>
@@ -2227,7 +2227,7 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
 </ul>
 <p>
 <div align="center">
-    <img src="assets/PaletaColores.png" alt="Paleta de Colores" width="400"/>
+    <img src="assets/img/Chapter4/PaletaColores.png" alt="Paleta de Colores" width="400"/>
 </div>
   </p>    
 
@@ -2243,10 +2243,10 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
   <table align="center" style="border: none;">
   <tr>
     <td align="center" style="border: none;">
-      <img src="assets/Responsive1.PNG" alt="Responsive 1" width="400"/>
+      <img src="assets/img/Chapter4/Responsive1.PNG" alt="Responsive 1" width="400"/>
     </td>
     <td align="center" style="border: none;">
-      <img src="assets/Responsive2.PNG" alt="Responsive 2" width="300"/>
+      <img src="assets/img/Chapter4/Responsive2.PNG" alt="Responsive 2" width="300"/>
     </td>
   </tr>
 </table>
@@ -2256,11 +2256,11 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
     <p>La barra de navegación superior (Navbar) permite acceder de forma rápida a las principales funcionalidades de la plataforma, como Inicio, Monitoreo de Lavadoras, Reportes, Alertas IoT y Soporte. En dispositivos móviles, la navegación se adapta mediante un menú tipo hamburguesa, reduciendo la cantidad de elementos visibles y facilitando su interacción.</p>
   </li>
   <div align="center">
-    <img src="assets/SN1.png" alt="SN1" width="500"/>
+    <img src="assets/img/Chapter4/SN1.png" alt="SN1" width="500"/>
 </div>
 <br>
 <div align="center">
-    <img src="assets/SN2.PNG" alt="SN2" width="500"/>
+    <img src="assets/img/Chapter4/SN2.PNG" alt="SN2" width="500"/>
 </div>
 
   <li>
@@ -2277,28 +2277,28 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
 
   <tr>
     <td align="center" style="border: none;">
-      <img src="assets/bot1.PNG" alt="Bot 1" width="200"/>
+      <img src="assets/img/Chapter4/bot1.PNG" alt="Bot 1" width="200"/>
     </td>
     <td align="center" style="border: none;">
-      <img src="assets/bot2.PNG" alt="Bot 2" width="200"/>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center" style="border: none;">
-      <img src="assets/bot3.PNG" alt="Bot 3" width="200"/>
-    </td>
-    <td align="center" style="border: none;">
-      <img src="assets/bot4.PNG" alt="Bot 4" width="200"/>
+      <img src="assets/img/Chapter4/bot2.PNG" alt="Bot 2" width="200"/>
     </td>
   </tr>
 
   <tr>
     <td align="center" style="border: none;">
-      <img src="assets/bot5.PNG" alt="Bot 5" width="200"/>
+      <img src="assets/img/Chapter4/bot3.PNG" alt="Bot 3" width="200"/>
     </td>
     <td align="center" style="border: none;">
-      <img src="assets/bot6.PNG" alt="Bot 6" width="200"/>
+      <img src="assets/img/Chapter4/bot4.PNG" alt="Bot 4" width="200"/>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="assets/img/Chapter4/bot5.PNG" alt="Bot 5" width="200"/>
+    </td>
+    <td align="center" style="border: none;">
+      <img src="assets/img/Chapter4/bot6.PNG" alt="Bot 6" width="200"/>
     </td>
   </tr>
 </table>
@@ -2308,7 +2308,7 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
     <p>La información se presenta mediante tarjetas con bordes redondeados y fondos claros sobre superficies en tonos celestes suaves. Este sistema permite organizar métricas, estados de las máquinas, alertas y gráficos de manera independiente, facilitando la lectura y el monitoreo de la información.</p>
   </li>
   <div align="center">
-    <img src="assets/Panel.PNG" alt="Panel" width="300"/>
+    <img src="assets/img/Chapter4/Panel.PNG" alt="Panel" width="300"/>
 </div>
 <li>
     <b>Estados, Alertas y Retroalimentación:
@@ -2316,7 +2316,7 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
     <p>El sistema utiliza colores diferenciados para comunicar estados y acciones. El verde representa operaciones exitosas o máquinas en línea, mientras que el rojo y naranja se utilizan para alertas, errores o situaciones que requieren atención. De esta manera, la información crítica puede identificarse rápidamente.</p>
   </li>
    <div align="center">
-    <img src="assets/coloresTipo.PNG" alt="Panel" width="300"/>
+    <img src="assets/img/Chapter4/coloresTipo.PNG" alt="Panel" width="300"/>
 </div>
  <li>
     <b>Transiciones y Animaciones:
@@ -2329,7 +2329,7 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
     <p>Los componentes mantienen patrones visuales consistentes en toda la plataforma, utilizando la misma paleta de colores, tipografías, bordes, botones, iconografía y estilos de interacción definidos previamente en el sistema de diseño. Esto permite que el usuario reconozca y comprenda los elementos de la interfaz con mayor facilidad.</p>
   </li>
   <div align="center">
-    <img src="assets/conVis1.PNG" alt="Panel" width="500"/>
+    <img src="assets/img/Chapter4/conVis1.PNG" alt="Panel" width="500"/>
 </div>
 </ul>
 <p>Todas ellas se representan mediante las diferentes vistas de la interfaz web de WashTrack, incluyendo la versión de escritorio, adaptación para dispositivos móviles, sistema de navegación, tarjetas informativas, botones, estados y paneles de monitoreo.</p>
@@ -2548,35 +2548,35 @@ A continuación, se presentan los wireframes correspondientes a la interfaz de l
 </p>
 
 <div align="center">
-  <img src="./assets/LandingPage-Wireframe1.png" width="700px" alt="Landing Page Wireframe 1">
+  <img src="./assets/img/Chapter4/LandingPage-Wireframe1.png" width="700px" alt="Landing Page Wireframe 1">
   <p><b>Figura 1:</b> Sección principal con propuesta de valor, accesos rápidos y vista previa de la plataforma.</p>
   <p></p>
   
-  <img src="./assets/LandingPage-Wireframe2.png" width="700px" alt="Landing Page Wireframe 2">
+  <img src="./assets/img/Chapter4/LandingPage-Wireframe2.png" width="700px" alt="Landing Page Wireframe 2">
   <p><b>Figura 2:</b> Sección de identificación del problema y solución principal para los negocios de lavandería.</p>
   <p></p>
 
-  <img src="./assets/LandingPage-Wireframe3.png" width="700px" alt="Landing Page Wireframe 3">
+  <img src="./assets/img/Chapter4/LandingPage-Wireframe3.png" width="700px" alt="Landing Page Wireframe 3">
   <p><b>Figura 3:</b> Sección de características clave y descripción del funcionamiento general de WashTrack.</p>
   <p></p>
 
-  <img src="./assets/LandingPage-Wireframe4.png" width="700px" alt="Landing Page Wireframe 4">
+  <img src="./assets/img/Chapter4/LandingPage-Wireframe4.png" width="700px" alt="Landing Page Wireframe 4">
   <p><b>Figura 4:</b> Módulo detallado de seguimiento en tiempo real y listas de control de operaciones.</p>
   <p></p>
 
-  <img src="./assets/LandingPage-Wireframe5.png" width="700px" alt="Landing Page Wireframe 5">
+  <img src="./assets/img/Chapter4/LandingPage-Wireframe5.png" width="700px" alt="Landing Page Wireframe 5">
   <p><b>Figura 5:</b> Sección orientada a los dos lados de la misma lavandería.</p>
   <p></p>
 
-  <img src="./assets/LandingPage-Wireframe6.png" width="700px" alt="Landing Page Wireframe 6">
+  <img src="./assets/img/Chapter4/LandingPage-Wireframe6.png" width="700px" alt="Landing Page Wireframe 6">
   <p><b>Figura 6:</b> Sección "Sobre Nosotros" que presenta al equipo desarrollador y las cualidades de la plataforma.</p>
   <p></p>
 
-  <img src="./assets/LandingPage-Wireframe7.png" width="700px" alt="Landing Page Wireframe 7">
+  <img src="./assets/img/Chapter4/LandingPage-Wireframe7.png" width="700px" alt="Landing Page Wireframe 7">
   <p><b>Figura 7:</b> Sección de planes y precios adaptados a cada tamaño de lavandería.</p>
   <p></p>
 
-  <img src="./assets/LandingPage-Wireframe8.png" width="700px" alt="Landing Page Wireframe 8">
+  <img src="./assets/img/Chapter4/LandingPage-Wireframe8.png" width="700px" alt="Landing Page Wireframe 8">
   <p><b>Figura 8:</b> Formulario de atención, pie de página (footer) y enlaces legales de la plataforma.</p>
 </div>
 
@@ -2586,35 +2586,35 @@ A continuación, se presentan los mock-ups correspondientes al diseño de alta f
 </p>
 
 <div align="center">
-  <img src="./assets/LandingPage-Mockup1.PNG" width="700px" alt="Landing Page Mock-up 1">
+  <img src="./assets/img/Chapter4/LandingPage-Mockup1.PNG" width="700px" alt="Landing Page Mock-up 1">
   <p><b>Figura 9:</b> Vista de la sección principal con propuesta de valor, accesos rápidos, botones de llamada a la acción y un panel interactivo flotante con métricas en tiempo real.</p>
   <p></p>
   
-  <img src="./assets/LandingPage-Mockup2.PNG" width="700px" alt="Landing Page Mock-up 2">
+  <img src="./assets/img/Chapter4/LandingPage-Mockup2.PNG" width="700px" alt="Landing Page Mock-up 2">
   <p><b>Figura 10:</b> Sección de problema y solución que contrasta la gestión tradicional basada en cuadernos con la automatización digital de la plataforma.</p>
   <p></p>
 
-  <img src="./assets/LandingPage-Mockup3.PNG" width="700px" alt="Landing Page Mock-up 3">
+  <img src="./assets/img/Chapter4/LandingPage-Mockup3.PNG" width="700px" alt="Landing Page Mock-up 3">
   <p><b>Figura 11:</b> Sección de características clave y descripción del flujo operativo general de la plataforma respaldado por imágenes reales de instalaciones.</p>
   <p></p>
 
-  <img src="./assets/LandingPage-Mockup4.PNG" width="700px" alt="Landing Page Mock-up 4">
+  <img src="./assets/img/Chapter4/LandingPage-Mockup4.PNG" width="700px" alt="Landing Page Mock-up 4">
   <p><b>Figura 12:</b> Módulo detallado de seguimiento en tiempo real que detalla las diferentes etapas del estado de los pedidos de los clientes.</p>
   <p></p>
 
-  <img src="./assets/LandingPage-Mockup5.PNG" width="700px" alt="Landing Page Mock-up 5">
+  <img src="./assets/img/Chapter4/LandingPage-Mockup5.PNG" width="700px" alt="Landing Page Mock-up 5">
   <p><b>Figura 13:</b> Sección dual orientada tanto a los administradores de lavanderías como a los usuarios finales que buscan simplificar el lavado de sus prendas.</p>
   <p></p>
 
-  <img src="./assets/LandingPage-Mockup6.PNG" width="700px" alt="Landing Page Mock-up 6">
+  <img src="./assets/img/Chapter4/LandingPage-Mockup6.PNG" width="700px" alt="Landing Page Mock-up 6">
   <p><b>Figura 14:</b> Sección Sobre Nosotros que presenta al equipo desarrollador junto con los pilares fundamentales y valores de la plataforma.</p>
   <p></p>
 
-  <img src="./assets/LandingPage-Mockup7.PNG" width="700px" alt="Landing Page Mock-up 7">
+  <img src="./assets/img/Chapter4/LandingPage-Mockup7.PNG" width="700px" alt="Landing Page Mock-up 7">
   <p><b>Figura 15:</b> Sección de planes y precios adaptados para cada tamaño de negocio con un acceso directo para establecer contacto.</p>
   <p></p>
 
-  <img src="./assets/LandingPage-Mockup8.PNG" width="700px" alt="Landing Page Mock-up 8">
+  <img src="./assets/img/Chapter4/LandingPage-Mockup8.PNG" width="700px" alt="Landing Page Mock-up 8">
   <p><b>Figura 16:</b> Formulario de atención interactivo seguido del pie de página oficial que incluye la identidad de la marca y enlaces legales.</p>
 </div>
 

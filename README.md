@@ -433,7 +433,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 </tr>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/foto_nombre.png" alt="Foto de" width="500"/>
+      <img src="assets/SebastiánSayago_Foto.png" alt="Foto de Sebastián" width="500"/>
     </td>
     <td><b>Nombre:</b> Sebastián Leonardo Sayago Vidal</td>
   </tr>
@@ -3374,7 +3374,7 @@ El Design-Level EventStorming identifica los principales **Commands, Aggregates,
 ### EventStorming
 
 ```mermaid
-flowchart LR
+flowchart TB
     C1["Command: Create Order"] --> E1["Event: OrderCreated"]
     E1 --> C2["Command: Validate Subscription"]
     C2 --> E2["Event: SubscriptionValidated"]
@@ -4428,8 +4428,44 @@ El resultado esperado del Sprint Backlog es una primera versión de la Landing P
 
 ---
 
+## Conclusiones
+
+A partir del desarrollo del proyecto **WashTrack** que desarrollo nuestro equipo <b>DevTech</b>, se logró avanzar desde la identificación de las necesidades de los usuarios hasta la implementación y despliegue de una primera versión de la Landing Page. El proyecto permitió integrar las actividades de levantamiento y análisis de requisitos, especificación de requisitos, diseño del producto, gestión de configuración, implementación y despliegue, manteniendo una relación directa entre las necesidades identificadas y las funcionalidades propuestas para la solución.
+
+* **En relación con los Problem Statements:** Se identificaron dificultades en los clientes de lavanderías relacionadas con la falta de información sobre el estado de sus prendas, la coordinación de los servicios de recojo y entrega, y la necesidad de contar con mayor visibilidad durante el procesamiento de sus pedidos. Desde la perspectiva de las lavanderías, también se identificó la necesidad de mejorar la gestión y seguimiento de sus operaciones. Frente a estas problemáticas, WashTrack plantea una solución digital orientada a centralizar la gestión de pedidos, facilitar el seguimiento de las prendas y mejorar la interacción entre clientes y proveedores del servicio.
+
+* **Respecto a los Assumptions:** Los supuestos establecidos durante la etapa de *Requirements Elicitation & Analysis* fueron contrastados mediante entrevistas. La información obtenida permitió validar las necesidades inicialmente planteadas con el comportamiento y la voz real de los usuarios. Se identificó la importancia crítica de conocer el estado de las prendas durante el servicio y de contar con mecanismos que faciliten la coordinación del recojo y la entrega, orientando la propuesta hacia necesidades concretas del segmento objetivo.
+
+* **En cuanto a los Hypotheses Statements:** Las necesidades identificadas se transformaron en hipótesis relacionadas principalmente con el seguimiento de pedidos, la gestión digital del servicio y la coordinación entre clientes y lavanderías. La primera versión implementada permitió llevar estas hipótesis a elementos concretos de la solución y establecer una base sólida para continuar validándolas en las siguientes iteraciones del producto.
+
+* **Criterios de éxito definidos mediante Lean UX:** La primera versión de WashTrack permitió avanzar en la comprobación de aspectos relacionados con la comprensión de la propuesta de valor, la identificación de las funcionalidades principales y la presentación de una experiencia orientada a las necesidades del segmento. La Landing Page presenta la propuesta de WashTrack, sus características principales, los usuarios a los que se dirige y el funcionamiento general del servicio. Sin embargo, se concluye que algunos criterios cuantitativos requieren continuar siendo validados en futuras iteraciones mediante la implementación de las funcionalidades correspondientes al *Frontend Web Application* y los *Web Services*.
+
+* **Product Implementation, Validation & Deployment:** Se estableció una base técnica para continuar con la evolución del proyecto. Se utilizaron herramientas y prácticas para la gestión del código fuente mediante GitHub, se definió un flujo de trabajo basado en ramas y se establecieron convenciones de desarrollo. Asimismo, se implementó la primera versión de la Landing Page utilizando HTML5, CSS3 y JavaScript, incorporando navegación responsive, cambio de idioma e interacción. Finalmente, se configuró su despliegue mediante GitHub Pages, permitiendo disponer de una versión accesible del producto.
+
+* **Ejecución del Sprint 1:** El desarrollo del primer sprint permitió organizar las actividades mediante *Sprint Planning*, *Sprint Backlog* y una correcta distribución de responsabilidades entre los integrantes del equipo. Las evidencias de desarrollo, ejecución, documentación y despliegue permitieron realizar un seguimiento riguroso al avance de los entregables y establecer la base de trabajo para los siguientes sprints.
+
+---
+
+## Recomendaciones
+
+Como parte de los siguientes pasos en el **Roadmap** de los productos digitales que forman parte del alcance del negocio, se recomienda:
+
+1. **Desarrollo del Frontend Web Application:** Priorizar la implementación de la aplicación web comenzando por las funcionalidades principales del cliente, tales como la creación de pedidos, la consulta del estado de las prendas y el seguimiento del servicio.
+2. **Implementación de Web Services RESTful API:** Desarrollar e integrar los servicios backend utilizando ASP.NET Core, Entity Framework Core y C#, permitiendo conectar la aplicación con la persistencia de datos en la base de datos y soportar la lógica del negocio.
+3. **Módulo para Proveedores (Lavanderías):** Continuar con el desarrollo de las funcionalidades destinadas a las lavanderías, incorporando la gestión de pedidos, la actualización de las etapas del procesamiento y la administración de la información de los servicios.
+4. **Validación Continua con Usuarios:** Realizar pruebas y validaciones con usuarios del segmento objetivo tras cada incremento significativo del producto. Los resultados obtenidos deberán utilizarse para reevaluar los *Assumptions* y *Hypotheses Statements*, contrastar los criterios de éxito de Lean UX y actualizar la priorización del *Product Backlog*, asegurando que WashTrack evolucione progresivamente hacia una solución digital integral.
+
+---
+
+
 # Bibliografía
 
+* Instituto Nacional de Estadística e Informática [INEI]. (2024). *Encuesta Nacional de Uso del Tiempo (ENUT) 2024: Principales resultados*. Gobierno del Perú. Retrieved from [https://cdn.www.gob.pe/uploads/document/file/7838198/6610655-encuesta-nacional-de-uso-del-tiempo-2024-principales-resultados.pdf?v=1743092246](https://cdn.www.gob.pe/uploads/document/file/7838198/6610655-encuesta-nacional-de-uso-del-tiempo-2024-principales-resultados.pdf?v=1743092246)
+* Instituto Nacional de Estadística e Informática [INEI]. (2026). *Condiciones de Vida en el Perú: I Trimestre 2026 (Resultados de la Encuesta Nacional de Hogares - ENAHO)*. Gobierno del Perú. Retrieved from [https://cdn.www.gob.pe/uploads/document/file/10184760/8285402-condiciones-de-vida-en-el-peru-i-trimestre-2025.pdf?v=1782145344](https://cdn.www.gob.pe/uploads/document/file/10184760/8285402-condiciones-de-vida-en-el-peru-i-trimestre-2025.pdf?v=1782145344)
+* Jansen, S. M. (2019). *Practical Domain-Driven Design in Enterprise Java: Using Jakarta EE, NoSQL Databases, and Microservices*. Apress. Retrieved from [https://bit.ly/4flQyB7](https://bit.ly/4flQyB7)
+* Microsoft. (n.d.). *What is ASP.NET Core?* Microsoft. Retrieved from [https://dotnet.microsoft.com/es-es/learn/aspnet/what-is-aspnet-core](https://dotnet.microsoft.com/es-es/learn/aspnet/what-is-aspnet-core)
+* W3Schools. (n.d.). *Responsive Web Design*. W3Schools Online Web Tutorials. Retrieved from [https://www.w3schools.com/html/html_responsive.asp](https://www.w3schools.com/html/html_responsive.asp)
+* MDN Web Docs. (n.d.). *Mobile-first design*. Mozilla. Retrieved from [https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Responsive/Mobile_first](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Responsive/Mobile_first)
 ---
 
 

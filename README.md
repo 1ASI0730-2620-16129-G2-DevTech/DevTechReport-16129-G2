@@ -155,6 +155,8 @@ URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-D
     - [3.1. User Stories](#31-user-stories)
     - [3.2. Impact Mapping](#32-impact-mapping)
     - [3.3. Product Backlog](#33-product-backlog)
+      - [Criterios de priorización](#criterios-de-priorización)
+      - [Definition of Done](#definition-of-done)
   - [Capítulo IV: Product Design](#capítulo-iv-product-design)
     - [4.1. Style Guidelines](#41-style-guidelines)
       - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
@@ -212,13 +214,32 @@ URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-D
     - [5.1. Software Configuration Management](#51-software-configuration-management)
       - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
       - [5.1.2. Source Code Management](#512-source-code-management)
+      - [GitFlow](#gitflow)
+      - [Semantic Versioning](#semantic-versioning)
+      - [Conventional Commits](#conventional-commits)
       - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
+    - [HTML5](#html5)
+    - [CSS3](#css3)
+    - [JavaScript](#javascript)
+    - [Convenciones de Nomenclatura](#convenciones-de-nomenclatura)
+    - [Referencias Adoptadas](#referencias-adoptadas)
       - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+    - [Despliegue de la Landing Page](#despliegue-de-la-landing-page)
+      - [1. Acceso al repositorio](#1-acceso-al-repositorio)
+      - [2. Configuración de GitHub Pages](#2-configuración-de-github-pages)
+      - [3. Generación de la publicación](#3-generación-de-la-publicación)
+      - [4. Validación del despliegue](#4-validación-del-despliegue)
+    - [Configuración de despliegue del Frontend Web Application](#configuración-de-despliegue-del-frontend-web-application)
+    - [Configuración de despliegue de los Web Services](#configuración-de-despliegue-de-los-web-services)
+    - [Flujo general de despliegue](#flujo-general-de-despliegue)
     - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
       - [5.2.1. Sprint 1](#521-sprint-1)
         - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [Resumen del Sprint Planning Meeting](#resumen-del-sprint-planning-meeting)
+      - [User Stories seleccionadas](#user-stories-seleccionadas)
         - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
         - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+      - [Relación entre User Stories y tareas](#relación-entre-user-stories-y-tareas)
         - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
         - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
         - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
@@ -3352,7 +3373,71 @@ erDiagram
 
 ### 5.1. Software Configuration Management
 #### 5.1.1. Software Development Environment Configuration
+
+El equipo DevTech utilizará las siguientes herramientas para colaborar durante las actividades de gestión del proyecto, levantamiento de requerimientos, diseño UX/UI, desarrollo, despliegue y documentación de WashTrack. Se priorizan productos con acceso web o instaladores oficiales y una configuración reproducible para todos los integrantes.
+
+| Actividad | Producto | Propósito de uso en el proyecto | Ruta de referencia o descarga |
+| :--- | :--- | :--- | :--- |
+| Project Management | GitHub Projects | Organizar el Product Backlog, asignar tareas, visualizar el flujo de trabajo y dar seguimiento al avance de los Sprints. | [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) |
+| Requirements Management | GitHub Issues | Registrar User Stories, tareas, errores y criterios de aceptación vinculados con el código fuente. | [GitHub Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) |
+| Source Code Management | Git y GitHub | Controlar versiones, administrar ramas, revisar cambios mediante Pull Requests y mantener el historial de cada producto. | [Git](https://git-scm.com/downloads) · [GitHub](https://github.com/) |
+| Product UX/UI Design | Figma | Elaborar wireframes, mockups y prototipos colaborativos de la Landing Page y las aplicaciones web. | [Figma](https://www.figma.com/) |
+| Software Development | WebStorm | Desarrollar la Landing Page y el Frontend Web Application, editar HTML5, CSS3, JavaScript y Vue, ejecutar tareas y revisar cambios. | [WebStorm](https://www.jetbrains.com/webstorm/download/) |
+| Software Development | IntelliJ IDEA | Desarrollar y ejecutar componentes del proyecto con JavaScript y TypeScript, aprovechando sus herramientas de edición, depuración y gestión de proyectos. | [IntelliJ IDEA](https://www.jetbrains.com/idea/download/) |
+| Software Development | Node.js y npm | Instalar dependencias y ejecutar los scripts de desarrollo y construcción del Frontend Web Application basado en Vue. | [Node.js](https://nodejs.org/en/download) |
+| API Documentation and Testing | Swagger / OpenAPI | Consultar, documentar y validar los endpoints de los Web Services durante el desarrollo y la aceptación. | [OpenAPI Specification](https://swagger.io/specification/) |
+| Software Deployment | GitHub Pages | Publicar la versión estable de la Landing Page desde la rama `main`. | [GitHub Pages](https://pages.github.com/) |
+| Software Documentation | Markdown en GitHub | Mantener el informe, las decisiones técnicas, las instrucciones de ejecución y las evidencias junto al código. | [Guía de Markdown de GitHub](https://docs.github.com/en/get-started/writing-on-github) |
+
+La configuración base para los integrantes será Git, WebStorm para la Landing Page y el Frontend Web Application, e IntelliJ IDEA para los componentes desarrollados con JavaScript y TypeScript. Las versiones de Node.js y .NET deberán corresponder con las declaradas en los archivos de configuración de cada repositorio. Las credenciales, cadenas de conexión y demás secretos no se almacenarán en el repositorio; se administrarán mediante variables de entorno o la configuración segura del servicio de despliegue.
+
 #### 5.1.2. Source Code Management
+
+GitHub será la plataforma oficial para el control de versiones, revisión de código y colaboración. Cada producto tendrá un repositorio independiente para mantener una responsabilidad clara, facilitar el despliegue y evitar que los cambios de un producto afecten directamente a los demás.
+
+| Producto | Repositorio GitHub | Contenido principal |
+| :--- | :--- | :--- |
+| Landing Page | [DevTech-LandingPage-16129-G2](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2) | Código HTML5, CSS3, JavaScript, imágenes y configuración de publicación en GitHub Pages. |
+
+#### GitFlow
+
+El equipo aplicará GitFlow para separar el desarrollo de las versiones publicadas. La rama `main` contendrá únicamente versiones estables y desplegables. La rama `develop` integrará los cambios terminados antes de preparar una versión. Cada cambio funcional o técnico se realizará en una rama independiente y se incorporará mediante Pull Request, revisión del código y validación de las pruebas.
+
+| Rama | Propósito | Convención |
+| :--- | :--- | :--- |
+| `main` | Código estable listo para publicación. | Rama permanente protegida. |
+| `develop` | Integración de funcionalidades terminadas para la siguiente versión. | Rama permanente. |
+| `feature/*` | Desarrollo aislado de una funcionalidad, requisito o mejora. | `feature/<id-o-nombre-descriptivo>`; por ejemplo, `feature/US-014-order-tracking`. |
+| `release/*` | Preparación, documentación y corrección final de una versión candidata. | `release/<MAJOR>.<MINOR>.<PATCH>`; por ejemplo, `release/1.0.0`. |
+| `hotfix/*` | Corrección urgente de un defecto detectado en producción. | `hotfix/<MAJOR>.<MINOR>.<PATCH>`; por ejemplo, `hotfix/1.0.1`. |
+
+El flujo para una funcionalidad será `feature/*` → `develop`. Cuando el incremento cumpla los criterios de aceptación, se creará una rama `release/*` desde `develop`; después de validar la versión, se fusionará en `main` y también en `develop` para conservar las correcciones. Un `hotfix/*` se creará desde `main`, se fusionará en `main` y luego en `develop`. Las ramas integradas se eliminarán después de completar el Pull Request, salvo las ramas permanentes.
+
+#### Semantic Versioning
+
+Las versiones publicadas seguirán Semantic Versioning 2.0.0 con el formato `MAJOR.MINOR.PATCH`:
+
+* **MAJOR:** cambios incompatibles con la versión anterior.
+* **MINOR:** funcionalidad nueva compatible con la versión anterior.
+* **PATCH:** correcciones compatibles de errores o cambios menores.
+
+La primera versión estable se identificará como `v1.0.0`. Las etiquetas de versión se crearán en `main` después de aceptar el Pull Request de `release/*`. Las versiones preliminares podrán utilizar identificadores como `v1.1.0-rc.1` cuando se requiera validar una versión candidata.
+
+#### Conventional Commits
+
+Los mensajes de commit seguirán Conventional Commits para que el historial sea uniforme y facilite la generación de changelogs. Se utilizará el formato `tipo(alcance): descripción breve`.
+
+| Tipo | Uso | Ejemplo |
+| :--- | :--- | :--- |
+| `feat` | Nueva funcionalidad. | `feat(tracking): add order status timeline` |
+| `fix` | Corrección de un defecto. | `fix(auth): validate expired token` |
+| `docs` | Cambios únicamente documentales. | `docs(report): add source code management` |
+| `style` | Formato o estilo sin cambio de comportamiento. | `style(landing): align navigation spacing` |
+| `refactor` | Reestructuración sin cambiar el comportamiento. | `refactor(orders): extract order mapper` |
+| `test` | Creación o modificación de pruebas. | `test(orders): add integration scenarios` |
+| `chore` | Mantenimiento, configuración o dependencias. | `chore(api): update dotnet dependencies` |
+
+La descripción se redactará en modo imperativo, en minúsculas y sin punto final. Cuando un cambio rompa compatibilidad, se añadirá `!` después del alcance o un pie `BREAKING CHANGE` en el cuerpo del commit; por ejemplo, `feat(api)!: replace order status endpoint`.
 #### 5.1.3. Source Code Style Guide & Conventions
 
 Para el desarrollo de la Landing Page de <b>WashTrack</b>, se establecieron convenciones de estilo y nomenclatura con el objetivo de <b>mantener un código ordenado, legible, consistente y fácil de mantener.</b> Estas convenciones se aplican principalmente a HTML5, CSS3 y JavaScript, tecnologías utilizadas en la implementación de la Landing Page.

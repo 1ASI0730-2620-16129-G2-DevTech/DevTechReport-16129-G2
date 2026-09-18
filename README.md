@@ -3414,7 +3414,11 @@ Para mantener uniformidad en el código de la Landing Page, se consideran las si
 En general, las convenciones buscan que cada nombre permita comprender su propósito sin necesidad de revisar todo el código. Por ejemplo, `tracking-demo` permite identificar que corresponde a la demostración del seguimiento de pedidos, mientras que `menu-toggle` identifica el botón utilizado para controlar el menú de navegación.
 
 ---
+### Referencias Adoptadas
 
+Para establecer estas convenciones se consideran como referencia las <b>buenas prácticas de desarrollo y las guías de estilo</b> correspondientes a HTML, CSS y JavaScript, priorizando criterios de legibilidad, consistencia, accesibilidad, mantenibilidad y nomenclatura uniforme. 
+
+Estas convenciones serán utilizadas como base para mantener un estándar común durante la <b>implementación y evolución de los diferentes componentes de WashTrack</b>.
 
 
 #### 5.1.4. Software Deployment Configuration

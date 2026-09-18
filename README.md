@@ -3351,10 +3351,42 @@ erDiagram
 ## Capítulo V: Product Implementation, Validation & Deployment
 
 ### 5.1. Software Configuration Management
-
 #### 5.1.1. Software Development Environment Configuration
 #### 5.1.2. Source Code Management
 #### 5.1.3. Source Code Style Guide & Conventions
+## 5.1.3. Source Code Style Guide & Conventions
+
+Para el desarrollo de la Landing Page de <b>WashTrack</b>, se establecieron convenciones de estilo y nomenclatura con el objetivo de <b>mantener un código ordenado, legible, consistente y fácil de mantener.</b> Estas convenciones se aplican principalmente a HTML5, CSS3 y JavaScript, tecnologías utilizadas en la implementación de la Landing Page.
+
+Como criterio general, se establece que los nombres utilizados en el código fuente deben escribirse en inglés, especialmente para clases, funciones y variables, manteniendo una nomenclatura consistente entre los diferentes archivos del proyecto. Asimismo, se busca utilizar nombres descriptivos que permitan identificar fácilmente la función de cada elemento.
+
+---
+
+### HTML5
+
+Para la estructura de la Landing Page se utiliza HTML5, empleando etiquetas semánticas y una organización jerárquica del contenido. Las principales convenciones aplicadas son:
+
+* **Nombres descriptivos:** Las clases e identificadores deben representar claramente la función o contenido del elemento. Por ejemplo, se utilizan nombres como `menu-toggle`, `nav-collapse`, `tracking-demo` y `footer-container`.
+* **Indentación:** El código se organiza mediante una indentación consistente para facilitar la lectura de la estructura HTML.
+* **Etiquetas semánticas:** Se emplean elementos como `<nav>`, `<section>`, `<header>` y `<footer>` para organizar semánticamente las diferentes partes de la Landing Page.
+* **Atributos descriptivos:** Se utilizan atributos como `id`, `class`, `alt`, `aria-label` y `aria-expanded` para mejorar la identificación de elementos, accesibilidad y comportamiento de la interfaz. Por ejemplo, el botón del menú utiliza `aria-label="Abrir menú"` y `aria-expanded="false"`.
+* **Comentarios:** Se incorporan comentarios para identificar secciones o funcionalidades específicas del código, como el botón hamburguesa y las secciones relacionadas con el formulario.
+* **Estructura organizada:** El contenido se divide en secciones independientes, como Inicio, Problema/Solución, Características, Para quién, Sobre nosotros, Planes, Contacto y Footer.
+---
+
+### CSS3
+
+CSS3 se utiliza para definir la presentación visual, distribución y adaptación responsive de la Landing Page. El proyecto contempla archivos independientes para organizar los estilos generales, el menú, el footer y el formulario. Las convenciones utilizadas son:
+
+* **Nombres descriptivos:** Las clases CSS utilizan nombres que permiten identificar su propósito, por ejemplo `btn-primario`, `btn-secundario`, `caracteristica-card`, `quien-card` y `footer-links`.
+* **Nomenclatura consistente:** Se mantiene un patrón uniforme para los nombres de clases, utilizando palabras relacionadas con la función del componente.
+* **Clases reutilizables:** Se utilizan clases para aplicar estilos a diferentes elementos y evitar repetir reglas innecesariamente.
+* **Organización por componentes:** Los estilos se distribuyen de acuerdo con las partes de la Landing Page, facilitando su mantenimiento.
+* **Diseño responsive:** Los estilos están orientados a permitir que la interfaz se adapte a diferentes tamaños de pantalla (celulares, tablets y computadoras).
+
+---
+
+
 #### 5.1.4. Software Deployment Configuration
 
 ### 5.2. Landing Page, Services & Applications Implementation

@@ -1534,7 +1534,8 @@ Los prototipos fueron construidos en Figma, incluyendo simulaci√≥n de interacci√
 
 ![WebApplicationPrototyping.png](assets/WebApplicationPrototyping.png)
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216240_upc_edu_pe/IQCabeS1dMD4Rb0pFmHeYViRAXjFhmCsulOYm4D1f0Kj584?e=SoYR59&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+**Video de prototipo  :** [upc-pre-202620-1asi0730-16129-Devtech-prototypenavigation.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216240_upc_edu_pe/IQCabeS1dMD4Rb0pFmHeYViRAXjFhmCsulOYm4D1f0Kj584?e=SoYR59&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ### 4.6. Domain-Driven Software Architecture
 

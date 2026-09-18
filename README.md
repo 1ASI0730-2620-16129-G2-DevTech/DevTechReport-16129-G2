@@ -3366,14 +3366,22 @@ erDiagram
 **Url del despliegue de la landing page:** [https://1asi0730-2620-16129-g2-devtech.github.io/DevTech-LandingPage-16129-G2/](https://1asi0730-2620-16129-g2-devtech.github.io/DevTech-LandingPage-16129-G2/)
 
 
-**Evidencia del deploy: Landing page in web responsive**
+**Evidencia del deploy: Landing page web responsive**
 
 <div align="center">
   <img src="./assets/img/Chapter5/sprint1/landing_page_web_deploy_evidence.png" width="700px" alt="Landing Page Web Responsive">
   <p>Deployed Landing Page - Web</p>
   <p></p>
 </div>
+<br>
 
+**Evidencia del deploy: Landing page mobile responsive**
+
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint1/landing_page_mobile_deploy_evidence.jpeg" width="200px" alt="Landing Page Mobile Responsive">
+  <p>Deployed Landing Page - Mobile</p>
+  <p></p>
+</div>
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 

@@ -3354,7 +3354,6 @@ erDiagram
 #### 5.1.1. Software Development Environment Configuration
 #### 5.1.2. Source Code Management
 #### 5.1.3. Source Code Style Guide & Conventions
-## 5.1.3. Source Code Style Guide & Conventions
 
 Para el desarrollo de la Landing Page de <b>WashTrack</b>, se establecieron convenciones de estilo y nomenclatura con el objetivo de <b>mantener un código ordenado, legible, consistente y fácil de mantener.</b> Estas convenciones se aplican principalmente a HTML5, CSS3 y JavaScript, tecnologías utilizadas en la implementación de la Landing Page.
 
@@ -3422,6 +3421,98 @@ Estas convenciones serán utilizadas como base para mantener un estándar común
 
 
 #### 5.1.4. Software Deployment Configuration
+
+En esta sección se describe la configuración y el procedimiento utilizado para realizar el despliegue de los productos digitales de WashTrack, considerando como punto de partida los repositorios administrados mediante GitHub. El proceso de despliegue permite publicar las versiones desarrolladas y mantener una relación entre el código fuente almacenado en el repositorio y la versión disponible para los usuarios.
+
+Para el control de versiones y la organización del código se utiliza GitHub, siguiendo el flujo de trabajo definido por el equipo. La estrategia contempla el desarrollo mediante ramas `feature/*`, su integración en la rama `develop` y posteriormente la incorporación de las versiones estables en `main`.
+
+De acuerdo con la arquitectura planteada para WashTrack, el despliegue considera los siguientes productos digitales:
+
+* **Landing Page:** desarrollada con HTML5, CSS3 y JavaScript.
+* **Frontend Web Applications:** desarrollada utilizando Vue Framework, HTML5, CSS3 y JavaScript.
+* **Web Services:** desarrollados mediante ASP.NET Core, Entity Framework Core y C# bajo el estilo arquitectónico RESTful API.
+
+En el presente avance se evidencia el despliegue de la primera versión de la Landing Page, mientras que el despliegue del Frontend Web Application y de los Web Services será realizado conforme avance la implementación de estos productos.
+
+---
+
+### Despliegue de la Landing Page
+
+La Landing Page de WashTrack se encuentra almacenada en el repositorio de GitHub correspondiente al proyecto.
+
+#### 1. Acceso al repositorio
+Se ingresa al repositorio de GitHub donde se encuentra almacenado el código fuente de la Landing Page. Antes del despliegue se verifica que los archivos necesarios del sitio se encuentren correctamente almacenados en el repositorio, incluyendo el archivo `index.html`, las hojas de estilos, los archivos JavaScript y los recursos gráficos.
+
+<div align="center">
+  <img src="assets/img/Chapter5/SoftwareDeployment/repositorio_landing.png" alt="Vista principal del repositorio en GitHub" width="800"/>
+</div>
+
+#### 2. Configuración de GitHub Pages
+Dentro del repositorio se accede a la ruta: **Settings → Pages**. En esta sección se configura la fuente desde la cual GitHub Pages obtendrá los archivos que serán publicados.
+En la configuración de GitHub Pages se selecciona la rama que contiene la versión que se desea publicar. Para una versión estable de la Landing Page se utiliza la rama `main` como fuente de publicación. Posteriormente, se guarda la configuración mediante la opción correspondiente.
+
+<div align="center">
+  <img src="assets/img/Chapter5/SoftwareDeployment/settings_pages.png" alt="Configuración de GitHub Pages en Settings" width="800"/>
+</div>
+
+#### 3. Generación de la publicación
+Procesa el contenido del repositorio y genera una dirección pública para acceder a la Landing Page de WashTrack. Cada actualización realizada sobre la rama configurada puede generar una nueva versión publicada del sitio.
+
+<div align="center">
+  <img src="assets/img/Chapter5/SoftwareDeployment/sitio_publicado.png" alt="Mensaje de sitio publicado y enlace Visit site" width="800"/>
+</div>
+
+#### 5. Validación del despliegue
+Finalmente, se accede al enlace generado por GitHub Pages para comprobar que la Landing Page se encuentre disponible y que sus principales componentes funcionen correctamente. Se verifica la visualización de las secciones, navegación, estilos, imágenes, menú responsive y funcionalidad implementada mediante JavaScript.
+
+<div align="center">
+  <img src="assets/img/Chapter5/SoftwareDeployment/landing_page_navegador.png" alt="Landing Page de WashTrack desplegada en el navegador" width="800"/>
+</div>
+
+---
+
+### Configuración de despliegue del Frontend Web Application
+
+El Frontend Web Application de WashTrack será desplegado a partir de su repositorio correspondiente una vez finalizada su primera versión funcional. El proceso partirá del código fuente almacenado en GitHub y considerará la construcción de la aplicación mediante Vue Framework.
+
+El flujo general será:
+1. Obtener la versión estable del código desde el repositorio.
+2. Instalar las dependencias definidas para el proyecto.
+3. Ejecutar el proceso de construcción (*build*) de la aplicación.
+4. Generar los archivos necesarios para producción.
+5. Publicar los archivos generados en el servicio de alojamiento seleccionado.
+6. Verificar el funcionamiento de las rutas, componentes, estilos y comunicación con los Web Services.
+7. Validar la aplicación desde el navegador en diferentes tamaños de pantalla.
+
+El despliegue de este producto será documentado con evidencias cuando se encuentre implementada su primera versión, de acuerdo con el avance correspondiente del proyecto.
+
+---
+
+### Configuración de despliegue de los Web Services
+
+Los Web Services de WashTrack serán desarrollados utilizando ASP.NET Core, Entity Framework Core y C#, siguiendo el estilo arquitectónico RESTful API. Su despliegue partirá del repositorio de código fuente y requerirá configurar el entorno de ejecución, las dependencias de la aplicación y la conexión con el sistema de base de datos.
+
+El flujo general de despliegue será:
+1. Obtener desde GitHub la versión estable del Web Service.
+2. Configurar las dependencias necesarias del proyecto ASP.NET Core.
+3. Configurar las variables y parámetros correspondientes al entorno de producción.
+4. Configurar la conexión con la base de datos.
+5. Compilar y publicar la aplicación.
+6. Ejecutar el servicio en el entorno de despliegue seleccionado.
+7. Verificar los endpoints disponibles mediante la documentación OpenAPI/Swagger.
+8. Comprobar la comunicación entre el Web Service y el Frontend Web Application.
+
+Al igual que el Frontend Web Application, esta configuración será complementada con las evidencias de despliegue correspondientes cuando el producto alcance la etapa de implementación requerida.
+
+---
+
+### Flujo general de despliegue
+
+El proceso de despliegue de WashTrack parte del código fuente administrado mediante GitHub y sigue el flujo definido por el equipo:
+
+$$\text{Feature Branch} \longrightarrow \text{develop} \longrightarrow \text{main} \longrightarrow \text{Deployment}$$
+
+Las ramas de desarrollo permiten realizar cambios de manera aislada. Después de validar los cambios, estos se integran en `develop`. Cuando una versión se encuentra preparada para publicación, se incorpora a `main`, desde donde se realiza el despliegue de la versión estable del producto correspondiente. De esta manera, el proceso permite mantener control sobre las versiones publicadas y facilita la actualización progresiva de la Landing Page, Frontend Web Application y Web Services conforme avance el desarrollo de WashTrack.
 
 ### 5.2. Landing Page, Services & Applications Implementation
 

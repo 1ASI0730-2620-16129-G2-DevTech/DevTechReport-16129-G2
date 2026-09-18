@@ -1522,6 +1522,20 @@ camino feliz (happy path) como las rutas alternativas (unhappy paths) ante posib
 
 ### 4.5. Web Applications Prototyping
 
+### 4.5. Web Applications Prototyping
+
+Las decisiones de interacción aplicadas en los prototipos de WashTrack y de la App Cliente parten directamente de la Arquitectura de Información previamente definida: una jerarquía clara y una categorización modular por perfil de usuario, orientada a que cada actor, sea administrador o cliente, encuentre sin esfuerzo las funcionalidades correspondientes a su rol. Sobre esa base, se aplicaron tres criterios de interacción consistentes en ambas aplicaciones:
+
+* **Navegación persistente por roles:** Cada aplicación mantiene una barra lateral fija y agrupada por propósito (en WashTrack: Operaciones y Monitoreo; en la App Cliente: Servicios y Cuenta), de modo que la estructura de navegación refuerza visualmente la categorización modular ya establecida en la Arquitectura de Información, permitiendo que el usuario reconozca la ubicación de cada funcionalidad sin necesidad de aprenderla de nuevo en cada sección.
+* **Superposición modal para datos administrables y navegación completa para procesos en curso:** Las acciones de alta y edición de registros estáticos, tales como pedidos, clientes o el catálogo, se resuelven mediante modales sobre la vista atenuada, mientras que el seguimiento de procesos en tiempo real, como el envío de un pedido o el monitoreo de una lavadora, se resuelve mediante una pantalla dedicada. Esta distinción reduce la carga cognitiva al comunicar de forma consistente cuándo el usuario está gestionando un dato y cuándo está observando un estado vivo del sistema.
+* **Progreso visible mediante steppers y paneles de filtro contextuales:** Los flujos secuenciales, como el seguimiento de una entrega o el estado de un pedido del cliente, utilizan un stepper que hace explícita la etapa actual dentro de la secuencia lógica de acceso a la información. Por su parte, las consultas de alto volumen en la lista de pedidos utilizan paneles de filtro anclados al control que los origina, evitando que el usuario pierda el contexto de la pantalla en la que se encuentra.
+
+Los prototipos fueron construidos en Figma, incluyendo simulación de interacción y navegación para Desktop Web Browser y Mobile Web Browser, siguiendo los caminos de flujo óptimo y de excepciones definidos en los User Flow Diagrams.
+
+![WebApplicationPrototyping.png](assets/WebApplicationPrototyping.png)
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216240_upc_edu_pe/IQCabeS1dMD4Rb0pFmHeYViRAXjFhmCsulOYm4D1f0Kj584?e=SoYR59&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 ### 4.6. Domain-Driven Software Architecture
 
 #### 4.6.1. Design-Level EventStorming

@@ -2641,11 +2641,691 @@ A continuación, se presentan los mock-ups correspondientes al diseño de alta f
 ### 4.4. Web Applications UX/UI Design
 
 #### 4.4.1. Web Applications Wireframes
+La propuesta de wireframes para WashTrack fue desarrollada teniendo en cuenta los principios
+de usabilidad, diseño inclusivo, claridad visual y jerarquía informativa, con el fin de brindar
+una experiencia coherente, accesible y personalizada tanto para usuarios empresariales como
+personas naturales.
+La aplicación se estructura en seis secciones principales, accesibles desde una barra de
+navegación que varía en función del perfil del usuario. Estas secciones son: Inicio,
+Panel de Control, Operaciones, Monitoreo IoT, Clientes y Reportes.
+
+---
+**Dashboard**
+
+El wireframe representa el Dashboard  de la aplicación web WashTrack,
+diseñado bajo un esquema de maquetación de dos columnas principales: un menú de navegación
+lateral izquierdo Sidebar y un panel de contenido central Main Area.
+
+![Dashboard_wireframe.png](assets/img/Chapter4/Dashboard_wireframe.png)
+
+**Pedidos**
+
+La vista de Pedidos está orientada a centralizar el flujo de trabajo operativo de la lavandería
+en el rol de Encargada de turno. Presenta una tabla de datos con filtros de búsqueda y acciones
+rápidas como "+ Nuevo pedido", permitiendo monitorear el estado de recepción, entregas estimadas, pagos y detalles de cada orden de manera eficiente.
+
+
+![Pedidos_wireframe.png](assets/img/Chapter4/Pedidos_wireframe.png)
+
+**Clientes**
+
+Esta pantalla está destinada a la administración del directorio de usuarios por parte de la Encargada
+de turno. Dispone de una tabla detallada con filtro de búsqueda y la opción para registrar nuevos usuarios,
+lo que agiliza la localización de información de contacto, identificadores y documentos de identidad.
+
+![Clientes_wireframe.png](assets/img/Chapter4/Clientes_wireframe.png)
+
+**Prendas**
+
+La interfaz descrita permite estructurar el catálogo operativo de la lavandería para la Encargada de turno.
+Muestra métricas clave sobre los tipos de prendas registrados y su valor promedio, acompañadas de un listado
+organizado por categorías, precios y disponibilidad. La parte inferior añade una gráfica interactiva de tendencias
+que ayuda a analizar las prendas más solicitadas a lo largo del tiempo.
+
+![Prendas_wireframe.png](assets/img/Chapter4/Prendas_wireframe.png)
+
+
+**Servicios**
+
+Esta sección está destinada a la gestión del portafolio de prestaciones ofrecidas por la lavandería. Muestra en la
+parte superior métricas sobre el total de servicios, la cantidad de activos, las categorías configuradas y el costo
+promedio, seguidas por una tabla de datos detallada con tarifas, duraciones estimadas y estados operativos. En la
+zona inferior incorpora un gráfico de tendencias para evaluar los servicios con mayor demanda según el intervalo de
+tiempo seleccionado.
+
+![Servicios_wireframe.png](assets/img/Chapter4/Servicios_wireframe.png)
+
+**Pagos**
+El siguiente wireframe organiza el registro y control de cobros para la Encargada de turno. Incluye una barra de
+búsqueda dedicada en la parte superior y una tabla de datos detallada que muestra el identificador de cada pago,
+el pedido asociado, el cliente, el monto cobrado, el método de pago y el estado de la transacción, complementada
+con un gráfico de tendencia de los pagos registrados en las últimas 24 horas.
+
+![Pagos_wireframe.png](assets/img/Chapter4/Pagos_wireframe.png)
+
+**Recojos y Entregas**
+
+El siguiente wireframe organiza la logística de despacho y recolección de prendas para la Encargada de turno. Incluye
+una barra de búsqueda dedicada, un botón de acción principal para programar nuevos recojos o entregas y una tabla de
+datos detallada que registra identificadores, tipo de operación, cliente, dirección de destino, repartidor asignado, fecha, hora y estado del servicio
+
+![Recojos_entregas_wireframe.png](assets/img/Chapter4/Recojos_entregas_wireframe.png)
+
+**Monitoreo IOT**
+
+Esta vista permite a la Encargada de turno supervisar en tiempo real el estado técnico y operativo de toda la
+maquinaria conectada. Mediante un panel de tarjetas individuales para cada lavadora, facilita el control de
+parámetros en vivo como el ciclo actual, el tiempo restante de lavado y la última sincronización de datos de
+los sensores.
+
+![MonitoreoIOT_wireframe.png](assets/img/Chapter4/MonitoreoIOT_wireframe.png)
+
+**Alertas**
+
+El wireframe de esta sección está diseñado para centralizar las notificaciones de fallas técnicas en la interfaz
+de la Encargada de turno. Mediante un esquema de tarjetas informativas clasificadas por nivel de criticidad, este
+wireframe permite identificar con rapidez alertas de revisión alta y posibles fallas en la maquinaria, desplegando
+el ciclo en curso, el tiempo restante y la sincronización en vivo para evitar interrupciones operativas.
+
+![Alertas_wireframe.png](assets/img/Chapter4/Alertas_wireframe.png)
+
+**Detalle de alerta por lavadora**
+
+El wireframe de esta vista presenta el diagnóstico técnico individualizado de una máquina específica para la Encargada
+de turno. Estructura la información mediante indicadores generales de estado, métricas de sensores en tiempo real como
+humedad, corriente, consumo, vibración, velocidad y nivel de agua frente a sus rangos esperados, e incluye un gráfico
+de comportamiento histórico para analizar anomalías a lo largo del tiempo.
+
+![LavadoraDescripcion_wireframe.png](assets/img/Chapter4/LavadoraDescripcion_wireframe.png)
+
 #### 4.4.2. Web Applications Wireflow Diagrams
+
+Esta sección presenta los wireflows de WashTrack, diseñada para propietarios de lavanderías independientes, y de la app
+cliente, enfocada en sus usuarios finales. Ambos diagramas parten de los wireframes de baja fidelidad para detallar las
+interacciones necesarias que permiten cumplir objetivos específicos. Asimismo, elaborados en FigJam, ilustran de forma
+visual tanto el flujo principal como las rutas alternativas ante posibles errores.
+
+---
+### Registrar un nuevo pedido
+
+User Goal: Registrar un nuevo pedido en el sistema, desde que el encargado de turno recibe la solicitud del cliente hasta
+que el pedido queda guardado y visible en la Lista de Pedidos.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería.
+
+![img.pn![RegistrarNuevoPedido.png](assets/img/Chapter4/RegistrarNuevoPedido.png)g](assets/img/Chapter4/RegistrarNuevoPedido.png)(Imagen)
+
+**Explicación del flujo:**
+
+*Happy path:* El usuario ingresa al Dashboard, navega a Pedidos, hace clic en "+ Nuevo pedido", el sistema despliega el
+formulario sobre la lista atenuada, el usuario busca y selecciona un cliente, completa o confirma los campos restantes
+(fechas, servicio, cantidad de prendas, estado, pago, tipo de entrega, método de pago) y guarda. El sistema valida los datos,
+cierra el formulario y muestra el pedido al inicio de la tabla.
+
+*Unhappy paths:*
+
+- Cliente no encontrado en la búsqueda: el sistema muestra "Sin resultados" y el flujo no avanza hasta seleccionar un cliente válido.
+
+- Error de validación al guardar: el formulario permanece abierto y se muestra el mensaje de error debajo del campo correspondiente, sin perder los datos ya ingresados.
+
+- Cancelación: el usuario cierra el formulario en cualquier momento sin que se guarde ningún cambio.
+
+---
+### Consultar el estado de un pedido
+
+**User Goal:** Ubicar rápidamente uno o varios pedidos según su estado actual, sin tener que revisar la tabla completa fila por fila.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería.
+
+![img.![ConsultarEstadoPedido.png](assets/img/Chapter4/ConsultarEstadoPedido.png)png](assets/img/Chapter4/ConsultarEstadoPedido.png)
+
+**Explicación del flujo:**
+
+*Happy path:*  
+El usuario ingresa a la Lista de Pedidos, hace clic en el filtro "Estado", el sistema despliega un
+panel con los estados disponibles , el usuario selecciona uno o varios estados y hace clic en "Aplicar". El sistema actualiza la tabla mostrando únicamente los pedidos que cumplen el filtro seleccionado.
+
+
+*Unhappy paths:*
+
+- Ningún pedido coincide con los estados seleccionados: el sistema muestra un mensaje de "Sin resultados" en la tabla.
+
+- El usuario cierra el panel sin seleccionar el estado: el filtro anterior se mantiene sin cambios.
+
+---
+### Registrar un nuevo cliente
+
+**User Goal:** Registrar los datos de un cliente nuevo en la base de datos maestra, para que quede disponible al momento de crear pedidos.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería.
+
+![img![RegistrarNuevoCliente.png](assets/img/Chapter4/RegistrarNuevoCliente.png).png](assets/img/Chapter4/RegistrarNuevoCliente.png)
+
+**Explicación del flujo:**
+
+*Happy path:* el usuario ingresa a Clientes, hace clic en "+ Agregar Nuevo Cliente", el sistema despliega el formulario (Nombre Completo, Teléfono, Tipo de Documento, Número de Documento) sobre la lista atenuada, el usuario completa los campos y guarda. El sistema valida los datos, cierra el formulario y muestra el nuevo cliente en la tabla.
+
+*Unhappy paths:*
+
+- Documento duplicado: el sistema muestra un mensaje de error indicando que el número de documento ya está registrado, sin cerrar el formulario.
+
+- Campo obligatorio vacío: se muestra el mensaje de error debajo del campo correspondiente y el formulario permanece abierto con los demás datos ya ingresados.
+
+- Cancelación: el usuario cierra el formulario sin guardar ningún cambio.
+---
+### Registrar un pago asociado a un pedido
+
+**User Goal:** Registrar el cobro correspondiente a un pedido, dejando constancia del monto y el método de pago utilizado.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería.
+
+![RegistrarPagoAsociadoPedido.png](assets/img/Chapter4/RegistrarPagoAsociadoPedido.png)
+
+**Explicación del flujo:**
+
+*Happy path:* el usuario ingresa a Pagos, ubica el pedido correspondiente (o accede desde el detalle del pedido en Pedidos), registra el monto cobrado y selecciona el método de pago (Yape, Tarjeta, Efectivo), y guarda. El sistema actualiza el estado de pago del pedido y lo refleja en la tabla de Pagos.
+
+*Unhappy paths:*
+
+- Monto inválido (negativo o distinto al total del pedido): el sistema muestra un mensaje de error y no permite guardar hasta corregirlo.
+
+- Pedido ya pagado: el sistema advierte que el pedido ya cuenta con un pago registrado y solicita confirmación antes de continuar.
+
+- Cancelación: el usuario cierra el formulario sin registrar el pago.
+
+
+---
+
+### Monitorear el envío de ropa al domicilio del cliente
+
+**User Goal:** Monitorear en tiempo real el envío de la ropa ya lista, desde que sale de la lavandería hasta que llega al domicilio del cliente, para conocer en todo momento en qué etapa se encuentra el envío y cuánto falta para su entrega.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería (Segmento 1).
+
+![MonitorearEnvio.png](assets/img/Chapter4/MonitorearEnvio.png)
+
+**Explicación del flujo:**
+
+*Happy path:* el usuario ingresa a Recojos y Entregas, ubica en la tabla un registro de tipo "Entrega" con un repartidor ya asignado, y hace clic sobre esa fila. El sistema navega a la pantalla de Seguimiento de Entrega, donde se muestra el mapa con la ruta trazada desde la lavandería hasta el domicilio del cliente (tramo sólido recorrido / tramo punteado pendiente), la etiqueta flotante con el tiempo estimado de llegada, el stepper de progreso (Confirmado – Recojido – En Camino) y el detalle de respaldo del envío (Cliente, Dirección de entrega, Servicio, Prendas). El usuario permanece en la pantalla observando cómo el stepper y la posición del repartidor se actualizan automáticamente hasta que el envío se marca como Entregado.
+
+*Unhappy paths:*
+
+- Pérdida de conexión con el repartidor: el mapa y el stepper dejan de actualizarse en tiempo real y se muestra un indicador de "Sin conexión" hasta que se restablece la señal.
+
+- Retraso frente al tiempo estimado inicial: la etiqueta flotante actualiza el tiempo de llegada (por ejemplo, de "~12 min" a un valor mayor), sin que el usuario tenga que salir de la pantalla para notar el cambio.
+
+- Cliente no se encuentra en el domicilio al momento de la entrega: el repartidor reporta la incidencia, el registro cambia a un estado que refleje la entrega no concluida, y el usuario debe coordinar un nuevo intento de envío.
+
+---
+
+### Revisar y atender una alerta de posible falla en una máquina
+
+**User Goal:** Identificar qué lavadoras requieren atención inmediata y revisar el detalle técnico antes de tomar una acción correctiva.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería.
+
+![RevisarAlerta.png](assets/img/Chapter4/RevisarAlerta.png)
+
+**Explicación del flujo:**
+
+*Happy path:* el usuario ingresa a Alertas desde el grupo "Monitoreo" del sidebar, revisa la lista de lavadoras en estado "Revisión" o "Posible falla", hace clic en la tarjeta correspondiente, y el sistema navega al Detalle de Lavadora, donde se muestran las métricas (valor, rango esperado, veredicto) y el gráfico histórico de la métrica en alerta.
+
+*Unhappy paths:*
+- No hay alertas activas: la pantalla de Alertas muestra un estado vacío indicando que no hay lavadoras que requieran atención.
+- La lavadora pierde conexión mientras se revisa el detalle: el sistema actualiza el estado a "Sin conexión" y deja de refrescar las métricas en tiempo real.
+- El usuario regresa a la lista sin realizar ninguna acción: el sistema conserva el estado de la lavadora sin cambios.
+
+---
+### Solicitar un nuevo pedido de lavandería
+
+**User Goal:** Solicitar un servicio de lavandería de forma digital, sin necesidad de llamar o escribir directamente a la lavandería.
+
+**User Persona:** Valeria Torres, Cliente de Lavandería.
+
+
+![NuevoPedido.png](assets/img/Chapter4/NuevoPedido.png)
+
+**Explicación del flujo:**
+
+*Happy path:* la usuaria ingresa a la aplicación web, selecciona "Nuevo pedido", elige el servicio deseado y la cantidad de prendas, selecciona la fecha y el tipo de entrega, y confirma la solicitud. El sistema muestra una confirmación y agrega el pedido a su historial con estado inicial "En proceso".
+
+*Unhappy paths:*
+
+- Servicio no disponible en la zona de la usuaria: el sistema muestra un mensaje indicando que el servicio no cubre esa ubicación.
+
+- Error de validación en el formulario: se muestra el mensaje de error debajo del campo correspondiente sin perder los datos ya ingresados.
+
+- Cancelación de la solicitud: la usuaria cierra el formulario antes de confirmar y no se genera ningún pedido.
+
+--- 
+
+### Consultar el estado de su pedido sin llamar a la lavandería
+
+**User Goal:** Conocer en qué etapa se encuentra su pedido en cualquier momento, sin necesidad de comunicarse directamente con la lavandería.
+
+**User Persona:** Valeria Torres, Cliente de Lavandería.
+
+![ConsultarPedido.png](assets/img/Chapter4/ConsultarPedido.png)
+
+**Explicación del flujo:**
+
+*Happy path:* la usuaria ingresa a la sección "Mis pedidos", selecciona el pedido activo, y el sistema muestra el estado actual (por ejemplo, "En proceso", "Listo para entrega") junto con la fecha estimada de entrega.
+
+*Unhappy paths:*
+- El pedido aún no ha sido registrado por la lavandería: el sistema muestra un estado "Pendiente de confirmación".
+
+- Error de conexión al cargar el estado: se muestra un mensaje de error con opción de reintentar la carga.
+
+- El pedido fue cancelado por la lavandería: el sistema muestra el estado "Cancelado" junto con el motivo, si está disponible.
+
+---
+
+### Solicitar recojo o entrega a domicilio
+
+**User Goal:** Coordinar que sus prendas sean recogidas o entregadas en su domicilio, sin necesidad de trasladarse hasta el local.
+
+**User Persona:** Valeria Torres, Cliente de Lavandería.
+
+
+![SolicitarRecojoEntrega.png](assets/img/Chapter4/SolicitarRecojoEntrega.png)
+
+**Explicación del flujo:**
+
+*Happy path:* la usuaria, dentro del flujo de creación de un pedido, selecciona la opción "Recojo a domicilio", confirma o elige una dirección guardada (o ingresa una nueva), selecciona una franja horaria disponible, y continúa con el resto del pedido. El sistema asocia el servicio de recojo/entrega al pedido y lo refleja en el resumen antes de confirmar.
+
+*Unhappy paths:*
+
+- No hay franjas horarias disponibles para la fecha elegida: el sistema muestra las siguientes fechas disponibles.
+
+- Dirección fuera de cobertura: el sistema informa que la dirección ingresada no está dentro del área de servicio.
+
+- Cancelación de la solicitud de recojo/entrega: la usuaria cambia a la opción "Llevo yo mi ropa" antes de confirmar, y el pedido continúa sin el servicio a domicilio asociado.
+
+
+---
+
+### Pagar un pedido en línea
+
+**User Goal:** Realizar el pago de un pedido de forma digital, sin depender de efectivo al momento de la entrega.
+
+**User Persona:** Valeria Torres, Cliente de Lavandería.
+
+![PagarPedidoLinea.png](assets/img/Chapter4/PagarPedidoLinea.png)
+
+**Explicación del flujo:**
+
+*Happy path:* la usuaria ingresa al detalle de su pedido o a la sección Pagos, selecciona "Pagar ahora", el sistema muestra el resumen del pedido junto al monto total y el método de pago disponible, la usuaria completa la transacción y el sistema actualiza el estado de pago a "Completado", mostrando una confirmación.
+
+*Unhappy paths:*
+
+- Pago rechazado por el proveedor de pagos: el sistema muestra un mensaje de error y permite reintentar con el mismo u otro método.
+
+- Sesión expirada durante el proceso de pago: el sistema solicita reautenticación antes de completar la transacción.
+
+- Cancelación del pago: la usuaria abandona el proceso y el pedido permanece con estado de pago "Pendiente".
+
+---
+
+### Consultar historial de pedidos anteriores
+
+**User Goal:** Revisar los pedidos realizados anteriormente, para consultar detalles de servicios ya utilizados.
+
+**User Persona:** Valeria Torres, Cliente de Lavandería.
+
+![ConsultarHistorialPedidos.png](assets/img/Chapter4/ConsultarHistorialPedidos.png)
+
+**Explicación del flujo:**
+
+*Happy path:* la usuaria ingresa a "Mis pedidos" y cambia a la pestaña "Historial", el sistema muestra la lista de pedidos anteriores ordenados por fecha descendente, y al seleccionar uno, se muestra el detalle completo (servicio, prendas, monto pagado, fecha de entrega).
+
+*Unhappy paths:*
+
+- No existen pedidos anteriores: el sistema muestra un estado vacío indicando que aún no se han registrado pedidos.
+
+- Error al cargar el historial: se muestra un mensaje de error con opción de reintentar.
+
+- Búsqueda sin resultados dentro del historial: el sistema muestra "Sin resultados" al aplicar una búsqueda por número de pedido que no coincide con ningún registro.
+
+---
+
 #### 4.4.3. Web Applications Mock-ups
+
+**DashBoard**
+
+El Dashboard permite a la encargada de turno conocer el estado de la lavandería rápidamente, sin navegar a otras secciones.
+
+* **KPIs superiores:** muestran los indicadores principales de forma clara y uniforme para facilitar su comparación.
+* **Máquinas y alertas:** se presentan juntas para relacionar rápidamente el estado de las máquinas con posibles incidencias.
+* **Gráficos inferiores:** muestran tendencias y análisis, priorizando primero la información operativa inmediata.
+* **Sidebar persistente:** mantiene una navegación constante y facilita el reconocimiento de las funciones del sistema.
+
+![Dashboard_mockup.png](assets/img/Chapter4/Dashboard_mockup.png)
+
+**Pedidos**
+
+Este módulo cubre el flujo principal del negocio: **consultar pedidos y registrar nuevos** de forma rápida y sencilla.
+
+* **Tabla de pedidos:** las columnas siguen el orden lógico del proceso: cliente, fechas, prendas, servicio y finalmente estado y pago.
+* **Estados por color:** permite identificar rápidamente la situación de cada pedido mediante atributos visuales.
+* **Botón "+ Nuevo pedido":** mantiene una ubicación consistente y facilita el acceso a la acción principal.
+* **Formulario modal:** permite crear pedidos sin perder el contexto de la lista.
+* **Campos agrupados:** los datos relacionados se organizan en dos columnas para reducir el desplazamiento.
+* **Cliente primero:** utiliza un buscador para facilitar su selección.
+* **Valores predeterminados:** Estado y Pago vienen preestablecidos para reducir errores y tiempo de captura.
+* **Botones:** "Guardar" destaca como acción principal y "Cancelar" como acción secundaria.
+
+![Pedidos_mockup.png](assets/img/Chapter4/Pedidos_mockup.png)
+
+![CrearPedido_mockup.png](assets/img/Chapter4/CrearPedido_mockup.png)
+
+**Clientes**
+
+Este módulo gestiona la información principal de los clientes, priorizando su identificación rápida y el registro sencillo**.
+
+* **Tabla simplificada:** muestra únicamente ID, cliente, teléfono y documento, evitando información transaccional innecesaria.
+* **Nombre como dato principal:** se ubica después del ID por ser el criterio más natural para identificar un cliente.
+* **Orden consistente:** teléfono y documento mantienen la misma secuencia utilizada en el formulario.
+* **Botón "+ Agregar Nuevo Cliente":** mantiene la posición estándar del sistema, facilitando su localización.
+* **Formulario vertical:** al ser corto, los campos se presentan en una sola columna para facilitar la lectura.
+* **Tipo de documento:** utiliza una lista desplegable para evitar datos incorrectos o inconsistentes.
+* **Modal consistente:** conserva el mismo patrón visual del sistema, con "Guardar" como acción principal y "Cancelar" como secundaria.
+
+![Cliente_mockup.png](assets/img/Chapter4/Cliente_mockup.png)
+
+![NuevoCliente_mockup.png](assets/img/Chapter4/NuevoCliente_mockup.png)
+
+**Prendas**
+
+Este módulo gestiona el catálogo de prendas y su demanda, facilitando tanto la consulta como el análisis.
+
+* **Catálogo y análisis separados:** la tabla muestra primero la información actual y el gráfico inferior presenta las tendencias de demanda.
+* **Categoría como agrupador:** permite identificar rápidamente las familias de prendas sin navegación adicional.
+* **Precio y tiempo estimado:** se colocan juntos porque son datos relacionados para la atención al cliente y planificación.
+* **Estado por color:** "Activo" en verde e "Inactivo" en gris permiten identificar rápidamente la disponibilidad.
+* **Estado con botones:** al ser una opción binaria, "Activo/Inactivo" permite seleccionar directamente y visualizar la opción elegida.
+* **Formulario en dos columnas:** el nombre ocupa todo el ancho y los demás atributos se agrupan para reducir el recorrido visual.
+* **Filtros temporales:** permiten cambiar rápidamente el periodo del gráfico y muestran claramente cuál está seleccionado.
+
+![Prenda-mockup.png](assets/img/Chapter4/Prenda-mockup.png)
+
+![NuevaPrenda_mockup.png](assets/img/Chapter4/NuevaPrenda_mockup.png)
+
+**Servicios**
+
+Este módulo gestiona el **catálogo de servicios y su demanda**, manteniendo una estructura similar al módulo de Prendas para facilitar el uso.
+
+* **Estructura consistente:** utiliza la misma distribución de Prendas: tabla arriba, gráfico de demanda abajo y modal de registro.
+* **Categorías de servicios:** agrupan las operaciones según su naturaleza, como Lavado, Tintorería, Planchado y Acabado.
+* **Precio y tiempo estimado:** se muestran juntos para facilitar la información al cliente y la planificación de entregas.
+* **Gráfico de demanda:** permite identificar rápidamente el servicio más solicitado.
+* **Modal de registro:** mantiene el mismo diseño de Prendas, reduciendo el aprendizaje y los errores de captura.
+* **Estado mediante botones:** "Activo/Inactivo" permite seleccionar rápidamente la disponibilidad del servicio.
+
+
+![Servicio_mockup.png](assets/img/Chapter4/Servicio_mockup.png)
+
+![NuevoServicio_mockup.png](assets/img/Chapter4/uevoServicio_mockup.png)
+
+
+**Pagos**
+
+Este módulo permite **consultar y controlar las transacciones realizadas**, adaptando la estructura de los catálogos a la gestión de cobros.
+
+* **Pedido como referencia:** se muestra junto al ID para relacionar directamente cada pago con su pedido correspondiente.
+* **Monto y método:** se colocan juntos para identificar rápidamente cuánto y cómo se realizó el pago.
+* **Fecha:** se presenta al final y los registros se ordenan de más reciente a más antiguo para priorizar los cobros actuales.
+* **Estado por color:** mantiene el mismo código visual de otros módulos, facilitando la identificación de registros activos e inactivos.
+* **Estructura consistente:** conserva la arquitectura general del sistema, reduciendo la carga cognitiva del usuario.
+
+![Pagos_mockup.png](assets/img/Chapter4/Pagos_mockup.png)
+
+**Recojos y Entregas**
+
+Este módulo gestiona las **operaciones logísticas y el seguimiento de entregas**, combinando consulta, asignación y monitoreo.
+
+* **Tipo y Estado diferenciados:** utilizan códigos de color independientes para evitar confusiones entre la operación y su situación.
+* **Dirección visible:** se muestra completa, incluso en dos líneas, para evitar errores durante el recojo o entrega.
+* **Repartidor visible:** permite identificar rápidamente quién está a cargo de cada operación.
+* **Seguimiento mediante clic:** cada registro permite acceder a una pantalla dedicada de monitoreo.
+* **Mapa como elemento principal:** ocupa la mayor parte del espacio para facilitar la visualización de la ubicación y recorrido.
+* **Ruta diferenciada:** el tramo recorrido es sólido y el pendiente es punteado, permitiendo identificar rápidamente el avance.
+* **Tiempo estimado junto al repartidor:** muestra de forma inmediata cuánto falta para llegar.
+* **Stepper de estados:** muestra claramente el progreso: Confirmado, Recojido y En Camino.
+* **Detalle de entrega:** presenta los datos del pedido como información de apoyo debajo del estado.
+
+![RecojosYEntregas_mockup.png](assets/img/Chapter4/RecojosYEntregas_mockup.png)
+
+![MonitoreoEntrega_mockup.png](assets/img/Chapter4/MonitoreoEntrega_mockup.png)
+
+----
+**Monitoreo IoT**
+
+Este módulo permite **supervisar en tiempo real el estado físico de las lavadoras**, utilizando una interfaz orientada al monitoreo técnico.
+
+* **Leyenda de estados:** explica los cinco estados y sus colores para facilitar su interpretación.
+* **Tarjetas en cuadrícula:** cada lavadora se presenta como una unidad independiente, permitiendo detectar anomalías rápidamente.
+* **Orden de información:** muestra primero Estado, Ciclo, Tiempo y Actualización, siguiendo la prioridad de monitoreo.
+* **Timestamp relativo:** indica cuánto tiempo ha pasado desde la última actualización.
+* **Detalle en pantalla completa:** permite consultar el estado y las métricas de una lavadora sin perder contexto.
+* **Resumen superior:** mantiene la información principal de la tarjeta y añade el estado de conexión.
+* **Métricas con rango y veredicto:** cada sensor muestra su valor, rango esperado y resultado, facilitando la interpretación.
+* **Grid de seis métricas:** permite comparar varios indicadores simultáneamente.
+* **Gráfico histórico:** muestra una métrica a la vez para analizar su comportamiento y detectar posibles anomalías.
+
+![MonitoreoIOT_mockup.png](assets/img/Chapter4/MonitoreoIOT_mockup.png)
+
+![MonitoreoIOTDetalle_mockup.png](assets/img/Chapter4/MonitoreoIOTDetalle_mockup.png)
+
+
+**Alertas**
+
+Este módulo permite **concentrarse únicamente en las lavadoras que requieren atención**, funcionando como una vista filtrada de Monitoreo IoT.
+
+* **Estados reducidos:** solo muestra "Revisión" y "Posible falla", enfocándose en situaciones que requieren acción.
+* **Lista vertical:** presenta pocas alertas en orden, facilitando la identificación de las más urgentes.
+* **Tarjetas consistentes:** mantiene el mismo diseño y detalle de Monitoreo IoT para evitar un nuevo aprendizaje.
+* **Detalle reutilizado:** al seleccionar una alerta, se accede al mismo detalle de métricas de la lavadora.
+* **Navegación agrupada:** Alertas y Monitoreo IoT están dentro de "Monitoreo", diferenciándolos de las funciones operativas.
+* **Propósito claro:** permite pasar de la supervisión general a la atención específica de problemas.
+
+
 #### 4.4.4. Web Applications User Flow Diagrams
 
+Esta sección presenta los User Flows de WashTrack, diseñada para propietarios de lavanderías independientes, y de la app cliente,
+enfocada en sus usuarios finales. Ambos diagramas son la evolución directa de los Wireflows presentados en la sección anterior,
+conservando exactamente la misma secuencia de pantallas y decisiones definida en los wireframes de baja fidelidad; lo único que
+cambia es que aquí cada pantalla se representa con su Mock-up de alta fidelidad, aplicando el Design System establecido para los
+productos digitales, en lugar del esquema en escala de grises. Asimismo, elaborados en FigJam, ilustran de forma visual tanto el
+camino feliz (happy path) como las rutas alternativas (unhappy paths) ante posibles condiciones o errores.
+
+
+---
+### Registrar un nuevo pedido
+
+**User Goal:** Registrar un nuevo pedido en el sistema, desde que el encargado de turno recibe la solicitud del cliente hasta que el pedido queda guardado y visible en la Lista de Pedidos.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería.
+
+**Consistencia con el Wireflow:** Este diagrama conserva exactamente la misma secuencia de pantallas y decisiones (Dashboard → Lista de Pedidos → Modal Nuevo Pedido → confirmación) definida en el Wireflow de la sección 4.4.2.
+
+![RegistrarPedidoNuevo.png](assets/img/Chapter4/RegistrarPedidoNuevo.png)
+
+**Explicación del flujo:**
+
+*Happy path:* el usuario ingresa al Dashboard, navega a Pedidos, hace clic en "+ Nuevo pedido", el sistema despliega el formulario sobre la lista atenuada, el usuario busca y selecciona un cliente, completa o confirma los campos restantes (fechas, servicio, cantidad de prendas, estado, pago, tipo de entrega, método de pago) y guarda. El sistema valida los datos, cierra el formulario y muestra el pedido al inicio de la tabla.
+
+*Unhappy paths:*
+
+- Cliente no encontrado en la búsqueda: el sistema muestra "Sin resultados" y el flujo no avanza hasta seleccionar un cliente válido.
+- Error de validación al guardar: el formulario permanece abierto y se muestra el mensaje de error debajo del campo correspondiente, sin perder los datos ya ingresados.
+- Cancelación: el usuario cierra el formulario en cualquier momento sin que se guarde ningún cambio.
+
+---
+### Consultar el estado de un pedido
+
+**User Goal:** Ubicar rápidamente uno o varios pedidos según su estado actual, sin tener que revisar la tabla completa fila por fila.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería.
+
+**Consistencia con el Wireflow:** Este diagrama conserva exactamente la misma secuencia (Lista de Pedidos → Panel de filtro "Estado" → tabla actualizada) definida en el Wireflow de la sección 4.4.2.
+
+![ConsultarEstadoPedido_Mockup.png](assets/img/Chapter4/ConsultarEstadoPedido_Mockup.png)
+
+**Explicación del flujo:**
+
+*Happy path:* el usuario ingresa a la Lista de Pedidos, hace clic en el filtro "Estado", el sistema despliega un panel con los estados disponibles, el usuario selecciona uno o varios estados y hace clic en "Aplicar". El sistema actualiza la tabla mostrando únicamente los pedidos que cumplen el filtro seleccionado.
+
+*Unhappy paths:*
+
+- Ningún pedido coincide con los estados seleccionados: el sistema muestra un mensaje de "Sin resultados" en la tabla.
+- El usuario cierra el panel sin seleccionar el estado: el filtro anterior se mantiene sin cambios.
+
+
+---
+### Registrar un nuevo cliente
+
+**User Goal:** Registrar los datos de un cliente nuevo en la base de datos maestra, para que quede disponible al momento de crear pedidos.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería.
+
+**Consistencia con el Wireflow:** Este diagrama conserva exactamente la misma secuencia (Clientes → Modal Agregar Nuevo Cliente → confirmación) definida en el Wireflow de la sección 4.4.2.
+
+![RegistrarNuevoCliente_mockup.png](assets/img/Chapter4/RegistrarNuevoCliente_mockup.png)
+
+**Explicación del flujo:**
+
+*Happy path:* el usuario ingresa a Clientes, hace clic en "+ Agregar Nuevo Cliente", el sistema despliega el formulario (Nombre Completo, Teléfono, Tipo de Documento, Número de Documento) sobre la lista atenuada, el usuario completa los campos y guarda. El sistema valida los datos, cierra el formulario y muestra el nuevo cliente en la tabla.
+
+*Unhappy paths:*
+
+- Documento duplicado: el sistema muestra un mensaje de error indicando que el número de documento ya está registrado, sin cerrar el formulario.
+- Campo obligatorio vacío: se muestra el mensaje de error debajo del campo correspondiente y el formulario permanece abierto con los demás datos ya ingresados.
+- Cancelación: el usuario cierra el formulario sin guardar ningún cambio.
+
+---
+### Registrar un pago asociado a un pedido
+
+**User Goal:** Registrar el cobro correspondiente a un pedido, dejando constancia del monto y el método de pago utilizado.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería.
+
+**Consistencia con el Wireflow:** Este diagrama conserva exactamente la misma secuencia (Pagos → registro de monto y método → actualización de tabla) definida en el Wireflow de la sección 4.4.2.
+
+![RegistrarPagoAsociadoPedido_mockup.png](assets/img/Chapter4/RegistrarPagoAsociadoPedido_mockup.png)
+
+**Explicación del flujo:**
+
+*Happy path:* el usuario ingresa a Pagos, ubica el pedido correspondiente (o accede desde el detalle del pedido en Pedidos), registra el monto cobrado y selecciona el método de pago (Yape, Tarjeta, Efectivo), y guarda. El sistema actualiza el estado de pago del pedido y lo refleja en la tabla de Pagos.
+
+*Unhappy paths:*
+
+- Monto inválido (negativo o distinto al total del pedido): el sistema muestra un mensaje de error y no permite guardar hasta corregirlo.
+- Pedido ya pagado: el sistema advierte que el pedido ya cuenta con un pago registrado y solicita confirmación antes de continuar.
+- Cancelación: el usuario cierra el formulario sin registrar el pago.
+---
+
+### Monitorear el envío de ropa al domicilio del cliente
+
+**User Goal:** Monitorear en tiempo real el envío de la ropa ya lista, desde que sale de la lavandería hasta que llega al domicilio del cliente, para conocer en todo momento en qué etapa se encuentra el envío y cuánto falta para su entrega.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería (Segmento 1).
+
+**Consistencia con el Wireflow:** Este diagrama conserva exactamente la misma secuencia (Recojos y Entregas → Seguimiento de Entrega) definida en el Wireflow de la sección 4.4.2.
+
+![MonitorearEnvioRopaDeCliente.png](assets/img/Chapter4/MonitorearEnvioRopaDeCliente.png)
+
+**Explicación del flujo:**
+
+*Happy path:* el usuario ingresa a Recojos y Entregas, ubica en la tabla un registro de tipo "Entrega" con un repartidor ya asignado, y hace clic sobre esa fila. El sistema navega a la pantalla de Seguimiento de Entrega, donde se muestra el mapa con la ruta trazada desde la lavandería hasta el domicilio del cliente (tramo sólido recorrido / tramo punteado pendiente), la etiqueta flotante con el tiempo estimado de llegada, el stepper de progreso (Confirmado – Recojido – En Camino) y el detalle de respaldo del envío (Cliente, Dirección de entrega, Servicio, Prendas). El usuario permanece en la pantalla observando cómo el stepper y la posición del repartidor se actualizan automáticamente hasta que el envío se marca como Entregado.
+
+*Unhappy paths:*
+
+- Pérdida de conexión con el repartidor: el mapa y el stepper dejan de actualizarse en tiempo real y se muestra un indicador de "Sin conexión" hasta que se restablece la señal.
+- Retraso frente al tiempo estimado inicial: la etiqueta flotante actualiza el tiempo de llegada (por ejemplo, de "~12 min" a un valor mayor), sin que el usuario tenga que salir de la pantalla para notar el cambio.
+- Cliente no se encuentra en el domicilio al momento de la entrega: el repartidor reporta la incidencia, el registro cambia a un estado que refleje la entrega no concluida, y el usuario debe coordinar un nuevo intento de envío.
+
+---
+### Revisar y atender una alerta de posible falla en una máquina
+
+**User Goal:** Identificar qué lavadoras requieren atención inmediata y revisar el detalle técnico antes de tomar una acción correctiva.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería.
+
+**Consistencia con el Wireflow:** Este diagrama conserva exactamente la misma secuencia (Alertas → Detalle de Lavadora) definida en el Wireflow de la sección 4.4.2.
+
+![RevisarAlertaPosibleFalla_mockup.png](assets/img/Chapter4/RevisarAlertaPosibleFalla_mockup.png)
+
+**Explicación del flujo:**
+
+*Happy path:* el usuario ingresa a Alertas desde el grupo "Monitoreo" del sidebar, revisa la lista de lavadoras en estado "Revisión" o "Posible falla", hace clic en la tarjeta correspondiente, y el sistema navega al Detalle de Lavadora, donde se muestran las métricas (valor, rango esperado, veredicto) y el gráfico histórico de la métrica en alerta.
+
+*Unhappy paths:*
+
+- La lavadora pierde conexión mientras se revisa el detalle: el sistema actualiza el estado a "Sin conexión" y deja de refrescar las métricas en tiempo real.
+
+- El usuario regresa a la lista sin realizar ninguna acción: el sistema conserva el estado de la lavadora sin cambios.
+
+---
+
+### Solicitar un nuevo pedido de lavandería
+
+**User Goal:** Solicitar un servicio de lavandería de forma digital, sin necesidad de llamar o escribir directamente a la lavandería.
+
+**User Persona:** Valeria Torres, Cliente de Lavandería.
+
+**Consistencia con el Wireflow:** Este diagrama conserva exactamente la misma secuencia (Nuevo pedido → selección de servicio y prendas → confirmación) definida en el Wireflow de la sección 4.4.2.
+
+![SolicitarNuevoPedido_mockup.png](assets/img/Chapter4/SolicitarNuevoPedido_mockup.png)
+
+**Explicación del flujo:**
+
+*Happy path:* la usuaria ingresa a la aplicación web, selecciona "Nuevo pedido", elige el servicio deseado y la cantidad de prendas, selecciona la fecha y el tipo de entrega, y confirma la solicitud. El sistema muestra una confirmación y agrega el pedido a su historial con estado inicial "En proceso".
+
+*Unhappy paths:*
+
+- Servicio no disponible en la zona de la usuaria: el sistema muestra un mensaje indicando que el servicio no cubre esa ubicación.
+- Error de validación en el formulario: se muestra el mensaje de error debajo del campo correspondiente sin perder los datos ya ingresados.
+- Cancelación de la solicitud: la usuaria cierra el formulario antes de confirmar y no se genera ningún pedido.
+
+---
+
+### Consultar el estado de su pedido sin llamar a la lavandería
+
+**User Goal:** Conocer en qué etapa se encuentra su pedido en cualquier momento, sin necesidad de comunicarse directamente con la lavandería.
+
+**User Persona:** Valeria Torres, Cliente de Lavandería.
+
+**Consistencia con el Wireflow:** Este diagrama conserva exactamente la misma secuencia (Mis pedidos → detalle de estado) definida en el Wireflow de la sección 4.4.2.
+
+![ConsultarEstadoPedidoCliente_mockup.png](assets/img/Chapter4/ConsultarEstadoPedidoCliente_mockup.png)
+
+**Explicación del flujo:**
+
+*Happy path:* la usuaria ingresa a la sección "Mis pedidos", selecciona el pedido activo, y el sistema muestra el estado actual (por ejemplo, "En proceso", "Listo para entrega") junto con la fecha estimada de entrega.
+
+*Unhappy paths:*
+
+- El pedido aún no ha sido registrado por la lavandería: el sistema muestra un estado "Pendiente de confirmación".
+- Error de conexión al cargar el estado: se muestra un mensaje de error con opción de reintentar la carga.
+- El pedido fue cancelado por la lavandería: el sistema muestra el estado "Cancelado" junto con el motivo, si está disponible.
+---
+
 ### 4.5. Web Applications Prototyping
+
+Las decisiones de interacción aplicadas en los prototipos de WashTrack y de la App Cliente parten directamente de la Arquitectura de Información previamente definida: una jerarquía clara y una categorización modular por perfil de usuario, orientada a que cada actor, sea administrador o cliente, encuentre sin esfuerzo las funcionalidades correspondientes a su rol. Sobre esa base, se aplicaron tres criterios de interacción consistentes en ambas aplicaciones:
+
+* **Navegación persistente por roles:** Cada aplicación mantiene una barra lateral fija y agrupada por propósito (en WashTrack: Operaciones y Monitoreo; en la App Cliente: Servicios y Cuenta), de modo que la estructura de navegación refuerza visualmente la categorización modular ya establecida en la Arquitectura de Información, permitiendo que el usuario reconozca la ubicación de cada funcionalidad sin necesidad de aprenderla de nuevo en cada sección.
+* **Superposición modal para datos administrables y navegación completa para procesos en curso:** Las acciones de alta y edición de registros estáticos, tales como pedidos, clientes o el catálogo, se resuelven mediante modales sobre la vista atenuada, mientras que el seguimiento de procesos en tiempo real, como el envío de un pedido o el monitoreo de una lavadora, se resuelve mediante una pantalla dedicada. Esta distinción reduce la carga cognitiva al comunicar de forma consistente cuándo el usuario está gestionando un dato y cuándo está observando un estado vivo del sistema.
+* **Progreso visible mediante steppers y paneles de filtro contextuales:** Los flujos secuenciales, como el seguimiento de una entrega o el estado de un pedido del cliente, utilizan un stepper que hace explícita la etapa actual dentro de la secuencia lógica de acceso a la información. Por su parte, las consultas de alto volumen en la lista de pedidos utilizan paneles de filtro anclados al control que los origina, evitando que el usuario pierda el contexto de la pantalla en la que se encuentra.
+
+Los prototipos fueron construidos en Figma, incluyendo simulación de interacción y navegación para Desktop Web Browser y Mobile Web Browser, siguiendo los caminos de flujo óptimo y de excepciones definidos en los User Flow Diagrams.
+
+![WebApplicationPrototyping.png](assets/img/Chapter4/WebApplicationPrototyping.png)
+
+
+**Video de prototipo  :** [upc-pre-202620-1asi0730-16129-Devtech-prototypenavigation.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216240_upc_edu_pe/IQCabeS1dMD4Rb0pFmHeYViRAXjFhmCsulOYm4D1f0Kj584?e=SoYR59&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
 
 ### 4.6. Domain-Driven Software Architecture
 La arquitectura de WashTrack se organiza utilizando conceptos de **Domain-Driven Design (DDD)** para separar las principales responsabilidades del dominio. Los Bounded Contexts permiten delimitar las reglas y responsabilidades de cada área funcional.

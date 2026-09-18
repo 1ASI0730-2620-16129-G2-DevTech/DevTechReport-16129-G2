@@ -3365,6 +3365,16 @@ erDiagram
 
 **Url del despliegue de la landing page:** [https://1asi0730-2620-16129-g2-devtech.github.io/DevTech-LandingPage-16129-G2/](https://1asi0730-2620-16129-g2-devtech.github.io/DevTech-LandingPage-16129-G2/)
 
+
+**Evidencia del deploy: Landing page in web responsive**
+
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint1/landing_page_web_deploy_evidence.png" width="700px" alt="Landing Page Web Responsive">
+  <p>Deployed Landing Page - Web</p>
+  <p></p>
+</div>
+
+
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
 ### 5.3. Validation Interviews

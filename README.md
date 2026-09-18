@@ -288,8 +288,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
-        Poner avances av1<br>
-        ...<br>
+        Participé en la validación funcional de la Landing Page, asegurando que los elementos implementados respondieran a las User Stories US01, US02 y US03, especialmente en la presentación de la propuesta de valor y en la navegación hacia la experiencia del cliente y del proveedor. También colaboré en la revisión del contenido y del comportamiento esperado de la interfaz para mantener coherencia con los objetivos del producto.<br>
+        <br>
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
         Poner avances av1<br>
@@ -324,8 +324,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
-        Poner avances av1
-        ...<br>
+        Contribuí a la organización del trabajo del equipo al revisar la prioridad de las User Stories y validar que el Product Backlog y la implementación de la Landing Page estuvieran alineados con los objetivos del Sprint. Además, apoyé la coordinación técnica y la revisión funcional para asegurar que cada tarea cumpliera con los criterios de aceptación y se entregara dentro de los plazos establecidos.<br>
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
         Poner avances av1

@@ -3462,7 +3462,7 @@ Procesa el contenido del repositorio y genera una dirección pública para acced
   <img src="assets/img/Chapter5/SoftwareDeployment/sitio_publicado.png" alt="Mensaje de sitio publicado y enlace Visit site" width="800"/>
 </div>
 
-#### 5. Validación del despliegue
+#### 4. Validación del despliegue
 Finalmente, se accede al enlace generado por GitHub Pages para comprobar que la Landing Page se encuentre disponible y que sus principales componentes funcionen correctamente. Se verifica la visualización de las secciones, navegación, estilos, imágenes, menú responsive y funcionalidad implementada mediante JavaScript.
 
 <div align="center">

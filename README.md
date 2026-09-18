@@ -80,7 +80,9 @@ u202216240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tufiño Ar
 
 ## Project Report Collaboration Insights
 
-// Enlaces  de repositorios
+URL del repositorio (report): [https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTechReport-16129-G2](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTechReport-16129-G2)
+
+URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2)
 
 *Reporte de colaboración de la entrega del TP:*
 

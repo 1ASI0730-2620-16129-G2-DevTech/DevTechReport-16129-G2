@@ -3397,6 +3397,24 @@ JavaScript se utiliza para incorporar interactividad a la Landing Page. Entre su
 * **Manipulación del DOM:** Se emplean métodos como `querySelector()`, `querySelectorAll()`, `classList.toggle()`, `setAttribute()` y eventos `addEventListener()` para controlar dinámicamente la interfaz.
 
 ---
+### Convenciones de Nomenclatura
+
+Para mantener uniformidad en el código de la Landing Page, se consideran las siguientes convenciones:
+
+| Elemento | Convención | Ejemplo |
+| :--- | :--- | :--- |
+| **Variables JavaScript** | camelCase | `navCollapse` |
+| **Funciones JavaScript** | camelCase | `setLanguage()` |
+| **Clases CSS** | Nombres descriptivos con guiones | `menu-toggle` |
+| **Clases CSS (Componentes)** | Componentes identificables | `caracteristica-card` |
+| **Identificadores HTML** | Nombre descriptivo | `contactForm` |
+| **Constantes JavaScript** | camelCase | `translatableAttrs` |
+| **Comentarios** | Descriptivos y relacionados | `// Selector de idioma EN/ES` |
+
+En general, las convenciones buscan que cada nombre permita comprender su propósito sin necesidad de revisar todo el código. Por ejemplo, `tracking-demo` permite identificar que corresponde a la demostración del seguimiento de pedidos, mientras que `menu-toggle` identifica el botón utilizado para controlar el menú de navegación.
+
+---
+
 
 
 #### 5.1.4. Software Deployment Configuration

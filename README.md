@@ -1432,6 +1432,30 @@ camino feliz (happy path) como las rutas alternativas (unhappy paths) ante posib
 - Pedido ya pagado: el sistema advierte que el pedido ya cuenta con un pago registrado y solicita confirmación antes de continuar.
 - Cancelación: el usuario cierra el formulario sin registrar el pago.
 ---
+
+### Monitorear el envío de ropa al domicilio del cliente
+
+**User Goal:** Monitorear en tiempo real el envío de la ropa ya lista, desde que sale de la lavandería hasta que llega al domicilio del cliente, para conocer en todo momento en qué etapa se encuentra el envío y cuánto falta para su entrega.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería (Segmento 1).
+
+**Consistencia con el Wireflow:** Este diagrama conserva exactamente la misma secuencia (Recojos y Entregas → Seguimiento de Entrega) definida en el Wireflow de la sección 4.4.2.
+
+![MonitorearEnvioRopaDeCliente.png](assets/MonitorearEnvioRopaDeCliente.png)
+
+**Explicación del flujo:**
+
+*Happy path:* el usuario ingresa a Recojos y Entregas, ubica en la tabla un registro de tipo "Entrega" con un repartidor ya asignado, y hace clic sobre esa fila. El sistema navega a la pantalla de Seguimiento de Entrega, donde se muestra el mapa con la ruta trazada desde la lavandería hasta el domicilio del cliente (tramo sólido recorrido / tramo punteado pendiente), la etiqueta flotante con el tiempo estimado de llegada, el stepper de progreso (Confirmado – Recojido – En Camino) y el detalle de respaldo del envío (Cliente, Dirección de entrega, Servicio, Prendas). El usuario permanece en la pantalla observando cómo el stepper y la posición del repartidor se actualizan automáticamente hasta que el envío se marca como Entregado.
+
+*Unhappy paths:*
+
+- Pérdida de conexión con el repartidor: el mapa y el stepper dejan de actualizarse en tiempo real y se muestra un indicador de "Sin conexión" hasta que se restablece la señal.
+- Retraso frente al tiempo estimado inicial: la etiqueta flotante actualiza el tiempo de llegada (por ejemplo, de "~12 min" a un valor mayor), sin que el usuario tenga que salir de la pantalla para notar el cambio.
+- Cliente no se encuentra en el domicilio al momento de la entrega: el repartidor reporta la incidencia, el registro cambia a un estado que refleje la entrega no concluida, y el usuario debe coordinar un nuevo intento de envío.
+
+---
+
+
 ### 4.5. Web Applications Prototyping
 
 ### 4.6. Domain-Driven Software Architecture

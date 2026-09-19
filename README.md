@@ -106,12 +106,28 @@ URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-D
 </p>
 
 **Evidencias de colaboración y analíticos en GitHub**
+<br>
+
+**Primera entrega (AV1)**
 
 <p align="justify">
   Para garantizar la coherencia metodológica con el Registro de Versiones del Informe y verificar el compromiso y la participación equitativa de todos los integrantes del equipo DevTech, se adjuntan los analíticos y registros de actividad extraídos directamente de las métricas internas del repositorio en GitHub.
 </p>
 
-
+<p align="center">
+<img src="assets/contributors_av1.png" alt="Contributors-DevTech-AV1" width="500"/>
+  <br/><i>Contributors of DevTech (AV1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/pulse_av1.png" alt="Pulse-DevTech-AV1" width="500"/>
+  <br/><i>Pulse of DevTech (AV1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/network_graph_av1.png" alt="Contributors-DevTech-AV1" width="500"/>
+  <br/><i>Network graph of DevTech (AV1)</i>
+</p>
 
 <div style="page-break-after: always;"></div>
 
@@ -1062,12 +1078,11 @@ Datos del entrevistado:
 </div>
 <br>
 
+---
+
 **Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
 
 <u>Entrevista 1:</u>
-
-
----
 
 Entrevistador: Adriana Nicole Ramos Fuentes Rivera
 

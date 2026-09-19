@@ -4590,8 +4590,12 @@ La mayor parte del desarrollo se concentró entre finales de agosto y mediados d
 ![Figura 3. Insights – Network graph](assets/img/Chapter5/sprint1/landing-network.png)
 *Figura 3. Flujo de ramas `feature/landing`, `feature/finalVersion`, `develop` y `main`.*
 
-![Figura 4. Historial de commits](assets/img/Chapter5/sprint1/landing-commits-history.png)
-*Figura 4. Historial de commits del repositorio de la Landing Page.*
+
+<div>
+  <img src="assets/img/Chapter5/sprint1/commits-history.jpeg" alt="Historial de commits"/>
+
+  *Figura 4. Historial de commits del repositorio de la Landing Page.*
+</div>
 
 
 ### 5.3. Validation Interviews

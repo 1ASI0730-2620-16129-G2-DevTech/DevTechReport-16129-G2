@@ -990,8 +990,26 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 - ¿Qué tendría que mejorar una lavandería para que estuvieras más satisfecho con su servicio? 
 
 #### 2.2.2. Registro de entrevistas
+
 **Primer Segmento: Propietarios de lavanderías independientes**
 <p><u>Entrevista 1:</u><p>
+
+Entrevistador: Luis Angel Tufiño Argüelles
+
+Datos del entrevistado :
+
+- **Nombre:** Leonardo
+- **Apellidos:** Cumba
+- **Edad:** 21 años
+- **Distrito:** Pueblo Libre
+- **Timing:** 00:00:10 - 00:07:57
+
+<div align="justify">
+  Leonardo Cumba, residente de Pueblo Libre, es trabajador por turnos en una lavandería independiente, donde participa en la recepción, registro y seguimiento de los pedidos, además de coordinar el proceso de lavado y entrega de las prendas. Actualmente, la información se registra principalmente de forma manual mediante un cuaderno y se utiliza Excel para el control de ingresos, mientras que la comunicación con los clientes se realiza por WhatsApp. Entre las principales dificultades se encuentran las confusiones en la cantidad de prendas, pérdida o mezcla de pedidos y retrasos en las fechas de entrega. Asimismo, la coordinación de recojos y entregas a domicilio se realiza de manera manual, lo que dificulta organizar horarios y direcciones.
+</div>
+<br>
+
+![Entrevista 01 - Segmento 01](assets/img/Chapter2/Interview/Entrevista01_Segmento01.png)
 
 <br>
 <u>Entrevista 2:</u>
@@ -1019,6 +1037,9 @@ Datos del entrevistado:
 **Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
 
 <u>Entrevista 1:</u>
+
+
+---
 
 Entrevistador: Adriana Nicole Ramos Fuentes Rivera
 

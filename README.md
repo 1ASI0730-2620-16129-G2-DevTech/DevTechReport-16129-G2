@@ -1003,7 +1003,19 @@ Datos del entrevistado:
 <br>
 
 <u>Entrevista 3:</u>
+Entrevistador: Sebastián Leonardo Sayago Vidal
 
+Datos del entrevistado:
+
+- **Nombre:** Augusto
+- **Apellidos:** Suarez
+- **Edad:** 60 años
+- **Distrito:** Callao
+- **Timing:** 00:13:44 - 00:20:46
+
+<div align="justify">
+ El Sr. Augusto, propietario de una lavandería ubicada en el Callao, participa directamente en las actividades relacionadas con la atención de los clientes y la gestión de los pedidos. En relación con la gestión de los pedidos,  indicó que utiliza principalmente registros manuales para organizar la información, complementándolos con herramientas de comunicación como WhatsApp para mantener contacto con los clientes. Entre los datos que registra se encuentran información del cliente, características o cantidad de prendas, servicio solicitado, precio y fecha de entrega. Respecto a las dificultades del proceso, señaló que pueden producirse errores al registrar información, como cantidades incorrectas, indicaciones que no fueron anotadas adecuadamente o confusiones entre pedidos. Estas situaciones requieren revisar nuevamente los registros y, cuando es necesario, comunicarse con el cliente para confirmar la información. También identificó el registro y seguimiento de los pedidos como una de las actividades que puede consumir mayor tiempo durante la gestión diaria. Asimismo, señaló que los errores relacionados con la información de los pedidos, la confusión de prendas y los retrasos pueden generar inconvenientes para el negocio y reclamos por parte de los clientes.
+</div>
 <br>
 
 **Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**

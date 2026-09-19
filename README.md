@@ -260,6 +260,12 @@ URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-D
         - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
         - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
         - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+  - [Explicación del trabajo en equipo - Report](#explicación-del-trabajo-en-equipo---report)
+  - [Evidencia de participación de todos los miembros](#evidencia-de-participación-de-todos-los-miembros)
+  - [Capturas de GitHub](#capturas-de-github)
+  - [Explicación del trabajo en equipo - Landing Page](#explicación-del-trabajo-en-equipo---landing-page)
+  - [Evidencia de participación](#evidencia-de-participación)
+  - [Capturas de GitHub](#capturas-de-github-1)
     - [5.3. Validation Interviews](#53-validation-interviews)
       - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
       - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -1083,19 +1089,23 @@ Datos del entrevistado:
 
 <p><u>Entrevista 2:</u></p>
 
-Entrevistador: 
+Entrevistador: Ramirez Gutierrez Gabriel
 
 Datos del entrevistado:
 
-- **Nombre:** 
-- **Apellidos:** 
-- **Edad:** 20 
-- **Distrito:**  
-- **Timing:** 00:43:02 - 00:53:07
+- **Nombre:** Santiago
+- **Apellidos:** Vargas
+- **Edad:** 19
+- **Distrito:** San Miguel  
+- **Timing:** 00:00:10 - 00:08:07
 
 <div align="justify">
 
+Santiago Vargas, de 19 años y residente de San Miguel, frecuenta muy seguido el uso de los servicios de lavanderia, aproximadamente cada 2 semanas. En la entrevista el nos comenta que una de sus principales complicaciones viene siendo el tener que comenzar a confiar en alguna lavanderia, puesto que espera que respeten los tiempos de entrega, o que se le notifique cualquier incidencia, ademas de que debe estar seguro que toda la ropa que se le envie sea la correcta.
 
+Tambien piensa que debe ser importante el seguimiento del pedido, para saber que todo proceso se esta llevando correctamente sin problema alguno, y que sucede uno, deba ser debidamente informado por el personal de la lavanderia.
+
+Finalmente comenta que en algunas ocasiones le gustaria intentar algun servicio de recojo a domicilio por parte de las lavanderias, puesto que el paquete de ropa suele ser bastante en ciertas ocasiones.
 
 </div>
 <br>

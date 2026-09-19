@@ -4529,13 +4529,13 @@ Evidencia el funcionamiento del selector de idioma (ES/EN) ubicado en la barra d
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
-## Explicación del trabajo en equipo - Report 
+**Explicación del trabajo en equipo - Report** 
 
 Durante el Sprint 1, los cinco integrantes trabajaron en paralelo con un flujo de **ramas `feature/`** creadas a partir de `develop`. Cada entregable se desarrolló en su propia rama y se integró mediante **Pull Request**, lo que permitió avanzar sin bloquearse entre sí y mantener `develop` estable.
 
 Entre el 11 y el 18 de septiembre de 2026 se fusionaron **13 Pull Requests** (ninguno quedó abierto). Los 5 integrantes hicieron push: **106 commits** en todas las ramas, 63 de ellos en `develop`, con 109 archivos modificados (1850 líneas añadidas y 300 eliminadas). Los PRs cubrieron el despliegue del software, la documentación de servicios, la guía de estilo y convenciones de código, el reporte de collaboration insights y las conclusiones.
 
-## Evidencia de participación de todos los miembros
+**Evidencia de participación de todos los miembros**
 
 | Integrante (GitHub) | Commits | Líneas añadidas | Líneas eliminadas |
 |---|---|---|---|
@@ -4547,7 +4547,7 @@ Entre el 11 y el 18 de septiembre de 2026 se fusionaron **13 Pull Requests** (ni
 
 *Fuente: GitHub Insights – Contributors (`develop`, sin commits de merge).*
 
-## Capturas de GitHub
+**Capturas de GitHub**
 
 
 *Figura 1. Aporte individual y commits a lo largo del tiempo.*
@@ -4564,13 +4564,13 @@ Entre el 11 y el 18 de septiembre de 2026 se fusionaron **13 Pull Requests** (ni
 
 ----
 
-## Explicación del trabajo en equipo - Landing Page 
+**Explicación del trabajo en equipo - Landing Page**
 
 El desarrollo de la Landing Page se organizó con un flujo de **ramas y Pull Requests**: la rama `feature/landing` se usó para la construcción inicial de la página y `feature/finalVersion` para la versión final. Ambas se integraron a `develop`, y `develop` se fusionó a `main` mediante Pull Request, lo que mantuvo `main` con una versión estable de la página.
 
 La mayor parte del desarrollo se concentró entre finales de agosto y mediados de septiembre, con actividad en tres semanas consecutivas (aproximadamente 6, 7 y 1 commits a `main`, 14 en total). Entre el 11 y el 18 de septiembre de 2026 se cerró la etapa de ajustes finales: se fusionaron **2 Pull Requests** (#3 `docs: add id in form` y #4 `Develop`), realizados por 2 personas y sin ningún PR abierto. En el Network graph se observa que la rama `feature/finalVersion` acumuló varios commits antes de integrarse (16 de septiembre), y que `develop` se fusionó a `main` el 17 de septiembre.
 
-## Evidencia de participación
+**Evidencia de participación**
 
 | Integrante (GitHub) | Commits en `main` | Líneas añadidas | Líneas eliminadas |
 |---|---|---|---|

@@ -4558,7 +4558,7 @@ Entre el 11 y el 18 de septiembre de 2026 se fusionaron **13 Pull Requests** (ni
 ![Figura 3. Insights – Network graph](assets/img/Chapter5/sprint1/insights-network.png)
 *Figura 3. Flujo de ramas `feature/` y merges.*
 
-![Figura 4. Historial de commits](assets/img/Chapter5/sprint1/commits-history.png)
+![Figura 4. Historial de commits](assets/img/Chapter5/sprint1/commits-history.jpeg)
 *Figura 4. Historial de commits del repositorio.*
 
 

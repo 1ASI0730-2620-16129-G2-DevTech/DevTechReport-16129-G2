@@ -4108,13 +4108,13 @@ El equipo DevTech utilizará las siguientes herramientas para colaborar durante 
 | Source Code Management | Git y GitHub | Controlar versiones, administrar ramas, revisar cambios mediante Pull Requests y mantener el historial de cada producto. | [Git](https://git-scm.com/downloads) · [GitHub](https://github.com/) |
 | Product UX/UI Design | Figma | Elaborar wireframes, mockups y prototipos colaborativos de la Landing Page y las aplicaciones web. | [Figma](https://www.figma.com/) |
 | Software Development | WebStorm | Desarrollar la Landing Page y el Frontend Web Application, editar HTML5, CSS3, JavaScript y Vue, ejecutar tareas y revisar cambios. | [WebStorm](https://www.jetbrains.com/webstorm/download/) |
-| Software Development | IntelliJ IDEA | Desarrollar y ejecutar componentes del proyecto con JavaScript y TypeScript, aprovechando sus herramientas de edición, depuración y gestión de proyectos. | [IntelliJ IDEA](https://www.jetbrains.com/idea/download/) |
+| Software Development | JetBrains Rider | Desarrollar y ejecutar los Web Services con C#, ASP.NET Core y Entity Framework Core, utilizando sus herramientas de edición, depuración y gestión de proyectos .NET. | [JetBrains Rider](https://www.jetbrains.com/rider/download/) |
 | Software Development | Node.js y npm | Instalar dependencias y ejecutar los scripts de desarrollo y construcción del Frontend Web Application basado en Vue. | [Node.js](https://nodejs.org/en/download) |
 | API Documentation and Testing | Swagger / OpenAPI | Consultar, documentar y validar los endpoints de los Web Services durante el desarrollo y la aceptación. | [OpenAPI Specification](https://swagger.io/specification/) |
 | Software Deployment | GitHub Pages | Publicar la versión estable de la Landing Page desde la rama `main`. | [GitHub Pages](https://pages.github.com/) |
 | Software Documentation | Markdown en GitHub | Mantener el informe, las decisiones técnicas, las instrucciones de ejecución y las evidencias junto al código. | [Guía de Markdown de GitHub](https://docs.github.com/en/get-started/writing-on-github) |
 
-La configuración base para los integrantes será Git, WebStorm para la Landing Page y el Frontend Web Application, e IntelliJ IDEA para los componentes desarrollados con JavaScript y TypeScript. Las versiones de Node.js y .NET deberán corresponder con las declaradas en los archivos de configuración de cada repositorio. Las credenciales, cadenas de conexión y demás secretos no se almacenarán en el repositorio; se administrarán mediante variables de entorno o la configuración segura del servicio de despliegue.
+La configuración base para los integrantes será Git, WebStorm para la Landing Page y el Frontend Web Application, y JetBrains Rider para los Web Services desarrollados con C# y .NET. Las versiones de Node.js y .NET deberán corresponder con las declaradas en los archivos de configuración de cada repositorio. Las credenciales, cadenas de conexión y demás secretos no se almacenarán en el repositorio; se administrarán mediante variables de entorno o la configuración segura del servicio de despliegue.
 
 #### 5.1.2. Source Code Management
 

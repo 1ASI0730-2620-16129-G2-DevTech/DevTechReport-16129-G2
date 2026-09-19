@@ -1041,7 +1041,6 @@ Datos del entrevistado :
 </div>
 <br>
 
-![Entrevista 01 - Segmento 01](assets/img/Chapter2/Interview/Entrevista01_Segmento01.png)
 
 <br>
 <u>Entrevista 2:</u>

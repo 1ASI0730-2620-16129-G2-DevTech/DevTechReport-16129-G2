@@ -67,12 +67,9 @@ u202216240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tufiño Ar
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor                         | Descripcion                                              |
-| :--- |:-----------|:------------------------------|:---------------------------------------------------------|
-| 0.1.0 | 28/08/2026 | Gabriel Ramirez y Luis Tufiño | Creó el repositorio junto a los branch de cada capítulo. |
-| 0.2.0 | 02/09/2026 | Adriana Ramos | Agregó el Capítulo I |
-| 0.3.0 | 04/09/2026 | Ariana Perez | Agregó su parte en student Outcome y desarrollo avance del capítulo IV junto a la Landing Page |
-| 0.4.0 | 06/09/2026 | DevTech | Desarrollo por partes del documento |
+| Versión | Fecha | Autor | Descripción de modificación |
+|---|---|---|---|
+| **AV1** | 28/08/2026 | Pérez Vásquez, Ariana Valeria<br><br>Ramirez Gutierrez, Gabriel<br><br>Ramos Fuentes Rivera, Adriana Nicole<br><br>Sayago Vidal, Sebastián Leonardo<br><br>Tufiño Argüelles, Luis Angel | **Capítulo I: Introducción**<br>1.1. Startup Profile<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1. Antecedentes y problemática<br>1.2.2. Lean UX Process<br>1.2.2.1. Lean UX Problem Statements<br>1.2.2.2. Lean UX Assumptions<br>1.2.2.3. Lean UX Hypothesis Statements<br>1.2.2.4. Lean UX Canvas<br>1.3. Segmentos objetivo<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores<br>2.1.1. Análisis competitivo<br>2.1.2. Estrategias y tácticas frente a competidores<br>2.2. Entrevistas<br>2.2.1. Diseño de entrevistas<br>2.2.2. Registro de entrevistas<br>2.2.3. Análisis de entrevistas<br>2.3. Needfinding<br>2.3.1. User Personas<br>2.3.2. User Task Matrix<br>2.3.3. User Journey Mapping<br>2.3.4. Empathy Mapping<br>2.4. Big Picture EventStorming<br>2.5. Ubiquitous Language<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories<br>3.2. Impact Mapping<br>3.3. Product Backlog<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines<br>4.1.1. General Style Guidelines<br>4.1.2. Web Style Guidelines<br>4.2. Information Architecture<br>4.2.1. Organization Systems<br>4.2.2. Labeling Systems<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems<br>4.2.5. Navigation Systems<br>4.3. Landing Page UI Design<br>4.3.1. Landing Page Wireframe<br>4.3.2. Landing Page Mock-up<br>4.4. Web Applications UX/UI Design<br>4.4.1. Web Applications Wireframes<br>4.4.2. Web Applications Wireflow Diagrams<br>4.4.2. Web Applications Mock-ups<br>4.4.3. Web Applications User Flow Diagrams<br>4.5. Web Applications Prototyping<br>4.6. Domain-Driven Software Architecture<br>4.6.1. Design-Level EventStorming<br>4.6.2. Software Architecture Context Diagram<br>4.6.3. Software Architecture Container Diagrams<br>4.6.4. Software Architecture Components Diagrams<br>4.7. Software Object-Oriented Design<br>4.7.1. Class Diagrams<br>4.8. Database Design<br>4.8.1. Database Diagrams<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management<br>5.1.1. Software Development Environment Configuration<br>5.1.2. Source Code Management<br>5.1.3. Source Code Style Guide & Conventions<br>5.1.4. Software Deployment Configuration<br>5.2. Landing Page, Services & Applications Implementation<br>5.2.1. Sprint n<br>5.2.1.1. Sprint Planning n<br>5.2.1.2. Aspect Leaders and Collaborators<br>5.2.1.3. Sprint Backlog n<br>5.2.1.4. Development Evidence for Sprint Review<br>5.2.1.5. Execution Evidence for Sprint Review<br>5.2.1.6. Services Documentation Evidence for Sprint Review<br>5.2.1.7. Software Deployment Evidence for Sprint Review<br>5.2.1.8. Team Collaboration Insights during Sprint |
 
 <div style="page-break-after: always;"></div>
 
@@ -292,8 +289,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <br>
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
-        Poner avances av1<br>
-        ...<br>
+        Participé en el desarrollo de los entregables relacionados con la definición de la startup y la solución, elaborando el Startup Profile, los perfiles de los integrantes del equipo y el Solution Profile. Asimismo, desarrollé el análisis de antecedentes y problemática mediante el Lean UX Process, incluyendo los Problem Statements, Assumptions, Hypothesis Statements y Lean UX Canvas. Complementé este trabajo con el análisis de competidores, entrevistas y técnicas de Needfinding, como User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping. Finalmente, trabajé en la construcción del Big Picture EventStorming y el Ubiquitous Language, aportando estos resultados al desarrollo conjunto del proyecto y facilitando una visión compartida de la solución y de las necesidades de los usuarios.<br>
+        <br>
         <b>Sayago Vidal, Sebastián Leonardo</b><br>
         <em><b>AV1</b></em><br>
         Participé activamente en el desarrollo del proyecto WashTrack, asumiendo responsabilidades relacionadas con el diseño y documentación técnica del sistema.
@@ -306,12 +303,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         ...
       </td>
       <td>
-        Fusce cursus dolor et nulla suscipit, sit amet ullamcorper nibh vestibulum.<br>
-        Nam ornare massa eu lobortis porttitor.<br>
-        Nam ut erat feugiat libero pretium semper at ac metus.<br>
-        Sed at eros dapibus, fermentum quam ut, bibendum lacus.<br>
-        Curabitur eget orci eget urna varius commodo.<br>
-        ...
+        <b>AV1</b><br>
+        <p>En conclusión, logramos ejercer un liderazgo conjunto y transversal a lo largo de todas las fases del proyecto, desde la asignación estratégica de roles iniciales y la facilitación compartida del Lean UX Process, Needfinding y Big Picture EventStorming (Capítulos I y II), hasta la toma de decisiones técnicas para el Product Backlog, arquitectura DDD y diseño de bases de datos (Capítulos III y IV). Asimismo, asumimos de forma colaborativa la dirección de los Sprints y la asignación de líderes por aspectos en la fase de implementación (Capítulo V), demostrando una capacidad constante para orientar al grupo hacia el cumplimiento de cada hito técnico y estratégico del proyecto.</p>
       </td>
     </tr>
     <tr>
@@ -327,8 +320,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Contribuí a la organización del trabajo del equipo al revisar la prioridad de las User Stories y validar que el Product Backlog y la implementación de la Landing Page estuvieran alineados con los objetivos del Sprint. Además, apoyé la coordinación técnica y la revisión funcional para asegurar que cada tarea cumpliera con los criterios de aceptación y se entregara dentro de los plazos establecidos.<br>
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
-        Poner avances av1
-        ...<br>
+        Desarrollé los diferentes componentes del proyecto siguiendo una estructura organizada, comenzando por la definición de la Startup Profile, la identificación de la problemática y los segmentos objetivo, y continuando con el levantamiento y análisis de requerimientos. Para ello, elaboré el análisis competitivo, el diseño, registro y análisis de entrevistas, y las herramientas de Needfinding, como User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping. Además, desarrollé el Big Picture EventStorming y el Ubiquitous Language, permitiendo organizar y consolidar la información obtenida durante el análisis. Estas acciones contribuyeron al cumplimiento progresivo de los objetivos y entregables establecidos para el proyecto.
+        <br>
         <b>Sayago Vidal, Sebastián Leonardo</b><br>
         <em><b>AV1</b></em><br>
         Durante el desarrollo del avance colaboré con los integrantes del equipo mediante la coordinación y revisión de los aportes relacionados con el diseño del sistema, buscando que las diferentes partes del proyecto mantuvieran una estructura y enfoque coherentes.
@@ -341,11 +334,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <br>
       </td>
       <td>
-        Fusce mattis augue a nisl bibendum, quis fringilla neque scelerisque.<br>
-        Vivamus commodo libero eget venenatis imperdiet.<br>
-        Etiam imperdiet quam condimentum velit tempor porttitor.<br>
-        Suspendisse blandit nisl quis mauris vehicula faucibus.<br>
-        ...
+        <b>AV1</b><br>
+        <p>En conclusión, consolidamos un entorno de trabajo altamente colaborativo e inclusivo al integrar las opiniones e ideas de todos los integrantes durante las dinámicas de brainstorming, diseño UX/UI y definición de requisitos (Capítulos I al IV). Además, demostramos rigurosidad en el establecimiento de metas y planificación de tareas al gestionar de forma ordenada el Sprint Backlog, los entornos de desarrollo, la documentación de servicios y las revisiones de código y despliegue (Capítulo V), lo que nos permitió alcanzar con éxito los objetivos de software y entregar un producto funcional dentro de los plazos establecidos.</p>
       </td>
     </tr>
   </tbody>
@@ -392,7 +382,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <table>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/ArianaPerez.jpeg" alt="Foto de Ariana" width="800"/>
+      <img src="assets/ArianaPerez.png" alt="Foto de Ariana" width="800"/>
     </td>
     <td><b>Nombre:</b> Perez Vasquez Ariana Valeria</td>
   </tr>
@@ -454,7 +444,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   </tr>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/foto_adriana.jpg" alt="Foto de Adriana Ramos" width="500"/>
+      <img src="assets/foto_adriana_profile.jpeg" alt="Foto de Adriana Ramos" width="500"/>
     </td>
     <td><b>Nombre:</b> Adriana Nicole Ramos Fuentes Rivera</td>
   </tr>
@@ -517,7 +507,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 **1.2.1.1. What**
 <p align="justify">
-    Nuestra propuesta de solución, Easy Wash, se propone resolver las siguientes 3 problemáticas recurrentes en la vida personal, específicamente, cuando se desempeña el trabajo doméstico:
+    Nuestra propuesta de solución, Wash Track, se propone resolver las siguientes 3 problemáticas recurrentes en la vida personal, específicamente, cuando se desempeña el trabajo doméstico:
     <ul>
         <li>Uno de los principales problemas a los que se enfrentan las personas independientes que consumen el servicio de lavandería es la limitada disponibilidad de tiempo para realizar tareas domésticas, ya que resulta difícil equilibrar la vida laboral con las responsabilidades domésticas y las actividades personales. Según la Encuesta Nacional de Uso del Tiempo (ENUT) correspondiente al año 2024 realizada por el INEI, la población peruana dedica una cantidad significativa de tiempo al trabajo doméstico no remunerado, donde en un día de semana, las mujeres destinan en promedio 3 horas y 35 minutos y los hombres 1 hora y 37 minutos a estas actividades, además, dentro ellas se encuentra la limpieza y cuidado de la ropa, que demanda en promedio 1 hora y 22 minutos diarios para las mujeres y 58 minutos para los hombres. Por consiguiente, destinar este tiempo diario a las actividades de limpieza y cuidado de la ropa, reduce el tiempo disponible para otras actividades personales, como el descanso, ejercicio, etc. por lo que resulta ideal contratar un servicio externo que realice estas actividades.</li><br>
         <li>El segundo problema es la falta de recursos para el lavado de ropa dentro de los hogares. Según el informe técnico de Condiciones de Vida en el Perú con los resultados de la Encuesta Nacional de Hogares (ENAHO) correspondiente al primer trimestre del año 2026, indica que el 90,5% de los hogares tiene cocina a gas, 57,0% cuenta con refrigeradora/congeladora, 36,4% cuenta con computadora/laptop y 32,2% tiene lavadora de ropa. Asimismo, al comparar los resultados de los primeros trimestres de los años 2023, 2024 y 2025, se observa que la proporción de hogares que cuenta con una lavadora se ha mantenido relativamente estable, pasando de 33,2 % en 2023 a 34,2 % en 2024 y disminuyendo a 32,0 % en 2025, para posteriormente alcanzar el 32,2 % en 2026. Esto evidencia que una cantidad significativa de hogares peruanos no cuentan con una lavadora de ropa, en consecuencia, representa una gran limitación para realizar esta actividad de manera eficiente dentro del hogar.</li><br>
@@ -785,7 +775,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Wash Track
         <br>
         <div style="text-align: center; margin-top: 10px;">
-                <img src="assets/Logo WachTrack.png" alt="Logo WashTrack" style="width: 65;"></img>
+                <img src="assets/Logo_WachTrack.png" alt="Logo WashTrack" style="width: 65;"></img>
         </div>
     <td colspan="1" valign="top" style="font-weight: bold;">
     Clean Cloud
@@ -1031,7 +1021,19 @@ Datos del entrevistado:
 <br>
 
 <u>Entrevista 3:</u>
+Entrevistador: Sebastián Leonardo Sayago Vidal
 
+Datos del entrevistado:
+
+- **Nombre:** Augusto
+- **Apellidos:** Suarez
+- **Edad:** 60 años
+- **Distrito:** Callao
+- **Timing:** 00:13:44 - 00:20:46
+
+<div align="justify">
+ El Sr. Augusto, propietario de una lavandería ubicada en el Callao, participa directamente en las actividades relacionadas con la atención de los clientes y la gestión de los pedidos. En relación con la gestión de los pedidos,  indicó que utiliza principalmente registros manuales para organizar la información, complementándolos con herramientas de comunicación como WhatsApp para mantener contacto con los clientes. Entre los datos que registra se encuentran información del cliente, características o cantidad de prendas, servicio solicitado, precio y fecha de entrega. Respecto a las dificultades del proceso, señaló que pueden producirse errores al registrar información, como cantidades incorrectas, indicaciones que no fueron anotadas adecuadamente o confusiones entre pedidos. Estas situaciones requieren revisar nuevamente los registros y, cuando es necesario, comunicarse con el cliente para confirmar la información. También identificó el registro y seguimiento de los pedidos como una de las actividades que puede consumir mayor tiempo durante la gestión diaria. Asimismo, señaló que los errores relacionados con la información de los pedidos, la confusión de prendas y los retrasos pueden generar inconvenientes para el negocio y reclamos por parte de los clientes.
+</div>
 <br>
 
 **Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
@@ -4606,6 +4608,17 @@ Como parte de los siguientes pasos en el **Roadmap** de los productos digitales 
 
 
 # Anexos
+
+Video de entrevistas: [Microsoft Clipchamp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQBteAOvFWmaTb9BO9km69zHARlBa-PbkxSnjg9gsWnRY-I?e=qibbPs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+URL del repositorio (report): [Repositorio Report](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTechReport-16129-G2)
+
+URL del repositorio (landing-page): [Repositorio Landing Page](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2)
+
+URL de landing page (GithubPage): [Landing Page](https://1asi0730-2620-16129-g2-devtech.github.io/DevTech-LandingPage-16129-G2/)
+
+URL de exposición (AV1): [Exposición AV1]()
+
 
 
 ---

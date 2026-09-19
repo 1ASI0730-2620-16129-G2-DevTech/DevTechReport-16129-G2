@@ -155,7 +155,6 @@ URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-D
     - [3.1. User Stories](#31-user-stories)
     - [3.2. Impact Mapping](#32-impact-mapping)
     - [3.3. Product Backlog](#33-product-backlog)
-      - [Criterios de priorización](#criterios-de-priorización)
       - [Definition of Done](#definition-of-done)
   - [Capítulo IV: Product Design](#capítulo-iv-product-design)
     - [4.1. Style Guidelines](#41-style-guidelines)
@@ -185,8 +184,27 @@ URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-D
     - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
       - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
       - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [Registrar un nuevo pedido](#registrar-un-nuevo-pedido)
+    - [Consultar el estado de un pedido](#consultar-el-estado-de-un-pedido)
+    - [Registrar un nuevo cliente](#registrar-un-nuevo-cliente)
+    - [Registrar un pago asociado a un pedido](#registrar-un-pago-asociado-a-un-pedido)
+    - [Monitorear el envío de ropa al domicilio del cliente](#monitorear-el-envío-de-ropa-al-domicilio-del-cliente)
+    - [Revisar y atender una alerta de posible falla en una máquina](#revisar-y-atender-una-alerta-de-posible-falla-en-una-máquina)
+    - [Solicitar un nuevo pedido de lavandería](#solicitar-un-nuevo-pedido-de-lavandería)
+    - [Consultar el estado de su pedido sin llamar a la lavandería](#consultar-el-estado-de-su-pedido-sin-llamar-a-la-lavandería)
+    - [Solicitar recojo o entrega a domicilio](#solicitar-recojo-o-entrega-a-domicilio)
+    - [Pagar un pedido en línea](#pagar-un-pedido-en-línea)
+    - [Consultar historial de pedidos anteriores](#consultar-historial-de-pedidos-anteriores)
       - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
       - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+    - [Registrar un nuevo pedido](#registrar-un-nuevo-pedido-1)
+    - [Consultar el estado de un pedido](#consultar-el-estado-de-un-pedido-1)
+    - [Registrar un nuevo cliente](#registrar-un-nuevo-cliente-1)
+    - [Registrar un pago asociado a un pedido](#registrar-un-pago-asociado-a-un-pedido-1)
+    - [Monitorear el envío de ropa al domicilio del cliente](#monitorear-el-envío-de-ropa-al-domicilio-del-cliente-1)
+    - [Revisar y atender una alerta de posible falla en una máquina](#revisar-y-atender-una-alerta-de-posible-falla-en-una-máquina-1)
+    - [Solicitar un nuevo pedido de lavandería](#solicitar-un-nuevo-pedido-de-lavandería-1)
+    - [Consultar el estado de su pedido sin llamar a la lavandería](#consultar-el-estado-de-su-pedido-sin-llamar-a-la-lavandería-1)
     - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
     - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
       - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
@@ -250,6 +268,8 @@ URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-D
       - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
       - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
     - [5.4. Video About-the-Product](#54-video-about-the-product)
+  - [Conclusiones](#conclusiones)
+  - [Recomendaciones](#recomendaciones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -2117,12 +2137,6 @@ El Product Backlog de WashTrack contiene las historias de usuario identificadas 
 | 39 | US-038 | Solicitar recojo para prendas voluminosas | Como cliente, quiero solicitar el recojo de prendas voluminosas o pesadas para evitar traslados incómodos hacia la lavandería. | 5 |
 | 40 | US-031 | Recibir alertas IoT predictivas | Como dueño de lavandería, quiero recibir alertas sobre el uso de mis equipos para anticipar fallas y planificar su reemplazo. | 8 |
 | 41 | US-028 | Panel de Control en Vivo | Como dueño de lavandería, quiero ver un panel central con métricas en tiempo real para tener control total de mi operación. | 8 |
-
-#### Criterios de priorización
-
-- **Must:** funcionalidad indispensable para que el MVP registre pedidos, reduzca la pérdida o confusión de prendas y permita conocer el estado del servicio.
-- **Should:** funcionalidad de alto valor que mejora la eficiencia, la comunicación o la experiencia, pero que no impide operar el MVP.
-- **Could:** funcionalidad complementaria o diferenciadora que puede implementarse después de validar el flujo principal.
 
 #### Definition of Done
 

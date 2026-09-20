@@ -168,7 +168,6 @@ URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-D
     - [3.1. User Stories](#31-user-stories)
     - [3.2. Impact Mapping](#32-impact-mapping)
     - [3.3. Product Backlog](#33-product-backlog)
-      - [Definition of Done](#definition-of-done)
   - [Capítulo IV: Product Design](#capítulo-iv-product-design)
     - [4.1. Style Guidelines](#41-style-guidelines)
       - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
@@ -177,12 +176,6 @@ URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-D
       - [4.2.1. Organization Systems](#421-organization-systems)
       - [4.2.2. Labeling Systems](#422-labeling-systems)
       - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-      - [Landing Page](#landing-page)
-      - [Dashboard / Inicio](#dashboard--inicio)
-      - [Características](#características)
-      - [Seguimiento en Vivo](#seguimiento-en-vivo)
-      - [Sobre Nosotros](#sobre-nosotros)
-      - [Planes y Contacto](#planes-y-contacto)
       - [4.2.4. Searching Systems](#424-searching-systems)
       - [4.2.5. Navigation Systems](#425-navigation-systems)
       - [Landing Page o Sitio Web](#landing-page-o-sitio-web)
@@ -2179,7 +2172,7 @@ El Product Backlog de WashTrack contiene las historias de usuario identificadas 
 | 40 | US-031 | Recibir alertas IoT predictivas | Como dueño de lavandería, quiero recibir alertas sobre el uso de mis equipos para anticipar fallas y planificar su reemplazo. | 8 |
 | 41 | US-028 | Panel de Control en Vivo | Como dueño de lavandería, quiero ver un panel central con métricas en tiempo real para tener control total de mi operación. | 8 |
 
-#### Definition of Done
+**Definition of Done**
 
 Una historia se considera terminada cuando cumple sus criterios de aceptación, cuenta con validaciones de datos y manejo de errores, tiene pruebas funcionales, se integra con el flujo correspondiente, se verifica en escritorio y dispositivo móvil y queda documentada para el equipo.
 
@@ -2473,7 +2466,7 @@ La información se estructura mediante una jerarquía clara y una categorizació
 <p>Para mejorar la visibilidad de WashTrack en los motores de búsqueda y atraer a los usuarios adecuados, se han definido los siguientes SEO Tags y Meta Tags para las principales páginas de la experiencia, considerando tanto el sitio web estático que es la Landing Page como la Web Application. Para cada página se especifican los valores correspondientes a Title, Meta Description, Keywords y Author.</p>
 
 
-#### Landing Page
+**Landing Page**
 <p></p>
 
 - <b>Title:</b> WashTrack - Gestión Inteligente y Monitoreo IoT para Lavanderías
@@ -2550,7 +2543,7 @@ La información se estructura mediante una jerarquía clara y una categorizació
 #### 4.2.5. Navigation Systems
 <p>El sistema de navegación de WashTrack ha sido diseñado para <b>guiar de manera intuitiva y fluida a los usuarios, tanto clientes finales como dueños de lavanderías</b>, a través de la Landing Page y la aplicación web. Para ello, se combinan diferentes técnicas de navegación y recorridos que permiten al usuario <b>encontrar la información necesaria, interactuar con las funcionalidades y alcanzar sus objetivos</b> con el menor esfuerzo posible.</p>
 
-#### Landing Page o Sitio Web 
+**Landing Page o Sitio Web**
 
 - <b>Estructura y Recorrido:</b><br/>
   La navegación se plantea mediante un recorrido vertical de una sola página, complementado por una barra de navegación superior. El usuario comienza visualizando la propuesta de valor principal y continúa hacia las características del servicio, el funcionamiento del proceso, los beneficios según su perfil en la sección <b>“Para quién”</b>, los planes disponibles y finalmente el formulario de atención.
@@ -2560,7 +2553,7 @@ La información se estructura mediante una jerarquía clara y una categorizació
   El visitante puede desplazarse libremente por las diferentes secciones y utilizar los botones de llamada a la acción (<i>Call to Action</i>), como <b>“Comenzar ahora”</b>, para acceder al registro o formulario de atención según su interés.
 <p></p>
 
-#### App Web - Panel Hoy o Dashboard 
+**App Web - Panel Hoy o Dashboard**
 
 - <b>Estructura y Recorrido:</b><br/>
   El Dashboard funciona como punto principal de acceso después del inicio de sesión. La información se organiza mediante accesos directos y tarjetas visuales que permiten acceder rápidamente a las diferentes funcionalidades de la aplicación.
@@ -2570,7 +2563,7 @@ La información se estructura mediante una jerarquía clara y una categorizació
   El usuario consulta un resumen de su actividad y puede dirigirse hacia las secciones de pedidos, seguimiento, reportes u otras funcionalidades disponibles. En el caso del <b>plan VIP</b>, se contempla la identificación visual de los pedidos que requieren atención prioritaria.
 <p></p>
 
-#### Sección: Pedidos
+**Sección: Pedidos**
 
 - <b>Estructura y Recorrido:</b><br/>
   Presenta la información de los pedidos de manera organizada, permitiendo utilizar opciones de búsqueda y filtrado para localizar órdenes según diferentes criterios, como código, estado, fecha o prioridad.
@@ -2580,7 +2573,7 @@ La información se estructura mediante una jerarquía clara y una categorizació
   El usuario selecciona un pedido para consultar su información y verificar el estado en el que se encuentra. Asimismo, los pedidos asociados al <b>plan VIP</b> pueden identificarse mediante un indicador de prioridad.
 <p></p>
 
-#### Sección: Seguimiento en Vivo
+**Sección: Seguimiento en Vivo**
 
 - <b>Estructura y Recorrido:</b><br/>
   La navegación se organiza mediante un flujo visual secuencial (<i>step-by-step</i>) que representa las seis etapas del proceso: <b>Recepción, Clasificación, Lavado, Secado/Planchado, Empaquetado y Listo</b>.
@@ -2590,7 +2583,7 @@ La información se estructura mediante una jerarquía clara y una categorizació
   El cliente consulta el progreso de su pedido y reconoce visualmente la etapa actual en la que se encuentra su ropa. Para los usuarios con plan VIP, se contempla la identificación de la prioridad del servicio dentro del seguimiento.
 <p></p>
 
-#### Sección: Reportes
+**Sección: Reportes**
 
 - <b>Estructura y Recorrido:</b><br/>
   La sección organiza la información histórica mediante filtros temporales, como día, mes o año, permitiendo acceder de manera ordenada a los registros y estadísticas disponibles.
@@ -2600,7 +2593,7 @@ La información se estructura mediante una jerarquía clara y una categorizació
   El administrador puede consultar información histórica para analizar el funcionamiento de la lavandería, mientras que el cliente puede acceder a información relacionada con sus servicios realizados, de acuerdo con las funcionalidades definidas para cada perfil.
 <p></p>
 
-#### Sección: Configuración
+**Sección: Configuración**
 
 - <b>Estructura y Recorrido:</b><br/>
   La sección permite organizar las opciones relacionadas con la cuenta, los datos del perfil, las preferencias y la gestión del plan contratado.

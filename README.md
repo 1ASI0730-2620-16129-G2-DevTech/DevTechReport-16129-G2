@@ -168,7 +168,6 @@ URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-D
     - [3.1. User Stories](#31-user-stories)
     - [3.2. Impact Mapping](#32-impact-mapping)
     - [3.3. Product Backlog](#33-product-backlog)
-      - [Definition of Done](#definition-of-done)
   - [Capítulo IV: Product Design](#capítulo-iv-product-design)
     - [4.1. Style Guidelines](#41-style-guidelines)
       - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
@@ -177,12 +176,6 @@ URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-D
       - [4.2.1. Organization Systems](#421-organization-systems)
       - [4.2.2. Labeling Systems](#422-labeling-systems)
       - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-      - [Landing Page](#landing-page)
-      - [Dashboard / Inicio](#dashboard--inicio)
-      - [Características](#características)
-      - [Seguimiento en Vivo](#seguimiento-en-vivo)
-      - [Sobre Nosotros](#sobre-nosotros)
-      - [Planes y Contacto](#planes-y-contacto)
       - [4.2.4. Searching Systems](#424-searching-systems)
       - [4.2.5. Navigation Systems](#425-navigation-systems)
       - [Landing Page o Sitio Web](#landing-page-o-sitio-web)
@@ -276,12 +269,6 @@ URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-D
         - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
         - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
         - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-  - [Explicación del trabajo en equipo - Report](#explicación-del-trabajo-en-equipo---report)
-  - [Evidencia de participación de todos los miembros](#evidencia-de-participación-de-todos-los-miembros)
-  - [Capturas de GitHub](#capturas-de-github)
-  - [Explicación del trabajo en equipo - Landing Page](#explicación-del-trabajo-en-equipo---landing-page)
-  - [Evidencia de participación](#evidencia-de-participación)
-  - [Capturas de GitHub](#capturas-de-github-1)
     - [5.3. Validation Interviews](#53-validation-interviews)
       - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
       - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -2185,7 +2172,7 @@ El Product Backlog de WashTrack contiene las historias de usuario identificadas 
 | 40 | US-031 | Recibir alertas IoT predictivas | Como dueño de lavandería, quiero recibir alertas sobre el uso de mis equipos para anticipar fallas y planificar su reemplazo. | 8 |
 | 41 | US-028 | Panel de Control en Vivo | Como dueño de lavandería, quiero ver un panel central con métricas en tiempo real para tener control total de mi operación. | 8 |
 
-#### Definition of Done
+**Definition of Done**
 
 Una historia se considera terminada cuando cumple sus criterios de aceptación, cuenta con validaciones de datos y manejo de errores, tiene pruebas funcionales, se integra con el flujo correspondiente, se verifica en escritorio y dispositivo móvil y queda documentada para el equipo.
 
@@ -2479,7 +2466,7 @@ La información se estructura mediante una jerarquía clara y una categorizació
 <p>Para mejorar la visibilidad de WashTrack en los motores de búsqueda y atraer a los usuarios adecuados, se han definido los siguientes SEO Tags y Meta Tags para las principales páginas de la experiencia, considerando tanto el sitio web estático que es la Landing Page como la Web Application. Para cada página se especifican los valores correspondientes a Title, Meta Description, Keywords y Author.</p>
 
 
-#### Landing Page
+**Landing Page**
 <p></p>
 
 - <b>Title:</b> WashTrack - Gestión Inteligente y Monitoreo IoT para Lavanderías
@@ -2556,7 +2543,7 @@ La información se estructura mediante una jerarquía clara y una categorizació
 #### 4.2.5. Navigation Systems
 <p>El sistema de navegación de WashTrack ha sido diseñado para <b>guiar de manera intuitiva y fluida a los usuarios, tanto clientes finales como dueños de lavanderías</b>, a través de la Landing Page y la aplicación web. Para ello, se combinan diferentes técnicas de navegación y recorridos que permiten al usuario <b>encontrar la información necesaria, interactuar con las funcionalidades y alcanzar sus objetivos</b> con el menor esfuerzo posible.</p>
 
-#### Landing Page o Sitio Web 
+**Landing Page o Sitio Web**
 
 - <b>Estructura y Recorrido:</b><br/>
   La navegación se plantea mediante un recorrido vertical de una sola página, complementado por una barra de navegación superior. El usuario comienza visualizando la propuesta de valor principal y continúa hacia las características del servicio, el funcionamiento del proceso, los beneficios según su perfil en la sección <b>“Para quién”</b>, los planes disponibles y finalmente el formulario de atención.
@@ -2566,7 +2553,7 @@ La información se estructura mediante una jerarquía clara y una categorizació
   El visitante puede desplazarse libremente por las diferentes secciones y utilizar los botones de llamada a la acción (<i>Call to Action</i>), como <b>“Comenzar ahora”</b>, para acceder al registro o formulario de atención según su interés.
 <p></p>
 
-#### App Web - Panel Hoy o Dashboard 
+**App Web - Panel Hoy o Dashboard**
 
 - <b>Estructura y Recorrido:</b><br/>
   El Dashboard funciona como punto principal de acceso después del inicio de sesión. La información se organiza mediante accesos directos y tarjetas visuales que permiten acceder rápidamente a las diferentes funcionalidades de la aplicación.
@@ -2576,7 +2563,7 @@ La información se estructura mediante una jerarquía clara y una categorizació
   El usuario consulta un resumen de su actividad y puede dirigirse hacia las secciones de pedidos, seguimiento, reportes u otras funcionalidades disponibles. En el caso del <b>plan VIP</b>, se contempla la identificación visual de los pedidos que requieren atención prioritaria.
 <p></p>
 
-#### Sección: Pedidos
+**Sección: Pedidos**
 
 - <b>Estructura y Recorrido:</b><br/>
   Presenta la información de los pedidos de manera organizada, permitiendo utilizar opciones de búsqueda y filtrado para localizar órdenes según diferentes criterios, como código, estado, fecha o prioridad.
@@ -2586,7 +2573,7 @@ La información se estructura mediante una jerarquía clara y una categorizació
   El usuario selecciona un pedido para consultar su información y verificar el estado en el que se encuentra. Asimismo, los pedidos asociados al <b>plan VIP</b> pueden identificarse mediante un indicador de prioridad.
 <p></p>
 
-#### Sección: Seguimiento en Vivo
+**Sección: Seguimiento en Vivo**
 
 - <b>Estructura y Recorrido:</b><br/>
   La navegación se organiza mediante un flujo visual secuencial (<i>step-by-step</i>) que representa las seis etapas del proceso: <b>Recepción, Clasificación, Lavado, Secado/Planchado, Empaquetado y Listo</b>.
@@ -2596,7 +2583,7 @@ La información se estructura mediante una jerarquía clara y una categorizació
   El cliente consulta el progreso de su pedido y reconoce visualmente la etapa actual en la que se encuentra su ropa. Para los usuarios con plan VIP, se contempla la identificación de la prioridad del servicio dentro del seguimiento.
 <p></p>
 
-#### Sección: Reportes
+**Sección: Reportes**
 
 - <b>Estructura y Recorrido:</b><br/>
   La sección organiza la información histórica mediante filtros temporales, como día, mes o año, permitiendo acceder de manera ordenada a los registros y estadísticas disponibles.
@@ -2606,7 +2593,7 @@ La información se estructura mediante una jerarquía clara y una categorizació
   El administrador puede consultar información histórica para analizar el funcionamiento de la lavandería, mientras que el cliente puede acceder a información relacionada con sus servicios realizados, de acuerdo con las funcionalidades definidas para cada perfil.
 <p></p>
 
-#### Sección: Configuración
+**Sección: Configuración**
 
 - <b>Estructura y Recorrido:</b><br/>
   La sección permite organizar las opciones relacionadas con la cuenta, los datos del perfil, las preferencias y la gestión del plan contratado.
@@ -4529,13 +4516,13 @@ Evidencia el funcionamiento del selector de idioma (ES/EN) ubicado en la barra d
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
-## Explicación del trabajo en equipo - Report 
+**Explicación del trabajo en equipo - Report** 
 
 Durante el Sprint 1, los cinco integrantes trabajaron en paralelo con un flujo de **ramas `feature/`** creadas a partir de `develop`. Cada entregable se desarrolló en su propia rama y se integró mediante **Pull Request**, lo que permitió avanzar sin bloquearse entre sí y mantener `develop` estable.
 
 Entre el 11 y el 18 de septiembre de 2026 se fusionaron **13 Pull Requests** (ninguno quedó abierto). Los 5 integrantes hicieron push: **106 commits** en todas las ramas, 63 de ellos en `develop`, con 109 archivos modificados (1850 líneas añadidas y 300 eliminadas). Los PRs cubrieron el despliegue del software, la documentación de servicios, la guía de estilo y convenciones de código, el reporte de collaboration insights y las conclusiones.
 
-## Evidencia de participación de todos los miembros
+**Evidencia de participación de todos los miembros**
 
 | Integrante (GitHub) | Commits | Líneas añadidas | Líneas eliminadas |
 |---|---|---|---|
@@ -4547,7 +4534,7 @@ Entre el 11 y el 18 de septiembre de 2026 se fusionaron **13 Pull Requests** (ni
 
 *Fuente: GitHub Insights – Contributors (`develop`, sin commits de merge).*
 
-## Capturas de GitHub
+**Capturas de GitHub**
 
 
 *Figura 1. Aporte individual y commits a lo largo del tiempo.*
@@ -4564,13 +4551,13 @@ Entre el 11 y el 18 de septiembre de 2026 se fusionaron **13 Pull Requests** (ni
 
 ----
 
-## Explicación del trabajo en equipo - Landing Page 
+**Explicación del trabajo en equipo - Landing Page**
 
 El desarrollo de la Landing Page se organizó con un flujo de **ramas y Pull Requests**: la rama `feature/landing` se usó para la construcción inicial de la página y `feature/finalVersion` para la versión final. Ambas se integraron a `develop`, y `develop` se fusionó a `main` mediante Pull Request, lo que mantuvo `main` con una versión estable de la página.
 
 La mayor parte del desarrollo se concentró entre finales de agosto y mediados de septiembre, con actividad en tres semanas consecutivas (aproximadamente 6, 7 y 1 commits a `main`, 14 en total). Entre el 11 y el 18 de septiembre de 2026 se cerró la etapa de ajustes finales: se fusionaron **2 Pull Requests** (#3 `docs: add id in form` y #4 `Develop`), realizados por 2 personas y sin ningún PR abierto. En el Network graph se observa que la rama `feature/finalVersion` acumuló varios commits antes de integrarse (16 de septiembre), y que `develop` se fusionó a `main` el 17 de septiembre.
 
-## Evidencia de participación
+**Evidencia de participación**
 
 | Integrante (GitHub) | Commits en `main` | Líneas añadidas | Líneas eliminadas |
 |---|---|---|---|
@@ -4590,8 +4577,12 @@ La mayor parte del desarrollo se concentró entre finales de agosto y mediados d
 ![Figura 3. Insights – Network graph](assets/img/Chapter5/sprint1/landing-network.png)
 *Figura 3. Flujo de ramas `feature/landing`, `feature/finalVersion`, `develop` y `main`.*
 
-![Figura 4. Historial de commits](assets/img/Chapter5/sprint1/landing-commits-history.png)
-*Figura 4. Historial de commits del repositorio de la Landing Page.*
+
+<div>
+  <img src="assets/img/Chapter5/sprint1/commits-history.jpeg" alt="Historial de commits"/>
+
+  *Figura 4. Historial de commits del repositorio de la Landing Page.*
+</div>
 
 
 ### 5.3. Validation Interviews

@@ -1330,37 +1330,9 @@ El Design-Level EventStorming identifica los principales **Commands, Aggregates,
 
 ### EventStorming
 
-```mermaid
-flowchart LR
-    C1["Command: Create Order"] --> E1["Event: OrderCreated"]
-    E1 --> C2["Command: Validate Subscription"]
-    C2 --> E2["Event: SubscriptionValidated"]
-    E2 --> C3["Command: Apply Benefit"]
-    C3 --> E3["Event: BenefitApplied"]
-    E3 --> C4["Command: Process Payment"]
-    C4 --> E4["Event: PaymentProcessed"]
-
-    E4 --> C5["Command: Receive Order"]
-    C5 --> E5["Event: OrderReceived"]
-    E5 --> C6["Command: Classify Order"]
-    C6 --> E6["Event: OrderClassified"]
-    E6 --> C7["Command: Assign Washing Cycle"]
-    C7 --> E7["Event: WashingCycleAssigned"]
-    E7 --> C8["Command: Assign Resource"]
-    C8 --> E8["Event: ResourceAssigned"]
-    E8 --> C9["Command: Advance Stage"]
-    C9 --> E9["Event: ProcessingStageAdvanced"]
-
-    E9 --> C10["Command: Register Status Update"]
-    C10 --> E10["Event: OrderStatusUpdated"]
-    E10 --> C11["Command: Send Notification"]
-    C11 --> E11["Event: NotificationSent"]
-
-    E2 --> C12["Command: Prioritize VIP Order"]
-    C12 --> E12["Event: VIPPriorityAssigned"]
-    E9 --> C13["Policy: Detect VIP Delivery Risk"]
-    C13 --> E13["Event: VIPDeliveryRiskDetected"]
-```
+<div align="center">
+    <img src="assets/img/Chapter4/eventstorming.png" alt="diagrama de eventstorming" width="500"/>
+</div>
 
 #### 4.6.2. Software Architecture Context Diagram
 El Context Diagram representa a WashTrack como el sistema central y muestra sus principales actores y sistemas externos.
@@ -1375,26 +1347,9 @@ El Context Diagram representa a WashTrack como el sistema central y muestra sus 
 - **Payment Gateway:** procesa pagos.
 - **Email Service:** envía notificaciones.
 
-```mermaid
-flowchart LR
-    Customer["Customer"]
-    Provider["Laundry Provider"]
-
-    WashTrack["WashTrack"]
-
-    Payment["Payment Gateway<br/>External System"]
-    Email["Email Service<br/>External System"]
-
-    Customer -->|"Solicita servicios<br/>Consulta órdenes<br/>Gestiona membresías"| WashTrack
-    Provider -->|"Gestiona operación<br/>Administra órdenes<br/>Consulta indicadores"| WashTrack
-
-    WashTrack -->|"Procesa pagos"| Payment
-    Payment -->|"Resultado de transacción"| WashTrack
-
-    WashTrack -->|"Solicita notificaciones"| Email
-    Email -->|"Notificaciones"| Customer
-    Email -->|"Alertas operativas"| Provider
-```
+<div align="center">
+    <img src="assets/img/Chapter4/context-diagram.png" alt="diagrama de contexto" width="500"/>
+</div>
 
 #### 4.6.3. Software Architecture Container Diagrams
 El Container Diagram representa las principales unidades de software que conforman la solución.
@@ -1409,171 +1364,30 @@ El Container Diagram representa las principales unidades de software que conform
 | Payment Gateway | Servicio externo | Procesar pagos. |
 | Email Service | Servicio externo | Enviar correos. |
 
-```mermaid
-flowchart LR
-    Customer["Customer"]
-    Provider["Laundry Provider"]
-
-    subgraph WashTrack["WashTrack"]
-        Landing["Landing Page<br/>HTML / CSS / JavaScript"]
-        WebApp["Web Application<br/>Vue.js"]
-        API["RESTful API<br/>C# / ASP.NET Core"]
-        DB[("Database<br/>PostgreSQL")]
-        Worker["Notification Worker<br/>.NET"]
-    end
-
-    Payment["Payment Gateway<br/>External"]
-    Email["Email Service<br/>External"]
-
-    Customer -->|"HTTPS"| Landing
-    Provider -->|"HTTPS"| Landing
-    Customer -->|"HTTPS"| WebApp
-    Provider -->|"HTTPS"| WebApp
-
-    Landing -->|"Navigation"| WebApp
-    WebApp -->|"REST / HTTPS"| API
-    API -->|"SQL"| DB
-    API -->|"HTTPS"| Payment
-    Payment -->|"Payment result"| API
-    API -->|"Domain events"| Worker
-    Worker -->|"HTTPS / SMTP"| Email
-    Email --> Customer
-    Email --> Provider
-```
+<div align="center">
+    <img src="assets/img/Chapter4/container-diagram.png" alt="diagrama de contenedores" width="500"/>
+</div>
 
 #### 4.6.4. Software Architecture Components Diagrams
 ### 4.6.4.1. RESTful API
 
 La API se divide en capas para separar la exposición HTTP, los casos de uso, las reglas de dominio y las integraciones.
 
-```mermaid
-flowchart LR
-    subgraph API["RESTful API - ASP.NET Core"]
-        subgraph Presentation["API Layer"]
-            OC["Order Controller"]
-            SC["Subscription Controller"]
-            TC["Tracking Controller"]
-            PC["Payment Controller"]
-            CC["Customer Controller"]
-        end
-
-        subgraph Application["Application Layer"]
-            OS["Order Service"]
-            SS["Subscription Service"]
-            TS["Tracking Service"]
-            PS["Payment Service"]
-            CS["Customer Service"]
-        end
-
-        subgraph Domain["Domain Layer"]
-            OD["Order Domain"]
-            LD["Laundry Operations Domain"]
-            SD["Subscription Domain"]
-            TD["Tracking Domain"]
-        end
-
-        subgraph Infrastructure["Infrastructure Layer"]
-            OR["Order Repository"]
-            SR["Subscription Repository"]
-            TR["Tracking Repository"]
-            PA["Payment Gateway Adapter"]
-            EA["Email Service Adapter"]
-        end
-    end
-
-    DB[("PostgreSQL")]
-    Payment["Payment Gateway"]
-    Email["Email Service"]
-
-    OC --> OS
-    SC --> SS
-    TC --> TS
-    PC --> PS
-    CC --> CS
-
-    OS --> OD
-    SS --> SD
-    TS --> TD
-    PS --> SD
-    CS --> OD
-
-    OS --> OR
-    SS --> SR
-    TS --> TR
-    PS --> PA
-
-    OR --> DB
-    SR --> DB
-    TR --> DB
-    PA --> Payment
-    EA --> Email
-```
+<div align="center">
+    <img src="assets/img/Chapter4/restful-api-diagram.PNG" alt="diagrama de restful api" width="500"/>
+</div>
 
 ### 4.6.4.2. Web Application
 
-```mermaid
-flowchart LR
-    subgraph Web["Web Application - Vue.js"]
-        subgraph CustomerFeatures["Customer Features"]
-            Orders["Order Views"]
-            Tracking["Order Tracking"]
-            Subs["Subscriptions"]
-            Pay["Payment"]
-        end
-
-        subgraph ProviderFeatures["Provider Features"]
-            Dashboard["Operations Dashboard"]
-            Board["Production Board"]
-            Customers["Customer Management"]
-            Analytics["Analytics"]
-        end
-
-        subgraph Shared["Shared Components"]
-            Auth["Authentication Module"]
-            Client["API Client"]
-            Notify["Notification Handler"]
-        end
-    end
-
-    API["RESTful API"]
-
-    Orders --> Client
-    Tracking --> Client
-    Subs --> Client
-    Pay --> Client
-    Dashboard --> Client
-    Board --> Client
-    Customers --> Client
-    Analytics --> Client
-    Auth --> Client
-    Notify --> Client
-    Client --> API
-```
+<div align="center">
+    <img src="assets/img/Chapter4/web-application-diagram.png" alt="diagrama de web application" width="500"/>
+</div>
 
 ### 4.6.4.3. Notification Worker
 
-```mermaid
-flowchart LR
-    API["RESTful API"]
-
-    subgraph Worker["Notification Worker - .NET"]
-        Consumer["Event Consumer"]
-        Rules["Notification Rules"]
-        Monitor["VIP Deadline Monitor"]
-        Builder["Notification Builder"]
-        Adapter["Email Provider Adapter"]
-    end
-
-    Email["Email Service"]
-
-    API -->|"Domain events"| Consumer
-    Consumer --> Rules
-    Consumer --> Monitor
-    Rules --> Builder
-    Monitor --> Builder
-    Builder --> Adapter
-    Adapter --> Email
-```
+<div align="center">
+    <img src="assets/img/Chapter4/notification-worker-diagram.png" alt="diagrama de eventstorming" width="500"/>
+</div>
 
 ### 4.7. Software Object-Oriented Design
 

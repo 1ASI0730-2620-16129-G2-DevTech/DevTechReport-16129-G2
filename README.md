@@ -3485,7 +3485,7 @@ La API se divide en capas para separar la exposición HTTP, los casos de uso, la
 ### 4.6.4.5. Component Interaction – Order Status Notification
 
 <div align="center">
-    <img src="assets/img/Chapter4/component_interaction–order_status_notification.png" alt="interacción de componentes del status de order" width="2000"/>
+    <img src="assets/img/Chapter4/component_interaction–order_status_notification.png" alt="interacción de componentes del status de order" width="3000"/>
 </div>
 
 ### 4.7. Software Object-Oriented Design
@@ -3494,7 +3494,7 @@ El diseño orientado a objetos representa los principales elementos del dominio 
 #### 4.7.1. Class Diagrams
 
 <div align="center">
-    <img src="assets/img/Chapter4/class-diagram.png" alt="diagrama de clases" width="1000"/>
+    <img src="assets/img/Chapter4/class-diagram.png" alt="diagrama de clases" width="1500"/>
 </div>
 
 

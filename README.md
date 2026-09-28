@@ -3435,7 +3435,7 @@ El Context Diagram representa a WashTrack como el sistema central y muestra sus 
 - **Email Service:** envía notificaciones.
 
 <div align="center">
-    <img src="assets/img/Chapter4/context-diagram.png" alt="diagrama de contexto" width="500"/>
+    <img src="assets/img/Chapter4/context-diagram.png" alt="diagrama de contexto" width="2000"/>
 </div>
 
 #### 4.6.3. Software Architecture Container Diagrams
@@ -3452,7 +3452,7 @@ El Container Diagram representa las principales unidades de software que conform
 | Email Service | Servicio externo | Enviar correos. |
 
 <div align="center">
-    <img src="assets/img/Chapter4/container-diagram.png" alt="diagrama de contenedores" width="500"/>
+    <img src="assets/img/Chapter4/container-diagram.png" alt="diagrama de contenedores" width="2000"/>
 </div>
 
 #### 4.6.4. Software Architecture Components Diagrams
@@ -3479,13 +3479,13 @@ La API se divide en capas para separar la exposición HTTP, los casos de uso, la
 ### 4.6.4.4. Component Interaction – Create Order
 
 <div align="center">
-    <img src="assets/img/Chapter4/component_interaction-create_order.png" alt="interacción de componentes de creacion de order" width="500"/>
+    <img src="assets/img/Chapter4/component_interaction-create_order.png" alt="interacción de componentes de creacion de order" width="2000"/>
 </div>
 
 ### 4.6.4.5. Component Interaction – Order Status Notification
 
 <div align="center">
-    <img src="assets/img/Chapter4/component_interaction–order_status_notification.png" alt="interacción de componentes del status de order" width="500"/>
+    <img src="assets/img/Chapter4/component_interaction–order_status_notification.png" alt="interacción de componentes del status de order" width="2000"/>
 </div>
 
 ### 4.7. Software Object-Oriented Design
@@ -3494,7 +3494,7 @@ El diseño orientado a objetos representa los principales elementos del dominio 
 #### 4.7.1. Class Diagrams
 
 <div align="center">
-    <img src="assets/img/Chapter4/class-diagram.png" alt="diagrama de clases" width="500"/>
+    <img src="assets/img/Chapter4/class-diagram.png" alt="diagrama de clases" width="1000"/>
 </div>
 
 

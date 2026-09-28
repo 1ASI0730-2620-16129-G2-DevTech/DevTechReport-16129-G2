@@ -3464,7 +3464,7 @@ El Container Diagram representa las principales unidades de software que conform
 La API se divide en capas para separar la exposición HTTP, los casos de uso, las reglas de dominio y las integraciones.
 
 <div align="center">
-    <img src="assets/img/Chapter4/restful-api-diagram.PNG" alt="diagrama de restful api" width="500"/>
+    <img src="assets/img/Chapter4/restful-api-diagram.png" alt="diagrama de restful api" width="500"/>
 </div>
 
 ### 4.6.4.2. Web Application

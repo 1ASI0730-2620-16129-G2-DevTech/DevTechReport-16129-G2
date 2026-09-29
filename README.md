@@ -178,48 +178,18 @@ URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-D
       - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
       - [4.2.4. Searching Systems](#424-searching-systems)
       - [4.2.5. Navigation Systems](#425-navigation-systems)
-      - [Landing Page o Sitio Web](#landing-page-o-sitio-web)
-      - [App Web - Panel Hoy o Dashboard](#app-web---panel-hoy-o-dashboard)
-      - [Sección: Pedidos](#sección-pedidos)
-      - [Sección: Seguimiento en Vivo](#sección-seguimiento-en-vivo)
-      - [Sección: Reportes](#sección-reportes)
-      - [Sección: Configuración](#sección-configuración)
     - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
       - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
       - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
     - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
       - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
       - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-    - [Registrar un nuevo pedido](#registrar-un-nuevo-pedido)
-    - [Consultar el estado de un pedido](#consultar-el-estado-de-un-pedido)
-    - [Registrar un nuevo cliente](#registrar-un-nuevo-cliente)
-    - [Registrar un pago asociado a un pedido](#registrar-un-pago-asociado-a-un-pedido)
-    - [Monitorear el envío de ropa al domicilio del cliente](#monitorear-el-envío-de-ropa-al-domicilio-del-cliente)
-    - [Revisar y atender una alerta de posible falla en una máquina](#revisar-y-atender-una-alerta-de-posible-falla-en-una-máquina)
-    - [Solicitar un nuevo pedido de lavandería](#solicitar-un-nuevo-pedido-de-lavandería)
-    - [Consultar el estado de su pedido sin llamar a la lavandería](#consultar-el-estado-de-su-pedido-sin-llamar-a-la-lavandería)
-    - [Solicitar recojo o entrega a domicilio](#solicitar-recojo-o-entrega-a-domicilio)
-    - [Pagar un pedido en línea](#pagar-un-pedido-en-línea)
-    - [Consultar historial de pedidos anteriores](#consultar-historial-de-pedidos-anteriores)
       - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
       - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-    - [Registrar un nuevo pedido](#registrar-un-nuevo-pedido-1)
-    - [Consultar el estado de un pedido](#consultar-el-estado-de-un-pedido-1)
-    - [Registrar un nuevo cliente](#registrar-un-nuevo-cliente-1)
-    - [Registrar un pago asociado a un pedido](#registrar-un-pago-asociado-a-un-pedido-1)
-    - [Monitorear el envío de ropa al domicilio del cliente](#monitorear-el-envío-de-ropa-al-domicilio-del-cliente-1)
-    - [Revisar y atender una alerta de posible falla en una máquina](#revisar-y-atender-una-alerta-de-posible-falla-en-una-máquina-1)
-    - [Solicitar un nuevo pedido de lavandería](#solicitar-un-nuevo-pedido-de-lavandería-1)
-    - [Consultar el estado de su pedido sin llamar a la lavandería](#consultar-el-estado-de-su-pedido-sin-llamar-a-la-lavandería-1)
     - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
     - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
       - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
-    - [Commands principales](#commands-principales)
-    - [Aggregates](#aggregates)
-    - [EventStorming](#eventstorming)
       - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
-    - [Actores](#actores)
-    - [Sistemas externos](#sistemas-externos)
       - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
       - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
     - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
@@ -229,35 +199,15 @@ URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-D
     - [4.7.1.3. Laundry Operations](#4713-laundry-operations)
     - [4.7.1.4. Tracking \& Notifications](#4714-tracking--notifications)
     - [4.8. Database Design](#48-database-design)
-      - [4.8.1. Database Diagrams](#481-database-diagrams)
-    - [Relación entre Bounded Contexts y tablas](#relación-entre-bounded-contexts-y-tablas)
   - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
     - [5.1. Software Configuration Management](#51-software-configuration-management)
       - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
       - [5.1.2. Source Code Management](#512-source-code-management)
-      - [GitFlow](#gitflow)
-      - [Semantic Versioning](#semantic-versioning)
-      - [Conventional Commits](#conventional-commits)
       - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
-    - [HTML5](#html5)
-    - [CSS3](#css3)
-    - [JavaScript](#javascript)
-    - [Convenciones de Nomenclatura](#convenciones-de-nomenclatura)
-    - [Referencias Adoptadas](#referencias-adoptadas)
       - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-    - [Despliegue de la Landing Page](#despliegue-de-la-landing-page)
-      - [1. Acceso al repositorio](#1-acceso-al-repositorio)
-      - [2. Configuración de GitHub Pages](#2-configuración-de-github-pages)
-      - [3. Generación de la publicación](#3-generación-de-la-publicación)
-      - [4. Validación del despliegue](#4-validación-del-despliegue)
-    - [Configuración de despliegue del Frontend Web Application](#configuración-de-despliegue-del-frontend-web-application)
-    - [Configuración de despliegue de los Web Services](#configuración-de-despliegue-de-los-web-services)
-    - [Flujo general de despliegue](#flujo-general-de-despliegue)
     - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
       - [5.2.1. Sprint 1](#521-sprint-1)
         - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-      - [Resumen del Sprint Planning Meeting](#resumen-del-sprint-planning-meeting)
-      - [User Stories seleccionadas](#user-stories-seleccionadas)
         - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
         - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
       - [Relación entre User Stories y tareas](#relación-entre-user-stories-y-tareas)
@@ -3499,11 +3449,15 @@ El diseño orientado a objetos representa los principales elementos del dominio 
 
 
 ### 4.8. Database Design
+
 WashTrack requiere persistir información de clientes, lavanderías, órdenes, prendas, procesos operativos, membresías, pagos, seguimiento y notificaciones.
 
-Se propone una base de datos relacional para organizar las relaciones entre las entidades principales.
+Se propone una base de datos relacional para organizar las relaciones entre las entidades principales, manteniendo la integridad referencial y reduciendo la redundancia de información.
 
 #### 4.8.1. Database Diagrams
+
+El diseño de la base de datos se representa mediante un diagrama entidad-relación, donde se detallan las tablas principales, sus atributos, claves primarias (PK), claves foráneas (FK) y relaciones.
+
 ```mermaid
 erDiagram
     USERS {
@@ -3640,7 +3594,7 @@ erDiagram
     ORDERS ||--o{ NOTIFICATIONS : generates
 ```
 
-### Relación entre Bounded Contexts y tablas
+#### Relación entre Bounded Contexts y tablas
 
 | Bounded Context | Tablas principales |
 |---|---|
@@ -3650,6 +3604,163 @@ erDiagram
 | Laundry Operations | `laundry_orders`, `washing_cycles`, `laundry_resources` |
 | Subscription & Payment | `subscription_plans`, `subscriptions`, `payments` |
 | Tracking & Notifications | `tracking`, `status_history`, `notifications` |
+
+#### 4.8.2. Database Normalization
+
+El diseño de la base de datos de WashTrack considera los principios de normalización hasta la **Tercera Forma Normal (3FN)**. La normalización permite organizar la información en entidades relacionadas, reducir la duplicación de datos y facilitar el mantenimiento de la información.
+
+##### 4.8.2.1. Primera Forma Normal (1FN)
+
+La Primera Forma Normal establece que los atributos deben contener valores atómicos y que una tabla no debe almacenar grupos repetitivos de información.
+
+En WashTrack, la información de las prendas se separa de la información general del pedido mediante la tabla `GARMENT_ITEMS`. De esta manera, un pedido puede contener múltiples prendas sin necesidad de almacenar atributos repetitivos como `garment_1`, `garment_2`, `garment_3`, etc.
+
+La separación se representa de la siguiente manera:
+
+```mermaid
+erDiagram
+    ORDERS {
+        uuid id PK
+        uuid customer_id FK
+        uuid laundry_id FK
+        varchar status
+        varchar delivery_method
+        text special_care_instructions
+        timestamp created_at
+    }
+
+    GARMENT_ITEMS {
+        uuid id PK
+        uuid order_id FK
+        varchar type
+        int quantity
+        text care_instructions
+    }
+
+    ORDERS ||--|{ GARMENT_ITEMS : contains
+```
+
+Cada registro de `GARMENT_ITEMS` representa una prenda asociada a un pedido, manteniendo sus atributos de forma individual y evitando grupos repetitivos dentro de `ORDERS`.
+
+##### 4.8.2.2. Segunda Forma Normal (2FN)
+
+La Segunda Forma Normal requiere que los atributos que no forman parte de una clave dependan completamente de la clave primaria.
+
+En WashTrack, las entidades utilizan identificadores individuales como claves primarias, principalmente mediante atributos `uuid`. Los atributos propios de cada entidad dependen directamente de su identificador.
+
+Por ejemplo, los atributos `type`, `quantity` y `care_instructions` dependen de `GARMENT_ITEMS.id`, mientras que los atributos `status`, `delivery_method` y `created_at` corresponden directamente a `ORDERS.id`.
+
+La separación entre estas entidades permite mantener los datos específicos de cada concepto sin mezclar atributos correspondientes a diferentes entidades.
+
+```mermaid
+erDiagram
+    ORDERS {
+        uuid id PK
+        uuid customer_id FK
+        uuid laundry_id FK
+        varchar status
+        varchar delivery_method
+        timestamp created_at
+    }
+
+    GARMENT_ITEMS {
+        uuid id PK
+        uuid order_id FK
+        varchar type
+        int quantity
+        text care_instructions
+    }
+
+    LAUNDRY_ORDERS {
+        uuid id PK
+        uuid order_id FK
+        varchar current_stage
+        varchar priority
+        uuid washing_cycle_id FK
+        uuid resource_id FK
+        timestamp expected_completion
+    }
+
+    ORDERS ||--|{ GARMENT_ITEMS : contains
+    ORDERS ||--o| LAUNDRY_ORDERS : has
+```
+
+Debido a que las tablas utilizan claves primarias simples y los atributos dependen de la entidad identificada por dicha clave, no se presentan dependencias parciales dentro del modelo.
+
+##### 4.8.2.3. Tercera Forma Normal (3FN)
+
+La Tercera Forma Normal busca evitar dependencias transitivas, de manera que los atributos no clave dependan directamente de la clave primaria de su propia entidad y no de otro atributo no clave.
+
+En WashTrack, esta separación se evidencia principalmente en la información de usuarios, clientes, pedidos y suscripciones.
+
+Los datos propios del usuario se almacenan en `USERS`, mientras que los datos específicos del cliente se almacenan en `CUSTOMERS`. Los pedidos mantienen únicamente la referencia al cliente mediante `customer_id`.
+
+De forma similar, la información general de un plan se almacena en `SUBSCRIPTION_PLANS`, mientras que `SUBSCRIPTIONS` registra la relación concreta entre un cliente y el plan mediante `customer_id` y `plan_id`.
+
+```mermaid
+erDiagram
+    USERS {
+        uuid id PK
+        varchar email
+        varchar password_hash
+        varchar role
+        timestamp created_at
+    }
+
+    CUSTOMERS {
+        uuid id PK
+        uuid user_id FK
+        varchar full_name
+        varchar phone
+    }
+
+    ORDERS {
+        uuid id PK
+        uuid customer_id FK
+        uuid laundry_id FK
+        varchar status
+        varchar delivery_method
+        timestamp created_at
+    }
+
+    SUBSCRIPTION_PLANS {
+        uuid id PK
+        varchar name
+        decimal price
+        int credits
+        int duration_days
+    }
+
+    SUBSCRIPTIONS {
+        uuid id PK
+        uuid customer_id FK
+        uuid plan_id FK
+        date start_date
+        date expiration_date
+        varchar status
+        int credits
+    }
+
+    USERS ||--o| CUSTOMERS : has
+    CUSTOMERS ||--o{ ORDERS : places
+    CUSTOMERS ||--o{ SUBSCRIPTIONS : owns
+    SUBSCRIPTION_PLANS ||--o{ SUBSCRIPTIONS : defines
+```
+
+Con esta organización, información como el nombre y teléfono del cliente, o el nombre, precio, créditos y duración del plan, no necesita repetirse en cada pedido o suscripción. Cada conjunto de datos se mantiene en la entidad que le corresponde.
+
+#### 4.8.3. Summary of Normalization
+
+La aplicación de las formas normales al modelo de WashTrack se resume de la siguiente manera:
+
+| Forma normal | Aplicación en WashTrack | Resultado |
+|---|---|---|
+| **1FN** | Se utilizan valores atómicos y se separan las prendas de los pedidos mediante `GARMENT_ITEMS`. | Se evitan grupos repetitivos dentro de una misma tabla. |
+| **2FN** | Los atributos de cada entidad dependen de su clave primaria individual. | Se evita mezclar atributos pertenecientes a diferentes entidades. |
+| **3FN** | Se separan entidades como `USERS`, `CUSTOMERS`, `ORDERS`, `SUBSCRIPTION_PLANS` y `SUBSCRIPTIONS`. | Se reducen dependencias transitivas y duplicación de información. |
+
+En consecuencia, el modelo relacional de WashTrack organiza la información mediante entidades independientes relacionadas por claves foráneas y aplica los principios de normalización hasta la **Tercera Forma Normal (3FN)**. Esto permite mantener la información estructurada y facilita su actualización y mantenimiento.
+
 
 
 ## Capítulo V: Product Implementation, Validation & Deployment

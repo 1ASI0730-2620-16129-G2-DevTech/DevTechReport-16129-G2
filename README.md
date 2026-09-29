@@ -943,7 +943,10 @@ Datos del entrevistado :
   Leonardo Cumba, residente de Pueblo Libre, es trabajador por turnos en una lavandería independiente, donde participa en la recepción, registro y seguimiento de los pedidos, además de coordinar el proceso de lavado y entrega de las prendas. Actualmente, la información se registra principalmente de forma manual mediante un cuaderno y se utiliza Excel para el control de ingresos, mientras que la comunicación con los clientes se realiza por WhatsApp. Entre las principales dificultades se encuentran las confusiones en la cantidad de prendas, pérdida o mezcla de pedidos y retrasos en las fechas de entrega. Asimismo, la coordinación de recojos y entregas a domicilio se realiza de manera manual, lo que dificulta organizar horarios y direcciones.
 </div>
 <br>
-
+<p align="center">
+  <img src="assets/img/Chapter2/Interview/interview1_luis_leonardo.png" alt="Entrevista de Leonardo Cumba" width="500"/>
+  <br/><i>Segmento 1: Entrevista de Leonardo Cumba</i>
+</p>
 
 <br>
 <u>Entrevista 2:</u>
@@ -963,7 +966,12 @@ Datos del entrevistado:
   Elizabeth, es propietaria de una lavandería independiente, ella se encarga de gestionar los pedidos y el proceso de lavado dentro de su lavandería. Actualmente, realiza todo el registro de manera manual mediante boletas, donde indica el código del pedido, las prendas, cantidades y la hora estimada de recojo. Sin embargo, entre las principales dificultades se encuentran las confusiones o pérdidas ocasionales de prendas y algunos retrasos ocasionados por problemas durante el proceso de secado. Debido a la inseguridad ciudadana, no mantiene comunicación con los clientes fuera del local, por lo que cualquier inconveniente se resuelve presencialmente. Considera que los tiempos y precios de sus servicios son adecuados y, por el momento, no ofrece servicio de recojo o entrega a domicilio.
 </div>
 <br>
+<p align="center">
+  <img src="assets/img/Chapter2/Interview/interview2_adriana_elizabeth.png" alt="Entrevista de Elizabeth Flores" width="500"/>
+  <br/><i>Segmento 1: Entrevista de Elizabeth Flores</i>
+</p>
 
+<br>
 <u>Entrevista 3:</u>
 Entrevistador: Sebastián Leonardo Sayago Vidal
 
@@ -979,6 +987,10 @@ Datos del entrevistado:
  El Sr. Augusto, propietario de una lavandería ubicada en el Callao, participa directamente en las actividades relacionadas con la atención de los clientes y la gestión de los pedidos. En relación con la gestión de los pedidos,  indicó que utiliza principalmente registros manuales para organizar la información, complementándolos con herramientas de comunicación como WhatsApp para mantener contacto con los clientes. Entre los datos que registra se encuentran información del cliente, características o cantidad de prendas, servicio solicitado, precio y fecha de entrega. Respecto a las dificultades del proceso, señaló que pueden producirse errores al registrar información, como cantidades incorrectas, indicaciones que no fueron anotadas adecuadamente o confusiones entre pedidos. Estas situaciones requieren revisar nuevamente los registros y, cuando es necesario, comunicarse con el cliente para confirmar la información. También identificó el registro y seguimiento de los pedidos como una de las actividades que puede consumir mayor tiempo durante la gestión diaria. Asimismo, señaló que los errores relacionados con la información de los pedidos, la confusión de prendas y los retrasos pueden generar inconvenientes para el negocio y reclamos por parte de los clientes.
 </div>
 <br>
+<p align="center">
+  <img src="assets/img/Chapter2/Interview/interview3_sebastian_augusto.png" alt="Entrevista de Augusto Suarez" width="500"/>
+  <br/><i>Segmento 1: Entrevista de Augusto Suarez</i>
+</p>
 
 ---
 
@@ -1001,8 +1013,11 @@ Datos del entrevistado:
   Andrea, es una persona independiente que consume el servicio de lavandería ocasionalmente. Además, en su opinión, los factores más importantes al elegir una lavandería son que el precio sea acorde al servicio brindado, la distancia entre su casa y el local, y el tiempo de todo el proceso. Tambien mencionó que, si bien está satisfecha con el registro y cumplimiento de los pedidos, identifica como principal dificultad el transporte de las prendas hacia la lavandería. Asimismo, considera importante contar con información en tiempo real sobre el estado de su pedido y recibir una notificación cuando esté listo para recogerlo. Finalmente, señala que le gustaría recibir promociones o beneficios por ser una cliente recurrente.
 </div>
 <br>
-
-
+<p align="center">
+  <img src="assets/img/Chapter2/Interview/interview1_adriana_andrea.png" alt="Entrevista de Andrea Arias" width="500"/>
+  <br/><i>Segmento 2: Entrevista de Andrea Arias</i>
+</p>
+<br>
 
 <p><u>Entrevista 2:</u></p>
 
@@ -1017,14 +1032,19 @@ Datos del entrevistado:
 - **Timing:** 00:00:10 - 00:08:07
 
 <div align="justify">
+  Santiago Vargas, de 19 años y residente de San Miguel, frecuenta muy seguido el uso de los servicios de lavanderia, aproximadamente cada 2 semanas. En la entrevista el nos comenta que una de sus principales complicaciones viene siendo el tener que comenzar a confiar en alguna lavanderia, puesto que espera que respeten los tiempos de entrega, o que se le notifique cualquier incidencia, ademas de que debe estar seguro que toda la ropa que se le envie sea la correcta.
+</div><br>
+<div align="justify">
+  Tambien piensa que debe ser importante el seguimiento del pedido, para saber que todo proceso se esta llevando correctamente sin problema alguno, y que sucede uno, deba ser debidamente informado por el personal de la lavanderia.
+</div><br>
+<div align="justify">
+  Finalmente comenta que en algunas ocasiones le gustaria intentar algun servicio de recojo a domicilio por parte de las lavanderias, puesto que el paquete de ropa suele ser bastante en ciertas ocasiones.
+</div><br>
 
-Santiago Vargas, de 19 años y residente de San Miguel, frecuenta muy seguido el uso de los servicios de lavanderia, aproximadamente cada 2 semanas. En la entrevista el nos comenta que una de sus principales complicaciones viene siendo el tener que comenzar a confiar en alguna lavanderia, puesto que espera que respeten los tiempos de entrega, o que se le notifique cualquier incidencia, ademas de que debe estar seguro que toda la ropa que se le envie sea la correcta.
-
-Tambien piensa que debe ser importante el seguimiento del pedido, para saber que todo proceso se esta llevando correctamente sin problema alguno, y que sucede uno, deba ser debidamente informado por el personal de la lavanderia.
-
-Finalmente comenta que en algunas ocasiones le gustaria intentar algun servicio de recojo a domicilio por parte de las lavanderias, puesto que el paquete de ropa suele ser bastante en ciertas ocasiones.
-
-</div>
+<p align="center">
+  <img src="assets/img/Chapter2/Interview/interview2_gabriel_santiago.png" alt="Entrevista de Santiago Vargas" width="500"/>
+  <br/><i>Segmento 2: Entrevista de Santiago Vargas</i>
+</p>
 <br>
 
 <p><u>Entrevista 3:</u></p>
@@ -1047,16 +1067,22 @@ Por otro lado, considera importante conocer con precisión qué prendas lleva a 
 
 Finalmente, Renzo considera que contar con un sistema que permita registrar las prendas entregadas, realizar un seguimiento de su estado y recibir información sobre el avance del servicio podría brindarle mayor confianza y seguridad. Además, un servicio de recojo y entrega a domicilio se ajustaría mejor a su rutina de estudio y trabajo.
 
+<p align="center">
+  <img src="assets/img/Chapter2/Interview/interview3_ariana_renzo.png" alt="Entrevista de Renzo Mongrut" width="500"/>
+  <br/><i>Segmento 2: Entrevista de Renzo Mongrut</i>
+</p>
+<br>
+
+**Registro de todas las entrevistas**
 
 <p align="center">
   <img src="assets/img/Chapter2/Interview/Registro_Entrevistas.png" alt="Video de registro de entrevistas de ambos segmentos" width="500"/>
   <br/><i>Evidencia de entrevista (ambos segmentos)</i>
 </p>
+<br>
 
-
-
-
-***Enlace del video:*** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQBteAOvFWmaTb9BO9km69zHARlBa-PbkxSnjg9gsWnRY-I?e=qibbPs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQBteAOvFWmaTb9BO9km69zHARlBa-PbkxSnjg9gsWnRY-I?e=qibbPs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQBteAOvFWmaTb9BO9km69zHARlBa-PbkxSnjg9gsWnRY-I?e=qibbPs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+<br>
 
 #### 2.2.3. Análisis de entrevistas
 **Primer segmento: Propietarios de lavanderias independientes**

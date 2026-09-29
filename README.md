@@ -143,8 +143,6 @@
   - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
     - [4.7.1. Class Diagrams](#471-class-diagrams)
   - [4.8. Database Design](#48-database-design)
-    - [4.8.1. Database Diagrams](#481-database-diagrams)
-
 - [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
@@ -1422,11 +1420,15 @@ El diseño de la interfaz de usuario (UI) de la Landing Page de <b>WashTrack</b>
 #### 4.7.1. Class Diagrams
 
 ### 4.8. Database Design
+
 WashTrack requiere persistir información de clientes, lavanderías, órdenes, prendas, procesos operativos, membresías, pagos, seguimiento y notificaciones.
 
-Se propone una base de datos relacional para organizar las relaciones entre las entidades principales.
+Se propone una base de datos relacional para organizar las relaciones entre las entidades principales, manteniendo la integridad referencial y reduciendo la redundancia de información.
 
 #### 4.8.1. Database Diagrams
+
+El diseño de la base de datos se representa mediante un diagrama entidad-relación, donde se detallan las tablas principales, sus atributos, claves primarias (PK), claves foráneas (FK) y relaciones.
+
 ```mermaid
 erDiagram
     USERS {
@@ -1563,7 +1565,7 @@ erDiagram
     ORDERS ||--o{ NOTIFICATIONS : generates
 ```
 
-### Relación entre Bounded Contexts y tablas
+#### Relación entre Bounded Contexts y tablas
 
 | Bounded Context | Tablas principales |
 |---|---|
@@ -1573,6 +1575,163 @@ erDiagram
 | Laundry Operations | `laundry_orders`, `washing_cycles`, `laundry_resources` |
 | Subscription & Payment | `subscription_plans`, `subscriptions`, `payments` |
 | Tracking & Notifications | `tracking`, `status_history`, `notifications` |
+
+#### 4.8.2. Database Normalization
+
+El diseño de la base de datos de WashTrack considera los principios de normalización hasta la **Tercera Forma Normal (3FN)**. La normalización permite organizar la información en entidades relacionadas, reducir la duplicación de datos y facilitar el mantenimiento de la información.
+
+##### 4.8.2.1. Primera Forma Normal (1FN)
+
+La Primera Forma Normal establece que los atributos deben contener valores atómicos y que una tabla no debe almacenar grupos repetitivos de información.
+
+En WashTrack, la información de las prendas se separa de la información general del pedido mediante la tabla `GARMENT_ITEMS`. De esta manera, un pedido puede contener múltiples prendas sin necesidad de almacenar atributos repetitivos como `garment_1`, `garment_2`, `garment_3`, etc.
+
+La separación se representa de la siguiente manera:
+
+```mermaid
+erDiagram
+    ORDERS {
+        uuid id PK
+        uuid customer_id FK
+        uuid laundry_id FK
+        varchar status
+        varchar delivery_method
+        text special_care_instructions
+        timestamp created_at
+    }
+
+    GARMENT_ITEMS {
+        uuid id PK
+        uuid order_id FK
+        varchar type
+        int quantity
+        text care_instructions
+    }
+
+    ORDERS ||--|{ GARMENT_ITEMS : contains
+```
+
+Cada registro de `GARMENT_ITEMS` representa una prenda asociada a un pedido, manteniendo sus atributos de forma individual y evitando grupos repetitivos dentro de `ORDERS`.
+
+##### 4.8.2.2. Segunda Forma Normal (2FN)
+
+La Segunda Forma Normal requiere que los atributos que no forman parte de una clave dependan completamente de la clave primaria.
+
+En WashTrack, las entidades utilizan identificadores individuales como claves primarias, principalmente mediante atributos `uuid`. Los atributos propios de cada entidad dependen directamente de su identificador.
+
+Por ejemplo, los atributos `type`, `quantity` y `care_instructions` dependen de `GARMENT_ITEMS.id`, mientras que los atributos `status`, `delivery_method` y `created_at` corresponden directamente a `ORDERS.id`.
+
+La separación entre estas entidades permite mantener los datos específicos de cada concepto sin mezclar atributos correspondientes a diferentes entidades.
+
+```mermaid
+erDiagram
+    ORDERS {
+        uuid id PK
+        uuid customer_id FK
+        uuid laundry_id FK
+        varchar status
+        varchar delivery_method
+        timestamp created_at
+    }
+
+    GARMENT_ITEMS {
+        uuid id PK
+        uuid order_id FK
+        varchar type
+        int quantity
+        text care_instructions
+    }
+
+    LAUNDRY_ORDERS {
+        uuid id PK
+        uuid order_id FK
+        varchar current_stage
+        varchar priority
+        uuid washing_cycle_id FK
+        uuid resource_id FK
+        timestamp expected_completion
+    }
+
+    ORDERS ||--|{ GARMENT_ITEMS : contains
+    ORDERS ||--o| LAUNDRY_ORDERS : has
+```
+
+Debido a que las tablas utilizan claves primarias simples y los atributos dependen de la entidad identificada por dicha clave, no se presentan dependencias parciales dentro del modelo.
+
+##### 4.8.2.3. Tercera Forma Normal (3FN)
+
+La Tercera Forma Normal busca evitar dependencias transitivas, de manera que los atributos no clave dependan directamente de la clave primaria de su propia entidad y no de otro atributo no clave.
+
+En WashTrack, esta separación se evidencia principalmente en la información de usuarios, clientes, pedidos y suscripciones.
+
+Los datos propios del usuario se almacenan en `USERS`, mientras que los datos específicos del cliente se almacenan en `CUSTOMERS`. Los pedidos mantienen únicamente la referencia al cliente mediante `customer_id`.
+
+De forma similar, la información general de un plan se almacena en `SUBSCRIPTION_PLANS`, mientras que `SUBSCRIPTIONS` registra la relación concreta entre un cliente y el plan mediante `customer_id` y `plan_id`.
+
+```mermaid
+erDiagram
+    USERS {
+        uuid id PK
+        varchar email
+        varchar password_hash
+        varchar role
+        timestamp created_at
+    }
+
+    CUSTOMERS {
+        uuid id PK
+        uuid user_id FK
+        varchar full_name
+        varchar phone
+    }
+
+    ORDERS {
+        uuid id PK
+        uuid customer_id FK
+        uuid laundry_id FK
+        varchar status
+        varchar delivery_method
+        timestamp created_at
+    }
+
+    SUBSCRIPTION_PLANS {
+        uuid id PK
+        varchar name
+        decimal price
+        int credits
+        int duration_days
+    }
+
+    SUBSCRIPTIONS {
+        uuid id PK
+        uuid customer_id FK
+        uuid plan_id FK
+        date start_date
+        date expiration_date
+        varchar status
+        int credits
+    }
+
+    USERS ||--o| CUSTOMERS : has
+    CUSTOMERS ||--o{ ORDERS : places
+    CUSTOMERS ||--o{ SUBSCRIPTIONS : owns
+    SUBSCRIPTION_PLANS ||--o{ SUBSCRIPTIONS : defines
+```
+
+Con esta organización, información como el nombre y teléfono del cliente, o el nombre, precio, créditos y duración del plan, no necesita repetirse en cada pedido o suscripción. Cada conjunto de datos se mantiene en la entidad que le corresponde.
+
+#### 4.8.3. Summary of Normalization
+
+La aplicación de las formas normales al modelo de WashTrack se resume de la siguiente manera:
+
+| Forma normal | Aplicación en WashTrack | Resultado |
+|---|---|---|
+| **1FN** | Se utilizan valores atómicos y se separan las prendas de los pedidos mediante `GARMENT_ITEMS`. | Se evitan grupos repetitivos dentro de una misma tabla. |
+| **2FN** | Los atributos de cada entidad dependen de su clave primaria individual. | Se evita mezclar atributos pertenecientes a diferentes entidades. |
+| **3FN** | Se separan entidades como `USERS`, `CUSTOMERS`, `ORDERS`, `SUBSCRIPTION_PLANS` y `SUBSCRIPTIONS`. | Se reducen dependencias transitivas y duplicación de información. |
+
+En consecuencia, el modelo relacional de WashTrack organiza la información mediante entidades independientes relacionadas por claves foráneas y aplica los principios de normalización hasta la **Tercera Forma Normal (3FN)**. Esto permite mantener la información estructurada y facilita su actualización y mantenimiento.
+
 
 
 ## Capítulo V: Product Implementation, Validation & Deployment

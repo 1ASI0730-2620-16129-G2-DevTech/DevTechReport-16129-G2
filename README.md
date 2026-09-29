@@ -3434,12 +3434,61 @@ La API se divide en capas para separar la exposición HTTP, los casos de uso, la
 </div>
 
 ### 4.7. Software Object-Oriented Design
-El diseño orientado a objetos representa los principales elementos del dominio mediante clases, atributos, operaciones, enumeraciones e interfaces.
+
+El diseño orientado a objetos de WashTrack representa el dominio del sistema siguiendo los principios de Domain-Driven Design (DDD). Para ello, el modelo se organiza en seis Bounded Contexts (Identity & Access, Customer & Business Management, Order Management, Laundry Operations, Subscription & Payment y Tracking & Notifications), cada uno con su propio lenguaje ubicuo, sus agregados y sus reglas de negocio.
+
+Dentro de cada Bounded Context, las clases se distribuyen en cuatro capas: Domain (aggregate roots, entities, value objects, enumeraciones e interfaces de repositorio), Application (servicios y puertos), Infrastructure (implementaciones de repositorios y adaptadores externos) y Presentation (controllers y componentes de interfaz). Los Bounded Contexts se comunican entre sí únicamente mediante referencias por identificador, y comparten un Shared Kernel con los elementos base del dominio (AggregateRoot, Repository, DomainEvent y Money) y la infraestructura común (BaseRepository).
 
 #### 4.7.1. Class Diagrams
 
+A continuación se presenta primero la vista general de los Bounded Contexts y luego el diagrama de clases de cada uno.
+
+**Vista general de Bounded Contexts**
+
 <div align="center">
-    <img src="assets/img/Chapter4/class-diagram.png" alt="diagrama de clases" width="1500"/>
+    <img src="assets/img/Chapter4/class-diagram-overview.png" alt="Vista general de bounded contexts" width="100%"/>
+</div>
+
+**Identity & Access Bounded Context**
+
+<div align="center">
+    <img src="assets/img/Chapter4/class-diagram-identity-access.png" alt="Class diagram Identity & Access" width="100%"/>
+</div>
+
+**Customer & Business Management Bounded Context**
+
+<div align="center">
+    <img src="assets/img/Chapter4/class-diagram-customer-business.png" alt="Class diagram Customer & Business Management" width="100%"/>
+</div>
+
+**Order Management Bounded Context**
+
+<div align="center">
+    <img src="assets/img/Chapter4/class-diagram-order-management.png" alt="Class diagram Order Management" width="100%"/>
+</div>
+
+**Laundry Operations Bounded Context**
+
+<div align="center">
+    <img src="assets/img/Chapter4/class-diagram-laundry-operations.png" alt="Class diagram Laundry Operations" width="100%"/>
+</div>
+
+**Subscription & Payment Bounded Context**
+
+<div align="center">
+    <img src="assets/img/Chapter4/class-diagram-subscription-payment.png" alt="Class diagram Subscription & Payment" width="100%"/>
+</div>
+
+**Tracking & Notifications Bounded Context**
+
+<div align="center">
+    <img src="assets/img/Chapter4/class-diagram-tracking-notifications.png" alt="Class diagram Tracking & Notifications" width="100%"/>
+</div>
+
+**Shared Kernel**
+
+<div align="center">
+    <img src="assets/img/Chapter4/class-diagram-shared.png" alt="Class diagram Shared Kernel" width="100%"/>
 </div>
 
 

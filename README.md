@@ -528,56 +528,21 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 **Problem statement 1:**
 <p align="justify">
-    Nuestro producto fue diseñado para optimizar la gestión operativa de pequeñas y medianas lavanderías, brindándoles una herramienta digital que les permita centralizar la información de sus clientes, pedidos, prendas y servicios, con el propósito de reducir el tiempo destinado a tareas administrativas y disminuir errores durante la gestión de las órdenes.
+  Los dueños de lavanderías independientes necesitan gestionar de manera ordenada la información de sus clientes, pedidos, prendas, servicios y fechas de entrega. Actualmente, gran parte de esta información puede registrarse y consultarse mediante cuadernos, hojas de cálculo, llamadas y mensajes de WhatsApp, lo que puede dificultar el seguimiento de los pedidos y aumentar el riesgo de errores, especialmente durante periodos de alta demanda. Esta situación representa una oportunidad para explorar una alternativa que facilite la centralización y organización de la información operativa de las lavanderías.
 </p>
 
-<p align="justify">
-    Hemos observado que las lavanderías pueden presentar dificultades para organizar y realizar el seguimiento de sus pedidos debido al uso de cuadernos, recibos, hojas de cálculo, mensajes de texto y otros medios no integrados, lo que dificulta mantener la información actualizada y acceder a ella de manera rápida y confiable.
-</p>
-
-<p align="justify">
-    Esto puede generar confusiones en el registro de pedidos, pérdida de información, errores en las fechas de entrega, dificultades para identificar las prendas y entregas incorrectas, afectando tanto la eficiencia operativa del negocio como la satisfacción de sus clientes.
-</p>
-
-<p align="justify">
-    Por tanto, nos preguntamos: ¿Cómo podríamos centralizar y simplificar la gestión de pedidos y prendas de las lavanderías para reducir los errores operativos y mejorar el control de sus servicios, medido a través de la reducción de incidencias y del tiempo destinado a la gestión de los pedidos?
-</p>
 
 **Problem statement 2:**
 
 <p align="justify">
-    Nuestro producto fue diseñado para facilitar el acceso a los servicios de lavandería a personas que disponen de poco tiempo para realizar tareas domésticas o que no cuentan con una lavadora en sus hogares, permitiéndoles gestionar sus servicios de manera más cómoda y reducir el tiempo y esfuerzo asociados al lavado de sus prendas.
-</p>
-
-<p align="justify">
-    Hemos observado que las personas deben distribuir su tiempo entre actividades laborales, académicas, familiares y personales, mientras que el lavado y cuidado de la ropa continúa siendo una tarea doméstica recurrente. Asimismo, no todos los hogares cuentan con los recursos necesarios para realizar esta actividad de manera independiente, por lo que deben recurrir a lavanderías y trasladarse hasta estos establecimientos para solicitar y recoger sus servicios.
-</p>
-
-<p align="justify">
-    Esto genera mayor inversión de tiempo y esfuerzo por parte de los clientes, además de dificultades para conocer el estado de sus prendas, coordinar el recojo y entrega de sus pedidos y realizar otras gestiones relacionadas con el servicio.
-</p>
-
-<p align="justify">
-    Por tanto, nos preguntamos: ¿Cómo podríamos facilitar el acceso y la gestión de los servicios de lavandería para que los clientes reduzcan el tiempo y esfuerzo destinado a estas actividades, medido a través del uso de servicios digitales y de recojo y entrega a domicilio?
+  Las personas que utilizan servicios de lavandería necesitan conocer con mayor claridad el estado y avance de sus pedidos, así como disponer de información confiable sobre cuándo estarán disponibles para su recojo. Actualmente, el seguimiento puede depender de la comunicación directa con la lavandería o de la información proporcionada al momento de dejar las prendas, lo que puede generar incertidumbre cuando existen retrasos o cambios en los tiempos estimados. Esto representa una oportunidad para explorar mecanismos que permitan brindar mayor visibilidad sobre el progreso de los pedidos sin depender exclusivamente de consultas directas.
 </p>
 
 
 **Problem statement 3:**
 
 <p align="justify">
-    Nuestro producto fue diseñado para mejorar la comunicación y el seguimiento entre las lavanderías y sus clientes, proporcionando un espacio digital donde ambas partes puedan acceder a información actualizada sobre los pedidos durante las diferentes etapas del servicio.
-</p>
-
-<p align="justify">
-    Hemos observado que los clientes pueden depender de llamadas, mensajes de texto o consultas presenciales para conocer el estado de sus prendas, mientras que las lavanderías deben responder individualmente a estas solicitudes y mantener actualizada la información mediante diferentes canales.
-</p>
-
-<p align="justify">
-    Esto genera incertidumbre para los clientes, mayor carga de atención para las lavanderías y posibles inconsistencias en la información proporcionada, especialmente cuando existen múltiples pedidos en proceso y diferentes fechas de entrega.
-</p>
-
-<p align="justify">
-    Por tanto, nos preguntamos: ¿Cómo podríamos mejorar la comunicación y el seguimiento de los pedidos entre las lavanderías y sus clientes para brindar información más oportuna y confiable, medido a través de la reducción de consultas sobre el estado de los pedidos y el incremento en la satisfacción de los usuarios?
+  Los dueños de lavanderías y sus clientes necesitan coordinar de manera clara aspectos relacionados con la recepción, procesamiento, pago y entrega de los pedidos. El uso de diferentes canales y herramientas para gestionar estas actividades puede dificultar la comunicación y generar inconsistencias en la información, particularmente cuando existen modificaciones en los pedidos o en las fechas de entrega. Esta situación representa una oportunidad para explorar una alternativa que facilite la coordinación de las operaciones y la comunicación entre ambas partes.
 </p>
 
 **1.2.2.2. Lean UX Assumptions**

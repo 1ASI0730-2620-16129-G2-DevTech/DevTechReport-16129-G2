@@ -3439,12 +3439,12 @@ La API se divide en capas para separar la exposición HTTP, los casos de uso, la
 </div>
 
 ### 4.7. Software Object-Oriented Design
-El diseño orientado a objetos representa los principales elementos del dominio mediante clases, atributos, operaciones, enumeraciones e interfaces.
+El diseño orientado a objetos representa los principales elementos del dominio de Washtrack mediante clases, atributos, operaciones, enumeraciones e interfaces.
 
 #### 4.7.1. Class Diagrams
 
 <div align="center">
-    <img src="assets/img/Chapter4/class-diagram.png" alt="diagrama de clases" width="1500"/>
+    <img src="assets/img/Chapter4/class-diagram.jpg" alt="diagrama de clases" width="39096"/>
 </div>
 
 

@@ -222,9 +222,6 @@ URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-D
     - [Sistemas externos](#sistemas-externos)
       - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
       - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
-    - [4.6.4.1. RESTful API](#4641-restful-api)
-    - [4.6.4.2. Web Application](#4642-web-application)
-    - [4.6.4.3. Notification Worker](#4643-notification-worker)
     - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
       - [4.7.1. Class Diagrams](#471-class-diagrams)
     - [4.7.1.1. Order Management](#4711-order-management)
@@ -3438,7 +3435,7 @@ El Context Diagram representa a WashTrack como el sistema central y muestra sus 
 - **Email Service:** envía notificaciones.
 
 <div align="center">
-    <img src="assets/img/Chapter4/context-diagram.png" alt="diagrama de contexto" width="500"/>
+    <img src="assets/img/Chapter4/context-diagram.png" alt="diagrama de contexto" width="2000"/>
 </div>
 
 #### 4.6.3. Software Architecture Container Diagrams
@@ -3455,7 +3452,7 @@ El Container Diagram representa las principales unidades de software que conform
 | Email Service | Servicio externo | Enviar correos. |
 
 <div align="center">
-    <img src="assets/img/Chapter4/container-diagram.png" alt="diagrama de contenedores" width="500"/>
+    <img src="assets/img/Chapter4/container-diagram.png" alt="diagrama de contenedores" width="2000"/>
 </div>
 
 #### 4.6.4. Software Architecture Components Diagrams
@@ -3464,7 +3461,7 @@ El Container Diagram representa las principales unidades de software que conform
 La API se divide en capas para separar la exposición HTTP, los casos de uso, las reglas de dominio y las integraciones.
 
 <div align="center">
-    <img src="assets/img/Chapter4/restful-api-diagram.PNG" alt="diagrama de restful api" width="500"/>
+    <img src="assets/img/Chapter4/restful-api-diagram.png" alt="diagrama de restful api" width="500"/>
 </div>
 
 ### 4.6.4.2. Web Application
@@ -3479,281 +3476,27 @@ La API se divide en capas para separar la exposición HTTP, los casos de uso, la
     <img src="assets/img/Chapter4/notification-worker-diagram.png" alt="diagrama de eventstorming" width="500"/>
 </div>
 
+### 4.6.4.4. Component Interaction – Create Order
+
+<div align="center">
+    <img src="assets/img/Chapter4/component_interaction-create_order.png" alt="interacción de componentes de creacion de order" width="2000"/>
+</div>
+
+### 4.6.4.5. Component Interaction – Order Status Notification
+
+<div align="center">
+    <img src="assets/img/Chapter4/component_interaction–order_status_notification.png" alt="interacción de componentes del status de order" width="3000"/>
+</div>
+
 ### 4.7. Software Object-Oriented Design
 El diseño orientado a objetos representa los principales elementos del dominio mediante clases, atributos, operaciones, enumeraciones e interfaces.
 
 #### 4.7.1. Class Diagrams
-### 4.7.1.1. Order Management
 
-```mermaid
-classDiagram
-    class Customer {
-        -UUID customerId
-        -String fullName
-        -String email
-        -String phone
-        +createOrder()
-        +getOrders()
-    }
+<div align="center">
+    <img src="assets/img/Chapter4/class-diagram.png" alt="diagrama de clases" width="1500"/>
+</div>
 
-    class Order {
-        -UUID orderId
-        -UUID customerId
-        -UUID laundryId
-        -DateTime createdAt
-        -OrderStatus status
-        -DeliveryMethod deliveryMethod
-        -String specialCareInstructions
-        +create()
-        +updateStatus(status)
-        +addGarment(item)
-        +setDeliveryMethod(method)
-    }
-
-    class GarmentItem {
-        -UUID garmentItemId
-        -String type
-        -int quantity
-        -String careInstructions
-        +updateCareInstructions(instructions)
-    }
-
-    class OrderStatus {
-        <<enumeration>>
-        Created
-        Received
-        Classified
-        Washing
-        Drying
-        Packaging
-        Ready
-        Completed
-        Cancelled
-    }
-
-    class DeliveryMethod {
-        <<enumeration>>
-        Pickup
-        Branch
-    }
-
-    Customer "1" --> "0..*" Order : places
-    Order "1" *-- "1..*" GarmentItem : contains
-    Order --> OrderStatus
-    Order --> DeliveryMethod
-```
-
-### 4.7.1.2. Subscription & Payment
-
-```mermaid
-classDiagram
-    class SubscriptionPlan {
-        -UUID planId
-        -String name
-        -decimal price
-        -int credits
-        -int durationDays
-        +activate()
-    }
-
-    class Subscription {
-        -UUID subscriptionId
-        -UUID customerId
-        -UUID planId
-        -Date startDate
-        -Date expirationDate
-        -SubscriptionStatus status
-        -int credits
-        +isActive()
-        +consumeCredit()
-        +applyBenefit()
-    }
-
-    class Payment {
-        -UUID paymentId
-        -UUID customerId
-        -UUID orderId
-        -decimal amount
-        -PaymentStatus status
-        -String transactionId
-        -DateTime processedAt
-        +process()
-        +approve()
-        +reject()
-    }
-
-    class PaymentGateway {
-        <<interface>>
-        +processPayment(amount) PaymentResult
-    }
-
-    class PaymentResult {
-        -String transactionId
-        -bool approved
-        -String message
-    }
-
-    class SubscriptionStatus {
-        <<enumeration>>
-        Pending
-        Active
-        Expired
-        Cancelled
-    }
-
-    class PaymentStatus {
-        <<enumeration>>
-        Pending
-        Approved
-        Rejected
-        Refunded
-    }
-
-    SubscriptionPlan "1" --> "0..*" Subscription : defines
-    Subscription "1" --> "1" SubscriptionPlan : uses
-    Subscription "1" --> "1" Customer : belongs to
-    Payment "1" --> "1" Customer : paid by
-    Payment "0..*" --> "0..1" Order : pays for
-    Payment ..> PaymentGateway : uses
-    PaymentGateway --> PaymentResult
-```
-
-### 4.7.1.3. Laundry Operations
-
-```mermaid
-classDiagram
-    class Laundry {
-        -UUID laundryId
-        -String businessName
-        -String address
-        +getAvailableResources()
-    }
-
-    class LaundryOrder {
-        -UUID laundryOrderId
-        -UUID orderId
-        -ProcessingStage currentStage
-        -Priority priority
-        -DateTime expectedCompletionTime
-        +receive()
-        +classify()
-        +assignCycle(cycle)
-        +assignResource(resource)
-        +advanceStage()
-        +setPriority(priority)
-    }
-
-    class WashingCycle {
-        -UUID washingCycleId
-        -String name
-        -int durationMinutes
-        -String compatibleGarmentType
-        +isCompatible(item)
-    }
-
-    class LaundryResource {
-        -UUID resourceId
-        -String name
-        -ResourceStatus status
-        -int capacity
-        +isAvailable()
-        +assign()
-        +release()
-    }
-
-    class ProcessingStage {
-        <<enumeration>>
-        Reception
-        Classification
-        Washing
-        DryingIroning
-        Packaging
-        Ready
-    }
-
-    class ResourceStatus {
-        <<enumeration>>
-        Available
-        Busy
-        Maintenance
-    }
-
-    class Priority {
-        <<enumeration>>
-        Normal
-        VIP
-    }
-
-    Laundry "1" --> "0..*" LaundryOrder : processes
-    Laundry "1" --> "0..*" LaundryResource : owns
-    LaundryOrder "1" --> "0..1" WashingCycle : uses
-    LaundryOrder "1" --> "0..1" LaundryResource : assigned to
-    LaundryOrder --> ProcessingStage
-    LaundryOrder --> Priority
-    LaundryResource --> ResourceStatus
-```
-
-### 4.7.1.4. Tracking & Notifications
-
-```mermaid
-classDiagram
-    class Tracking {
-        -UUID trackingId
-        -UUID orderId
-        -OrderStatus currentStatus
-        +addStatus(status)
-        +getTimeline()
-    }
-
-    class StatusHistory {
-        -UUID statusHistoryId
-        -OrderStatus status
-        -DateTime occurredAt
-        +register()
-    }
-
-    class Notification {
-        -UUID notificationId
-        -UUID recipientId
-        -UUID orderId
-        -String message
-        -NotificationChannel channel
-        -NotificationStatus status
-        -DateTime createdAt
-        +send()
-        +markAsSent()
-        +markAsFailed()
-    }
-
-    class NotificationSender {
-        <<interface>>
-        +send(notification) bool
-    }
-
-    class EmailNotificationSender {
-        +send(notification) bool
-    }
-
-    class NotificationChannel {
-        <<enumeration>>
-        Web
-        Email
-    }
-
-    class NotificationStatus {
-        <<enumeration>>
-        Pending
-        Sent
-        Failed
-    }
-
-    Tracking "1" *-- "1..*" StatusHistory : contains
-    Tracking "1" --> "1" Order : tracks
-    Notification --> NotificationSender : uses
-    NotificationSender <|.. EmailNotificationSender
-    Notification --> NotificationChannel
-    Notification --> NotificationStatus
-```
 
 ### 4.8. Database Design
 WashTrack requiere persistir información de clientes, lavanderías, órdenes, prendas, procesos operativos, membresías, pagos, seguimiento y notificaciones.

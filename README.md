@@ -483,7 +483,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 **1.2.1.1. What**
 <p align="justify">
-    Nuestra propuesta de solución, Wash Track, se propone resolver las siguientes 3 problemáticas recurrentes en la vida personal, específicamente, cuando se desempeña el trabajo doméstico:
+    Nuestra propuesta de solución, se propone resolver las siguientes 3 problemáticas recurrentes en la vida personal, específicamente, cuando se desempeña el trabajo doméstico:
     <ul>
         <li>Uno de los principales problemas a los que se enfrentan las personas independientes que consumen el servicio de lavandería es la limitada disponibilidad de tiempo para realizar tareas domésticas, ya que resulta difícil equilibrar la vida laboral con las responsabilidades domésticas y las actividades personales. Según la Encuesta Nacional de Uso del Tiempo (ENUT) correspondiente al año 2024 realizada por el INEI, la población peruana dedica una cantidad significativa de tiempo al trabajo doméstico no remunerado, donde en un día de semana, las mujeres destinan en promedio 3 horas y 35 minutos y los hombres 1 hora y 37 minutos a estas actividades, además, dentro ellas se encuentra la limpieza y cuidado de la ropa, que demanda en promedio 1 hora y 22 minutos diarios para las mujeres y 58 minutos para los hombres. Por consiguiente, destinar este tiempo diario a las actividades de limpieza y cuidado de la ropa, reduce el tiempo disponible para otras actividades personales, como el descanso, ejercicio, etc. por lo que resulta ideal contratar un servicio externo que realice estas actividades.</li><br>
         <li>El segundo problema es la falta de recursos para el lavado de ropa dentro de los hogares. Según el informe técnico de Condiciones de Vida en el Perú con los resultados de la Encuesta Nacional de Hogares (ENAHO) correspondiente al primer trimestre del año 2026, indica que el 90,5% de los hogares tiene cocina a gas, 57,0% cuenta con refrigeradora/congeladora, 36,4% cuenta con computadora/laptop y 32,2% tiene lavadora de ropa. Asimismo, al comparar los resultados de los primeros trimestres de los años 2023, 2024 y 2025, se observa que la proporción de hogares que cuenta con una lavadora se ha mantenido relativamente estable, pasando de 33,2 % en 2023 a 34,2 % en 2024 y disminuyendo a 32,0 % en 2025, para posteriormente alcanzar el 32,2 % en 2026. Esto evidencia que una cantidad significativa de hogares peruanos no cuentan con una lavadora de ropa, en consecuencia, representa una gran limitación para realizar esta actividad de manera eficiente dentro del hogar.</li><br>
@@ -548,31 +548,39 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 **1.2.2.2. Lean UX Assumptions**
 
 **1.2.2.2.1. ¿Quién es el usuario?**
-<p align="justify">
-    Los usuarios de la solución se dividen principalmente en dos grupos. El primero está conformado por los propietarios, administradores y trabajadores de pequeñas y medianas lavanderías, quienes necesitan gestionar clientes, pedidos, prendas, servicios, pagos y entregas de manera organizada. El segundo grupo corresponde a los clientes de las lavanderías, especialmente personas que cuentan con una disponibilidad limitada de tiempo para realizar tareas domésticas o que no disponen de una lavadora en sus hogares, y que buscan una alternativa más cómoda para solicitar, pagar y realizar el seguimiento de sus servicios de lavandería.
+<p align="justify"> 
+  Se asume que existen dos grupos principales de usuarios potenciales para la propuesta. El primero está conformado por propietarios, administradores y trabajadores de lavanderías independientes, quienes participan en actividades como el registro de clientes, recepción de pedidos, control de prendas, coordinación de servicios y gestión de entregas. El segundo grupo está conformado por personas que utilizan servicios de lavandería y que podrían valorar alternativas que les permitan conocer el estado de sus pedidos, reducir desplazamientos y disponer de mayor información sobre el servicio contratado. 
 </p>
 
 **1.2.2.2.2. ¿Dónde encaja nuestro producto en su trabajo o vida?**
 <p align="justify">
-    La solución se integra en el proceso cotidiano de gestión y prestación del servicio de lavandería. Para las lavanderías, funcionará como una herramienta central para registrar clientes y pedidos, administrar las prendas, actualizar el estado de las órdenes y consultar el historial de operaciones, reduciendo la dependencia de cuadernos, recibos, hojas de cálculo y mensajes dispersos. Para los clientes, se integrará en las actividades relacionadas con la solicitud y seguimiento del servicio, permitiéndoles consultar sus pedidos, conocer el estado de sus prendas, realizar pagos digitales y coordinar servicios de recojo y entrega a domicilio sin necesidad de realizar todas las gestiones presencialmente.
+  Se asume que una solución digital de este tipo podría incorporarse en las actividades habituales de las lavanderías relacionadas con la recepción, registro, procesamiento y entrega de pedidos. Para los propietarios y trabajadores, podría complementar o sustituir progresivamente herramientas actualmente utilizadas para registrar y consultar información, como cuadernos, hojas de cálculo, recibos y mensajes. Para los clientes, podría incorporarse en las actividades relacionadas con la consulta y seguimiento de sus pedidos, así como en determinadas gestiones asociadas al pago y a la entrega del servicio.
 </p>
 
 **1.2.2.2.3. ¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
 <p align="justify">
-    <ul>
-        <li>Resistencia a la adopción de herramientas digitales: Algunas lavanderías pueden estar acostumbradas a gestionar sus operaciones mediante métodos tradicionales y presentar dificultades para adaptarse a un nuevo sistema.<br><br>Solución: Desarrollar una interfaz sencilla e intuitiva, acompañada de un proceso de incorporación que permita al personal aprender las funciones principales rápidamente.</li><br>
-        <li>Limitaciones económicas de las pequeñas lavanderías: Algunos negocios pueden considerar que implementar una nueva herramienta representa un gasto adicional.<br><br>Solución: Establecer un modelo de suscripción escalonado, con un plan gratuito y planes de pago con funcionalidades adicionales, permitiendo que cada negocio seleccione la alternativa de acuerdo con sus necesidades.</li><br>
-        <li>Información desactualizada o incorrecta: Si los estados de los pedidos no se actualizan oportunamente, los clientes podrían recibir información incorrecta sobre sus prendas.<br><br>Solución: Permitir que el personal actualice el estado de cada pedido desde la plataforma y que dicha información se refleje para el cliente.</li><br>
-        <li>Dependencia de la conectividad: Algunas operaciones podrían verse afectadas ante problemas de conexión a internet.<br><br>Solución: Evaluar mecanismos de almacenamiento temporal y sincronización de información para garantizar la continuidad de las operaciones esenciales.</li>
-    </ul>
+  Al tratarse de una propuesta de producto nuevo, se asume que podrían presentarse diferentes dificultades durante su adopción y uso. Entre las principales se consideran las siguientes:
+</p>
+
+
+<p align="justify">
+  <ul>
+    <li>
+      Resistencia a la adopción de herramientas digitales: Algunas lavanderías podrían estar acostumbradas a utilizar métodos tradicionales para gestionar sus operaciones y mostrar una baja disposición inicial hacia una nueva herramienta digital.<br><br> Solución: Una experiencia sencilla, intuitiva y con funciones enfocadas en las actividades principales de la lavandería podría facilitar el aprendizaje y la adopción progresiva. </li><br> <li>Percepción de costo: Algunas lavanderías podrían considerar que incorporar una nueva herramienta representa un gasto adicional frente a los métodos que utilizan actualmente.<br><br> Solución: Un modelo de acceso escalonado, que incluya una alternativa gratuita y opciones de pago con funcionalidades adicionales, podría disminuir la barrera inicial de adopción. </li><br> <li> Actualización de la información: El sistema de seguimiento solo será útil si los encargados de la lavandería actualizan el estado de cada pedido a tiempo.<br><br> Solución: Mecanismos simples para registrar y actualizar los estados podrían facilitar que la información disponible para los clientes se mantenga actualizada.
+    </li>
+  </ul>
 </p>
 
 **1.2.2.2.4. ¿Cuándo y cómo es usado nuestro producto?**
 <p align="justify">
-    WashTrack será utilizada durante las diferentes etapas del servicio de lavandería, donde el personal podrá utilizarla al recibir un pedido para registrar los datos del cliente, las prendas y los servicios solicitados, durante el procesamiento para actualizar el estado de la orden, y al finalizar para verificar la información y gestionar su entrega. Por otro lado, los clientes podrán utilizarla cuando necesiten solicitar un servicio, consultar el estado de sus prendas, revisar pedidos anteriores, realizar un pago o coordinar el recojo y la entrega. En resumen, se espera que la plataforma tenga un uso recurrente, tanto durante la operación diaria de la lavandería como durante las interacciones del cliente con el servicio.
+  Se asume que esta solución podría utilizarse de manera recurrente durante las diferentes etapas del servicio de lavandería. Los propietarios o trabajadores podrían utilizarla principalmente al recibir un pedido, registrar la información del cliente y las prendas, actualizar el estado del servicio y gestionar su entrega. Por su parte, los clientes podrían utilizarla cuando necesiten consultar el estado de un pedido, revisar información de servicios anteriores, realizar determinadas gestiones relacionadas con el pago o consultar información asociada con el recojo y entrega.
 </p>
 
 **1.2.2.2.5. ¿Qué características son importantes?**
+<p align="justify">
+  Se asume que las siguientes características podrían aportar valor a los usuarios potenciales:
+</p>
+
 <p align="justify">
     <ul>
         <li>Gestión de clientes y pedidos: Registro y consulta de información de clientes y órdenes.</li>
@@ -588,47 +596,43 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 **1.2.2.2.6. ¿Cómo debe verse nuestro producto y cómo debe comportarse?**
 <p align="justify">
-    En primer lugar, la plataforma debe presentar una interfaz limpia, sencilla e intuitiva, priorizando la facilidad de uso tanto para el personal de las lavanderías como para los clientes. En segundo lugar, las principales acciones, como registrar un pedido, consultar el estado de una prenda o realizar un pago, deben poder ejecutarse con pocos pasos y con información claramente organizada. También, el sistema debe proporcionar retroalimentación inmediata cuando se registre o actualice una operación y mantener sincronizada la información entre la lavandería y el cliente. Por último, debe transmitir una sensación de confianza y orden, especialmente en procesos sensibles como el registro de prendas, pagos y entrega de pedidos.
+  Se espera que los usuarios interactuen con una interfaz limpia, sencilla e intuitiva, debido a que la solución estaría dirigida tanto a personas encargadas de gestionar las operaciones de una lavandería como a sus clientes que buscan consultar información sobre sus pedidos. Las principales acciones deberían ser fáciles de localizar y realizar, evitando procesos innecesariamente complejos para tareas como registrar un pedido, consultar su estado o revisar información del servicio.
+</p>
+
+<p align="justify">
+  Asimismo, se considera importante que la solución proporcione retroalimentación clara después de realizar una acción y que presente la información de manera organizada. En procesos relacionados con prendas, pagos y entregas, se asume que la claridad y consistencia de la información podrían ser factores relevantes para generar confianza en el uso de la propuesta.
 </p>
 
 **1.2.2.2.7. Business Outcomes**
 <p align="justify">
+  Se plantean como posibles resultados de negocio que deberán ser validados durante el desarrollo de la propuesta:
+</p>
+
+<p align="justify">
     <ul>
-        <li>Generación de ingresos recurrentes mediante un modelo de suscripción mensual para lavanderías.</li>
-        <li>Adopción progresiva de la plataforma, utilizando el plan gratuito como mecanismo de entrada y los planes premium como fuente de monetización.</li>
-        <li>Incremento de lavanderías afiliadas, consolidando progresivamente la solución dentro del mercado peruano.</li>
-        <li>Fidelización de lavanderías y clientes mediante una experiencia de servicio más organizada y conveniente.</li>
-        <li>Reducción de incidencias operativas relacionadas con errores de registro, pérdida de información y entrega incorrecta de pedidos.</li>
-        <li>Escalabilidad del producto, incorporando nuevas funcionalidades según las necesidades identificadas en las lavanderías y sus clientes.</li>
+        <li>Generar ingresos recurrentes mediante un modelo de suscripción dirigido a lavanderías.</li> <li>Facilitar la adopción inicial mediante una alternativa gratuita y posteriormente ofrecer planes con funcionalidades adicionales.</li> <li>Incrementar progresivamente la cantidad de lavanderías que utilizan la solución en el mercado objetivo.</li> <li>Lograr que las lavanderías perciban suficiente valor en la propuesta como para mantener su uso a lo largo del tiempo.</li> <li>Reducir incidencias operativas relacionadas con errores de registro, pérdida de información y confusiones en los pedidos.</li> <li>Identificar nuevas necesidades de las lavanderías y sus clientes que permitan ampliar o ajustar la propuesta de producto.</li>
     </ul>
 </p>
 
 **1.2.2.2.8. User Outcomes**
 <p align="justify">
+  Se plantean como posibles resultados para los usuarios:
+</p>
+
+<p align="justify">
     <ul>
-        <li>Ahorro de tiempo: Los clientes pueden gestionar sus servicios sin tener que realizar todas las consultas o coordinaciones presencialmente.</li>
-        <li>Mayor comodidad: Posibilidad de solicitar servicios, realizar pagos y coordinar recojos y entregas desde un mismo espacio.</li>
-        <li>Mayor transparencia: Los clientes pueden conocer el estado de sus prendas durante las diferentes etapas del servicio.</li>
-        <li>Mejor organización: Las lavanderías pueden centralizar la información de clientes, pedidos y prendas.</li>
-        <li>Reducción de errores: Disminución de confusiones relacionadas con pedidos, fechas, prendas y entregas.</li>
-        <li>Mayor control operativo: Los responsables de la lavandería pueden consultar el historial y estado de sus operaciones de manera más rápida.</li>
+        <li>Reducir el tiempo dedicado al registro y consulta de pedidos, facilitando el acceso a la información necesaria durante la operación.</li> <li>Disminuir las confusiones relacionadas con pedidos y prendas, manteniendo la información organizada y asociada a cada cliente.</li> <li>Facilitar el seguimiento de los pedidos, permitiendo conocer qué pedidos requieren atención y cuáles se encuentran próximos a ser entregados.</li> <li>Mejorar el control de las operaciones, disponiendo de información centralizada sobre clientes, pedidos, servicios y entregas.<li>Reducir la incertidumbre sobre los pedidos, pudiendo conocer el estado en el que se encuentran las prendas.</li> <li>Reducir la necesidad de realizar consultas directas a la lavandería, al disponer de información sobre el progreso de sus pedidos.</li> <li>Facilitar la coordinación del recojo de los pedidos, contando con información más clara sobre su disponibilidad.</li> <li>Reducir el tiempo y esfuerzo destinado a determinadas gestiones, como consultas, pagos o coordinación de servicios.</li>
     </ul>
 </p>
 
 **1.2.2.2.9. Features**
 <p align="justify">
+  A partir de los problemas y necesidades identificados, se plantean las siguientes ideas de solución o características que podrían contribuir a alcanzar los resultados esperados:
+</p>
+
+<p align="justify">
     <ul>
-        <li>Módulo de gestión de clientes: Registro, consulta y actualización de información.</li>
-        <li>Módulo de pedidos: Creación, modificación y seguimiento de órdenes.</li>
-        <li>Registro de prendas: Identificación de prendas asociadas a cada pedido.</li>
-        <li>Estados del pedido: Recibido, en proceso, listo para entrega, entregado, entre otros.</li>
-        <li>Historial de servicios: Consulta de pedidos anteriores y servicios realizados.</li>
-        <li>Dashboard del cliente: Acceso a pedidos, estados, historial y datos del servicio.</li>
-        <li>Pagos digitales: Gestión de pagos asociados a los pedidos.</li>
-        <li>Recojo y entrega a domicilio: Solicitud y coordinación de servicios logísticos.</li>
-        <li>Notificaciones: Avisos sobre cambios en el estado del pedido y próximas entregas.</li>
-        <li>Dashboard de lavandería: Indicadores sobre pedidos, clientes y operaciones.</li>
-        <li>Planes de suscripción: Administración de los planes gratuito, básico y avanzado.</li>
+        <li>Registro y gestión de clientes: Funcionalidad para registrar, consultar y actualizar la información de los clientes.</li> <li>Gestión de pedidos: Funcionalidad para crear y consultar pedidos asociados a cada cliente.</li> <li>Registro de prendas y servicios: Funcionalidad para asociar las prendas recibidas y los servicios solicitados con cada pedido.</li> <li>Actualización del estado del pedido: Mecanismo para registrar las diferentes etapas por las que atraviesa un pedido.</li> <li>Seguimiento del pedido para clientes: Espacio donde el cliente pueda consultar el estado y progreso de sus prendas.</li> <li>Historial de pedidos: Acceso a información de pedidos y servicios realizados anteriormente.</li> <li>Notificaciones: Avisos relacionados con cambios relevantes en el estado o disponibilidad de un pedido.</li> <li>Pagos digitales: Funcionalidad para gestionar pagos asociados a los servicios de lavandería.</li> <li>Recojo y entrega a domicilio: Funcionalidad para solicitar y coordinar servicios de recojo y entrega.</li> <li>Dashboard para lavanderías: Espacio para visualizar información resumida sobre pedidos y operaciones.</li>
     </ul>
 </p>
 
@@ -636,22 +640,22 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 **Hypothesis Statement 1**
 <p align="justify">
-    Creemos que centralizar la gestión de clientes, pedidos y prendas en una plataforma digital intuitiva permitirá a los propietarios y trabajadores de las lavanderías reducir los errores asociados al registro y seguimiento manual de las órdenes y mejorar el control sobre sus operaciones. Sabremos que esto es cierto cuando observemos una reducción de al menos 30% en las incidencias relacionadas con pedidos, prendas y fechas de entrega, así como una disminución en el tiempo promedio destinado al registro y consulta de información.
+  Creemos que los propietarios y trabajadores de lavanderías independientes podrán mejorar el control de sus operaciones y reducir las incidencias asociadas al registro y seguimiento manual de pedidos si cuentan con una solución que centralice la información de clientes, pedidos, prendas y servicios. Sabremos que esta hipótesis es válida si, durante las pruebas con usuarios, se observa una reducción de al menos 30% en las incidencias relacionadas con pedidos, prendas y fechas de entrega, y una disminución en el tiempo necesario para registrar y consultar la información.
 </p>
 
 **Hypothesis Statement 2**
 <p align="justify">
-    Creemos que permitir a los clientes consultar digitalmente el estado de sus pedidos y prendas mejorará la transparencia del servicio y disminuirá la necesidad de comunicarse directamente con la lavandería para realizar consultas. Sabremos que esto es cierto cuando al menos el 70% de los clientes utilice la función de seguimiento y se registre una reducción de al menos 30% en las consultas relacionadas con el estado de los pedidos.
+  Creemos que los clientes de lavanderías podrán reducir la incertidumbre relacionada con sus pedidos y disminuir la necesidad de realizar consultas directamente al establecimiento si cuentan con una funcionalidad que les permita consultar digitalmente el estado y progreso de sus prendas. Sabremos que esta hipótesis es válida si al menos el 70% de los usuarios participantes utiliza la funcionalidad de seguimiento durante el periodo de prueba y se observa una reducción de al menos 30% en las consultas relacionadas con el estado de los pedidos.
 </p>
 
 **Hypothesis Statement 3**
 <p align="justify">
-    Creemos que incorporar pagos digitales y servicios de recojo y entrega a domicilio permitirá a los clientes gestionar sus servicios de lavandería de manera más cómoda y reducir el tiempo y esfuerzo asociado a estas actividades. Sabremos que esto es cierto cuando al menos el 60% de los usuarios activos utilice alguna de estas funcionalidades y los clientes reporten una mejora de al menos 30% en su percepción de comodidad y facilidad de uso.
+  Creemos que los clientes de lavanderías podrán reducir el tiempo y esfuerzo asociado a determinadas gestiones del servicio si cuentan con alternativas digitales para realizar pagos y coordinar el recojo y la entrega de sus pedidos. Sabremos que esta hipótesis es válida si al menos el 60% de los usuarios participantes utiliza alguna de estas funcionalidades durante el periodo de prueba y al menos el 70% manifiesta que estas alternativas facilitan la gestión de su servicio.
 </p>
 
 **Hypothesis Statement 4**
 <p align="justify">
-    Creemos que ofrecer un modelo de suscripción escalonado, compuesto por un plan gratuito y planes de pago con funcionalidades adicionales, facilitará la adopción de la plataforma por parte de pequeñas y medianas lavanderías, permitiéndoles probar la solución antes de asumir un costo mensual. Sabremos que esto es cierto cuando al menos el 40% de las lavanderías que comiencen utilizando el plan gratuito permanezcan activas después del periodo inicial de prueba y un porcentaje de ellas migre posteriormente hacia alguno de los planes de pago.
+  Creemos que las lavanderías independientes estarán más dispuestas a probar una nueva solución digital si pueden acceder inicialmente a una alternativa gratuita antes de decidir si requieren funcionalidades adicionales mediante un plan de pago. Sabremos que esta hipótesis es válida si al menos el 40% de las lavanderías participantes continúa utilizando la alternativa gratuita después del periodo inicial de prueba y un 20% de estas manifiesta interés en utilizar funcionalidades disponibles en los planes de pago.
 </p>
 
 **1.2.2.4. Lean UX Canvas**

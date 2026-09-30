@@ -1694,12 +1694,22 @@ Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_
       <td style="border: 1px solid black; padding: 8px;">EP-007: Atención de incidencias</td>
     </tr>
   </tbody>
-  <tbody>
+ <tbody>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-028</td>
       <td style="border: 1px solid black; padding: 8px;">Panel de Control en Vivo</td>
-      <td style="border: 1px solid black; padding: 8px;">Como dueño de lavandería, quiero ver un panel central con métricas en tiempo real (pedidos hoy, entregados, alertas IoT) para tener control total de mi operación sin pausas.</td>
-      <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Visualización del panel en vivo</b><br><b>Dado</b> que el dueño de la lavandería accede al panel principal<br><b>Cuando</b> consulta la operación del día<br><b>Entonces</b> el sistema muestra contadores actualizados de pedidos y entregas<br><b>Y</b> presenta una comparación porcentual con el periodo anterior.<br><br><b>Escenario: Alerta de uso de equipos</b><br><b>Dado</b> que una lavadora se encuentra cerca de su límite de uso<br><b>Cuando</b> el sensor IoT reporta el umbral configurado<br><b>Entonces</b> el panel muestra una alerta visual con el nombre del equipo<br><b>Y</b> la información se actualiza sin recargar la página.</td>
+      <td style="border: 1px solid black; padding: 8px;">Como dueño de lavandería, quiero ver un panel central con métricas en tiempo real (pedidos hoy, entregados) para tener control total de mi operación sin pausas.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Visualización del panel en vivo</b><br>
+        <b>Dado</b> que el dueño de la lavandería accede al panel principal<br>
+        <b>Cuando</b> consulta la operación del día<br>
+        <b>Entonces</b> el sistema muestra contadores actualizados de pedidos y entregas<br>
+        <b>Y</b> presenta una comparación porcentual con el periodo anterior.<br><br>
+        <b>Escenario 2: Actualización automática de métricas</b><br>
+        <b>Dado</b> que el dueño se encuentra visualizando el panel en vivo<br>
+        <b>Cuando</b> se registra o actualiza un nuevo pedido en el sistema<br>
+        <b>Entonces</b> los contadores e indicadores de la pantalla se actualizan automáticamente sin necesidad de recargar la página.
+      </td>
       <td style="border: 1px solid black; padding: 8px;">EP-008: Reportes y dashboard</td>
     </tr>
   </tbody>
@@ -1752,33 +1762,6 @@ Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_
   <tbody>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-033</td>
-      <td style="border: 1px solid black; padding: 8px;">Gestionar integralmente los pedidos</td>
-      <td style="border: 1px solid black; padding: 8px;">Como dueño de lavandería, quiero digitalizar la recepción de pedidos, prendas y notas de cuidado para evitar errores y pérdida de prendas.</td>
-      <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Registro integral de una orden</b><br><b>Dado</b> que el dueño recibe una solicitud de servicio<br><b>Cuando</b> registra las prendas, cantidades y notas de cuidado especial<br><b>Entonces</b> el sistema asocia la información al pedido<br><b>Y</b> permite organizarlo en Recepción, Clasificación, Lavado, Secado/Planchado, Empaquetado y Listo.<br><br><b>Escenario: Consulta centralizada</b><br><b>Dado</b> que el pedido tiene información registrada<br><b>Cuando</b> el dueño consulta su detalle<br><b>Entonces</b> visualiza el historial y las observaciones sin depender de cuadernos o papeles sueltos.</td>
-      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <td style="border: 1px solid black; padding: 8px;">US-034</td>
-      <td style="border: 1px solid black; padding: 8px;">Coordinar logística y pagos digitales</td>
-      <td style="border: 1px solid black; padding: 8px;">Como cliente final, quiero coordinar el recojo o envío de mi pedido y realizar pagos digitales para gestionar el servicio sin complicaciones.</td>
-      <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Solicitud con modalidad y pago digital</b><br><b>Dado</b> que el cliente crea una solicitud<br><b>Cuando</b> selecciona Recojo o Envío a domicilio, registra los datos logísticos y realiza el pago digital<br><b>Entonces</b> el sistema confirma el resultado del pago y lo asocia al pedido<br><b>Y</b> el dueño puede gestionar el estado logístico desde el panel central.</td>
-      <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio / EP-006: Gestión de pagos</td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <td style="border: 1px solid black; padding: 8px;">US-035</td>
-      <td style="border: 1px solid black; padding: 8px;">Consultar el avance del pedido en tiempo real</td>
-      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero consultar el avance de mi pedido durante el proceso de lavado para saber qué se ha realizado y qué falta completar.</td>
-      <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Consulta del avance del pedido</b><br><b>Dado</b> que el cliente tiene un pedido en proceso<br><b>Cuando</b> ingresa a la plataforma<br><b>Entonces</b> visualiza la etapa completada, la etapa en curso y las etapas pendientes<br><b>Y</b> el estado se actualiza automáticamente sin necesidad de llamar a la lavandería.</td>
-      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <td style="border: 1px solid black; padding: 8px;">US-036</td>
       <td style="border: 1px solid black; padding: 8px;">Conocer la fecha comprometida de entrega</td>
       <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero conocer con precisión cuándo estará listo mi pedido para organizar mi tiempo y tener certeza sobre la entrega.</td>
       <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Visualización de fecha comprometida</b><br><b>Dado</b> que el cliente tiene un pedido registrado<br><b>Cuando</b> consulta el resumen o detalle del pedido<br><b>Entonces</b> el sistema muestra la fecha y hora estimadas de disponibilidad.<br><br><b>Escenario: Actualización por retraso</b><br><b>Dado</b> que el pedido presenta un retraso<br><b>Cuando</b> la lavandería actualiza la fecha estimada<br><b>Entonces</b> el sistema comunica la nueva fecha y el motivo<br><b>Y</b> notifica al cliente cuando el pedido está listo.</td>
@@ -1787,7 +1770,7 @@ Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_
   </tbody>
   <tbody>
     <tr>
-      <td style="border: 1px solid black; padding: 8px;">US-037</td>
+      <td style="border: 1px solid black; padding: 8px;">US-034</td>
       <td style="border: 1px solid black; padding: 8px;">Garantizar la trazabilidad de las prendas</td>
       <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero que mis prendas estén identificadas y registradas correctamente para tener seguridad y confianza durante todo el servicio.</td>
       <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Trazabilidad de las prendas</b><br><b>Dado</b> que se recibe un pedido<br><b>Cuando</b> el personal registra las prendas, cantidades y características<br><b>Entonces</b> el sistema asigna un código único y conserva la información durante el proceso<br><b>Y</b> permite verificarla antes de cada etapa y de la entrega.<br><br><b>Escenario: Diferencia en las prendas</b><br><b>Dado</b> que existe una diferencia durante la verificación<br><b>Cuando</b> el personal la registra<br><b>Entonces</b> el sistema crea una incidencia visible en el historial del pedido.</td>
@@ -1796,7 +1779,7 @@ Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_
   </tbody>
   <tbody>
     <tr>
-      <td style="border: 1px solid black; padding: 8px;">US-038</td>
+      <td style="border: 1px solid black; padding: 8px;">US-035</td>
       <td style="border: 1px solid black; padding: 8px;">Solicitar recojo para prendas voluminosas</td>
       <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero solicitar el recojo de prendas voluminosas o pesadas para evitar traslados incómodos hacia la lavandería.</td>
       <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Recojo de prendas voluminosas</b><br><b>Dado</b> que el cliente necesita trasladar prendas voluminosas o pesadas<br><b>Cuando</b> selecciona el recojo a domicilio e indica el tipo o volumen de prendas<br><b>Entonces</b> el sistema muestra disponibilidad, costo y rango horario<br><b>Y</b> confirma la solicitud y permite consultar su estado.</td>
@@ -1805,7 +1788,7 @@ Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_
   </tbody>
   <tbody>
     <tr>
-      <td style="border: 1px solid black; padding: 8px;">US-039</td>
+      <td style="border: 1px solid black; padding: 8px;">US-036</td>
       <td style="border: 1px solid black; padding: 8px;">Consultar precios antes de confirmar el servicio</td>
       <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero conocer el precio del servicio según mis prendas y modalidad para comparar alternativas y tomar una decisión informada.</td>
       <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Consulta del precio del servicio</b><br><b>Dado</b> que el cliente selecciona prendas, servicio y modalidad<br><b>Cuando</b> revisa el resumen de la solicitud<br><b>Entonces</b> el sistema muestra el precio estimado y separa el costo logístico cuando corresponda<br><b>Y</b> permite revisar el total antes de confirmar o pagar.<br><br><b>Escenario: Cambio del precio final</b><br><b>Dado</b> que el precio cambia después de recibir las prendas<br><b>Cuando</b> la lavandería registra el nuevo monto<br><b>Entonces</b> el sistema solicita la confirmación del cliente y conserva el motivo del cambio.</td>
@@ -1815,7 +1798,7 @@ Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_
  
   <tbody>
     <tr>
-      <td style="border: 1px solid black; padding: 8px;">US-040</td>
+      <td style="border: 1px solid black; padding: 8px;">US-037</td>
       <td style="border: 1px solid black; padding: 8px;">Mantener una comunicación clara con el cliente</td>
       <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero recibir comunicaciones claras y oportunas sobre mi pedido para confiar en el servicio y reducir consultas repetitivas.</td>
       <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Comunicación automática del pedido</b><br><b>Dado</b> que ocurre la recepción, un cambio relevante, un retraso o la disponibilidad del pedido<br><b>Cuando</b> el sistema registra el evento<br><b>Entonces</b> comunica al cliente un mensaje breve, claro e identificado con su pedido<br><b>Y</b> conserva la comunicación en el historial.<br><br><b>Escenario: Comunicación manual</b><br><b>Dado</b> que el encargado necesita informar una situación al cliente<br><b>Cuando</b> registra la comunicación desde el pedido<br><b>Entonces</b> el sistema la asocia al historial correspondiente.</td>
@@ -1824,7 +1807,7 @@ Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_
   </tbody>
   <tbody>
     <tr>
-      <td style="border: 1px solid black; padding: 8px;">US-041</td>
+      <td style="border: 1px solid black; padding: 8px;">US-038</td>
       <td style="border: 1px solid black; padding: 8px;">Configurar preferencias de notificación</td>
       <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero activar o desactivar las notificaciones desde mi perfil, para controlar los avisos que recibo en mi dispositivo.</td>
       <td style="border: 1px solid black; padding: 8px;">

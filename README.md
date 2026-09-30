@@ -1290,24 +1290,27 @@ Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_
     </tr>
   </tbody>
   <tbody>
-    <tr>
-      <td style="border: 1px solid black; padding: 8px;">US-002</td>
-      <td style="border: 1px solid black; padding: 8px;">Consultar la hora estimada de finalización</td>
-      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero consultar la hora estimada en la que estarán listas mis prendas, para organizar mi tiempo y decidir cuándo recogerlas o solicitar su entrega.</td>
-      <td style="border: 1px solid black; padding: 8px;">
-        <b>Escenario: Visualización de fecha y hora estimadas</b><br>
-        <b>Dado</b> que el cliente tiene un pedido en proceso<br>
-        <b>Cuando</b> ingresa a los detalles de su pedido<br>
-        <b>Entonces</b> el sistema muestra la fecha y hora estimadas de finalización.<br><br>
-        <b>Escenario: Actualización por retraso</b><br>
-        <b>Dado</b> que un pedido sufre un retraso<br>
-        <b>Cuando</b> se actualiza la hora estimada de finalización<br>
-        <b>Entonces</b> el sistema muestra la nueva hora junto con el motivo<br>
-        <b>Y</b> se notifica al cliente cuando las prendas están listas.
-      </td>
-      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
-    </tr>
-  </tbody>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;">US-002</td>
+    <td style="border: 1px solid black; padding: 8px;">Consultar fecha estimada de entrega</td>
+    <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero consultar la fecha estimada de entrega de mi pedido, para conocer cuándo estará disponible y poder organizar mi tiempo.</td>
+    <td style="border: 1px solid black; padding: 8px;">
+      <b>Escenario 1: Mostrar fecha estimada</b><br>
+      <b>Dado</b> que el cliente tiene un pedido registrado y confirmado<br>
+      <b>Cuando</b> consulta la información del pedido<br>
+      <b>Entonces</b> el sistema muestra la fecha estimada de entrega correspondiente.<br><br>
+      <b>Escenario 2: Mostrar fecha según el servicio solicitado</b><br>
+      <b>Dado</b> que el cliente ha seleccionado un servicio de lavandería<br>
+      <b>Cuando</b> se registra el pedido<br>
+      <b>Entonces</b> el sistema calcula y muestra una fecha estimada de entrega de acuerdo con el servicio y tiempo de procesamiento configurado.<br><br>
+      <b>Escenario 3: Pedido sin fecha estimada</b><br>
+      <b>Dado</b> que el pedido aún no cuenta con una fecha estimada de entrega<br>
+      <b>Cuando</b> el cliente consulta su pedido<br>
+      <b>Entonces</b> el sistema informa que la fecha se encuentra pendiente de cálculo o confirmación.
+    </td>
+    <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
+  </tr>
+</tbody>
   <tbody>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-003</td>
@@ -1369,21 +1372,28 @@ Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_
       <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
     </tr>
   </tbody>
-  <tbody>
-    <tr>
-      <td style="border: 1px solid black; padding: 8px;">US-007</td>
-      <td style="border: 1px solid black; padding: 8px;">Registrar prendas</td>
-      <td style="border: 1px solid black; padding: 8px;">Como encargado, quiero registrar las prendas incluidas en un pedido para evitar pérdidas o confusiones.</td>
-      <td style="border: 1px solid black; padding: 8px;">
-        <b>Escenario: Detalle de prendas por pedido</b><br>
-        <b>Dado</b> que el encargado está creando o editando un pedido<br>
-        <b>Cuando</b> registra el tipo, cantidad, características y observaciones de cada prenda<br>
-        <b>Entonces</b> cada prenda queda asociada de forma segura a ese pedido<br>
-        <b>Y</b> el encargado puede consultar el detalle individual.
-      </td>
-      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
-    </tr>
-  </tbody>
+ <tbody>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;">US-007</td>
+    <td style="border: 1px solid black; padding: 8px;">Registrar prendas y servicio solicitado</td>
+    <td style="border: 1px solid black; padding: 8px;">Como encargado de lavandería, quiero registrar las prendas incluidas en un pedido, indicando su tipo, cantidad, servicio solicitado y observaciones de cuidado, para mantener un control detallado de las prendas y evitar pérdidas o confusiones durante el proceso.</td>
+    <td style="border: 1px solid black; padding: 8px;">
+      <b>Escenario 1: Registrar detalle de las prendas</b><br>
+      <b>Dado</b> que el encargado está creando o editando un pedido<br>
+      <b>Cuando</b> registra el tipo de prenda, cantidad, servicio solicitado y observaciones de cuidado<br>
+      <b>Entonces</b> el sistema guarda la información y la asocia correctamente al pedido correspondiente.<br><br>
+      <b>Escenario 2: Consultar prendas registradas</b><br>
+      <b>Dado</b> que existe un pedido con prendas registradas<br>
+      <b>Cuando</b> el encargado consulta el detalle del pedido<br>
+      <b>Entonces</b> el sistema muestra el tipo, cantidad, servicio solicitado y observaciones de cada prenda.<br><br>
+      <b>Escenario 3: Evitar el registro incompleto</b><br>
+      <b>Dado</b> que el encargado intenta registrar una prenda<br>
+      <b>Cuando</b> no ingresa un tipo de prenda o una cantidad válida<br>
+      <b>Entonces</b> el sistema solicita completar o corregir los datos obligatorios y no permite guardar el registro incompleto.
+    </td>
+    <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
+  </tr>
+</tbody>
   <tbody>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-008</td>
@@ -2038,18 +2048,10 @@ Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_
       <td style="border: 1px solid black; padding: 8px;">EP-006: Gestión de pagos</td>
     </tr>
   </tbody>
+ 
   <tbody>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-040</td>
-      <td style="border: 1px solid black; padding: 8px;">Registrar prendas y servicio solicitado</td>
-      <td style="border: 1px solid black; padding: 8px;">Como encargado de lavandería, quiero registrar las prendas y el servicio solicitado al recibirlas para conservar un detalle completo de la orden.</td>
-      <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Registro de prendas y servicio</b><br><b>Dado</b> que el encargado recibe las prendas del cliente<br><b>Cuando</b> registra el tipo, cantidad, servicio solicitado y observaciones de cuidado<br><b>Entonces</b> el sistema guarda el detalle asociado al pedido<br><b>Y</b> el cliente y el encargado pueden consultarlo antes de iniciar el procesamiento.</td>
-      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <td style="border: 1px solid black; padding: 8px;">US-041</td>
       <td style="border: 1px solid black; padding: 8px;">Mantener una comunicación clara con el cliente</td>
       <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero recibir comunicaciones claras y oportunas sobre mi pedido para confiar en el servicio y reducir consultas repetitivas.</td>
       <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Comunicación automática del pedido</b><br><b>Dado</b> que ocurre la recepción, un cambio relevante, un retraso o la disponibilidad del pedido<br><b>Cuando</b> el sistema registra el evento<br><b>Entonces</b> comunica al cliente un mensaje breve, claro e identificado con su pedido<br><b>Y</b> conserva la comunicación en el historial.<br><br><b>Escenario: Comunicación manual</b><br><b>Dado</b> que el encargado necesita informar una situación al cliente<br><b>Cuando</b> registra la comunicación desde el pedido<br><b>Entonces</b> el sistema la asocia al historial correspondiente.</td>

@@ -1721,12 +1721,22 @@ Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_
       <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
     </tr>
   </tbody>
-  <tbody>
+ <tbody>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-031</td>
       <td style="border: 1px solid black; padding: 8px;">Recibir alertas IoT predictivas</td>
       <td style="border: 1px solid black; padding: 8px;">Como dueño de lavandería, quiero recibir alertas sobre el uso de mis equipos para anticipar fallas y planificar su reemplazo.</td>
-      <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Equipo cercano al límite de uso</b><br><b>Dado</b> que un sensor IoT monitorea una lavadora en operación<br><b>Cuando</b> el uso alcanza el umbral cercano al límite configurado<br><b>Entonces</b> el panel genera una alerta visible con el nombre del equipo.<br><br><b>Escenario: Fin de vida útil del equipo</b><br><b>Dado</b> que el uso acumulado de una lavadora alcanza su límite<br><b>Cuando</b> el sensor reporta el fin de su vida útil<br><b>Entonces</b> el sistema genera una alerta de reemplazo<br><b>Y</b> el propietario puede consultar el uso y estado del equipo.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Equipo próximo al límite de uso (Alerta preventiva)</b><br>
+        <b>Dado</b> que un sensor IoT monitorea una lavadora en operación<br>
+        <b>Cuando</b> el uso acumulado alcanza el 90% de su vida útil configurada<br>
+        <b>Entonces</b> el sistema genera una alerta visible indicando que el equipo requiere atención preventiva.<br><br>
+        <b>Escenario 2: Fin de vida útil del equipo (Alerta de reemplazo)</b><br>
+        <b>Dado</b> que un sensor IoT monitorea una lavadora en operación<br>
+        <b>Cuando</b> el uso acumulado alcanza el 100% de su vida útil configurada<br>
+        <b>Entonces</b> el sistema genera una alerta de reemplazo<br>
+        <b>Y</b> el propietario puede consultar el uso y estado detallado del equipo.
+      </td>
       <td style="border: 1px solid black; padding: 8px;">EP-013: Monitoreo de equipos IoT</td>
     </tr>
   </tbody>

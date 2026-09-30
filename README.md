@@ -1311,21 +1311,27 @@ Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_
     <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
   </tr>
 </tbody>
-  <tbody>
+ <tbody>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-003</td>
       <td style="border: 1px solid black; padding: 8px;">Solicitar recojo de prendas a domicilio</td>
       <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero solicitar el recojo de mis prendas desde mi domicilio, para enviar mi ropa a la lavandería sin trasladarme al establecimiento.</td>
       <td style="border: 1px solid black; padding: 8px;">
-        <b>Escenario: Solicitud exitosa de recojo a domicilio</b><br>
+        <b>Escenario 1: Solicitud exitosa de recojo a domicilio</b><br>
         <b>Dado</b> que el cliente desea enviar prendas a la lavandería<br>
         <b>Cuando</b> registra/selecciona una dirección y elige una fecha y rango horario<br>
         <b>Entonces</b> el sistema muestra el costo del servicio<br>
-        <b>Y</b> al confirmar, el cliente recibe la confirmación y el estado del recojo.
+        <b>Y</b> al confirmar, el cliente recibe la confirmación y el estado del recojo.<br><br>
+        <b>Escenario 2: Dirección fuera de cobertura</b><br>
+        <b>Dado</b> que el cliente registra una dirección para solicitar el recojo<br>
+        <b>Cuando</b> la dirección se encuentra fuera del área de cobertura<br>
+        <b>Entonces</b> el sistema informa que el servicio no está disponible para esa ubicación<br>
+        <b>Y</b> no permite confirmar la solicitud de recojo.
       </td>
       <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td>
     </tr>
   </tbody>
+</table>
   <tbody>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-004</td>
@@ -1803,6 +1809,26 @@ Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_
       <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos / EP-007: Atención de incidencias</td>
     </tr>
   </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-041</td>
+      <td style="border: 1px solid black; padding: 8px;">Configurar preferencias de notificación</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero activar o desactivar las notificaciones desde mi perfil, para controlar los avisos que recibo en mi dispositivo.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Cambiar preferencia de notificaciones</b><br>
+        <b>Dado</b> que el cliente se encuentra en la sección de configuración de su perfil<br>
+        <b>Cuando</b> selecciona activar o desactivar la opción de notificaciones<br>
+        <b>Entonces</b> el sistema guarda la preferencia seleccionada<br>
+        <b>Y</b> muestra un mensaje confirmando la actualización de la configuración.<br><br>
+        <b>Escenario 2: Restricción de notificaciones desactivadas</b><br>
+        <b>Dado</b> que el cliente desactivó las notificaciones en su perfil<br>
+        <b>Cuando</b> un pedido cambie de estado en el sistema<br>
+        <b>Entonces</b> el sistema no genera alertas ni notificaciones push hacia el dispositivo del cliente.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
+    </tr>
+  </tbody>
+</table>
 </table>
 
 ### 3.2. Impact Mapping

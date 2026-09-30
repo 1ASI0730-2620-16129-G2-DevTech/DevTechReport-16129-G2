@@ -1331,7 +1331,6 @@ Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_
       <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td>
     </tr>
   </tbody>
-</table>
   <tbody>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-004</td>
@@ -1465,15 +1464,19 @@ Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_
       <td style="border: 1px solid black; padding: 8px;">Realizar pagos digitales</td>
       <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero pagar mi pedido desde la plataforma para completar el servicio de forma rápida y segura.</td>
       <td style="border: 1px solid black; padding: 8px;">
-        <b>Escenario: Procesamiento de pago digital</b><br>
+        <b>Escenario 1: Procesamiento de pago digital aprobado</b><br>
         <b>Dado</b> que el cliente revisa un pedido con saldo pendiente<br>
         <b>Cuando</b> selecciona un medio de pago y la pasarela confirma la operación<br>
-        <b>Entonces</b> el estado del pago se actualiza automáticamente en el sistema.
+        <b>Entonces</b> el estado del pago se actualiza automáticamente en el sistema.<br><br>
+        <b>Escenario 2: Pago rechazado</b><br>
+        <b>Dado</b> que el cliente tiene un saldo pendiente<br>
+        <b>Cuando</b> selecciona un medio de pago y la operación es rechazada por la pasarela<br>
+        <b>Entonces</b> el sistema informa que el pago no fue aprobado<br>
+        <b>Y</b> mantiene el pedido con el estado de pago pendiente.
       </td>
       <td style="border: 1px solid black; padding: 8px;">EP-006: Gestión de pagos</td>
     </tr>
   </tbody>
-  <tbody>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-013</td>
       <td style="border: 1px solid black; padding: 8px;">Gestionar incidencias</td>

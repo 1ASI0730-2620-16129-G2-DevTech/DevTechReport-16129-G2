@@ -1259,8 +1259,6 @@ Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_
 
 ### 3.1. User Stories
 
-### 3.1. User Stories
-
 
 <table style="border-collapse: collapse; width: 100%;">
   <thead>
@@ -1272,21 +1270,21 @@ Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_
       <th style="border: 1px solid black; padding: 8px; text-align: left;">Relacionado con (Epic ID)</th>
     </tr>
   </thead>
-  <tbody>
+<tbody>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-001</td>
       <td style="border: 1px solid black; padding: 8px;">Recibir notificaciones del estado del pedido</td>
       <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero recibir notificaciones sobre los cambios de estado de mis prendas, para conocer el avance de mi pedido sin tener que comunicarme con la lavandería.</td>
       <td style="border: 1px solid black; padding: 8px;">
-        <b>Escenario: Notificación automática por cambio de estado</b><br>
+        <b>Escenario 1: Notificación automática por cambio de estado</b><br>
         <b>Dado</b> que el cliente tiene las notificaciones activadas en la aplicación<br>
         <b>Cuando</b> el pedido cambie a estado de recepción, lavado, secado, planchado o finalización<br>
         <b>Entonces</b> el sistema envía una notificación identificando el pedido y la fecha<br>
         <b>Y</b> el cliente puede visualizar el nuevo estado en el historial.<br><br>
-        <b>Escenario: Configuración de notificaciones</b><br>
-        <b>Dado</b> que el cliente se encuentra en la configuración de su perfil<br>
-        <b>Cuando</b> selecciona desactivar o activar las notificaciones<br>
-        <b>Entonces</b> el sistema guarda su preferencia.
+        <b>Escenario 2: Notificación de pedido listo para recojo o entrega</b><br>
+        <b>Dado</b> que el pedido ha completado la última etapa del servicio<br>
+        <b>Cuando</b> el estado cambia a "Listo"<br>
+        <b>Entonces</b> el sistema envía una notificación prioritaria confirmando la disponibilidad del pedido.
       </td>
       <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
     </tr>

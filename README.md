@@ -1795,16 +1795,26 @@ Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_
       <td style="border: 1px solid black; padding: 8px;">EP-006: Gestión de pagos</td>
     </tr>
   </tbody>
- 
-  <tbody>
+ <tbody>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-037</td>
-      <td style="border: 1px solid black; padding: 8px;">Mantener una comunicación clara con el cliente</td>
-      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero recibir comunicaciones claras y oportunas sobre mi pedido para confiar en el servicio y reducir consultas repetitivas.</td>
-      <td style="border: 1px solid black; padding: 8px;"><b>Escenario: Comunicación automática del pedido</b><br><b>Dado</b> que ocurre la recepción, un cambio relevante, un retraso o la disponibilidad del pedido<br><b>Cuando</b> el sistema registra el evento<br><b>Entonces</b> comunica al cliente un mensaje breve, claro e identificado con su pedido<br><b>Y</b> conserva la comunicación en el historial.<br><br><b>Escenario: Comunicación manual</b><br><b>Dado</b> que el encargado necesita informar una situación al cliente<br><b>Cuando</b> registra la comunicación desde el pedido<br><b>Entonces</b> el sistema la asocia al historial correspondiente.</td>
-      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos / EP-007: Atención de incidencias</td>
+      <td style="border: 1px solid black; padding: 8px;">Registrar comunicaciones manuales con el cliente</td>
+      <td style="border: 1px solid black; padding: 8px;">Como encargado de lavandería, quiero registrar las comunicaciones manuales realizadas con el cliente para mantener un historial de las conversaciones relacionadas con el pedido.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Registro exitoso de comunicación manual</b><br>
+        <b>Dado</b> que el encargado contacta al cliente por llamada o mensaje directo<br>
+        <b>Cuando</b> ingresa el canal, motivo y resumen del mensaje en la orden del cliente<br>
+        <b>Entonces</b> el sistema guarda la interacción con la fecha y hora exactas<br>
+        <b>Y</b> la vincula al historial del pedido correspondiente.<br><br>
+        <b>Escenario 2: Consulta del historial de conversaciones</b><br>
+        <b>Dado</b> que existen comunicaciones registradas previamente para un pedido<br>
+        <b>Cuando</b> el encargado o trabajador consulta el detalle de la orden<br>
+        <b>Entonces</b> el sistema despliega el registro cronológico de todas las interacciones manuales guardadas.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-007: Atención de incidencias</td>
     </tr>
   </tbody>
+
   <tbody>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-038</td>

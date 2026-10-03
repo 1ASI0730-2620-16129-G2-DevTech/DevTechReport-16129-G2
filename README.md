@@ -1600,6 +1600,15 @@ El Product Backlog de WashTrack contiene las historias de usuario identificadas 
 | 37 | US-025 | Coordinar entregas a domicilio | Como propietario de lavandería, quiero consultar las direcciones y horarios acordados para organizar las entregas a domicilio de manera ordenada. | 5 |
 | 38 | US-031 | Recibir alertas IoT predictivas | Como dueño de lavandería, quiero recibir alertas sobre el uso de mis equipos para anticipar fallas y planificar su reemplazo. | 8 |
 
+<br>
+
+
+<p align="center">
+  <img src="assets/img/Chapter3/product_backlog.png" alt="Product Backlog" width="800"/>
+  <i>Artefacto: Trello para el product backlog</i>
+</p>
+
+
 **Definition of Done**
 
 Una historia se considera terminada cuando cumple sus criterios de aceptación, cuenta con validaciones de datos y manejo de errores, tiene pruebas funcionales, se integra con el flujo correspondiente, se verifica en escritorio y dispositivo móvil y queda documentada para el equipo.

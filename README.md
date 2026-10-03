@@ -1273,15 +1273,15 @@ Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_
 <tr>
 <td>US-001</td>
 <td>Recibir notificaciones del estado del pedido</td>
-<td>Como cliente, quiero recibir notificaciones sobre los cambios de estado de mis prendas, para conocer el avance de mi pedido sin tener que comunicarme con la lavandería.</td>
-<td><b>Escenario: Notificación automática por cambio de estado</b><br><b>Dado</b> que el cliente tiene las notificaciones activadas en la aplicación<br><b>Cuando</b> el pedido cambie a estado de recepción, lavado, secado, planchado o finalización<br><b>Entonces</b> el sistema envía una notificación identificando el pedido y la fecha<br><b>Y</b> el cliente puede visualizar el nuevo estado en el historial.<br><br><b>Escenario: Configuración de notificaciones</b><br><b>Dado</b> que el cliente se encuentra en la configuración de su perfil<br><b>Cuando</b> selecciona desactivar o activar las notificaciones<br><b>Entonces</b> el sistema guarda su preferencia.</td>
+<td>Como cliente, quiero recibir y gestionar notificaciones sobre los cambios de estado de mi pedido, para conocer el avance de mis prendas sin tener que comunicarme con la lavandería.</td>
+<td><b>Escenario: Notificación automática por cambio de estado</b><br><b>Dado</b> que el cliente tiene las notificaciones activadas en la aplicación<br><b>Cuando</b> el pedido cambie de etapa o estado, como recepción, clasificación, lavado, secado/planchado, empaquetado o listo<br><b>Entonces</b> el sistema envía una notificación identificando el pedido, la nueva etapa y la fecha y hora del cambio<br><b>Y</b> el cliente puede visualizar la notificación y consultar el nuevo estado en el historial.<br><br><b>Escenario: Configuración de notificaciones</b><br><b>Dado</b> que el cliente se encuentra en la configuración de su perfil<br><b>Cuando</b> selecciona activar o desactivar las notificaciones<br><b>Entonces</b> el sistema guarda su preferencia<br><b>Y</b> envía las notificaciones de acuerdo con la configuración seleccionada.</td>
 <td>EP-001: Seguimiento y comunicación</td>
 </tr>
 <tr>
 <td>US-002</td>
-<td>Consultar la hora estimada de finalización</td>
-<td>Como cliente, quiero consultar la hora estimada en la que estarán listas mis prendas, para organizar mi tiempo y decidir cuándo recogerlas o solicitar su entrega.</td>
-<td><b>Escenario: Visualización de fecha y hora estimadas</b><br><b>Dado</b> que el cliente tiene un pedido en proceso<br><b>Cuando</b> ingresa a los detalles de su pedido<br><b>Entonces</b> el sistema muestra la fecha y hora estimadas de finalización.<br><br><b>Escenario: Actualización por retraso</b><br><b>Dado</b> que un pedido sufre un retraso<br><b>Cuando</b> se actualiza la hora estimada de finalización<br><b>Entonces</b> el sistema muestra la nueva hora junto con el motivo<br><b>Y</b> se notifica al cliente cuando las prendas están listas.</td>
+<td>Consultar la fecha estimada de finalización</td>
+<td>Como cliente, quiero consultar la fecha y hora estimadas de finalización de mi pedido y recibir información cuando esta cambie, para organizar mi tiempo y saber cuándo estarán disponibles mis prendas.</td>
+<td><b>Escenario: Visualización de fecha y hora estimadas</b><br><b>Dado</b> que el cliente tiene un pedido en proceso<br><b>Cuando</b> ingresa a los detalles de su pedido<br><b>Entonces</b> el sistema muestra la fecha y hora estimadas de finalización.<br><br><b>Escenario: Actualización por retraso</b><br><b>Dado</b> que un pedido presenta un retraso<br><b>Cuando</b> la lavandería actualiza la fecha u hora estimada de finalización<br><b>Entonces</b> el sistema muestra la nueva fecha y hora junto con el motivo del cambio<br><b>Y</b> notifica al cliente sobre la actualización.<br><br><b>Escenario: Pedido disponible</b><br><b>Dado</b> que el pedido ha finalizado<br><b>Cuando</b> las prendas se encuentran disponibles para su entrega o recojo<br><b>Entonces</b> el sistema notifica al cliente que su pedido está listo.</td>
 <td>EP-001: Seguimiento y comunicación</td>
 </tr>
 <tr>
@@ -1475,83 +1475,69 @@ Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_
 </tr>
 <tr>
 <td>US-030</td>
-<td>Recibir notificaciones automáticas por etapa</td>
-<td>Como cliente final, quiero recibir notificaciones automáticas cuando cambie el estado de mi pedido para evitar llamadas de consulta.</td>
-<td><b>Escenario: Notificación automática por cambio de etapa</b><br><b>Dado</b> que un pedido tiene un cliente asociado<br><b>Cuando</b> la lavandería actualiza su etapa<br><b>Entonces</b> el sistema envía una notificación automática identificando el pedido y su nuevo avance<br><b>Y</b> el cliente puede consultarla claramente desde la plataforma sin realizar una llamada.</td>
-<td>EP-001: Seguimiento y comunicación</td>
-</tr>
-<tr>
-<td>US-031</td>
 <td>Recibir alertas IoT predictivas</td>
 <td>Como dueño de lavandería, quiero recibir alertas sobre el uso de mis equipos para anticipar fallas y planificar su reemplazo.</td>
 <td><b>Escenario: Equipo cercano al límite de uso</b><br><b>Dado</b> que un sensor IoT monitorea una lavadora en operación<br><b>Cuando</b> el uso alcanza el umbral cercano al límite configurado<br><b>Entonces</b> el panel genera una alerta visible con el nombre del equipo.<br><br><b>Escenario: Fin de vida útil del equipo</b><br><b>Dado</b> que el uso acumulado de una lavadora alcanza su límite<br><b>Cuando</b> el sensor reporta el fin de su vida útil<br><b>Entonces</b> el sistema genera una alerta de reemplazo<br><b>Y</b> el propietario puede consultar el uso y estado del equipo.</td>
 <td>EP-006: Administración, reportes y monitoreo</td>
 </tr>
 <tr>
-<td>US-032</td>
+<td>US-031</td>
 <td>Enviar formulario de captura de leads</td>
 <td>Como nuevo usuario, quiero completar un formulario con mis datos y necesidades para recibir información sobre planes y servicios adecuados para mi negocio.</td>
 <td><b>Escenario: Envío válido del formulario</b><br><b>Dado</b> que el usuario accede a Contacto o Planes<br><b>Cuando</b> completa Nombres, Correo, Tipo de Usuario, Servicio y Mensaje, seleccionando Cliente o Dueño de lavandería<br><b>Entonces</b> el sistema confirma el envío de la solicitud.<br><br><b>Escenario: Validación de campos obligatorios</b><br><b>Dado</b> que falta uno o más campos del formulario<br><b>Cuando</b> el usuario intenta enviarlo<br><b>Entonces</b> el sistema muestra el mensaje "Complete todos los campos"<br><b>Y</b> no envía la solicitud.</td>
 <td>EP-005: Servicios, pagos y suscripciones</td>
 </tr>
 <tr>
-<td>US-033</td>
+<td>US-032</td>
 <td>Gestionar integralmente los pedidos</td>
 <td>Como dueño de lavandería, quiero digitalizar la recepción de pedidos, prendas y notas de cuidado para evitar errores y pérdida de prendas.</td>
 <td><b>Escenario: Registro integral de una orden</b><br><b>Dado</b> que el dueño recibe una solicitud de servicio<br><b>Cuando</b> registra las prendas, cantidades y notas de cuidado especial<br><b>Entonces</b> el sistema asocia la información al pedido<br><b>Y</b> permite organizarlo en Recepción, Clasificación, Lavado, Secado/Planchado, Empaquetado y Listo.<br><br><b>Escenario: Consulta centralizada</b><br><b>Dado</b> que el pedido tiene información registrada<br><b>Cuando</b> el dueño consulta su detalle<br><b>Entonces</b> visualiza el historial y las observaciones sin depender de cuadernos o papeles sueltos.</td>
 <td>EP-003: Gestión de pedidos y trazabilidad</td>
 </tr>
 <tr>
-<td>US-034</td>
+<td>US-033</td>
 <td>Coordinar logística y pagos digitales</td>
 <td>Como cliente final, quiero coordinar el recojo o envío de mi pedido y realizar pagos digitales para gestionar el servicio sin complicaciones.</td>
 <td><b>Escenario: Solicitud con modalidad y pago digital</b><br><b>Dado</b> que el cliente crea una solicitud<br><b>Cuando</b> selecciona Recojo o Envío a domicilio, registra los datos logísticos y realiza el pago digital<br><b>Entonces</b> el sistema confirma el resultado del pago y lo asocia al pedido<br><b>Y</b> el dueño puede gestionar el estado logístico desde el panel central.</td>
 <td>EP-002: Logística y entregas</td>
 </tr>
 <tr>
-<td>US-035</td>
+<td>US-034</td>
 <td>Consultar el avance del pedido en tiempo real</td>
 <td>Como cliente, quiero consultar el avance de mi pedido durante el proceso de lavado para saber qué se ha realizado y qué falta completar.</td>
 <td><b>Escenario: Consulta del avance del pedido</b><br><b>Dado</b> que el cliente tiene un pedido en proceso<br><b>Cuando</b> ingresa a la plataforma<br><b>Entonces</b> visualiza la etapa completada, la etapa en curso y las etapas pendientes<br><b>Y</b> el estado se actualiza automáticamente sin necesidad de llamar a la lavandería.</td>
 <td>EP-001: Seguimiento y comunicación</td>
 </tr>
 <tr>
-<td>US-036</td>
-<td>Conocer la fecha comprometida de entrega</td>
-<td>Como cliente, quiero conocer con precisión cuándo estará listo mi pedido para organizar mi tiempo y tener certeza sobre la entrega.</td>
-<td><b>Escenario: Visualización de fecha comprometida</b><br><b>Dado</b> que el cliente tiene un pedido registrado<br><b>Cuando</b> consulta el resumen o detalle del pedido<br><b>Entonces</b> el sistema muestra la fecha y hora estimadas de disponibilidad.<br><br><b>Escenario: Actualización por retraso</b><br><b>Dado</b> que el pedido presenta un retraso<br><b>Cuando</b> la lavandería actualiza la fecha estimada<br><b>Entonces</b> el sistema comunica la nueva fecha y el motivo<br><b>Y</b> notifica al cliente cuando el pedido está listo.</td>
-<td>EP-001: Seguimiento y comunicación</td>
-</tr>
-<tr>
-<td>US-037</td>
+<td>US-035</td>
 <td>Garantizar la trazabilidad de las prendas</td>
 <td>Como cliente, quiero que mis prendas estén identificadas y registradas correctamente para tener seguridad y confianza durante todo el servicio.</td>
 <td><b>Escenario: Trazabilidad de las prendas</b><br><b>Dado</b> que se recibe un pedido<br><b>Cuando</b> el personal registra las prendas, cantidades y características<br><b>Entonces</b> el sistema asigna un código único y conserva la información durante el proceso<br><b>Y</b> permite verificarla antes de cada etapa y de la entrega.<br><br><b>Escenario: Diferencia en las prendas</b><br><b>Dado</b> que existe una diferencia durante la verificación<br><b>Cuando</b> el personal la registra<br><b>Entonces</b> el sistema crea una incidencia visible en el historial del pedido.</td>
 <td>EP-003: Gestión de pedidos y trazabilidad</td>
 </tr>
 <tr>
-<td>US-038</td>
+<td>US-036</td>
 <td>Solicitar recojo para prendas voluminosas</td>
 <td>Como cliente, quiero solicitar el recojo de prendas voluminosas o pesadas para evitar traslados incómodos hacia la lavandería.</td>
 <td><b>Escenario: Recojo de prendas voluminosas</b><br><b>Dado</b> que el cliente necesita trasladar prendas voluminosas o pesadas<br><b>Cuando</b> selecciona el recojo a domicilio e indica el tipo o volumen de prendas<br><b>Entonces</b> el sistema muestra disponibilidad, costo y rango horario<br><b>Y</b> confirma la solicitud y permite consultar su estado.</td>
 <td>EP-002: Logística y entregas</td>
 </tr>
 <tr>
-<td>US-039</td>
+<td>US-037</td>
 <td>Consultar precios antes de confirmar el servicio</td>
 <td>Como cliente, quiero conocer el precio del servicio según mis prendas y modalidad para comparar alternativas y tomar una decisión informada.</td>
 <td><b>Escenario: Consulta del precio del servicio</b><br><b>Dado</b> que el cliente selecciona prendas, servicio y modalidad<br><b>Cuando</b> revisa el resumen de la solicitud<br><b>Entonces</b> el sistema muestra el precio estimado y separa el costo logístico cuando corresponda<br><b>Y</b> permite revisar el total antes de confirmar o pagar.<br><br><b>Escenario: Cambio del precio final</b><br><b>Dado</b> que el precio cambia después de recibir las prendas<br><b>Cuando</b> la lavandería registra el nuevo monto<br><b>Entonces</b> el sistema solicita la confirmación del cliente y conserva el motivo del cambio.</td>
 <td>EP-005: Servicios, pagos y suscripciones</td>
 </tr>
 <tr>
-<td>US-040</td>
+<td>US-038</td>
 <td>Registrar prendas y servicio solicitado</td>
 <td>Como encargado de lavandería, quiero registrar las prendas y el servicio solicitado al recibirlas para conservar un detalle completo de la orden.</td>
 <td><b>Escenario: Registro de prendas y servicio</b><br><b>Dado</b> que el encargado recibe las prendas del cliente<br><b>Cuando</b> registra el tipo, cantidad, servicio solicitado y observaciones de cuidado<br><b>Entonces</b> el sistema guarda el detalle asociado al pedido<br><b>Y</b> el cliente y el encargado pueden consultarlo antes de iniciar el procesamiento.</td>
 <td>EP-003: Gestión de pedidos y trazabilidad</td>
 </tr>
 <tr>
-<td>US-041</td>
+<td>US-039</td>
 <td>Mantener una comunicación clara con el cliente</td>
 <td>Como cliente, quiero recibir comunicaciones claras y oportunas sobre mi pedido para confiar en el servicio y reducir consultas repetitivas.</td>
 <td><b>Escenario: Comunicación automática del pedido</b><br><b>Dado</b> que ocurre la recepción, un cambio relevante, un retraso o la disponibilidad del pedido<br><b>Cuando</b> el sistema registra el evento<br><b>Entonces</b> comunica al cliente un mensaje breve, claro e identificado con su pedido<br><b>Y</b> conserva la comunicación en el historial.<br><br><b>Escenario: Comunicación manual</b><br><b>Dado</b> que el encargado necesita informar una situación al cliente<br><b>Cuando</b> registra la comunicación desde el pedido<br><b>Entonces</b> el sistema la asocia al historial correspondiente.</td>

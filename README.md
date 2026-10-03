@@ -3587,36 +3587,31 @@ Esta distribución no representa una jerarquía dentro del equipo, sino una form
 La distribución permitió que los integrantes participaran en más de un aspecto del Sprint, manteniendo una dinámica colaborativa en lugar de asignar cada actividad de manera completamente independiente. Asimismo, debido a que la documentación y la implementación se desarrollaron en paralelo, los responsables de cada aspecto mantuvieron coordinación para incorporar cambios provenientes de los demás artefactos del proyecto.
 
 ##### 5.2.1.3. Sprint Backlog 1
+
 El Sprint Backlog 1 contiene las actividades necesarias para alcanzar el Sprint Goal y desarrollar las User Stories seleccionadas para la primera versión de la Landing Page.
 
-Las tareas fueron organizadas considerando que el trabajo se realizó de forma paralela desde las primeras semanas del ciclo. Por esta razón, el orden presentado no representa necesariamente una secuencia estrictamente cronológica de ejecución, sino la agrupación de las actividades realizadas para completar cada User Story y obtener el incremento del Sprint.
+Las tareas fueron organizadas considerando que el trabajo se realizó de forma paralela desde las primeras semanas del ciclo. Por esta razón, el orden presentado no representa necesariamente una secuencia estrictamente cronológica de ejecución, sino la agrupación de las actividades realizadas para completar cada User Story y obtener el incremento correspondiente al Sprint.
 
-| ID | User Story | Tarea | Responsable | Estimación | Estado |
-|---|---|---|---|---:|---|
-| **T01** | US01 | Definir la estructura general de la Landing Page y sus principales secciones. | Pérez Vásquez, Ariana Valeria | 1 | Completado |
-| **T02** | US03 | Implementar la sección dirigida a proveedores de servicios de lavandería. | Ramos Fuentes Rivera, Adriana Nicole | 1 | Completado |
-| **T03** | US01 | Implementar la sección principal de presentación de WashTrack y su propuesta de valor. | Ramos Fuentes Rivera, Adriana Nicole | 1 | Completado |
-| **T04** | US02 | Incorporar el acceso y CTA correspondiente a la experiencia del cliente. | Tufiño Argüelles, Luis Angel | 2 | Completado |
-| **T05** | US01 | Implementar la sección de características y beneficios principales de WashTrack. | Ramirez Gutierrez, Gabriel | 1 | Completado |
-| **T06** | US03 | Revisar el contenido y la presentación de la propuesta de valor para proveedores. | Ramos Fuentes Rivera, Adriana Nicole / Pérez Vásquez, Ariana Valeria | 2 | Completado |
-| **T07** | US02 | Integrar los elementos de navegación relacionados con el acceso del cliente. | Sayago Vidal, Sebastián Leonardo / Tufiño Argüelles, Luis Angel | 2 | Completado |
-| **T08** | US01 | Adaptar la distribución de las secciones para diferentes tamaños de pantalla. | Sayago Vidal, Sebastián Leonardo | 1 | Completado |
-| **T09** | US03 | Incorporar CTA y elementos de orientación para proveedores. | Tufiño Argüelles, Luis Angel | 2 | Completado |
-| **T10** | US01 | Revisar la consistencia visual y textual de la Landing Page. | Pérez Vásquez, Ariana Valeria / Ramos Fuentes Rivera, Adriana Nicole | 1 | Completado |
-| **T11** | US02 | Verificar el flujo de navegación desde la Landing Page hacia la experiencia del cliente. | Ramirez Gutierrez, Gabriel / Sayago Vidal, Sebastián Leonardo | 1 | Completado |
-| **T12** | US03 | Verificar el flujo de navegación desde la Landing Page hacia la experiencia del proveedor. | Ramirez Gutierrez, Gabriel / Tufiño Argüelles, Luis Angel | 2 | Completado |
-| **T13** | US01 | Realizar revisión funcional de la primera versión de la Landing Page. | Todo el equipo | 2 | Completado |
-| **T14** | US01 / US02 / US03 | Integrar los cambios finales y preparar la versión del Sprint para su revisión y despliegue. | Todo el equipo | 3 | Completado |
+| Sprint # | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---|---:|---|---|
+| Sprint 1 | US01 | Conocer WashTrack | T01 | Definir estructura de la Landing Page | Definir la estructura general de la Landing Page y sus principales secciones para presentar la propuesta de valor de WashTrack. | 1 | Pérez Vásquez, Ariana Valeria | Done |
+| Sprint 1 | US03 | Acceder como proveedor | T02 | Implementar sección para proveedores | Implementar la sección dirigida a proveedores de servicios de lavandería dentro de la Landing Page. | 1 | Ramos Fuentes Rivera, Adriana Nicole | Done |
+| Sprint 1 | US01 | Conocer WashTrack | T03 | Implementar propuesta de valor | Implementar la sección principal de presentación de WashTrack y comunicar su propuesta de valor. | 1 | Ramos Fuentes Rivera, Adriana Nicole | Done |
+| Sprint 1 | US02 | Acceder como cliente | T04 | Incorporar acceso para clientes | Incorporar el acceso y CTA correspondiente a la experiencia del cliente desde la Landing Page. | 2 | Tufiño Argüelles, Luis Angel | Done |
+| Sprint 1 | US01 | Conocer WashTrack | T05 | Implementar características y beneficios | Implementar la sección de características y beneficios principales de WashTrack. | 1 | Ramirez Gutierrez, Gabriel | Done |
+| Sprint 1 | US03 | Acceder como proveedor | T06 | Revisar propuesta para proveedores | Revisar el contenido y la presentación de la propuesta de valor dirigida a proveedores de servicios de lavandería. | 2 | Ramos Fuentes Rivera, Adriana Nicole / Pérez Vásquez, Ariana Valeria | Done |
+| Sprint 1 | US02 | Acceder como cliente | T07 | Integrar navegación para clientes | Integrar los elementos de navegación relacionados con el acceso del cliente desde la Landing Page. | 2 | Sayago Vidal, Sebastián Leonardo / Tufiño Argüelles, Luis Angel | Done |
+| Sprint 1 | US01 | Conocer WashTrack | T08 | Adaptar diseño responsive | Adaptar la distribución de las secciones de la Landing Page para diferentes tamaños de pantalla. | 1 | Sayago Vidal, Sebastián Leonardo | Done |
+| Sprint 1 | US03 | Acceder como proveedor | T09 | Incorporar CTA para proveedores | Incorporar CTA y elementos de orientación para facilitar el acceso de los proveedores a su experiencia. | 2 | Tufiño Argüelles, Luis Angel | Done |
+| Sprint 1 | US01 | Conocer WashTrack | T10 | Revisar consistencia de la Landing Page | Revisar la consistencia visual y textual de los contenidos implementados en la Landing Page. | 1 | Pérez Vásquez, Ariana Valeria / Ramos Fuentes Rivera, Adriana Nicole | Done |
+| Sprint 1 | US02 | Acceder como cliente | T11 | Verificar navegación del cliente | Verificar el flujo de navegación desde la Landing Page hacia la experiencia correspondiente al cliente. | 1 | Ramirez Gutierrez, Gabriel / Sayago Vidal, Sebastián Leonardo | Done |
+| Sprint 1 | US03 | Acceder como proveedor | T12 | Verificar navegación del proveedor | Verificar el flujo de navegación desde la Landing Page hacia la experiencia correspondiente al proveedor. | 2 | Ramirez Gutierrez, Gabriel / Tufiño Argüelles, Luis Angel | Done |
+| Sprint 1 | US01 | Conocer WashTrack | T13 | Realizar revisión funcional | Realizar una revisión funcional de la primera versión de la Landing Page antes de su integración y despliegue. | 2 | Todo el equipo | Done |
+| Sprint 1 | US01 / US02 / US03 | Conocer WashTrack / Acceder como cliente / Acceder como proveedor | T14 | Integrar versión del Sprint | Integrar los cambios finales y preparar la versión correspondiente al Sprint 1 para su revisión y despliegue. | 3 | Todo el equipo | Done |
 
-#### Relación entre User Stories y tareas
+El Sprint Backlog 1 permitió organizar las actividades asociadas a las User Stories **US01 – Conocer WashTrack**, **US02 – Acceder como cliente** y **US03 – Acceder como proveedor**. Las tareas definidas fueron completadas durante el Sprint y contribuyeron a la obtención del incremento correspondiente a la primera versión de la Landing Page.
 
-| User Story | Tareas asociadas |
-|---|---|
-| **US01 – Conocer WashTrack** | T01, T03, T05, T08, T10, T13, T14 |
-| **US02 – Acceder como cliente** | T04, T07, T11, T14 |
-| **US03 – Acceder como proveedor** | T02, T06, T09, T12, T14 |
-
-El resultado esperado del Sprint Backlog es una primera versión de la Landing Page que permita cumplir las tres User Stories seleccionadas. La implementación constituye el incremento correspondiente al Sprint 1 y sirve como base para las iteraciones posteriores del producto, en las cuales se incorporarán nuevas versiones de la Landing Page junto con las Web Applications y los Web Services.
+El estado de las actividades se registra como **Done**, debido a que las tareas consideradas en este Sprint fueron completadas para la revisión correspondiente. Este incremento constituye la base para las siguientes iteraciones del producto, en las cuales se incorporarán nuevas versiones de la Landing Page junto con las Web Applications y los Web Services.
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 

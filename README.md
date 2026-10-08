@@ -210,12 +210,20 @@ URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-D
         - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
         - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
         - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-      - [Relación entre User Stories y tareas](#relación-entre-user-stories-y-tareas)
         - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
         - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
         - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
         - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
         - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+        - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+        - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+        - [5.2.2.3. Sprint Backlog 1](#5223-sprint-backlog-2)
+        - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+        - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+        - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+        - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+        - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
     - [5.3. Validation Interviews](#53-validation-interviews)
       - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
       - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -275,7 +283,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <em><b>AV1</b></em><br>
         Participé activamente en el desarrollo del proyecto WashTrack, asumiendo responsabilidades relacionadas con el diseño y documentación técnica del sistema.
         Desarrollé y estructuré los contenidos correspondientes a la arquitectura de software, EventStorming, diagramas C4, diagramas de componentes, diseño orientado a objetos y diseño de base de datos.
-        ...<br>
+        <br><em><b>TB1</b></em><br>
+        Participé activamente en el desarrollo del proyecto WashTrack, contribuyendo al diseño y la documentación técnica de la arquitectura del sistema. En este avance, profundicé en el diseño orientado a objetos mediante la elaboración del diagrama de clases correspondiente al Bounded Context de Laundry Operations, organizando sus componentes en las capas de presentación, aplicación, dominio e infraestructura. Asimismo, identifiqué las responsabilidades de sus principales clases y servicios, así como su relación con la gestión de órdenes, ciclos de lavado, recursos e integración con sistemas externos. También preparé y desarrollé la explicación de este contexto para el video de exposición, relacionando las funcionalidades desde la perspectiva del usuario con su implementación a nivel de software.
+
+<br>
         <b>Tufiño Argüelles, Luis Angel</b><br>
         <em><b>AV1</b></em><br>
         - Propuso y sustentó ante el equipo los criterios de usabilidad y arquitectura de información aplicados en el diseño de las pantallas de WashTrack (Dashboard, Pedidos, Clientes, Pagos), argumentando cada decisión con heurísticas de Nielsen y principios de Gestalt.<br>
@@ -312,7 +323,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <em><b>AV1</b></em><br>
         Durante el desarrollo del avance colaboré con los integrantes del equipo mediante la coordinación y revisión de los aportes relacionados con el diseño del sistema, buscando que las diferentes partes del proyecto mantuvieran una estructura y enfoque coherentes.
         Cumplí con las actividades asignadas dentro del plazo establecido y apoyé en la integración de los distintos aportes del equipo para completar el entregable.
-        ...<br>
+        <br>
+          <em><b>TB1</b></em><br>
+        Durante este avance, contribuí al cumplimiento de los objetivos del equipo mediante el desarrollo y la organización de la documentación correspondiente al diseño de software de WashTrack. Trabajé en la estructuración del Bounded Context de Laundry Operations, procurando mantener la coherencia entre sus componentes, las responsabilidades de cada capa y las funcionalidades planteadas para el sistema. Además, preparé el contenido para la exposición, buscando comunicar de manera clara tanto el funcionamiento esperado para los usuarios como las decisiones técnicas de diseño. Estas actividades permitieron aportar al desarrollo del entregable y mantener la continuidad del trabajo realizado en el avance anterior.<br>
         <b>Tufiño Argüelles, Luis Angel</b><br>
         <em><b>AV1</b></em><br>
         - Elaboró los Wireframes, Wireflow Diagrams y Mock-ups correspondientes a los principales módulos de WashTrack y de la App Cliente, organizando el avance por pantalla para cumplir con el alcance planteado para AV1.<br>

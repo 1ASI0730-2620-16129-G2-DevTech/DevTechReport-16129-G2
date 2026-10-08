@@ -258,6 +258,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <em><b>AV1</b></em><br>
         Elaboré el Capítulo IV del proyecto WashTrack, desarrollando las Style Guidelines, donde se establecieron los lineamientos generales y web para mantener una interfaz consistente, clara, accesible y fácil de utilizar.
         Desarrollé la Information Architecture, la Landing Page UI, elaborando el wireframe y mock-up de la página principal de WashTrack, considerando la distribución de los elementos, jerarquía visual, navegación y presentación de la propuesta de valor del producto.<br>
+        <em><b>TB1</b></em><br>
+        Participé en el desarrollo de la primera versión del Frontend Web Application para el Sprint 2, asumiendo la responsabilidad principal del módulo de Order Management que es la creación, consulta y organización de pedidos, asegurando la correcta integración de las vistas y componentes alineados con las User Stories y los bounded contexts del proyecto WashTrack.<br>
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
@@ -290,6 +292,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <em><b>AV1</b></em><br>
         Participé en la planificación y organización de las actividades del equipo, coordinando las tareas asignadas para el desarrollo del proyecto WashTrack y contribuyendo al cumplimiento de los objetivos establecidos para el avance.
         Desarrollé las secciones asignadas del Capítulo IV, relacionadas con Style Guidelines, Information Architecture y Landing Page UI Design, coordinando con los integrantes del equipo para mantener la coherencia del proyecto y cumplir con las actividades planificadas.<br>
+        <em><b>TB1</b></em><br>
+        Gestioné y ajusté el Product Backlog del proyecto, estructurando un total de 38 historias de usuario actualizadas para la fase de desarrollo web. Asimismo, participé en la planificación del Sprint 2, estableciendo las metas, los bounded contexts y organizando las tareas de integración visual para el equipo TechNova<br>
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>

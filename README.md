@@ -3799,9 +3799,10 @@ El desarrollo de este sprint toma como referencia las User Stories y el Product 
 Como resultado del Sprint 2, se obtuvo una versión de muestra del frontend con sus principales áreas funcionales representadas y la página web desplegada, permitiendo acceder a la interfaz a través de la web y visualizar la propuesta de la aplicación. Este incremento constituye una base para futuras iteraciones, en las que se podrá avanzar en la integración de servicios y en la implementación funcional de las características representadas en las interfaces.
 
 ##### 5.2.2.1. Sprint Planning 2
-El Sprint Planning 1 tuvo como finalidad establecer el objetivo del primer Sprint, seleccionar las User Stories prioritarias relacionadas con la Landing Page y organizar las actividades necesarias para obtener una primera versión funcional y desplegable. Para ello, se tomaron como referencia las User Stories definidas en el Product Backlog del Capítulo III, particularmente las correspondientes al Epic **EP01 – Landing Page & Acquisition**.
 
-A diferencia de un proceso estrictamente secuencial, durante este periodo el equipo trabajó de manera paralela en la documentación del proyecto y en la construcción de la Landing Page. Por ello, el Sprint se plantea como una organización del trabajo realizado para alcanzar el incremento correspondiente, considerando que algunas actividades de diseño, documentación e implementación pudieron desarrollarse simultáneamente.
+El Sprint Planning 2 tuvo como finalidad establecer el objetivo del segundo Sprint, organizar las actividades necesarias para desarrollar el frontend de muestra de WashTrack y definir las áreas funcionales que formarían parte de la interfaz. Para ello, se consideraron los requerimientos definidos en las User Stories y el Product Backlog actualizado, junto con los bounded contexts identificados durante el diseño de la arquitectura de la solución.
+
+A diferencia del Sprint 1, centrado en la implementación de la Landing Page, el Sprint 2 se orienta a la construcción de las vistas de la aplicación web. El equipo organizó el trabajo considerando los módulos seleccionados, con el propósito de mantener una estructura coherente entre las diferentes áreas de la plataforma y facilitar la comprensión de las funcionalidades que se ofrecerán a los clientes y a los negocios de lavandería.
 
 #### Resumen del Sprint Planning Meeting
 
@@ -3817,7 +3818,7 @@ A diferencia de un proceso estrictamente secuencial, durante este periodo el equ
 | **Sprint 2 Velocity** | 32 Story Points |
 | **Sum of Story Points** | 32 Story Points |
 
-### Bounded contexts considerados para el Sprint 2
+#### Bounded contexts considerados para el Sprint 2
 
 Para orientar la organización del frontend, se tomaron como referencia los siguientes *bounded contexts* y sus respectivas responsabilidades dentro de la plataforma:
 
@@ -3844,7 +3845,7 @@ Las siguientes User Stories se relacionan con las principales áreas representad
 | **US-007** | Registrar prendas | Mostrar la organización de las prendas asociadas a cada pedido. | 
 | **US-038** | Registrar prendas y servicio solicitado | Mostrar de forma detallada la asociación entre las prendas específicas y el tipo de servicio de lavandería requerido. | 
 | **US-019** | Gestionar suscripción | Mostrar la sección destinada a la visualización y selección de planes de suscripción. | 
-| **US-015** | Administrar servicios y precios | Representar la interfaz de configuración y gestión de la oferta de servicios y tarifas aplicadas. | Subscription & Payment |
+| **US-015** | Administrar servicios y precios | Representar la interfaz de configuración y gestión de la oferta de servicios y tarifas aplicadas. | 
 | **US-029** | Consultar el seguimiento del pedido en seis etapas | Representar visualmente el progreso de los pedidos mediante las etapas definidas para el servicio de lavandería. | 
 | **US-034** | Consultar el avance del pedido en tiempo real | Mostrar las vistas orientadas al estado actual y actualización dinámica del progreso de lavado y entrega. | 
 | **US-001** | Recibir notificaciones del estado del pedido | Representar la sección de notificaciones relacionadas con los cambios de estado de los pedidos. | 

@@ -3817,6 +3817,17 @@ A diferencia de un proceso estrictamente secuencial, durante este periodo el equ
 | **Sprint 2 Velocity** | 32 Story Points |
 | **Sum of Story Points** | 32 Story Points |
 
+### Bounded contexts considerados para el Sprint 2
+
+Para orientar la organización del frontend, se tomaron como referencia los siguientes *bounded contexts* y sus respectivas responsabilidades dentro de la plataforma:
+
+| Bounded Context | Propósito dentro del frontend |
+|---|---|
+| **IAM and Customer & Business** | Representar las interfaces relacionadas con la identidad, el acceso y la gestión de clientes y negocios de lavandería. |
+| **Order Management** | Representar las vistas destinadas a la creación, consulta y organización de pedidos. |
+| **Laundry Operations** | Mostrar la organización de las operaciones de lavandería y la información relacionada con las prendas y los servicios solicitados. |
+| **Subscription & Payment** | Representar las interfaces relacionadas con los planes de suscripción, los servicios y la información de pagos. |
+| **Tracking & Notifications** | Mostrar las vistas destinadas al seguimiento de los pedidos y a la presentación de notificaciones sobre su progreso. |
 
 ### 5.3. Validation Interviews
 

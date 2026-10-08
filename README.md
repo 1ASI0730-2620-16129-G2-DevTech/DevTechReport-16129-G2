@@ -3788,6 +3788,62 @@ La mayor parte del desarrollo se concentró entre finales de agosto y mediados d
 </div>
 
 
+#### 5.2.2. Sprint 2
+
+El Sprint 2 está orientado al desarrollo de la <b>primera versión del Frontend de WashTrack</b>, como continuación del trabajo realizado durante el Sprint 1, en el que se implementó y desplegó la primera versión funcional de la Landing Page. En esta nueva etapa, el equipo se enfoca en trasladar la propuesta de la plataforma a una interfaz de muestra que permita visualizar sus principales módulos y la organización funcional del sistema.
+
+Para estructurar el frontend, se seleccionaron los bounded contexts relacionados con IAM and Customer & Business, Order Management, Laundry Operations, Subscription & Payment, y Tracking & Notifications. Estos contextos sirven como referencia para organizar las vistas y los componentes de la plataforma, diferenciando las áreas relacionadas con la identidad y la gestión de clientes y negocios, los pedidos, las operaciones de lavandería, las suscripciones y los pagos, así como el seguimiento de pedidos y las notificaciones.
+
+El desarrollo de este sprint toma como referencia las User Stories y el Product Backlog corregidos en el Capítulo III, considerando los requerimientos de los distintos usuarios y las necesidades operativas de las lavanderías. De esta manera, el frontend de muestra permite representar visualmente cómo se organizaría la interacción con WashTrack y cómo se distribuirían sus principales funcionalidades dentro de la plataforma.
+
+Como resultado del Sprint 2, se obtuvo una versión de muestra del frontend con sus principales áreas funcionales representadas y la página web desplegada, permitiendo acceder a la interfaz a través de la web y visualizar la propuesta de la aplicación. Este incremento constituye una base para futuras iteraciones, en las que se podrá avanzar en la integración de servicios y en la implementación funcional de las características representadas en las interfaces.
+
+##### 5.2.1.1. Sprint Planning 1
+El Sprint Planning 1 tuvo como finalidad establecer el objetivo del primer Sprint, seleccionar las User Stories prioritarias relacionadas con la Landing Page y organizar las actividades necesarias para obtener una primera versión funcional y desplegable. Para ello, se tomaron como referencia las User Stories definidas en el Product Backlog del Capítulo III, particularmente las correspondientes al Epic **EP01 – Landing Page & Acquisition**.
+
+A diferencia de un proceso estrictamente secuencial, durante este periodo el equipo trabajó de manera paralela en la documentación del proyecto y en la construcción de la Landing Page. Por ello, el Sprint se plantea como una organización del trabajo realizado para alcanzar el incremento correspondiente, considerando que algunas actividades de diseño, documentación e implementación pudieron desarrollarse simultáneamente.
+
+#### Resumen del Sprint Planning Meeting
+
+| Elemento | Información |
+|---|---|
+| **Sprint #** | Sprint 1 |
+| **Date** | `09/09/2026` |
+| **Prepared By** | Ramos Fuentes Rivera, Adriana Nicole |
+| **Attendees** | Pérez Vásquez, Ariana Valeria / Ramirez Gutierrez, Gabriel / Ramos Fuentes Rivera, Adriana Nicole / Sayago Vidal, Sebastián Leonardo / Tufiño Argüelles, Luis Angel |
+| **Sprint 0 Review Summary** | No se estableció un Sprint 0 formal. Como punto de partida se consideraron los avances realizados durante las primeras semanas del ciclo en el análisis, especificación, diseño y preparación de los artefactos del proyecto, junto con el inicio paralelo de la Landing Page. |
+| **Sprint 0 Retrospective Summary** | Al no existir un Sprint 0 formal, no se realizó una retrospectiva independiente. Sin embargo, el equipo identificó la necesidad de mantener un trabajo coordinado entre documentación, diseño e implementación para evitar que las actividades se desarrollaran de manera aislada. |
+| **Sprint 1 Goal** | Implementar y dejar disponible una primera versión funcional de la Landing Page de WashTrack que permita presentar su propuesta de valor y orientar a los visitantes hacia las experiencias correspondientes para clientes y proveedores de servicios de lavandería. |
+| **Sprint 1 Velocity** | 20 Story Points |
+| **Sum of Story Points** | 20 Story Points |
+
+#### User Stories seleccionadas
+
+Para el Sprint 1 se seleccionaron las User Stories correspondientes al **EP01 – Landing Page & Acquisition**:
+
+| ID | User Story | Propósito dentro del Sprint |
+|---|---|---|
+| **US01** | **Conocer WashTrack** | Presentar al visitante la propuesta de valor, características y beneficios principales de WashTrack. |
+| **US02** | **Acceder como cliente** | Permitir que el visitante identifique la experiencia dirigida al cliente y pueda continuar hacia ella mediante los elementos de navegación correspondientes. |
+| **US03** | **Acceder como proveedor** | Presentar la propuesta orientada a propietarios o proveedores de servicios de lavandería y permitir el acceso a su experiencia correspondiente. |
+
+El objetivo del Sprint se encuentra enfocado en el usuario, ya que el incremento esperado no consiste únicamente en construir una página visual, sino en proporcionar una primera experiencia mediante la cual los visitantes puedan **comprender qué es WashTrack, identificar cómo puede ayudarlos y reconocer la opción que corresponde a su perfil**.
+
+##### 5.2.1.2. Aspect Leaders and Collaborators
+Para organizar el desarrollo del Sprint 1, el equipo distribuyó responsabilidades según los diferentes aspectos necesarios para implementar y validar la Landing Page. La asignación de un **Aspect Leader** representa al integrante que concentra la responsabilidad de coordinar o desarrollar principalmente dicho aspecto, mientras que los **Collaborators** brindan apoyo en las actividades relacionadas.
+
+Esta distribución no representa una jerarquía dentro del equipo, sino una forma de organizar el trabajo y facilitar la coordinación de las actividades del Sprint.
+
+| Aspecto | Aspect Leader | Collaborators | Actividades principales |
+|---|---|---|---|
+| **Estructura y navegación de la Landing Page** | Pérez Vásquez, Ariana Valeria | Sayago Vidal, Sebastián Leonardo / Tufiño Argüelles, Luis Angel | Definición de la estructura general, navegación, secciones y organización de los elementos de la página. |
+| **Diseño visual e implementación de la interfaz** | Sayago Vidal, Sebastián Leonardo | Pérez Vásquez, Ariana Valeria / Ramos Fuentes Rivera, Adriana Nicole | Implementación de la interfaz, estilos, distribución visual y adaptación del diseño definido para la Landing Page. |
+| **Contenido y propuesta de valor** | Ramos Fuentes Rivera, Adriana Nicole | Pérez Vásquez, Ariana Valeria / Ramirez Gutierrez, Gabriel | Redacción y revisión de contenidos relacionados con la propuesta de valor, beneficios y características de WashTrack. |
+| **Integración de User Stories y revisión funcional** | Ramirez Gutierrez, Gabriel | Sayago Vidal, Sebastián Leonardo / Tufiño Argüelles, Luis Angel | Verificación de que los elementos implementados respondan a US01, US02 y US03 y revisión del comportamiento esperado. |
+| **Control de versiones y coordinación técnica** | Tufiño Argüelles, Luis Angel | Ramirez Gutierrez, Gabriel / Sayago Vidal, Sebastián Leonardo | Gestión de cambios, integración de aportes y seguimiento de las modificaciones realizadas durante el desarrollo. |
+
+La distribución permitió que los integrantes participaran en más de un aspecto del Sprint, manteniendo una dinámica colaborativa en lugar de asignar cada actividad de manera completamente independiente. Asimismo, debido a que la documentación y la implementación se desarrollaron en paralelo, los responsables de cada aspecto mantuvieron coordinación para incorporar cambios provenientes de los demás artefactos del proyecto.
+
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas

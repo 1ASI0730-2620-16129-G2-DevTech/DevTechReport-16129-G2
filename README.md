@@ -258,6 +258,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <em><b>AV1</b></em><br>
         Elaboré el Capítulo IV del proyecto WashTrack, desarrollando las Style Guidelines, donde se establecieron los lineamientos generales y web para mantener una interfaz consistente, clara, accesible y fácil de utilizar.
         Desarrollé la Information Architecture, la Landing Page UI, elaborando el wireframe y mock-up de la página principal de WashTrack, considerando la distribución de los elementos, jerarquía visual, navegación y presentación de la propuesta de valor del producto.<br>
+        <em><b>TB1</b></em><br>
+        Participé en el desarrollo de la primera versión del Frontend Web Application para el Sprint 2, asumiendo la responsabilidad principal del módulo de Order Management que es la creación, consulta y organización de pedidos, asegurando la correcta integración de las vistas y componentes alineados con las User Stories y los bounded contexts del proyecto WashTrack.<br>
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
@@ -290,6 +292,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <em><b>AV1</b></em><br>
         Participé en la planificación y organización de las actividades del equipo, coordinando las tareas asignadas para el desarrollo del proyecto WashTrack y contribuyendo al cumplimiento de los objetivos establecidos para el avance.
         Desarrollé las secciones asignadas del Capítulo IV, relacionadas con Style Guidelines, Information Architecture y Landing Page UI Design, coordinando con los integrantes del equipo para mantener la coherencia del proyecto y cumplir con las actividades planificadas.<br>
+        <em><b>TB1</b></em><br>
+        Gestioné y ajusté el Product Backlog del proyecto, estructurando un total de 38 historias de usuario actualizadas para la fase de desarrollo web. Asimismo, participé en la planificación del Sprint 2, estableciendo las metas, los bounded contexts y organizando las tareas de integración visual para el equipo TechNova<br>
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
@@ -3787,6 +3791,70 @@ La mayor parte del desarrollo se concentró entre finales de agosto y mediados d
   *Figura 4. Historial de commits del repositorio de la Landing Page.*
 </div>
 
+
+#### 5.2.2. Sprint 2
+
+El Sprint 2 está orientado al desarrollo de la <b>primera versión del Frontend de WashTrack</b>, como continuación del trabajo realizado durante el Sprint 1, en el que se implementó y desplegó la primera versión funcional de la Landing Page. En esta nueva etapa, el equipo se enfoca en trasladar la propuesta de la plataforma a una interfaz de muestra que permita visualizar sus principales módulos y la organización funcional del sistema.
+
+Para estructurar el frontend, se seleccionaron los bounded contexts relacionados con IAM and Customer & Business, Order Management, Laundry Operations, Subscription & Payment, y Tracking & Notifications. Estos contextos sirven como referencia para organizar las vistas y los componentes de la plataforma, diferenciando las áreas relacionadas con la identidad y la gestión de clientes y negocios, los pedidos, las operaciones de lavandería, las suscripciones y los pagos, así como el seguimiento de pedidos y las notificaciones.
+
+El desarrollo de este sprint toma como referencia las User Stories y el Product Backlog corregidos en el Capítulo III, considerando los requerimientos de los distintos usuarios y las necesidades operativas de las lavanderías. De esta manera, el frontend de muestra permite representar visualmente cómo se organizaría la interacción con WashTrack y cómo se distribuirían sus principales funcionalidades dentro de la plataforma.
+
+Como resultado del Sprint 2, se obtuvo una versión de muestra del frontend con sus principales áreas funcionales representadas y la página web desplegada, permitiendo acceder a la interfaz a través de la web y visualizar la propuesta de la aplicación. Este incremento constituye una base para futuras iteraciones, en las que se podrá avanzar en la integración de servicios y en la implementación funcional de las características representadas en las interfaces.
+
+##### 5.2.2.1. Sprint Planning 2
+
+El Sprint Planning 2 tuvo como finalidad establecer el objetivo del segundo Sprint, organizar las actividades necesarias para desarrollar el frontend de muestra de WashTrack y definir las áreas funcionales que formarían parte de la interfaz. Para ello, se consideraron los requerimientos definidos en las User Stories y el Product Backlog actualizado, junto con los bounded contexts identificados durante el diseño de la arquitectura de la solución.
+
+A diferencia del Sprint 1, centrado en la implementación de la Landing Page, el Sprint 2 se orienta a la construcción de las vistas de la aplicación web. El equipo organizó el trabajo considerando los módulos seleccionados, con el propósito de mantener una estructura coherente entre las diferentes áreas de la plataforma y facilitar la comprensión de las funcionalidades que se ofrecerán a los clientes y a los negocios de lavandería.
+
+#### Resumen del Sprint Planning Meeting
+
+| Elemento | Información |
+|---|---|
+| **Sprint #** | Sprint 2 |
+| **Date** | `03/10/2026` |
+| **Prepared By** | Perez Vasquez, Ariana Valeria |
+| **Attendees** | Ramos Fuentes Rivera, Adriana Nicole / Ramirez Gutierrez, Gabriel / Ramos Fuentes Rivera, Adriana Nicole / Sayago Vidal, Sebastián Leonardo / Tufiño Argüelles, Luis Angel |
+| **Sprint 1 Review Summary** | Durante el Sprint 1, el equipo implementó y desplegó la primera versión funcional de la Landing Page de WashTrack. Se presentó la propuesta de valor del producto y se incorporaron accesos diferenciados para clientes y proveedores de servicios de lavandería, junto con una navegación adaptada a diferentes dispositivos. Este resultado sirvió como base para continuar con el desarrollo de la aplicación web. |
+| **Sprint 1 Retrospective Summary** | A partir del trabajo realizado durante el Sprint 1, se identificó la importancia de mantener una coordinación constante entre las actividades de documentación, diseño e implementación. Para el siguiente sprint, se considera necesario organizar el trabajo por módulos, mantener la consistencia visual entre las interfaces y revisar de manera conjunta los avances antes de su integración y despliegue. |
+| **Sprint 2 Goal** | Desarrollar y desplegar la primera versión del frontend de muestra de WashTrack, organizando su interfaz en cinco áreas funcionales: IAM and Customer & Business, Order Management, Laundry Operations, Subscription & Payment, y Tracking & Notifications. El cumplimiento se evidencia mediante la disponibilidad de la página desplegada y la representación visual de los módulos definidos. |
+| **Sprint 2 Velocity** | 32 Story Points |
+| **Sum of Story Points** | 32 Story Points |
+
+#### Bounded contexts considerados para el Sprint 2
+
+Para orientar la organización del frontend, se tomaron como referencia los siguientes *bounded contexts* y sus respectivas responsabilidades dentro de la plataforma:
+
+| Bounded Context | Propósito dentro del frontend |
+|---|---|
+| **IAM and Customer & Business** | Representar las interfaces relacionadas con la identidad, el acceso y la gestión de clientes y negocios de lavandería. |
+| **Order Management** | Representar las vistas destinadas a la creación, consulta y organización de pedidos. |
+| **Laundry Operations** | Mostrar la organización de las operaciones de lavandería y la información relacionada con las prendas y los servicios solicitados. |
+| **Subscription & Payment** | Representar las interfaces relacionadas con los planes de suscripción, los servicios y la información de pagos. |
+| **Tracking & Notifications** | Mostrar las vistas destinadas al seguimiento de los pedidos y a la presentación de notificaciones sobre su progreso. |
+
+
+#### User Stories seleccionadas
+
+Para el Sprint 2, el desarrollo del frontend de muestra de WashTrack se organizó tomando como referencia las User Stories de los Epic relacionados con los *bounded contexts* seleccionados para la plataforma: EP-001 – Seguimiento y comunicación, EP-003 – Gestión de pedidos y trazabilidad, EP-004 – Gestión de clientes, incidencias y satisfacción, EP-005 – Servicios, pagos y suscripciones, y EP-006 – Administración, reportes y monitoreo.
+
+Las siguientes User Stories se relacionan con las principales áreas representadas en el frontend:
+
+| User Story ID | User Story | Propósito dentro del Sprint |
+|---|---|---|
+| **US-005** | Registrar clientes | Representar la interfaz de gestión de clientes y la organización de su información dentro de la plataforma. | 
+| **US-016** | Gestionar usuarios y roles | Representar las opciones de administración de usuarios y los accesos según sus roles. |
+| **US-006** | Crear pedidos | Representar la sección destinada a la creación y consulta de pedidos asociados a los clientes. | 
+| **US-007** | Registrar prendas | Mostrar la organización de las prendas asociadas a cada pedido. | 
+| **US-038** | Registrar prendas y servicio solicitado | Mostrar de forma detallada la asociación entre las prendas específicas y el tipo de servicio de lavandería requerido. | 
+| **US-019** | Gestionar suscripción | Mostrar la sección destinada a la visualización y selección de planes de suscripción. | 
+| **US-015** | Administrar servicios y precios | Representar la interfaz de configuración y gestión de la oferta de servicios y tarifas aplicadas. | 
+| **US-029** | Consultar el seguimiento del pedido en seis etapas | Representar visualmente el progreso de los pedidos mediante las etapas definidas para el servicio de lavandería. | 
+| **US-034** | Consultar el avance del pedido en tiempo real | Mostrar las vistas orientadas al estado actual y actualización dinámica del progreso de lavado y entrega. | 
+| **US-001** | Recibir notificaciones del estado del pedido | Representar la sección de notificaciones relacionadas con los cambios de estado de los pedidos. | 
+
+El objetivo del Sprint se encuentra enfocado en ofrecer una primera experiencia visual de la plataforma, permitiendo que los usuarios reconozcan sus principales módulos y comprendan cómo se organizarán las funcionalidades de WashTrack. El frontend desarrollado y desplegado constituye un incremento visual del producto y una base para futuras iteraciones orientadas a la integración de servicios y al funcionamiento completo de las funcionalidades.
 
 ### 5.3. Validation Interviews
 

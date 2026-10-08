@@ -1557,7 +1557,7 @@ Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_
 
 ### 3.3. Product Backlog
 
-El Product Backlog de WashTrack contiene las historias de usuario identificadas y ordenadas por valor para el negocio e impacto en la experiencia del usuario y del administrador.
+El Product Backlog de WashTrack contiene las historias de usuario identificadas durante el levantamiento de requisitos. El orden se define por el valor para el negocio y el impacto en la experiencia del cliente. Las historias relacionadas con la captura de información y gestión básica se consideran desde los primeros sprints. Los puntos de historia utilizan la escala de Fibonacci: 1, 2, 3, 5 y 8.
 
 | #Orden | User Story Id | Título | Descripción | Story Points (Fibonacci) |
 |---:|---|---|---|---:|

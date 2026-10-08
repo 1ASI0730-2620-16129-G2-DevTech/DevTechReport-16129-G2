@@ -3787,6 +3787,35 @@ La mayor parte del desarrollo se concentró entre finales de agosto y mediados d
 </div>
 
 
+
+##### 5.2.2.2. Aspect Leaders and Collaborators
+
+Para el Sprint 2, el alcance del proyecto se amplía desde la Landing Page hacia la primera versión de la **Frontend Web Application** de WashTrack, desarrollada en Vue con PrimeVue en el repositorio [DevTech-Frontend-16129-G2](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2). Por esta razón, los aspectos del Sprint se definieron a partir de los Bounded Contexts identificados en la sección 4.6 (Domain-Driven Software Architecture), de modo que cada aspecto corresponda a un área funcional completa de la solución: modelo de dominio, servicios de aplicación, infraestructura y vistas. A ellos se suman la nueva versión de la Landing Page y el Shared Kernel, que reúne los elementos comunes a todos los Bounded Contexts.
+
+Con el fin de brindar mayor claridad y efectividad en la comunicación al interior del equipo, se elaboró la **Leadership-and-Collaboration Matrix (LACX)**, que indica por cada aspecto del Sprint quién es el líder y quiénes son los colaboradores. Los aspectos considerados en el Sprint 2 son los siguientes:
+
+- **Landing Page v2:** nueva versión de la Landing Page, que incorpora el formulario de captura de leads y redirige los call-to-action de cada segmento objetivo hacia la vista correspondiente de la Web Application.
+- **Shared Kernel:** elementos comunes a todos los Bounded Contexts de la Web Application, como los modelos base del dominio, `BaseApi`, `BaseEndpoint`, layout, sidebar, router, internacionalización (i18n), tema visual, variables de entorno y servidor de datos simulado.
+- **Identity & Access:** gestión de la identidad, autenticación y autorización del personal de la lavandería.
+- **Customer & Business Management:** gestión de clientes, lavanderías e información operativa del negocio.
+- **Order Management:** gestión de las solicitudes y órdenes de servicio.
+- **Laundry Operations:** gestión del procesamiento interno de las órdenes dentro de la lavandería.
+- **Subscription & Payment:** gestión de membresías, créditos, beneficios y pagos.
+- **Tracking & Notifications:** seguimiento del pedido por etapas y notificaciones ante cada cambio de estado.
+- **Pickups & Deliveries:** listado y coordinación de recojos y entregas a domicilio.
+
+En la matriz, el **Leader (L)** es el integrante que coordina el aspecto y concentra su desarrollo principal, mientras que el **Collaborator (C)** apoya en la implementación, la revisión de Pull Requests y las pruebas del aspecto. Esta distribución no representa una jerarquía dentro del equipo, sino una forma de organizar el trabajo y la toma de decisiones durante el Sprint.
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page v2 (L/C) | Shared Kernel (L/C) | Identity & Access (L/C) | Customer & Business Management (L/C) | Order Management (L/C) | Laundry Operations (L/C) | Subscription & Payment (L/C) | Tracking & Notifications (L/C) | Pickups & Deliveries (L/C) |
+|---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Pérez Vásquez, Ariana Valeria | ArianaPerez34 | L | - | - | L | C | - | C | C | - |
+| Ramirez Gutierrez, Gabriel | GabrielRamirez06 | - | C | L | C | - | L | - | - | C |
+| Ramos Fuentes Rivera, Adriana Nicole | adriana832 | C | C | - | - | C | - | - | L | L |
+| Sayago Vidal, Sebastián Leonardo | SSayag0V | C | L | C | - | L | C | - | C | - |
+| Tufiño Argüelles, Luis Angel | LuisTufino2 | C | - | C | C | - | C | L | - | C |
+
+La organización de líderes y colaboradores guarda relación directa con la selección de tareas del Sprint Backlog 2. Cada líder concentra las tareas de implementación de su aspecto, mientras que los colaboradores asumen las tareas de apoyo, revisión e integración. Además, todos los integrantes participan en al menos cinco aspectos, lo que evita que el conocimiento de un Bounded Context quede concentrado en una sola persona y facilita la revisión cruzada de los Pull Requests hacia la rama `develop`, siguiendo el flujo de trabajo GitFlow definido en la sección 5.1.2.
+
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas

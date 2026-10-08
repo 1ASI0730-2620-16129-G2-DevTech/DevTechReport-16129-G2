@@ -3829,6 +3829,28 @@ Para orientar la organización del frontend, se tomaron como referencia los sigu
 | **Subscription & Payment** | Representar las interfaces relacionadas con los planes de suscripción, los servicios y la información de pagos. |
 | **Tracking & Notifications** | Mostrar las vistas destinadas al seguimiento de los pedidos y a la presentación de notificaciones sobre su progreso. |
 
+
+#### User Stories seleccionadas
+
+Para el Sprint 2, el desarrollo del frontend de muestra de WashTrack se organizó tomando como referencia las User Stories de los Epic relacionados con los *bounded contexts* seleccionados para la plataforma: EP-001 – Seguimiento y comunicación, EP-003 – Gestión de pedidos y trazabilidad, EP-004 – Gestión de clientes, incidencias y satisfacción, EP-005 – Servicios, pagos y suscripciones, y EP-006 – Administración, reportes y monitoreo.
+
+Las siguientes User Stories se relacionan con las principales áreas representadas en el frontend:
+
+| User Story ID | User Story | Propósito dentro del Sprint |
+|---|---|---|
+| **US-005** | Registrar clientes | Representar la interfaz de gestión de clientes y la organización de su información dentro de la plataforma. | 
+| **US-016** | Gestionar usuarios y roles | Representar las opciones de administración de usuarios y los accesos según sus roles. |
+| **US-006** | Crear pedidos | Representar la sección destinada a la creación y consulta de pedidos asociados a los clientes. | 
+| **US-007** | Registrar prendas | Mostrar la organización de las prendas asociadas a cada pedido. | 
+| **US-038** | Registrar prendas y servicio solicitado | Mostrar de forma detallada la asociación entre las prendas específicas y el tipo de servicio de lavandería requerido. | 
+| **US-019** | Gestionar suscripción | Mostrar la sección destinada a la visualización y selección de planes de suscripción. | 
+| **US-015** | Administrar servicios y precios | Representar la interfaz de configuración y gestión de la oferta de servicios y tarifas aplicadas. | Subscription & Payment |
+| **US-029** | Consultar el seguimiento del pedido en seis etapas | Representar visualmente el progreso de los pedidos mediante las etapas definidas para el servicio de lavandería. | 
+| **US-034** | Consultar el avance del pedido en tiempo real | Mostrar las vistas orientadas al estado actual y actualización dinámica del progreso de lavado y entrega. | 
+| **US-001** | Recibir notificaciones del estado del pedido | Representar la sección de notificaciones relacionadas con los cambios de estado de los pedidos. | 
+
+El objetivo del Sprint se encuentra enfocado en ofrecer una primera experiencia visual de la plataforma, permitiendo que los usuarios reconozcan sus principales módulos y comprendan cómo se organizarán las funcionalidades de WashTrack. El frontend desarrollado y desplegado constituye un incremento visual del producto y una base para futuras iteraciones orientadas a la integración de servicios y al funcionamiento completo de las funcionalidades.
+
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas

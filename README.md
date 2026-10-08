@@ -82,6 +82,8 @@ URL del repositorio (report): [https://github.com/1ASI0730-2620-16129-G2-DevTech
 
 URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2)
 
+URL del repositorio (frontend): [https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2)
+
 <br>
 
 **Primera entrega (AV1)**
@@ -129,6 +131,67 @@ URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-D
 <img src="assets/network_graph_av1.png" alt="Contributors-DevTech-AV1" width="500"/>
   <br/><i>Network graph of DevTech (AV1)</i>
 </p>
+
+
+**Segunda entrega (TB1)**
+
+<p align="justify">
+  Durante la entrega TB1, el equipo llevó a cabo el desarrollo del Sprint 2, iniciando con una planificación estructurada que incluyó la definición de objetivos, la asignación de líderes por aspectos técnicos y la organización detallada del Sprint Backlog 2. Para optimizar la gestión de tareas, la transparencia y el seguimiento del flujo de trabajo, se incorporó oficialmente Trello como artefacto clave dentro de la metodología del proyecto.
+</p>
+
+<p align="justify">
+  De forma prioritaria, el equipo realizó un proceso de refinamiento y correcciones a la primera entrega (AV1) para asegurar la solidez y coherencia de los artefactos previos. Se ajustaron y optimizaron el diagrama de clases, los diagramas de arquitectura C4 (contexto, contenedores y componentes) y el diagrama de base de datos. Asimismo, se reestructuró el Impact Mapping y se depuraron las User Stories para eliminar duplicidades y mejorar la claridad de los requerimientos.
+</p>
+
+<p align="justify">
+  En el plano técnico, se ejecutó la implementación del frontend de la aplicación utilizando el framework Vue.js. La arquitectura de componentes e interfaces se diseñó aplicando de forma estricta los principios de Domain-Driven Design (DDD) y respetando la delimitación de los Bounded Contexts, logrando que la experiencia de usuario y los flujos de la aplicación respondan directamente a las reglas del negocio.
+</p>
+
+<p align="justify">
+  Finalmente, la entrega culminó con la preparación, validación y despliegue del entorno funcional (deploy) de la aplicación y sus servicios asociados. Todo el proceso quedó respaldado con un registro detallado de evidencias de desarrollo, ejecución, documentación de servicios e hitos alcanzados para la revisión del sprint (Sprint Review), junto con una reflexión sobre la colaboración y el trabajo en equipo durante este ciclo.
+</p>
+
+
+**Evidencias de colaboración y analíticos en GitHub**
+
+<p align="justify">
+  Para garantizar la coherencia metodológica con el Registro de Versiones del Informe y verificar el compromiso y la participación equitativa de todos los integrantes del equipo DevTech, se adjuntan los analíticos y registros de actividad extraídos directamente de las métricas internas del repositorio en GitHub.
+</p>
+
+**Report**
+
+<p align="center">
+<img src="assets/" alt="Contributors-DevTech-TB1" width="500"/>
+  <br/><i>Contributors of DevTech (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/" alt="Pulse-DevTech-TB1" width="500"/>
+  <br/><i>Pulse of DevTech (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/" alt="Contributors-DevTech-TB1" width="500"/>
+  <br/><i>Network graph of DevTech (TB1)</i>
+</p>
+
+**Fronted**
+
+<p align="center">
+<img src="assets/" alt="Contributors-DevTech-Frontend-TB1" width="500"/>
+  <br/><i>Contributors Frontend of DevTech (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/" alt="Pulse-DevTech-Frontend-TB1" width="500"/>
+  <br/><i>Pulse Frontend of DevTech (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/" alt="Contributors-DevTech-Frontend-TB1" width="500"/>
+  <br/><i>Network graph Frontend of DevTech (TB1)</i>
+</p>
+
 
 <div style="page-break-after: always;"></div>
 

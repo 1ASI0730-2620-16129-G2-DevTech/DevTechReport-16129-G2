@@ -280,6 +280,15 @@ URL del repositorio (frontend): [https://github.com/1ASI0730-2620-16129-G2-DevTe
         - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
         - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
         - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+      - [5.2.2. Sprint 2](#522-sprint-2)
+        - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+        - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+        - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+        - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+        - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+        - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+        - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+        - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
     - [5.3. Validation Interviews](#53-validation-interviews)
       - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
       - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -3919,6 +3928,14 @@ Las siguientes User Stories se relacionan con las principales áreas representad
 | **US-001** | Recibir notificaciones del estado del pedido | Representar la sección de notificaciones relacionadas con los cambios de estado de los pedidos. | 
 
 El objetivo del Sprint se encuentra enfocado en ofrecer una primera experiencia visual de la plataforma, permitiendo que los usuarios reconozcan sus principales módulos y comprendan cómo se organizarán las funcionalidades de WashTrack. El frontend desarrollado y desplegado constituye un incremento visual del producto y una base para futuras iteraciones orientadas a la integración de servicios y al funcionamiento completo de las funcionalidades.
+
+##### 5.2.2.2. Aspect Leaders and Collaborators.
+##### 5.2.2.3. Sprint Backlog 2.
+##### 5.2.2.4. Development Evidence for Sprint Review.
+##### 5.2.2.5. Execution Evidence for Sprint Review.
+##### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+##### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+##### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 ### 5.3. Validation Interviews
 

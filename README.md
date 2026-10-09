@@ -315,14 +315,6 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 </p>
 
-<p align="justify">
-<b>Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.</b>
-</p>
-
-<p align="justify">
-En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
-</p>
-
 <table>
   <thead>
     <tr>
@@ -358,16 +350,12 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>Tufiño Argüelles, Luis Angel</b><br>
         <em><b>AV1</b></em><br>
         - Propuso y sustentó ante el equipo los criterios de usabilidad y arquitectura de información aplicados en el diseño de las pantallas de WashTrack (Dashboard, Pedidos, Clientes, Pagos), argumentando cada decisión con heurísticas de Nielsen y principios de Gestalt.<br>
-        - Lideró la identificación de los User Goals a partir de los User Persona del proyecto, coordinando con el equipo la priorización de los flujos por segmento (Propietario de lavandería y Cliente).<br>
-        <em><b>TB1</b></em><br>
-        - Lideró el bounded context Subscription &amp; Payment durante el Sprint 2, coordinando con el equipo la descomposición de las User Stories US-019 (Gestionar suscripción) y US-015 (Administrar servicios y precios) en tareas, y desarrollando los datos simulados de planes, suscripciones y pagos para el servidor local del frontend.<br>
-        - Elaboró la Leadership-and-Collaboration Matrix del Sprint 2, proponiendo una distribución con un líder y dos colaboradores por bounded context, alineada con el Sprint Planning 2 y con el trabajo registrado por cada integrante en el repositorio.
+        - Lideró la identificación de los User Goals a partir de los User Persona del proyecto, coordinando con el equipo la priorización de los flujos por segmento (Propietario de lavandería y Cliente).
+        ...
       </td>
       <td>
         <b>AV1</b><br>
         <p>En conclusión, logramos ejercer un liderazgo conjunto y transversal a lo largo de todas las fases del proyecto, desde la asignación estratégica de roles iniciales y la facilitación compartida del Lean UX Process, Needfinding y Big Picture EventStorming (Capítulos I y II), hasta la toma de decisiones técnicas para el Product Backlog, arquitectura DDD y diseño de bases de datos (Capítulos III y IV). Asimismo, asumimos de forma colaborativa la dirección de los Sprints y la asignación de líderes por aspectos en la fase de implementación (Capítulo V), demostrando una capacidad constante para orientar al grupo hacia el cumplimiento de cada hito técnico y estratégico del proyecto.</p>
-        <b>TB1</b><br>
-        <p>En conclusión, durante el Sprint 2 el liderazgo se distribuyó por bounded context: cada integrante asumió la dirección de un área funcional del frontend y colaboró en otras dos, de acuerdo con la Leadership-and-Collaboration Matrix. Esta organización permitió que las decisiones técnicas de cada módulo fueran tomadas por su líder, sin perder la revisión cruzada de los colaboradores, y orientó al equipo hacia el desarrollo de la primera versión de la Frontend Web Application.</p>
       </td>
     </tr>
     <tr>
@@ -395,17 +383,12 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>Tufiño Argüelles, Luis Angel</b><br>
         <em><b>AV1</b></em><br>
         - Elaboró los Wireframes, Wireflow Diagrams y Mock-ups correspondientes a los principales módulos de WashTrack y de la App Cliente, organizando el avance por pantalla para cumplir con el alcance planteado para AV1.<br>
-        - Incorporó la retroalimentación del equipo para ajustar los flujos propuestos (por ejemplo, separar el goal de asignar un repartidor del de monitorear un envío en curso), cumpliendo con los plazos acordados para esta entrega.<br>
-        <em><b>TB1</b></em><br>
-        - Planificó el Sprint Backlog 2 en un tablero de Trello con los estados To-do, In-Process, To-Review y Done, descomponiendo las User Stories del Sprint Planning 2 en tareas con responsables, estimación en horas y estado según el avance real del repositorio.<br>
-        - Registró en Trello el Sprint Backlog 1 como corrección de la entrega anterior y revisó la coherencia entre el Sprint Planning 2, la matriz de líderes y colaboradores y el Sprint Backlog 2, coordinando con sus compañeros los ajustes necesarios para cumplir con lo establecido para TB1.
+        - Incorporó la retroalimentación del equipo para ajustar los flujos propuestos (por ejemplo, separar el goal de asignar un repartidor del de monitorear un envío en curso), cumpliendo con los plazos acordados para esta entrega.
       <br>
       </td>
       <td>
         <b>AV1</b><br>
         <p>En conclusión, consolidamos un entorno de trabajo altamente colaborativo e inclusivo al integrar las opiniones e ideas de todos los integrantes durante las dinámicas de brainstorming, diseño UX/UI y definición de requisitos (Capítulos I al IV). Además, demostramos rigurosidad en el establecimiento de metas y planificación de tareas al gestionar de forma ordenada el Sprint Backlog, los entornos de desarrollo, la documentación de servicios y las revisiones de código y despliegue (Capítulo V), lo que nos permitió alcanzar con éxito los objetivos de software y entregar un producto funcional dentro de los plazos establecidos.</p>
-        <b>TB1</b><br>
-        <p>En conclusión, para el Sprint 2 el equipo estableció un Sprint Goal común, seleccionó las User Stories en el Sprint Planning 2 y las descompuso en tareas registradas en Trello, con responsables, estimaciones y estados visibles para todos. El trabajo en ramas por bounded context y su integración mediante Pull Requests en la rama develop permitió avanzar en paralelo y dar seguimiento al cumplimiento de los objetivos del Sprint. Asimismo, el equipo corrigió artefactos de la entrega anterior, como el registro del Sprint Backlog 1 en Trello.</p>
       </td>
     </tr>
   </tbody>
@@ -3947,415 +3930,74 @@ Las siguientes User Stories se relacionan con las principales áreas representad
 El objetivo del Sprint se encuentra enfocado en ofrecer una primera experiencia visual de la plataforma, permitiendo que los usuarios reconozcan sus principales módulos y comprendan cómo se organizarán las funcionalidades de WashTrack. El frontend desarrollado y desplegado constituye un incremento visual del producto y una base para futuras iteraciones orientadas a la integración de servicios y al funcionamiento completo de las funcionalidades.
 
 ##### 5.2.2.2. Aspect Leaders and Collaborators
+##### 5.2.2.3. Sprint Backlog 2
+##### 5.2.2.4. Development Evidence for Sprint Review
+##### 5.2.2.5. Execution Evidence for Sprint Review
 
-Para el Sprint 2, el equipo se enfocó en el desarrollo de la **primera versión del frontend de WashTrack**, implementado en el repositorio [DevTech-Frontend-16129-G2](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2). De acuerdo con el Sprint Goal definido en el Sprint Planning 2, la interfaz se organizó en cinco áreas funcionales, correspondientes a los bounded contexts seleccionados para el Sprint. Por esta razón, cada uno de estos bounded contexts se considera un aspecto del Sprint.
+##### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-Con el fin de brindar mayor claridad y efectividad en la comunicación al interior del equipo, se elaboró la **Leadership-and-Collaboration Matrix (LACX)**, que indica por cada aspecto del Sprint quién es el líder y quiénes son los colaboradores. Los principales aspectos considerados en el Sprint 2 son los siguientes:
-
-- **IAM and Customer & Business:** representar las interfaces relacionadas con la identidad, el acceso y la gestión de clientes y negocios de lavandería.
-- **Order Management:** representar las vistas destinadas a la creación, consulta y organización de pedidos.
-- **Laundry Operations:** mostrar la organización de las operaciones de lavandería y la información relacionada con las prendas y los servicios solicitados.
-- **Subscription & Payment:** representar las interfaces relacionadas con los planes de suscripción, los servicios y la información de pagos.
-- **Tracking & Notifications:** mostrar las vistas destinadas al seguimiento de los pedidos y a la presentación de notificaciones sobre su progreso.
-
-En la matriz, el **Leader (L)** es el integrante que coordina el aspecto y concentra su desarrollo principal, mientras que el **Collaborator (C)** apoya en la implementación, la revisión de los Pull Requests y las pruebas del aspecto. Esta distribución no representa una jerarquía dentro del equipo, sino una forma de organizar el trabajo y la toma de decisiones durante el Sprint.
-
-| Team Member (Last Name, First Name) | GitHub Username | IAM and Customer & Business Leader (L) / Collaborator (C) | Order Management Leader (L) / Collaborator (C) | Laundry Operations Leader (L) / Collaborator (C) | Subscription & Payment Leader (L) / Collaborator (C) | Tracking & Notifications Leader (L) / Collaborator (C) |
-|---|---|:---:|:---:|:---:|:---:|:---:|
-| Pérez Vásquez, Ariana Valeria | ArianaPerez34 | - | C | L | C | - |
-| Ramirez Gutierrez, Gabriel | GabrielRamirez06 | L | C | - | - | C |
-| Ramos Fuentes Rivera, Adriana Nicole | adriana832 | C | - | C | - | L |
-| Sayago Vidal, Sebastián Leonardo | SSayag0V | C | L | - | C | - |
-| Tufiño Argüelles, Luis Angel | LuisTufino2 | - | - | C | L | C |
-
-La organización de líderes y colaboradores guarda relación directa con la selección de tareas del Sprint Backlog 2: el líder de cada aspecto asume las tareas principales de implementación de su bounded context, mientras que los colaboradores asumen las tareas de apoyo, revisión e integración.
-
-
-#### 5.2.2.3 Sprint Backlog 2
-
-El objetivo principal del Sprint 2 es desarrollar y desplegar la primera versión del frontend de WashTrack, organizando su interfaz en cinco áreas funcionales: IAM and Customer & Business, Order Management, Laundry Operations, Subscription & Payment, y Tracking & Notifications. Para alcanzar este objetivo, se tomaron las diez User Stories seleccionadas en el Sprint Planning 2 y se descompusieron en Work-items/Tasks concretos, considerando las capas de cada bounded context: modelo de dominio, servicios de aplicación, infraestructura y vistas.
-
-Cada tarea se asignó de acuerdo con la Leadership-and-Collaboration Matrix de la sección 5.2.2.2: el líder de cada aspecto concentra las tareas principales de implementación de su bounded context, mientras que los colaboradores asumen las tareas de apoyo, revisión e integración. Además, se incluyeron tareas técnicas que no dependen de una User Story en particular, pero que son necesarias para que todos los bounded contexts compartan una misma estructura base y para que el incremento pueda integrarse y desplegarse.
-
-El control del Sprint se realizó en un tablero de Trello organizado en cuatro listas, correspondientes a los estados **To-do**, **In-Process**, **To-Review** y **Done**. Cada tarjeta representa una tarea, se identifica con la etiqueta de color de su bounded context e indica la User Story a la que pertenece, su descripción, la estimación en horas y los integrantes asignados.
-
-<p align="center">
-  <img src="assets/img/Chapter5/Sprint2/sprint-backlog-2-trello.png" alt="Sprint Backlog 2 en Trello" width="800"/>
-  <br>
-  <i>Figura. Tablero del Sprint Backlog 2 en Trello.</i>
+<p align="justify">
+  Para este Sprint se documentaron 13 recursos REST simulados que cubren los nueve bounded contexts de WashTrack (Identity &amp; Access, Customer Management, Service Catalog, Order Management, Laundry Operations, Payments, Tracking &amp; Notifications, Pickups &amp; Deliveries y Dashboard). Los servicios se exponen con una API simulada (json-server) en la URL base local <code>http://localhost:3000/api/v1</code>, ya que el Web Service real aún no está desplegado. El frontend los consume mediante <code>BaseApi</code> y <code>BaseEndpoint</code> (Axios), con las rutas definidas en variables <code>VITE_&lt;RECURSO&gt;_ENDPOINT_PATH</code>.
 </p>
+<br>
 
-- **URL del tablero del Sprint Backlog 2:** [WashTrack – Sprint 2](https://trello.com/b/q6IikJ1M/washtrack-sprint-2)
+**Relación de endpoints documentados**
 
+| Bounded context | Endpoint | Acciones implementadas | URL local |
+| --- | --- | --- | --- |
+| Identity & Access | `/users` | GET, POST | http://localhost:3000/api/v1/users |
+| Customer Management | `/customer-profiles` | GET, POST | http://localhost:3000/api/v1/customer-profiles |
+| Service Catalog | `/services`, `/garments` | GET, POST | http://localhost:3000/api/v1/services |
+| Order Management | `/customer-orders` | GET, POST, PUT | http://localhost:3000/api/v1/customer-orders |
+| Payments | `/payments` | GET, POST | http://localhost:3000/api/v1/payments |
+| Tracking & Notifications | `/trackings` | GET, POST, PUT, DELETE | http://localhost:3000/api/v1/trackings |
+| Tracking & Notifications | `/notifications` | GET, POST, PUT, PATCH, DELETE | http://localhost:3000/api/v1/notifications |
+| Pickups & Deliveries | `/deliveries` | GET | http://localhost:3000/api/v1/deliveries |
+| Laundry Operations | `/laundryOrders` | GET, POST, PUT | http://localhost:3000/api/v1/laundryOrders |
+| Laundry Operations | `/washingCycles` | GET | http://localhost:3000/api/v1/washingCycles |
+| Laundry Operations | `/laundryResources` | GET, PUT | http://localhost:3000/api/v1/laundryResources |
+| Laundry Operations (IoT) | `/sensorData` | GET | http://localhost:3000/api/v1/sensorData |
 
-<table>
-  <thead>
-    <tr>
-      <th rowspan="2">Sprint #</th>
-      <th colspan="2">User Story</th>
-      <th colspan="6">Work-Item / Task</th>
-    </tr>
-    <tr>
-      <th>Story Id</th>
-      <th>Story Title</th>
-      <th>Task Id</th>
-      <th>Task Title</th>
-      <th>Task Description</th>
-      <th>Estimation (Hours)</th>
-      <th>Assigned To</th>
-      <th>Status (To-do / In-Process / To-Review / Done)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Sprint 2</td>
-      <td>-</td>
-      <td>Tarea técnica</td>
-      <td>T01</td>
-      <td>Configurar proyecto base y comunicación HTTP</td>
-      <td>Crear el proyecto Vue, instalar Axios y PrimeVue e implementar BaseApi y BaseEndpoint como base de comunicación con los servicios.</td>
-      <td align="center">3</td>
-      <td>Ramos Fuentes Rivera, Adriana Nicole</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>-</td>
-      <td>Tarea técnica</td>
-      <td>T02</td>
-      <td>Implementar layout, router, i18n y tema</td>
-      <td>Implementar el layout general, el router, la internacionalización (ES/EN), el tema visual, las variables de entorno y el servidor de datos simulado.</td>
-      <td align="center">4</td>
-      <td>Sayago Vidal, Sebastián Leonardo</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>-</td>
-      <td>Tarea técnica</td>
-      <td>T03</td>
-      <td>Implementar menú lateral de navegación</td>
-      <td>Implementar el sidebar con el acceso a las vistas de cada bounded context de la aplicación.</td>
-      <td align="center">2</td>
-      <td>Ramos Fuentes Rivera, Adriana Nicole</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-016</td>
-      <td>Gestionar usuarios y roles</td>
-      <td>T04</td>
-      <td>Implementar modelo de dominio de usuario</td>
-      <td>Implementar la entidad de usuario alineada al AggregateRoot, sus roles y el repositorio del bounded context IAM.</td>
-      <td align="center">3</td>
-      <td>Ramirez Gutierrez, Gabriel</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-016</td>
-      <td>Gestionar usuarios y roles</td>
-      <td>T05</td>
-      <td>Implementar inicio de sesión</td>
-      <td>Implementar la vista de login, el servicio de autenticación y su conexión con la API simulada, ocultando el layout durante el acceso.</td>
-      <td align="center">4</td>
-      <td>Ramirez Gutierrez, Gabriel</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-016</td>
-      <td>Gestionar usuarios y roles</td>
-      <td>T06</td>
-      <td>Implementar registro de usuarios con rol</td>
-      <td>Implementar el formulario de registro, su ruta, la acción en el store de autenticación y las traducciones en español e inglés.</td>
-      <td align="center">4</td>
-      <td>Ramirez Gutierrez, Gabriel / Sayago Vidal, Sebastián Leonardo</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-016</td>
-      <td>Gestionar usuarios y roles</td>
-      <td>T07</td>
-      <td>Implementar vista de gestión de usuarios y roles</td>
-      <td>Implementar la vista para que el propietario liste al personal y le asigne un rol que restrinja sus funciones.</td>
-      <td align="center">4</td>
-      <td>Ramirez Gutierrez, Gabriel / Sayago Vidal, Sebastián Leonardo</td>
-      <td>To-do</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-005</td>
-      <td>Registrar clientes</td>
-      <td>T08</td>
-      <td>Implementar entidad, assembler y API de clientes</td>
-      <td>Implementar la entidad de cliente, su assembler y el servicio API para obtener y registrar clientes.</td>
-      <td align="center">3</td>
-      <td>Ramirez Gutierrez, Gabriel</td>
-      <td>To-do</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-005</td>
-      <td>Registrar clientes</td>
-      <td>T09</td>
-      <td>Implementar lista y formulario de clientes</td>
-      <td>Implementar la tabla de clientes y el formulario de registro con validación del tipo y número de documento.</td>
-      <td align="center">4</td>
-      <td>Ramirez Gutierrez, Gabriel / Ramos Fuentes Rivera, Adriana Nicole</td>
-      <td>To-do</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-006</td>
-      <td>Crear pedidos</td>
-      <td>T10</td>
-      <td>Implementar capa de dominio de pedidos</td>
-      <td>Implementar la entidad Order, sus estados, el método de entrega y el repositorio del bounded context Order Management.</td>
-      <td align="center">3</td>
-      <td>Pérez Vásquez, Ariana Valeria</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-006</td>
-      <td>Crear pedidos</td>
-      <td>T11</td>
-      <td>Implementar servicios, repositorio y store de pedidos</td>
-      <td>Implementar los servicios de aplicación, el repositorio conectado al servidor simulado y el store de pedidos.</td>
-      <td align="center">4</td>
-      <td>Pérez Vásquez, Ariana Valeria</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-006</td>
-      <td>Crear pedidos</td>
-      <td>T12</td>
-      <td>Implementar vista de lista y creación de pedidos</td>
-      <td>Implementar la tabla de pedidos y el formulario de nuevo pedido asociado a un cliente.</td>
-      <td align="center">5</td>
-      <td>Pérez Vásquez, Ariana Valeria / Tufiño Argüelles, Luis Angel</td>
-      <td>In-Process</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-007</td>
-      <td>Registrar prendas</td>
-      <td>T13</td>
-      <td>Implementar entidad de prendas del pedido</td>
-      <td>Implementar la entidad GarmentItem para registrar las prendas incluidas en cada pedido.</td>
-      <td align="center">2</td>
-      <td>Pérez Vásquez, Ariana Valeria</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-007</td>
-      <td>Registrar prendas</td>
-      <td>T14</td>
-      <td>Implementar registro de prendas en el pedido</td>
-      <td>Permitir agregar prendas con tipo, cantidad y observaciones de cuidado dentro del formulario del pedido.</td>
-      <td align="center">3</td>
-      <td>Pérez Vásquez, Ariana Valeria / Ramirez Gutierrez, Gabriel</td>
-      <td>To-do</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-038</td>
-      <td>Registrar prendas y servicio solicitado</td>
-      <td>T15</td>
-      <td>Implementar modelo de Laundry Operations</td>
-      <td>Implementar los agregados y entidades LaundryOrder, WashingCycle y LaundryResource junto con sus enumeraciones.</td>
-      <td align="center">4</td>
-      <td>Sayago Vidal, Sebastián Leonardo</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-038</td>
-      <td>Registrar prendas y servicio solicitado</td>
-      <td>T16</td>
-      <td>Implementar API, assemblers y stores de Laundry Operations</td>
-      <td>Implementar el cliente API, los assemblers y los stores de operaciones y recursos de lavandería.</td>
-      <td align="center">3</td>
-      <td>Sayago Vidal, Sebastián Leonardo</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-038</td>
-      <td>Registrar prendas y servicio solicitado</td>
-      <td>T17</td>
-      <td>Implementar tablero de producción</td>
-      <td>Implementar el tablero de producción con las tarjetas de pedido, el resumen de operaciones y el diálogo de asignación del servicio solicitado.</td>
-      <td align="center">5</td>
-      <td>Sayago Vidal, Sebastián Leonardo / Pérez Vásquez, Ariana Valeria</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-038</td>
-      <td>Registrar prendas y servicio solicitado</td>
-      <td>T18</td>
-      <td>Implementar vistas de ciclos de lavado y recursos</td>
-      <td>Implementar las vistas de ciclos de lavado y de recursos de la lavandería.</td>
-      <td align="center">4</td>
-      <td>Sayago Vidal, Sebastián Leonardo / Ramos Fuentes Rivera, Adriana Nicole</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-038</td>
-      <td>Registrar prendas y servicio solicitado</td>
-      <td>T19</td>
-      <td>Agregar traducciones de Laundry Operations</td>
-      <td>Agregar los mensajes de Laundry Operations en los archivos de internacionalización (español e inglés) para las vistas de producción, ciclos y recursos.</td>
-      <td align="center">2</td>
-      <td>Sayago Vidal, Sebastián Leonardo / Pérez Vásquez, Ariana Valeria</td>
-      <td>To-Review</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-019</td>
-      <td>Gestionar suscripción</td>
-      <td>T20</td>
-      <td>Configurar datos simulados de suscripciones y pagos</td>
-      <td>Registrar en db.json los planes, suscripciones y transacciones de pago que consumirá el bounded context.</td>
-      <td align="center">2</td>
-      <td>Tufiño Argüelles, Luis Angel</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-019</td>
-      <td>Gestionar suscripción</td>
-      <td>T21</td>
-      <td>Implementar entidades, assemblers y API de suscripciones</td>
-      <td>Implementar las entidades SubscriptionPlan y Subscription, sus assemblers y el servicio API.</td>
-      <td align="center">3</td>
-      <td>Tufiño Argüelles, Luis Angel</td>
-      <td>To-do</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-019</td>
-      <td>Gestionar suscripción</td>
-      <td>T22</td>
-      <td>Implementar vista de planes de suscripción</td>
-      <td>Implementar la vista que muestra los planes disponibles y permite al propietario seleccionar uno.</td>
-      <td align="center">4</td>
-      <td>Tufiño Argüelles, Luis Angel / Pérez Vásquez, Ariana Valeria</td>
-      <td>To-do</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-015</td>
-      <td>Administrar servicios y precios</td>
-      <td>T23</td>
-      <td>Implementar vista de servicios y precios</td>
-      <td>Implementar la vista para crear, editar y desactivar los servicios de la lavandería con su precio.</td>
-      <td align="center">4</td>
-      <td>Tufiño Argüelles, Luis Angel / Sayago Vidal, Sebastián Leonardo</td>
-      <td>To-do</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-029</td>
-      <td>Consultar el seguimiento del pedido en seis etapas</td>
-      <td>T24</td>
-      <td>Implementar entidades, API y store de seguimiento</td>
-      <td>Implementar las entidades de seguimiento y notificación, sus assemblers, los helpers, el servicio API y el store.</td>
-      <td align="center">4</td>
-      <td>Ramos Fuentes Rivera, Adriana Nicole</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-029</td>
-      <td>Consultar el seguimiento del pedido en seis etapas</td>
-      <td>T25</td>
-      <td>Implementar vistas de seguimiento por etapas</td>
-      <td>Implementar la lista de seguimiento, el detalle del pedido, el stepper de etapas, la etiqueta de estado y el historial de cambios.</td>
-      <td align="center">5</td>
-      <td>Ramos Fuentes Rivera, Adriana Nicole</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-034</td>
-      <td>Consultar el avance del pedido en tiempo real</td>
-      <td>T26</td>
-      <td>Implementar entidad, API y store de recojos y entregas</td>
-      <td>Implementar la entidad de recojo y entrega, su assembler, el servicio API y el store.</td>
-      <td align="center">3</td>
-      <td>Ramos Fuentes Rivera, Adriana Nicole</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-034</td>
-      <td>Consultar el avance del pedido en tiempo real</td>
-      <td>T27</td>
-      <td>Implementar listado de recojos y entregas</td>
-      <td>Implementar la vista de recojos y entregas con dirección, horario, tipo de operación y repartidor asignado.</td>
-      <td align="center">4</td>
-      <td>Ramos Fuentes Rivera, Adriana Nicole</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>US-001</td>
-      <td>Recibir notificaciones del estado del pedido</td>
-      <td>T28</td>
-      <td>Implementar notificaciones de cambio de estado</td>
-      <td>Mostrar una notificación cuando el pedido cambia de etapa o cuando el recojo o la entrega están en camino.</td>
-      <td align="center">3</td>
-      <td>Ramos Fuentes Rivera, Adriana Nicole</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>-</td>
-      <td>Tarea técnica</td>
-      <td>T29</td>
-      <td>Configurar datos simulados de seguimiento y entregas</td>
-      <td>Registrar en db.json los datos de seguimiento, notificaciones, recojos y entregas que consumen los endpoints.</td>
-      <td align="center">2</td>
-      <td>Ramos Fuentes Rivera, Adriana Nicole</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>-</td>
-      <td>Tarea técnica</td>
-      <td>T30</td>
-      <td>Revisar e integrar Pull Requests</td>
-      <td>Revisar los Pull Requests de cada bounded context e integrarlos en la rama develop siguiendo GitFlow.</td>
-      <td align="center">3</td>
-      <td>Sayago Vidal, Sebastián Leonardo / Ramirez Gutierrez, Gabriel</td>
-      <td>In-Process</td>
-    </tr>
-    <tr>
-      <td>Sprint 2</td>
-      <td>-</td>
-      <td>Tarea técnica</td>
-      <td>T31</td>
-      <td>Desplegar la Web Application</td>
-      <td>Desplegar la primera versión del frontend de WashTrack para la revisión del Sprint.</td>
-      <td align="center">3</td>
-      <td>Todo el equipo</td>
-      <td>To-do</td>
-    </tr>
-  </tbody>
-</table>
+Dashboard no tiene endpoints propios: calcula sus métricas leyendo `/customer-orders`, `/payments` y `/customer-profiles`.
+<br>
 
-##### 5.2.2.4. Development Evidence for Sprint Review.
-##### 5.2.2.5. Execution Evidence for Sprint Review.
-##### 5.2.2.6. Services Documentation Evidence for Sprint Review.
-##### 5.2.2.7. Software Deployment Evidence for Sprint Review.
-##### 5.2.2.8. Team Collaboration Insights during Sprint.
+**Detalle de acciones**
+
+Con json-server, GET, PUT, PATCH y DELETE responden `200 OK`, POST responde `201 Created` y un `id` inexistente responde `404 Not Found`. Los filtros por query sin coincidencias devuelven `200 OK` con `[]`. Los ejemplos de response están abreviados.
+
+| Endpoint | Verbo | Sintaxis de llamada | Parámetros | Response (ejemplo y explicación) |
+| --- | --- | --- | --- | --- |
+| `/users` | GET | `/users?email={email}&password={password}` | Query: `email`, `password` | `200`: `[{"id":"VN001","email":"rosa.diaz@example.com","role":"shift-manager"}]`. Un usuario en el arreglo indica login válido; `[]`, credenciales inválidas. |
+| `/users` | POST | `/users` | Body: `id`, `iamId`, `username`, `email`, `password`, `role` | `201`: devuelve el usuario registrado. |
+| `/customer-profiles` | GET | `/customer-profiles` | Ninguno | `200`: `[{"id":"CL001","fullName":"Carmen Torres","documentType":"DNI","documentNumber":"45127836"}]`. Lista de clientes. |
+| `/customer-profiles` | POST | `/customer-profiles` | Body: `id`, `fullName`, `phone`, `documentType` (`DNI`/`CE`), `documentNumber`, `address` | `201`: devuelve el cliente creado. |
+| `/services`, `/garments` | GET | `/services` | Ninguno | `200`: `[{"id":"S104","name":"Lavado Estándar","basePrice":8,"estimatedHours":24,"active":true}]`. `/garments` tiene la misma estructura. |
+| `/services`, `/garments` | POST | `/services` | Body: `id`, `name`, `category`, `basePrice`, `estimatedHours`, `active` | `201`: devuelve el servicio o la prenda creada. |
+| `/customer-orders` | GET | `/customer-orders?customerId={customerId}` | Query opcional: `customerId`. Path opcional: `/{id}` | `200`: `[{"id":"5abe6b7d-...","customerId":"CL005","status":"IN_PROCESS","deliveryMethod":"DELIVERY","items":[{"type":"Camisa","quantity":4}]}]`. Pedidos con sus prendas. |
+| `/customer-orders` | POST | `/customer-orders` | Body: `id`, `customerId`, `laundryId`, `status`, `deliveryMethod` (`PICKUP`/`DELIVERY`), `serviceType`, `estimatedDeliveryDate`, `items[]` | `201`: devuelve el pedido creado. |
+| `/customer-orders` | PUT | `/customer-orders/{id}` | Path: `id`. Body: pedido completo | `200`: devuelve el pedido actualizado (p. ej. nuevo `status`). |
+| `/payments` | GET | `/payments` | Ninguno | `200`: `[{"id":"PG001","orderId":1,"amount":45,"paymentMethod":"yape","status":"paid"}]`. `status`: `paid`, `pending` o `cancelled`. |
+| `/payments` | POST | `/payments` | Body: `id`, `orderId`, `customerId`, `customerName`, `amount`, `paymentMethod`, `status`, `paidAt`, `orderDate` | `201`: devuelve el pago registrado. |
+| `/trackings` | GET | `/trackings?orderId={orderId}` | Query opcional: `orderId`. Path opcional: `/{id}` | `200`: `[{"id":1,"orderId":1,"currentStage":"ready","history":[{"stage":"received","occurredAt":"2026-10-01T09:15:00-05:00"}]}]`. `history` lista las etapas del pedido. |
+| `/trackings` | POST | `/trackings` | Body: `orderId`, `currentStage`, `estimatedDelivery`, `history[]` | `201`: devuelve el seguimiento con su `id`. |
+| `/trackings` | PUT | `/trackings/{id}` | Path: `id`. Body: seguimiento completo | `200`: devuelve el seguimiento con la nueva etapa. |
+| `/trackings` | DELETE | `/trackings/{id}` | Path: `id` | `200`: cuerpo `{}`. |
+| `/notifications` | GET | `/notifications?userId={userId}&isRead=false` | Query opcional: `userId`, `isRead`. Path opcional: `/{id}` | `200`: `[{"id":1,"userId":"CL001","type":"order-stage-changed","isRead":false}]`. La app lo consulta cada 10 s para mostrar avisos. |
+| `/notifications` | POST | `/notifications` | Body: `userId`, `type`, `parameters`, `isRead`, `createdAt` | `201`: devuelve la notificación con su `id`. |
+| `/notifications` | PUT | `/notifications/{id}` | Path: `id`. Body: notificación completa | `200`: devuelve la notificación actualizada. |
+| `/notifications` | PATCH | `/notifications/{id}` | Path: `id`. Body: `{"isRead": true}` | `200`: notificación con `isRead: true`; solo cambia ese campo. |
+| `/notifications` | DELETE | `/notifications/{id}` | Path: `id` | `200`: cuerpo `{}`. |
+| `/deliveries` | GET | `/deliveries` | Ninguno | `200`: `[{"id":1,"orderId":1,"type":"pickup","driverName":"Luis Paredes","status":"completed","scheduledAt":"2026-10-01T08:30:00-05:00"}]`. Recojos y entregas programados. |
+| `/laundryOrders` | GET | `/laundryOrders` | Path opcional: `/{id}` | `200`: `[{"id":"0192a1c0-...","currentStage":"RECEPTION","priority":"NORMAL","washingCycleId":null,"resourceId":null}]`. Etapas: `RECEPTION`, `CLASSIFICATION`, `WASHING`, `DRYING_IRONING`, `PACKAGING`, `READY`. |
+| `/laundryOrders` | POST | `/laundryOrders` | Body: `id`, `orderId`, `currentStage`, `priority` (`NORMAL`/`VIP`), `expectedCompletion` | `201`: devuelve la orden creada. |
+| `/laundryOrders` | PUT | `/laundryOrders/{id}` | Path: `id`. Body: orden completa | `200`: orden con ciclo, recurso o etapa actualizados. |
+| `/washingCycles` | GET | `/washingCycles?compatibleType={type}` | Query opcional: `compatibleType`. Path opcional: `/{id}` | `200`: `[{"id":"0192a1d0-...","name":"Cotton 40°C","durationMinutes":60,"compatibleType":"cotton"}]`. |
+| `/laundryResources` | GET | `/laundryResources` | Path opcional: `/{id}` | `200`: `[{"id":"0192a1e0-...","name":"Washer 1","status":"BUSY","capacity":10}]`. `status`: `AVAILABLE`, `BUSY` o `MAINTENANCE`. |
+| `/laundryResources` | PUT | `/laundryResources/{id}` | Path: `id`. Body: recurso completo | `200`: recurso con el nuevo `status`. |
+| `/sensorData` | GET | `/sensorData?deviceId={deviceId}` | Query: `deviceId` | `200`: `[{"deviceId":"0192a1e0-...","rawStatusCode":1,"humidity":38,"vibration":22,"electricCurrent":4.2}]`. Telemetría IoT de la máquina. |
+
+##### 5.2.2.7. Software Deployment Evidence for Sprint Review
+##### 5.2.2.8. Team Collaboration Insights during Sprint
 
 ### 5.3. Validation Interviews
 

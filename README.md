@@ -3997,6 +3997,27 @@ Con json-server, GET, PUT, PATCH y DELETE responden `200 OK`, POST responde `201
 | `/sensorData` | GET | `/sensorData?deviceId={deviceId}` | Query: `deviceId` | `200`: `[{"deviceId":"0192a1e0-...","rawStatusCode":1,"humidity":38,"vibration":22,"electricCurrent":4.2}]`. Telemetría IoT de la máquina. |
 
 ##### 5.2.2.7. Software Deployment Evidence for Sprint Review
+<p align="justify">
+  Para que los usuarios de WashTrack puedan acceder a la plataforma desde cualquier lugar, en este Sprint se desplegó la Web Application en <strong>Firebase Hosting</strong>. Se creó el proyecto en la consola de Firebase, se configuró el hosting como aplicación de página única (SPA) y se publicó la versión compilada con Vite. La Landing Page, un sitio estático en HTML, CSS y JavaScript, también forma parte del despliegue. Los Web Services continúan simulados con json-server en <code>http://localhost:3000/api/v1</code>, por lo que su despliegue queda pendiente para un próximo Sprint.
+</p>
+
+**Actividades de despliegue realizadas**
+ 
+* **Creación de recursos en la nube (Firebase):** creación del proyecto `washtrack-eb717` en la consola de Firebase y activación del servicio Hosting.
+* **Configuración del proyecto de desarrollo:** instalación de Firebase CLI y ejecución de `firebase init hosting`, que generó `.firebaserc` (proyecto por defecto) y `firebase.json`.
+* **Configuración del hosting:** en `firebase.json` se definió `dist` como carpeta pública (salida de `npm run build`) y una regla de reescritura de todas las rutas (`**`) hacia `/index.html`, necesaria para que Vue Router funcione al recargar o abrir un enlace directo.
+* **Compilación y publicación:** generación de la versión de producción con `npm run build` y publicación con `firebase deploy --only hosting`.
+* **Control de versiones:** la configuración se registró en el repositorio del frontend (commit `9e4fb71`, `feat(firebase): initialize Firebase hosting configuration`).
+<br>
+
+| Producto | Plataforma | Estado | URL |
+| --- | --- | --- | --- |
+| Web Application (frontend) | Firebase Hosting | Desplegada | *(pendiente: URL, normalmente `https://washtrack-eb717.web.app`)* |
+| Web Services | json-server local | Sin desplegar | http://localhost:3000/api/v1 |
+
+ 
+**Evidencias**
+
 ##### 5.2.2.8. Team Collaboration Insights during Sprint
 
 ### 5.3. Validation Interviews

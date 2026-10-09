@@ -1,67 +1,60 @@
 
+<div align="center">
 <img src="assets/upc_logo.png" alt="UPC Logo" width="150"
 "/>
 
-Universidad Peruana de Ciencias Aplicadas
-
-Carrera de Ingeniería de Software
+## **Universidad Peruana de Ciencias Aplicadas**
+### **Carrera de Ingeniería de Software**
 <br>
 
-**1ASI030**
+**Curso: Aplicaciones Web**
 
-**Aplicaciones Web**
+**NRC: 16129**
 
-NRC
-**16129**
+**Docente: Alberto Wilmer Sanchez Seña**
 
-#### Informe del Trabajo Final
+### **Informe del Trabajo Final**
 
-Docente
+**Nombre de la Startup:** DevTech
 
-**Sanchez Seña, Alberto Wilmer**
-<br>
+**Nombre del producto:** WashTrack
 
-Equipo
-
-**DevTech**
-
-Proyecto
-
-**WashTrack**
-
-<br>
-
-**Integrantes**
+### **Integrantes**
 
 </div>
 
-<p align="center">
-    <b>Código&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apellidos y Nombres</b>
-</p>
-<p align="center">
-u20241D338&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pérez Vásquez, Ariana Valeria<br>
-u202416053&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ramirez Gutierrez, Gabriel<br>
-u202018427&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ramos Fuentes Rivera, Adriana Nicole<br>
-u202422642&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sayago Vidal, Sebastián Leonardo<br>
-u202216240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tufiño Argüelles, Luis Angel<br>
-</p>
-<br>
+<table align="center" style="border-collapse: collapse; border: none; margin-left: auto; margin-right: auto;">
+    <tr>
+        <th style="border: none; padding: 0 18px 6px 0; text-align: center;">Código</th>
+        <th style="border: none; padding: 0 0 6px 0; text-align: center;">Apellidos y Nombres</th>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U20241D338</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Pérez Vásquez, Ariana Valeria</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202416053</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramirez Gutierrez, Gabriel</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202018427</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramos Fuentes Rivera, Adriana Nicole</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202422642</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Sayago Vidal, Sebastián Leonardo</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 0 0; text-align: center;">U202216240</td>
+        <td style="border: none; padding: 0; text-align: center;">Tufiño Argüelles, Luis Angel</td>
+    </tr>
+</table>
 
 <div align="center">
 
-**Periodo 202620**
-<br>
-
-**Octubre 2026**
+*Setiembre, 2026*
 
 </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<div style="page-break-after: always;"></div>
 
 ---
 

@@ -3953,17 +3953,28 @@ Durante el Sprint 2, los cinco integrantes desarrollaron en paralelo los módulo
 
 **Capturas de GitHub**
 
-![Figura 1. GitHub Insights – Contributors del frontend durante el Sprint 2](assets/img/Chapter5/sprint2/frontend-insights-contributors.png)
+![Figura 1. GitHub Insights – Contributors del frontend durante el Sprint 2](assets/img/Chapter5/Sprint%202/frontend-insights-contributors.png.png)
 *Figura 1. Aporte individual y actividad de commits durante el sprint.*
 
-![Figura 2. GitHub Insights – Pulse del frontend durante el Sprint 2](assets/img/Chapter5/sprint2/frontend-insights-pulse.png)
+![Figura 2. GitHub Insights – Pulse del frontend durante el Sprint 2](assets/img/Chapter5/Sprint%202/frontend-insights-pulse.png.png)
 *Figura 2. Actividad del repositorio y Pull Requests fusionados.*
 
-![Figura 3. GitHub Insights – Network graph del frontend durante el Sprint 2](assets/img/Chapter5/sprint2/frontend-insights-network.png)
-*Figura 3. Flujo de ramas y merges del repositorio.*
+**Figura 3. GitHub Insights – Network graph del frontend durante el Sprint 2**
 
-![Figura 4. Historial de commits del frontend durante el Sprint 2](assets/img/Chapter5/sprint2/frontend-commits-history.png)
-*Figura 4. Historial de commits del repositorio durante el sprint.*
+<p align="center">
+  <img src="assets/img/Chapter5/Sprint%202/frontend-insights-network-1.png" alt="Network graph del frontend durante el Sprint 2, parte 1" width="100%"/>
+</p>
+<p align="center"><i>Parte 1 de 3.</i></p>
+
+<p align="center">
+  <img src="assets/img/Chapter5/Sprint%202/frontend-insights-network-2.png" alt="Network graph del frontend durante el Sprint 2, parte 2" width="100%"/>
+</p>
+<p align="center"><i>Parte 2 de 3.</i></p>
+
+<p align="center">
+  <img src="assets/img/Chapter5/Sprint%202/frontend-insights-network-3.png" alt="Network graph del frontend durante el Sprint 2, parte 3" width="100%"/>
+</p>
+<p align="center"><i>Parte 3 de 3. En conjunto, las capturas muestran el flujo de ramas y merges del repositorio.</i></p>
 
 ### 5.3. Validation Interviews
 

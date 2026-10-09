@@ -161,34 +161,36 @@ URL del repositorio (frontend): [https://github.com/1ASI0730-2620-16129-G2-DevTe
 **Report**
 
 <p align="center">
-<img src="assets/" alt="Contributors-DevTech-TB1" width="500"/>
+<img src="assets/img/Chapter5/sprint1/insights-contributors.png" alt="Contributors-DevTech-TB1" width="500"/>
   <br/><i>Contributors of DevTech (TB1)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets/" alt="Pulse-DevTech-TB1" width="500"/>
+<img src="assets/img/Chapter5/sprint1/insights-pulse.png" alt="Pulse-DevTech-TB1" width="500"/>
   <br/><i>Pulse of DevTech (TB1)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets/" alt="Contributors-DevTech-TB1" width="500"/>
+<img src="assets/img/Chapter5/sprint1/insights-network.png" alt="Network-DevTech-TB1" width="500"/>
   <br/><i>Network graph of DevTech (TB1)</i>
 </p>
 
 **Fronted**
 
 <p align="center">
-<img src="assets/" alt="Contributors-DevTech-Frontend-TB1" width="500"/>
+<img src="assets/img/Chapter5/Sprint 2/frontend-insights-contributors.png" alt="Contributors-DevTech-Frontend-TB1" width="500"/>
   <br/><i>Contributors Frontend of DevTech (TB1)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets/" alt="Pulse-DevTech-Frontend-TB1" width="500"/>
+<img src="assets/img/Chapter5/Sprint 2/frontend-insights-pulse.png" alt="Pulse-DevTech-Frontend-TB1" width="500"/>
   <br/><i>Pulse Frontend of DevTech (TB1)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets/" alt="Contributors-DevTech-Frontend-TB1" width="500"/>
+<img src="assets/img/Chapter5/Sprint%202/frontend-insights-network-1.png" alt="Network-1-DevTech-Frontend-TB1" width="500"/>
+<img src="assets/img/Chapter5/Sprint%202/frontend-insights-network-2.png" alt="Network-2-DevTech-Frontend-TB1" width="500"/>
+<img src="assets/img/Chapter5/Sprint%202/frontend-insights-network-3.png" alt="Network-3-DevTech-Frontend-TB1" width="500"/>
   <br/><i>Network graph Frontend of DevTech (TB1)</i>
 </p>
 
@@ -4373,10 +4375,10 @@ Durante el Sprint 2, los cinco integrantes desarrollaron en paralelo los módulo
 
 **Capturas de GitHub**
 
-![Figura 1. GitHub Insights – Contributors del frontend durante el Sprint 2](assets/img/Chapter5/Sprint%202/frontend-insights-contributors.png.png)
+![Figura 1. GitHub Insights – Contributors del frontend durante el Sprint 2](assets/img/Chapter5/Sprint 2/frontend-insights-contributors.png)
 *Figura 1. Aporte individual y actividad de commits durante el sprint.*
 
-![Figura 2. GitHub Insights – Pulse del frontend durante el Sprint 2](assets/img/Chapter5/Sprint%202/frontend-insights-pulse.png.png)
+![Figura 2. GitHub Insights – Pulse del frontend durante el Sprint 2](assets/img/Chapter5/Sprint 2/frontend-insights-pulse.png)
 *Figura 2. Actividad del repositorio y Pull Requests fusionados.*
 
 **Figura 3. GitHub Insights – Network graph del frontend durante el Sprint 2**

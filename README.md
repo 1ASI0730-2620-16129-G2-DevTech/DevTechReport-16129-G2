@@ -4408,6 +4408,12 @@ La siguiente tabla presenta las User Stories asignadas al Sprint 2, los Work-ite
  
 
 ##### 5.2.2.5. Execution Evidence for Sprint Review
+<p align="justify">
+  En este Sprint se logró una Web Application navegable de principio a fin sobre la API simulada: el usuario inicia sesión, consulta el dashboard con los indicadores del día, registra clientes y pedidos, gestiona los catálogos de servicios y prendas, y sigue cada pedido por las etapas de producción hasta su entrega. Asimismo, el tablero de producción permite recibir, clasificar, asignar ciclo y máquina, y avanzar los pedidos, destacando los de prioridad VIP y los que están en riesgo de entrega. Por otro lado, el seguimiento muestra el progreso del pedido, el mapa de la ruta y el historial de estados, y los pagos incluyen el código QR de Yape. A continuación se presentan las capturas de las vistas principales.
+</p>
+<br>
+
+
 
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review
 

@@ -4413,6 +4413,70 @@ La siguiente tabla presenta las User Stories asignadas al Sprint 2, los Work-ite
 </p>
 <br>
 
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/01-login.png" width="700px" alt="Inicio de sesión con credenciales de prueba">
+  <p>Inicio de sesión con credenciales de prueba</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/02-dashboard.png" width="700px" alt="Dashboard con indicadores del día, estado de máquinas y gráficos">
+  <p>Dashboard con indicadores del día, estado de máquinas y gráficos</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/03-customers.png" width="700px" alt="Gestión de clientes">
+  <p>Gestión de clientes</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/04-services.png" width="700px" alt="Catálogo de servicios">
+  <p>Catálogo de servicios</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/05-garments.png" width="700px" alt="Catálogo de prendas">
+  <p>Catálogo de prendas</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/06-orders.png" width="700px" alt="Gestión de pedidos">
+  <p>Gestión de pedidos</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/07-production-board.png" width="700px" alt="Tablero de producción por etapas (Laundry Operations)">
+  <p>Tablero de producción por etapas (Laundry Operations)</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/08-resources.png" width="700px" alt="Recursos (máquinas) de la lavandería.">
+  <p>Recursos (máquinas) de la lavandería.</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/09-washing-cycles.png" width="700px" alt="Ciclos de lavado">
+  <p>Ciclos de lavado</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/10-payments.png" width="700px" alt="Pagos">
+  <p>Pagos</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/11-tracking-list.png" width="700px" alt="Lista de seguimiento de pedidos">
+  <p>Lista de seguimiento de pedidos</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/12-tracking-detail.png" width="700px" alt="Detalle de seguimiento con progreso, mapa e historial">
+  <p>Detalle de seguimiento con progreso, mapa e historial</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/13-deliveries.png" width="700px" alt="Recojos y entregas">
+  <p>Recojos y entregas</p>
+</div>
 
 
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review

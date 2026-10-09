@@ -4015,8 +4015,31 @@ Con json-server, GET, PUT, PATCH y DELETE responden `200 OK`, POST responde `201
 | Web Application (frontend) | Firebase Hosting | Desplegada | *(pendiente: URL, normalmente `https://washtrack-eb717.web.app`)* |
 | Web Services | json-server local | Sin desplegar | http://localhost:3000/api/v1 |
 
- 
+<br>
+
 **Evidencias**
+
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/repo_frontend_evidence.png" width="700px" alt="Repositorio del frontend">
+  <p>Repositorio del frontend</p>
+  <p></p>
+</div>
+
+URL del repositorio (frontend): [https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2/tree/main](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2/tree/main)
+
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/deploy_frontend_login_evidence.png" width="700px" alt="Deploy del frontend_login">
+  <p>Deploy del frontend (log in)</p>
+  <p></p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/deploy_frontend_dashboard_evidence.png" width="700px" alt="Deploy del frontend_dashboard">
+  <p>Deploy del frontend (dashboard)</p>
+  <p></p>
+</div>
+
+URL del deploy (frontend): [washtrack-eb717.web.app](washtrack-eb717.web.app)
 
 ##### 5.2.2.8. Team Collaboration Insights during Sprint
 

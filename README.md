@@ -3941,7 +3941,7 @@ Cada tarea se asignó de acuerdo con la Leadership-and-Collaboration Matrix de l
 El control del Sprint se realizó en un tablero de Trello organizado en cuatro listas, correspondientes a los estados **To-do**, **In-Process**, **To-Review** y **Done**. Cada tarjeta representa una tarea, se identifica con la etiqueta de color de su bounded context e indica la User Story a la que pertenece, su descripción, la estimación en horas y los integrantes asignados.
 
 <p align="center">
-  <img src="assets/img/Chapter5/sprint2/sprint-backlog-2-trello.png" alt="Sprint Backlog 2 en Trello" width="800"/>
+  <img src="assets/img/Chapter5/Sprint2/sprint-backlog-2-trello.png" alt="Sprint Backlog 2 en Trello" width="800"/>
   <br>
   <i>Figura. Tablero del Sprint Backlog 2 en Trello.</i>
 </p>

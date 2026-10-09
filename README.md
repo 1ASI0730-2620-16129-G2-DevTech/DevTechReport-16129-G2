@@ -4715,7 +4715,7 @@ URL del repositorio (landing-page): [Repositorio Landing Page](https://github.co
 
 URL de landing page (GithubPage): [Landing Page](https://1asi0730-2620-16129-g2-devtech.github.io/DevTech-LandingPage-16129-G2/)
 
-URL del repositorio (fronend): [Repositorio Frontend](https://github.com/Opensource-UPC/Agridron-frontend)
+URL del repositorio (fronend): [Repositorio Frontend](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2)
 
 URL del frontend: [Frontend](https://washtrack-eb717.web.app)
 

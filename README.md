@@ -3937,6 +3937,34 @@ El objetivo del Sprint se encuentra enfocado en ofrecer una primera experiencia 
 ##### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 ##### 5.2.2.8. Team Collaboration Insights during Sprint.
 
+Durante el Sprint 2, los cinco integrantes desarrollaron en paralelo los módulos del frontend y coordinaron su integración mediante ramas de trabajo y Pull Requests. La actividad del repositorio se concentró entre el 3 y el 9 de octubre de 2026: se fusionaron **10 Pull Requests** y el incremento integrado se publicó en `main`. El trabajo abarcó autenticación y registro, seguimiento y notificaciones, gestión de pedidos, operaciones de lavandería, y soporte para pagos e integración.
+
+**Evidencia de participación de todos los miembros**
+
+| Integrante (GitHub) | Commits | Líneas añadidas | Líneas eliminadas | Aporte principal |
+|---|---:|---:|---:|---|
+| adriana832 | 28 | 5613 | 396 | Seguimiento, notificaciones, recojos y entregas; integración con Firebase |
+| ArianaPerez34 | 7 | 900 | 2 | Gestión de pedidos |
+| SSayag0V | 32 | 12086 | 2437 | Operaciones de lavandería y estructura común de la aplicación |
+| LuisTufino2 | 2 | 90 | 0 | Datos de prueba y recursos para pagos |
+| GabrielRamirez06 | 21 | 1135 | 134 | IAM, autenticación y registro |
+
+*Fuente: GitHub Insights – Contributors del repositorio [DevTech-Frontend-16129-G2](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2), rama `main`, actividad del 3 al 9 de octubre de 2026. Se registraron además 1 commit sin una cuenta de GitHub asociada, omitido de la tabla.*
+
+**Capturas de GitHub**
+
+![Figura 1. GitHub Insights – Contributors del frontend durante el Sprint 2](assets/img/Chapter5/sprint2/frontend-insights-contributors.png)
+*Figura 1. Aporte individual y actividad de commits durante el sprint.*
+
+![Figura 2. GitHub Insights – Pulse del frontend durante el Sprint 2](assets/img/Chapter5/sprint2/frontend-insights-pulse.png)
+*Figura 2. Actividad del repositorio y Pull Requests fusionados.*
+
+![Figura 3. GitHub Insights – Network graph del frontend durante el Sprint 2](assets/img/Chapter5/sprint2/frontend-insights-network.png)
+*Figura 3. Flujo de ramas y merges del repositorio.*
+
+![Figura 4. Historial de commits del frontend durante el Sprint 2](assets/img/Chapter5/sprint2/frontend-commits-history.png)
+*Figura 4. Historial de commits del repositorio durante el sprint.*
+
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas

@@ -4715,7 +4715,14 @@ URL del repositorio (landing-page): [Repositorio Landing Page](https://github.co
 
 URL de landing page (GithubPage): [Landing Page](https://1asi0730-2620-16129-g2-devtech.github.io/DevTech-LandingPage-16129-G2/)
 
+URL del repositorio (fronend): [Repositorio Frontend](https://github.com/Opensource-UPC/Agridron-frontend)
+
+URL del frontend: [Frontend](https://washtrack-eb717.web.app)
+
 URL de exposición (AV1): [Exposición AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216240_upc_edu_pe/IQB8Lru5xw1VRrAGy9Q_qwScAV3r_sKot-0D0TGgiGEB6A4?e=8FrI0h&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+URL de exposición (TB1): [Exposición TB1](https://drive.google.com/file/d/1s7Lls1PRWTXIBummXSfnPucRskjjtwlV/view?usp=sharing)
+
 
 
 

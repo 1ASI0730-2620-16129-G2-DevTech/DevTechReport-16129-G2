@@ -1,4 +1,4 @@
-<div align="center">
+<img width="1917" height="716" alt="image" src="https://github.com/user-attachments/assets/e6c721d1-ff2f-484b-819e-c8890b698c44" /><div align="center">
 <img src="assets/upc_logo.png" alt="UPC Logo" width="150"
 "/>
 
@@ -3855,6 +3855,124 @@ Las siguientes User Stories se relacionan con las principales áreas representad
 | **US-001** | Recibir notificaciones del estado del pedido | Representar la sección de notificaciones relacionadas con los cambios de estado de los pedidos. | 
 
 El objetivo del Sprint se encuentra enfocado en ofrecer una primera experiencia visual de la plataforma, permitiendo que los usuarios reconozcan sus principales módulos y comprendan cómo se organizarán las funcionalidades de WashTrack. El frontend desarrollado y desplegado constituye un incremento visual del producto y una base para futuras iteraciones orientadas a la integración de servicios y al funcionamiento completo de las funcionalidades.
+
+##### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo implementó la primera versión funcional del Frotnend de WashTrack, cubriendo las  User Stories priorizadas del Sprint Backlog . El desarrollo se organizó en el repositorio evTech-Frontend-16129-G2, comenzando con la estructura principal de la página y su navegación, para luego incorporar de forma incremental la sección de propuesta de valor, los accesos diferenciados para cada segmento objetivo, y ajustes de estilo y responsividad alineados con el Design System del proyecto. Como parte del cierre del Sprint, se renombró el archivo principal a index.html siguiendo la convención estándar de despliegue, se mejoró la documentación del README del repositorio, y se enlazó el formulario de contacto con la política de privacidad del proyecto. A continuación se detallan los commits relacionados con esta implementación, agrupados por repositorio y rama.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---|---|---|---|---|---|
+| DevTech-Frontend-16129-G2 | HEAD -> develop, origin/develop | ab3d119842b61bfce25472f71c7540942761d86c | feat: unified version plus fixes |  | 2026-10-08 23:03:44 |
+| DevTech-Frontend-16129-G2 | origin/feature/iam | ddb01beedcab80d1fd25c803b2de137a6d164143 | feat(iam): add authentication controller |  | 2026-10-08 18:36:35 |
+| DevTech-Frontend-16129-G2 |  | a0a4eadb3e64d32501f4adb1811ee231106852f2 | feat(iam): connect identity services to mock API |  | 2026-10-08 18:31:46 |
+| DevTech-Frontend-16129-G2 |  | b6381a03af6c0c6d8c28c8b2e3034bfd5a2b44bb | feat(iam): add identity application services |  | 2026-10-08 18:22:03 |
+| DevTech-Frontend-16129-G2 |  | 2659f7c5ec3350ab136863e98d92afa570fba0b8 | refactor(iam): align user with aggregate root |  | 2026-10-08 18:21:26 |
+| DevTech-Frontend-16129-G2 |  | e2b80f7f3866bf2c486a1d4ab9b926190e92ea4a | feat(iam): add registration translations in English |  | 2026-10-08 18:12:46 |
+| DevTech-Frontend-16129-G2 |  | be3334b1d8098eef0c763cfdb1d7f7d2ebe36794 | feat(iam): add registration translations in Spanish |  | 2026-10-08 18:12:35 |
+| DevTech-Frontend-16129-G2 |  | adffe0c04e5d4c7f3f9b537d34fb967f34dcda0f | feat(iam): link login component to registration component |  | 2026-10-08 18:11:12 |
+| DevTech-Frontend-16129-G2 |  | ce843edb394a0b2227196bac8968853582ebf53d | feat(iam): add registration route |  | 2026-10-08 18:08:17 |
+| DevTech-Frontend-16129-G2 |  | 199d465ed404ad4bb7d10c63abe327a03cbbde2f | feat(iam): add registration form |  | 2026-10-08 18:07:37 |
+| DevTech-Frontend-16129-G2 |  | 130dd5b672abaa626b1313e5402f6d52c289f80c | feat(iam): add registration action to auth store |  | 2026-10-08 18:03:28 |
+| DevTech-Frontend-16129-G2 |  | 1be5b84ceef95b81624201e28e6963745e915940 | feat(iam): add user registration api |  | 2026-10-08 18:02:43 |
+| DevTech-Frontend-16129-G2 |  | 24856ba3de5873fe1ef20e054e8099a198a149e1 | feat(iam): configure users endpoint |  | 2026-10-08 17:52:04 |
+| DevTech-Frontend-16129-G2 |  | c226a85a7275fe48b8ce3e358969d61785562756 | feat(iam): hide layout on login |  | 2026-10-08 17:51:30 |
+| DevTech-Frontend-16129-G2 |  | 8e48ff61aa5b1dca926ddfde411efb49c8be1285 | feat(iam): register login route |  | 2026-10-08 17:51:15 |
+| DevTech-Frontend-16129-G2 |  | 18f46e93a127b2541d7ff72949793eb658821464 | feat(iam): add login translations |  | 2026-10-08 17:49:11 |
+| DevTech-Frontend-16129-G2 |  | 40b7f0521dd5c5715fd1f9ad6c6bd4ada67c76aa | feat(iam): add Test Users and Passwords |  | 2026-10-08 17:47:55 |
+| DevTech-Frontend-16129-G2 |  | e11a383d302b1ab970cb4d3cb8f6a6e2818b5b61 | feat(iam): modify sidebar-menu component |  | 2026-10-08 17:44:48 |
+| DevTech-Frontend-16129-G2 |  | 165a6d0a42c858ff33ea3c60b0246297e446b0ab | feat(iam): add login view component |  | 2026-10-08 17:44:27 |
+| DevTech-Frontend-16129-G2 |  | bb919ca5f67c7dbf93c3282525af73cdc7cb0570 | feat(iam): add mock authentication API | Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
+ | 2026-10-08 17:39:41 |
+| DevTech-Frontend-16129-G2 | origin/feature/Subscription&Payment | 370a077fb747df1fa5625b06885f2c8834b2f709 | `feat(server): update db.json data` |  | 2026-10-08 17:09:33 |
+| DevTech-Frontend-16129-G2 |  | 2a25f1f51d13fbc5190c48d62b4b7fc86da7fe69 | `feat(public): add Yape QR image` |  | 2026-10-08 17:06:46 |
+| DevTech-Frontend-16129-G2 | origin/feature/laundry-operations, feature/laundry-operations | 6e132ee310ed514e3b38b678e3ec94aad30fb8dc | fix: branch restoration |  | 2026-10-08 15:44:33 |
+| DevTech-Frontend-16129-G2 |  | 9e7d94d256de0bf327d9dd66db6ddb8d376951fa | Merge remote-tracking branch 'origin/develop' into feature/laundry-operations |  | 2026-10-08 15:38:26 |
+| DevTech-Frontend-16129-G2 |  | fc4f45282dac6ae49294815895187316bbcc52ef | fix: code restoration (revert) |  | 2026-10-08 15:37:05 |
+| DevTech-Frontend-16129-G2 |  | 26872f390efc82f9e0004d11307d39b312f6affb | feat(i18n): add laundry operations messages |  | 2026-10-08 15:31:18 |
+| DevTech-Frontend-16129-G2 |  | 0292b0221ee08844113d724802b31c053a672078 | chore(server): add laundry operations and sensor mock data |  | 2026-10-08 15:23:28 |
+| DevTech-Frontend-16129-G2 |  | ba7d610d516bb94e18ede5e624bd913b82fc3fbb | feat(laundry-operations): add resources and washing cycles views |  | 2026-10-08 15:22:19 |
+| DevTech-Frontend-16129-G2 |  | 1874afeefcdc7dd52a75caf79c3db6cb0304aacb | feat(laundry-operations): add laundry dashboard and production board view |  | 2026-10-08 15:22:19 |
+| DevTech-Frontend-16129-G2 |  | 1464749dee85fdbf5d3df68f7588c032b4eb37eb | feat(laundry-operations): add menu and summary components |  | 2026-10-08 15:22:18 |
+| DevTech-Frontend-16129-G2 |  | f5ffa0545223c91bb7e11a7f7361f3b8d590119a | feat(laundry-operations): add order card and assign dialog components |  | 2026-10-08 15:22:18 |
+| DevTech-Frontend-16129-G2 |  | 05deb053d4b2e64bfb275b1be0b141ec3e10eba5 | feat(laundry-operations): add laundry operation and resource stores |  | 2026-10-08 15:22:17 |
+| DevTech-Frontend-16129-G2 |  | 0be7e145a936502cf193ed8723410822c04765ff | feat(laundry-operations): add iot gateway client and resource monitoring acl |  | 2026-10-08 15:22:17 |
+| DevTech-Frontend-16129-G2 |  | 620f014da000cee1bd29cca69b5602258fbeb146 | feat(laundry-operations): add api client and assemblers |  | 2026-10-08 15:22:16 |
+| DevTech-Frontend-16129-G2 |  | 4c2f49132e1ba37542a14b0f287d65333141434c | chore(env): add laundry operations and iot gateway endpoints |  | 2026-10-08 15:22:16 |
+| DevTech-Frontend-16129-G2 |  | daba6396177ee18ca2f3b040b679c95dbfdb2341 | feat(laundry-operations): add laundry order aggregate |  | 2026-10-08 15:22:16 |
+| DevTech-Frontend-16129-G2 |  | f827cc275f1dc5d5cf911f8a1b0bf6d779324515 | feat(laundry-operations): add washing cycle and laundry resource entities |  | 2026-10-08 15:22:15 |
+| DevTech-Frontend-16129-G2 |  | 3cf40389249d4012b8d7bc5ff4516d6a862ec849 | feat(laundry-operations): add domain enums |  | 2026-10-08 15:21:58 |
+| DevTech-Frontend-16129-G2 |  | 82f3c2b88e8e70a0519a312b418d1fb2bd494166 | Merge branch 'develop' into feature/iam |  | 2026-10-08 14:41:51 |
+| DevTech-Frontend-16129-G2 |  | ae4e6a1b2b1c5932e2a07a2bf5df4aa337c6617a | Merge pull request #4 from 1ASI0730-2620-16129-G2-DevTech/feature/laundry-operations | Feature/laundry operations | 2026-10-08 13:46:57 |
+| DevTech-Frontend-16129-G2 |  | 642c08d0b8c7ecb6d1058b2c8f125dcf7b89da8d | feat(laundry-operations): add laundry order aggregate |  | 2026-10-08 12:38:33 |
+| DevTech-Frontend-16129-G2 |  | c116c124a466e4667508575c32fbd5142b95c3a0 | feat(laundry-operations): add washing cycle and laundry resource entities |  | 2026-10-08 12:38:03 |
+| DevTech-Frontend-16129-G2 |  | 17c653b3209d2a6be0403a875aec69f5a1efa7d4 | feat(laundry-operations): add resources and washing cycles views |  | 2026-10-08 12:37:37 |
+| DevTech-Frontend-16129-G2 |  | 0d981f543845d0e5a50116698bb755c24893eae5 | feat(laundry-operations): add production board view |  | 2026-10-08 12:34:35 |
+| DevTech-Frontend-16129-G2 |  | dd55ee722ae3ea2b0c48df0575c5327582080d39 | feat(laundry-operations): add menu and summary components |  | 2026-10-08 12:34:18 |
+| DevTech-Frontend-16129-G2 |  | 24c14b875cab00389b6e26545b9ce59a393b2e31 | feat(laundry-operations): add order card and assign dialog components |  | 2026-10-08 12:34:06 |
+| DevTech-Frontend-16129-G2 |  | f40d0272c6f023286753a0d673dbc96253aed957 | feat(laundry-operations): add laundry operations store |  | 2026-10-08 12:30:16 |
+| DevTech-Frontend-16129-G2 |  | 57de39abe96e0496b133232ecae87a10286e2938 | feat(laundry-operations): add api client and assemblers |  | 2026-10-08 12:30:05 |
+| DevTech-Frontend-16129-G2 |  | 3946b4bc6e99cedbdb827b3bc59bc7652d123976 | feat(laundry-operations): add routes |  | 2026-10-08 12:27:14 |
+| DevTech-Frontend-16129-G2 |  | f299d145e009fdf49f1556635e1344cf9031c4ca | chore(server): add laundry operations mock data |  | 2026-10-08 12:26:54 |
+| DevTech-Frontend-16129-G2 |  | 4d4433e80c2743781c91c4f1e019ab73aca89ee2 | chore(env): add laundry operations endpoints |  | 2026-10-08 12:22:06 |
+| DevTech-Frontend-16129-G2 |  | 86f5ac953080301adc16377268cc135b187b8e5f | feat(laundry-operations): add domain enums |  | 2026-10-08 12:20:11 |
+| DevTech-Frontend-16129-G2 |  | 325372fdbc4d1e6b4aa97a757388d8713900c82d | Merge pull request #3 from 1ASI0730-2620-16129-G2-DevTech/feature/order-managment | Feature/order managment | 2026-10-08 11:13:33 |
+| DevTech-Frontend-16129-G2 | refs/stash | 157d2e3e03a81076647cb153cbdbf16cf96fdb63 | On feature/laundry-operations: !!GitHub_Desktop<feature/laundry-operations> |  | 2026-10-08 10:17:36 |
+| DevTech-Frontend-16129-G2 |  | a5919c86916e1bc43edcc15bca5fa30eef497bed | index on feature/laundry-operations: c87d180 Merge pull request #2 from 1ASI0730-2620-16129-G2-DevTech/feature/tracking-notifications |  | 2026-10-08 10:17:36 |
+| DevTech-Frontend-16129-G2 |  | 922d86742aced5430606538b7223336833db8fa0 | Update start.sh |  | 2026-10-08 09:26:04 |
+| DevTech-Frontend-16129-G2 | origin/feature/order-managment, feature/order-managment | 02afcb256495aad7ed33eb7431ca85882dabf811 | feat(orders): integrate order-management module and fix mock server connection |  | 2026-10-08 09:00:53 |
+| DevTech-Frontend-16129-G2 |  | 43fdd1a3dcad1ac0c4302cf72ef1a697d1f7741f | feat(orders): add order presentation controllers and views |  | 2026-10-08 08:49:53 |
+| DevTech-Frontend-16129-G2 |  | c09b8f92af8b94c560cfbd336e4c97b32523fb2b | feat(orders): implement order infrastructurerepositories |  | 2026-10-08 08:48:54 |
+| DevTech-Frontend-16129-G2 |  | 465dfe20cff3d2fad07fa87e6f5a8a414a4dcc1f | feat(orders): add order application services |  | 2026-10-08 08:47:43 |
+| DevTech-Frontend-16129-G2 |  | b568e11edb31cb8073f874fdf19b00eed4aa21a3 | feat(orders): implement order domain layer |  | 2026-10-08 08:46:34 |
+| DevTech-Frontend-16129-G2 |  | 6181d1ad6526cc62c42d6725907c46e3e5e7bf0b | feat(shared): add base repository implementation |  | 2026-10-08 08:41:41 |
+| DevTech-Frontend-16129-G2 |  | 3d1c4a142135acd4011d69489190967b539f94ec | feat(shared): add domain model base classes |  | 2026-10-08 08:37:00 |
+| DevTech-Frontend-16129-G2 |  | c87d1807f09b34157efd0d22c74215331decd4f6 | Merge pull request #2 from 1ASI0730-2620-16129-G2-DevTech/feature/tracking-notifications | Feature/tracking notifications | 2026-10-08 02:05:45 |
+| DevTech-Frontend-16129-G2 |  | a3fdc9531687ddbfe80679788afe667bc87d884e | feat(shared): update layout |  | 2026-10-08 02:01:18 |
+| DevTech-Frontend-16129-G2 |  | 0df5dbf498fba00b9cb56906a6b0ad81a4a9704c | feat(shared): update layout |  | 2026-10-08 02:00:47 |
+| DevTech-Frontend-16129-G2 |  | 2bf2864dec70bf510e8c2096720f20683056b482 | chore: update server files |  | 2026-10-08 01:56:11 |
+| DevTech-Frontend-16129-G2 |  | 3b473ba1cdcdec5595940fb2833aee4fffcf156c | chore: update locale files |  | 2026-10-08 01:54:57 |
+| DevTech-Frontend-16129-G2 |  | c99d0591516d34cae37c488ceb480be9235c6d18 | feat(pickups-deliveries): add pickups deliveries routes |  | 2026-10-08 01:51:17 |
+| DevTech-Frontend-16129-G2 |  | b14cb7d6125419ae4876bedc078b46861676436f | feat(pickups-deliveries): add delivery list |  | 2026-10-08 01:50:47 |
+| DevTech-Frontend-16129-G2 |  | 584ab57410a69a5defccbc7286869d52ab551b84 | feat(pickups-deliveries): add delivery catalog |  | 2026-10-08 01:50:13 |
+| DevTech-Frontend-16129-G2 |  | eab05d2d830fb05e8dc282cdc10891034e296345 | feat(pickups-deliveries): add pickups deliveries store |  | 2026-10-08 01:49:26 |
+| DevTech-Frontend-16129-G2 |  | 5595e799c9b1654bf4ba61aa83b9fdf577689ffe | feat(pickups-deliveries): add pickups deliveries api |  | 2026-10-08 01:48:40 |
+| DevTech-Frontend-16129-G2 |  | b86b5a9890f11e130d3b3b42d2aaceb935dab6f1 | feat(pickups-deliveries): add delivery assembler |  | 2026-10-08 01:48:22 |
+| DevTech-Frontend-16129-G2 |  | 5d102346e30ec4e7ca178b8c5661049e8a1d107e | feat(pickups-deliveries): add delivery entity |  | 2026-10-08 01:47:37 |
+| DevTech-Frontend-16129-G2 |  | 0a43d15ef856dc4ebfb0d5896cacb298be890538 | feat(shared): add sidebar menu |  | 2026-10-08 01:45:45 |
+| DevTech-Frontend-16129-G2 |  | ef6074fb746dd244741bfda3223b7abf18ff364b | chore: update environments files |  | 2026-10-08 01:42:37 |
+| DevTech-Frontend-16129-G2 |  | 3a12f1e54dcb4d727d0653e4092441c3b8688dfb | feat(src): update router |  | 2026-10-08 01:40:01 |
+| DevTech-Frontend-16129-G2 |  | e965b8f14e6d6a12dd75bb98161e494fd6e1986d | feat(tracking-notifications): add tracking notifications routes |  | 2026-10-08 01:34:07 |
+| DevTech-Frontend-16129-G2 |  | ece987d460875a2aff0c44dade1970430f02d2c1 | feat(tracking-notifications): add order tracking list and view |  | 2026-10-08 01:33:27 |
+| DevTech-Frontend-16129-G2 |  | e8d0e74ed298285abece25c3de0adaf58d75e324 | feat(tracking-notifications): add notification toaster |  | 2026-10-08 01:32:45 |
+| DevTech-Frontend-16129-G2 |  | ad1d45e025785ec837e6b4228ef82cd26e3ff110 | feat(tracking-notifications): add stage tag and stepper |  | 2026-10-08 01:32:17 |
+| DevTech-Frontend-16129-G2 |  | 50afba5faf15fcc2cace16e81c7c637dfa5a9001 | feat(tracking-notifications): add tracking item, list, summary and history |  | 2026-10-08 01:31:10 |
+| DevTech-Frontend-16129-G2 |  | b57a07dbd70c9b8bc68a4a81965f06fc42f9143f | feat(tracking-notifications): add tracking item, list, summary and history |  | 2026-10-08 01:31:06 |
+| DevTech-Frontend-16129-G2 |  | 9acecec7af83943c2d84028d47044efe185f4c44 | feat(tracking-notifications): add tracking notifications store |  | 2026-10-08 01:27:53 |
+| DevTech-Frontend-16129-G2 |  | 87cfff82c7157dcc8fa145f5a79507628bf763ce | feat(tracking-notifications): add tracking notification api |  | 2026-10-08 01:27:13 |
+| DevTech-Frontend-16129-G2 |  | 02cb5f30bbe5df7c7e11e9c3dc892c7c38a9efff | feat(tracking-notifications): add notification assembler |  | 2026-10-08 01:26:46 |
+| DevTech-Frontend-16129-G2 |  | ab55974eb9d1baf80d3c0acf572cdb9a431348fd | feat(tracking-notifications): add tracking assembler |  | 2026-10-08 01:26:14 |
+| DevTech-Frontend-16129-G2 |  | 29dc5a0afa77bc18df3770753e46dff61f69b65b | feat(tracking-notifications): add order tracking entity |  | 2026-10-08 01:25:05 |
+| DevTech-Frontend-16129-G2 |  | 81b3d1ce7ad46a207e6943f2ed420830c6ee39a4 | feat(tracking-notifications): add notification entity |  | 2026-10-08 01:22:53 |
+| DevTech-Frontend-16129-G2 |  | b158cb33dd01adf4da0056e3630fce2da2b7fead | feat: add base structure (layout, router, i18n, theme, env and mock server) |  | 2026-10-07 22:30:46 |
+| DevTech-Frontend-16129-G2 |  | 7674cfad8f887bc470426908a932e71817de81bf | feat(iam): add user domain model and repository port |  | 2026-10-07 11:59:30 |
+| DevTech-Frontend-16129-G2 |  | 78834412c401eba7cc3deb2f0b23e55c1a51bac7 | Merge pull request #1 from 1ASI0730-2620-16129-G2-DevTech/feature/iam | feat(shared): add domain model | 2026-10-07 10:55:08 |
+| DevTech-Frontend-16129-G2 |  | a0fb4dda4350daa90ded65af6fa235132779cc0b | feat(shared): add domain model |  | 2026-10-07 10:24:45 |
+| DevTech-Frontend-16129-G2 | origin/feature/format | b5d623083f676b2036c363e500de898504336f7b | chore: install axios, primevue packages |  | 2026-10-03 17:48:40 |
+| DevTech-Frontend-16129-G2 |  | 720e99275b2030f17db0c592ae8be21fc8ab16f5 | feat(shared): add BaseEndpoint |  | 2026-10-03 17:43:41 |
+| DevTech-Frontend-16129-G2 |  | 1f418a217929936f61f4b864f275865762640f62 | feat(shared): add BaseApi |  | 2026-10-03 17:43:22 |
+| DevTech-Frontend-16129-G2 | origin/main, origin/HEAD, main | 5ea17267413fbee65b0f3f7564deb4ed79646658 | chore: initial commit |  | 2026-10-03 16:45:46 |
+
+##### 5.2.2.5. Execution Evidence for Sprint Review
+
+Como resultado del Sprint 2, se logró desplegar la primera versión funcional del Frontend de WashTrack, cumpliendo con las  User Stories priorizadas en el Sprint Backlog. A nivel de ejecución, la interfaz presenta de forma clara el funcionamiento de la plataforoma, seguida de los accesos diferenciados que permiten al visitante identificar y navegar hacia los menus reps, ya sea como cliente o como proveedor de servicios de lavandería. La navegación entre secciones se implementó mediante un menú responsivo, adaptado tanto a la versión de escritorio como a dispositivos móviles, y el formulario de contacto ubicado al final de la página quedó enlazado a la política de privacidad del proyecto.
+
+
+![FrontEnd_0.png](assets/img/Chapter5/sprint2/FrontEnd_0.png)
+![FrontEndMain.png](assets/img/Chapter5/sprint2/FrontEndMain.png)
+![FrontEnd_2.png](assets/img/Chapter5/sprint2/FrontEnd_2.png)
+![FrontEnd_3.png](assets/img/Chapter5/sprint2/FrontEnd_3.png)
+![FrontEnd_4.png](assets/img/Chapter5/sprint2/FrontEnd_4.png)
+
 
 ### 5.3. Validation Interviews
 

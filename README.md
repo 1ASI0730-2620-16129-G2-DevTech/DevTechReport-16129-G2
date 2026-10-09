@@ -52,7 +52,7 @@ u202216240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tufiño Ar
 **Periodo 202620**
 <br>
 
-**Setiembre 2026**
+**Octubre 2026**
 
 </div>
 <br>
@@ -69,8 +69,8 @@ u202216240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tufiño Ar
 
 | Versión | Fecha | Autor | Descripción de modificación |
 |---|---|---|---|
-| **AV1** | 28/08/2026 | Pérez Vásquez, Ariana Valeria<br><br>Ramirez Gutierrez, Gabriel<br><br>Ramos Fuentes Rivera, Adriana Nicole<br><br>Sayago Vidal, Sebastián Leonardo<br><br>Tufiño Argüelles, Luis Angel | **Capítulo I: Introducción**<br>1.1. Startup Profile<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1. Antecedentes y problemática<br>1.2.2. Lean UX Process<br>1.2.2.1. Lean UX Problem Statements<br>1.2.2.2. Lean UX Assumptions<br>1.2.2.3. Lean UX Hypothesis Statements<br>1.2.2.4. Lean UX Canvas<br>1.3. Segmentos objetivo<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores<br>2.1.1. Análisis competitivo<br>2.1.2. Estrategias y tácticas frente a competidores<br>2.2. Entrevistas<br>2.2.1. Diseño de entrevistas<br>2.2.2. Registro de entrevistas<br>2.2.3. Análisis de entrevistas<br>2.3. Needfinding<br>2.3.1. User Personas<br>2.3.2. User Task Matrix<br>2.3.3. User Journey Mapping<br>2.3.4. Empathy Mapping<br>2.4. Big Picture EventStorming<br>2.5. Ubiquitous Language<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories<br>3.2. Impact Mapping<br>3.3. Product Backlog<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines<br>4.1.1. General Style Guidelines<br>4.1.2. Web Style Guidelines<br>4.2. Information Architecture<br>4.2.1. Organization Systems<br>4.2.2. Labeling Systems<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems<br>4.2.5. Navigation Systems<br>4.3. Landing Page UI Design<br>4.3.1. Landing Page Wireframe<br>4.3.2. Landing Page Mock-up<br>4.4. Web Applications UX/UI Design<br>4.4.1. Web Applications Wireframes<br>4.4.2. Web Applications Wireflow Diagrams<br>4.4.2. Web Applications Mock-ups<br>4.4.3. Web Applications User Flow Diagrams<br>4.5. Web Applications Prototyping<br>4.6. Domain-Driven Software Architecture<br>4.6.1. Design-Level EventStorming<br>4.6.2. Software Architecture Context Diagram<br>4.6.3. Software Architecture Container Diagrams<br>4.6.4. Software Architecture Components Diagrams<br>4.7. Software Object-Oriented Design<br>4.7.1. Class Diagrams<br>4.8. Database Design<br>4.8.1. Database Diagrams<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management<br>5.1.1. Software Development Environment Configuration<br>5.1.2. Source Code Management<br>5.1.3. Source Code Style Guide & Conventions<br>5.1.4. Software Deployment Configuration<br>5.2. Landing Page, Services & Applications Implementation<br>5.2.1. Sprint n<br>5.2.1.1. Sprint Planning n<br>5.2.1.2. Aspect Leaders and Collaborators<br>5.2.1.3. Sprint Backlog n<br>5.2.1.4. Development Evidence for Sprint Review<br>5.2.1.5. Execution Evidence for Sprint Review<br>5.2.1.6. Services Documentation Evidence for Sprint Review<br>5.2.1.7. Software Deployment Evidence for Sprint Review<br>5.2.1.8. Team Collaboration Insights during Sprint |
-| **AV1** | 28/08/2026 | Pérez Vásquez, Ariana Valeria<br><br>Ramirez Gutierrez, Gabriel<br><br>Ramos Fuentes Rivera, Adriana Nicole<br><br>Sayago Vidal, Sebastián Leonardo<br><br>Tufiño Argüelles, Luis Angel | **Capítulo V: Product Implementation, Validation & Deployment** <br> Sprint 2 |
+| **AV1** | 28/08/2026 | Pérez Vásquez, Ariana Valeria<br><br>Ramirez Gutierrez, Gabriel<br><br>Ramos Fuentes Rivera, Adriana Nicole<br><br>Sayago Vidal, Sebastián Leonardo<br><br>Tufiño Argüelles, Luis Angel | **Capítulo I: Introducción**<br>1.1. Startup Profile<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1. Antecedentes y problemática<br>1.2.2. Lean UX Process<br>1.2.2.1. Lean UX Problem Statements<br>1.2.2.2. Lean UX Assumptions<br>1.2.2.3. Lean UX Hypothesis Statements<br>1.2.2.4. Lean UX Canvas<br>1.3. Segmentos objetivo<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores<br>2.1.1. Análisis competitivo<br>2.1.2. Estrategias y tácticas frente a competidores<br>2.2. Entrevistas<br>2.2.1. Diseño de entrevistas<br>2.2.2. Registro de entrevistas<br>2.2.3. Análisis de entrevistas<br>2.3. Needfinding<br>2.3.1. User Personas<br>2.3.2. User Task Matrix<br>2.3.3. User Journey Mapping<br>2.3.4. Empathy Mapping<br>2.4. Big Picture EventStorming<br>2.5. Ubiquitous Language<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories<br>3.2. Impact Mapping<br>3.3. Product Backlog<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines<br>4.1.1. General Style Guidelines<br>4.1.2. Web Style Guidelines<br>4.2. Information Architecture<br>4.2.1. Organization Systems<br>4.2.2. Labeling Systems<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems<br>4.2.5. Navigation Systems<br>4.3. Landing Page UI Design<br>4.3.1. Landing Page Wireframe<br>4.3.2. Landing Page Mock-up<br>4.4. Web Applications UX/UI Design<br>4.4.1. Web Applications Wireframes<br>4.4.2. Web Applications Wireflow Diagrams<br>4.4.2. Web Applications Mock-ups<br>4.4.3. Web Applications User Flow Diagrams<br>4.5. Web Applications Prototyping<br>4.6. Domain-Driven Software Architecture<br>4.6.1. Design-Level EventStorming<br>4.6.2. Software Architecture Context Diagram<br>4.6.3. Software Architecture Container Diagrams<br>4.6.4. Software Architecture Components Diagrams<br>4.7. Software Object-Oriented Design<br>4.7.1. Class Diagrams<br>4.8. Database Design<br>4.8.1. Database Diagrams<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management<br>5.1.1. Software Development Environment Configuration<br>5.1.2. Source Code Management<br>5.1.3. Source Code Style Guide & Conventions<br>5.1.4. Software Deployment Configuration<br>5.2. Landing Page, Services & Applications Implementation<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1<br>5.2.1.2. Aspect Leaders and Collaborators<br>5.2.1.3. Sprint Backlog 1<br>5.2.1.4. Development Evidence for Sprint Review<br>5.2.1.5. Execution Evidence for Sprint Review<br>5.2.1.6. Services Documentation Evidence for Sprint Review<br>5.2.1.7. Software Deployment Evidence for Sprint Review<br>5.2.1.8. Team Collaboration Insights during Sprint |
+| **TB1** | 08/10/2026 | Pérez Vásquez, Ariana Valeria<br><br>Ramirez Gutierrez, Gabriel<br><br>Ramos Fuentes Rivera, Adriana Nicole<br><br>Sayago Vidal, Sebastián Leonardo<br><br>Tufiño Argüelles, Luis Angel | 5.2.2. Sprint 2<br>5.2.2.1. Sprint Planning 2<br>5.2.2.2. Aspect Leaders and Collaborators<br>5.2.2.3. Sprint Backlog 2<br>5.2.2.4. Development Evidence for Sprint Review<br>5.2.2.5. Execution Evidence for Sprint Review<br>5.2.2.6. Services Documentation Evidence for Sprint Review<br>5.2.2.7. Software Deployment Evidence for Sprint Review<br>5.2.2.8. Team Collaboration Insights during Sprint |
 
 <div style="page-break-after: always;"></div>
 
@@ -131,6 +131,69 @@ URL del repositorio (frontend): [https://github.com/1ASI0730-2620-16129-G2-DevTe
 <img src="assets/network_graph_av1.png" alt="Contributors-DevTech-AV1" width="500"/>
   <br/><i>Network graph of DevTech (AV1)</i>
 </p>
+
+
+**Segunda entrega (TB1)**
+
+<p align="justify">
+  Durante la entrega TB1, el equipo llevó a cabo el desarrollo del Sprint 2, iniciando con una planificación estructurada que incluyó la definición de objetivos, la asignación de líderes por aspectos técnicos y la organización detallada del Sprint Backlog 2. Para optimizar la gestión de tareas, la transparencia y el seguimiento del flujo de trabajo, se incorporó oficialmente Trello como artefacto clave dentro de la metodología del proyecto.
+</p>
+
+<p align="justify">
+  De forma prioritaria, el equipo realizó un proceso de refinamiento y correcciones a la primera entrega (AV1) para asegurar la solidez y coherencia de los artefactos previos. Se ajustaron y optimizaron el diagrama de clases, los diagramas de arquitectura C4 (contexto, contenedores y componentes) y el diagrama de base de datos. Asimismo, se reestructuró el Impact Mapping y se depuraron las User Stories para eliminar duplicidades y mejorar la claridad de los requerimientos.
+</p>
+
+<p align="justify">
+  En el plano técnico, se ejecutó la implementación del frontend de la aplicación utilizando el framework Vue.js. La arquitectura de componentes e interfaces se diseñó aplicando de forma estricta los principios de Domain-Driven Design (DDD) y respetando la delimitación de los Bounded Contexts, logrando que la experiencia de usuario y los flujos de la aplicación respondan directamente a las reglas del negocio.
+</p>
+
+<p align="justify">
+  Finalmente, la entrega culminó con la preparación, validación y despliegue del entorno funcional (deploy) de la aplicación y sus servicios asociados. Todo el proceso quedó respaldado con un registro detallado de evidencias de desarrollo, ejecución, documentación de servicios e hitos alcanzados para la revisión del sprint (Sprint Review), junto con una reflexión sobre la colaboración y el trabajo en equipo durante este ciclo.
+</p>
+
+
+**Evidencias de colaboración y analíticos en GitHub**
+
+<p align="justify">
+  Para garantizar la coherencia metodológica con el Registro de Versiones del Informe y verificar el compromiso y la participación equitativa de todos los integrantes del equipo DevTech, se adjuntan los analíticos y registros de actividad extraídos directamente de las métricas internas del repositorio en GitHub.
+</p>
+
+**Report**
+
+<p align="center">
+<img src="assets/img/Chapter5/sprint1/insights-contributors.png" alt="Contributors-DevTech-TB1" width="500"/>
+  <br/><i>Contributors of DevTech (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint1/insights-pulse.png" alt="Pulse-DevTech-TB1" width="500"/>
+  <br/><i>Pulse of DevTech (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint1/insights-network.png" alt="Network-DevTech-TB1" width="500"/>
+  <br/><i>Network graph of DevTech (TB1)</i>
+</p>
+
+**Fronted**
+
+<p align="center">
+<img src="assets/img/Chapter5/Sprint 2/frontend-insights-contributors.png" alt="Contributors-DevTech-Frontend-TB1" width="500"/>
+  <br/><i>Contributors Frontend of DevTech (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/Sprint 2/frontend-insights-pulse.png" alt="Pulse-DevTech-Frontend-TB1" width="500"/>
+  <br/><i>Pulse Frontend of DevTech (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/Sprint%202/frontend-insights-network-1.png" alt="Network-1-DevTech-Frontend-TB1" width="500"/>
+<img src="assets/img/Chapter5/Sprint%202/frontend-insights-network-2.png" alt="Network-2-DevTech-Frontend-TB1" width="500"/>
+<img src="assets/img/Chapter5/Sprint%202/frontend-insights-network-3.png" alt="Network-3-DevTech-Frontend-TB1" width="500"/>
+  <br/><i>Network graph Frontend of DevTech (TB1)</i>
+</p>
+
 
 <div style="page-break-after: always;"></div>
 
@@ -239,6 +302,15 @@ URL del repositorio (frontend): [https://github.com/1ASI0730-2620-16129-G2-DevTe
         - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
         - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
         - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+      - [5.2.2. Sprint 2](#522-sprint-2)
+        - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+        - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+        - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+        - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+        - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+        - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+        - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+        - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
     - [5.3. Validation Interviews](#53-validation-interviews)
       - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
       - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -287,6 +359,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
         Participé en la validación funcional de la Landing Page, asegurando que los elementos implementados respondieran a las User Stories US01, US02 y US03, especialmente en la presentación de la propuesta de valor y en la navegación hacia la experiencia del cliente y del proveedor. También colaboré en la revisión del contenido y del comportamiento esperado de la interfaz para mantener coherencia con los objetivos del producto.<br>
+        <em><b>TB1</b></em><br>
+        En el Sprint 2 asumí la responsabilidad del bounded context de Identity and Access Management (IAM) para la primera versión del frontend de WashTrack. Implementé el modelo de usuario y el contrato del repositorio, las vistas y rutas de inicio de sesión y registro, el estado de autenticación y su integración con la API mock. También desarrollé los servicios de aplicación y el controlador de autenticación, coordinando su integración con la estructura compartida de la aplicación y las traducciones en español e inglés. El trabajo se incorporó a la rama de desarrollo mediante `feature/iam` y su Pull Request, contribuyendo a integrar el módulo con los demás componentes del equipo.<br>
         <br>
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
@@ -321,6 +395,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
         Contribuí a la organización del trabajo del equipo al revisar la prioridad de las User Stories y validar que el Product Backlog y la implementación de la Landing Page estuvieran alineados con los objetivos del Sprint. Además, apoyé la coordinación técnica y la revisión funcional para asegurar que cada tarea cumpliera con los criterios de aceptación y se entregara dentro de los plazos establecidos.<br>
+        <em><b>TB1</b></em><br>
+        Para el Sprint 2, enfoqué mi aporte en el alcance acordado para el frontend y en el desarrollo del módulo IAM: autenticación, registro de usuarios y conexión de esos flujos con la API mock. Organicé los cambios en la rama `feature/iam` y coordiné su integración con `develop` mediante Pull Request. También contribuí a la revisión de las rutas y vistas de acceso en la versión integrada, apoyando el objetivo común de incorporar los distintos bounded contexts en una primera versión del frontend.<br>
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
         Desarrollé los diferentes componentes del proyecto siguiendo una estructura organizada, comenzando por la definición de la Startup Profile, la identificación de la problemática y los segmentos objetivo, y continuando con el levantamiento y análisis de requerimientos. Para ello, elaboré el análisis competitivo, el diseño, registro y análisis de entrevistas, y las herramientas de Needfinding, como User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping. Además, desarrollé el Big Picture EventStorming y el Ubiquitous Language, permitiendo organizar y consolidar la información obtenida durante el análisis. Estas acciones contribuyeron al cumplimiento progresivo de los objetivos y entregables establecidos para el proyecto.
@@ -2840,16 +2916,20 @@ Los prototipos fueron construidos en Figma, incluyendo simulación de interacci�
 
 
 ### 4.6. Domain-Driven Software Architecture
-La arquitectura de WashTrack se organiza utilizando conceptos de **Domain-Driven Design (DDD)** para separar las principales responsabilidades del dominio. Los Bounded Contexts permiten delimitar las reglas y responsabilidades de cada área funcional.
+La arquitectura de WashTrack se organiza utilizando conceptos de **Domain-Driven Design (DDD)** para separar las principales responsabilidades del dominio. Los Bounded Contexts permiten delimitar las reglas y responsabilidades de cada área funcional. Para este proyecto, la arquitectura de WashTrack se organiza con **Domain-Driven Design (DDD)** para separar las responsabilidades del dominio. La solución se divide en nueve Bounded Contexts: *Identity & Access*, *Customer Management*, *Service Catalog*, *Order Management*, *Laundry Operations*, *Payments*, *Tracking & Notifications*, *Pickups & Deliveries* y *Dashboard*. Todos ellos comparten un Shared Kernel con los elementos comunes del dominio y de la infraestructura.
 
-| Bounded Context | Responsabilidad |
-|---|---|
-| Identity & Access | Gestionar identidad, autenticación y autorización. |
-| Order Management | Gestionar solicitudes y órdenes de servicio. |
-| Laundry Operations | Gestionar el procesamiento interno de las órdenes. |
-| Subscription & Payment | Gestionar membresías, créditos, beneficios y pagos. |
-| Tracking & Notifications | Gestionar seguimiento y notificaciones. |
-| Customer & Business Management | Gestionar clientes, lavanderías e información operativa. |
+| Bounded Context | Responsabilidad | Elementos principales del dominio |
+|---|---|---|
+| Identity & Access | Gestionar el registro, el inicio de sesión y los roles de los usuarios. | `User` (aggregate root) |
+| Customer Management | Gestionar los perfiles de los clientes. | `Customer`, `DocumentType` (DNI, CE) |
+| Service Catalog | Gestionar el catálogo de servicios y prendas, y medir cuáles se piden más. | `LaundryService`, `Garment`, `CatalogItem`, `DemandPeriod` |
+| Order Management | Gestionar las solicitudes de servicio y sus prendas. | `Order` (aggregate root), `GarmentItem`, `OrderStatus`, `ServiceType`, `DeliveryMethod` |
+| Laundry Operations | Gestionar el procesamiento interno de las órdenes y los recursos de la lavandería. | `LaundryOrder`, `WashingCycle`, `LaundryResource`, `ProcessingStage`, `Priority`, `ResourceStatus` |
+| Payments | Registrar los pagos de los pedidos. | `Payment`, `PaymentStatus` (paid, pending, cancelled) |
+| Tracking & Notifications | Gestionar el seguimiento de los pedidos y las notificaciones al usuario. | `OrderTracking`, `Notification` |
+| Pickups & Deliveries | Gestionar los recojos y las entregas programadas. | `Delivery`, `DeliveryType`, `DeliveryStatus` |
+| Dashboard | Presentar indicadores del negocio. No tiene entidades propias: calcula sus métricas a partir de pedidos, pagos y clientes. | `DashboardMetrics` |
+ 
 
 #### 4.6.1. Design-Level EventStorming
 El Design-Level EventStorming identifica los principales **Commands, Aggregates, Domain Events y Policies** necesarios para representar el comportamiento del dominio.
@@ -3879,123 +3959,697 @@ Las siguientes User Stories se relacionan con las principales áreas representad
 
 El objetivo del Sprint se encuentra enfocado en ofrecer una primera experiencia visual de la plataforma, permitiendo que los usuarios reconozcan sus principales módulos y comprendan cómo se organizarán las funcionalidades de WashTrack. El frontend desarrollado y desplegado constituye un incremento visual del producto y una base para futuras iteraciones orientadas a la integración de servicios y al funcionamiento completo de las funcionalidades.
 
+
+##### 5.2.2.3. Sprint Backlog 2
+
+El objetivo principal del Sprint 2 es desarrollar y desplegar la primera versión del frontend de WashTrack, organizando su interfaz en cinco áreas funcionales: IAM and Customer & Business, Order Management, Laundry Operations, Subscription & Payment, y Tracking & Notifications. Para alcanzar este objetivo, se tomaron las diez User Stories seleccionadas en el Sprint Planning 2 y se descompusieron en Work-items/Tasks concretos, considerando las capas de cada bounded context: modelo de dominio, servicios de aplicación, infraestructura y vistas.
+
+Cada tarea se asignó de acuerdo con la Leadership-and-Collaboration Matrix de la sección 5.2.2.2: el líder de cada aspecto concentra las tareas principales de implementación de su bounded context, mientras que los colaboradores asumen las tareas de apoyo, revisión e integración. Además, se incluyeron tareas técnicas que no dependen de una User Story en particular, pero que son necesarias para que todos los bounded contexts compartan una misma estructura base y para que el incremento pueda integrarse y desplegarse.
+
+El control del Sprint se realizó en un tablero de Trello organizado en cuatro listas, correspondientes a los estados **To-do**, **In-Process**, **To-Review** y **Done**. Cada tarjeta representa una tarea, se identifica con la etiqueta de color de su bounded context e indica la User Story a la que pertenece, su descripción, la estimación en horas y los integrantes asignados.
+
+<p align="center">
+  <img src="assets/img/Chapter5/Sprint 2/sprint-backlog-2-trello.png" alt="Sprint Backlog 2 en Trello" width="800"/>
+  <br>
+  <i>Figura. Tablero del Sprint Backlog 2 en Trello.</i>
+</p>
+
+- **URL del tablero del Sprint Backlog 2:** [WashTrack – Sprint 2](https://trello.com/b/q6IikJ1M/washtrack-sprint-2)
+
+La siguiente tabla presenta las User Stories asignadas al Sprint 2, los Work-items/Tasks resultantes de su descomposición y las tareas técnicas adicionales, junto con el estado de cada una al momento de la elaboración del informe.
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Sprint #</th>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Story Id</th>
+      <th>Story Title</th>
+      <th>Task Id</th>
+      <th>Task Title</th>
+      <th>Task Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status (To-do / In-Process / To-Review / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sprint 2</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>T01</td>
+      <td>Implementar layout, router, i18n y tema</td>
+      <td>Implementar el layout general, el router, la internacionalización (ES/EN), el tema visual, las variables de entorno y el servidor de datos simulado.</td>
+      <td align="center">4</td>
+      <td>Sayago Vidal, Sebastián Leonardo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>T02</td>
+      <td>Implementar menú lateral de navegación</td>
+      <td>Implementar el sidebar con el acceso a las vistas de cada bounded context de la aplicación.</td>
+      <td align="center">2</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-016</td>
+      <td>Gestionar usuarios y roles</td>
+      <td>T03</td>
+      <td>Implementar modelo de dominio de usuario</td>
+      <td>Implementar la entidad de usuario alineada al AggregateRoot, sus roles y el repositorio del bounded context IAM.</td>
+      <td align="center">3</td>
+      <td>Ramirez Gutierrez, Gabriel</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-016</td>
+      <td>Gestionar usuarios y roles</td>
+      <td>T04</td>
+      <td>Implementar inicio de sesión</td>
+      <td>Implementar la vista de login, el servicio de autenticación y su conexión con la API simulada, ocultando el layout durante el acceso.</td>
+      <td align="center">4</td>
+      <td>Ramirez Gutierrez, Gabriel</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-016</td>
+      <td>Gestionar usuarios y roles</td>
+      <td>T05</td>
+      <td>Implementar registro de usuarios con rol</td>
+      <td>Implementar el formulario de registro, su ruta, la acción en el store de autenticación y las traducciones en español e inglés.</td>
+      <td align="center">4</td>
+      <td>Ramirez Gutierrez, Gabriel / Sayago Vidal, Sebastián Leonardo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-016</td>
+      <td>Gestionar usuarios y roles</td>
+      <td>T06</td>
+      <td>Implementar vista de gestión de usuarios y roles</td>
+      <td>Implementar la vista para que el propietario liste al personal y le asigne un rol que restrinja sus funciones.</td>
+      <td align="center">4</td>
+      <td>Ramirez Gutierrez, Gabriel / Sayago Vidal, Sebastián Leonardo</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-005</td>
+      <td>Registrar clientes</td>
+      <td>T07</td>
+      <td>Implementar entidad, assembler y API de clientes</td>
+      <td>Implementar la entidad de cliente, su assembler y el servicio API para obtener y registrar clientes.</td>
+      <td align="center">3</td>
+      <td>Ramirez Gutierrez, Gabriel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-005</td>
+      <td>Registrar clientes</td>
+      <td>T08</td>
+      <td>Implementar lista y formulario de clientes</td>
+      <td>Implementar la tabla de clientes y el formulario de registro con validación del tipo y número de documento.</td>
+      <td align="center">4</td>
+      <td>Ramirez Gutierrez, Gabriel / Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-006</td>
+      <td>Crear pedidos</td>
+      <td>T09</td>
+      <td>Implementar capa de dominio de pedidos</td>
+      <td>Implementar la entidad Order, sus estados, el método de entrega y el repositorio del bounded context Order Management.</td>
+      <td align="center">3</td>
+      <td>Pérez Vásquez, Ariana Valeria</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-006</td>
+      <td>Crear pedidos</td>
+      <td>T10</td>
+      <td>Implementar servicios, repositorio y store de pedidos</td>
+      <td>Implementar los servicios de aplicación, el repositorio conectado al servidor simulado y el store de pedidos.</td>
+      <td align="center">4</td>
+      <td>Pérez Vásquez, Ariana Valeria</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-006</td>
+      <td>Crear pedidos</td>
+      <td>T11</td>
+      <td>Implementar vista de lista y creación de pedidos</td>
+      <td>Implementar la tabla de pedidos y el formulario de nuevo pedido asociado a un cliente.</td>
+      <td align="center">5</td>
+      <td>Pérez Vásquez, Ariana Valeria / Tufiño Argüelles, Luis Angel</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-007</td>
+      <td>Registrar prendas</td>
+      <td>T12</td>
+      <td>Implementar entidad de prendas del pedido</td>
+      <td>Implementar la entidad GarmentItem para registrar las prendas incluidas en cada pedido.</td>
+      <td align="center">2</td>
+      <td>Pérez Vásquez, Ariana Valeria</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-007</td>
+      <td>Registrar prendas</td>
+      <td>T13</td>
+      <td>Implementar registro de prendas en el pedido</td>
+      <td>Permitir agregar prendas con tipo, cantidad y observaciones de cuidado dentro del formulario del pedido.</td>
+      <td align="center">3</td>
+      <td>Pérez Vásquez, Ariana Valeria / Ramirez Gutierrez, Gabriel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-038</td>
+      <td>Registrar prendas y servicio solicitado</td>
+      <td>T14</td>
+      <td>Implementar modelo de Laundry Operations</td>
+      <td>Implementar los agregados y entidades LaundryOrder, WashingCycle y LaundryResource junto con sus enumeraciones.</td>
+      <td align="center">4</td>
+      <td>Sayago Vidal, Sebastián Leonardo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-038</td>
+      <td>Registrar prendas y servicio solicitado</td>
+      <td>T15</td>
+      <td>Implementar API, assemblers y stores de Laundry Operations</td>
+      <td>Implementar el cliente API, los assemblers y los stores de operaciones y recursos de lavandería.</td>
+      <td align="center">3</td>
+      <td>Sayago Vidal, Sebastián Leonardo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-038</td>
+      <td>Registrar prendas y servicio solicitado</td>
+      <td>T16</td>
+      <td>Implementar tablero de producción</td>
+      <td>Implementar el tablero de producción con las tarjetas de pedido, el resumen de operaciones y el diálogo de asignación del servicio solicitado.</td>
+      <td align="center">5</td>
+      <td>Sayago Vidal, Sebastián Leonardo / Pérez Vásquez, Ariana Valeria</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-038</td>
+      <td>Registrar prendas y servicio solicitado</td>
+      <td>T17</td>
+      <td>Implementar vistas de ciclos de lavado y recursos</td>
+      <td>Implementar las vistas de ciclos de lavado y de recursos de la lavandería.</td>
+      <td align="center">4</td>
+      <td>Sayago Vidal, Sebastián Leonardo / Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-038</td>
+      <td>Registrar prendas y servicio solicitado</td>
+      <td>T18</td>
+      <td>Agregar traducciones de Laundry Operations</td>
+      <td>Agregar los mensajes de Laundry Operations en los archivos de internacionalización (español e inglés) para las vistas de producción, ciclos y recursos.</td>
+      <td align="center">2</td>
+      <td>Sayago Vidal, Sebastián Leonardo / Pérez Vásquez, Ariana Valeria</td>
+      <td>To-Review</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-019</td>
+      <td>Gestionar suscripción</td>
+      <td>T19</td>
+      <td>Configurar datos simulados de suscripciones y pagos</td>
+      <td>Registrar en db.json los planes, suscripciones y transacciones de pago que consumirá el bounded context.</td>
+      <td align="center">2</td>
+      <td>Tufiño Argüelles, Luis Angel</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-019</td>
+      <td>Gestionar suscripción</td>
+      <td>T20</td>
+      <td>Implementar entidades, assemblers y API de suscripciones</td>
+      <td>Implementar las entidades SubscriptionPlan y Subscription, sus assemblers y el servicio API.</td>
+      <td align="center">3</td>
+      <td>Tufiño Argüelles, Luis Angel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-019</td>
+      <td>Gestionar suscripción</td>
+      <td>T21</td>
+      <td>Implementar vista de planes de suscripción</td>
+      <td>Implementar la vista que muestra los planes disponibles y permite al propietario seleccionar uno.</td>
+      <td align="center">4</td>
+      <td>Tufiño Argüelles, Luis Angel / Pérez Vásquez, Ariana Valeria</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-015</td>
+      <td>Administrar servicios y precios</td>
+      <td>T22</td>
+      <td>Implementar vista de servicios y precios</td>
+      <td>Implementar la vista para crear, editar y desactivar los servicios de la lavandería con su precio.</td>
+      <td align="center">4</td>
+      <td>Tufiño Argüelles, Luis Angel / Sayago Vidal, Sebastián Leonardo</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-029</td>
+      <td>Consultar el seguimiento del pedido en seis etapas</td>
+      <td>T23</td>
+      <td>Implementar entidades, API y store de seguimiento</td>
+      <td>Implementar las entidades de seguimiento y notificación, sus assemblers, los helpers, el servicio API y el store.</td>
+      <td align="center">4</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-029</td>
+      <td>Consultar el seguimiento del pedido en seis etapas</td>
+      <td>T24</td>
+      <td>Implementar vistas de seguimiento por etapas</td>
+      <td>Implementar la lista de seguimiento, el detalle del pedido, el stepper de etapas, la etiqueta de estado y el historial de cambios.</td>
+      <td align="center">5</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-034</td>
+      <td>Consultar el avance del pedido en tiempo real</td>
+      <td>T25</td>
+      <td>Implementar entidad, API y store de recojos y entregas</td>
+      <td>Implementar la entidad de recojo y entrega, su assembler, el servicio API y el store.</td>
+      <td align="center">3</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-034</td>
+      <td>Consultar el avance del pedido en tiempo real</td>
+      <td>T26</td>
+      <td>Implementar listado de recojos y entregas</td>
+      <td>Implementar la vista de recojos y entregas con dirección, horario, tipo de operación y repartidor asignado.</td>
+      <td align="center">4</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>US-001</td>
+      <td>Recibir notificaciones del estado del pedido</td>
+      <td>T27</td>
+      <td>Implementar notificaciones de cambio de estado</td>
+      <td>Mostrar una notificación cuando el pedido cambia de etapa o cuando el recojo o la entrega están en camino.</td>
+      <td align="center">3</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>T28</td>
+      <td>Configurar datos simulados de seguimiento y entregas</td>
+      <td>Registrar en db.json los datos de seguimiento, notificaciones, recojos y entregas que consumen los endpoints.</td>
+      <td align="center">2</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>T29</td>
+      <td>Revisar e integrar Pull Requests</td>
+      <td>Revisar los Pull Requests de cada bounded context e integrarlos en la rama develop siguiendo GitFlow.</td>
+      <td align="center">3</td>
+      <td>Sayago Vidal, Sebastián Leonardo / Ramirez Gutierrez, Gabriel</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 2</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>T30</td>
+      <td>Desplegar la Web Application</td>
+      <td>Desplegar la primera versión del frontend de WashTrack para la revisión del Sprint.</td>
+      <td align="center">3</td>
+      <td>Todo el equipo</td>
+      <td>To-do</td>
+    </tr>
+  </tbody>
+</table>
+
 ##### 5.2.2.4. Development Evidence for Sprint Review
+<p align="justify">
+  En este Sprint se implementó la Web Application de WashTrack con Vue 3, organizada con Domain-Driven Design en nueve bounded contexts: Identity &amp; Access, Customer Management, Service Catalog, Order Management, Laundry Operations, Payments, Tracking &amp; Notifications, Pickups &amp; Deliveries y Dashboard. Asimismo, cada contexto separa las capas de dominio, aplicación, infraestructura y presentación, y la capa compartida incluye el cliente HTTP (<code>BaseApi</code>, <code>BaseEndpoint</code>), internacionalización español/inglés y el tema visual de PrimeVue. La Landing Page se desarrolló como sitio estático en HTML, CSS y JavaScript, con menú adaptable a dispositivos móviles y cambio de idioma. Además, los Web Services se simularon con json-server (13 recursos REST) mientras se define el backend real.
+</p>
 
-Durante el Sprint 2, el equipo implementó la primera versión funcional del Frotnend de WashTrack, cubriendo las  User Stories priorizadas del Sprint Backlog . El desarrollo se organizó en el repositorio evTech-Frontend-16129-G2, comenzando con la estructura principal de la página y su navegación, para luego incorporar de forma incremental la sección de propuesta de valor, los accesos diferenciados para cada segmento objetivo, y ajustes de estilo y responsividad alineados con el Design System del proyecto. Como parte del cierre del Sprint, se renombró el archivo principal a index.html siguiendo la convención estándar de despliegue, se mejoró la documentación del README del repositorio, y se enlazó el formulario de contacto con la política de privacidad del proyecto. A continuación se detallan los commits relacionados con esta implementación, agrupados por repositorio y rama.
-
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-|---|---|---|---|---|---|
-| DevTech-Frontend-16129-G2 | HEAD -> develop, origin/develop | ab3d119842b61bfce25472f71c7540942761d86c | feat: unified version plus fixes |  | 2026-10-08 23:03:44 |
-| DevTech-Frontend-16129-G2 | origin/feature/iam | ddb01beedcab80d1fd25c803b2de137a6d164143 | feat(iam): add authentication controller |  | 2026-10-08 18:36:35 |
-| DevTech-Frontend-16129-G2 |  | a0a4eadb3e64d32501f4adb1811ee231106852f2 | feat(iam): connect identity services to mock API |  | 2026-10-08 18:31:46 |
-| DevTech-Frontend-16129-G2 |  | b6381a03af6c0c6d8c28c8b2e3034bfd5a2b44bb | feat(iam): add identity application services |  | 2026-10-08 18:22:03 |
-| DevTech-Frontend-16129-G2 |  | 2659f7c5ec3350ab136863e98d92afa570fba0b8 | refactor(iam): align user with aggregate root |  | 2026-10-08 18:21:26 |
-| DevTech-Frontend-16129-G2 |  | e2b80f7f3866bf2c486a1d4ab9b926190e92ea4a | feat(iam): add registration translations in English |  | 2026-10-08 18:12:46 |
-| DevTech-Frontend-16129-G2 |  | be3334b1d8098eef0c763cfdb1d7f7d2ebe36794 | feat(iam): add registration translations in Spanish |  | 2026-10-08 18:12:35 |
-| DevTech-Frontend-16129-G2 |  | adffe0c04e5d4c7f3f9b537d34fb967f34dcda0f | feat(iam): link login component to registration component |  | 2026-10-08 18:11:12 |
-| DevTech-Frontend-16129-G2 |  | ce843edb394a0b2227196bac8968853582ebf53d | feat(iam): add registration route |  | 2026-10-08 18:08:17 |
-| DevTech-Frontend-16129-G2 |  | 199d465ed404ad4bb7d10c63abe327a03cbbde2f | feat(iam): add registration form |  | 2026-10-08 18:07:37 |
-| DevTech-Frontend-16129-G2 |  | 130dd5b672abaa626b1313e5402f6d52c289f80c | feat(iam): add registration action to auth store |  | 2026-10-08 18:03:28 |
-| DevTech-Frontend-16129-G2 |  | 1be5b84ceef95b81624201e28e6963745e915940 | feat(iam): add user registration api |  | 2026-10-08 18:02:43 |
-| DevTech-Frontend-16129-G2 |  | 24856ba3de5873fe1ef20e054e8099a198a149e1 | feat(iam): configure users endpoint |  | 2026-10-08 17:52:04 |
-| DevTech-Frontend-16129-G2 |  | c226a85a7275fe48b8ce3e358969d61785562756 | feat(iam): hide layout on login |  | 2026-10-08 17:51:30 |
-| DevTech-Frontend-16129-G2 |  | 8e48ff61aa5b1dca926ddfde411efb49c8be1285 | feat(iam): register login route |  | 2026-10-08 17:51:15 |
-| DevTech-Frontend-16129-G2 |  | 18f46e93a127b2541d7ff72949793eb658821464 | feat(iam): add login translations |  | 2026-10-08 17:49:11 |
-| DevTech-Frontend-16129-G2 |  | 40b7f0521dd5c5715fd1f9ad6c6bd4ada67c76aa | feat(iam): add Test Users and Passwords |  | 2026-10-08 17:47:55 |
-| DevTech-Frontend-16129-G2 |  | e11a383d302b1ab970cb4d3cb8f6a6e2818b5b61 | feat(iam): modify sidebar-menu component |  | 2026-10-08 17:44:48 |
-| DevTech-Frontend-16129-G2 |  | 165a6d0a42c858ff33ea3c60b0246297e446b0ab | feat(iam): add login view component |  | 2026-10-08 17:44:27 |
-| DevTech-Frontend-16129-G2 |  | bb919ca5f67c7dbf93c3282525af73cdc7cb0570 | feat(iam): add mock authentication API | Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
- | 2026-10-08 17:39:41 |
-| DevTech-Frontend-16129-G2 | origin/feature/Subscription&Payment | 370a077fb747df1fa5625b06885f2c8834b2f709 | `feat(server): update db.json data` |  | 2026-10-08 17:09:33 |
-| DevTech-Frontend-16129-G2 |  | 2a25f1f51d13fbc5190c48d62b4b7fc86da7fe69 | `feat(public): add Yape QR image` |  | 2026-10-08 17:06:46 |
-| DevTech-Frontend-16129-G2 | origin/feature/laundry-operations, feature/laundry-operations | 6e132ee310ed514e3b38b678e3ec94aad30fb8dc | fix: branch restoration |  | 2026-10-08 15:44:33 |
-| DevTech-Frontend-16129-G2 |  | 9e7d94d256de0bf327d9dd66db6ddb8d376951fa | Merge remote-tracking branch 'origin/develop' into feature/laundry-operations |  | 2026-10-08 15:38:26 |
-| DevTech-Frontend-16129-G2 |  | fc4f45282dac6ae49294815895187316bbcc52ef | fix: code restoration (revert) |  | 2026-10-08 15:37:05 |
-| DevTech-Frontend-16129-G2 |  | 26872f390efc82f9e0004d11307d39b312f6affb | feat(i18n): add laundry operations messages |  | 2026-10-08 15:31:18 |
-| DevTech-Frontend-16129-G2 |  | 0292b0221ee08844113d724802b31c053a672078 | chore(server): add laundry operations and sensor mock data |  | 2026-10-08 15:23:28 |
-| DevTech-Frontend-16129-G2 |  | ba7d610d516bb94e18ede5e624bd913b82fc3fbb | feat(laundry-operations): add resources and washing cycles views |  | 2026-10-08 15:22:19 |
-| DevTech-Frontend-16129-G2 |  | 1874afeefcdc7dd52a75caf79c3db6cb0304aacb | feat(laundry-operations): add laundry dashboard and production board view |  | 2026-10-08 15:22:19 |
-| DevTech-Frontend-16129-G2 |  | 1464749dee85fdbf5d3df68f7588c032b4eb37eb | feat(laundry-operations): add menu and summary components |  | 2026-10-08 15:22:18 |
-| DevTech-Frontend-16129-G2 |  | f5ffa0545223c91bb7e11a7f7361f3b8d590119a | feat(laundry-operations): add order card and assign dialog components |  | 2026-10-08 15:22:18 |
-| DevTech-Frontend-16129-G2 |  | 05deb053d4b2e64bfb275b1be0b141ec3e10eba5 | feat(laundry-operations): add laundry operation and resource stores |  | 2026-10-08 15:22:17 |
-| DevTech-Frontend-16129-G2 |  | 0be7e145a936502cf193ed8723410822c04765ff | feat(laundry-operations): add iot gateway client and resource monitoring acl |  | 2026-10-08 15:22:17 |
-| DevTech-Frontend-16129-G2 |  | 620f014da000cee1bd29cca69b5602258fbeb146 | feat(laundry-operations): add api client and assemblers |  | 2026-10-08 15:22:16 |
-| DevTech-Frontend-16129-G2 |  | 4c2f49132e1ba37542a14b0f287d65333141434c | chore(env): add laundry operations and iot gateway endpoints |  | 2026-10-08 15:22:16 |
-| DevTech-Frontend-16129-G2 |  | daba6396177ee18ca2f3b040b679c95dbfdb2341 | feat(laundry-operations): add laundry order aggregate |  | 2026-10-08 15:22:16 |
-| DevTech-Frontend-16129-G2 |  | f827cc275f1dc5d5cf911f8a1b0bf6d779324515 | feat(laundry-operations): add washing cycle and laundry resource entities |  | 2026-10-08 15:22:15 |
-| DevTech-Frontend-16129-G2 |  | 3cf40389249d4012b8d7bc5ff4516d6a862ec849 | feat(laundry-operations): add domain enums |  | 2026-10-08 15:21:58 |
-| DevTech-Frontend-16129-G2 |  | 82f3c2b88e8e70a0519a312b418d1fb2bd494166 | Merge branch 'develop' into feature/iam |  | 2026-10-08 14:41:51 |
-| DevTech-Frontend-16129-G2 |  | ae4e6a1b2b1c5932e2a07a2bf5df4aa337c6617a | Merge pull request #4 from 1ASI0730-2620-16129-G2-DevTech/feature/laundry-operations | Feature/laundry operations | 2026-10-08 13:46:57 |
-| DevTech-Frontend-16129-G2 |  | 642c08d0b8c7ecb6d1058b2c8f125dcf7b89da8d | feat(laundry-operations): add laundry order aggregate |  | 2026-10-08 12:38:33 |
-| DevTech-Frontend-16129-G2 |  | c116c124a466e4667508575c32fbd5142b95c3a0 | feat(laundry-operations): add washing cycle and laundry resource entities |  | 2026-10-08 12:38:03 |
-| DevTech-Frontend-16129-G2 |  | 17c653b3209d2a6be0403a875aec69f5a1efa7d4 | feat(laundry-operations): add resources and washing cycles views |  | 2026-10-08 12:37:37 |
-| DevTech-Frontend-16129-G2 |  | 0d981f543845d0e5a50116698bb755c24893eae5 | feat(laundry-operations): add production board view |  | 2026-10-08 12:34:35 |
-| DevTech-Frontend-16129-G2 |  | dd55ee722ae3ea2b0c48df0575c5327582080d39 | feat(laundry-operations): add menu and summary components |  | 2026-10-08 12:34:18 |
-| DevTech-Frontend-16129-G2 |  | 24c14b875cab00389b6e26545b9ce59a393b2e31 | feat(laundry-operations): add order card and assign dialog components |  | 2026-10-08 12:34:06 |
-| DevTech-Frontend-16129-G2 |  | f40d0272c6f023286753a0d673dbc96253aed957 | feat(laundry-operations): add laundry operations store |  | 2026-10-08 12:30:16 |
-| DevTech-Frontend-16129-G2 |  | 57de39abe96e0496b133232ecae87a10286e2938 | feat(laundry-operations): add api client and assemblers |  | 2026-10-08 12:30:05 |
-| DevTech-Frontend-16129-G2 |  | 3946b4bc6e99cedbdb827b3bc59bc7652d123976 | feat(laundry-operations): add routes |  | 2026-10-08 12:27:14 |
-| DevTech-Frontend-16129-G2 |  | f299d145e009fdf49f1556635e1344cf9031c4ca | chore(server): add laundry operations mock data |  | 2026-10-08 12:26:54 |
-| DevTech-Frontend-16129-G2 |  | 4d4433e80c2743781c91c4f1e019ab73aca89ee2 | chore(env): add laundry operations endpoints |  | 2026-10-08 12:22:06 |
-| DevTech-Frontend-16129-G2 |  | 86f5ac953080301adc16377268cc135b187b8e5f | feat(laundry-operations): add domain enums |  | 2026-10-08 12:20:11 |
-| DevTech-Frontend-16129-G2 |  | 325372fdbc4d1e6b4aa97a757388d8713900c82d | Merge pull request #3 from 1ASI0730-2620-16129-G2-DevTech/feature/order-managment | Feature/order managment | 2026-10-08 11:13:33 |
-| DevTech-Frontend-16129-G2 | refs/stash | 157d2e3e03a81076647cb153cbdbf16cf96fdb63 | On feature/laundry-operations: !!GitHub_Desktop<feature/laundry-operations> |  | 2026-10-08 10:17:36 |
-| DevTech-Frontend-16129-G2 |  | a5919c86916e1bc43edcc15bca5fa30eef497bed | index on feature/laundry-operations: c87d180 Merge pull request #2 from 1ASI0730-2620-16129-G2-DevTech/feature/tracking-notifications |  | 2026-10-08 10:17:36 |
-| DevTech-Frontend-16129-G2 |  | 922d86742aced5430606538b7223336833db8fa0 | Update start.sh |  | 2026-10-08 09:26:04 |
-| DevTech-Frontend-16129-G2 | origin/feature/order-managment, feature/order-managment | 02afcb256495aad7ed33eb7431ca85882dabf811 | feat(orders): integrate order-management module and fix mock server connection |  | 2026-10-08 09:00:53 |
-| DevTech-Frontend-16129-G2 |  | 43fdd1a3dcad1ac0c4302cf72ef1a697d1f7741f | feat(orders): add order presentation controllers and views |  | 2026-10-08 08:49:53 |
-| DevTech-Frontend-16129-G2 |  | c09b8f92af8b94c560cfbd336e4c97b32523fb2b | feat(orders): implement order infrastructurerepositories |  | 2026-10-08 08:48:54 |
-| DevTech-Frontend-16129-G2 |  | 465dfe20cff3d2fad07fa87e6f5a8a414a4dcc1f | feat(orders): add order application services |  | 2026-10-08 08:47:43 |
-| DevTech-Frontend-16129-G2 |  | b568e11edb31cb8073f874fdf19b00eed4aa21a3 | feat(orders): implement order domain layer |  | 2026-10-08 08:46:34 |
-| DevTech-Frontend-16129-G2 |  | 6181d1ad6526cc62c42d6725907c46e3e5e7bf0b | feat(shared): add base repository implementation |  | 2026-10-08 08:41:41 |
-| DevTech-Frontend-16129-G2 |  | 3d1c4a142135acd4011d69489190967b539f94ec | feat(shared): add domain model base classes |  | 2026-10-08 08:37:00 |
-| DevTech-Frontend-16129-G2 |  | c87d1807f09b34157efd0d22c74215331decd4f6 | Merge pull request #2 from 1ASI0730-2620-16129-G2-DevTech/feature/tracking-notifications | Feature/tracking notifications | 2026-10-08 02:05:45 |
-| DevTech-Frontend-16129-G2 |  | a3fdc9531687ddbfe80679788afe667bc87d884e | feat(shared): update layout |  | 2026-10-08 02:01:18 |
-| DevTech-Frontend-16129-G2 |  | 0df5dbf498fba00b9cb56906a6b0ad81a4a9704c | feat(shared): update layout |  | 2026-10-08 02:00:47 |
-| DevTech-Frontend-16129-G2 |  | 2bf2864dec70bf510e8c2096720f20683056b482 | chore: update server files |  | 2026-10-08 01:56:11 |
-| DevTech-Frontend-16129-G2 |  | 3b473ba1cdcdec5595940fb2833aee4fffcf156c | chore: update locale files |  | 2026-10-08 01:54:57 |
-| DevTech-Frontend-16129-G2 |  | c99d0591516d34cae37c488ceb480be9235c6d18 | feat(pickups-deliveries): add pickups deliveries routes |  | 2026-10-08 01:51:17 |
-| DevTech-Frontend-16129-G2 |  | b14cb7d6125419ae4876bedc078b46861676436f | feat(pickups-deliveries): add delivery list |  | 2026-10-08 01:50:47 |
-| DevTech-Frontend-16129-G2 |  | 584ab57410a69a5defccbc7286869d52ab551b84 | feat(pickups-deliveries): add delivery catalog |  | 2026-10-08 01:50:13 |
-| DevTech-Frontend-16129-G2 |  | eab05d2d830fb05e8dc282cdc10891034e296345 | feat(pickups-deliveries): add pickups deliveries store |  | 2026-10-08 01:49:26 |
-| DevTech-Frontend-16129-G2 |  | 5595e799c9b1654bf4ba61aa83b9fdf577689ffe | feat(pickups-deliveries): add pickups deliveries api |  | 2026-10-08 01:48:40 |
-| DevTech-Frontend-16129-G2 |  | b86b5a9890f11e130d3b3b42d2aaceb935dab6f1 | feat(pickups-deliveries): add delivery assembler |  | 2026-10-08 01:48:22 |
-| DevTech-Frontend-16129-G2 |  | 5d102346e30ec4e7ca178b8c5661049e8a1d107e | feat(pickups-deliveries): add delivery entity |  | 2026-10-08 01:47:37 |
-| DevTech-Frontend-16129-G2 |  | 0a43d15ef856dc4ebfb0d5896cacb298be890538 | feat(shared): add sidebar menu |  | 2026-10-08 01:45:45 |
-| DevTech-Frontend-16129-G2 |  | ef6074fb746dd244741bfda3223b7abf18ff364b | chore: update environments files |  | 2026-10-08 01:42:37 |
-| DevTech-Frontend-16129-G2 |  | 3a12f1e54dcb4d727d0653e4092441c3b8688dfb | feat(src): update router |  | 2026-10-08 01:40:01 |
-| DevTech-Frontend-16129-G2 |  | e965b8f14e6d6a12dd75bb98161e494fd6e1986d | feat(tracking-notifications): add tracking notifications routes |  | 2026-10-08 01:34:07 |
-| DevTech-Frontend-16129-G2 |  | ece987d460875a2aff0c44dade1970430f02d2c1 | feat(tracking-notifications): add order tracking list and view |  | 2026-10-08 01:33:27 |
-| DevTech-Frontend-16129-G2 |  | e8d0e74ed298285abece25c3de0adaf58d75e324 | feat(tracking-notifications): add notification toaster |  | 2026-10-08 01:32:45 |
-| DevTech-Frontend-16129-G2 |  | ad1d45e025785ec837e6b4228ef82cd26e3ff110 | feat(tracking-notifications): add stage tag and stepper |  | 2026-10-08 01:32:17 |
-| DevTech-Frontend-16129-G2 |  | 50afba5faf15fcc2cace16e81c7c637dfa5a9001 | feat(tracking-notifications): add tracking item, list, summary and history |  | 2026-10-08 01:31:10 |
-| DevTech-Frontend-16129-G2 |  | b57a07dbd70c9b8bc68a4a81965f06fc42f9143f | feat(tracking-notifications): add tracking item, list, summary and history |  | 2026-10-08 01:31:06 |
-| DevTech-Frontend-16129-G2 |  | 9acecec7af83943c2d84028d47044efe185f4c44 | feat(tracking-notifications): add tracking notifications store |  | 2026-10-08 01:27:53 |
-| DevTech-Frontend-16129-G2 |  | 87cfff82c7157dcc8fa145f5a79507628bf763ce | feat(tracking-notifications): add tracking notification api |  | 2026-10-08 01:27:13 |
-| DevTech-Frontend-16129-G2 |  | 02cb5f30bbe5df7c7e11e9c3dc892c7c38a9efff | feat(tracking-notifications): add notification assembler |  | 2026-10-08 01:26:46 |
-| DevTech-Frontend-16129-G2 |  | ab55974eb9d1baf80d3c0acf572cdb9a431348fd | feat(tracking-notifications): add tracking assembler |  | 2026-10-08 01:26:14 |
-| DevTech-Frontend-16129-G2 |  | 29dc5a0afa77bc18df3770753e46dff61f69b65b | feat(tracking-notifications): add order tracking entity |  | 2026-10-08 01:25:05 |
-| DevTech-Frontend-16129-G2 |  | 81b3d1ce7ad46a207e6943f2ed420830c6ee39a4 | feat(tracking-notifications): add notification entity |  | 2026-10-08 01:22:53 |
-| DevTech-Frontend-16129-G2 |  | b158cb33dd01adf4da0056e3630fce2da2b7fead | feat: add base structure (layout, router, i18n, theme, env and mock server) |  | 2026-10-07 22:30:46 |
-| DevTech-Frontend-16129-G2 |  | 7674cfad8f887bc470426908a932e71817de81bf | feat(iam): add user domain model and repository port |  | 2026-10-07 11:59:30 |
-| DevTech-Frontend-16129-G2 |  | 78834412c401eba7cc3deb2f0b23e55c1a51bac7 | Merge pull request #1 from 1ASI0730-2620-16129-G2-DevTech/feature/iam | feat(shared): add domain model | 2026-10-07 10:55:08 |
-| DevTech-Frontend-16129-G2 |  | a0fb4dda4350daa90ded65af6fa235132779cc0b | feat(shared): add domain model |  | 2026-10-07 10:24:45 |
-| DevTech-Frontend-16129-G2 | origin/feature/format | b5d623083f676b2036c363e500de898504336f7b | chore: install axios, primevue packages |  | 2026-10-03 17:48:40 |
-| DevTech-Frontend-16129-G2 |  | 720e99275b2030f17db0c592ae8be21fc8ab16f5 | feat(shared): add BaseEndpoint |  | 2026-10-03 17:43:41 |
-| DevTech-Frontend-16129-G2 |  | 1f418a217929936f61f4b864f275865762640f62 | feat(shared): add BaseApi |  | 2026-10-03 17:43:22 |
-| DevTech-Frontend-16129-G2 | origin/main, origin/HEAD, main | 5ea17267413fbee65b0f3f7564deb4ed79646658 | chore: initial commit |  | 2026-10-03 16:45:46 |
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| --- | --- | --- | --- | --- | --- |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | develop | 9e4fb71 | feat(firebase): initialize Firebase hosting configuration and add index.html | — | 09/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | develop | 78e6435 | Add files via upload | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | develop | 9198a8c | Add files via upload | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | develop | ab3d119 | feat: unified version plus fixes | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | ddb01be | feat(iam): add authentication controller | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | a0a4ead | feat(iam): connect identity services to mock API | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | b6381a0 | feat(iam): add identity application services | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | 2659f7c | refactor(iam): align user with aggregate root | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | e2b80f7 | feat(iam): add registration translations in English | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | be3334b | feat(iam): add registration translations in Spanish | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | adffe0c | feat(iam): link login component to registration component | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | ce843ed | feat(iam): add registration route | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | 199d465 | feat(iam): add registration form | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | 130dd5b | feat(iam): add registration action to auth store | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | 1be5b84 | feat(iam): add user registration api | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | 24856ba | feat(iam): configure users endpoint | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | c226a85 | feat(iam): hide layout on login | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | 8e48ff6 | feat(iam): register login route | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | 18f46e9 | feat(iam): add login translations | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | 40b7f05 | feat(iam): add Test Users and Passwords | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | e11a383 | feat(iam): modify sidebar-menu component | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | 165a6d0 | feat(iam): add login view component | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 370a077 | `feat(server): update db.json data` | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 2a25f1f | `feat(public): add Yape QR image` | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | 6e132ee | fix: branch restoration | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | fc4f452 | fix: code restoration (revert) | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | 26872f3 | feat(i18n): add laundry operations messages | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | 0292b02 | chore(server): add laundry operations and sensor mock data | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | ba7d610 | feat(laundry-operations): add resources and washing cycles views | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | 1874afe | feat(laundry-operations): add laundry dashboard and production board view | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | 1464749 | feat(laundry-operations): add menu and summary components | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | f5ffa05 | feat(laundry-operations): add order card and assign dialog components | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | 05deb05 | feat(laundry-operations): add laundry operation and resource stores | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | 0be7e14 | feat(laundry-operations): add iot gateway client and resource monitoring acl | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | 620f014 | feat(laundry-operations): add api client and assemblers | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | 4c2f491 | chore(env): add laundry operations and iot gateway endpoints | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | daba639 | feat(laundry-operations): add laundry order aggregate | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | f827cc2 | feat(laundry-operations): add washing cycle and laundry resource entities | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | 3cf4038 | feat(laundry-operations): add domain enums | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 642c08d | feat(laundry-operations): add laundry order aggregate | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | c116c12 | feat(laundry-operations): add washing cycle and laundry resource entities | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 17c653b | feat(laundry-operations): add resources and washing cycles views | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 0d981f5 | feat(laundry-operations): add production board view | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | dd55ee7 | feat(laundry-operations): add menu and summary components | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 24c14b8 | feat(laundry-operations): add order card and assign dialog components | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | f40d027 | feat(laundry-operations): add laundry operations store | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 57de39a | feat(laundry-operations): add api client and assemblers | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 3946b4b | feat(laundry-operations): add routes | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | f299d14 | chore(server): add laundry operations mock data | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 4d4433e | chore(env): add laundry operations endpoints | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 86f5ac9 | feat(laundry-operations): add domain enums | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 922d867 | Update start.sh | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-managment | 02afcb2 | feat(orders): integrate order-management module and fix mock server connection | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-managment | 43fdd1a | feat(orders): add order presentation controllers and views | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-managment | c09b8f9 | feat(orders): implement order infrastructurerepositories | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-managment | 465dfe2 | feat(orders): add order application services | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-managment | b568e11 | feat(orders): implement order domain layer | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-managment | 6181d1a | feat(shared): add base repository implementation | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-managment | 3d1c4a1 | feat(shared): add domain model base classes | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | a3fdc95 | feat(shared): update layout | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 0df5dbf | feat(shared): update layout | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 2bf2864 | chore: update server files | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 3b473ba | chore: update locale files | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | c99d059 | feat(pickups-deliveries): add pickups deliveries routes | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | b14cb7d | feat(pickups-deliveries): add delivery list | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 584ab57 | feat(pickups-deliveries): add delivery catalog | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | eab05d2 | feat(pickups-deliveries): add pickups deliveries store | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 5595e79 | feat(pickups-deliveries): add pickups deliveries api | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | b86b5a9 | feat(pickups-deliveries): add delivery assembler | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 5d10234 | feat(pickups-deliveries): add delivery entity | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 0a43d15 | feat(shared): add sidebar menu | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | ef6074f | chore: update environments files | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 3a12f1e | feat(src): update router | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | e965b8f | feat(tracking-notifications): add tracking notifications routes | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | ece987d | feat(tracking-notifications): add order tracking list and view | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | e8d0e74 | feat(tracking-notifications): add notification toaster | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | ad1d45e | feat(tracking-notifications): add stage tag and stepper | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 50afba5 | feat(tracking-notifications): add tracking item, list, summary and history | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | b57a07d | feat(tracking-notifications): add tracking item, list, summary and history | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 9acecec | feat(tracking-notifications): add tracking notifications store | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 87cfff8 | feat(tracking-notifications): add tracking notification api | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 02cb5f3 | feat(tracking-notifications): add notification assembler | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | ab55974 | feat(tracking-notifications): add tracking assembler | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 29dc5a0 | feat(tracking-notifications): add order tracking entity | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 81b3d1c | feat(tracking-notifications): add notification entity | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | b158cb3 | feat: add base structure (layout, router, i18n, theme, env and mock server) | — | 07/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | 7674cfa | feat(iam): add user domain model and repository port | — | 07/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | a0fb4dd | feat(shared): add domain model | — | 07/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/format | b5d6230 | chore: install axios, primevue packages | — | 03/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/format | 720e992 | feat(shared): add BaseEndpoint | — | 03/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/format | 1f418a2 | feat(shared): add BaseApi | — | 03/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/format | 5ea1726 | chore: initial commit | — | 03/10/2026 |
+ 
 
 ##### 5.2.2.5. Execution Evidence for Sprint Review
+<p align="justify">
+  En este Sprint se logró una Web Application navegable de principio a fin sobre la API simulada: el usuario inicia sesión, consulta el dashboard con los indicadores del día, registra clientes y pedidos, gestiona los catálogos de servicios y prendas, y sigue cada pedido por las etapas de producción hasta su entrega. Asimismo, el tablero de producción permite recibir, clasificar, asignar ciclo y máquina, y avanzar los pedidos, destacando los de prioridad VIP y los que están en riesgo de entrega. Por otro lado, el seguimiento muestra el progreso del pedido, el mapa de la ruta y el historial de estados, y los pagos incluyen el código QR de Yape. A continuación se presentan las capturas de las vistas principales.
+</p>
+<br>
 
-Como resultado del Sprint 2, se logró desplegar la primera versión funcional del Frontend de WashTrack, cumpliendo con las  User Stories priorizadas en el Sprint Backlog. A nivel de ejecución, la interfaz presenta de forma clara el funcionamiento de la plataforoma, seguida de los accesos diferenciados que permiten al visitante identificar y navegar hacia los menus reps, ya sea como cliente o como proveedor de servicios de lavandería. La navegación entre secciones se implementó mediante un menú responsivo, adaptado tanto a la versión de escritorio como a dispositivos móviles, y el formulario de contacto ubicado al final de la página quedó enlazado a la política de privacidad del proyecto.
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/01-login.png" width="700px" alt="Inicio de sesión con credenciales de prueba">
+  <p>Inicio de sesión con credenciales de prueba</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/02-dashboard.png" width="700px" alt="Dashboard con indicadores del día, estado de máquinas y gráficos">
+  <p>Dashboard con indicadores del día, estado de máquinas y gráficos</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/03-customers.png" width="700px" alt="Gestión de clientes">
+  <p>Gestión de clientes</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/04-services.png" width="700px" alt="Catálogo de servicios">
+  <p>Catálogo de servicios</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/05-garments.png" width="700px" alt="Catálogo de prendas">
+  <p>Catálogo de prendas</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/06-orders.png" width="700px" alt="Gestión de pedidos">
+  <p>Gestión de pedidos</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/07-production-board.png" width="700px" alt="Tablero de producción por etapas (Laundry Operations)">
+  <p>Tablero de producción por etapas (Laundry Operations)</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/08-resources.png" width="700px" alt="Recursos (máquinas) de la lavandería.">
+  <p>Recursos (máquinas) de la lavandería.</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/09-washing-cycles.png" width="700px" alt="Ciclos de lavado">
+  <p>Ciclos de lavado</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/10-payments.png" width="700px" alt="Pagos">
+  <p>Pagos</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/11-tracking-list.png" width="700px" alt="Lista de seguimiento de pedidos">
+  <p>Lista de seguimiento de pedidos</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/12-tracking-detail.png" width="700px" alt="Detalle de seguimiento con progreso, mapa e historial">
+  <p>Detalle de seguimiento con progreso, mapa e historial</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/13-deliveries.png" width="700px" alt="Recojos y entregas">
+  <p>Recojos y entregas</p>
+</div>
 
 
-![FrontEnd_0.png](assets/img/Chapter5/sprint2/FrontEnd_0.png)
-![FrontEndMain.png](assets/img/Chapter5/sprint2/FrontEndMain.png)
-![FrontEnd_2.png](assets/img/Chapter5/sprint2/FrontEnd_2.png)
-![FrontEnd_3.png](assets/img/Chapter5/sprint2/FrontEnd_3.png)
-![FrontEnd_4.png](assets/img/Chapter5/sprint2/FrontEnd_4.png)
+##### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
+<p align="justify">
+  Para este Sprint se documentaron 13 recursos REST simulados que cubren los nueve bounded contexts de WashTrack (Identity &amp; Access, Customer Management, Service Catalog, Order Management, Laundry Operations, Payments, Tracking &amp; Notifications, Pickups &amp; Deliveries y Dashboard). Los servicios se exponen con una API simulada (json-server) en la URL base local <code>http://localhost:3000/api/v1</code>, ya que el Web Service real aún no está desplegado. El frontend los consume mediante <code>BaseApi</code> y <code>BaseEndpoint</code> (Axios), con las rutas definidas en variables <code>VITE_&lt;RECURSO&gt;_ENDPOINT_PATH</code>.
+</p>
+<br>
+
+**Relación de endpoints documentados**
+
+| Bounded context | Endpoint | Acciones implementadas | URL local |
+| --- | --- | --- | --- |
+| Identity & Access | `/users` | GET, POST | http://localhost:3000/api/v1/users |
+| Customer Management | `/customer-profiles` | GET, POST | http://localhost:3000/api/v1/customer-profiles |
+| Service Catalog | `/services`, `/garments` | GET, POST | http://localhost:3000/api/v1/services |
+| Order Management | `/customer-orders` | GET, POST, PUT | http://localhost:3000/api/v1/customer-orders |
+| Payments | `/payments` | GET, POST | http://localhost:3000/api/v1/payments |
+| Tracking & Notifications | `/trackings` | GET, POST, PUT, DELETE | http://localhost:3000/api/v1/trackings |
+| Tracking & Notifications | `/notifications` | GET, POST, PUT, PATCH, DELETE | http://localhost:3000/api/v1/notifications |
+| Pickups & Deliveries | `/deliveries` | GET | http://localhost:3000/api/v1/deliveries |
+| Laundry Operations | `/laundryOrders` | GET, POST, PUT | http://localhost:3000/api/v1/laundryOrders |
+| Laundry Operations | `/washingCycles` | GET | http://localhost:3000/api/v1/washingCycles |
+| Laundry Operations | `/laundryResources` | GET, PUT | http://localhost:3000/api/v1/laundryResources |
+| Laundry Operations (IoT) | `/sensorData` | GET | http://localhost:3000/api/v1/sensorData |
+
+Dashboard no tiene endpoints propios: calcula sus métricas leyendo `/customer-orders`, `/payments` y `/customer-profiles`.
+<br>
+
+**Detalle de acciones**
+
+Con json-server, GET, PUT, PATCH y DELETE responden `200 OK`, POST responde `201 Created` y un `id` inexistente responde `404 Not Found`. Los filtros por query sin coincidencias devuelven `200 OK` con `[]`. Los ejemplos de response están abreviados.
+
+| Endpoint | Verbo | Sintaxis de llamada | Parámetros | Response (ejemplo y explicación) |
+| --- | --- | --- | --- | --- |
+| `/users` | GET | `/users?email={email}&password={password}` | Query: `email`, `password` | `200`: `[{"id":"VN001","email":"rosa.diaz@example.com","role":"shift-manager"}]`. Un usuario en el arreglo indica login válido; `[]`, credenciales inválidas. |
+| `/users` | POST | `/users` | Body: `id`, `iamId`, `username`, `email`, `password`, `role` | `201`: devuelve el usuario registrado. |
+| `/customer-profiles` | GET | `/customer-profiles` | Ninguno | `200`: `[{"id":"CL001","fullName":"Carmen Torres","documentType":"DNI","documentNumber":"45127836"}]`. Lista de clientes. |
+| `/customer-profiles` | POST | `/customer-profiles` | Body: `id`, `fullName`, `phone`, `documentType` (`DNI`/`CE`), `documentNumber`, `address` | `201`: devuelve el cliente creado. |
+| `/services`, `/garments` | GET | `/services` | Ninguno | `200`: `[{"id":"S104","name":"Lavado Estándar","basePrice":8,"estimatedHours":24,"active":true}]`. `/garments` tiene la misma estructura. |
+| `/services`, `/garments` | POST | `/services` | Body: `id`, `name`, `category`, `basePrice`, `estimatedHours`, `active` | `201`: devuelve el servicio o la prenda creada. |
+| `/customer-orders` | GET | `/customer-orders?customerId={customerId}` | Query opcional: `customerId`. Path opcional: `/{id}` | `200`: `[{"id":"5abe6b7d-...","customerId":"CL005","status":"IN_PROCESS","deliveryMethod":"DELIVERY","items":[{"type":"Camisa","quantity":4}]}]`. Pedidos con sus prendas. |
+| `/customer-orders` | POST | `/customer-orders` | Body: `id`, `customerId`, `laundryId`, `status`, `deliveryMethod` (`PICKUP`/`DELIVERY`), `serviceType`, `estimatedDeliveryDate`, `items[]` | `201`: devuelve el pedido creado. |
+| `/customer-orders` | PUT | `/customer-orders/{id}` | Path: `id`. Body: pedido completo | `200`: devuelve el pedido actualizado (p. ej. nuevo `status`). |
+| `/payments` | GET | `/payments` | Ninguno | `200`: `[{"id":"PG001","orderId":1,"amount":45,"paymentMethod":"yape","status":"paid"}]`. `status`: `paid`, `pending` o `cancelled`. |
+| `/payments` | POST | `/payments` | Body: `id`, `orderId`, `customerId`, `customerName`, `amount`, `paymentMethod`, `status`, `paidAt`, `orderDate` | `201`: devuelve el pago registrado. |
+| `/trackings` | GET | `/trackings?orderId={orderId}` | Query opcional: `orderId`. Path opcional: `/{id}` | `200`: `[{"id":1,"orderId":1,"currentStage":"ready","history":[{"stage":"received","occurredAt":"2026-10-01T09:15:00-05:00"}]}]`. `history` lista las etapas del pedido. |
+| `/trackings` | POST | `/trackings` | Body: `orderId`, `currentStage`, `estimatedDelivery`, `history[]` | `201`: devuelve el seguimiento con su `id`. |
+| `/trackings` | PUT | `/trackings/{id}` | Path: `id`. Body: seguimiento completo | `200`: devuelve el seguimiento con la nueva etapa. |
+| `/trackings` | DELETE | `/trackings/{id}` | Path: `id` | `200`: cuerpo `{}`. |
+| `/notifications` | GET | `/notifications?userId={userId}&isRead=false` | Query opcional: `userId`, `isRead`. Path opcional: `/{id}` | `200`: `[{"id":1,"userId":"CL001","type":"order-stage-changed","isRead":false}]`. La app lo consulta cada 10 s para mostrar avisos. |
+| `/notifications` | POST | `/notifications` | Body: `userId`, `type`, `parameters`, `isRead`, `createdAt` | `201`: devuelve la notificación con su `id`. |
+| `/notifications` | PUT | `/notifications/{id}` | Path: `id`. Body: notificación completa | `200`: devuelve la notificación actualizada. |
+| `/notifications` | PATCH | `/notifications/{id}` | Path: `id`. Body: `{"isRead": true}` | `200`: notificación con `isRead: true`; solo cambia ese campo. |
+| `/notifications` | DELETE | `/notifications/{id}` | Path: `id` | `200`: cuerpo `{}`. |
+| `/deliveries` | GET | `/deliveries` | Ninguno | `200`: `[{"id":1,"orderId":1,"type":"pickup","driverName":"Luis Paredes","status":"completed","scheduledAt":"2026-10-01T08:30:00-05:00"}]`. Recojos y entregas programados. |
+| `/laundryOrders` | GET | `/laundryOrders` | Path opcional: `/{id}` | `200`: `[{"id":"0192a1c0-...","currentStage":"RECEPTION","priority":"NORMAL","washingCycleId":null,"resourceId":null}]`. Etapas: `RECEPTION`, `CLASSIFICATION`, `WASHING`, `DRYING_IRONING`, `PACKAGING`, `READY`. |
+| `/laundryOrders` | POST | `/laundryOrders` | Body: `id`, `orderId`, `currentStage`, `priority` (`NORMAL`/`VIP`), `expectedCompletion` | `201`: devuelve la orden creada. |
+| `/laundryOrders` | PUT | `/laundryOrders/{id}` | Path: `id`. Body: orden completa | `200`: orden con ciclo, recurso o etapa actualizados. |
+| `/washingCycles` | GET | `/washingCycles?compatibleType={type}` | Query opcional: `compatibleType`. Path opcional: `/{id}` | `200`: `[{"id":"0192a1d0-...","name":"Cotton 40°C","durationMinutes":60,"compatibleType":"cotton"}]`. |
+| `/laundryResources` | GET | `/laundryResources` | Path opcional: `/{id}` | `200`: `[{"id":"0192a1e0-...","name":"Washer 1","status":"BUSY","capacity":10}]`. `status`: `AVAILABLE`, `BUSY` o `MAINTENANCE`. |
+| `/laundryResources` | PUT | `/laundryResources/{id}` | Path: `id`. Body: recurso completo | `200`: recurso con el nuevo `status`. |
+| `/sensorData` | GET | `/sensorData?deviceId={deviceId}` | Query: `deviceId` | `200`: `[{"deviceId":"0192a1e0-...","rawStatusCode":1,"humidity":38,"vibration":22,"electricCurrent":4.2}]`. Telemetría IoT de la máquina. |
+
+##### 5.2.2.7. Software Deployment Evidence for Sprint Review
+<p align="justify">
+  Para que los usuarios de WashTrack puedan acceder a la plataforma desde cualquier lugar, en este Sprint se desplegó la Web Application en <strong>Firebase Hosting</strong>. Se creó el proyecto en la consola de Firebase, se configuró el hosting como aplicación de página única (SPA) y se publicó la versión compilada con Vite. La Landing Page, un sitio estático en HTML, CSS y JavaScript, también forma parte del despliegue. Los Web Services continúan simulados con json-server en <code>http://localhost:3000/api/v1</code>, por lo que su despliegue queda pendiente para un próximo Sprint.
+</p>
+
+**Actividades de despliegue realizadas**
+ 
+* **Creación de recursos en la nube (Firebase):** creación del proyecto `washtrack-eb717` en la consola de Firebase y activación del servicio Hosting.
+* **Configuración del proyecto de desarrollo:** instalación de Firebase CLI y ejecución de `firebase init hosting`, que generó `.firebaserc` (proyecto por defecto) y `firebase.json`.
+* **Configuración del hosting:** en `firebase.json` se definió `dist` como carpeta pública (salida de `npm run build`) y una regla de reescritura de todas las rutas (`**`) hacia `/index.html`, necesaria para que Vue Router funcione al recargar o abrir un enlace directo.
+* **Compilación y publicación:** generación de la versión de producción con `npm run build` y publicación con `firebase deploy --only hosting`.
+* **Control de versiones:** la configuración se registró en el repositorio del frontend (commit `9e4fb71`, `feat(firebase): initialize Firebase hosting configuration`).
+<br>
+
+| Producto | Plataforma | Estado | URL |
+| --- | --- | --- | --- |
+| Web Application (frontend) | Firebase Hosting | Desplegada | *(pendiente: URL, normalmente `https://washtrack-eb717.web.app`)* |
+| Web Services | json-server local | Sin desplegar | http://localhost:3000/api/v1 |
+
+<br>
+
+**Evidencias**
+
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/repo_frontend_evidence.png" width="700px" alt="Repositorio del frontend">
+  <p>Repositorio del frontend</p>
+  <p></p>
+</div>
+
+URL del repositorio (frontend): [https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2/tree/main](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2/tree/main)
+
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/deploy_frontend_login_evidence.png" width="700px" alt="Deploy del frontend_login">
+  <p>Deploy del frontend (log in)</p>
+  <p></p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/deploy_frontend_dashboard_evidence.png" width="700px" alt="Deploy del frontend_dashboard">
+  <p>Deploy del frontend (dashboard)</p>
+  <p></p>
+</div>
+
+URL del deploy (frontend): [washtrack-eb717.web.app](washtrack-eb717.web.app)
+
+##### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, los cinco integrantes desarrollaron en paralelo los módulos del frontend y coordinaron su integración mediante ramas de trabajo y Pull Requests. La actividad del repositorio se concentró entre el 3 y el 9 de octubre de 2026: se fusionaron **10 Pull Requests** y el incremento integrado se publicó en `main`. El trabajo abarcó autenticación y registro, seguimiento y notificaciones, gestión de pedidos, operaciones de lavandería, y soporte para pagos e integración.
+
+**Evidencia de participación de todos los miembros**
+
+| Integrante (GitHub) | Commits | Líneas añadidas | Líneas eliminadas | Aporte principal |
+|---|---:|---:|---:|---|
+| adriana832 | 28 | 5613 | 396 | Seguimiento, notificaciones, recojos y entregas; integración con Firebase |
+| ArianaPerez34 | 7 | 900 | 2 | Gestión de pedidos |
+| SSayag0V | 32 | 12086 | 2437 | Operaciones de lavandería y estructura común de la aplicación |
+| LuisTufino2 | 2 | 90 | 0 | Datos de prueba y recursos para pagos |
+| GabrielRamirez06 | 21 | 1135 | 134 | IAM, autenticación y registro |
+
+*Fuente: GitHub Insights – Contributors del repositorio [DevTech-Frontend-16129-G2](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2), rama `main`, actividad del 3 al 9 de octubre de 2026. Se registraron además 1 commit sin una cuenta de GitHub asociada, omitido de la tabla.*
+
+**Capturas de GitHub**
+
+![Figura 1. GitHub Insights – Contributors del frontend durante el Sprint 2](assets/img/Chapter5/Sprint 2/frontend-insights-contributors.png)
+*Figura 1. Aporte individual y actividad de commits durante el sprint.*
+
+![Figura 2. GitHub Insights – Pulse del frontend durante el Sprint 2](assets/img/Chapter5/Sprint 2/frontend-insights-pulse.png)
+*Figura 2. Actividad del repositorio y Pull Requests fusionados.*
+
+**Figura 3. GitHub Insights – Network graph del frontend durante el Sprint 2**
+
+<p align="center">
+  <img src="assets/img/Chapter5/Sprint%202/frontend-insights-network-1.png" alt="Network graph del frontend durante el Sprint 2, parte 1" width="100%"/>
+</p>
+<p align="center"><i>Parte 1 de 3.</i></p>
+
+<p align="center">
+  <img src="assets/img/Chapter5/Sprint%202/frontend-insights-network-2.png" alt="Network graph del frontend durante el Sprint 2, parte 2" width="100%"/>
+</p>
+<p align="center"><i>Parte 2 de 3.</i></p>
+
+<p align="center">
+  <img src="assets/img/Chapter5/Sprint%202/frontend-insights-network-3.png" alt="Network graph del frontend durante el Sprint 2, parte 3" width="100%"/>
+</p>
+<p align="center"><i>Parte 3 de 3. En conjunto, las capturas muestran el flujo de ramas y merges del repositorio.</i></p>
 
 ### 5.3. Validation Interviews
 

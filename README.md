@@ -3051,10 +3051,16 @@ A continuación se presenta primero la vista general de los Bounded Contexts y l
     <img src="assets/img/Chapter4/class-diagram-identity-access.png" alt="Class diagram Identity & Access" width="100%"/>
 </div>
 
+**Identity & Access Services Model**
+
+<div align="center">
+    <img src="assets/img/Chapter4/class-diagram-iam-services.png" alt="Class diagram Identity & Access Services" width="100%"/>
+</div>
+
 **Customer & Business Management Bounded Context**
 
 <div align="center">
-    <img src="assets/img/Chapter4/class-diagram-customer-business.png" alt="Class diagram Customer & Business Management" width="100%"/>
+    <img src="assets/img/Chapter4/class-diagram-customer-business-management.png" alt="Class diagram Customer & Business Management" width="100%"/>
 </div>
 
 **Order Management Bounded Context**
@@ -3084,7 +3090,7 @@ A continuación se presenta primero la vista general de los Bounded Contexts y l
 **Shared Kernel**
 
 <div align="center">
-    <img src="assets/img/Chapter4/class-diagram-shared.png" alt="Class diagram Shared Kernel" width="100%"/>
+    <img src="assets/img/Chapter4/class-diagram-shared-kernel.png" alt="Class diagram Shared Kernel" width="100%"/>
 </div>
 
 

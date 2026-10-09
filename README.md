@@ -2896,16 +2896,20 @@ Los prototipos fueron construidos en Figma, incluyendo simulación de interacci�
 
 
 ### 4.6. Domain-Driven Software Architecture
-La arquitectura de WashTrack se organiza utilizando conceptos de **Domain-Driven Design (DDD)** para separar las principales responsabilidades del dominio. Los Bounded Contexts permiten delimitar las reglas y responsabilidades de cada área funcional.
+La arquitectura de WashTrack se organiza utilizando conceptos de **Domain-Driven Design (DDD)** para separar las principales responsabilidades del dominio. Los Bounded Contexts permiten delimitar las reglas y responsabilidades de cada área funcional. Para este proyecto, la arquitectura de WashTrack se organiza con **Domain-Driven Design (DDD)** para separar las responsabilidades del dominio. La solución se divide en nueve Bounded Contexts: *Identity & Access*, *Customer Management*, *Service Catalog*, *Order Management*, *Laundry Operations*, *Payments*, *Tracking & Notifications*, *Pickups & Deliveries* y *Dashboard*. Todos ellos comparten un Shared Kernel con los elementos comunes del dominio y de la infraestructura.
 
-| Bounded Context | Responsabilidad |
-|---|---|
-| Identity & Access | Gestionar identidad, autenticación y autorización. |
-| Order Management | Gestionar solicitudes y órdenes de servicio. |
-| Laundry Operations | Gestionar el procesamiento interno de las órdenes. |
-| Subscription & Payment | Gestionar membresías, créditos, beneficios y pagos. |
-| Tracking & Notifications | Gestionar seguimiento y notificaciones. |
-| Customer & Business Management | Gestionar clientes, lavanderías e información operativa. |
+| Bounded Context | Responsabilidad | Elementos principales del dominio |
+|---|---|---|
+| Identity & Access | Gestionar el registro, el inicio de sesión y los roles de los usuarios. | `User` (aggregate root) |
+| Customer Management | Gestionar los perfiles de los clientes. | `Customer`, `DocumentType` (DNI, CE) |
+| Service Catalog | Gestionar el catálogo de servicios y prendas, y medir cuáles se piden más. | `LaundryService`, `Garment`, `CatalogItem`, `DemandPeriod` |
+| Order Management | Gestionar las solicitudes de servicio y sus prendas. | `Order` (aggregate root), `GarmentItem`, `OrderStatus`, `ServiceType`, `DeliveryMethod` |
+| Laundry Operations | Gestionar el procesamiento interno de las órdenes y los recursos de la lavandería. | `LaundryOrder`, `WashingCycle`, `LaundryResource`, `ProcessingStage`, `Priority`, `ResourceStatus` |
+| Payments | Registrar los pagos de los pedidos. | `Payment`, `PaymentStatus` (paid, pending, cancelled) |
+| Tracking & Notifications | Gestionar el seguimiento de los pedidos y las notificaciones al usuario. | `OrderTracking`, `Notification` |
+| Pickups & Deliveries | Gestionar los recojos y las entregas programadas. | `Delivery`, `DeliveryType`, `DeliveryStatus` |
+| Dashboard | Presentar indicadores del negocio. No tiene entidades propias: calcula sus métricas a partir de pedidos, pagos y clientes. | `DashboardMetrics` |
+ 
 
 #### 4.6.1. Design-Level EventStorming
 El Design-Level EventStorming identifica los principales **Commands, Aggregates, Domain Events y Policies** necesarios para representar el comportamiento del dominio.

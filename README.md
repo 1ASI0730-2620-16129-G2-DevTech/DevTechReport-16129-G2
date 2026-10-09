@@ -4307,6 +4307,106 @@ La siguiente tabla presenta las User Stories asignadas al Sprint 2, los Work-ite
 </table>
 
 ##### 5.2.2.4. Development Evidence for Sprint Review
+<p align="justify">
+  En este Sprint se implementó la Web Application de WashTrack con Vue 3, organizada con Domain-Driven Design en nueve bounded contexts: Identity &amp; Access, Customer Management, Service Catalog, Order Management, Laundry Operations, Payments, Tracking &amp; Notifications, Pickups &amp; Deliveries y Dashboard. Asimismo, cada contexto separa las capas de dominio, aplicación, infraestructura y presentación, y la capa compartida incluye el cliente HTTP (<code>BaseApi</code>, <code>BaseEndpoint</code>), internacionalización español/inglés y el tema visual de PrimeVue. La Landing Page se desarrolló como sitio estático en HTML, CSS y JavaScript, con menú adaptable a dispositivos móviles y cambio de idioma. Además, los Web Services se simularon con json-server (13 recursos REST) mientras se define el backend real.
+</p>
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| --- | --- | --- | --- | --- | --- |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | develop | 9e4fb71 | feat(firebase): initialize Firebase hosting configuration and add index.html | — | 09/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | develop | 78e6435 | Add files via upload | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | develop | 9198a8c | Add files via upload | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | develop | ab3d119 | feat: unified version plus fixes | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | ddb01be | feat(iam): add authentication controller | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | a0a4ead | feat(iam): connect identity services to mock API | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | b6381a0 | feat(iam): add identity application services | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | 2659f7c | refactor(iam): align user with aggregate root | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | e2b80f7 | feat(iam): add registration translations in English | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | be3334b | feat(iam): add registration translations in Spanish | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | adffe0c | feat(iam): link login component to registration component | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | ce843ed | feat(iam): add registration route | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | 199d465 | feat(iam): add registration form | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | 130dd5b | feat(iam): add registration action to auth store | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | 1be5b84 | feat(iam): add user registration api | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | 24856ba | feat(iam): configure users endpoint | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | c226a85 | feat(iam): hide layout on login | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | 8e48ff6 | feat(iam): register login route | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | 18f46e9 | feat(iam): add login translations | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | 40b7f05 | feat(iam): add Test Users and Passwords | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | e11a383 | feat(iam): modify sidebar-menu component | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | 165a6d0 | feat(iam): add login view component | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 370a077 | `feat(server): update db.json data` | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 2a25f1f | `feat(public): add Yape QR image` | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | 6e132ee | fix: branch restoration | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | fc4f452 | fix: code restoration (revert) | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | 26872f3 | feat(i18n): add laundry operations messages | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | 0292b02 | chore(server): add laundry operations and sensor mock data | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | ba7d610 | feat(laundry-operations): add resources and washing cycles views | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | 1874afe | feat(laundry-operations): add laundry dashboard and production board view | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | 1464749 | feat(laundry-operations): add menu and summary components | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | f5ffa05 | feat(laundry-operations): add order card and assign dialog components | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | 05deb05 | feat(laundry-operations): add laundry operation and resource stores | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | 0be7e14 | feat(laundry-operations): add iot gateway client and resource monitoring acl | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | 620f014 | feat(laundry-operations): add api client and assemblers | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | 4c2f491 | chore(env): add laundry operations and iot gateway endpoints | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | daba639 | feat(laundry-operations): add laundry order aggregate | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | f827cc2 | feat(laundry-operations): add washing cycle and laundry resource entities | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/laundry-operations | 3cf4038 | feat(laundry-operations): add domain enums | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 642c08d | feat(laundry-operations): add laundry order aggregate | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | c116c12 | feat(laundry-operations): add washing cycle and laundry resource entities | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 17c653b | feat(laundry-operations): add resources and washing cycles views | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 0d981f5 | feat(laundry-operations): add production board view | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | dd55ee7 | feat(laundry-operations): add menu and summary components | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 24c14b8 | feat(laundry-operations): add order card and assign dialog components | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | f40d027 | feat(laundry-operations): add laundry operations store | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 57de39a | feat(laundry-operations): add api client and assemblers | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 3946b4b | feat(laundry-operations): add routes | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | f299d14 | chore(server): add laundry operations mock data | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 4d4433e | chore(env): add laundry operations endpoints | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 86f5ac9 | feat(laundry-operations): add domain enums | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 922d867 | Update start.sh | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-managment | 02afcb2 | feat(orders): integrate order-management module and fix mock server connection | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-managment | 43fdd1a | feat(orders): add order presentation controllers and views | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-managment | c09b8f9 | feat(orders): implement order infrastructurerepositories | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-managment | 465dfe2 | feat(orders): add order application services | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-managment | b568e11 | feat(orders): implement order domain layer | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-managment | 6181d1a | feat(shared): add base repository implementation | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-managment | 3d1c4a1 | feat(shared): add domain model base classes | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | a3fdc95 | feat(shared): update layout | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 0df5dbf | feat(shared): update layout | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 2bf2864 | chore: update server files | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 3b473ba | chore: update locale files | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | c99d059 | feat(pickups-deliveries): add pickups deliveries routes | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | b14cb7d | feat(pickups-deliveries): add delivery list | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 584ab57 | feat(pickups-deliveries): add delivery catalog | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | eab05d2 | feat(pickups-deliveries): add pickups deliveries store | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 5595e79 | feat(pickups-deliveries): add pickups deliveries api | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | b86b5a9 | feat(pickups-deliveries): add delivery assembler | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 5d10234 | feat(pickups-deliveries): add delivery entity | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 0a43d15 | feat(shared): add sidebar menu | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | ef6074f | chore: update environments files | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 3a12f1e | feat(src): update router | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | e965b8f | feat(tracking-notifications): add tracking notifications routes | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | ece987d | feat(tracking-notifications): add order tracking list and view | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | e8d0e74 | feat(tracking-notifications): add notification toaster | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | ad1d45e | feat(tracking-notifications): add stage tag and stepper | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 50afba5 | feat(tracking-notifications): add tracking item, list, summary and history | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | b57a07d | feat(tracking-notifications): add tracking item, list, summary and history | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 9acecec | feat(tracking-notifications): add tracking notifications store | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 87cfff8 | feat(tracking-notifications): add tracking notification api | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 02cb5f3 | feat(tracking-notifications): add notification assembler | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | ab55974 | feat(tracking-notifications): add tracking assembler | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 29dc5a0 | feat(tracking-notifications): add order tracking entity | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | 81b3d1c | feat(tracking-notifications): add notification entity | — | 08/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | b158cb3 | feat: add base structure (layout, router, i18n, theme, env and mock server) | — | 07/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/iam | 7674cfa | feat(iam): add user domain model and repository port | — | 07/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/tracking-notifications | a0fb4dd | feat(shared): add domain model | — | 07/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/format | b5d6230 | chore: install axios, primevue packages | — | 03/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/format | 720e992 | feat(shared): add BaseEndpoint | — | 03/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/format | 1f418a2 | feat(shared): add BaseApi | — | 03/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/format | 5ea1726 | chore: initial commit | — | 03/10/2026 |
+ 
+
 ##### 5.2.2.5. Execution Evidence for Sprint Review
 
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review

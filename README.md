@@ -339,6 +339,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
         Participé en la validación funcional de la Landing Page, asegurando que los elementos implementados respondieran a las User Stories US01, US02 y US03, especialmente en la presentación de la propuesta de valor y en la navegación hacia la experiencia del cliente y del proveedor. También colaboré en la revisión del contenido y del comportamiento esperado de la interfaz para mantener coherencia con los objetivos del producto.<br>
+        <em><b>TB1</b></em><br>
+        En el Sprint 2 asumí la responsabilidad del bounded context de Identity and Access Management (IAM) para la primera versión del frontend de WashTrack. Implementé el modelo de usuario y el contrato del repositorio, las vistas y rutas de inicio de sesión y registro, el estado de autenticación y su integración con la API mock. También desarrollé los servicios de aplicación y el controlador de autenticación, coordinando su integración con la estructura compartida de la aplicación y las traducciones en español e inglés. El trabajo se incorporó a la rama de desarrollo mediante `feature/iam` y su Pull Request, contribuyendo a integrar el módulo con los demás componentes del equipo.<br>
         <br>
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
@@ -373,6 +375,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
         Contribuí a la organización del trabajo del equipo al revisar la prioridad de las User Stories y validar que el Product Backlog y la implementación de la Landing Page estuvieran alineados con los objetivos del Sprint. Además, apoyé la coordinación técnica y la revisión funcional para asegurar que cada tarea cumpliera con los criterios de aceptación y se entregara dentro de los plazos establecidos.<br>
+        <em><b>TB1</b></em><br>
+        Para el Sprint 2, enfoqué mi aporte en el alcance acordado para el frontend y en el desarrollo del módulo IAM: autenticación, registro de usuarios y conexión de esos flujos con la API mock. Organicé los cambios en la rama `feature/iam` y coordiné su integración con `develop` mediante Pull Request. También contribuí a la revisión de las rutas y vistas de acceso en la versión integrada, apoyando el objetivo común de incorporar los distintos bounded contexts en una primera versión del frontend.<br>
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
         Desarrollé los diferentes componentes del proyecto siguiendo una estructura organizada, comenzando por la definición de la Startup Profile, la identificación de la problemática y los segmentos objetivo, y continuando con el levantamiento y análisis de requerimientos. Para ello, elaboré el análisis competitivo, el diseño, registro y análisis de entrevistas, y las herramientas de Needfinding, como User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping. Además, desarrollé el Big Picture EventStorming y el Ubiquitous Language, permitiendo organizar y consolidar la información obtenida durante el análisis. Estas acciones contribuyeron al cumplimiento progresivo de los objetivos y entregables establecidos para el proyecto.

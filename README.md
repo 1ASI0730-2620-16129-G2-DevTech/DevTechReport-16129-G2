@@ -1,60 +1,67 @@
-
 <div align="center">
 <img src="assets/upc_logo.png" alt="UPC Logo" width="150"
 "/>
 
-## **Universidad Peruana de Ciencias Aplicadas**
-### **Carrera de Ingeniería de Software**
+Universidad Peruana de Ciencias Aplicadas
+
+Carrera de Ingeniería de Software
 <br>
 
-**Curso: Aplicaciones Web**
+**1ASI030**
 
-**NRC: 16129**
+**Aplicaciones Web**
 
-**Docente: Alberto Wilmer Sanchez Seña**
+NRC
+**16129**
 
-### **Informe del Trabajo Final**
+#### Informe del Trabajo Final
 
-**Nombre de la Startup:** DevTech
+Docente
 
-**Nombre del producto:** WashTrack
+**Sanchez Seña, Alberto Wilmer**
+<br>
 
-### **Integrantes**
+Equipo
+
+**DevTech**
+
+Proyecto
+
+**WashTrack**
+
+<br>
+
+**Integrantes**
 
 </div>
 
-<table align="center" style="border-collapse: collapse; border: none; margin-left: auto; margin-right: auto;">
-    <tr>
-        <th style="border: none; padding: 0 18px 6px 0; text-align: center;">Código</th>
-        <th style="border: none; padding: 0 0 6px 0; text-align: center;">Apellidos y Nombres</th>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U20241D338</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Pérez Vásquez, Ariana Valeria</td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202416053</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramirez Gutierrez, Gabriel</td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202018427</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramos Fuentes Rivera, Adriana Nicole</td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">U202422642</td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Sayago Vidal, Sebastián Leonardo</td>
-    </tr>
-    <tr>
-        <td style="border: none; padding: 0 18px 0 0; text-align: center;">U202216240</td>
-        <td style="border: none; padding: 0; text-align: center;">Tufiño Argüelles, Luis Angel</td>
-    </tr>
-</table>
+<p align="center">
+    <b>Código&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apellidos y Nombres</b>
+</p>
+<p align="center">
+u20241D338&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pérez Vásquez, Ariana Valeria<br>
+u202416053&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ramirez Gutierrez, Gabriel<br>
+u202018427&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ramos Fuentes Rivera, Adriana Nicole<br>
+u202422642&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sayago Vidal, Sebastián Leonardo<br>
+u202216240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tufiño Argüelles, Luis Angel<br>
+</p>
+<br>
 
 <div align="center">
 
-*Setiembre, 2026*
+**Periodo 202620**
+<br>
+
+**Octubre 2026**
 
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -187,26 +194,6 @@ URL del repositorio (frontend): [https://github.com/1ASI0730-2620-16129-G2-DevTe
   <br/><i>Network graph Frontend of DevTech (TB1)</i>
 </p>
 
-
-<div style="page-break-after: always;"></div>
-
----
-
-
-<p align="center">
-<img src="assets/contributors_tb1.png" alt="Contributors-DevTech-TB1" width="500"/>
-  <br/><i>Contributors of DevTech (TB1)</i>
-</p>
-<br>
-<p align="center">
-<img src="assets/pulse_tb1.png" alt="Pulse-DevTech-TB1" width="500"/>
-  <br/><i>Pulse of DevTech (TB1)</i>
-</p>
-<br>
-<p align="center">
-<img src="assets/network_graph_tb1.png" alt="Contributors-DevTech-TB1" width="500"/>
-  <br/><i>Network graph of DevTech (TB1)</i>
-</p>
 
 <div style="page-break-after: always;"></div>
 
@@ -2909,52 +2896,73 @@ Los prototipos fueron construidos en Figma, incluyendo simulación de interacci�
 
 
 ### 4.6. Domain-Driven Software Architecture
-La arquitectura de WashTrack se organiza utilizando conceptos de **Domain-Driven Design (DDD)** para separar las principales responsabilidades del dominio. Los Bounded Contexts permiten delimitar las reglas y responsabilidades de cada área funcional. Para este proyecto, la arquitectura de WashTrack se organiza con **Domain-Driven Design (DDD)** para separar las responsabilidades del dominio. La solución se divide en nueve Bounded Contexts: *Identity & Access*, *Customer Management*, *Service Catalog*, *Order Management*, *Laundry Operations*, *Payments*, *Tracking & Notifications*, *Pickups & Deliveries* y *Dashboard*. Todos ellos comparten un Shared Kernel con los elementos comunes del dominio y de la infraestructura.
-
-| Bounded Context | Responsabilidad | Elementos principales del dominio |
-|---|---|---|
-| Identity & Access | Gestionar el registro, el inicio de sesión y los roles de los usuarios. | `User` (aggregate root) |
-| Customer Management | Gestionar los perfiles de los clientes. | `Customer`, `DocumentType` (DNI, CE) |
-| Service Catalog | Gestionar el catálogo de servicios y prendas, y medir cuáles se piden más. | `LaundryService`, `Garment`, `CatalogItem`, `DemandPeriod` |
-| Order Management | Gestionar las solicitudes de servicio y sus prendas. | `Order` (aggregate root), `GarmentItem`, `OrderStatus`, `ServiceType`, `DeliveryMethod` |
-| Laundry Operations | Gestionar el procesamiento interno de las órdenes y los recursos de la lavandería. | `LaundryOrder`, `WashingCycle`, `LaundryResource`, `ProcessingStage`, `Priority`, `ResourceStatus` |
-| Payments | Registrar los pagos de los pedidos. | `Payment`, `PaymentStatus` (paid, pending, cancelled) |
-| Tracking & Notifications | Gestionar el seguimiento de los pedidos y las notificaciones al usuario. | `OrderTracking`, `Notification` |
-| Pickups & Deliveries | Gestionar los recojos y las entregas programadas. | `Delivery`, `DeliveryType`, `DeliveryStatus` |
-| Dashboard | Presentar indicadores del negocio. No tiene entidades propias: calcula sus métricas a partir de pedidos, pagos y clientes. | `DashboardMetrics` |
+La arquitectura de software de WashTrack se diseña aplicando Domain-Driven Design (DDD), de modo que la estructura del código refleje el modelo del negocio de lavanderías: recepción de prendas, procesamiento por etapas, cobro, suscripciones y seguimiento del pedido. El dominio se divide en seis Bounded Contexts, cada uno con su propio lenguaje ubicuo, sus agregados y sus reglas:
  
+| Bounded Context | Responsabilidad | Aggregate roots |
+|---|---|---|
+| Identity & Access | Registro, autenticación y roles de los usuarios | User |
+| Customer & Business Management | Datos de clientes y de la lavandería | Customer, Laundry |
+| Order Management | Registro del pedido, sus prendas y su estado | Order |
+| Laundry Operations | Procesamiento del pedido, ciclos de lavado y recursos (lavadoras, secadoras) | LaundryOrder, LaundryResource |
+| Subscription & Payment | Planes, suscripciones, créditos y cobros | Payment, Subscription, SubscriptionPlan |
+| Tracking & Notifications | Seguimiento del pedido y avisos al usuario | Tracking, Notification |
+ 
+Cada contexto sigue una arquitectura en capas, con dependencias que apuntan hacia el dominio:
+ 
+- **Presentation:** controllers y componentes de interfaz. Solo invocan servicios de aplicación.
+- **Application:** servicios de aplicación que orquestan casos de uso, y puertos (`AuthenticationService`, `PaymentGateway`) que abstraen lo externo.
+- **Domain:** aggregate roots, entidades, value objects, enumeraciones e interfaces de repositorio. No depende de ninguna otra capa.
+- **Infrastructure:** implementaciones de repositorios, adaptadores y capas anticorrupción (ACL).
+Las relaciones entre contextos siguen tres reglas:
+ 
+1. **Referencias solo por identificador.** Por ejemplo, `Order` guarda `customerId` y `laundryId`, y `LaundryOrder` guarda `orderId`. Ningún contexto mantiene objetos de otro.
+2. **Shared Kernel mínimo.** Contiene `AggregateRoot`, `Repository<T>`, `DomainEvent`, `Money` y `BaseRepository<T>`, más componentes de interfaz comunes (`Layout`, `Navigation`).
+3. **Aislamiento de sistemas externos con ACL.** `ResourceMonitoringACL` traduce la telemetría del IoT Gateway (`SensorTelemetryPayload`) a `ResourceStatus`. `PaymentGatewayACL` traduce la respuesta del proveedor de pagos a `PaymentResult`.
 
 #### 4.6.1. Design-Level EventStorming
-El Design-Level EventStorming identifica los principales **Commands, Aggregates, Domain Events y Policies** necesarios para representar el comportamiento del dominio.
-
-### Commands principales
-
-| Command | Aggregate | Domain Event |
-|---|---|---|
-| Create Order | Order | OrderCreated |
-| Register Special Care | Order | SpecialCareRegistered |
-| Select Delivery Method | Order | DeliveryMethodSelected |
-| Validate Subscription | Subscription | SubscriptionValidated |
-| Apply Benefit | Subscription | BenefitApplied |
-| Process Payment | Payment | PaymentProcessed |
-| Receive Order | LaundryOrder | OrderReceived |
-| Classify Order | LaundryOrder | OrderClassified |
-| Assign Washing Cycle | LaundryOrder | WashingCycleAssigned |
-| Assign Resource | LaundryOrder | ResourceAssigned |
-| Advance Stage | LaundryOrder | ProcessingStageAdvanced |
-| Prioritize VIP Order | LaundryOrder | VIPPriorityAssigned |
-| Register Status Update | Tracking | OrderStatusUpdated |
-| Send Notification | Notification | NotificationSent |
-| Detect Delivery Risk | LaundryOrder | VIPDeliveryRiskDetected |
-
-### Aggregates
-
-- **Order:** mantiene la información de una solicitud.
-- **Subscription:** controla membresía, vigencia y créditos.
-- **Payment:** representa una transacción.
-- **LaundryOrder:** representa el procesamiento operativo de una orden.
-- **Tracking:** mantiene el historial de estados.
-- **Notification:** representa una comunicación generada por el sistema.
+En esta etapa se refinan los eventos de dominio hasta el nivel de diseño. Cada comando se asocia al agregado que lo atiende y al evento que produce. Las políticas (*policies*) conectan eventos de un contexto con comandos de otro.
+ 
+**Comandos, agregados y eventos por Bounded Context**
+ 
+| Bounded Context | Actor | Comando | Aggregate | Evento de dominio |
+|---|---|---|---|---|
+| Identity & Access | Usuario | Registrarse (`signUp`) | User | `UserRegistered` |
+| | Usuario | Iniciar sesión (`signIn`) | User | `UserAuthenticated` |
+| Customer & Business | Dueño de lavandería | Crear / actualizar lavandería | Laundry | `LaundryCreated`, `LaundryUpdated` |
+| | Cliente | Actualizar perfil | Customer | `CustomerUpdated` |
+| Order Management | Cliente / Operador | Crear pedido | Order | `OrderCreated` |
+| | Cliente / Operador | Agregar / quitar prenda | Order | `GarmentItemAdded`, `GarmentItemRemoved` |
+| | Operador | Cambiar estado | Order | `OrderReceived`, `OrderClassified`, `OrderInProcess`, `OrderReady`, `OrderDelivered` |
+| Laundry Operations | Operador | Recibir pedido | LaundryOrder | `LaundryOrderReceived` |
+| | Operador | Clasificar pedido | LaundryOrder | `LaundryOrderClassified` |
+| | Operador | Asignar ciclo de lavado | LaundryOrder | `WashingCycleAssigned` |
+| | Operador | Asignar recurso | LaundryResource | `ResourceAssigned` |
+| | Operador | Avanzar etapa | LaundryOrder | `StageAdvanced` (Washing, Drying/Ironing, Packaging, Ready) |
+| | Operador | Priorizar pedido | LaundryOrder | `OrderPrioritized` |
+| | Operador / IoT | Liberar recurso | LaundryResource | `ResourceReleased` |
+| | IoT Gateway (vía ACL) | Sincronizar estado del recurso | LaundryResource | `ResourceStatusChanged` |
+| Subscription & Payment | Cliente | Suscribirse a un plan | Subscription | `SubscriptionActivated` |
+| | Sistema | Validar suscripción | Subscription | `SubscriptionValidated` |
+| | Sistema | Aplicar beneficio | Subscription | `BenefitApplied` |
+| | Cliente | Cancelar suscripción | Subscription | `SubscriptionCancelled` |
+| | Cliente | Crear pago | Payment | `PaymentCreated` |
+| | Sistema (vía ACL) | Procesar pago | Payment | `PaymentProcessed`, `PaymentFailed` |
+| | Sistema | Confirmar pago | Payment | `PaymentConfirmed` |
+| Tracking & Notifications | Sistema | Registrar cambio de estado | Tracking | `StatusHistoryRecorded` |
+| | Sistema | Enviar notificación | Notification | `NotificationSent` |
+ 
+**Políticas entre Bounded Contexts**
+ 
+- *Cuando* `OrderReceived` ocurre en Order Management, *entonces* Laundry Operations ejecuta **Recibir pedido**.
+- *Cuando* `StageAdvanced` ocurre en Laundry Operations, *entonces* Tracking ejecuta **Registrar cambio de estado**.
+- *Cuando* `StatusHistoryRecorded` ocurre, *entonces* Notifications ejecuta **Enviar notificación** al usuario (`recipientId`).
+- *Cuando* `OrderReady` ocurre, *entonces* Subscription & Payment puede ejecutar **Aplicar beneficio** o **Crear pago**.
+- *Cuando* `PaymentConfirmed` ocurre, *entonces* Order Management puede continuar el flujo hacia la entrega.
+**Reglas de negocio que restringen los comandos (en la capa de dominio)**
+ 
+- `Order` solo admite agregar o quitar prendas mientras está en estado `CREATED`, y el estado solo avanza en la secuencia `CREATED → RECEIVED → CLASSIFIED → IN_PROCESS → READY → DELIVERED`.
+- `LaundryOrder` no puede pasar a lavado sin un ciclo de lavado y un recurso asignados, y no cambia de prioridad una vez `READY`.
+- `LaundryResource` solo se asigna si está `AVAILABLE` y solo se libera si está `BUSY`.
 
 ### EventStorming
 
@@ -3031,9 +3039,11 @@ La API se divide en capas para separar la exposición HTTP, los casos de uso, la
 
 ### 4.7. Software Object-Oriented Design
 
-El diseño orientado a objetos de WashTrack representa el dominio del sistema siguiendo los principios de Domain-Driven Design (DDD). Para ello, el modelo se organiza en seis Bounded Contexts (Identity & Access, Customer & Business Management, Order Management, Laundry Operations, Subscription & Payment y Tracking & Notifications), cada uno con su propio lenguaje ubicuo, sus agregados y sus reglas de negocio.
-
-Dentro de cada Bounded Context, las clases se distribuyen en cuatro capas: Domain (aggregate roots, entities, value objects, enumeraciones e interfaces de repositorio), Application (servicios y puertos), Infrastructure (implementaciones de repositorios y adaptadores externos) y Presentation (controllers y componentes de interfaz). Los Bounded Contexts se comunican entre sí únicamente mediante referencias por identificador, y comparten un Shared Kernel con los elementos base del dominio (AggregateRoot, Repository, DomainEvent y Money) y la infraestructura común (BaseRepository).
+El diseño orientado a objetos de WashTrack representa el dominio del sistema siguiendo los principios de Domain-Driven Design (DDD). Para ello, el modelo se organiza en seis Bounded Contexts (Identity & Access, Customer & Business Management, Order Management, Laundry Operations, Subscription & Payment y Tracking & Notifications), cada uno con su propio lenguaje ubicuo, sus agregados y sus reglas de negocio. Todos los aggregate roots extienden la clase abstracta `AggregateRoot` del Shared Kernel.
+ 
+Dentro de cada Bounded Context, las clases se distribuyen en cuatro capas: Domain (aggregate roots, entities, value objects, enumeraciones e interfaces de repositorio), Application (servicios y puertos), Infrastructure (implementaciones de repositorios, adaptadores y capas anticorrupción hacia sistemas externos) y Presentation (controllers y componentes de interfaz). En el contexto de Identity & Access se detalla además el modelo del frontend, con el store, las vistas de inicio de sesión y registro, los guards, el interceptor HTTP y los assemblers que convierten recursos de la API en entidades.
+ 
+Los Bounded Contexts se comunican entre sí únicamente mediante referencias por identificador (por ejemplo, `Order.customerId`, `LaundryOrder.orderId` o `Payment.orderId`). Comparten un Shared Kernel con los elementos base del dominio (`AggregateRoot`, `Repository`, `DomainEvent` y `Money`), la infraestructura común (`BaseRepository`) y los componentes de presentación compartidos (`Layout` y `Navigation`). La integración con sistemas externos se aísla mediante capas anticorrupción: en Laundry Operations, `ResourceMonitoringACL` traduce la telemetría del IoT Gateway al estado del recurso, y en Subscription & Payment, `PaymentGatewayACL` traduce la respuesta del proveedor de pagos a un `PaymentResult`.
 
 #### 4.7.1. Class Diagrams
 
@@ -4705,7 +4715,14 @@ URL del repositorio (landing-page): [Repositorio Landing Page](https://github.co
 
 URL de landing page (GithubPage): [Landing Page](https://1asi0730-2620-16129-g2-devtech.github.io/DevTech-LandingPage-16129-G2/)
 
+URL del repositorio (fronend): [Repositorio Frontend](https://github.com/Opensource-UPC/Agridron-frontend)
+
+URL del frontend: [Frontend](https://washtrack-eb717.web.app)
+
 URL de exposición (AV1): [Exposición AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216240_upc_edu_pe/IQB8Lru5xw1VRrAGy9Q_qwScAV3r_sKot-0D0TGgiGEB6A4?e=8FrI0h&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+URL de exposición (TB1): [Exposición TB1](https://drive.google.com/file/d/1s7Lls1PRWTXIBummXSfnPucRskjjtwlV/view?usp=sharing)
+
 
 
 

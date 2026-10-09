@@ -52,7 +52,7 @@ u202216240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tufiño Ar
 **Periodo 202620**
 <br>
 
-**Setiembre 2026**
+**Octubre 2026**
 
 </div>
 <br>

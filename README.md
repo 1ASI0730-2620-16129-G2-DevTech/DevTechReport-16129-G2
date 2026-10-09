@@ -84,6 +84,8 @@ URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-D
 
 URL del repositorio (frontend): [https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2)
 
+URL del frontend desplegado: [https://washtrack-eb717.web.app](https://washtrack-eb717.web.app)
+
 <br>
 
 **Primera entrega (AV1)**
@@ -4725,7 +4727,7 @@ URL del frontend: [Frontend](https://washtrack-eb717.web.app)
 
 URL de exposición (AV1): [Exposición AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216240_upc_edu_pe/IQB8Lru5xw1VRrAGy9Q_qwScAV3r_sKot-0D0TGgiGEB6A4?e=8FrI0h&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-URL de exposición (TB1): [Exposición TB1](https://drive.google.com/file/d/1s7Lls1PRWTXIBummXSfnPucRskjjtwlV/view?usp=sharing)
+URL de exposición (TB1): [Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAEU2mWS13ARaBtw6ssyqQrAfnx2Z1jKFVLDnw-L3yIBA4?e=8zIsLP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 

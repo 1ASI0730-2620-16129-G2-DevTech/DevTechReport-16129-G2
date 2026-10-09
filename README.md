@@ -1,4 +1,4 @@
-<img width="1917" height="716" alt="image" src="https://github.com/user-attachments/assets/e6c721d1-ff2f-484b-819e-c8890b698c44" /><div align="center">
+
 <img src="assets/upc_logo.png" alt="UPC Logo" width="150"
 "/>
 

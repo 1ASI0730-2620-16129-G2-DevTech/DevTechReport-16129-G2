@@ -1,4 +1,4 @@
-<div align="center">
+
 <img src="assets/upc_logo.png" alt="UPC Logo" width="150"
 "/>
 
@@ -194,6 +194,26 @@ URL del repositorio (frontend): [https://github.com/1ASI0730-2620-16129-G2-DevTe
   <br/><i>Network graph Frontend of DevTech (TB1)</i>
 </p>
 
+
+<div style="page-break-after: always;"></div>
+
+---
+
+
+<p align="center">
+<img src="assets/contributors_tb1.png" alt="Contributors-DevTech-TB1" width="500"/>
+  <br/><i>Contributors of DevTech (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/pulse_tb1.png" alt="Pulse-DevTech-TB1" width="500"/>
+  <br/><i>Pulse of DevTech (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/network_graph_tb1.png" alt="Contributors-DevTech-TB1" width="500"/>
+  <br/><i>Network graph of DevTech (TB1)</i>
+</p>
 
 <div style="page-break-after: always;"></div>
 

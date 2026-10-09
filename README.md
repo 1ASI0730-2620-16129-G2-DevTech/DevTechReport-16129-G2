@@ -3044,7 +3044,6 @@ El diseño orientado a objetos de WashTrack representa el dominio del sistema si
 Dentro de cada Bounded Context, las clases se distribuyen en cuatro capas: Domain (aggregate roots, entities, value objects, enumeraciones e interfaces de repositorio), Application (servicios y puertos), Infrastructure (implementaciones de repositorios, adaptadores y capas anticorrupción hacia sistemas externos) y Presentation (controllers y componentes de interfaz). En el contexto de Identity & Access se detalla además el modelo del frontend, con el store, las vistas de inicio de sesión y registro, los guards, el interceptor HTTP y los assemblers que convierten recursos de la API en entidades.
  
 Los Bounded Contexts se comunican entre sí únicamente mediante referencias por identificador (por ejemplo, `Order.customerId`, `LaundryOrder.orderId` o `Payment.orderId`). Comparten un Shared Kernel con los elementos base del dominio (`AggregateRoot`, `Repository`, `DomainEvent` y `Money`), la infraestructura común (`BaseRepository`) y los componentes de presentación compartidos (`Layout` y `Navigation`). La integración con sistemas externos se aísla mediante capas anticorrupción: en Laundry Operations, `ResourceMonitoringACL` traduce la telemetría del IoT Gateway al estado del recurso, y en Subscription & Payment, `PaymentGatewayACL` traduce la respuesta del proveedor de pagos a un `PaymentResult`.
-
 #### 4.7.1. Class Diagrams
 
 A continuación se presenta primero la vista general de los Bounded Contexts y luego el diagrama de clases de cada uno.
@@ -3061,10 +3060,16 @@ A continuación se presenta primero la vista general de los Bounded Contexts y l
     <img src="assets/img/Chapter4/class-diagram-identity-access.png" alt="Class diagram Identity & Access" width="100%"/>
 </div>
 
+**Identity & Access Services Model**
+
+<div align="center">
+    <img src="assets/img/Chapter4/class-diagram-iam-services.png" alt="Class diagram Identity & Access Services" width="100%"/>
+</div>
+
 **Customer & Business Management Bounded Context**
 
 <div align="center">
-    <img src="assets/img/Chapter4/class-diagram-customer-business.png" alt="Class diagram Customer & Business Management" width="100%"/>
+    <img src="assets/img/Chapter4/class-diagram-customer-business-management.png" alt="Class diagram Customer & Business Management" width="100%"/>
 </div>
 
 **Order Management Bounded Context**
@@ -3094,9 +3099,8 @@ A continuación se presenta primero la vista general de los Bounded Contexts y l
 **Shared Kernel**
 
 <div align="center">
-    <img src="assets/img/Chapter4/class-diagram-shared.png" alt="Class diagram Shared Kernel" width="100%"/>
+    <img src="assets/img/Chapter4/class-diagram-shared-kernel.png" alt="Class diagram Shared Kernel" width="100%"/>
 </div>
-
 
 ### 4.8. Database Design
 

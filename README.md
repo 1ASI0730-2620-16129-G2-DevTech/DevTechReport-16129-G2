@@ -84,6 +84,8 @@ URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-D
 
 URL del repositorio (frontend): [https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2)
 
+URL del frontend desplegado: [https://washtrack-eb717.web.app](https://washtrack-eb717.web.app)
+
 <br>
 
 **Primera entrega (AV1)**

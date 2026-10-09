@@ -315,6 +315,14 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 </p>
 
+<p align="justify">
+<b>Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.</b>
+</p>
+
+<p align="justify">
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+</p>
+
 <table>
   <thead>
     <tr>
@@ -350,12 +358,16 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>Tufiño Argüelles, Luis Angel</b><br>
         <em><b>AV1</b></em><br>
         - Propuso y sustentó ante el equipo los criterios de usabilidad y arquitectura de información aplicados en el diseño de las pantallas de WashTrack (Dashboard, Pedidos, Clientes, Pagos), argumentando cada decisión con heurísticas de Nielsen y principios de Gestalt.<br>
-        - Lideró la identificación de los User Goals a partir de los User Persona del proyecto, coordinando con el equipo la priorización de los flujos por segmento (Propietario de lavandería y Cliente).
-        ...
+        - Lideró la identificación de los User Goals a partir de los User Persona del proyecto, coordinando con el equipo la priorización de los flujos por segmento (Propietario de lavandería y Cliente).<br>
+        <em><b>TB1</b></em><br>
+        - Lideró el bounded context Subscription &amp; Payment durante el Sprint 2, coordinando con el equipo la descomposición de las User Stories US-019 (Gestionar suscripción) y US-015 (Administrar servicios y precios) en tareas, y desarrollando los datos simulados de planes, suscripciones y pagos para el servidor local del frontend.<br>
+        - Elaboró la Leadership-and-Collaboration Matrix del Sprint 2, proponiendo una distribución con un líder y dos colaboradores por bounded context, alineada con el Sprint Planning 2 y con el trabajo registrado por cada integrante en el repositorio.
       </td>
       <td>
         <b>AV1</b><br>
         <p>En conclusión, logramos ejercer un liderazgo conjunto y transversal a lo largo de todas las fases del proyecto, desde la asignación estratégica de roles iniciales y la facilitación compartida del Lean UX Process, Needfinding y Big Picture EventStorming (Capítulos I y II), hasta la toma de decisiones técnicas para el Product Backlog, arquitectura DDD y diseño de bases de datos (Capítulos III y IV). Asimismo, asumimos de forma colaborativa la dirección de los Sprints y la asignación de líderes por aspectos en la fase de implementación (Capítulo V), demostrando una capacidad constante para orientar al grupo hacia el cumplimiento de cada hito técnico y estratégico del proyecto.</p>
+        <b>TB1</b><br>
+        <p>En conclusión, durante el Sprint 2 el liderazgo se distribuyó por bounded context: cada integrante asumió la dirección de un área funcional del frontend y colaboró en otras dos, de acuerdo con la Leadership-and-Collaboration Matrix. Esta organización permitió que las decisiones técnicas de cada módulo fueran tomadas por su líder, sin perder la revisión cruzada de los colaboradores, y orientó al equipo hacia el desarrollo de la primera versión de la Frontend Web Application.</p>
       </td>
     </tr>
     <tr>
@@ -383,12 +395,17 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>Tufiño Argüelles, Luis Angel</b><br>
         <em><b>AV1</b></em><br>
         - Elaboró los Wireframes, Wireflow Diagrams y Mock-ups correspondientes a los principales módulos de WashTrack y de la App Cliente, organizando el avance por pantalla para cumplir con el alcance planteado para AV1.<br>
-        - Incorporó la retroalimentación del equipo para ajustar los flujos propuestos (por ejemplo, separar el goal de asignar un repartidor del de monitorear un envío en curso), cumpliendo con los plazos acordados para esta entrega.
+        - Incorporó la retroalimentación del equipo para ajustar los flujos propuestos (por ejemplo, separar el goal de asignar un repartidor del de monitorear un envío en curso), cumpliendo con los plazos acordados para esta entrega.<br>
+        <em><b>TB1</b></em><br>
+        - Planificó el Sprint Backlog 2 en un tablero de Trello con los estados To-do, In-Process, To-Review y Done, descomponiendo las User Stories del Sprint Planning 2 en tareas con responsables, estimación en horas y estado según el avance real del repositorio.<br>
+        - Registró en Trello el Sprint Backlog 1 como corrección de la entrega anterior y revisó la coherencia entre el Sprint Planning 2, la matriz de líderes y colaboradores y el Sprint Backlog 2, coordinando con sus compañeros los ajustes necesarios para cumplir con lo establecido para TB1.
       <br>
       </td>
       <td>
         <b>AV1</b><br>
         <p>En conclusión, consolidamos un entorno de trabajo altamente colaborativo e inclusivo al integrar las opiniones e ideas de todos los integrantes durante las dinámicas de brainstorming, diseño UX/UI y definición de requisitos (Capítulos I al IV). Además, demostramos rigurosidad en el establecimiento de metas y planificación de tareas al gestionar de forma ordenada el Sprint Backlog, los entornos de desarrollo, la documentación de servicios y las revisiones de código y despliegue (Capítulo V), lo que nos permitió alcanzar con éxito los objetivos de software y entregar un producto funcional dentro de los plazos establecidos.</p>
+        <b>TB1</b><br>
+        <p>En conclusión, para el Sprint 2 el equipo estableció un Sprint Goal común, seleccionó las User Stories en el Sprint Planning 2 y las descompuso en tareas registradas en Trello, con responsables, estimaciones y estados visibles para todos. El trabajo en ramas por bounded context y su integración mediante Pull Requests en la rama develop permitió avanzar en paralelo y dar seguimiento al cumplimiento de los objetivos del Sprint. Asimismo, el equipo corrigió artefactos de la entrega anterior, como el registro del Sprint Backlog 1 en Trello.</p>
       </td>
     </tr>
   </tbody>

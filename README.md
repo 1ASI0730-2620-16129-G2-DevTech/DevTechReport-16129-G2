@@ -3060,71 +3060,84 @@ Los Bounded Contexts se comunican entre sí únicamente mediante referencias por
 A continuación se presenta primero la vista general de los Bounded Contexts y luego el diagrama de clases de cada uno.
 
 **Vista general de Bounded Contexts**
-
+* Frontend
 <div align="center">
     <img src="assets/img/Chapter4/class-diagram-overview.png" alt="Vista general de bounded contexts" width="100%"/>
 </div>
+<br>
 
 **Identity & Access Bounded Context**
-
+* Frontend
 <div align="center">
     <img src="assets/img/Chapter4/class-diagram-identity-access.png" alt="Class diagram Identity & Access" width="100%"/>
 </div>
-
+<br>
 
 **Customer Management Bounded Context**
-
+* Frontend
 <div align="center">
     <img src="assets/img/Chapter4/class-diagram-customer-management.png" alt="Class diagram Customer Management" width="100%"/>
 </div>
+<br>
 
 **Order Management Bounded Context**
-
+* Frontend
 <div align="center">
     <img src="assets/img/Chapter4/class-diagram-order-management.png" alt="Class diagram Order Management" width="100%"/>
 </div>
+<br>
 
 **Laundry Operations Bounded Context**
-
+* Frontend
 <div align="center">
     <img src="assets/img/Chapter4/class-diagram-laundry-operations.png" alt="Class diagram Laundry Operations" width="100%"/>
 </div>
+<br>
 
 **Service Catalog Bounded Context**
-
+* Frontend
 <div align="center">
     <img src="assets/img/Chapter4/class-diagram-service-catalog.png" alt="Class diagram Service Catalog" width="100%"/>
 </div>
+<br>
 
 **Payments Bounded Context**
-
+* Frontend
 <div align="center">
     <img src="assets/img/Chapter4/class-diagram-payments.png" alt="Class diagram Payments" width="100%"/>
 </div>
+<br>
 
 **Pickups & Deliveries Bounded Context**
-
+* Frontend
 <div align="center">
     <img src="assets/img/Chapter4/class-diagram-pickups-deliveries.png" alt="Class diagram Pickups & Deliveries" width="100%"/>
 </div>
+<br>
 
 **Tracking & Notifications Bounded Context**
-
+* Frontend
 <div align="center">
     <img src="assets/img/Chapter4/class-diagram-tracking-notifications.png" alt="Class diagram Tracking & Notifications" width="100%"/>
 </div>
+<br>
 
 **Dashboard**
+* Frontend
 
 <div align="center">
     <img src="assets/img/Chapter4/class-diagram-dashboard.png" alt="Class diagram Dashboard" width="100%"/>
 </div>
+<br>
 
 **Shared Kernel**
+
+* Frontend
 
 <div align="center">
     <img src="assets/img/Chapter4/class-diagram-shared-kernel.png" alt="Class diagram Shared Kernel" width="100%"/>
 </div>
+<br>
 
 ### 4.8. Database Design
 

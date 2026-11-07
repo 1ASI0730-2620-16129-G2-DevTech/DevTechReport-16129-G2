@@ -2898,28 +2898,32 @@ Los prototipos fueron construidos en Figma, incluyendo simulación de interacci�
 
 
 ### 4.6. Domain-Driven Software Architecture
-La arquitectura de software de WashTrack se diseña aplicando Domain-Driven Design (DDD), de modo que la estructura del código refleje el modelo del negocio de lavanderías: recepción de prendas, procesamiento por etapas, cobro, suscripciones y seguimiento del pedido. El dominio se divide en seis Bounded Contexts, cada uno con su propio lenguaje ubicuo, sus agregados y sus reglas:
+La arquitectura de software de WashTrack se diseña aplicando Domain-Driven Design (DDD), de modo que la estructura del código refleje el modelo del negocio de lavanderías: recepción de prendas, procesamiento por etapas, cobro, suscripciones y seguimiento del pedido. El dominio se divide en ocho Bounded Contexts, cada uno con su propio lenguaje ubicuo, sus agregados y sus reglas:
  
 | Bounded Context | Responsabilidad | Aggregate roots |
 |---|---|---|
-| Identity & Access | Registro, autenticación y roles de los usuarios | User |
-| Customer & Business Management | Datos de clientes y de la lavandería | Customer, Laundry |
-| Order Management | Registro del pedido, sus prendas y su estado | Order |
-| Laundry Operations | Procesamiento del pedido, ciclos de lavado y recursos (lavadoras, secadoras) | LaundryOrder, LaundryResource |
-| Subscription & Payment | Planes, suscripciones, créditos y cobros | Payment, Subscription, SubscriptionPlan |
-| Tracking & Notifications | Seguimiento del pedido y avisos al usuario | Tracking, Notification |
+| Identity & Access | Registro, autenticación, recuperación de contraseña y roles de los usuarios (cliente y encargado de turno) | User |
+| Customer Management | Registro y consulta de clientes con su documento de identidad (DNI o CE) | Customer |
+| Order Management | Registro del pedido, sus prendas, el tipo de servicio y su estado | Order |
+| Laundry Operations | Procesamiento del pedido por etapas, ciclos de lavado y recursos (lavadoras, secadoras) | LaundryOrder, LaundryResource |
+| Service Catalog | Catálogo de servicios y prendas con precio base, tiempo estimado y demanda | LaundryService, Garment |
+| Payments | Registro y estado de los pagos de los pedidos | Payment |
+| Pickups & Deliveries | Programación y seguimiento de recojos y entregas a domicilio | Delivery |
+| Tracking & Notifications | Seguimiento del pedido y avisos al usuario | OrderTracking, Notification |
+
+Además, un módulo de Dashboard consolida métricas de lectura (pedidos por estado, ingresos, servicios más solicitados y número de clientes) a partir de los datos de Order Management, Payments y Customer Management, sin agregados propios.
  
 Cada contexto sigue una arquitectura en capas, con dependencias que apuntan hacia el dominio:
  
 - **Presentation:** controllers y componentes de interfaz. Solo invocan servicios de aplicación.
-- **Application:** servicios de aplicación que orquestan casos de uso, y puertos (`AuthenticationService`, `PaymentGateway`) que abstraen lo externo.
+- **Application:** servicios de aplicación y stores que orquestan casos de uso, y puertos (`AuthenticationService`) que abstraen lo externo.
 - **Domain:** aggregate roots, entidades, value objects, enumeraciones e interfaces de repositorio. No depende de ninguna otra capa.
 - **Infrastructure:** implementaciones de repositorios, adaptadores y capas anticorrupción (ACL).
 Las relaciones entre contextos siguen tres reglas:
  
-1. **Referencias solo por identificador.** Por ejemplo, `Order` guarda `customerId` y `laundryId`, y `LaundryOrder` guarda `orderId`. Ningún contexto mantiene objetos de otro.
-2. **Shared Kernel mínimo.** Contiene `AggregateRoot`, `Repository<T>`, `DomainEvent`, `Money` y `BaseRepository<T>`, más componentes de interfaz comunes (`Layout`, `Navigation`).
-3. **Aislamiento de sistemas externos con ACL.** `ResourceMonitoringACL` traduce la telemetría del IoT Gateway (`SensorTelemetryPayload`) a `ResourceStatus`. `PaymentGatewayACL` traduce la respuesta del proveedor de pagos a `PaymentResult`.
+1. **Referencias solo por identificador.** Por ejemplo, `Order` guarda `customerId` y `laundryId`; `LaundryOrder`, `Payment`, `Delivery` y `OrderTracking` guardan `orderId`; y `Notification` guarda `userId`. Ningún contexto mantiene objetos de otro.
+2. **Shared Kernel mínimo.** Contiene `AggregateRoot`, `Repository<T>`, `DomainEvent`, `Money`, `Currency`, `BaseRepository<T>`, `BaseApi` y `BaseEndpoint`, más componentes de interfaz comunes (`Layout`, `Sidebar`, `Topbar`, `LanguageSwitcher`).
+3. **Aislamiento de sistemas externos con ACL.** `ResourceMonitoringACL` traduce la telemetría del IoT Gateway (`SensorTelemetryPayload`) a `ResourceStatus`: el código `0` corresponde a `AVAILABLE`, `1` a `BUSY` y `2` (o cualquier código desconocido) a `MAINTENANCE`.
 
 #### 4.6.1. Design-Level EventStorming
 En esta etapa se refinan los eventos de dominio hasta el nivel de diseño. Cada comando se asocia al agregado que lo atiende y al evento que produce. Las políticas (*policies*) conectan eventos de un contexto con comandos de otro.
@@ -2930,41 +2934,46 @@ En esta etapa se refinan los eventos de dominio hasta el nivel de diseño. Cada 
 |---|---|---|---|---|
 | Identity & Access | Usuario | Registrarse (`signUp`) | User | `UserRegistered` |
 | | Usuario | Iniciar sesión (`signIn`) | User | `UserAuthenticated` |
-| Customer & Business | Dueño de lavandería | Crear / actualizar lavandería | Laundry | `LaundryCreated`, `LaundryUpdated` |
-| | Cliente | Actualizar perfil | Customer | `CustomerUpdated` |
-| Order Management | Cliente / Operador | Crear pedido | Order | `OrderCreated` |
-| | Cliente / Operador | Agregar / quitar prenda | Order | `GarmentItemAdded`, `GarmentItemRemoved` |
-| | Operador | Cambiar estado | Order | `OrderReceived`, `OrderClassified`, `OrderInProcess`, `OrderReady`, `OrderDelivered` |
-| Laundry Operations | Operador | Recibir pedido | LaundryOrder | `LaundryOrderReceived` |
-| | Operador | Clasificar pedido | LaundryOrder | `LaundryOrderClassified` |
-| | Operador | Asignar ciclo de lavado | LaundryOrder | `WashingCycleAssigned` |
-| | Operador | Asignar recurso | LaundryResource | `ResourceAssigned` |
-| | Operador | Avanzar etapa | LaundryOrder | `StageAdvanced` (Washing, Drying/Ironing, Packaging, Ready) |
-| | Operador | Priorizar pedido | LaundryOrder | `OrderPrioritized` |
-| | Operador / IoT | Liberar recurso | LaundryResource | `ResourceReleased` |
-| | IoT Gateway (vía ACL) | Sincronizar estado del recurso | LaundryResource | `ResourceStatusChanged` |
-| Subscription & Payment | Cliente | Suscribirse a un plan | Subscription | `SubscriptionActivated` |
-| | Sistema | Validar suscripción | Subscription | `SubscriptionValidated` |
-| | Sistema | Aplicar beneficio | Subscription | `BenefitApplied` |
-| | Cliente | Cancelar suscripción | Subscription | `SubscriptionCancelled` |
-| | Cliente | Crear pago | Payment | `PaymentCreated` |
-| | Sistema (vía ACL) | Procesar pago | Payment | `PaymentProcessed`, `PaymentFailed` |
-| | Sistema | Confirmar pago | Payment | `PaymentConfirmed` |
-| Tracking & Notifications | Sistema | Registrar cambio de estado | Tracking | `StatusHistoryRecorded` |
-| | Sistema | Enviar notificación | Notification | `NotificationSent` |
+| | Usuario | Recuperar contraseña (`resetPassword`) | User | `PasswordReset` |
+| Customer Management | Operador | Registrar cliente (`createCustomer`) | Customer | `CustomerRegistered` |
+| Order Management | Operador | Crear pedido (`placeOrder`) | Order | `OrderCreated` |
+| | Operador | Agregar / actualizar / quitar prenda (`addItem`, `updateItem`, `removeItem`) | Order | `GarmentItemAdded`, `GarmentItemUpdated`, `GarmentItemRemoved` |
+| | Operador | Cambiar estado (`changeOrderStatus`) | Order | `OrderReceived`, `OrderClassified`, `OrderInProcess`, `OrderReady`, `OrderDelivered` |
+| Laundry Operations | Operador | Recibir pedido (`receiveOrder`) | LaundryOrder | `LaundryOrderReceived` |
+| | Operador | Clasificar pedido (`classifyOrder`) | LaundryOrder | `LaundryOrderClassified` |
+| | Operador | Asignar ciclo de lavado (`assignWashingCycle`) | LaundryOrder | `WashingCycleAssigned` |
+| | Operador | Asignar recurso (`assignResource`) | LaundryOrder, LaundryResource | `ResourceAssigned` |
+| | Operador | Avanzar etapa (`advanceStage`) | LaundryOrder | `StageAdvanced` (Washing, Drying/Ironing, Packaging, Ready) |
+| | Operador | Priorizar pedido (`prioritizeOrder`) | LaundryOrder | `OrderPrioritized` |
+| | Sistema | Liberar recurso (`releaseResource`) | LaundryResource | `ResourceReleased` |
+| | IoT Gateway (vía ACL) | Sincronizar estado del recurso (`syncResourceStatuses`) | LaundryResource | `ResourceStatusChanged` |
+| Service Catalog | Operador | Registrar servicio (`createService`) | LaundryService | `ServiceRegistered` |
+| | Operador | Registrar prenda (`createGarment`) | Garment | `GarmentRegistered` |
+| Payments | Operador | Registrar pago (`createPayment`) | Payment | `PaymentRegistered` (Paid, Pending, Cancelled) |
+| Pickups & Deliveries | Operador | Programar recojo o entrega | Delivery | `PickupScheduled`, `DeliveryScheduled` |
+| | Repartidor | Iniciar ruta | Delivery | `PickupOnTheWay`, `OrderOnTheWay` |
+| | Repartidor | Completar / cancelar recojo o entrega | Delivery | `DeliveryCompleted`, `DeliveryCancelled` |
+| Tracking & Notifications | Sistema | Registrar cambio de etapa (`updateTracking`) | OrderTracking | `TrackingStageRecorded` |
+| | Sistema | Enviar notificación (`addNotification`) | Notification | `NotificationSent` |
+| | Usuario | Marcar notificación como leída (`markNotificationAsRead`) | Notification | `NotificationRead` |
  
 **Políticas entre Bounded Contexts**
  
 - *Cuando* `OrderReceived` ocurre en Order Management, *entonces* Laundry Operations ejecuta **Recibir pedido**.
-- *Cuando* `StageAdvanced` ocurre en Laundry Operations, *entonces* Tracking ejecuta **Registrar cambio de estado**.
-- *Cuando* `StatusHistoryRecorded` ocurre, *entonces* Notifications ejecuta **Enviar notificación** al usuario (`recipientId`).
-- *Cuando* `OrderReady` ocurre, *entonces* Subscription & Payment puede ejecutar **Aplicar beneficio** o **Crear pago**.
-- *Cuando* `PaymentConfirmed` ocurre, *entonces* Order Management puede continuar el flujo hacia la entrega.
+- *Cuando* `StageAdvanced` ocurre en Laundry Operations, *entonces* Tracking ejecuta **Registrar cambio de etapa**.
+- *Cuando* `StageAdvanced` llega a la etapa Ready, *entonces* Laundry Operations ejecuta **Liberar recurso**.
+- *Cuando* `TrackingStageRecorded` ocurre, *entonces* Notifications ejecuta **Enviar notificación** de tipo `order-stage-changed` al usuario (`userId`).
+- *Cuando* `PickupOnTheWay` u `OrderOnTheWay` ocurre en Pickups & Deliveries, *entonces* Notifications ejecuta **Enviar notificación** de tipo `pickup-on-the-way` u `order-on-the-way`.
+- *Cuando* `OrderReady` ocurre, *entonces* Payments puede ejecutar **Registrar pago** y, si el método de entrega es `DELIVERY`, Pickups & Deliveries puede ejecutar **Programar recojo o entrega**.
+- *Cuando* `PaymentRegistered` ocurre con estado Paid, *entonces* Order Management puede continuar el flujo hacia la entrega.
 **Reglas de negocio que restringen los comandos (en la capa de dominio)**
  
-- `Order` solo admite agregar o quitar prendas mientras está en estado `CREATED`, y el estado solo avanza en la secuencia `CREATED → RECEIVED → CLASSIFIED → IN_PROCESS → READY → DELIVERED`.
-- `LaundryOrder` no puede pasar a lavado sin un ciclo de lavado y un recurso asignados, y no cambia de prioridad una vez `READY`.
-- `LaundryResource` solo se asigna si está `AVAILABLE` y solo se libera si está `BUSY`.
+- `Order` solo admite agregar o quitar prendas mientras está en estado `CREATED`, necesita al menos una prenda para pasar a `RECEIVED`, su fecha estimada de entrega no puede ser anterior a la fecha de recepción, y el estado solo avanza en la secuencia `CREATED → RECEIVED → CLASSIFIED → IN_PROCESS → READY → DELIVERED`.
+- `LaundryOrder` avanza una etapa a la vez en la secuencia `RECEPTION → CLASSIFICATION → WASHING → DRYING_IRONING → PACKAGING → READY`, solo recibe ciclo de lavado y recurso durante `CLASSIFICATION`, no puede pasar a lavado sin ambos asignados, y no cambia de prioridad una vez `READY`. Un pedido VIP no listo cuya fecha esperada ya pasó se marca en riesgo de entrega.
+- `LaundryResource` solo se asigna si está `AVAILABLE` y solo se libera si está `BUSY`; la telemetría del IoT no cambia a `AVAILABLE` un recurso que está `BUSY`.
+- `Customer` se identifica con el formato `CL000`, su teléfono debe tener 9 dígitos y su documento debe tener 8 dígitos si es DNI o 9 dígitos si es CE.
+- `LaundryService` y `Garment` se identifican con los formatos `S000` y `P000`, y requieren un precio base mayor o igual a cero y un tiempo estimado de al menos una hora.
+- `Payment` se identifica con el formato `PG000` y su monto no puede ser negativo.
 
 ### EventStorming
 
@@ -3041,11 +3050,11 @@ La API se divide en capas para separar la exposición HTTP, los casos de uso, la
 
 ### 4.7. Software Object-Oriented Design
 
-El diseño orientado a objetos de WashTrack representa el dominio del sistema siguiendo los principios de Domain-Driven Design (DDD). Para ello, el modelo se organiza en seis Bounded Contexts (Identity & Access, Customer & Business Management, Order Management, Laundry Operations, Subscription & Payment y Tracking & Notifications), cada uno con su propio lenguaje ubicuo, sus agregados y sus reglas de negocio. Todos los aggregate roots extienden la clase abstracta `AggregateRoot` del Shared Kernel.
+El diseño orientado a objetos de WashTrack representa el dominio del sistema siguiendo los principios de Domain-Driven Design (DDD). Para ello, el modelo se organiza en ocho Bounded Contexts (Identity & Access, Customer Management, Order Management, Laundry Operations, Service Catalog, Payments, Pickups & Deliveries y Tracking & Notifications), además del módulo de Dashboard, cada uno con su propio lenguaje ubicuo, sus agregados y sus reglas de negocio. Los aggregate roots `User` y `Order` extienden la clase abstracta `AggregateRoot` del Shared Kernel, que exige un identificador UUID válido.
  
-Dentro de cada Bounded Context, las clases se distribuyen en cuatro capas: Domain (aggregate roots, entities, value objects, enumeraciones e interfaces de repositorio), Application (servicios y puertos), Infrastructure (implementaciones de repositorios, adaptadores y capas anticorrupción hacia sistemas externos) y Presentation (controllers y componentes de interfaz). En el contexto de Identity & Access se detalla además el modelo del frontend, con el store, las vistas de inicio de sesión y registro, los guards, el interceptor HTTP y los assemblers que convierten recursos de la API en entidades.
+Dentro de cada Bounded Context, las clases se distribuyen en cuatro capas: Domain (aggregate roots, entities, value objects, enumeraciones e interfaces de repositorio), Application (servicios y puertos), Infrastructure (implementaciones de repositorios, adaptadores y capas anticorrupción hacia sistemas externos) y Presentation (controllers y componentes de interfaz). En el contexto de Identity & Access se detalla además el modelo del frontend, con el store, las vistas de inicio de sesión, registro y recuperación de contraseña, el controller, el servicio de identidad y los assemblers que convierten recursos de la API en entidades.
  
-Los Bounded Contexts se comunican entre sí únicamente mediante referencias por identificador (por ejemplo, `Order.customerId`, `LaundryOrder.orderId` o `Payment.orderId`). Comparten un Shared Kernel con los elementos base del dominio (`AggregateRoot`, `Repository`, `DomainEvent` y `Money`), la infraestructura común (`BaseRepository`) y los componentes de presentación compartidos (`Layout` y `Navigation`). La integración con sistemas externos se aísla mediante capas anticorrupción: en Laundry Operations, `ResourceMonitoringACL` traduce la telemetría del IoT Gateway al estado del recurso, y en Subscription & Payment, `PaymentGatewayACL` traduce la respuesta del proveedor de pagos a un `PaymentResult`.
+Los Bounded Contexts se comunican entre sí únicamente mediante referencias por identificador (por ejemplo, `Order.customerId`, `LaundryOrder.orderId`, `Payment.orderId`, `Delivery.orderId` u `OrderTracking.orderId`). Comparten un Shared Kernel con los elementos base del dominio (`AggregateRoot`, `Repository`, `DomainEvent`, `Money` y `Currency`), la infraestructura común (`BaseApi`, `BaseEndpoint` y `BaseRepository`) y los componentes de presentación compartidos (`Layout`, `Sidebar`, `Topbar` y `LanguageSwitcher`). La integración con sistemas externos se aísla mediante una capa anticorrupción: en Laundry Operations, `ResourceMonitoringACL` traduce la telemetría del IoT Gateway al estado del recurso.
 #### 4.7.1. Class Diagrams
 
 A continuación se presenta primero la vista general de los Bounded Contexts y luego el diagrama de clases de cada uno.
@@ -3062,16 +3071,11 @@ A continuación se presenta primero la vista general de los Bounded Contexts y l
     <img src="assets/img/Chapter4/class-diagram-identity-access.png" alt="Class diagram Identity & Access" width="100%"/>
 </div>
 
-**Identity & Access Services Model**
+
+**Customer Management Bounded Context**
 
 <div align="center">
-    <img src="assets/img/Chapter4/class-diagram-iam-services.png" alt="Class diagram Identity & Access Services" width="100%"/>
-</div>
-
-**Customer & Business Management Bounded Context**
-
-<div align="center">
-    <img src="assets/img/Chapter4/class-diagram-customer-business-management.png" alt="Class diagram Customer & Business Management" width="100%"/>
+    <img src="assets/img/Chapter4/class-diagram-customer-management.png" alt="Class diagram Customer Management" width="100%"/>
 </div>
 
 **Order Management Bounded Context**
@@ -3086,16 +3090,34 @@ A continuación se presenta primero la vista general de los Bounded Contexts y l
     <img src="assets/img/Chapter4/class-diagram-laundry-operations.png" alt="Class diagram Laundry Operations" width="100%"/>
 </div>
 
-**Subscription & Payment Bounded Context**
+**Service Catalog Bounded Context**
 
 <div align="center">
-    <img src="assets/img/Chapter4/class-diagram-subscription-payment.png" alt="Class diagram Subscription & Payment" width="100%"/>
+    <img src="assets/img/Chapter4/class-diagram-service-catalog.png" alt="Class diagram Service Catalog" width="100%"/>
+</div>
+
+**Payments Bounded Context**
+
+<div align="center">
+    <img src="assets/img/Chapter4/class-diagram-payments.png" alt="Class diagram Payments" width="100%"/>
+</div>
+
+**Pickups & Deliveries Bounded Context**
+
+<div align="center">
+    <img src="assets/img/Chapter4/class-diagram-pickups-deliveries.png" alt="Class diagram Pickups & Deliveries" width="100%"/>
 </div>
 
 **Tracking & Notifications Bounded Context**
 
 <div align="center">
     <img src="assets/img/Chapter4/class-diagram-tracking-notifications.png" alt="Class diagram Tracking & Notifications" width="100%"/>
+</div>
+
+**Dashboard**
+
+<div align="center">
+    <img src="assets/img/Chapter4/class-diagram-dashboard.png" alt="Class diagram Dashboard" width="100%"/>
 </div>
 
 **Shared Kernel**
@@ -3106,7 +3128,7 @@ A continuación se presenta primero la vista general de los Bounded Contexts y l
 
 ### 4.8. Database Design
 
-WashTrack requiere persistir información de clientes, lavanderías, órdenes, prendas, procesos operativos, membresías, pagos, seguimiento y notificaciones.
+WashTrack requiere persistir información de clientes, lavanderías, órdenes, prendas, procesos operativos, catálogo de servicios, membresías, pagos, recojos y entregas, seguimiento y notificaciones.
 
 Se propone una base de datos relacional para organizar las relaciones entre las entidades principales, manteniendo la integridad referencial y reduciendo la redundancia de información.
 
@@ -3209,6 +3231,35 @@ erDiagram
         timestamp processed_at
     }
 
+    SERVICES {
+        varchar id PK
+        varchar name
+        varchar category
+        decimal base_price
+        int estimated_hours
+        boolean active
+        varchar order_service_type
+    }
+
+    GARMENTS {
+        varchar id PK
+        varchar name
+        varchar category
+        decimal base_price
+        int estimated_hours
+        boolean active
+    }
+
+    DELIVERIES {
+        uuid id PK
+        uuid order_id FK
+        varchar type
+        varchar address
+        varchar driver_name
+        varchar status
+        timestamp scheduled_at
+    }
+
     TRACKING {
         uuid id PK
         uuid order_id FK
@@ -3244,6 +3295,7 @@ erDiagram
     SUBSCRIPTION_PLANS ||--o{ SUBSCRIPTIONS : defines
     CUSTOMERS ||--o{ PAYMENTS : makes
     ORDERS ||--o{ PAYMENTS : has
+    ORDERS ||--o{ DELIVERIES : schedules
     ORDERS ||--o| TRACKING : has
     TRACKING ||--o{ STATUS_HISTORY : contains
     USERS ||--o{ NOTIFICATIONS : receives
@@ -3255,11 +3307,14 @@ erDiagram
 | Bounded Context | Tablas principales |
 |---|---|
 | Identity & Access | `users` |
-| Customer & Business Management | `customers`, `laundries` |
+| Customer Management | `customers` |
 | Order Management | `orders`, `garment_items` |
-| Laundry Operations | `laundry_orders`, `washing_cycles`, `laundry_resources` |
-| Subscription & Payment | `subscription_plans`, `subscriptions`, `payments` |
+| Laundry Operations | `laundry_orders`, `washing_cycles`, `laundry_resources`, `laundries` |
+| Service Catalog | `services`, `garments` |
+| Payments | `payments`, `subscription_plans`, `subscriptions` |
+| Pickups & Deliveries | `deliveries` |
 | Tracking & Notifications | `tracking`, `status_history`, `notifications` |
+| Dashboard | Sin tablas propias (consulta `orders`, `payments` y `customers`) |
 
 #### 4.8.2. Database Normalization
 

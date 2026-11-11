@@ -4747,6 +4747,12 @@ Para alcanzar este objetivo, el equipo orientará sus actividades al desarrollo 
 
 De esta manera, el Sprint 3 permitirá avanzar desde una aplicación que representa visualmente las funcionalidades del sistema hacia una solución que procese y almacene información mediante servicios backend propios. También se considerará la documentación de los endpoints mediante Swagger/OpenAPI, la ejecución de pruebas y el despliegue de una primera versión de los Web Services.
 
+##### 5.2.3.1. Spring Planning 3
+
+El <b>Sprint Planning 3</b> tuvo como finalidad establecer el objetivo del tercer Sprint, orientando las actividades del equipo DevTech hacia la implementación de los servicios backend y la persistencia de datos para el proyecto <b>WashTrack</b>.
+
+A diferencia del Sprint 2, centrado en el desarrollo de la interfaz de usuario frontend y la simulación de servicios con JSON Server, el Sprint 3 se enfoca en construir y conectar una API REST propia desarrollada en ASP.NET Core y Entity Framework Core, garantizando la persistencia en la base de datos relacional y la <b>seguridad en los bounded contexts definidos.</b>
+
 
 ### 5.3. Validation Interviews
 

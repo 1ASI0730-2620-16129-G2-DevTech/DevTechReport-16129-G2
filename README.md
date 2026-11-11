@@ -4779,6 +4779,24 @@ Para orientar el desarrollo de la API REST y la integración del backend, se tom
 | **Subscription & Payment** | Implementar los servicios de lógica de negocio relacionados con los planes de suscripción, procesamiento de pagos y transacciones. |
 | **Tracking & Notifications** | Proveer los servicios y la conectividad para el seguimiento del estado de los pedidos y la emisión de notificaciones sobre su progreso. |
 
+#### User Stories seleccionadas
+
+Para el Sprint 3, el desarrollo del frontend de muestra de WashTrack se organizó tomando como referencia las User Stories de los Epic relacionados con los *bounded contexts* seleccionados para la plataforma: EP-001 – Seguimiento y comunicación, EP-002 – Logística y entregas, EP-003 – Gestión de pedidos y trazabilidad, EP-004 – Gestión de clientes, incidencias y satisfacción, EP-005 – Servicios, pagos y suscripciones, y EP-006 – Administración, reportes y monitoreo.
+
+Las siguientes User Stories se relacionan con las principales áreas representadas en el frontend:
+
+| User Story ID | User Story | Propósito dentro del Sprint |
+| :--- | :--- | :--- |
+| **US-027** | Visualización de bitácora de estados en tiempo real | Representar la línea de tiempo interactiva y la transparencia del progreso de las prendas en el taller. |
+| **US-028** | Historial de notificaciones en la interfaz web | Mostrar el buzón o centro de avisos y alertas pasadas para el cliente dentro de la plataforma. |
+| **US-029** | Gestión de rutas y asignación de repartidores | Representar la asignación de pedidos de recojo y entrega a domicilio por parte del administrador o lavandería. |
+| **US-030** | Registro de observaciones y estado físico inicial de las prendas | Mostrar el detalle y notas particulares sobre el estado físico de las prendas al momento de la recepción. |
+| **US-031** | Historial de interacciones y notas de atención al cliente | Representar el registro unificado de comunicaciones y notas asociadas a la atención de los clientes. |
+| **US-032** | Emisión y descarga de comprobantes de pago digitales | Mostrar la opción de visualización y descarga de recibos o comprobantes de pago en formato digital. |
+| **US-033** | Módulo de auditoría y registro de acciones del personal | Representar la bitácora de actividad y seguridad sobre las acciones críticas realizadas por el personal. |
+
+El objetivo del Sprint se encuentra enfocado en consolidar la experiencia visual y funcional de la plataforma TechNova, permitiendo integrar las nuevas capacidades operativas y de gestión de WashTrack con base en los requerimientos del proyecto.
+
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas

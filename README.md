@@ -4760,7 +4760,7 @@ A diferencia del Sprint 2, centrado en el desarrollo de la interfaz de usuario f
 | **Sprint #** | Sprint 3 |
 | **Date** | 27/10/2026 |
 | **Prepared By** | Pérez Vásquez, Ariana Valeria |
-| **Attendees** | Ramos Fuentes Rivera, Adriana Nicole / Ramirez Gutierrez, Gabriel / Ramos Fuentes Rivera, Adriana Nicole / Sayago Vidal, Sebastián Leonardo / Tufiño Argüelles, Luis Angel |
+| **Attendees** | Ramos Fuentes Rivera, Adriana Nicole / Ramirez Gutierrez, Gabriel / Ramos Fuentes Rivera, Adriana Nicole / Tufiño Argüelles, Luis Angel |
 | **Sprint 2 Review Summary** | Durante el Sprint 2, el equipo desarrolló y desplegó con éxito la primera versión del frontend de muestra de WashTrack, organizando su interfaz en áreas funcionales (IAM, Customer & Business, Order Management, Laundry Operations, Subscription & Payment, y Tracking & Notifications) empleando Vue.js y JSON Server para la simulación de servicios. |
 | **Sprint 2 Retrospective Summary** | A partir del trabajo realizado en el Sprint 2, se identificó la necesidad de transicionar de los datos simulados hacia una API REST real con persistencia en base de datos. Para este nuevo sprint, se prioriza la construcción del backend en C# con ASP.NET Core y Entity Framework Core, asegurando la integración modular de los bounded contexts. |
 | **Sprint 3 Goal** | Desarrollar y desplegar la API RESTful de WashTrack utilizando ASP.NET Core y Entity Framework Core, conectando los bounded contexts principales con la base de datos relacional y migrando el frontend para consumir los servicios backend reales, garantizando la persistencia, la seguridad en la gestión de accesos (IAM) y la documentación con Swagger/OpenAPI. |
@@ -4802,6 +4802,15 @@ El objetivo del Sprint se encuentra enfocado en consolidar la experiencia visual
 Para organizar el desarrollo del Sprint 3, el equipo distribuyó responsabilidades según los diferentes aspectos necesarios para implementar y validar las nuevas funcionalidades del sistema. La asignación de un **Aspect Leader** representa al integrante que concentra la responsabilidad de coordinar o desarrollar principalmente dicho aspecto, mientras que los **Collaborators** brindan apoyo en las actividades relacionadas.
 
 Esta distribución no representa una jerarquía dentro del equipo, sino una forma de organizar el trabajo y facilitar la coordinación de las actividades del Sprint.
+
+| Aspecto | Aspect Leader | Collaborators | Actividades principales |
+| :--- | :--- | :--- | :--- |
+| **Order Management** | Pérez Vásquez, Ariana Valeria | Ramos Fuentes Rivera, Adriana / Ramirez Gutierrez, Gabriel / Tufiño Argüelles, Luis | Diseño, estructuración y desarrollo de los flujos e interfaz de gestión de pedidos en la plataforma. |
+| **Laundry Operations y Customer Management** | Ramirez Gutierrez, Gabriel | Pérez Vásquez, Ariana Valeria / Ramos Fuentes Rivera, Adriana / Tufiño Argüelles, Luis | Implementación de los módulos de control de operaciones en el taller y administración de perfiles de clientes. |
+| **Pickups & Deliveries** | Ramos Fuentes Rivera, Adriana | Pérez Vásquez, Ariana Valeria / Ramirez Gutierrez, Gabriel / Tufiño Argüelles, Luis | Desarrollo de las vistas de logística de recojo/entregas a domicilio y el sistema de avisos y notificaciones. |
+| **Payment y Catalog** | Tufiño Argüelles, Luis Angel | Pérez Vásquez, Ariana Valeria / Ramirez Gutierrez, Gabriel / Ramos Fuentes Rivera, Adriana | Implementación de los catálogos de servicios y la interfaz para el procesamiento de pagos digitales. |
+
+La distribución permitió que los integrantes colaboraran de manera coordinada en las distintas áreas del Sprint, asegurando la integración fluida de los módulos definidos para esta etapa del proyecto WashTrack.
 
 ### 5.3. Validation Interviews
 

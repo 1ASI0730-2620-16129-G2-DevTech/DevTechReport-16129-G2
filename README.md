@@ -337,6 +337,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Desarrollé la Information Architecture, la Landing Page UI, elaborando el wireframe y mock-up de la página principal de WashTrack, considerando la distribución de los elementos, jerarquía visual, navegación y presentación de la propuesta de valor del producto.<br>
         <em><b>TB1</b></em><br>
         Participé en el desarrollo de la primera versión del Frontend Web Application para el Sprint 2, asumiendo la responsabilidad principal del módulo de Order Management que es la creación, consulta y organización de pedidos, asegurando la correcta integración de las vistas y componentes alineados con las User Stories y los bounded contexts del proyecto WashTrack.<br>
+        <em><b>AV2</b></em><br>
+       Participé en el desarrollo y planificación del Sprint 3 para WashTrack, liderando como Aspect Leader el módulo de <b>Order Management</b>. Me encargué del diseño, estructuración y desarrollo de los flujos e interfaz de gestión de pedidos en la plataforma, coordinando con el equipo de TechNova la correcta integración de las vistas, la asignación de responsabilidades y la consistencia visual y funcional del sistema conforme a los requerimientos del curso.<br>
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
@@ -362,6 +364,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td>
         <b>AV1</b><br>
         <p>En conclusión, logramos ejercer un liderazgo conjunto y transversal a lo largo de todas las fases del proyecto, desde la asignación estratégica de roles iniciales y la facilitación compartida del Lean UX Process, Needfinding y Big Picture EventStorming (Capítulos I y II), hasta la toma de decisiones técnicas para el Product Backlog, arquitectura DDD y diseño de bases de datos (Capítulos III y IV). Asimismo, asumimos de forma colaborativa la dirección de los Sprints y la asignación de líderes por aspectos en la fase de implementación (Capítulo V), demostrando una capacidad constante para orientar al grupo hacia el cumplimiento de cada hito técnico y estratégico del proyecto.</p>
+        <b>TB1</b><br>
+        <p>El equipo consolidó una estructura colaborativa sólida durante el desarrollo de la primera versión del frontend de WashTrack. Cada integrante asumió el liderazgo de un módulo específico (Order Management, Laundry Operations, etc.), asegurando que los componentes respondieran de manera integrada a las User Stories y a los requerimientos del proyecto.</p>
+        <b>AV2</b><br>
+        <p>En el AV2, reforzamos el liderazgo compartido mediante la planificación del Sprint 3 y la redistribución eficiente de roles dentro de TechNova. Gracias a la asignación de *Aspect Leaders* por cada módulo, coordinamos con éxito las vistas y flujos del sistema, garantizando la consistencia técnica, visual y funcional de la plataforma.</p>
       </td>
     </tr>
     <tr>
@@ -373,6 +379,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Desarrollé las secciones asignadas del Capítulo IV, relacionadas con Style Guidelines, Information Architecture y Landing Page UI Design, coordinando con los integrantes del equipo para mantener la coherencia del proyecto y cumplir con las actividades planificadas.<br>
         <em><b>TB1</b></em><br>
         Gestioné y ajusté el Product Backlog del proyecto, estructurando un total de 38 historias de usuario actualizadas para la fase de desarrollo web. Asimismo, participé en la planificación del Sprint 2, estableciendo las metas, los bounded contexts y organizando las tareas de integración visual para el equipo TechNova<br>
+        <em><b>AV2</b></em><br>
+        Participé activamente en la planificación y gestión de tareas para el Sprint 3 de WashTrack, colaborando en la organización de los aspectos técnicos del equipo y asumiendo el rol de Aspect Leader en el módulo de Order Management. Contribuí a mantener un entorno de trabajo colaborativo e inclusivo, asegurando el cumplimiento oportuno de los objetivos de diseño y desarrollo frontend establecidos para esta etapa del proyecto.<br>
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
@@ -397,6 +405,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td>
         <b>AV1</b><br>
         <p>En conclusión, consolidamos un entorno de trabajo altamente colaborativo e inclusivo al integrar las opiniones e ideas de todos los integrantes durante las dinámicas de brainstorming, diseño UX/UI y definición de requisitos (Capítulos I al IV). Además, demostramos rigurosidad en el establecimiento de metas y planificación de tareas al gestionar de forma ordenada el Sprint Backlog, los entornos de desarrollo, la documentación de servicios y las revisiones de código y despliegue (Capítulo V), lo que nos permitió alcanzar con éxito los objetivos de software y entregar un producto funcional dentro de los plazos establecidos.</p>
+        <b>TB1</b><br>
+        <p>Durante el TB1, establecimos metas claras y planificamos de forma organizada las tareas orientadas al desarrollo de las User Stories del Sprint 2. Esto fomentó una comunicación abierta y un ambiente inclusivo en el equipo, logrando cumplir puntualmente con los objetivos de integración del frontend.</p>
+        <b>AV2</b><br>
+        <p>En el AV2, la gestión del Sprint 3 permitió mantener un entorno de trabajo colaborativo e inclusivo para los cuatro integrantes del equipo. Mediante una planificación estructurada y el desarrollo en paralelo de la documentación y la implementación, logramos cumplir con los objetivos establecidos para esta etapa del proyecto WashTrack.</p>
       </td>
     </tr>
   </tbody>

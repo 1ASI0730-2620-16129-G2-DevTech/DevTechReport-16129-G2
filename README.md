@@ -4739,6 +4739,79 @@ Durante el Sprint 2, los cinco integrantes desarrollaron en paralelo los módulo
 </p>
 <p align="center"><i>Parte 3 de 3. En conjunto, las capturas muestran el flujo de ramas y merges del repositorio.</i></p>
 
+#### 5.2.3. Sprint 3
+
+El Sprint 3 representa una nueva etapa en el desarrollo de WashTrack, <b>enfocada en la implementación de los servicios Backend</b> que permitirán convertir la interfaz desarrollada durante el Sprint 2 en una aplicación web funcional e integrada. Durante el Sprint anterior se construyó el frontend utilizando Vue 3 y se empleó JSON Server para simular las operaciones de los servicios REST. Por ello, en esta nueva iteración se busca reemplazar progresivamente dicha simulación mediante una API REST propia.
+
+Para alcanzar este objetivo, el equipo orientará sus actividades al desarrollo de los Web Services utilizando ASP.NET Core y Entity Framework Core, considerando los bounded contexts definidos en la arquitectura de WashTrack. Asimismo, se trabajará en la conexión con la base de datos, la implementación de las operaciones necesarias para gestionar la información del negocio y la integración de los endpoints con el frontend existente.
+
+De esta manera, el Sprint 3 permitirá avanzar desde una aplicación que representa visualmente las funcionalidades del sistema hacia una solución que procese y almacene información mediante servicios backend propios. También se considerará la documentación de los endpoints mediante Swagger/OpenAPI, la ejecución de pruebas y el despliegue de una primera versión de los Web Services.
+
+##### 5.2.3.1. Spring Planning 3
+
+El <b>Sprint Planning 3</b> tuvo como finalidad establecer el objetivo del tercer Sprint, orientando las actividades del equipo DevTech hacia la implementación de los servicios backend y la persistencia de datos para el proyecto <b>WashTrack</b>.
+
+A diferencia del Sprint 2, centrado en el desarrollo de la interfaz de usuario frontend y la simulación de servicios con JSON Server, el Sprint 3 se enfoca en construir y conectar una API REST propia desarrollada en ASP.NET Core y Entity Framework Core, garantizando la persistencia en la base de datos relacional y la <b>seguridad en los bounded contexts definidos.</b>
+
+#### Resumen del Sprint Planning Meeting
+
+| Elemento | Información |
+| :--- | :--- |
+| **Sprint #** | Sprint 3 |
+| **Date** | 27/10/2026 |
+| **Prepared By** | Pérez Vásquez, Ariana Valeria |
+| **Attendees** | Ramos Fuentes Rivera, Adriana Nicole / Ramirez Gutierrez, Gabriel / Ramos Fuentes Rivera, Adriana Nicole / Tufiño Argüelles, Luis Angel |
+| **Sprint 2 Review Summary** | Durante el Sprint 2, el equipo desarrolló y desplegó con éxito la primera versión del frontend de muestra de WashTrack, organizando su interfaz en áreas funcionales (IAM, Customer & Business, Order Management, Laundry Operations, Subscription & Payment, y Tracking & Notifications) empleando Vue.js y JSON Server para la simulación de servicios. |
+| **Sprint 2 Retrospective Summary** | A partir del trabajo realizado en el Sprint 2, se identificó la necesidad de transicionar de los datos simulados hacia una API REST real con persistencia en base de datos. Para este nuevo sprint, se prioriza la construcción del backend en C# con ASP.NET Core y Entity Framework Core, asegurando la integración modular de los bounded contexts. |
+| **Sprint 3 Goal** | Desarrollar y desplegar la API RESTful de WashTrack utilizando ASP.NET Core y Entity Framework Core, conectando los bounded contexts principales con la base de datos relacional y migrando el frontend para consumir los servicios backend reales, garantizando la persistencia, la seguridad en la gestión de accesos (IAM) y la documentación con Swagger/OpenAPI. |
+| **Sprint 3 Velocity** | 34 Story Points |
+| **Sum of Story Points** |  34 Story Points|
+
+### Bounded contexts considerados para el Sprint 3
+
+Para orientar el desarrollo de la API REST y la integración del backend, se tomaron como referencia los siguientes *bounded contexts* y sus respectivas responsabilidades en los servicios de la plataforma:
+
+| Bounded Context | Propósito dentro del backend y la API |
+| :--- | :--- |
+| **IAM and Customer & Business** | Implementar los servicios de autenticación, control de acceso, gestión de identidad y administración de clientes y negocios de lavandería. |
+| **Order Management** | Proveer los endpoints y la lógica de negocio para la creación, consulta, actualización y organización de pedidos. |
+| **Laundry Operations** | Gestionar las operaciones de lavandería, el procesamiento de prendas y el registro de los servicios solicitados mediante los controladores y repositorios en Entity Framework Core. |
+| **Subscription & Payment** | Implementar los servicios de lógica de negocio relacionados con los planes de suscripción, procesamiento de pagos y transacciones. |
+| **Tracking & Notifications** | Proveer los servicios y la conectividad para el seguimiento del estado de los pedidos y la emisión de notificaciones sobre su progreso. |
+
+#### User Stories seleccionadas
+
+Para el Sprint 3, el desarrollo del frontend de muestra de WashTrack se organizó tomando como referencia las User Stories de los Epic relacionados con los *bounded contexts* seleccionados para la plataforma: EP-001 – Seguimiento y comunicación, EP-002 – Logística y entregas, EP-003 – Gestión de pedidos y trazabilidad, EP-004 – Gestión de clientes, incidencias y satisfacción, EP-005 – Servicios, pagos y suscripciones, y EP-006 – Administración, reportes y monitoreo.
+
+Las siguientes User Stories se relacionan con las principales áreas representadas en el frontend:
+
+| User Story ID | User Story | Propósito dentro del Sprint |
+| :--- | :--- | :--- |
+| **US-027** | Visualización de bitácora de estados en tiempo real | Representar la línea de tiempo interactiva y la transparencia del progreso de las prendas en el taller. |
+| **US-028** | Historial de notificaciones en la interfaz web | Mostrar el buzón o centro de avisos y alertas pasadas para el cliente dentro de la plataforma. |
+| **US-029** | Gestión de rutas y asignación de repartidores | Representar la asignación de pedidos de recojo y entrega a domicilio por parte del administrador o lavandería. |
+| **US-030** | Registro de observaciones y estado físico inicial de las prendas | Mostrar el detalle y notas particulares sobre el estado físico de las prendas al momento de la recepción. |
+| **US-031** | Historial de interacciones y notas de atención al cliente | Representar el registro unificado de comunicaciones y notas asociadas a la atención de los clientes. |
+| **US-032** | Emisión y descarga de comprobantes de pago digitales | Mostrar la opción de visualización y descarga de recibos o comprobantes de pago en formato digital. |
+| **US-033** | Módulo de auditoría y registro de acciones del personal | Representar la bitácora de actividad y seguridad sobre las acciones críticas realizadas por el personal. |
+
+El objetivo del Sprint se encuentra enfocado en consolidar la experiencia visual y funcional de la plataforma TechNova, permitiendo integrar las nuevas capacidades operativas y de gestión de WashTrack con base en los requerimientos del proyecto.
+
+##### 5.2.3.2. Aspect Leaders and Collaborators
+
+Para organizar el desarrollo del Sprint 3, el equipo distribuyó responsabilidades según los diferentes aspectos necesarios para implementar y validar las nuevas funcionalidades del sistema. La asignación de un **Aspect Leader** representa al integrante que concentra la responsabilidad de coordinar o desarrollar principalmente dicho aspecto, mientras que los **Collaborators** brindan apoyo en las actividades relacionadas.
+
+Esta distribución no representa una jerarquía dentro del equipo, sino una forma de organizar el trabajo y facilitar la coordinación de las actividades del Sprint.
+
+| Aspecto | Aspect Leader | Collaborators | Actividades principales |
+| :--- | :--- | :--- | :--- |
+| **Order Management** | Pérez Vásquez, Ariana Valeria | Ramos Fuentes Rivera, Adriana / Ramirez Gutierrez, Gabriel / Tufiño Argüelles, Luis | Diseño, estructuración y desarrollo de los flujos e interfaz de gestión de pedidos en la plataforma. |
+| **Laundry Operations y Customer Management** | Ramirez Gutierrez, Gabriel | Pérez Vásquez, Ariana Valeria / Ramos Fuentes Rivera, Adriana / Tufiño Argüelles, Luis | Implementación de los módulos de control de operaciones en el taller y administración de perfiles de clientes. |
+| **Pickups & Deliveries** | Ramos Fuentes Rivera, Adriana | Pérez Vásquez, Ariana Valeria / Ramirez Gutierrez, Gabriel / Tufiño Argüelles, Luis | Desarrollo de las vistas de logística de recojo/entregas a domicilio y el sistema de avisos y notificaciones. |
+| **Payment y Catalog** | Tufiño Argüelles, Luis Angel | Pérez Vásquez, Ariana Valeria / Ramirez Gutierrez, Gabriel / Ramos Fuentes Rivera, Adriana | Implementación de los catálogos de servicios y la interfaz para el procesamiento de pagos digitales. |
+
+La distribución permitió que los integrantes colaboraran de manera coordinada en las distintas áreas del Sprint, asegurando la integración fluida de los módulos definidos para esta etapa del proyecto WashTrack.
+
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas

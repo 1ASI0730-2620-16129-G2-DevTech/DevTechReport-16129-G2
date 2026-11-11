@@ -4767,7 +4767,17 @@ A diferencia del Sprint 2, centrado en el desarrollo de la interfaz de usuario f
 | **Sprint 3 Velocity** | 34 Story Points |
 | **Sum of Story Points** |  34 Story Points|
 
+### Bounded contexts considerados para el Sprint 3
 
+Para orientar el desarrollo de la API REST y la integración del backend, se tomaron como referencia los siguientes *bounded contexts* y sus respectivas responsabilidades en los servicios de la plataforma:
+
+| Bounded Context | Propósito dentro del backend y la API |
+| :--- | :--- |
+| **IAM and Customer & Business** | Implementar los servicios de autenticación, control de acceso, gestión de identidad y administración de clientes y negocios de lavandería. |
+| **Order Management** | Proveer los endpoints y la lógica de negocio para la creación, consulta, actualización y organización de pedidos. |
+| **Laundry Operations** | Gestionar las operaciones de lavandería, el procesamiento de prendas y el registro de los servicios solicitados mediante los controladores y repositorios en Entity Framework Core. |
+| **Subscription & Payment** | Implementar los servicios de lógica de negocio relacionados con los planes de suscripción, procesamiento de pagos y transacciones. |
+| **Tracking & Notifications** | Proveer los servicios y la conectividad para el seguimiento del estado de los pedidos y la emisión de notificaciones sobre su progreso. |
 
 ### 5.3. Validation Interviews
 

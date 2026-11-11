@@ -4739,6 +4739,15 @@ Durante el Sprint 2, los cinco integrantes desarrollaron en paralelo los módulo
 </p>
 <p align="center"><i>Parte 3 de 3. En conjunto, las capturas muestran el flujo de ramas y merges del repositorio.</i></p>
 
+#### 5.2.3. Sprint 3
+
+El Sprint 3 representa una nueva etapa en el desarrollo de WashTrack, <b>enfocada en la implementación de los servicios Backend</b> que permitirán convertir la interfaz desarrollada durante el Sprint 2 en una aplicación web funcional e integrada. Durante el Sprint anterior se construyó el frontend utilizando Vue 3 y se empleó JSON Server para simular las operaciones de los servicios REST. Por ello, en esta nueva iteración se busca reemplazar progresivamente dicha simulación mediante una API REST propia.
+
+Para alcanzar este objetivo, el equipo orientará sus actividades al desarrollo de los Web Services utilizando ASP.NET Core y Entity Framework Core, considerando los bounded contexts definidos en la arquitectura de WashTrack. Asimismo, se trabajará en la conexión con la base de datos, la implementación de las operaciones necesarias para gestionar la información del negocio y la integración de los endpoints con el frontend existente.
+
+De esta manera, el Sprint 3 permitirá avanzar desde una aplicación que representa visualmente las funcionalidades del sistema hacia una solución que procese y almacene información mediante servicios backend propios. También se considerará la documentación de los endpoints mediante Swagger/OpenAPI, la ejecución de pruebas y el despliegue de una primera versión de los Web Services.
+
+
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas

@@ -4753,6 +4753,21 @@ El <b>Sprint Planning 3</b> tuvo como finalidad establecer el objetivo del terce
 
 A diferencia del Sprint 2, centrado en el desarrollo de la interfaz de usuario frontend y la simulación de servicios con JSON Server, el Sprint 3 se enfoca en construir y conectar una API REST propia desarrollada en ASP.NET Core y Entity Framework Core, garantizando la persistencia en la base de datos relacional y la <b>seguridad en los bounded contexts definidos.</b>
 
+#### Resumen del Sprint Planning Meeting
+
+| Elemento | Información |
+| :--- | :--- |
+| **Sprint #** | Sprint 3 |
+| **Date** | 27/10/2026 |
+| **Prepared By** | Pérez Vásquez, Ariana Valeria |
+| **Attendees** | Ramos Fuentes Rivera, Adriana Nicole / Ramirez Gutierrez, Gabriel / Ramos Fuentes Rivera, Adriana Nicole / Sayago Vidal, Sebastián Leonardo / Tufiño Argüelles, Luis Angel |
+| **Sprint 2 Review Summary** | Durante el Sprint 2, el equipo desarrolló y desplegó con éxito la primera versión del frontend de muestra de WashTrack, organizando su interfaz en áreas funcionales (IAM, Customer & Business, Order Management, Laundry Operations, Subscription & Payment, y Tracking & Notifications) empleando Vue.js y JSON Server para la simulación de servicios. |
+| **Sprint 2 Retrospective Summary** | A partir del trabajo realizado en el Sprint 2, se identificó la necesidad de transicionar de los datos simulados hacia una API REST real con persistencia en base de datos. Para este nuevo sprint, se prioriza la construcción del backend en C# con ASP.NET Core y Entity Framework Core, asegurando la integración modular de los bounded contexts. |
+| **Sprint 3 Goal** | Desarrollar y desplegar la API RESTful de WashTrack utilizando ASP.NET Core y Entity Framework Core, conectando los bounded contexts principales con la base de datos relacional y migrando el frontend para consumir los servicios backend reales, garantizando la persistencia, la seguridad en la gestión de accesos (IAM) y la documentación con Swagger/OpenAPI. |
+| **Sprint 3 Velocity** | 34 Story Points |
+| **Sum of Story Points** |  34 Story Points|
+
+
 
 ### 5.3. Validation Interviews
 

@@ -4797,6 +4797,12 @@ Las siguientes User Stories se relacionan con las principales áreas representad
 
 El objetivo del Sprint se encuentra enfocado en consolidar la experiencia visual y funcional de la plataforma TechNova, permitiendo integrar las nuevas capacidades operativas y de gestión de WashTrack con base en los requerimientos del proyecto.
 
+##### 5.2.3.2. Aspect Leaders and Collaborators
+
+Para organizar el desarrollo del Sprint 3, el equipo distribuyó responsabilidades según los diferentes aspectos necesarios para implementar y validar las nuevas funcionalidades del sistema. La asignación de un **Aspect Leader** representa al integrante que concentra la responsabilidad de coordinar o desarrollar principalmente dicho aspecto, mientras que los **Collaborators** brindan apoyo en las actividades relacionadas.
+
+Esta distribución no representa una jerarquía dentro del equipo, sino una forma de organizar el trabajo y facilitar la coordinación de las actividades del Sprint.
+
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas

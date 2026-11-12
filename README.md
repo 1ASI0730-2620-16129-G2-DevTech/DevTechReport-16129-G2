@@ -4836,6 +4836,77 @@ La distribución permitió que los integrantes colaboraran de manera coordinada 
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas
+
+<p align="justify">
+En esta sección se definen, para cada segmento objetivo, los elementos que forman parte de la sesión de validación: la Landing Page, la aplicación web de WashTrack y los user flows que el entrevistado realizará durante la sesión.
+</p>
+
+
+**1. Primer Segmento: Propietarios de lavanderías independientes**
+
+**Criterios de Evaluación:**
+
+* Evaluar si el usuario comprende la propuesta de valor de WashTrack a partir de la Landing Page, en especial la centralización de la gestión de pedidos y el seguimiento de las entregas.
+* Evaluar si el usuario puede navegar por la aplicación web con facilidad: familiarización con el Dashboard y el sidebar de navegación.
+* Medir el tiempo que toma al usuario registrar un nuevo pedido, desde la selección del cliente hasta la confirmación del registro.
+* Evaluar si el usuario puede filtrar los pedidos por estado desde la Lista de Pedidos sin necesidad de revisar la tabla fila por fila.
+* Evaluar si el usuario puede identificar y acceder a la sección de Recojos y Entregas, y comprender la información del Seguimiento de Entrega (mapa, ruta, etapa y tiempo estimado de llegada).
+
+**Se considerarán los siguientes User Flows:**
+
+* User Flow 1: Registrar un nuevo pedido.
+* User Flow 2: Consultar el estado de un pedido.
+* User Flow 3: Monitorear el envío de ropa al domicilio del cliente.
+
+<p align="justify">
+Los User Flows propuestos corresponden a las funcionalidades core de la aplicación web para el rol de propietario de lavandería. Abarcan el ciclo principal de un pedido, desde su registro en el sistema y la consulta de su estado hasta el monitoreo de su entrega en el domicilio del cliente.
+</p>
+
+**Preguntas:**
+
+1. Al revisar la landing page, ¿qué entiendes que WashTrack puede hacer por tu lavandería?
+2. ¿La información presentada responde a los problemas que hoy tienes en tu negocio? ¿Qué agregarías o quitarías?
+3. Después de ver la página, ¿qué tan interesado(a) estarías en probar la aplicación con tu lavandería? ¿Qué te motivaría o te haría dudar?
+4. Comparado con tu forma actual de trabajar, ¿qué te pareció registrar un pedido en la aplicación? ¿Te ahorraría tiempo o te agregaría pasos?
+5. ¿Qué tan fácil te resultó encontrar los pedidos según su estado?
+6. ¿Qué funcionalidad te gustó más y por qué?
+7. ¿Qué funcionalidad te gustó menos y por qué?
+8. ¿Qué mejorarías de esa funcionalidad para que realmente la uses en tu negocio?
+
+<br>
+
+**2. Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
+
+**Criterios de Evaluación:**
+
+* Evaluar si el usuario comprende la propuesta de valor de WashTrack a partir de la Landing Page, en especial la solicitud digital de pedidos y el seguimiento de sus prendas.
+* Evaluar si el usuario puede navegar por la aplicación web con facilidad: familiarización con la pantalla principal y la sección "Mis pedidos".
+* Medir el tiempo que toma al usuario solicitar un nuevo pedido, desde la selección del servicio y la cantidad de prendas hasta la confirmación.
+* Evaluar si el usuario puede seleccionar la fecha y el tipo de entrega (en local o a domicilio) sin ambigüedades.
+* Evaluar si el usuario puede ubicar su pedido activo desde "Mis pedidos" y comprender su estado actual (por ejemplo, "En proceso", "Listo para entrega") junto con la fecha estimada de entrega.
+* Evaluar si el usuario percibe que la aplicación le evita tener que llamar o escribir a la lavandería para conocer el estado de sus prendas.
+
+**Se considerarán los siguientes User Flows:**
+
+* User Flow 4: Solicitar un nuevo pedido de lavandería.
+* User Flow 5: Consultar el estado de su pedido sin llamar a la lavandería.
+
+<p align="justify">
+Los User Flows propuestos corresponden a las funcionalidades core de la aplicación web para el rol de cliente. Abarcan el ciclo completo del servicio desde la perspectiva del usuario final y desde la solicitud digital del pedido hasta la consulta de su estado, sin necesidad de comunicarse directamente con la lavandería.
+</p>
+
+**Preguntas:**
+
+1. Al ver la landing page por primera vez, ¿qué entiendes que ofrece WashTrack?
+2. ¿Qué información de la página te resultó más útil o atractiva? ¿Faltó algo que te gustaría saber antes de usar la aplicación?
+3. Según lo que viste, ¿qué tan dispuesto(a) estarías a probar la aplicación? ¿Por qué?
+4. ¿Cómo describirías tu experiencia al solicitar un pedido en la aplicación? ¿Te pareció más práctico que llamar o escribir a la lavandería?
+5. ¿La información que se muestra sobre el estado de tu pedido es suficiente? ¿Qué más te gustaría saber?
+6. ¿Qué tan útil te parece poder ver el estado de tu pedido y recibir notificaciones? ¿En qué situación concreta lo usarías?
+7. ¿Qué funcionalidad te gustó más y por qué?
+8. ¿Qué funcionalidad te gustó menos y por qué?
+9. ¿Qué cambiarías para mejorar esa funcionalidad?
+
 #### 5.3.2. Registro de Entrevistas
 #### 5.3.3. Evaluaciones según heurísticas
 

@@ -4836,6 +4836,14 @@ La distribución permitió que los integrantes colaboraran de manera coordinada 
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas
+
+<p align="justify">
+En esta sección se definen, para cada segmento objetivo, los elementos que forman parte de la sesión de validación: la Landing Page, la aplicación web de WashTrack y los user flows que el entrevistado realizará durante la sesión.
+</p>
+
+
+
+
 #### 5.3.2. Registro de Entrevistas
 #### 5.3.3. Evaluaciones según heurísticas
 

@@ -4910,6 +4910,46 @@ Los User Flows propuestos corresponden a las funcionalidades core de la aplicaci
 #### 5.3.2. Registro de Entrevistas
 #### 5.3.3. Evaluaciones según heurísticas
 
+**UX Heuristics & Principles Evaluation**
+ 
+**Usability – Inclusive Design – Information Architecture**
+ 
+**CARRERA:** Ingeniería de Software
+**CURSO:** Aplicaciones Web
+**SECCIÓN:** 16129
+**PROFESORES:** Todos
+**AUDITOR:** FuelPoint
+**CLIENTE(S):** DevTech
+ 
+---
+*SITE o APP A EVALUAR*
+ 
+**WashTrack** – Aplicación web de gestión inteligente y monitoreo de lavanderías.
+
+---
+
+*TAREAS A EVALUAR*
+ 
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+---
+ 
+*ESCALA DE SEVERIDAD*
+ 
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+ 
+| Nivel | Descripción |
+|:---:|---|
+| **1** | **Problema superficial:** puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| **2** | **Problema menor:** puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| **3** | **Problema mayor:** ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta. |
+| **4** | **Problema muy grave:** un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+ 
+---
+
+
 ### 5.4. Video About-the-Product
 
 ---

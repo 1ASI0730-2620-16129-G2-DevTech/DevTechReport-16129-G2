@@ -4875,6 +4875,37 @@ Los User Flows propuestos corresponden a las funcionalidades core de la aplicaci
 
 <br>
 
+**2. Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
+
+**Criterios de Evaluación:**
+
+* Evaluar si el usuario comprende la propuesta de valor de WashTrack a partir de la Landing Page, en especial la solicitud digital de pedidos y el seguimiento de sus prendas.
+* Evaluar si el usuario puede navegar por la aplicación web con facilidad: familiarización con la pantalla principal y la sección "Mis pedidos".
+* Medir el tiempo que toma al usuario solicitar un nuevo pedido, desde la selección del servicio y la cantidad de prendas hasta la confirmación.
+* Evaluar si el usuario puede seleccionar la fecha y el tipo de entrega (en local o a domicilio) sin ambigüedades.
+* Evaluar si el usuario puede ubicar su pedido activo desde "Mis pedidos" y comprender su estado actual (por ejemplo, "En proceso", "Listo para entrega") junto con la fecha estimada de entrega.
+* Evaluar si el usuario percibe que la aplicación le evita tener que llamar o escribir a la lavandería para conocer el estado de sus prendas.
+
+**Se considerarán los siguientes User Flows:**
+
+* User Flow 4: Solicitar un nuevo pedido de lavandería.
+* User Flow 5: Consultar el estado de su pedido sin llamar a la lavandería.
+
+<p align="justify">
+Los User Flows propuestos corresponden a las funcionalidades core de la aplicación web para el rol de cliente. Abarcan el ciclo completo del servicio desde la perspectiva del usuario final y desde la solicitud digital del pedido hasta la consulta de su estado, sin necesidad de comunicarse directamente con la lavandería.
+</p>
+
+**Preguntas:**
+
+1. Al ver la landing page por primera vez, ¿qué entiendes que ofrece WashTrack?
+2. ¿Qué información de la página te resultó más útil o atractiva? ¿Faltó algo que te gustaría saber antes de usar la aplicación?
+3. Según lo que viste, ¿qué tan dispuesto(a) estarías a probar la aplicación? ¿Por qué?
+4. ¿Cómo describirías tu experiencia al solicitar un pedido en la aplicación? ¿Te pareció más práctico que llamar o escribir a la lavandería?
+5. ¿La información que se muestra sobre el estado de tu pedido es suficiente? ¿Qué más te gustaría saber?
+6. ¿Qué tan útil te parece poder ver el estado de tu pedido y recibir notificaciones? ¿En qué situación concreta lo usarías?
+7. ¿Qué funcionalidad te gustó más y por qué?
+8. ¿Qué funcionalidad te gustó menos y por qué?
+9. ¿Qué cambiarías para mejorar esa funcionalidad?
 
 #### 5.3.2. Registro de Entrevistas
 #### 5.3.3. Evaluaciones según heurísticas

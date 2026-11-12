@@ -4842,6 +4842,38 @@ En esta sección se definen, para cada segmento objetivo, los elementos que form
 </p>
 
 
+**1. Primer Segmento: Propietarios de lavanderías independientes**
+
+**Criterios de Evaluación:**
+
+* Evaluar si el usuario comprende la propuesta de valor de WashTrack a partir de la Landing Page, en especial la centralización de la gestión de pedidos y el seguimiento de las entregas.
+* Evaluar si el usuario puede navegar por la aplicación web con facilidad: familiarización con el Dashboard y el sidebar de navegación.
+* Medir el tiempo que toma al usuario registrar un nuevo pedido, desde la selección del cliente hasta la confirmación del registro.
+* Evaluar si el usuario puede filtrar los pedidos por estado desde la Lista de Pedidos sin necesidad de revisar la tabla fila por fila.
+* Evaluar si el usuario puede identificar y acceder a la sección de Recojos y Entregas, y comprender la información del Seguimiento de Entrega (mapa, ruta, etapa y tiempo estimado de llegada).
+
+**Se considerarán los siguientes User Flows:**
+
+* User Flow 1: Registrar un nuevo pedido.
+* User Flow 2: Consultar el estado de un pedido.
+* User Flow 3: Monitorear el envío de ropa al domicilio del cliente.
+
+<p align="justify">
+Los User Flows propuestos corresponden a las funcionalidades core de la aplicación web para el rol de propietario de lavandería. Abarcan el ciclo principal de un pedido, desde su registro en el sistema y la consulta de su estado hasta el monitoreo de su entrega en el domicilio del cliente.
+</p>
+
+**Preguntas:**
+
+1. Al revisar la landing page, ¿qué entiendes que WashTrack puede hacer por tu lavandería?
+2. ¿La información presentada responde a los problemas que hoy tienes en tu negocio? ¿Qué agregarías o quitarías?
+3. Después de ver la página, ¿qué tan interesado(a) estarías en probar la aplicación con tu lavandería? ¿Qué te motivaría o te haría dudar?
+4. Comparado con tu forma actual de trabajar, ¿qué te pareció registrar un pedido en la aplicación? ¿Te ahorraría tiempo o te agregaría pasos?
+5. ¿Qué tan fácil te resultó encontrar los pedidos según su estado?
+6. ¿Qué funcionalidad te gustó más y por qué?
+7. ¿Qué funcionalidad te gustó menos y por qué?
+8. ¿Qué mejorarías de esa funcionalidad para que realmente la uses en tu negocio?
+
+<br>
 
 
 #### 5.3.2. Registro de Entrevistas

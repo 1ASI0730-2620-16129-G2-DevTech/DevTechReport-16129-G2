@@ -4931,8 +4931,26 @@ Los User Flows propuestos corresponden a las funcionalidades core de la aplicaci
 *TAREAS A EVALUAR*
  
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+ 
+1. Registro de un usuario nuevo.
+2. Inicio de sesión y recuperación de contraseña.
+3. Navegación por el menú principal según el rol del usuario.
+4. Registro de un cliente de la lavandería.
+5. Creación de un pedido asociado a un cliente.
+6. Consulta del detalle de un pedido.
+7. Avance de un pedido en el tablero de producción.
+8. Consulta del detalle de un pago.
 
 No están incluidas en esta versión de la evaluación las siguientes tareas:
+ 
+1. Consulta del seguimiento de un pedido.
+2. Consulta de recojos y entregas.
+3. Registro de servicios y prendas en el catálogo.
+4. Consulta de recursos (máquinas) y ciclos de lavado.
+5. Lectura del Dashboard (indicadores, alertas y gráficos).
+6. Búsqueda global y cambio de idioma.
+7. Monitoreo IoT y gestión de alertas (módulos aún no implementados).
+8. Pago real mediante pasarela (Yape / tarjeta).
 
 ---
  

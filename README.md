@@ -4910,6 +4910,241 @@ Los User Flows propuestos corresponden a las funcionalidades core de la aplicaci
 #### 5.3.2. Registro de Entrevistas
 #### 5.3.3. Evaluaciones según heurísticas
 
+**UX Heuristics & Principles Evaluation**
+ 
+**Usability – Inclusive Design – Information Architecture**
+ 
+**CARRERA:** Ingeniería de Software
+**CURSO:** Aplicaciones Web
+**SECCIÓN:** 16129
+**PROFESORES:** Todos
+**AUDITOR:** FuelPoint
+**CLIENTE(S):** DevTech
+ 
+---
+*SITE o APP A EVALUAR*
+ 
+**WashTrack** – Aplicación web de gestión inteligente y monitoreo de lavanderías.
+
+---
+
+*TAREAS A EVALUAR*
+ 
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+ 
+1. Registro de un usuario nuevo.
+2. Inicio de sesión y recuperación de contraseña.
+3. Navegación por el menú principal según el rol del usuario.
+4. Registro de un cliente de la lavandería.
+5. Creación de un pedido asociado a un cliente.
+6. Consulta del detalle de un pedido.
+7. Avance de un pedido en el tablero de producción.
+8. Consulta del detalle de un pago.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+ 
+1. Consulta del seguimiento de un pedido.
+2. Consulta de recojos y entregas.
+3. Registro de servicios y prendas en el catálogo.
+4. Consulta de recursos (máquinas) y ciclos de lavado.
+5. Lectura del Dashboard (indicadores, alertas y gráficos).
+6. Búsqueda global y cambio de idioma.
+7. Monitoreo IoT y gestión de alertas (módulos aún no implementados).
+8. Pago real mediante pasarela (Yape / tarjeta).
+
+---
+ 
+*ESCALA DE SEVERIDAD*
+ 
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+ 
+| Nivel | Descripción |
+|:---:|---|
+| **1** | **Problema superficial:** puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| **2** | **Problema menor:** puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| **3** | **Problema mayor:** ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta. |
+| **4** | **Problema muy grave:** un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+ 
+---
+
+*TABLA RESUMEN*
+ 
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|:---:|---|:---:|---|
+| 1 | Cualquier persona puede registrarse con el rol "Administrador" | 3 | Usability: Prevención de errores |
+| 2 | La pantalla de recuperación de contraseña no muestra el botón para confirmar en producción | 4 | Information Architecture: Is it usable? |
+| 3 | El menú muestra los mismos módulos a todos los roles | 3 | Information Architecture: Is it findable? |
+| 4 | Un cliente registrado no se puede editar ni eliminar | 3 | Usability: Libertad y control del usuario |
+| 5 | Las fechas del pedido siempre se muestran en formato peruano, aunque la app esté en inglés | 1 | Inclusive Design: Ofrece opciones |
+| 6 | Avanzar un pedido en el tablero de producción es irreversible y no pide confirmación | 3 | Usability: Prevención de errores |
+| 7 | El detalle de un pago solo se abre con doble clic, sin ninguna indicación | 3 | Usability: Reconocer antes que recordar |
+ 
+---
+ 
+*DESCRIPCIÓN DE PROBLEMAS*
+ 
+**PROBLEMA #1: Cualquier persona puede registrarse con el rol "Administrador"**
+ 
+**Severidad:** 3
+**Heurística violada:** Usability – Prevención de errores
+ 
+**Problema:**
+En la pantalla de registro se puede elegir entre "Cliente" y "Administrador" con un solo clic. Un cliente puede escoger el rol de administrador por error (o a propósito) y obtener acceso a la gestión de toda la lavandería, sin que la aplicación lo valide ni lo advierta.
+ 
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/crear_cuenta_p1_cliente.png" alt="Creación de cuenta como cliente" width="500"/>
+  <br/><i>Creación de cuenta como cliente</i>
+</p>
+<br>
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/crear_cuenta_p1_lavanderia.png" alt="Creación de cuenta como administrador" width="500"/>
+  <br/><i>Creación de cuenta como administrador</i>
+</p>
+
+ 
+**Recomendación:**
+Que el registro público cree solo cuentas de cliente. Las cuentas de administración deberían crearse desde un módulo interno por el propietario, o requerir un código de invitación de la lavandería.
+ 
+---
+ 
+**PROBLEMA #2: La recuperación de contraseña no muestra el botón para confirmar en producción**
+ 
+**Severidad:** 4
+**Heurística violada:** Information Architecture – Is it usable?
+ 
+**Problema:**
+Desde el login el usuario puede entrar a "¿Olvidaste tu contraseña?", ingresar su correo y escribir dos veces la nueva contraseña. Sin embargo, el botón para enviar el formulario no aparece en la versión desplegada ya que el usuario llena todo y no tiene cómo confirmar, por lo que no puede recuperar el acceso a su cuenta.
+ 
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p2_restablecer_contraseña.png" alt="Restablecer la contraseña" width="500"/>
+  <br/><i>Restablecer la contraseña</i>
+</p>
+ 
+**Recomendación:**
+Mostrar siempre el botón "Restablecer contraseña". Si la funcionalidad no está lista para producción, ocultar el enlace desde el login. A futuro, enviar un código o enlace de verificación al correo antes de permitir el cambio.
+ 
+---
+ 
+**PROBLEMA #3: El menú muestra los mismos módulos a todos los roles**
+ 
+**Severidad:** 3
+**Heurística violada:** Information Architecture – Is it findable?
+ 
+**Problema:**
+Al iniciar sesión como "Cliente", el menú lateral muestra exactamente las mismas opciones que al administrador: Pedidos, Clientes, Operaciones de lavandería, Prendas, Servicios, Pagos, etc. El cliente no encuentra fácilmente lo que le interesa (el seguimiento de su propio pedido) entre opciones que no le corresponden, y además puede ver información de otros clientes.
+ 
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p3_pedidos.png" alt="Modulo de pedidos" width="500"/>
+  <br/><i>Módulo de pedidos (vista del cliente)</i>
+</p>
+<br>
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p3_clientes.png" alt="Modulo de clientes" width="500"/>
+  <br/><i>Módulo de clientes (vista del cliente)</i>
+</p>
+<br>
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p3_operaciones.png" alt="Modulo de operaciones de lavanderia" width="500"/>
+  <br/><i>Módulo de operaciones de lavanderia (vista del cliente)</i>
+</p>
+<br>
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p3_entrega.png" alt="Modulo de recojos y entregas" width="500"/>
+  <br/><i>Módulo de operaciones de recojos y entregas (vista del cliente)</i>
+</p>
+
+**Recomendación:**
+Filtrar las opciones del menú según el rol del usuario y proteger las rutas con el mismo criterio. Para el cliente, priorizar "Mis pedidos", "Seguimiento" y "Recojos y entregas".
+ 
+---
+ 
+**PROBLEMA #4: Un cliente registrado no se puede editar ni eliminar**
+ 
+**Severidad:** 3
+**Heurística violada:** Usability – Libertad y control del usuario
+ 
+**Problema:**
+En el módulo de Clientes solo existe el botón "Nuevo cliente". Si el encargado se equivoca al escribir el teléfono, el documento o la dirección, no hay forma de corregirlo ni de eliminar el registro duplicado o incorrecto. La historia de usuario US-005 indica que el perfil del cliente debe poder "consultarse y editarse posteriormente".
+ 
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p4_editar_clientes.png" alt="Modulo de clientes" width="500"/>
+  <br/><i>Módulo de clientes (vista del administrador)</i>
+</p>
+ 
+**Recomendación:**
+Agregar una columna de acciones (Editar / Eliminar) en cada fila, reutilizando el diálogo de registro en modo edición y pidiendo confirmación antes de eliminar.
+ 
+
+---
+ 
+**PROBLEMA #5: Las fechas del pedido siempre se muestran en formato peruano**
+
+**Severidad:** 1
+**Heurística violada:** Inclusive Design – Ofrece opciones
+ 
+**Problema:**
+La aplicación ofrece cambiar el idioma a inglés, pero las fechas de recepción y de entrega estimada del pedido siguen mostrándose en formato peruano (por ejemplo "12 Nov"), porque están fijadas en `es-PE` en el código. Además, el idioma elegido no se guarda y vuelve a español al recargar la página. Un usuario que prefiere el inglés recibe una experiencia a medias, aunque puede entender las fechas sin mayor dificultad.
+
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p5_pedidos_es.png" alt="Modulo de pedidos en español" width="500"/>
+  <br/><i>Módulo de pedidos (en español)</i>
+</p>
+<br>
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p5_pedidos_en.png" alt="Modulo de pedidos en ingles" width="500"/>
+  <br/><i>Módulo de pedidos (en ingles)</i>
+</p>
+
+**Recomendación:**
+Formatear las fechas con el idioma activo de la aplicación (el `locale` de vue-i18n) en lugar de `es-PE`, y guardar el idioma elegido en `localStorage` para que se mantenga al recargar.
+ 
+---
+ 
+**PROBLEMA #6: Avanzar un pedido en el tablero de producción es irreversible y no pide confirmación**
+ 
+
+**Severidad:** 3
+**Heurística violada:** Usability – Prevención de errores
+ 
+**Problema:**
+En el tablero de producción, los botones "Clasificar" y "Avanzar" de cada tarjeta cambian la etapa del pedido de inmediato. No se pide confirmación y no existe forma de regresar a la etapa anterior, por lo que un clic accidental deja el pedido en una etapa incorrecta (por ejemplo, "Empaquetado" cuando aún se está lavando), y esa información es la que luego ve el cliente.
+ 
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p6_avanzar_pedido.png" alt="Modulo de operaciones de lavanderia (pedido en lavado)" width="500"/>
+  <br/><i>Módulo de operaciones de lavanderia (pedido en lavado)</i>
+</p>
+<br>
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p6_pedido_avanzado.png" alt="Modulo de operaciones de lavanderia (pedido en secado/planchado)" width="500"/>
+  <br/><i>Módulo de operaciones de lavanderia (pedido en secado/planchado)</i>
+</p>
+ 
+**Recomendación:**
+Pedir confirmación antes de cambiar la etapa ("¿Avanzar el pedido #A1B2C3 a Lavado?") o mostrar un mensaje con la opción "Deshacer" durante unos segundos.
+ 
+---
+ 
+**PROBLEMA #7: El detalle de un pago solo se abre con doble clic**
+
+**Severidad:** 3
+**Heurística violada:** Usability – Reconocer antes que recordar
+ 
+**Problema:**
+En la tabla de Pagos, para ver el detalle hay que hacer doble clic sobre la fila. No hay ningún botón, ícono ni texto que lo indique, y en otras pantallas basta un solo clic o existe un botón "Ver". El usuario tiene que adivinar o recordar cómo abrir el detalle; en celulares el doble toque es todavía menos natural.
+ 
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p7_pagos.png" alt="Modulo de pagos" width="500"/>
+  <br/><i>Módulo de pagos</i>
+</p>
+<br>
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p7_pagos_qr.png" alt="Modulo de pagos despues del doble click en la fila" width="500"/>
+  <br/><i>Módulo de pagos despues del doble click en la fila</i>
+</p>
+
+**Recomendación:**
+Abrir el detalle con un solo clic y agregar un botón "Ver detalle" al final de cada fila, igual que en la pantalla de Seguimiento.
+
 ### 5.4. Video About-the-Product
 
 ---

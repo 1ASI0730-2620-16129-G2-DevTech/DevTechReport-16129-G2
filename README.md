@@ -4833,6 +4833,620 @@ Esta distribución no representa una jerarquía dentro del equipo, sino una form
 
 La distribución permitió que los integrantes colaboraran de manera coordinada en las distintas áreas del Sprint, asegurando la integración fluida de los módulos definidos para esta etapa del proyecto WashTrack.
 
+##### 5.2.3.3. Sprint Backlog 3
+
+El Sprint 3 tiene como objetivo implementar y desplegar la API RESTful de WashTrack con ASP.NET Core y Entity Framework Core, persistir los bounded contexts principales en MySQL y migrar el frontend del servidor simulado con JSON Server a los Web Services reales, con autenticación en IAM y endpoints documentados con Swagger/OpenAPI. Para ello, las siete User Stories del Sprint Planning 3 se descompusieron en Engineering Tasks de 4 a 8 horas, organizadas por las capas de cada bounded context (Domain, Application, Infrastructure e Interfaces REST) y una tarea de integración con el frontend, asignadas según la Leadership-and-Collaboration Matrix de la sección 5.2.3.2.
+
+El backlog incluye además tareas técnicas sin User Story asociada, necesarias para la estructura base, la persistencia, la seguridad, la documentación, el consumo de un servicio externo, la nueva versión de la Landing Page y el despliegue, así como las tareas ET04, ET08, ET12 y ET13 pendientes del Sprint 2; ninguna de ellas suma a los Story Points del Sprint. La numeración continúa desde ET20 y el seguimiento se realiza en Trello, donde cada tarjeta corresponde a una Engineering Task con la etiqueta de su bounded context y avanza por las listas To-do, In-Process, To-Review y Done.
+
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/sprint-backlog-3-trello.png" alt="Sprint Backlog 3 en Trello" width="800"/>
+  <br>
+  <i>Figura. Tablero del Sprint Backlog 3 en Trello.</i>
+</p>
+
+- **URL del tablero del Sprint Backlog 3:** [WashTrack – Sprint 3](https://trello.com/b/DJJHCRUv/washtrack-sprint-3)
+
+La siguiente tabla presenta las User Stories asignadas al Sprint 3, las Engineering Tasks resultantes de su descomposición, las tareas pendientes del Sprint 2 y las Engineering Tasks técnicas que no tienen una User Story asociada, junto con el estado de cada una al momento de la elaboración del informe.
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Sprint #</th>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task (Engineering Task)</th>
+    </tr>
+    <tr>
+      <th>Story Id</th>
+      <th>Story Title</th>
+      <th>Task Id</th>
+      <th>Task Title</th>
+      <th>Task Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status (To-do / In-Process / To-Review / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET20</td>
+      <td>Configurar la solución de Web Services por bounded contexts</td>
+      <td>Crear el proyecto ASP.NET Core con la estructura de carpetas por bounded context (Domain, Application, Infrastructure, Interfaces) y el Shared Kernel con el repositorio base, el Unit of Work y las convenciones de nombres.</td>
+      <td align="center">6</td>
+      <td>Tufiño Argüelles, Luis Angel / Ramirez Gutierrez, Gabriel</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET21</td>
+      <td>Configurar la persistencia con MySQL y Entity Framework Core</td>
+      <td>Configurar el AppDbContext, la cadena de conexión por entorno, la convención de nombres de tablas y columnas, los campos de auditoría (fecha de creación y actualización) y la creación del esquema de la base de datos.</td>
+      <td align="center">6</td>
+      <td>Tufiño Argüelles, Luis Angel / Pérez Vásquez, Ariana Valeria</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET22</td>
+      <td>Implementar autenticación y autorización en IAM</td>
+      <td>Implementar el registro e inicio de sesión de usuarios con contraseñas cifradas, la emisión y validación de tokens JWT y el middleware de autorización por rol (propietario, encargado y cliente).</td>
+      <td align="center">8</td>
+      <td>Ramirez Gutierrez, Gabriel / Tufiño Argüelles, Luis Angel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET23</td>
+      <td>Configurar la documentación con Swagger/OpenAPI</td>
+      <td>Configurar Swagger/OpenAPI con la descripción de cada endpoint, sus parámetros y ejemplos de respuesta, y habilitar la autenticación con token JWT desde Swagger UI.</td>
+      <td align="center">4</td>
+      <td>Tufiño Argüelles, Luis Angel / Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-027</td>
+      <td>Visualización de bitácora de estados en tiempo real</td>
+      <td>ET24</td>
+      <td>Implementar dominio y persistencia de la bitácora de estados</td>
+      <td>Implementar el agregado Order con su historial de estados, los comandos y consultas, los servicios de aplicación y el repositorio en Entity Framework Core que registra cada cambio de etapa con su fecha y responsable.</td>
+      <td align="center">8</td>
+      <td>Pérez Vásquez, Ariana Valeria</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-027</td>
+      <td>Visualización de bitácora de estados en tiempo real</td>
+      <td>ET25</td>
+      <td>Implementar endpoints REST de pedidos y bitácora de estados</td>
+      <td>Implementar el controlador de pedidos con sus resources y assemblers para crear y consultar pedidos, actualizar su estado y consultar la bitácora de estados de un pedido.</td>
+      <td align="center">6</td>
+      <td>Pérez Vásquez, Ariana Valeria / Tufiño Argüelles, Luis Angel</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-027</td>
+      <td>Visualización de bitácora de estados en tiempo real</td>
+      <td>ET26</td>
+      <td>Integrar la línea de tiempo del frontend con la API</td>
+      <td>Conectar la línea de tiempo del pedido en el frontend a los endpoints de pedidos, reemplazando el servidor simulado, y actualizar automáticamente la vista cuando cambia el estado del pedido.</td>
+      <td align="center">5</td>
+      <td>Pérez Vásquez, Ariana Valeria / Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-028</td>
+      <td>Historial de notificaciones en la interfaz web</td>
+      <td>ET27</td>
+      <td>Implementar dominio, servicios y endpoints de notificaciones</td>
+      <td>Implementar la entidad Notification, su generación automática ante cada cambio de estado del pedido y los endpoints para listar las notificaciones de un usuario y marcarlas como leídas.</td>
+      <td align="center">8</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-028</td>
+      <td>Historial de notificaciones en la interfaz web</td>
+      <td>ET28</td>
+      <td>Integrar el centro de notificaciones del frontend con la API</td>
+      <td>Conectar el centro de notificaciones del frontend a los endpoints de notificaciones, con el listado de avisos pasados, el filtro de leídas y no leídas y la acción de marcar como leída.</td>
+      <td align="center">5</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole / Ramirez Gutierrez, Gabriel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-029</td>
+      <td>Gestión de rutas y asignación de repartidores</td>
+      <td>ET29</td>
+      <td>Implementar dominio y persistencia de recojos, entregas y repartidores</td>
+      <td>Implementar las entidades de recojo, entrega y repartidor con sus estados, dirección y horario acordado, junto con los servicios de aplicación y los repositorios en Entity Framework Core.</td>
+      <td align="center">7</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-029</td>
+      <td>Gestión de rutas y asignación de repartidores</td>
+      <td>ET30</td>
+      <td>Implementar endpoints REST de rutas y asignación de repartidores</td>
+      <td>Implementar los endpoints para registrar recojos y entregas, asignar un repartidor a cada operación, actualizar su estado y consultar las operaciones programadas por fecha.</td>
+      <td align="center">5</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole / Pérez Vásquez, Ariana Valeria</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-029</td>
+      <td>Gestión de rutas y asignación de repartidores</td>
+      <td>ET31</td>
+      <td>Integrar la vista de rutas y asignación con la API</td>
+      <td>Conectar la vista de recojos y entregas del frontend a los nuevos endpoints y agregar el diálogo para que el administrador asigne un repartidor a cada operación.</td>
+      <td align="center">5</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole / Tufiño Argüelles, Luis Angel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-030</td>
+      <td>Registro de observaciones y estado físico inicial de las prendas</td>
+      <td>ET32</td>
+      <td>Implementar dominio y endpoints de inspección de prendas</td>
+      <td>Implementar en Laundry Operations el registro del estado físico inicial y las observaciones de cada prenda al momento de la recepción, con su servicio de aplicación, repositorio y endpoints de registro y consulta.</td>
+      <td align="center">7</td>
+      <td>Ramirez Gutierrez, Gabriel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-030</td>
+      <td>Registro de observaciones y estado físico inicial de las prendas</td>
+      <td>ET33</td>
+      <td>Integrar el registro de observaciones en la recepción del pedido</td>
+      <td>Agregar en el frontend el formulario de estado físico y observaciones de las prendas durante la recepción y mostrarlas en el detalle del pedido, consumiendo los endpoints de inspección.</td>
+      <td align="center">5</td>
+      <td>Ramirez Gutierrez, Gabriel / Pérez Vásquez, Ariana Valeria</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-031</td>
+      <td>Historial de interacciones y notas de atención al cliente</td>
+      <td>ET34</td>
+      <td>Implementar dominio, servicios y endpoints de clientes e interacciones</td>
+      <td>Implementar el agregado Customer y la entidad de interacción (canal, nota, fecha y responsable), junto con los servicios de aplicación, el repositorio y los endpoints para registrar clientes y consultar su historial de interacciones.</td>
+      <td align="center">8</td>
+      <td>Ramirez Gutierrez, Gabriel</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-031</td>
+      <td>Historial de interacciones y notas de atención al cliente</td>
+      <td>ET35</td>
+      <td>Integrar el historial de interacciones en el detalle del cliente</td>
+      <td>Conectar la gestión de clientes del frontend a la API y agregar en el detalle del cliente el historial unificado de comunicaciones y notas de atención.</td>
+      <td align="center">4</td>
+      <td>Ramirez Gutierrez, Gabriel / Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-032</td>
+      <td>Emisión y descarga de comprobantes de pago digitales</td>
+      <td>ET36</td>
+      <td>Implementar dominio y persistencia de pagos y comprobantes</td>
+      <td>Implementar las entidades Payment y Receipt con su número correlativo, montos e impuestos, junto con el servicio de aplicación que emite el comprobante al registrarse un pago y su repositorio en Entity Framework Core.</td>
+      <td align="center">8</td>
+      <td>Tufiño Argüelles, Luis Angel</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-032</td>
+      <td>Emisión y descarga de comprobantes de pago digitales</td>
+      <td>ET37</td>
+      <td>Implementar endpoints de pagos y descarga de comprobantes</td>
+      <td>Implementar los endpoints para registrar el pago de un pedido, consultar los pagos realizados y descargar el comprobante en formato PDF.</td>
+      <td align="center">6</td>
+      <td>Tufiño Argüelles, Luis Angel / Ramirez Gutierrez, Gabriel</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-032</td>
+      <td>Emisión y descarga de comprobantes de pago digitales</td>
+      <td>ET38</td>
+      <td>Integrar la vista de comprobantes de pago con la API</td>
+      <td>Agregar en el frontend la vista de pagos del pedido con la visualización del comprobante y el botón de descarga, consumiendo los endpoints de pagos.</td>
+      <td align="center">5</td>
+      <td>Tufiño Argüelles, Luis Angel / Pérez Vásquez, Ariana Valeria</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-033</td>
+      <td>Módulo de auditoría y registro de acciones del personal</td>
+      <td>ET39</td>
+      <td>Implementar el registro de auditoría de acciones críticas</td>
+      <td>Implementar la entidad AuditLog y el mecanismo que registra automáticamente las acciones críticas del personal (creación y cancelación de pedidos, cambios de estado y registro de pagos), junto con el endpoint de consulta restringido al propietario.</td>
+      <td align="center">7</td>
+      <td>Pérez Vásquez, Ariana Valeria / Ramirez Gutierrez, Gabriel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-033</td>
+      <td>Módulo de auditoría y registro de acciones del personal</td>
+      <td>ET40</td>
+      <td>Implementar la vista de bitácora de auditoría</td>
+      <td>Implementar en el frontend la vista de bitácora de actividad del personal, con filtros por usuario, tipo de acción y rango de fechas, visible solo para el rol propietario.</td>
+      <td align="center">4</td>
+      <td>Pérez Vásquez, Ariana Valeria / Ramirez Gutierrez, Gabriel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-016</td>
+      <td>Gestionar usuarios y roles (pendiente del Sprint 2)</td>
+      <td>ET41</td>
+      <td>Completar la vista de gestión de usuarios y roles</td>
+      <td>Retomar la tarea ET04 del Sprint 2: implementar la vista para que el propietario liste al personal y le asigne un rol, conectada a los endpoints de IAM.</td>
+      <td align="center">5</td>
+      <td>Ramirez Gutierrez, Gabriel / Tufiño Argüelles, Luis Angel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-007</td>
+      <td>Registrar prendas (pendiente del Sprint 2)</td>
+      <td>ET42</td>
+      <td>Completar el registro de prendas del pedido</td>
+      <td>Retomar la tarea ET08 del Sprint 2: completar el registro de prendas con su tipo, cantidad y observaciones de cuidado, persistiéndolas mediante los endpoints de pedidos.</td>
+      <td align="center">5</td>
+      <td>Pérez Vásquez, Ariana Valeria / Ramirez Gutierrez, Gabriel</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-019</td>
+      <td>Gestionar suscripción (pendiente del Sprint 2)</td>
+      <td>ET43</td>
+      <td>Completar los planes y la selección de suscripción</td>
+      <td>Retomar las tareas ET12 y ET13 del Sprint 2: implementar en los Web Services los planes y suscripciones con sus endpoints, y completar la vista de planes para que el propietario seleccione uno.</td>
+      <td align="center">7</td>
+      <td>Tufiño Argüelles, Luis Angel / Pérez Vásquez, Ariana Valeria</td>
+      <td>To-Review</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET44</td>
+      <td>Integrar un servicio externo de terceros</td>
+      <td>Consumir desde los Web Services un servicio externo de terceros (envío de correo electrónico) para notificar al cliente los cambios de estado de su pedido, configurando sus credenciales mediante variables de entorno.</td>
+      <td align="center">5</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole / Tufiño Argüelles, Luis Angel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET45</td>
+      <td>Publicar una nueva versión de la Landing Page</td>
+      <td>Incrustar los videos About-the-Product y About-the-Team en la Landing Page y actualizar los call-to-action de cada segmento objetivo para que redirijan a la vista correspondiente de la Web Application desplegada.</td>
+      <td align="center">5</td>
+      <td>Pérez Vásquez, Ariana Valeria / Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET46</td>
+      <td>Desplegar los Web Services y la base de datos</td>
+      <td>Desplegar la primera versión de los Web Services y la base de datos MySQL en la nube, configurar las variables de entorno y CORS, y actualizar la URL base de la API en el frontend desplegado.</td>
+      <td align="center">7</td>
+      <td>Tufiño Argüelles, Luis Angel / Ramirez Gutierrez, Gabriel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET47</td>
+      <td>Integrar Pull Requests y desplegar la nueva versión de la Web Application</td>
+      <td>Revisar los Pull Requests de cada bounded context, integrarlos en la rama develop siguiendo GitFlow, generar la versión del Sprint en main y desplegar la nueva versión del frontend conectada a los Web Services.</td>
+      <td align="center">6</td>
+      <td>Pérez Vásquez, Ariana Valeria / Ramirez Gutierrez, Gabriel / Ramos Fuentes Rivera, Adriana Nicole / Tufiño Argüelles, Luis Angel</td>
+      <td>In-Process</td>
+    </tr>
+  </tbody>
+</table>
+
+El Sprint Backlog 3 está compuesto por **28 Engineering Tasks**, con una estimación total de **167 horas**: 17 tareas asociadas a las siete User Stories del Sprint Planning 3, 3 tareas que retoman el trabajo pendiente del Sprint 2 y 8 tareas técnicas sin User Story asociada. Cada integrante lidera las tareas de su aspecto en la Leadership-and-Collaboration Matrix y colabora en las tareas de integración de los demás bounded contexts, lo que permite que todos participen en la implementación de los Web Services, de la Web Application y de la Landing Page durante este Sprint.
+
+##### 5.2.3.4. Development Evidence for Sprint Review
+
+<p align="justify">
+  En este Sprint se implementó la primera versión de los Web Services de WashTrack con ASP.NET Core y Entity Framework Core sobre MySQL, organizada con Domain-Driven Design por bounded contexts. Se construyó el Shared Kernel (agregados base, repositorio base, Unit of Work, interceptores de auditoría y de eventos de dominio, manejo global de excepciones y convención de rutas kebab-case) y se implementaron los bounded contexts Laundry Operations, Order Management y Pickups &amp; Deliveries con sus agregados, comandos, consultas, repositorios, controladores REST y migraciones, integrados en la rama develop. En paralelo se desarrollaron Subscription &amp; Payment (pagos, suscripciones, planes y la pasarela de pago externa mediante una Anti-Corruption Layer) y Customer Management en sus ramas feature, y se documentaron los endpoints con OpenAPI y descripciones localizadas en español e inglés.
+</p>
+
+<p align="justify">
+  En la Web Application se completó el inicio de sesión con guard de autenticación y sesión persistente en IAM, el flujo de registro de pagos y la integración de los pedidos con el tablero de producción, el seguimiento y las entregas a domicilio. En la Landing Page se publicó una nueva versión con internacionalización en-US/es-419 (inglés por defecto), meta tags de SEO, navegación accesible, call-to-action por segmento hacia la Web Application, términos y condiciones bilingües y el video About-the-Product del Sprint 3. La siguiente tabla presenta los commits realizados en cada repositorio desde el cierre del Sprint 2.
+</p>
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| --- | --- | --- | --- | --- | --- |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2 | feature/video | 8fcae00 | docs: update video about the product in youtube for sprint 3 | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2 | feature/video | 2c3ed31 | docs: add video about the product for sprint 3 | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2 | feature/landing-rubric | 288914b | docs(readme): update project info, team and rubric compliance | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2 | feature/landing-rubric | 8067ff3 | feat(legal): add bilingual terms and conditions and privacy policy page | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2 | feature/landing-rubric | 33fbeed | style(landing): align typography and colors with style guide and Material Design | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2 | feature/landing-rubric | b12d545 | feat(contact): add accessible bilingual validation to contact form | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2 | feature/landing-rubric | 1eaa5f6 | feat(a11y): add accessible mobile navigation with aria-current scrollspy | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2 | feature/landing-rubric | 416a6bc | feat(landing): implement rubric requirements in landing page | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2 | feature/landing-rubric | 698fc73 | feat(team): add team member photos | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2 | feature/landing-rubric | 16ac377 | feat(i18n): add en-US/es-419 translations with English as default language | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2 | feature/video | f502b5b | feat(landing): update 'Comenzar ahora' buttons to point to Firebase login | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-integration | cca6d43 | fix(server): link mock laundry orders, deliveries and trackings to real orders | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-integration | 1e50a6f | feat(order-management): send new orders to production board, tracking and deliveries | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-integration | 83d3010 | feat(tracking-notifications): start order trackings and search by customer | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-integration | ebb253f | feat(pickups-deliveries): schedule home deliveries and reload list on visit | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-integration | 4969c42 | refactor(payments): use shared order code in payment catalog | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-integration | 8d59a9d | fix(laundry-operations): receive only existing orders and show customer on cards | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-integration | 311e0c2 | feat(i18n): add translations for order receiving, deliveries and tracking | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-integration | 1a72cba | feat(shared): add shared order code helper | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | develop | 2656b99 | fix(i18n): restore deliveries translations used by pickups-deliveries views | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | develop | f2ef17b | chore(hosting): remove Firebase placeholder index.html from public | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | develop | 6bbb7fe | fix(router): redirect pickups-deliveries to deliveries view | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 4b0eb1e | feat(iam): update translations with correct demo credentials | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 4efe130 | feat(iam): update notification toaster to use signed-in user code | — | 10/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | b99bd8b | feat(iam): update sidebar menu to show signed-in user and sign out | — | 10/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | a3d6a78 | feat(iam): update register and password recovery views to use iam store | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 6bbc9c6 | feat(iam): update login view to use iam store and redirect after sign in | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 30876af | feat(iam): update router to use authentication guard | — | 08/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 6788c7f | feat(iam): add authentication guard | — | 08/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | ad12bb0 | feat(iam): add iam store in application layer with persistent session and sign out | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 665987c | feat(iam): update user assembler to map username and business code | — | 06/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 49de1da | feat(iam): update user aggregate with username and business code | — | 06/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | fb6f527 | fix(router): register payments routes | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 82032b8 | refactor(payments): update payment catalog to shared board layout and search | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 16ae4dd | feat(payments): add create payment flow and payment id validation | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | ebdb634 | feat(shared): add header search bar to layout | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | d62bc53 | feat(i18n): add board search translations | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 409ae07 | style(shared): add shared board styles | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | ff9feb5 | feat(shared): add merge sort and board search helpers | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | c85e41f | chore(config): add routes option to json-server script | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | c9681f6 | refactor(db.json): standardise ID format across mock entities | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | e9a8133 | feat(iam): enhance database and add i18n support | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 5a6f863 | feat(iam): enhance password recovery view with form validation and submission functionality | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 08844b0 | feat(iam): add updatePasswordByEmail method to user repository | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | be7959d | feat(iam): implement resetPassword method in identity service | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 4dba46d | feat(iam): add password reset functionality | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | f9e590c | feat(localization): add password recovery translations for EN and ES locales | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | e90fda9 | feat(router): add password recovery route | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | d3c91a6 | feat(iam): add password recovery view | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 6364f60 | i18n(auth): translate registration role options | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 55c2d53 | feat(iam): add default role parameter to register function | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | a207482 | feat(iam): add default role parameter to register function | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 003e4ac | feat(iam): add role validation and default role handling in user registration | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | bfe7e2b | Added PrimeVue license key in .env.production | — | 10/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 8c41ec9 | Added PrimeVue license key in .env.development | — | 10/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | main | f316b48 | Allow Render host in vite preview | — | 10/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | ea0b329 | Update .env.production | — | 10/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | ad78395 | Update .env.development | — | 10/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 966dc19 | Update db.json | — | 10/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | main | 8afc39d | Remove Firebase placeholder index.html | — | 10/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 60879ef | update file vite.config.js | — | 10/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 5f3ed18 | feat(shared): add order management and pickups deliveries migration | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | dc8fc59 | feat(shared): register controllers, persistence, localization and bounded context services | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 76f936b | feat(shared): apply order management and pickups deliveries configuration in app db context | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 0f8ac41 | feat(pickups-deliveries): expose pickups deliveries endpoints | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 1319121 | feat(pickups-deliveries): add localized openapi descriptions | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 5a86d36 | feat(pickups-deliveries): add resource and action result assemblers | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | b81cf75 | feat(pickups-deliveries): add schedule command assemblers | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 4e0f787 | feat(pickups-deliveries): add rest resources | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 9b20b96 | feat(shared): add english and spanish translations | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 739a611 | feat(shared): add shared localization resource | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | c2ab2b6 | feat(pickups-deliveries): add dependency injection extensions | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 2ecb494 | feat(pickups-deliveries): add pickup delivery repository | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 50e4cb3 | feat(pickups-deliveries): add pickup delivery entity configuration | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 871d6c7 | feat(pickups-deliveries): validate order readiness and delivery method on schedule | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 668b8ff | feat(pickups-deliveries): add order status anti-corruption layer | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 544cd63 | feat(pickups-deliveries): define order status outbound port | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 8671061 | feat(pickups-deliveries): add order validation errors to schedule result | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 11fe84d | feat(order-management): implement and register orders context facade | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 45953ec | feat(order-management): add orders context facade contract | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 84e673f | fix(pickups-deliveries): use DevTech shared entities namespace in audit | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | 30e5ecd | feat(order-management): implement REST resource and command assemblers | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | 59d7454 | feat(order-management): implement REST API orders controller endpoints | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | 1705327 | feat(order-management): implement REST request/response resources and attributes | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | 6d9e519 | feat(order-management): configure infrastructure persistence and service extensions | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | df662e4 | feat(order-management): implement application command and query services | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | 8056561 | feat(order-management): implement application service interfaces for orders | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | ca00072 | feat(order-management): implement order repository interface | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | b9c5ad9 | feat(order-management): implement application queries for orders | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | 7876734 | feat(order-management): implement Order aggregate root entity | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | e499eab | feat(order-management): implement domain value objects and enums | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | 1623290 | feat(order-management): implement domain events, exceptions and states for orders | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | 571b5b1 | feat(order-management): implement application command handlers for orders | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | 951807c | feat(order-management): add initial domain entities and project references | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | 8f555ae | feat(order-management): add OrderError enum and project configuration | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/customerManagement | 9a87f97 | feat(customer): refactor command and query services for customer management | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/customerManagement | c643bdc | feat(customer): update query and command services for customer management | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/customerManagement | 9a88d96 | feat(customer): refactor laundry repository and commands to use aggregate roots and events | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/customerManagement | 4ba3860 | feat(customer): fix document validation and update error handling | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/customerManagement | 85419fc | feat(customer): add customer management errors and update error handling | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/customerManagement | a97ecfd | feat(customer): add customer and laundry aggregates | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/customerManagement | ab81233 | feat(customer): add events for CustomerManagement bounded context | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/customerManagement | a2eadc6 | feat(customer): add queries and commands for CustomerManagement bounded context | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/customerManagement | 80edc42 | feat(customer): add value objects for CustomerManagement bounded context | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/customerManagement | 3fde021 | feat(customer): add customer management domain and infrastructure folders | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 0042d7f | feat(laundry): expose washing cycle endpoints | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 7fdc99d | feat(laundry): expose laundry resource endpoints | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 7833581 | feat(laundry): expose laundry order endpoints | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 1caa638 | feat(laundry): map operation results to HTTP responses | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 07097a6 | feat(laundry): add washing cycle response mapping | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 83ecde0 | feat(laundry): add assignment request mapping | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 7b71828 | feat(laundry): add order reception and priority request mapping | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | c1b45a1 | feat(laundry): add order response resources | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | dc3f72a | feat(shared): add localized API error handling | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 40a9e0c | feat(shared): configure kebab-case API routes | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 085c153 | feat(persistence): add initial laundry operations migration | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 189f3c5 | feat(laundry): add development seed data | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 07c8ae1 | feat(laundry): implement resource and washing cycle persistence | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 1344976 | feat(laundry): implement order persistence | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 211eb7a | feat(shared): configure persistence and entity interceptors | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 13e0ae3 | build: update persistence dependencies | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | e5f0796 | feat(laundry): expose operations through context facade | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 5a703f4 | refactor(shared): update application result handling | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 6ba08f2 | feat(laundry): define resource and washing cycle events | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | f787adb | feat(laundry): define priority and stage transition events | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | b808cc0 | feat(laundry): define order reception and classification events | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 4ec93dc | feat(laundry): add audit fields to orders and resources | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 744c168 | feat(laundry): add audit fields to orders and resources | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 7d781ed | feat(shared): define auditable entity contract | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 2545fcb | feat(laundryop): fix declarations on command services for laundry order and resource management, add query services and command services for laundry operations and update dependencies | — | 10/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | e37771c | feat(subscription-payment): configure dependency injection and Azure SQL connection | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | ff60ec0 | feat(shared): register subscription payment model configuration | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | a0f3e34 | feat(subscription-payment): add REST controllers | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | 367a68a | feat(subscription-payment): add REST resources and assemblers | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | 71c83d5 | feat(subscription-payment): add localized messages in English and Spanish | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | 9fe78d1 | feat(subscription-payment): add payment gateway adapter, ACL and simulated provider | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | e42c902 | feat(subscription-payment): add EF Core mapping and repositories | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 879be76 | chore: update dependency injection | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | bd6285b | feat(laundryop): update query services and command services for laundry operations and update dependencies | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 68200fe | feat(laundryop): add laundry order command service | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | f71264d | feat(laundryop): update command services for laundry order and resource management | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | 4c43c68 | feat(subscription-payment): add command services, query services and event handlers | — | 08/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | 4e12333 | feat(subscription-payment): add application service interfaces and payment gateway port | — | 08/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | f5ab7b0 | feat(laundryop): add query services and command services for laundry operations and update dependencies | — | 08/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | ccab4a4 | feat(laundryop): add laundry operations domain model errors and update references | — | 08/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | 42d26a1 | feat(subscription-payment): add aggregates and repository interfaces | — | 08/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | f74b40d | feat(laundryop): add repositories for laundry order, resource, and washing cycle management | — | 08/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 836810f | feat(laundryop): update value object constructors to guid instead to int | — | 08/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 09e03f3 | feat(laundryop): add commands for laundry order management and resource management | — | 08/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | b1a19a2 | feat(subscription-payment): add domain events | — | 08/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | b8732b5 | feat(subscription-payment): add commands and queries | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | 1032cac | feat(subscription-payment): add value objects and domain errors | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 6964358 | feat(laundryop): add queries for laundry resources, orders, and statuses | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | d8941dc | feat(laundryop): add value objects for laundry resources, orders, statuses, cycles, stages, and priorities | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | 3395728 | fix(shared): dispatch domain events after saving using their runtime type | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 32d6fa8 | chore: update class diagram to reflect | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | d84f9d4 | docs: add class diagram | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | 3e892a7 | feat(shared): add Money value object and DomainEvent base record | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 4efdf4f | feat(shared): add shared kernel files | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 4b8fc1d | feat(master): add initial commit message | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 17a94c7 | chore: initial commit | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 1e0f491 | feat(pickups-deliveries): update pickup delivery repository contract | — | 05/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | cebe5da | feat(pickups-deliveries): update pickup delivery aggregate with audit timestamps | — | 05/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 0bc4ba5 | feat(pickups-deliveries): update query by order id and service type | — | 05/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | c5b4466 | feat(pickups-deliveries): update queries by order id and by id | — | 05/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 69b5176 | feat(pickups-deliveries): update schedule pickup delivery command | — | 05/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 93f7af3 | feat(pickups-deliveries): update delivery address value object | — | 05/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 01fcf8c | feat(pickups-deliveries): add query service | — | 05/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | d8bd42a | feat(pickups-deliveries): add command service with scheduling business rules | — | 02/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 9a35b3d | feat(pickups-deliveries): add command and query service | — | 01/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 094f7be | feat(pickups-deliveries): add order status outbound port | — | 01/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | a56351a | feat(pickups-deliveries): add schedule pickup delivery errors | — | 01/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | fd05051 | feat(shared): add result pattern with success and failure outcomes | — | 01/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | a0908bb | feat(pickups-deliveries): add pickup delivery repository | — | 31/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | d69a184 | feat(pickups-deliveries): add pickup delivery aggregate | — | 31/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 2fcd9f1 | feat(pickups-deliveries): add query by order id and service type | — | 31/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 1be8a60 | feat(pickups-deliveries): add queries by order id and by id | — | 31/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 572df43 | feat(pickups-deliveries): add schedule pickup delivery command | — | 31/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | d186691 | feat(PickupsDeliveries): add pickups delivery status value object | — | 31/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | cec7911 | feat(PickupsDeliveries): add service type value object | — | 31/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 494bf6f | feat(PickupsDeliveries): add delivery address value object | — | 31/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | c7eae76 | feat(shared): update interface auditable entity and auditable entity interceptor | — | 07/11/2026 |
+
+##### 5.2.3.5. Execution Evidence for Sprint Review
+
+<p align="justify">
+  En este Sprint se logró ejecutar la primera versión de los Web Services de WashTrack, desarrollados con ASP.NET Core y Entity Framework Core sobre MySQL. La API expone los endpoints de los bounded contexts Order Management, Laundry Operations, Pickups &amp; Deliveries y Subscription &amp; Payment, documentados con OpenAPI 3.1 y consultables desde la interfaz de Scalar. Las pruebas realizadas con datos de muestra permitieron recorrer el ciclo principal de un pedido: se registra el pedido con sus prendas, se avanza su estado, Laundry Operations lo recibe en el tablero de producción, se programa su recojo a domicilio y se registra su pago a través de la pasarela de pago simulada. Toda la información queda persistida en la base de datos, cuyas tablas se generan mediante las migraciones de Entity Framework Core. Asimismo, se publicó una nueva versión de la Landing Page con la sección del equipo, los planes de suscripción y la presentación del seguimiento en tiempo real.
+</p>
+<br>
+
+**Web Services**
+
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/01-scalar-endpoints.png" width="700px" alt="Documentación de la API en Scalar con los endpoints de cada bounded context">
+  <p>Documentación de la API en Scalar (OpenAPI 3.1) con los endpoints de cada bounded context</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/02-api-create-order.png" width="700px" alt="Registro de un pedido con sus prendas mediante POST /api/v1/orders">
+  <p>Registro de un pedido con sus prendas mediante <code>POST /api/v1/orders</code> (201 Created, estado CREATED)</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/03-api-order-status.png" width="700px" alt="Avance del estado del pedido mediante PUT /api/v1/orders/{orderId}/status">
+  <p>Avance del estado del mismo pedido a RECEIVED mediante <code>PUT /api/v1/orders/{orderId}/status</code> (200 OK)</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/04-api-laundry-orders.png" width="700px" alt="Consulta de las órdenes en taller mediante GET /api/v1/laundry-orders">
+  <p>Consulta de las órdenes recibidas en el tablero de producción mediante <code>GET /api/v1/laundry-orders</code> (200 OK)</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/05-api-pickups-deliveries.png" width="700px" alt="Programación de un recojo a domicilio mediante POST /api/v1/pickups-deliveries">
+  <p>Programación de un recojo a domicilio para el pedido mediante <code>POST /api/v1/pickups-deliveries</code> (201 Created, estado Scheduled)</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/06-api-payments.png" width="700px" alt="Registro de un pago mediante POST /api/v1/payments">
+  <p>Registro de un pago mediante <code>POST /api/v1/payments</code>, procesado por la pasarela de pago simulada (201 Created)</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/06b-api-subscription-plans.png" width="700px" alt="Consulta de los planes de suscripción mediante GET /api/v1/subscription-plans">
+  <p>Consulta de los planes de suscripción mediante <code>GET /api/v1/subscription-plans</code> (200 OK)</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/07-mysql-tables.png" width="700px" alt="Tablas y registros persistidos en la base de datos MySQL">
+  <p>Tablas generadas por las migraciones y registros persistidos por la API en la base de datos MySQL <code>washtrack</code></p>
+</div>
+<br>
+
+**Landing Page**
+
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/08-landing-team.png" width="700px" alt="Sección Sobre nosotros con el equipo DevTech">
+  <p>Sección "Sobre nosotros" con la presentación del equipo</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/09-landing-plans.png" width="700px" alt="Sección de planes de suscripción">
+  <p>Sección de planes de suscripción, con call-to-action hacia el registro en la Web Application</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/10-landing-tracking.png" width="700px" alt="Sección de seguimiento en tiempo real">
+  <p>Sección de seguimiento en tiempo real del pedido por etapas</p>
+</div>
+<br>
+
+
+
+
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas

@@ -4794,11 +4794,11 @@ Para orientar el desarrollo de la API REST y la integración del backend, se tom
 
 | Bounded Context | Propósito dentro del backend y la API |
 | :--- | :--- |
-| **IAM and Customer & Business** | Implementar los servicios de autenticación, control de acceso, gestión de identidad y administración de clientes y negocios de lavandería. |
+| **Customer** | Gestionar la persistencia y la lógica de negocio orientada al cliente final, permitiendo consultar su historial y administrar sus datos personales. |
+| **Laundry Operations** | Gestionar las operaciones de lavandería, el procesamiento de prendas y el registro de los servicios solicitados mediante los controladores y repositorios en la API. |
 | **Order Management** | Proveer los endpoints y la lógica de negocio para la creación, consulta, actualización y organización de pedidos. |
-| **Laundry Operations** | Gestionar las operaciones de lavandería, el procesamiento de prendas y el registro de los servicios solicitados mediante los controladores y repositorios en Entity Framework Core. |
-| **Subscription & Payment** | Implementar los servicios de lógica de negocio relacionados con los planes de suscripción, procesamiento de pagos y transacciones. |
-| **Tracking & Notifications** | Proveer los servicios y la conectividad para el seguimiento del estado de los pedidos y la emisión de notificaciones sobre su progreso. |
+| **Billing & Subscriptions** | Implementar los servicios de lógica de negocio relacionados con los planes de suscripción, procesamiento de pagos y transacciones financieras. |
+| **Pickup** | Proveer los servicios y la conectividad para gestionar la logística de recojos a domicilio y la coordinación de las rutas de recojo de prendas. |
 
 #### User Stories seleccionadas
 
@@ -4824,14 +4824,16 @@ Para organizar el desarrollo del Sprint 3, el equipo distribuyó responsabilidad
 
 Esta distribución no representa una jerarquía dentro del equipo, sino una forma de organizar el trabajo y facilitar la coordinación de las actividades del Sprint.
 
-| Aspecto | Aspect Leader | Collaborators | Actividades principales |
-| :--- | :--- | :--- | :--- |
-| **Order Management** | Pérez Vásquez, Ariana Valeria | Ramos Fuentes Rivera, Adriana / Ramirez Gutierrez, Gabriel / Tufiño Argüelles, Luis | Diseño, estructuración y desarrollo de los flujos e interfaz de gestión de pedidos en la plataforma. |
-| **Laundry Operations y Customer Management** | Ramirez Gutierrez, Gabriel | Pérez Vásquez, Ariana Valeria / Ramos Fuentes Rivera, Adriana / Tufiño Argüelles, Luis | Implementación de los módulos de control de operaciones en el taller y administración de perfiles de clientes. |
-| **Pickups & Deliveries** | Ramos Fuentes Rivera, Adriana | Pérez Vásquez, Ariana Valeria / Ramirez Gutierrez, Gabriel / Tufiño Argüelles, Luis | Desarrollo de las vistas de logística de recojo/entregas a domicilio y el sistema de avisos y notificaciones. |
-| **Payment y Catalog** | Tufiño Argüelles, Luis Angel | Pérez Vásquez, Ariana Valeria / Ramirez Gutierrez, Gabriel / Ramos Fuentes Rivera, Adriana | Implementación de los catálogos de servicios y la interfaz para el procesamiento de pagos digitales. |
+#### 5.2.3.2. Aspect Leaders and Collaborators
 
-La distribución permitió que los integrantes colaboraran de manera coordinada en las distintas áreas del Sprint, asegurando la integración fluida de los módulos definidos para esta etapa del proyecto WashTrack.
+En esta sección, se establecen los aspectos clave del *Aspect Leaders and Collaborators* correspondiente al Sprint 3 del proyecto **WashTrack** en **DevTech**. Se incluye información como los aspectos técnicos identificados para este sprint (desarrollo del backend y API REST, persistencia de datos, y servicios de los bounded contexts), los líderes responsables de cada aspecto y los colaboradores que apoyan su desarrollo. A continuación se presenta el resumen de la distribución de roles por aspecto.
+
+| Team Member | Github Username | Coordinación del equipo y revisión de documento | Desarrollo del backend y API REST para Order Management | Gestión de Laundry Operations y Customer Management | Logística de Pickups & Deliveries | Implementación de Payment y Catalog (Billing & Subscriptions) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Pérez Vásquez, Ariana Valeria** | `ArianaPerez34` | **L** | C | C | **L** | C |
+| **Ramirez Gutierrez, Gabriel** | `GabrielRamirez06` | C | C | **L** | C | C |
+| **Ramos Fuentes Rivera, Adriana** | `adriana832` | **L** | C | C | **L** | C |
+| **Tufiño Argüelles, Luis Angel** | `LuisTufino2` | C | C | C | C | **L** |
 
 ##### 5.2.3.3. Sprint Backlog 3
 

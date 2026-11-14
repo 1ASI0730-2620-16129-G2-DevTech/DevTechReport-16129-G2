@@ -4794,11 +4794,11 @@ Para orientar el desarrollo de la API REST y la integración del backend, se tom
 
 | Bounded Context | Propósito dentro del backend y la API |
 | :--- | :--- |
-| **IAM and Customer & Business** | Implementar los servicios de autenticación, control de acceso, gestión de identidad y administración de clientes y negocios de lavandería. |
+| **Customer** | Gestionar la persistencia y la lógica de negocio orientada al cliente final, permitiendo consultar su historial y administrar sus datos personales. |
+| **Laundry Operations** | Gestionar las operaciones de lavandería, el procesamiento de prendas y el registro de los servicios solicitados mediante los controladores y repositorios en la API. |
 | **Order Management** | Proveer los endpoints y la lógica de negocio para la creación, consulta, actualización y organización de pedidos. |
-| **Laundry Operations** | Gestionar las operaciones de lavandería, el procesamiento de prendas y el registro de los servicios solicitados mediante los controladores y repositorios en Entity Framework Core. |
-| **Subscription & Payment** | Implementar los servicios de lógica de negocio relacionados con los planes de suscripción, procesamiento de pagos y transacciones. |
-| **Tracking & Notifications** | Proveer los servicios y la conectividad para el seguimiento del estado de los pedidos y la emisión de notificaciones sobre su progreso. |
+| **Billing & Subscriptions** | Implementar los servicios de lógica de negocio relacionados con los planes de suscripción, procesamiento de pagos y transacciones financieras. |
+| **Pickup** | Proveer los servicios y la conectividad para gestionar la logística de recojos a domicilio y la coordinación de las rutas de recojo de prendas. |
 
 #### User Stories seleccionadas
 

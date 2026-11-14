@@ -5376,6 +5376,77 @@ El Sprint Backlog 3 está compuesto por **28 Engineering Tasks**, con una estima
 | 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 494bf6f | feat(PickupsDeliveries): add delivery address value object | — | 31/10/2026 |
 | 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | c7eae76 | feat(shared): update interface auditable entity and auditable entity interceptor | — | 07/11/2026 |
 
+##### 5.2.3.5. Execution Evidence for Sprint Review
+
+<p align="justify">
+  En este Sprint se logró ejecutar la primera versión de los Web Services de WashTrack, desarrollados con ASP.NET Core y Entity Framework Core sobre MySQL. La API expone los endpoints de los bounded contexts Order Management, Laundry Operations, Pickups &amp; Deliveries y Subscription &amp; Payment, documentados con OpenAPI 3.1 y consultables desde la interfaz de Scalar. Las pruebas realizadas con datos de muestra permitieron recorrer el ciclo principal de un pedido: se registra el pedido con sus prendas, se avanza su estado, Laundry Operations lo recibe en el tablero de producción, se programa su recojo a domicilio y se registra su pago a través de la pasarela de pago simulada. Toda la información queda persistida en la base de datos, cuyas tablas se generan mediante las migraciones de Entity Framework Core. Asimismo, se publicó una nueva versión de la Landing Page con la sección del equipo, los planes de suscripción y la presentación del seguimiento en tiempo real.
+</p>
+<br>
+
+**Web Services**
+
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/01-scalar-endpoints.png" width="700px" alt="Documentación de la API en Scalar con los endpoints de cada bounded context">
+  <p>Documentación de la API en Scalar (OpenAPI 3.1) con los endpoints de cada bounded context</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/02-api-create-order.png" width="700px" alt="Registro de un pedido con sus prendas mediante POST /api/v1/orders">
+  <p>Registro de un pedido con sus prendas mediante <code>POST /api/v1/orders</code> (201 Created, estado CREATED)</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/03-api-order-status.png" width="700px" alt="Avance del estado del pedido mediante PUT /api/v1/orders/{orderId}/status">
+  <p>Avance del estado del mismo pedido a RECEIVED mediante <code>PUT /api/v1/orders/{orderId}/status</code> (200 OK)</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/04-api-laundry-orders.png" width="700px" alt="Consulta de las órdenes en taller mediante GET /api/v1/laundry-orders">
+  <p>Consulta de las órdenes recibidas en el tablero de producción mediante <code>GET /api/v1/laundry-orders</code> (200 OK)</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/05-api-pickups-deliveries.png" width="700px" alt="Programación de un recojo a domicilio mediante POST /api/v1/pickups-deliveries">
+  <p>Programación de un recojo a domicilio para el pedido mediante <code>POST /api/v1/pickups-deliveries</code> (201 Created, estado Scheduled)</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/06-api-payments.png" width="700px" alt="Registro de un pago mediante POST /api/v1/payments">
+  <p>Registro de un pago mediante <code>POST /api/v1/payments</code>, procesado por la pasarela de pago simulada (201 Created)</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/06b-api-subscription-plans.png" width="700px" alt="Consulta de los planes de suscripción mediante GET /api/v1/subscription-plans">
+  <p>Consulta de los planes de suscripción mediante <code>GET /api/v1/subscription-plans</code> (200 OK)</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/07-mysql-tables.png" width="700px" alt="Tablas y registros persistidos en la base de datos MySQL">
+  <p>Tablas generadas por las migraciones y registros persistidos por la API en la base de datos MySQL <code>washtrack</code></p>
+</div>
+<br>
+
+**Landing Page**
+
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/08-landing-team.png" width="700px" alt="Sección Sobre nosotros con el equipo DevTech">
+  <p>Sección "Sobre nosotros" con la presentación del equipo</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/09-landing-plans.png" width="700px" alt="Sección de planes de suscripción">
+  <p>Sección de planes de suscripción, con call-to-action hacia el registro en la Web Application</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/10-landing-tracking.png" width="700px" alt="Sección de seguimiento en tiempo real">
+  <p>Sección de seguimiento en tiempo real del pedido por etapas</p>
+</div>
+<br>
+
+
+
+
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas

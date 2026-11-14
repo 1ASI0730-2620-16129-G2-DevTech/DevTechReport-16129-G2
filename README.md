@@ -4833,6 +4833,354 @@ Esta distribución no representa una jerarquía dentro del equipo, sino una form
 
 La distribución permitió que los integrantes colaboraran de manera coordinada en las distintas áreas del Sprint, asegurando la integración fluida de los módulos definidos para esta etapa del proyecto WashTrack.
 
+##### 5.2.3.3. Sprint Backlog 3
+
+El Sprint 3 tiene como objetivo implementar y desplegar la API RESTful de WashTrack con ASP.NET Core y Entity Framework Core, persistir los bounded contexts principales en MySQL y migrar el frontend del servidor simulado con JSON Server a los Web Services reales, con autenticación en IAM y endpoints documentados con Swagger/OpenAPI. Para ello, las siete User Stories del Sprint Planning 3 se descompusieron en Engineering Tasks de 4 a 8 horas, organizadas por las capas de cada bounded context (Domain, Application, Infrastructure e Interfaces REST) y una tarea de integración con el frontend, asignadas según la Leadership-and-Collaboration Matrix de la sección 5.2.3.2.
+
+El backlog incluye además tareas técnicas sin User Story asociada, necesarias para la estructura base, la persistencia, la seguridad, la documentación, el consumo de un servicio externo, la nueva versión de la Landing Page y el despliegue, así como las tareas ET04, ET08, ET12 y ET13 pendientes del Sprint 2; ninguna de ellas suma a los Story Points del Sprint. La numeración continúa desde ET20 y el seguimiento se realiza en Trello, donde cada tarjeta corresponde a una Engineering Task con la etiqueta de su bounded context y avanza por las listas To-do, In-Process, To-Review y Done.
+
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/sprint-backlog-3-trello.png" alt="Sprint Backlog 3 en Trello" width="800"/>
+  <br>
+  <i>Figura. Tablero del Sprint Backlog 3 en Trello.</i>
+</p>
+
+- **URL del tablero del Sprint Backlog 3:** [WashTrack – Sprint 3](https://trello.com/b/DJJHCRUv/washtrack-sprint-3)
+
+La siguiente tabla presenta las User Stories asignadas al Sprint 3, las Engineering Tasks resultantes de su descomposición, las tareas pendientes del Sprint 2 y las Engineering Tasks técnicas que no tienen una User Story asociada, junto con el estado de cada una al momento de la elaboración del informe.
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Sprint #</th>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task (Engineering Task)</th>
+    </tr>
+    <tr>
+      <th>Story Id</th>
+      <th>Story Title</th>
+      <th>Task Id</th>
+      <th>Task Title</th>
+      <th>Task Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status (To-do / In-Process / To-Review / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET20</td>
+      <td>Configurar la solución de Web Services por bounded contexts</td>
+      <td>Crear el proyecto ASP.NET Core con la estructura de carpetas por bounded context (Domain, Application, Infrastructure, Interfaces) y el Shared Kernel con el repositorio base, el Unit of Work y las convenciones de nombres.</td>
+      <td align="center">6</td>
+      <td>Tufiño Argüelles, Luis Angel / Ramirez Gutierrez, Gabriel</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET21</td>
+      <td>Configurar la persistencia con MySQL y Entity Framework Core</td>
+      <td>Configurar el AppDbContext, la cadena de conexión por entorno, la convención de nombres de tablas y columnas, los campos de auditoría (fecha de creación y actualización) y la creación del esquema de la base de datos.</td>
+      <td align="center">6</td>
+      <td>Tufiño Argüelles, Luis Angel / Pérez Vásquez, Ariana Valeria</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET22</td>
+      <td>Implementar autenticación y autorización en IAM</td>
+      <td>Implementar el registro e inicio de sesión de usuarios con contraseñas cifradas, la emisión y validación de tokens JWT y el middleware de autorización por rol (propietario, encargado y cliente).</td>
+      <td align="center">8</td>
+      <td>Ramirez Gutierrez, Gabriel / Tufiño Argüelles, Luis Angel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET23</td>
+      <td>Configurar la documentación con Swagger/OpenAPI</td>
+      <td>Configurar Swagger/OpenAPI con la descripción de cada endpoint, sus parámetros y ejemplos de respuesta, y habilitar la autenticación con token JWT desde Swagger UI.</td>
+      <td align="center">4</td>
+      <td>Tufiño Argüelles, Luis Angel / Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-027</td>
+      <td>Visualización de bitácora de estados en tiempo real</td>
+      <td>ET24</td>
+      <td>Implementar dominio y persistencia de la bitácora de estados</td>
+      <td>Implementar el agregado Order con su historial de estados, los comandos y consultas, los servicios de aplicación y el repositorio en Entity Framework Core que registra cada cambio de etapa con su fecha y responsable.</td>
+      <td align="center">8</td>
+      <td>Pérez Vásquez, Ariana Valeria</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-027</td>
+      <td>Visualización de bitácora de estados en tiempo real</td>
+      <td>ET25</td>
+      <td>Implementar endpoints REST de pedidos y bitácora de estados</td>
+      <td>Implementar el controlador de pedidos con sus resources y assemblers para crear y consultar pedidos, actualizar su estado y consultar la bitácora de estados de un pedido.</td>
+      <td align="center">6</td>
+      <td>Pérez Vásquez, Ariana Valeria / Tufiño Argüelles, Luis Angel</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-027</td>
+      <td>Visualización de bitácora de estados en tiempo real</td>
+      <td>ET26</td>
+      <td>Integrar la línea de tiempo del frontend con la API</td>
+      <td>Conectar la línea de tiempo del pedido en el frontend a los endpoints de pedidos, reemplazando el servidor simulado, y actualizar automáticamente la vista cuando cambia el estado del pedido.</td>
+      <td align="center">5</td>
+      <td>Pérez Vásquez, Ariana Valeria / Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-028</td>
+      <td>Historial de notificaciones en la interfaz web</td>
+      <td>ET27</td>
+      <td>Implementar dominio, servicios y endpoints de notificaciones</td>
+      <td>Implementar la entidad Notification, su generación automática ante cada cambio de estado del pedido y los endpoints para listar las notificaciones de un usuario y marcarlas como leídas.</td>
+      <td align="center">8</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-028</td>
+      <td>Historial de notificaciones en la interfaz web</td>
+      <td>ET28</td>
+      <td>Integrar el centro de notificaciones del frontend con la API</td>
+      <td>Conectar el centro de notificaciones del frontend a los endpoints de notificaciones, con el listado de avisos pasados, el filtro de leídas y no leídas y la acción de marcar como leída.</td>
+      <td align="center">5</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole / Ramirez Gutierrez, Gabriel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-029</td>
+      <td>Gestión de rutas y asignación de repartidores</td>
+      <td>ET29</td>
+      <td>Implementar dominio y persistencia de recojos, entregas y repartidores</td>
+      <td>Implementar las entidades de recojo, entrega y repartidor con sus estados, dirección y horario acordado, junto con los servicios de aplicación y los repositorios en Entity Framework Core.</td>
+      <td align="center">7</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-029</td>
+      <td>Gestión de rutas y asignación de repartidores</td>
+      <td>ET30</td>
+      <td>Implementar endpoints REST de rutas y asignación de repartidores</td>
+      <td>Implementar los endpoints para registrar recojos y entregas, asignar un repartidor a cada operación, actualizar su estado y consultar las operaciones programadas por fecha.</td>
+      <td align="center">5</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole / Pérez Vásquez, Ariana Valeria</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-029</td>
+      <td>Gestión de rutas y asignación de repartidores</td>
+      <td>ET31</td>
+      <td>Integrar la vista de rutas y asignación con la API</td>
+      <td>Conectar la vista de recojos y entregas del frontend a los nuevos endpoints y agregar el diálogo para que el administrador asigne un repartidor a cada operación.</td>
+      <td align="center">5</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole / Tufiño Argüelles, Luis Angel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-030</td>
+      <td>Registro de observaciones y estado físico inicial de las prendas</td>
+      <td>ET32</td>
+      <td>Implementar dominio y endpoints de inspección de prendas</td>
+      <td>Implementar en Laundry Operations el registro del estado físico inicial y las observaciones de cada prenda al momento de la recepción, con su servicio de aplicación, repositorio y endpoints de registro y consulta.</td>
+      <td align="center">7</td>
+      <td>Ramirez Gutierrez, Gabriel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-030</td>
+      <td>Registro de observaciones y estado físico inicial de las prendas</td>
+      <td>ET33</td>
+      <td>Integrar el registro de observaciones en la recepción del pedido</td>
+      <td>Agregar en el frontend el formulario de estado físico y observaciones de las prendas durante la recepción y mostrarlas en el detalle del pedido, consumiendo los endpoints de inspección.</td>
+      <td align="center">5</td>
+      <td>Ramirez Gutierrez, Gabriel / Pérez Vásquez, Ariana Valeria</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-031</td>
+      <td>Historial de interacciones y notas de atención al cliente</td>
+      <td>ET34</td>
+      <td>Implementar dominio, servicios y endpoints de clientes e interacciones</td>
+      <td>Implementar el agregado Customer y la entidad de interacción (canal, nota, fecha y responsable), junto con los servicios de aplicación, el repositorio y los endpoints para registrar clientes y consultar su historial de interacciones.</td>
+      <td align="center">8</td>
+      <td>Ramirez Gutierrez, Gabriel</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-031</td>
+      <td>Historial de interacciones y notas de atención al cliente</td>
+      <td>ET35</td>
+      <td>Integrar el historial de interacciones en el detalle del cliente</td>
+      <td>Conectar la gestión de clientes del frontend a la API y agregar en el detalle del cliente el historial unificado de comunicaciones y notas de atención.</td>
+      <td align="center">4</td>
+      <td>Ramirez Gutierrez, Gabriel / Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-032</td>
+      <td>Emisión y descarga de comprobantes de pago digitales</td>
+      <td>ET36</td>
+      <td>Implementar dominio y persistencia de pagos y comprobantes</td>
+      <td>Implementar las entidades Payment y Receipt con su número correlativo, montos e impuestos, junto con el servicio de aplicación que emite el comprobante al registrarse un pago y su repositorio en Entity Framework Core.</td>
+      <td align="center">8</td>
+      <td>Tufiño Argüelles, Luis Angel</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-032</td>
+      <td>Emisión y descarga de comprobantes de pago digitales</td>
+      <td>ET37</td>
+      <td>Implementar endpoints de pagos y descarga de comprobantes</td>
+      <td>Implementar los endpoints para registrar el pago de un pedido, consultar los pagos realizados y descargar el comprobante en formato PDF.</td>
+      <td align="center">6</td>
+      <td>Tufiño Argüelles, Luis Angel / Ramirez Gutierrez, Gabriel</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-032</td>
+      <td>Emisión y descarga de comprobantes de pago digitales</td>
+      <td>ET38</td>
+      <td>Integrar la vista de comprobantes de pago con la API</td>
+      <td>Agregar en el frontend la vista de pagos del pedido con la visualización del comprobante y el botón de descarga, consumiendo los endpoints de pagos.</td>
+      <td align="center">5</td>
+      <td>Tufiño Argüelles, Luis Angel / Pérez Vásquez, Ariana Valeria</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-033</td>
+      <td>Módulo de auditoría y registro de acciones del personal</td>
+      <td>ET39</td>
+      <td>Implementar el registro de auditoría de acciones críticas</td>
+      <td>Implementar la entidad AuditLog y el mecanismo que registra automáticamente las acciones críticas del personal (creación y cancelación de pedidos, cambios de estado y registro de pagos), junto con el endpoint de consulta restringido al propietario.</td>
+      <td align="center">7</td>
+      <td>Pérez Vásquez, Ariana Valeria / Ramirez Gutierrez, Gabriel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-033</td>
+      <td>Módulo de auditoría y registro de acciones del personal</td>
+      <td>ET40</td>
+      <td>Implementar la vista de bitácora de auditoría</td>
+      <td>Implementar en el frontend la vista de bitácora de actividad del personal, con filtros por usuario, tipo de acción y rango de fechas, visible solo para el rol propietario.</td>
+      <td align="center">4</td>
+      <td>Pérez Vásquez, Ariana Valeria / Ramirez Gutierrez, Gabriel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-016</td>
+      <td>Gestionar usuarios y roles (pendiente del Sprint 2)</td>
+      <td>ET41</td>
+      <td>Completar la vista de gestión de usuarios y roles</td>
+      <td>Retomar la tarea ET04 del Sprint 2: implementar la vista para que el propietario liste al personal y le asigne un rol, conectada a los endpoints de IAM.</td>
+      <td align="center">5</td>
+      <td>Ramirez Gutierrez, Gabriel / Tufiño Argüelles, Luis Angel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-007</td>
+      <td>Registrar prendas (pendiente del Sprint 2)</td>
+      <td>ET42</td>
+      <td>Completar el registro de prendas del pedido</td>
+      <td>Retomar la tarea ET08 del Sprint 2: completar el registro de prendas con su tipo, cantidad y observaciones de cuidado, persistiéndolas mediante los endpoints de pedidos.</td>
+      <td align="center">5</td>
+      <td>Pérez Vásquez, Ariana Valeria / Ramirez Gutierrez, Gabriel</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-019</td>
+      <td>Gestionar suscripción (pendiente del Sprint 2)</td>
+      <td>ET43</td>
+      <td>Completar los planes y la selección de suscripción</td>
+      <td>Retomar las tareas ET12 y ET13 del Sprint 2: implementar en los Web Services los planes y suscripciones con sus endpoints, y completar la vista de planes para que el propietario seleccione uno.</td>
+      <td align="center">7</td>
+      <td>Tufiño Argüelles, Luis Angel / Pérez Vásquez, Ariana Valeria</td>
+      <td>To-Review</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET44</td>
+      <td>Integrar un servicio externo de terceros</td>
+      <td>Consumir desde los Web Services un servicio externo de terceros (envío de correo electrónico) para notificar al cliente los cambios de estado de su pedido, configurando sus credenciales mediante variables de entorno.</td>
+      <td align="center">5</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole / Tufiño Argüelles, Luis Angel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET45</td>
+      <td>Publicar una nueva versión de la Landing Page</td>
+      <td>Incrustar los videos About-the-Product y About-the-Team en la Landing Page y actualizar los call-to-action de cada segmento objetivo para que redirijan a la vista correspondiente de la Web Application desplegada.</td>
+      <td align="center">5</td>
+      <td>Pérez Vásquez, Ariana Valeria / Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET46</td>
+      <td>Desplegar los Web Services y la base de datos</td>
+      <td>Desplegar la primera versión de los Web Services y la base de datos MySQL en la nube, configurar las variables de entorno y CORS, y actualizar la URL base de la API en el frontend desplegado.</td>
+      <td align="center">7</td>
+      <td>Tufiño Argüelles, Luis Angel / Ramirez Gutierrez, Gabriel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET47</td>
+      <td>Integrar Pull Requests y desplegar la nueva versión de la Web Application</td>
+      <td>Revisar los Pull Requests de cada bounded context, integrarlos en la rama develop siguiendo GitFlow, generar la versión del Sprint en main y desplegar la nueva versión del frontend conectada a los Web Services.</td>
+      <td align="center">6</td>
+      <td>Pérez Vásquez, Ariana Valeria / Ramirez Gutierrez, Gabriel / Ramos Fuentes Rivera, Adriana Nicole / Tufiño Argüelles, Luis Angel</td>
+      <td>In-Process</td>
+    </tr>
+  </tbody>
+</table>
+
+El Sprint Backlog 3 está compuesto por **28 Engineering Tasks**, con una estimación total de **167 horas**: 17 tareas asociadas a las siete User Stories del Sprint Planning 3, 3 tareas que retoman el trabajo pendiente del Sprint 2 y 8 tareas técnicas sin User Story asociada. Cada integrante lidera las tareas de su aspecto en la Leadership-and-Collaboration Matrix y colabora en las tareas de integración de los demás bounded contexts, lo que permite que todos participen en la implementación de los Web Services, de la Web Application y de la Landing Page durante este Sprint.
+
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas

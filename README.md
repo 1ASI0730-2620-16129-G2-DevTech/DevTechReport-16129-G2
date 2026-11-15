@@ -5837,10 +5837,15 @@ En conjunto, los resultados sugieren que WashTrack responde a necesidades releva
 **Usability – Inclusive Design – Information Architecture**
  
 **CARRERA:** Ingeniería de Software
+
 **CURSO:** Aplicaciones Web
+
 **SECCIÓN:** 16129
+
 **PROFESORES:** Todos
+
 **AUDITOR:**
+
 **CLIENTE(S):** DevTech
  
 ---

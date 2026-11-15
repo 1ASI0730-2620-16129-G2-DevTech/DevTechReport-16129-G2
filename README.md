@@ -5614,6 +5614,41 @@ Los User Flows propuestos corresponden a las funcionalidades core de la aplicaci
 9. ¿Qué cambiarías para mejorar esa funcionalidad?
 
 #### 5.3.2. Registro de Entrevistas
+
+### Entrevista 2 – Segmento Objetivo 1: Propietarios de lavanderías independientes
+
+**Entrevistador:** Adriana Nicole Ramos Fuentes Rivera
+
+**Datos del entrevistado:**
+
+- **Nombre:** Jorge
+- **Apellidos:** Laines
+- **Edad:** 54 años
+- **Distrito:** Comas
+- **Timing:** 00:10:12 – 00:27:03
+- **Duración:** 16 minutos y 51 segundos
+- **Enlace de la entrevista:** [Pendiente de incorporar enlace de Microsoft Stream]
+
+**Evidencia de la entrevista:**
+
+![Entrevista 2 - Jorge Laines](assets/img/Chapter5/sprint3/validation-interviews/entrevista2-jorge-laines.png)
+
+*Figura. Entrevista de validación realizada a Jorge Laines, propietario de una lavandería.*
+
+**Resumen descriptivo:**
+
+El entrevistado Jorge Laines, de 54 años y propietario de una lavandería ubicada en Comas, participó en una sesión de validación de la plataforma WashTrack, durante la cual revisó la Landing Page y las funcionalidades de la aplicación web.
+
+En relación con la Landing Page, comprendió que WashTrack permite obtener información puntual sobre las operaciones diarias de una lavandería, como la cantidad de pedidos recibidos y aquellos que permanecen pendientes. Consideró que la propuesta responde a necesidades reales de su negocio y destacó que el seguimiento de pedidos le parece bastante completo. Como oportunidad de mejora, sugirió incorporar una funcionalidad de gestión de costos que permita conocer la ganancia obtenida por cada pedido.
+
+Asimismo, manifestó un alto interés en utilizar WashTrack, debido a su disposición a incorporar mejoras tecnológicas en su negocio. Indicó que inicialmente optaría por el plan gratuito y consideraría migrar al plan básico conforme compruebe los beneficios de la plataforma.
+
+Respecto al registro de pedidos, reconoció que la implementación del sistema añadiría pasos a su proceso actual y requeriría capacitar al personal encargado de la recepción. Sin embargo, consideró que los beneficios superarían estas dificultades, ya que los procedimientos le parecieron sencillos y su personal joven podría adaptarse rápidamente. También destacó la posibilidad de supervisar las operaciones desde su teléfono móvil sin necesidad de encontrarse físicamente en el establecimiento.
+
+La funcionalidad que más valoró fue la visualización de pedidos organizados por columnas según su estado, debido a que le resultó más clara e intuitiva que una tabla convencional. No identificó funcionalidades que le generaran insatisfacción, pues considera que la plataforma ofrece una solución bastante completa para tratarse de su primera experiencia con un sistema de este tipo.
+
+Finalmente, recomendó automatizar el cálculo del precio al registrar un pedido, tomando en cuenta el servicio seleccionado y la cantidad de prendas. Esta mejora permitiría reducir los cálculos manuales del personal de atención y agilizar el proceso de registro.
+
 #### 5.3.3. Evaluaciones según heurísticas
 
 **UX Heuristics & Principles Evaluation**

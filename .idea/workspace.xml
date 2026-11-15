@@ -1,31 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eec808d-f32c-4fd1-8532-744e50699add" name="Changes" comment="" />
+    <list default="true" id="7eec808d-f32c-4fd1-8532-744e50699add" name="Changes" comment="docs: add student outcome second criteria for Gabriel Ramirez">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "adriana832"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;adriana832&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTechReport-16129-G2.git",
-    "accountId": "cde7bd97-a274-43dd-a88b-c7571ae4cfdc"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTechReport-16129-G2.git&quot;,
+    &quot;accountId&quot;: &quot;cde7bd97-a274-43dd-a88b-c7571ae4cfdc&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0122591268368586" />
+      <entry key="MS500" value="1.4271772348872336" />
+      <entry key="S2" value="2.168915194912462" />
+      <entry key="S5" value="2.993745036945258" />
+      <entry key="S10" value="4.155793921467903" />
+      <entry key="S30" value="6.9048715665637825" />
+      <entry key="S60" value="9.319090971647768" />
+      <entry key="M2" value="12.539957566350067" />
+      <entry key="M5" value="21.99953405203933" />
+      <entry key="M10" value="36.29839321549805" />
+      <entry key="M15" value="45.87895300309851" />
+      <entry key="M30" value="60.20658195804246" />
+      <entry key="H1" value="69.94479448039542" />
+      <entry key="H2" value="75.6483505099751" />
+      <entry key="H4" value="78.73839326089292" />
+      <entry key="D1" value="81.44405593163727" />
+      <entry key="W1" value="81.92027138268435" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.4854307961183814E-99" />
+      <entry key="MS500" value="1.715439090310146E-20" />
+      <entry key="S2" value="1.2104860924093242E-5" />
+      <entry key="S5" value="0.013926905958372919" />
+      <entry key="S10" value="0.16083535506404223" />
+      <entry key="S30" value="0.8858910825652946" />
+      <entry key="S60" value="1.4806952580649373" />
+      <entry key="M2" value="2.0332978924471727" />
+      <entry key="M5" value="2.541347392539843" />
+      <entry key="M10" value="2.756041587152243" />
+      <entry key="M15" value="2.833876594950147" />
+      <entry key="M30" value="2.915133624515711" />
+      <entry key="H1" value="2.9571035149104623" />
+      <entry key="H2" value="2.97843437892525" />
+      <entry key="H4" value="2.989187648125578" />
+      <entry key="D1" value="2.9981938215809305" />
+      <entry key="W1" value="2.9997418733991816" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.4175619802321765" />
+      <entry key="MS500" value="0.954673880914417" />
+      <entry key="S2" value="1.788413560874249" />
+      <entry key="S5" value="2.74508986446107" />
+      <entry key="S10" value="4.096943247014704" />
+      <entry key="S30" value="7.637810064677345" />
+      <entry key="S60" value="10.69137071904564" />
+      <entry key="M2" value="14.501706270853468" />
+      <entry key="M5" value="24.502045323764218" />
+      <entry key="M10" value="39.03086371955234" />
+      <entry key="M15" value="48.69568975972769" />
+      <entry key="M30" value="63.11222528042966" />
+      <entry key="H1" value="72.89687156057322" />
+      <entry key="H2" value="78.62419356515512" />
+      <entry key="H4" value="81.72626464387588" />
+      <entry key="D1" value="84.4420274174536" />
+      <entry key="W1" value="84.91998142008671" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="3JF7tMDDbNqfJ0k2LkL6KfA6eof" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,8 +108,9 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "feature/validationInterviews",
     "kotlin-language-version-configured": "true",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
@@ -66,5 +137,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="docs: add interview 2 for Segmento Objetivo 1" />
+    <MESSAGE value="docs: add student outcome first criteria for Gabriel Ramirez" />
+    <MESSAGE value="docs: add student outcome second criteria for Gabriel Ramirez" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: add student outcome second criteria for Gabriel Ramirez" />
   </component>
 </project>

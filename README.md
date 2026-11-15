@@ -7,27 +7,28 @@ Universidad Peruana de Ciencias Aplicadas
 Carrera de Ingeniería de Software
 <br>
 
-**1ASI030**
+##### 1ASI030
 
-**Aplicaciones Web**
+##### Aplicaciones Web
 
 NRC
-**16129**
+##### 16129
 
 #### Informe del Trabajo Final
 
 Docente
 
-**Sanchez Seña, Alberto Wilmer**
+#### Sanchez Seña, Alberto Wilmer
+
 <br>
 
 Equipo
 
-**DevTech**
+#### DevTech
 
 Proyecto
 
-**WashTrack**
+#### WashTrack
 
 <br>
 
@@ -52,7 +53,7 @@ u202216240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tufiño Ar
 **Periodo 202620**
 <br>
 
-**Octubre 2026**
+**Noviembre 2026**
 
 </div>
 <br>
@@ -71,6 +72,7 @@ u202216240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tufiño Ar
 |---|---|---|---|
 | **AV1** | 28/08/2026 | Pérez Vásquez, Ariana Valeria<br><br>Ramirez Gutierrez, Gabriel<br><br>Ramos Fuentes Rivera, Adriana Nicole<br><br>Sayago Vidal, Sebastián Leonardo<br><br>Tufiño Argüelles, Luis Angel | **Capítulo I: Introducción**<br>1.1. Startup Profile<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1. Antecedentes y problemática<br>1.2.2. Lean UX Process<br>1.2.2.1. Lean UX Problem Statements<br>1.2.2.2. Lean UX Assumptions<br>1.2.2.3. Lean UX Hypothesis Statements<br>1.2.2.4. Lean UX Canvas<br>1.3. Segmentos objetivo<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores<br>2.1.1. Análisis competitivo<br>2.1.2. Estrategias y tácticas frente a competidores<br>2.2. Entrevistas<br>2.2.1. Diseño de entrevistas<br>2.2.2. Registro de entrevistas<br>2.2.3. Análisis de entrevistas<br>2.3. Needfinding<br>2.3.1. User Personas<br>2.3.2. User Task Matrix<br>2.3.3. User Journey Mapping<br>2.3.4. Empathy Mapping<br>2.4. Big Picture EventStorming<br>2.5. Ubiquitous Language<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories<br>3.2. Impact Mapping<br>3.3. Product Backlog<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines<br>4.1.1. General Style Guidelines<br>4.1.2. Web Style Guidelines<br>4.2. Information Architecture<br>4.2.1. Organization Systems<br>4.2.2. Labeling Systems<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems<br>4.2.5. Navigation Systems<br>4.3. Landing Page UI Design<br>4.3.1. Landing Page Wireframe<br>4.3.2. Landing Page Mock-up<br>4.4. Web Applications UX/UI Design<br>4.4.1. Web Applications Wireframes<br>4.4.2. Web Applications Wireflow Diagrams<br>4.4.2. Web Applications Mock-ups<br>4.4.3. Web Applications User Flow Diagrams<br>4.5. Web Applications Prototyping<br>4.6. Domain-Driven Software Architecture<br>4.6.1. Design-Level EventStorming<br>4.6.2. Software Architecture Context Diagram<br>4.6.3. Software Architecture Container Diagrams<br>4.6.4. Software Architecture Components Diagrams<br>4.7. Software Object-Oriented Design<br>4.7.1. Class Diagrams<br>4.8. Database Design<br>4.8.1. Database Diagrams<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management<br>5.1.1. Software Development Environment Configuration<br>5.1.2. Source Code Management<br>5.1.3. Source Code Style Guide & Conventions<br>5.1.4. Software Deployment Configuration<br>5.2. Landing Page, Services & Applications Implementation<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1<br>5.2.1.2. Aspect Leaders and Collaborators<br>5.2.1.3. Sprint Backlog 1<br>5.2.1.4. Development Evidence for Sprint Review<br>5.2.1.5. Execution Evidence for Sprint Review<br>5.2.1.6. Services Documentation Evidence for Sprint Review<br>5.2.1.7. Software Deployment Evidence for Sprint Review<br>5.2.1.8. Team Collaboration Insights during Sprint |
 | **TB1** | 08/10/2026 | Pérez Vásquez, Ariana Valeria<br><br>Ramirez Gutierrez, Gabriel<br><br>Ramos Fuentes Rivera, Adriana Nicole<br><br>Sayago Vidal, Sebastián Leonardo<br><br>Tufiño Argüelles, Luis Angel | 5.2.2. Sprint 2<br>5.2.2.1. Sprint Planning 2<br>5.2.2.2. Aspect Leaders and Collaborators<br>5.2.2.3. Sprint Backlog 2<br>5.2.2.4. Development Evidence for Sprint Review<br>5.2.2.5. Execution Evidence for Sprint Review<br>5.2.2.6. Services Documentation Evidence for Sprint Review<br>5.2.2.7. Software Deployment Evidence for Sprint Review<br>5.2.2.8. Team Collaboration Insights during Sprint |
+| **AV2** | 15/11/2026 | Pérez Vásquez, Ariana Valeria<br><br>Ramirez Gutierrez, Gabriel<br><br>Ramos Fuentes Rivera, Adriana Nicole<br><br>Tufiño Argüelles, Luis Angel | 5.2.3. Sprint 3<br>5.2.3.1. Sprint Planning 3<br>5.2.3.2. Aspect Leaders and Collaborators<br>5.2.3.3. Sprint Backlog 3<br>5.2.3.4. Development Evidence for Sprint Review<br>5.2.3.5. Execution Evidence for Sprint Review<br>5.2.3.6. Services Documentation Evidence for Sprint Review<br>5.2.3.7. Software Deployment Evidence for Sprint Review<br>5.2.3.8. Team Collaboration Insights during Sprint |
 
 <div style="page-break-after: always;"></div>
 
@@ -293,6 +295,15 @@ URL del frontend desplegado: [https://washtrack-eb717.web.app](https://washtrack
         - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
         - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
         - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+      - [5.2.3. Sprint 3](#523-sprint-3)
+        - [5.2.3.1. Sprint Planning 3](#523-sprint-planning-3)
+        - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+        - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+        - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+        - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+        - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+        - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+        - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
     - [5.3. Validation Interviews](#53-validation-interviews)
       - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
       - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -337,6 +348,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Desarrollé la Information Architecture, la Landing Page UI, elaborando el wireframe y mock-up de la página principal de WashTrack, considerando la distribución de los elementos, jerarquía visual, navegación y presentación de la propuesta de valor del producto.<br>
         <em><b>TB1</b></em><br>
         Participé en el desarrollo de la primera versión del Frontend Web Application para el Sprint 2, asumiendo la responsabilidad principal del módulo de Order Management que es la creación, consulta y organización de pedidos, asegurando la correcta integración de las vistas y componentes alineados con las User Stories y los bounded contexts del proyecto WashTrack.<br>
+        <em><b>AV2</b></em><br>
+       Participé en el desarrollo y planificación del Sprint 3 para WashTrack, liderando como Aspect Leader el módulo de <b>Order Management</b>. Me encargué del diseño, estructuración y desarrollo de los flujos e interfaz de gestión de pedidos en la plataforma, coordinando con el equipo de TechNova la correcta integración de las vistas, la asignación de responsabilidades y la consistencia visual y funcional del sistema conforme a los requerimientos del curso.<br>
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
@@ -344,6 +357,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <em><b>TB1</b></em><br>
         En el Sprint 2 asumí la responsabilidad del bounded context de Identity and Access Management (IAM) para la primera versión del frontend de WashTrack. Implementé el modelo de usuario y el contrato del repositorio, las vistas y rutas de inicio de sesión y registro, el estado de autenticación y su integración con la API mock. También desarrollé los servicios de aplicación y el controlador de autenticación, coordinando su integración con la estructura compartida de la aplicación y las traducciones en español e inglés. El trabajo se incorporó a la rama de desarrollo mediante `feature/iam` y su Pull Request, contribuyendo a integrar el módulo con los demás componentes del equipo.<br>
         <br>
+        <em><b>AV2</b></em><br>
+        Durante el Sprint 3, asumí la responsabilidad del desarrollo del bounded context de Laundry Operations en el backend de WashTrack, contribuyendo a la implementación de una arquitectura basada en Domain-Driven Design (DDD). Desarrollé los componentes del Domain Model, incluyendo Value Objects, Commands, Queries, repositorios y eventos de dominio relacionados con la gestión de pedidos, recursos y ciclos de lavado. Asimismo, implementé los Command Services y Query Services de la capa Application, los mecanismos de persistencia de Infrastructure y los endpoints REST para exponer las funcionalidades del módulo.
+
+  También contribuí al desarrollo de componentes compartidos del backend, incluyendo configuraciones de persistencia, manejo de errores y convenciones de rutas. Finalmente, coordiné la integración de mis avances con la estructura general del proyecto mediante ramas de desarrollo y Pull Requests, facilitando la incorporación del módulo de Laundry Operations junto con los demás bounded contexts implementados por el equipo.
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
         Participé en el desarrollo de los entregables relacionados con la definición de la startup y la solución, elaborando el Startup Profile, los perfiles de los integrantes del equipo y el Solution Profile. Asimismo, desarrollé el análisis de antecedentes y problemática mediante el Lean UX Process, incluyendo los Problem Statements, Assumptions, Hypothesis Statements y Lean UX Canvas. Complementé este trabajo con el análisis de competidores, entrevistas y técnicas de Needfinding, como User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping. Finalmente, trabajé en la construcción del Big Picture EventStorming y el Ubiquitous Language, aportando estos resultados al desarrollo conjunto del proyecto y facilitando una visión compartida de la solución y de las necesidades de los usuarios.<br>
@@ -356,12 +373,19 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>Tufiño Argüelles, Luis Angel</b><br>
         <em><b>AV1</b></em><br>
         - Propuso y sustentó ante el equipo los criterios de usabilidad y arquitectura de información aplicados en el diseño de las pantallas de WashTrack (Dashboard, Pedidos, Clientes, Pagos), argumentando cada decisión con heurísticas de Nielsen y principios de Gestalt.<br>
-        - Lideró la identificación de los User Goals a partir de los User Persona del proyecto, coordinando con el equipo la priorización de los flujos por segmento (Propietario de lavandería y Cliente).
-        ...
+        - Lideró la identificación de los User Goals a partir de los User Persona del proyecto, coordinando con el equipo la priorización de los flujos por segmento (Propietario de lavandería y Cliente).<br>
+        <em><b>TB1</b></em><br>
+        En el Sprint 2 asumí la responsabilidad del bounded context de Subscription &amp; Payment en la primera versión del frontend de WashTrack, desarrollando el catálogo de pagos, el flujo de registro de pagos y la validación de sus identificadores. Además, propuse e implementé componentes compartidos que adoptaron los demás módulos, como la barra de búsqueda del encabezado, el algoritmo Merge Sort, los helpers de búsqueda y los estilos comunes de los tableros, lo que dio una experiencia uniforme a toda la aplicación. También lideré la integración de los módulos del equipo en una sola versión del frontend y configuré su despliegue en Render.<br>
+        <em><b>AV2</b></em><br>
+        Durante el Sprint 3 lideré el bounded context de Subscription &amp; Payment: desarrollé en el backend los módulos de Payments y Subscriptions aplicando Domain-Driven Design y actualicé el frontend de este bounded context para que consuma la API. Además, creé la base de datos MySQL en la nube que utiliza el equipo y actualicé la Landing Page.
       </td>
       <td>
         <b>AV1</b><br>
         <p>En conclusión, logramos ejercer un liderazgo conjunto y transversal a lo largo de todas las fases del proyecto, desde la asignación estratégica de roles iniciales y la facilitación compartida del Lean UX Process, Needfinding y Big Picture EventStorming (Capítulos I y II), hasta la toma de decisiones técnicas para el Product Backlog, arquitectura DDD y diseño de bases de datos (Capítulos III y IV). Asimismo, asumimos de forma colaborativa la dirección de los Sprints y la asignación de líderes por aspectos en la fase de implementación (Capítulo V), demostrando una capacidad constante para orientar al grupo hacia el cumplimiento de cada hito técnico y estratégico del proyecto.</p>
+        <b>TB1</b><br>
+        <p>El equipo consolidó una estructura colaborativa sólida durante el desarrollo de la primera versión del frontend de WashTrack. Cada integrante asumió el liderazgo de un módulo específico (Order Management, Laundry Operations, etc.), asegurando que los componentes respondieran de manera integrada a las User Stories y a los requerimientos del proyecto.</p>
+        <b>AV2</b><br>
+        <p>En el AV2, reforzamos el liderazgo compartido mediante la planificación del Sprint 3 y la redistribución eficiente de roles dentro de TechNova. Gracias a la asignación de *Aspect Leaders* por cada módulo, coordinamos con éxito las vistas y flujos del sistema, garantizando la consistencia técnica, visual y funcional de la plataforma.</p>
       </td>
     </tr>
     <tr>
@@ -373,12 +397,18 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Desarrollé las secciones asignadas del Capítulo IV, relacionadas con Style Guidelines, Information Architecture y Landing Page UI Design, coordinando con los integrantes del equipo para mantener la coherencia del proyecto y cumplir con las actividades planificadas.<br>
         <em><b>TB1</b></em><br>
         Gestioné y ajusté el Product Backlog del proyecto, estructurando un total de 38 historias de usuario actualizadas para la fase de desarrollo web. Asimismo, participé en la planificación del Sprint 2, estableciendo las metas, los bounded contexts y organizando las tareas de integración visual para el equipo TechNova<br>
+        <em><b>AV2</b></em><br>
+        Participé activamente en la planificación y gestión de tareas para el Sprint 3 de WashTrack, colaborando en la organización de los aspectos técnicos del equipo y asumiendo el rol de Aspect Leader en el módulo de Order Management. Contribuí a mantener un entorno de trabajo colaborativo e inclusivo, asegurando el cumplimiento oportuno de los objetivos de diseño y desarrollo frontend establecidos para esta etapa del proyecto.<br>
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
         Contribuí a la organización del trabajo del equipo al revisar la prioridad de las User Stories y validar que el Product Backlog y la implementación de la Landing Page estuvieran alineados con los objetivos del Sprint. Además, apoyé la coordinación técnica y la revisión funcional para asegurar que cada tarea cumpliera con los criterios de aceptación y se entregara dentro de los plazos establecidos.<br>
         <em><b>TB1</b></em><br>
         Para el Sprint 2, enfoqué mi aporte en el alcance acordado para el frontend y en el desarrollo del módulo IAM: autenticación, registro de usuarios y conexión de esos flujos con la API mock. Organicé los cambios en la rama `feature/iam` y coordiné su integración con `develop` mediante Pull Request. También contribuí a la revisión de las rutas y vistas de acceso en la versión integrada, apoyando el objetivo común de incorporar los distintos bounded contexts en una primera versión del frontend.<br>
+        <em><b>AV2</b></em><br>
+  Durante el Sprint 3, organicé mis actividades de desarrollo de acuerdo con los objetivos establecidos para el backend de WashTrack, dividiendo la implementación del bounded context de Laundry Operations en tareas correspondientes a las capas Domain, Application, Infrastructure e Interfaces. Este enfoque permitió desarrollar progresivamente los modelos de dominio, servicios de aplicación, repositorios, persistencia y endpoints REST, manteniendo una estructura coherente con la arquitectura acordada por el equipo.
+
+Utilicé GitHub para registrar los avances mediante commits descriptivos y gestionar la integración del código a través de la rama feature/LaundryOperations y su respectivo Pull Request. Asimismo, realicé ajustes en las dependencias, configuración de servicios y componentes compartidos para favorecer la compatibilidad con los demás módulos del backend. Estas actividades contribuyeron a mantener una colaboración organizada, facilitar la integración de funcionalidades y cumplir con los objetivos técnicos asignados para el incremento del producto en el Sprint 3.
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
         Desarrollé los diferentes componentes del proyecto siguiendo una estructura organizada, comenzando por la definición de la Startup Profile, la identificación de la problemática y los segmentos objetivo, y continuando con el levantamiento y análisis de requerimientos. Para ello, elaboré el análisis competitivo, el diseño, registro y análisis de entrevistas, y las herramientas de Needfinding, como User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping. Además, desarrollé el Big Picture EventStorming y el Ubiquitous Language, permitiendo organizar y consolidar la información obtenida durante el análisis. Estas acciones contribuyeron al cumplimiento progresivo de los objetivos y entregables establecidos para el proyecto.
@@ -391,12 +421,20 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>Tufiño Argüelles, Luis Angel</b><br>
         <em><b>AV1</b></em><br>
         - Elaboró los Wireframes, Wireflow Diagrams y Mock-ups correspondientes a los principales módulos de WashTrack y de la App Cliente, organizando el avance por pantalla para cumplir con el alcance planteado para AV1.<br>
-        - Incorporó la retroalimentación del equipo para ajustar los flujos propuestos (por ejemplo, separar el goal de asignar un repartidor del de monitorear un envío en curso), cumpliendo con los plazos acordados para esta entrega.
+        - Incorporó la retroalimentación del equipo para ajustar los flujos propuestos (por ejemplo, separar el goal de asignar un repartidor del de monitorear un envío en curso), cumpliendo con los plazos acordados para esta entrega.<br>
+        <em><b>TB1</b></em><br>
+        Para el Sprint 2 organicé mi trabajo en la rama `feature/Subscription&Payment`, registrando los avances del módulo de pagos y de los componentes compartidos mediante commits descriptivos. Estandaricé el formato de los identificadores en la API mock y configuré sus rutas para que todos los módulos trabajaran sobre los mismos datos. Al integrar mi rama con `develop` resolví los conflictos conservando el trabajo de mis compañeros, de modo que la versión integrada incorporara los aportes de todo el equipo.<br>
+        <em><b>AV2</b></em><br>
+        En el Sprint 3 me encargué de las secciones del informe correspondientes al Sprint 3, entre ellas Aspect Leaders and Collaborators y Development Evidence for Sprint Review, documentando la distribución de roles y el avance del equipo. Organicé mi desarrollo en la rama `feature/Subscription-&-Payments` y lo integré a `develop` mediante Pull Request, cumpliendo con los objetivos planificados para el sprint.
       <br>
       </td>
       <td>
         <b>AV1</b><br>
         <p>En conclusión, consolidamos un entorno de trabajo altamente colaborativo e inclusivo al integrar las opiniones e ideas de todos los integrantes durante las dinámicas de brainstorming, diseño UX/UI y definición de requisitos (Capítulos I al IV). Además, demostramos rigurosidad en el establecimiento de metas y planificación de tareas al gestionar de forma ordenada el Sprint Backlog, los entornos de desarrollo, la documentación de servicios y las revisiones de código y despliegue (Capítulo V), lo que nos permitió alcanzar con éxito los objetivos de software y entregar un producto funcional dentro de los plazos establecidos.</p>
+        <b>TB1</b><br>
+        <p>Durante el TB1, establecimos metas claras y planificamos de forma organizada las tareas orientadas al desarrollo de las User Stories del Sprint 2. Esto fomentó una comunicación abierta y un ambiente inclusivo en el equipo, logrando cumplir puntualmente con los objetivos de integración del frontend.</p>
+        <b>AV2</b><br>
+        <p>En el AV2, la gestión del Sprint 3 permitió mantener un entorno de trabajo colaborativo e inclusivo para los cuatro integrantes del equipo. Mediante una planificación estructurada y el desarrollo en paralelo de la documentación y la implementación, logramos cumplir con los objetivos establecidos para esta etapa del proyecto WashTrack.</p>
       </td>
     </tr>
   </tbody>
@@ -2898,28 +2936,32 @@ Los prototipos fueron construidos en Figma, incluyendo simulación de interacci�
 
 
 ### 4.6. Domain-Driven Software Architecture
-La arquitectura de software de WashTrack se diseña aplicando Domain-Driven Design (DDD), de modo que la estructura del código refleje el modelo del negocio de lavanderías: recepción de prendas, procesamiento por etapas, cobro, suscripciones y seguimiento del pedido. El dominio se divide en seis Bounded Contexts, cada uno con su propio lenguaje ubicuo, sus agregados y sus reglas:
+La arquitectura de software de WashTrack se diseña aplicando Domain-Driven Design (DDD), de modo que la estructura del código refleje el modelo del negocio de lavanderías: recepción de prendas, procesamiento por etapas, cobro, suscripciones y seguimiento del pedido. El dominio se divide en ocho Bounded Contexts, cada uno con su propio lenguaje ubicuo, sus agregados y sus reglas:
  
 | Bounded Context | Responsabilidad | Aggregate roots |
 |---|---|---|
-| Identity & Access | Registro, autenticación y roles de los usuarios | User |
-| Customer & Business Management | Datos de clientes y de la lavandería | Customer, Laundry |
-| Order Management | Registro del pedido, sus prendas y su estado | Order |
-| Laundry Operations | Procesamiento del pedido, ciclos de lavado y recursos (lavadoras, secadoras) | LaundryOrder, LaundryResource |
-| Subscription & Payment | Planes, suscripciones, créditos y cobros | Payment, Subscription, SubscriptionPlan |
-| Tracking & Notifications | Seguimiento del pedido y avisos al usuario | Tracking, Notification |
+| Identity & Access | Registro, autenticación, recuperación de contraseña y roles de los usuarios (cliente y encargado de turno) | User |
+| Customer Management | Registro y consulta de clientes con su documento de identidad (DNI o CE) | Customer |
+| Order Management | Registro del pedido, sus prendas, el tipo de servicio y su estado | Order |
+| Laundry Operations | Procesamiento del pedido por etapas, ciclos de lavado y recursos (lavadoras, secadoras) | LaundryOrder, LaundryResource |
+| Service Catalog | Catálogo de servicios y prendas con precio base, tiempo estimado y demanda | LaundryService, Garment |
+| Payments | Registro y estado de los pagos de los pedidos | Payment |
+| Pickups & Deliveries | Programación y seguimiento de recojos y entregas a domicilio | Delivery |
+| Tracking & Notifications | Seguimiento del pedido y avisos al usuario | OrderTracking, Notification |
+
+Además, un módulo de Dashboard consolida métricas de lectura (pedidos por estado, ingresos, servicios más solicitados y número de clientes) a partir de los datos de Order Management, Payments y Customer Management, sin agregados propios.
  
 Cada contexto sigue una arquitectura en capas, con dependencias que apuntan hacia el dominio:
  
 - **Presentation:** controllers y componentes de interfaz. Solo invocan servicios de aplicación.
-- **Application:** servicios de aplicación que orquestan casos de uso, y puertos (`AuthenticationService`, `PaymentGateway`) que abstraen lo externo.
+- **Application:** servicios de aplicación y stores que orquestan casos de uso, y puertos (`AuthenticationService`) que abstraen lo externo.
 - **Domain:** aggregate roots, entidades, value objects, enumeraciones e interfaces de repositorio. No depende de ninguna otra capa.
 - **Infrastructure:** implementaciones de repositorios, adaptadores y capas anticorrupción (ACL).
 Las relaciones entre contextos siguen tres reglas:
  
-1. **Referencias solo por identificador.** Por ejemplo, `Order` guarda `customerId` y `laundryId`, y `LaundryOrder` guarda `orderId`. Ningún contexto mantiene objetos de otro.
-2. **Shared Kernel mínimo.** Contiene `AggregateRoot`, `Repository<T>`, `DomainEvent`, `Money` y `BaseRepository<T>`, más componentes de interfaz comunes (`Layout`, `Navigation`).
-3. **Aislamiento de sistemas externos con ACL.** `ResourceMonitoringACL` traduce la telemetría del IoT Gateway (`SensorTelemetryPayload`) a `ResourceStatus`. `PaymentGatewayACL` traduce la respuesta del proveedor de pagos a `PaymentResult`.
+1. **Referencias solo por identificador.** Por ejemplo, `Order` guarda `customerId` y `laundryId`; `LaundryOrder`, `Payment`, `Delivery` y `OrderTracking` guardan `orderId`; y `Notification` guarda `userId`. Ningún contexto mantiene objetos de otro.
+2. **Shared Kernel mínimo.** Contiene `AggregateRoot`, `Repository<T>`, `DomainEvent`, `Money`, `Currency`, `BaseRepository<T>`, `BaseApi` y `BaseEndpoint`, más componentes de interfaz comunes (`Layout`, `Sidebar`, `Topbar`, `LanguageSwitcher`).
+3. **Aislamiento de sistemas externos con ACL.** `ResourceMonitoringACL` traduce la telemetría del IoT Gateway (`SensorTelemetryPayload`) a `ResourceStatus`: el código `0` corresponde a `AVAILABLE`, `1` a `BUSY` y `2` (o cualquier código desconocido) a `MAINTENANCE`.
 
 #### 4.6.1. Design-Level EventStorming
 En esta etapa se refinan los eventos de dominio hasta el nivel de diseño. Cada comando se asocia al agregado que lo atiende y al evento que produce. Las políticas (*policies*) conectan eventos de un contexto con comandos de otro.
@@ -2930,41 +2972,46 @@ En esta etapa se refinan los eventos de dominio hasta el nivel de diseño. Cada 
 |---|---|---|---|---|
 | Identity & Access | Usuario | Registrarse (`signUp`) | User | `UserRegistered` |
 | | Usuario | Iniciar sesión (`signIn`) | User | `UserAuthenticated` |
-| Customer & Business | Dueño de lavandería | Crear / actualizar lavandería | Laundry | `LaundryCreated`, `LaundryUpdated` |
-| | Cliente | Actualizar perfil | Customer | `CustomerUpdated` |
-| Order Management | Cliente / Operador | Crear pedido | Order | `OrderCreated` |
-| | Cliente / Operador | Agregar / quitar prenda | Order | `GarmentItemAdded`, `GarmentItemRemoved` |
-| | Operador | Cambiar estado | Order | `OrderReceived`, `OrderClassified`, `OrderInProcess`, `OrderReady`, `OrderDelivered` |
-| Laundry Operations | Operador | Recibir pedido | LaundryOrder | `LaundryOrderReceived` |
-| | Operador | Clasificar pedido | LaundryOrder | `LaundryOrderClassified` |
-| | Operador | Asignar ciclo de lavado | LaundryOrder | `WashingCycleAssigned` |
-| | Operador | Asignar recurso | LaundryResource | `ResourceAssigned` |
-| | Operador | Avanzar etapa | LaundryOrder | `StageAdvanced` (Washing, Drying/Ironing, Packaging, Ready) |
-| | Operador | Priorizar pedido | LaundryOrder | `OrderPrioritized` |
-| | Operador / IoT | Liberar recurso | LaundryResource | `ResourceReleased` |
-| | IoT Gateway (vía ACL) | Sincronizar estado del recurso | LaundryResource | `ResourceStatusChanged` |
-| Subscription & Payment | Cliente | Suscribirse a un plan | Subscription | `SubscriptionActivated` |
-| | Sistema | Validar suscripción | Subscription | `SubscriptionValidated` |
-| | Sistema | Aplicar beneficio | Subscription | `BenefitApplied` |
-| | Cliente | Cancelar suscripción | Subscription | `SubscriptionCancelled` |
-| | Cliente | Crear pago | Payment | `PaymentCreated` |
-| | Sistema (vía ACL) | Procesar pago | Payment | `PaymentProcessed`, `PaymentFailed` |
-| | Sistema | Confirmar pago | Payment | `PaymentConfirmed` |
-| Tracking & Notifications | Sistema | Registrar cambio de estado | Tracking | `StatusHistoryRecorded` |
-| | Sistema | Enviar notificación | Notification | `NotificationSent` |
+| | Usuario | Recuperar contraseña (`resetPassword`) | User | `PasswordReset` |
+| Customer Management | Operador | Registrar cliente (`createCustomer`) | Customer | `CustomerRegistered` |
+| Order Management | Operador | Crear pedido (`placeOrder`) | Order | `OrderCreated` |
+| | Operador | Agregar / actualizar / quitar prenda (`addItem`, `updateItem`, `removeItem`) | Order | `GarmentItemAdded`, `GarmentItemUpdated`, `GarmentItemRemoved` |
+| | Operador | Cambiar estado (`changeOrderStatus`) | Order | `OrderReceived`, `OrderClassified`, `OrderInProcess`, `OrderReady`, `OrderDelivered` |
+| Laundry Operations | Operador | Recibir pedido (`receiveOrder`) | LaundryOrder | `LaundryOrderReceived` |
+| | Operador | Clasificar pedido (`classifyOrder`) | LaundryOrder | `LaundryOrderClassified` |
+| | Operador | Asignar ciclo de lavado (`assignWashingCycle`) | LaundryOrder | `WashingCycleAssigned` |
+| | Operador | Asignar recurso (`assignResource`) | LaundryOrder, LaundryResource | `ResourceAssigned` |
+| | Operador | Avanzar etapa (`advanceStage`) | LaundryOrder | `StageAdvanced` (Washing, Drying/Ironing, Packaging, Ready) |
+| | Operador | Priorizar pedido (`prioritizeOrder`) | LaundryOrder | `OrderPrioritized` |
+| | Sistema | Liberar recurso (`releaseResource`) | LaundryResource | `ResourceReleased` |
+| | IoT Gateway (vía ACL) | Sincronizar estado del recurso (`syncResourceStatuses`) | LaundryResource | `ResourceStatusChanged` |
+| Service Catalog | Operador | Registrar servicio (`createService`) | LaundryService | `ServiceRegistered` |
+| | Operador | Registrar prenda (`createGarment`) | Garment | `GarmentRegistered` |
+| Payments | Operador | Registrar pago (`createPayment`) | Payment | `PaymentRegistered` (Paid, Pending, Cancelled) |
+| Pickups & Deliveries | Operador | Programar recojo o entrega | Delivery | `PickupScheduled`, `DeliveryScheduled` |
+| | Repartidor | Iniciar ruta | Delivery | `PickupOnTheWay`, `OrderOnTheWay` |
+| | Repartidor | Completar / cancelar recojo o entrega | Delivery | `DeliveryCompleted`, `DeliveryCancelled` |
+| Tracking & Notifications | Sistema | Registrar cambio de etapa (`updateTracking`) | OrderTracking | `TrackingStageRecorded` |
+| | Sistema | Enviar notificación (`addNotification`) | Notification | `NotificationSent` |
+| | Usuario | Marcar notificación como leída (`markNotificationAsRead`) | Notification | `NotificationRead` |
  
 **Políticas entre Bounded Contexts**
  
 - *Cuando* `OrderReceived` ocurre en Order Management, *entonces* Laundry Operations ejecuta **Recibir pedido**.
-- *Cuando* `StageAdvanced` ocurre en Laundry Operations, *entonces* Tracking ejecuta **Registrar cambio de estado**.
-- *Cuando* `StatusHistoryRecorded` ocurre, *entonces* Notifications ejecuta **Enviar notificación** al usuario (`recipientId`).
-- *Cuando* `OrderReady` ocurre, *entonces* Subscription & Payment puede ejecutar **Aplicar beneficio** o **Crear pago**.
-- *Cuando* `PaymentConfirmed` ocurre, *entonces* Order Management puede continuar el flujo hacia la entrega.
+- *Cuando* `StageAdvanced` ocurre en Laundry Operations, *entonces* Tracking ejecuta **Registrar cambio de etapa**.
+- *Cuando* `StageAdvanced` llega a la etapa Ready, *entonces* Laundry Operations ejecuta **Liberar recurso**.
+- *Cuando* `TrackingStageRecorded` ocurre, *entonces* Notifications ejecuta **Enviar notificación** de tipo `order-stage-changed` al usuario (`userId`).
+- *Cuando* `PickupOnTheWay` u `OrderOnTheWay` ocurre en Pickups & Deliveries, *entonces* Notifications ejecuta **Enviar notificación** de tipo `pickup-on-the-way` u `order-on-the-way`.
+- *Cuando* `OrderReady` ocurre, *entonces* Payments puede ejecutar **Registrar pago** y, si el método de entrega es `DELIVERY`, Pickups & Deliveries puede ejecutar **Programar recojo o entrega**.
+- *Cuando* `PaymentRegistered` ocurre con estado Paid, *entonces* Order Management puede continuar el flujo hacia la entrega.
 **Reglas de negocio que restringen los comandos (en la capa de dominio)**
  
-- `Order` solo admite agregar o quitar prendas mientras está en estado `CREATED`, y el estado solo avanza en la secuencia `CREATED → RECEIVED → CLASSIFIED → IN_PROCESS → READY → DELIVERED`.
-- `LaundryOrder` no puede pasar a lavado sin un ciclo de lavado y un recurso asignados, y no cambia de prioridad una vez `READY`.
-- `LaundryResource` solo se asigna si está `AVAILABLE` y solo se libera si está `BUSY`.
+- `Order` solo admite agregar o quitar prendas mientras está en estado `CREATED`, necesita al menos una prenda para pasar a `RECEIVED`, su fecha estimada de entrega no puede ser anterior a la fecha de recepción, y el estado solo avanza en la secuencia `CREATED → RECEIVED → CLASSIFIED → IN_PROCESS → READY → DELIVERED`.
+- `LaundryOrder` avanza una etapa a la vez en la secuencia `RECEPTION → CLASSIFICATION → WASHING → DRYING_IRONING → PACKAGING → READY`, solo recibe ciclo de lavado y recurso durante `CLASSIFICATION`, no puede pasar a lavado sin ambos asignados, y no cambia de prioridad una vez `READY`. Un pedido VIP no listo cuya fecha esperada ya pasó se marca en riesgo de entrega.
+- `LaundryResource` solo se asigna si está `AVAILABLE` y solo se libera si está `BUSY`; la telemetría del IoT no cambia a `AVAILABLE` un recurso que está `BUSY`.
+- `Customer` se identifica con el formato `CL000`, su teléfono debe tener 9 dígitos y su documento debe tener 8 dígitos si es DNI o 9 dígitos si es CE.
+- `LaundryService` y `Garment` se identifican con los formatos `S000` y `P000`, y requieren un precio base mayor o igual a cero y un tiempo estimado de al menos una hora.
+- `Payment` se identifica con el formato `PG000` y su monto no puede ser negativo.
 
 ### EventStorming
 
@@ -3041,72 +3088,98 @@ La API se divide en capas para separar la exposición HTTP, los casos de uso, la
 
 ### 4.7. Software Object-Oriented Design
 
-El diseño orientado a objetos de WashTrack representa el dominio del sistema siguiendo los principios de Domain-Driven Design (DDD). Para ello, el modelo se organiza en seis Bounded Contexts (Identity & Access, Customer & Business Management, Order Management, Laundry Operations, Subscription & Payment y Tracking & Notifications), cada uno con su propio lenguaje ubicuo, sus agregados y sus reglas de negocio. Todos los aggregate roots extienden la clase abstracta `AggregateRoot` del Shared Kernel.
+El diseño orientado a objetos de WashTrack representa el dominio del sistema siguiendo los principios de Domain-Driven Design (DDD). Para ello, el modelo se organiza en ocho Bounded Contexts (Identity & Access, Customer Management, Order Management, Laundry Operations, Service Catalog, Payments, Pickups & Deliveries y Tracking & Notifications), además del módulo de Dashboard, cada uno con su propio lenguaje ubicuo, sus agregados y sus reglas de negocio. Los aggregate roots `User` y `Order` extienden la clase abstracta `AggregateRoot` del Shared Kernel, que exige un identificador UUID válido.
  
-Dentro de cada Bounded Context, las clases se distribuyen en cuatro capas: Domain (aggregate roots, entities, value objects, enumeraciones e interfaces de repositorio), Application (servicios y puertos), Infrastructure (implementaciones de repositorios, adaptadores y capas anticorrupción hacia sistemas externos) y Presentation (controllers y componentes de interfaz). En el contexto de Identity & Access se detalla además el modelo del frontend, con el store, las vistas de inicio de sesión y registro, los guards, el interceptor HTTP y los assemblers que convierten recursos de la API en entidades.
+Dentro de cada Bounded Context, las clases se distribuyen en cuatro capas: Domain (aggregate roots, entities, value objects, enumeraciones e interfaces de repositorio), Application (servicios y puertos), Infrastructure (implementaciones de repositorios, adaptadores y capas anticorrupción hacia sistemas externos) y Presentation (controllers y componentes de interfaz). En el contexto de Identity & Access se detalla además el modelo del frontend, con el store, las vistas de inicio de sesión, registro y recuperación de contraseña, el controller, el servicio de identidad y los assemblers que convierten recursos de la API en entidades.
  
-Los Bounded Contexts se comunican entre sí únicamente mediante referencias por identificador (por ejemplo, `Order.customerId`, `LaundryOrder.orderId` o `Payment.orderId`). Comparten un Shared Kernel con los elementos base del dominio (`AggregateRoot`, `Repository`, `DomainEvent` y `Money`), la infraestructura común (`BaseRepository`) y los componentes de presentación compartidos (`Layout` y `Navigation`). La integración con sistemas externos se aísla mediante capas anticorrupción: en Laundry Operations, `ResourceMonitoringACL` traduce la telemetría del IoT Gateway al estado del recurso, y en Subscription & Payment, `PaymentGatewayACL` traduce la respuesta del proveedor de pagos a un `PaymentResult`.
+Los Bounded Contexts se comunican entre sí únicamente mediante referencias por identificador (por ejemplo, `Order.customerId`, `LaundryOrder.orderId`, `Payment.orderId`, `Delivery.orderId` u `OrderTracking.orderId`). Comparten un Shared Kernel con los elementos base del dominio (`AggregateRoot`, `Repository`, `DomainEvent`, `Money` y `Currency`), la infraestructura común (`BaseApi`, `BaseEndpoint` y `BaseRepository`) y los componentes de presentación compartidos (`Layout`, `Sidebar`, `Topbar` y `LanguageSwitcher`). La integración con sistemas externos se aísla mediante una capa anticorrupción: en Laundry Operations, `ResourceMonitoringACL` traduce la telemetría del IoT Gateway al estado del recurso.
 #### 4.7.1. Class Diagrams
 
 A continuación se presenta primero la vista general de los Bounded Contexts y luego el diagrama de clases de cada uno.
 
 **Vista general de Bounded Contexts**
-
+* Frontend
 <div align="center">
     <img src="assets/img/Chapter4/class-diagram-overview.png" alt="Vista general de bounded contexts" width="100%"/>
 </div>
+<br>
 
 **Identity & Access Bounded Context**
-
+* Frontend
 <div align="center">
     <img src="assets/img/Chapter4/class-diagram-identity-access.png" alt="Class diagram Identity & Access" width="100%"/>
 </div>
+<br>
 
-**Identity & Access Services Model**
-
+**Customer Management Bounded Context**
+* Frontend
 <div align="center">
-    <img src="assets/img/Chapter4/class-diagram-iam-services.png" alt="Class diagram Identity & Access Services" width="100%"/>
+    <img src="assets/img/Chapter4/class-diagram-customer-management.png" alt="Class diagram Customer Management" width="100%"/>
 </div>
-
-**Customer & Business Management Bounded Context**
-
-<div align="center">
-    <img src="assets/img/Chapter4/class-diagram-customer-business-management.png" alt="Class diagram Customer & Business Management" width="100%"/>
-</div>
+<br>
 
 **Order Management Bounded Context**
-
+* Frontend
 <div align="center">
     <img src="assets/img/Chapter4/class-diagram-order-management.png" alt="Class diagram Order Management" width="100%"/>
 </div>
+<br>
 
 **Laundry Operations Bounded Context**
-
+* Frontend
 <div align="center">
     <img src="assets/img/Chapter4/class-diagram-laundry-operations.png" alt="Class diagram Laundry Operations" width="100%"/>
 </div>
+<br>
 
-**Subscription & Payment Bounded Context**
-
+**Service Catalog Bounded Context**
+* Frontend
 <div align="center">
-    <img src="assets/img/Chapter4/class-diagram-subscription-payment.png" alt="Class diagram Subscription & Payment" width="100%"/>
+    <img src="assets/img/Chapter4/class-diagram-service-catalog.png" alt="Class diagram Service Catalog" width="100%"/>
 </div>
+<br>
+
+**Payments Bounded Context**
+* Frontend
+<div align="center">
+    <img src="assets/img/Chapter4/class-diagram-payments.png" alt="Class diagram Payments" width="100%"/>
+</div>
+<br>
+
+**Pickups & Deliveries Bounded Context**
+* Frontend
+<div align="center">
+    <img src="assets/img/Chapter4/class-diagram-pickups-deliveries.png" alt="Class diagram Pickups & Deliveries" width="100%"/>
+</div>
+<br>
 
 **Tracking & Notifications Bounded Context**
-
+* Frontend
 <div align="center">
     <img src="assets/img/Chapter4/class-diagram-tracking-notifications.png" alt="Class diagram Tracking & Notifications" width="100%"/>
 </div>
+<br>
+
+**Dashboard**
+* Frontend
+
+<div align="center">
+    <img src="assets/img/Chapter4/class-diagram-dashboard.png" alt="Class diagram Dashboard" width="100%"/>
+</div>
+<br>
 
 **Shared Kernel**
+
+* Frontend
 
 <div align="center">
     <img src="assets/img/Chapter4/class-diagram-shared-kernel.png" alt="Class diagram Shared Kernel" width="100%"/>
 </div>
+<br>
 
 ### 4.8. Database Design
 
-WashTrack requiere persistir información de clientes, lavanderías, órdenes, prendas, procesos operativos, membresías, pagos, seguimiento y notificaciones.
+WashTrack requiere persistir información de clientes, lavanderías, órdenes, prendas, procesos operativos, catálogo de servicios, membresías, pagos, recojos y entregas, seguimiento y notificaciones.
 
 Se propone una base de datos relacional para organizar las relaciones entre las entidades principales, manteniendo la integridad referencial y reduciendo la redundancia de información.
 
@@ -3209,6 +3282,35 @@ erDiagram
         timestamp processed_at
     }
 
+    SERVICES {
+        varchar id PK
+        varchar name
+        varchar category
+        decimal base_price
+        int estimated_hours
+        boolean active
+        varchar order_service_type
+    }
+
+    GARMENTS {
+        varchar id PK
+        varchar name
+        varchar category
+        decimal base_price
+        int estimated_hours
+        boolean active
+    }
+
+    DELIVERIES {
+        uuid id PK
+        uuid order_id FK
+        varchar type
+        varchar address
+        varchar driver_name
+        varchar status
+        timestamp scheduled_at
+    }
+
     TRACKING {
         uuid id PK
         uuid order_id FK
@@ -3244,6 +3346,7 @@ erDiagram
     SUBSCRIPTION_PLANS ||--o{ SUBSCRIPTIONS : defines
     CUSTOMERS ||--o{ PAYMENTS : makes
     ORDERS ||--o{ PAYMENTS : has
+    ORDERS ||--o{ DELIVERIES : schedules
     ORDERS ||--o| TRACKING : has
     TRACKING ||--o{ STATUS_HISTORY : contains
     USERS ||--o{ NOTIFICATIONS : receives
@@ -3255,11 +3358,14 @@ erDiagram
 | Bounded Context | Tablas principales |
 |---|---|
 | Identity & Access | `users` |
-| Customer & Business Management | `customers`, `laundries` |
+| Customer Management | `customers` |
 | Order Management | `orders`, `garment_items` |
-| Laundry Operations | `laundry_orders`, `washing_cycles`, `laundry_resources` |
-| Subscription & Payment | `subscription_plans`, `subscriptions`, `payments` |
+| Laundry Operations | `laundry_orders`, `washing_cycles`, `laundry_resources`, `laundries` |
+| Service Catalog | `services`, `garments` |
+| Payments | `payments`, `subscription_plans`, `subscriptions` |
+| Pickups & Deliveries | `deliveries` |
 | Tracking & Notifications | `tracking`, `status_history`, `notifications` |
+| Dashboard | Sin tablas propias (consulta `orders`, `payments` y `customers`) |
 
 #### 4.8.2. Database Normalization
 
@@ -4458,7 +4564,7 @@ Con json-server, GET, PUT, PATCH y DELETE responden `200 OK`, POST responde `201
 
 ##### 5.2.2.7. Software Deployment Evidence for Sprint Review
 <p align="justify">
-  Para que los usuarios de WashTrack puedan acceder a la plataforma desde cualquier lugar, en este Sprint se desplegó la Web Application en <strong>Firebase Hosting</strong>. Se creó el proyecto en la consola de Firebase, se configuró el hosting como aplicación de página única (SPA) y se publicó la versión compilada con Vite. La Landing Page, un sitio estático en HTML, CSS y JavaScript, también forma parte del despliegue. Los Web Services continúan simulados con json-server en <code>http://localhost:3000/api/v1</code>, por lo que su despliegue queda pendiente para un próximo Sprint.
+  Para que los usuarios de WashTrack puedan acceder a la plataforma desde cualquier lugar, en este Sprint se desplegó la Web Application en <strong>Firebase Hosting</strong>. Se creó el proyecto en la consola de Firebase, se configuró el hosting como aplicación de página única (SPA) y se publicó la versión compilada con Vite. La Landing Page, un sitio estático en HTML, CSS y JavaScript, también forma parte del despliegue. Además, los Web Services, que en esta etapa se simulan mediante una Fake API construida con json-server, se desplegaron en <strong>Render</strong> como un Web Service. Así, la aplicación web consume los datos desde una URL pública.
 </p>
 
 **Actividades de despliegue realizadas**
@@ -4467,13 +4573,15 @@ Con json-server, GET, PUT, PATCH y DELETE responden `200 OK`, POST responde `201
 * **Configuración del proyecto de desarrollo:** instalación de Firebase CLI y ejecución de `firebase init hosting`, que generó `.firebaserc` (proyecto por defecto) y `firebase.json`.
 * **Configuración del hosting:** en `firebase.json` se definió `dist` como carpeta pública (salida de `npm run build`) y una regla de reescritura de todas las rutas (`**`) hacia `/index.html`, necesaria para que Vue Router funcione al recargar o abrir un enlace directo.
 * **Compilación y publicación:** generación de la versión de producción con `npm run build` y publicación con `firebase deploy --only hosting`.
+* **Despliegue de la Fake API (Render):** creación de un Web Service en Render conectado al repositorio de la Fake API, con `npm install` como comando de build y el inicio de json-server sobre el puerto asignado por Render (`$PORT`) como comando de arranque.
+* **Integración frontend–API:** actualización de la URL base de los servicios en la Web Application para que apunte a la URL pública de Render.
 * **Control de versiones:** la configuración se registró en el repositorio del frontend (commit `9e4fb71`, `feat(firebase): initialize Firebase hosting configuration`).
 <br>
 
 | Producto | Plataforma | Estado | URL |
 | --- | --- | --- | --- |
-| Web Application (frontend) | Firebase Hosting | Desplegada | *(pendiente: URL, normalmente `https://washtrack-eb717.web.app`)* |
-| Web Services | json-server local | Sin desplegar | http://localhost:3000/api/v1 |
+| Web Application (frontend) | Firebase Hosting | Desplegada | [https://washtrack-eb717.web.app/login](https://washtrack-eb717.web.app/login) |
+| Web Services (Fake API) | Render | Desplegada | [https://washtrack-fake-api.onrender.com/](https://washtrack-fake-api.onrender.com/) |
 
 <br>
 
@@ -4500,6 +4608,15 @@ URL del repositorio (frontend): [https://github.com/1ASI0730-2620-16129-G2-DevTe
 </div>
 
 URL del deploy (frontend): [washtrack-eb717.web.app](washtrack-eb717.web.app)
+
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint2/deploy_fakeapi_render.png" width="700px" alt="Deploy de la fake api en Render">
+  <p>Deploy de la fake api en Render</p>
+  <p></p>
+</div>
+
+URL del deploy (fake-api): [https://washtrack-fake-api.onrender.com/](https://washtrack-fake-api.onrender.com/)
 
 ##### 5.2.2.8. Team Collaboration Insights during Sprint
 
@@ -4542,42 +4659,1366 @@ Durante el Sprint 2, los cinco integrantes desarrollaron en paralelo los módulo
 </p>
 <p align="center"><i>Parte 3 de 3. En conjunto, las capturas muestran el flujo de ramas y merges del repositorio.</i></p>
 
+#### 5.2.3. Sprint 3
+
+El Sprint 3 representa una nueva etapa en el desarrollo de WashTrack, <b>enfocada en la implementación de los servicios Backend</b> que permitirán convertir la interfaz desarrollada durante el Sprint 2 en una aplicación web funcional e integrada. Durante el Sprint anterior se construyó el frontend utilizando Vue 3 y se empleó JSON Server para simular las operaciones de los servicios REST. Por ello, en esta nueva iteración se busca reemplazar progresivamente dicha simulación mediante una API REST propia.
+
+Para alcanzar este objetivo, el equipo orientará sus actividades al desarrollo de los Web Services utilizando ASP.NET Core y Entity Framework Core, considerando los bounded contexts definidos en la arquitectura de WashTrack. Asimismo, se trabajará en la conexión con la base de datos, la implementación de las operaciones necesarias para gestionar la información del negocio y la integración de los endpoints con el frontend existente.
+
+De esta manera, el Sprint 3 permitirá avanzar desde una aplicación que representa visualmente las funcionalidades del sistema hacia una solución que procese y almacene información mediante servicios backend propios. También se considerará la documentación de los endpoints mediante Swagger/OpenAPI, la ejecución de pruebas y el despliegue de una primera versión de los Web Services.
+
+##### 5.2.3.1. Sprint Planning 3
+
+El <b>Sprint Planning 3</b> tuvo como finalidad establecer el objetivo del tercer Sprint, orientando las actividades del equipo DevTech hacia la implementación de los servicios backend y la persistencia de datos para el proyecto <b>WashTrack</b>.
+
+A diferencia del Sprint 2, centrado en el desarrollo de la interfaz de usuario frontend y la simulación de servicios con JSON Server, el Sprint 3 se enfoca en construir y conectar una API REST propia desarrollada en ASP.NET Core y Entity Framework Core, garantizando la persistencia en la base de datos relacional y la <b>seguridad en los bounded contexts definidos.</b>
+
+#### Resumen del Sprint Planning Meeting
+
+| Elemento | Información |
+| :--- | :--- |
+| **Sprint #** | Sprint 3 |
+| **Date** | 27/10/2026 |
+| **Prepared By** | Pérez Vásquez, Ariana Valeria |
+| **Attendees** | Ramos Fuentes Rivera, Adriana Nicole / Ramirez Gutierrez, Gabriel / Ramos Fuentes Rivera, Adriana Nicole / Tufiño Argüelles, Luis Angel |
+| **Sprint 2 Review Summary** | Durante el Sprint 2, el equipo desarrolló y desplegó con éxito la primera versión del frontend de muestra de WashTrack, organizando su interfaz en áreas funcionales (IAM, Customer & Business, Order Management, Laundry Operations, Subscription & Payment, y Tracking & Notifications) empleando Vue.js y JSON Server para la simulación de servicios. |
+| **Sprint 2 Retrospective Summary** | A partir del trabajo realizado en el Sprint 2, se identificó la necesidad de transicionar de los datos simulados hacia una API REST real con persistencia en base de datos. Para este nuevo sprint, se prioriza la construcción del backend en C# con ASP.NET Core y Entity Framework Core, asegurando la integración modular de los bounded contexts. |
+| **Sprint 3 Goal** | Desarrollar y desplegar la API RESTful de WashTrack utilizando ASP.NET Core y Entity Framework Core, conectando los bounded contexts principales con la base de datos relacional y migrando el frontend para consumir los servicios backend reales, garantizando la persistencia, la seguridad en la gestión de accesos (IAM) y la documentación con Swagger/OpenAPI. |
+| **Sprint 3 Velocity** | 34 Story Points |
+| **Sum of Story Points** |  34 Story Points|
+
+### Bounded contexts considerados para el Sprint 3
+
+Para orientar el desarrollo de la API REST y la integración del backend, se tomaron como referencia los siguientes *bounded contexts* y sus respectivas responsabilidades en los servicios de la plataforma:
+
+| Bounded Context | Propósito dentro del backend y la API |
+| :--- | :--- |
+| **Customer** | Gestionar la persistencia y la lógica de negocio orientada al cliente final, permitiendo consultar su historial y administrar sus datos personales. |
+| **Laundry Operations** | Gestionar las operaciones de lavandería, el procesamiento de prendas y el registro de los servicios solicitados mediante los controladores y repositorios en la API. |
+| **Order Management** | Proveer los endpoints y la lógica de negocio para la creación, consulta, actualización y organización de pedidos. |
+| **Billing & Subscriptions** | Implementar los servicios de lógica de negocio relacionados con los planes de suscripción, procesamiento de pagos y transacciones financieras. |
+| **Pickup** | Proveer los servicios y la conectividad para gestionar la logística de recojos a domicilio y la coordinación de las rutas de recojo de prendas. |
+
+#### User Stories seleccionadas
+
+Para el Sprint 3, el desarrollo del frontend de muestra de WashTrack se organizó tomando como referencia las User Stories de los Epic relacionados con los *bounded contexts* seleccionados para la plataforma: EP-001 – Seguimiento y comunicación, EP-002 – Logística y entregas, EP-003 – Gestión de pedidos y trazabilidad, EP-004 – Gestión de clientes, incidencias y satisfacción, EP-005 – Servicios, pagos y suscripciones, y EP-006 – Administración, reportes y monitoreo.
+
+Las siguientes User Stories se relacionan con las principales áreas representadas en el frontend:
+
+| User Story ID | User Story | Propósito dentro del Sprint |
+| :--- | :--- | :--- |
+| **US-027** | Visualización de bitácora de estados en tiempo real | Representar la línea de tiempo interactiva y la transparencia del progreso de las prendas en el taller. |
+| **US-028** | Historial de notificaciones en la interfaz web | Mostrar el buzón o centro de avisos y alertas pasadas para el cliente dentro de la plataforma. |
+| **US-029** | Gestión de rutas y asignación de repartidores | Representar la asignación de pedidos de recojo y entrega a domicilio por parte del administrador o lavandería. |
+| **US-030** | Registro de observaciones y estado físico inicial de las prendas | Mostrar el detalle y notas particulares sobre el estado físico de las prendas al momento de la recepción. |
+| **US-031** | Historial de interacciones y notas de atención al cliente | Representar el registro unificado de comunicaciones y notas asociadas a la atención de los clientes. |
+| **US-032** | Emisión y descarga de comprobantes de pago digitales | Mostrar la opción de visualización y descarga de recibos o comprobantes de pago en formato digital. |
+| **US-033** | Módulo de auditoría y registro de acciones del personal | Representar la bitácora de actividad y seguridad sobre las acciones críticas realizadas por el personal. |
+
+El objetivo del Sprint se encuentra enfocado en consolidar la experiencia visual y funcional de la plataforma TechNova, permitiendo integrar las nuevas capacidades operativas y de gestión de WashTrack con base en los requerimientos del proyecto.
+
+##### 5.2.3.2. Aspect Leaders and Collaborators
+
+En esta sección, se establecen los aspectos clave del *Aspect Leaders and Collaborators* correspondiente al Sprint 3 del proyecto **WashTrack** en **DevTech**. Se incluye información como los aspectos técnicos identificados para este sprint (desarrollo del backend y API REST, persistencia de datos, y servicios de los bounded contexts), los líderes responsables de cada aspecto y los colaboradores que apoyan su desarrollo. A continuación se presenta el resumen de la distribución de roles por aspecto.
+
+| Team Member | Github Username | Coordinación del equipo y revisión de documento | Desarrollo del backend y API REST para Order Management | Gestión de Laundry Operations y Customer Management | Logística de Pickups & Deliveries | Implementación de Payment y Catalog (Billing & Subscriptions) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Pérez Vásquez, Ariana Valeria** | `ArianaPerez34` | **L** | C | C | **L** | C |
+| **Ramirez Gutierrez, Gabriel** | `GabrielRamirez06` | C | C | **L** | C | C |
+| **Ramos Fuentes Rivera, Adriana** | `adriana832` | **L** | C | C | **L** | C |
+| **Tufiño Argüelles, Luis Angel** | `LuisTufino2` | C | C | C | C | **L** |
+
+##### 5.2.3.3. Sprint Backlog 3
+
+El Sprint 3 tiene como objetivo implementar y desplegar la API RESTful de WashTrack con ASP.NET Core y Entity Framework Core, persistir los bounded contexts principales en MySQL y migrar el frontend del servidor simulado con JSON Server a los Web Services reales, con autenticación en IAM y endpoints documentados con Swagger/OpenAPI. Para ello, las siete User Stories del Sprint Planning 3 se descompusieron en Engineering Tasks de 4 a 8 horas, organizadas por las capas de cada bounded context (Domain, Application, Infrastructure e Interfaces REST) y una tarea de integración con el frontend, asignadas según la Leadership-and-Collaboration Matrix de la sección 5.2.3.2.
+
+El backlog incluye además tareas técnicas sin User Story asociada, necesarias para la estructura base, la persistencia, la seguridad, la documentación, el consumo de un servicio externo, la nueva versión de la Landing Page y el despliegue, así como las tareas ET04, ET08, ET12 y ET13 pendientes del Sprint 2; ninguna de ellas suma a los Story Points del Sprint. La numeración continúa desde ET20 y el seguimiento se realiza en Trello, donde cada tarjeta corresponde a una Engineering Task con la etiqueta de su bounded context y avanza por las listas To-do, In-Process, To-Review y Done.
+
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/sprint-backlog-3-trello.png" alt="Sprint Backlog 3 en Trello" width="800"/>
+  <br>
+  <i>Figura. Tablero del Sprint Backlog 3 en Trello.</i>
+</p>
+
+- **URL del tablero del Sprint Backlog 3:** [WashTrack – Sprint 3](https://trello.com/b/DJJHCRUv/washtrack-sprint-3)
+
+La siguiente tabla presenta las User Stories asignadas al Sprint 3, las Engineering Tasks resultantes de su descomposición, las tareas pendientes del Sprint 2 y las Engineering Tasks técnicas que no tienen una User Story asociada, junto con el estado de cada una al momento de la elaboración del informe.
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Sprint #</th>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task (Engineering Task)</th>
+    </tr>
+    <tr>
+      <th>Story Id</th>
+      <th>Story Title</th>
+      <th>Task Id</th>
+      <th>Task Title</th>
+      <th>Task Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status (To-do / In-Process / To-Review / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET20</td>
+      <td>Configurar la solución de Web Services por bounded contexts</td>
+      <td>Crear el proyecto ASP.NET Core con la estructura de carpetas por bounded context (Domain, Application, Infrastructure, Interfaces) y el Shared Kernel con el repositorio base, el Unit of Work y las convenciones de nombres.</td>
+      <td align="center">6</td>
+      <td>Tufiño Argüelles, Luis Angel / Ramirez Gutierrez, Gabriel</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET21</td>
+      <td>Configurar la persistencia con MySQL y Entity Framework Core</td>
+      <td>Configurar el AppDbContext, la cadena de conexión por entorno, la convención de nombres de tablas y columnas, los campos de auditoría (fecha de creación y actualización) y la creación del esquema de la base de datos.</td>
+      <td align="center">6</td>
+      <td>Tufiño Argüelles, Luis Angel / Pérez Vásquez, Ariana Valeria</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET22</td>
+      <td>Implementar autenticación y autorización en IAM</td>
+      <td>Implementar el registro e inicio de sesión de usuarios con contraseñas cifradas, la emisión y validación de tokens JWT y el middleware de autorización por rol (propietario, encargado y cliente).</td>
+      <td align="center">8</td>
+      <td>Ramirez Gutierrez, Gabriel / Tufiño Argüelles, Luis Angel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET23</td>
+      <td>Configurar la documentación con Swagger/OpenAPI</td>
+      <td>Configurar Swagger/OpenAPI con la descripción de cada endpoint, sus parámetros y ejemplos de respuesta, y habilitar la autenticación con token JWT desde Swagger UI.</td>
+      <td align="center">4</td>
+      <td>Tufiño Argüelles, Luis Angel / Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-027</td>
+      <td>Visualización de bitácora de estados en tiempo real</td>
+      <td>ET24</td>
+      <td>Implementar dominio y persistencia de la bitácora de estados</td>
+      <td>Implementar el agregado Order con su historial de estados, los comandos y consultas, los servicios de aplicación y el repositorio en Entity Framework Core que registra cada cambio de etapa con su fecha y responsable.</td>
+      <td align="center">8</td>
+      <td>Pérez Vásquez, Ariana Valeria</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-027</td>
+      <td>Visualización de bitácora de estados en tiempo real</td>
+      <td>ET25</td>
+      <td>Implementar endpoints REST de pedidos y bitácora de estados</td>
+      <td>Implementar el controlador de pedidos con sus resources y assemblers para crear y consultar pedidos, actualizar su estado y consultar la bitácora de estados de un pedido.</td>
+      <td align="center">6</td>
+      <td>Pérez Vásquez, Ariana Valeria / Tufiño Argüelles, Luis Angel</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-027</td>
+      <td>Visualización de bitácora de estados en tiempo real</td>
+      <td>ET26</td>
+      <td>Integrar la línea de tiempo del frontend con la API</td>
+      <td>Conectar la línea de tiempo del pedido en el frontend a los endpoints de pedidos, reemplazando el servidor simulado, y actualizar automáticamente la vista cuando cambia el estado del pedido.</td>
+      <td align="center">5</td>
+      <td>Pérez Vásquez, Ariana Valeria / Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-028</td>
+      <td>Historial de notificaciones en la interfaz web</td>
+      <td>ET27</td>
+      <td>Implementar dominio, servicios y endpoints de notificaciones</td>
+      <td>Implementar la entidad Notification, su generación automática ante cada cambio de estado del pedido y los endpoints para listar las notificaciones de un usuario y marcarlas como leídas.</td>
+      <td align="center">8</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-028</td>
+      <td>Historial de notificaciones en la interfaz web</td>
+      <td>ET28</td>
+      <td>Integrar el centro de notificaciones del frontend con la API</td>
+      <td>Conectar el centro de notificaciones del frontend a los endpoints de notificaciones, con el listado de avisos pasados, el filtro de leídas y no leídas y la acción de marcar como leída.</td>
+      <td align="center">5</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole / Ramirez Gutierrez, Gabriel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-029</td>
+      <td>Gestión de rutas y asignación de repartidores</td>
+      <td>ET29</td>
+      <td>Implementar dominio y persistencia de recojos, entregas y repartidores</td>
+      <td>Implementar las entidades de recojo, entrega y repartidor con sus estados, dirección y horario acordado, junto con los servicios de aplicación y los repositorios en Entity Framework Core.</td>
+      <td align="center">7</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-029</td>
+      <td>Gestión de rutas y asignación de repartidores</td>
+      <td>ET30</td>
+      <td>Implementar endpoints REST de rutas y asignación de repartidores</td>
+      <td>Implementar los endpoints para registrar recojos y entregas, asignar un repartidor a cada operación, actualizar su estado y consultar las operaciones programadas por fecha.</td>
+      <td align="center">5</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole / Pérez Vásquez, Ariana Valeria</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-029</td>
+      <td>Gestión de rutas y asignación de repartidores</td>
+      <td>ET31</td>
+      <td>Integrar la vista de rutas y asignación con la API</td>
+      <td>Conectar la vista de recojos y entregas del frontend a los nuevos endpoints y agregar el diálogo para que el administrador asigne un repartidor a cada operación.</td>
+      <td align="center">5</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole / Tufiño Argüelles, Luis Angel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-030</td>
+      <td>Registro de observaciones y estado físico inicial de las prendas</td>
+      <td>ET32</td>
+      <td>Implementar dominio y endpoints de inspección de prendas</td>
+      <td>Implementar en Laundry Operations el registro del estado físico inicial y las observaciones de cada prenda al momento de la recepción, con su servicio de aplicación, repositorio y endpoints de registro y consulta.</td>
+      <td align="center">7</td>
+      <td>Ramirez Gutierrez, Gabriel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-030</td>
+      <td>Registro de observaciones y estado físico inicial de las prendas</td>
+      <td>ET33</td>
+      <td>Integrar el registro de observaciones en la recepción del pedido</td>
+      <td>Agregar en el frontend el formulario de estado físico y observaciones de las prendas durante la recepción y mostrarlas en el detalle del pedido, consumiendo los endpoints de inspección.</td>
+      <td align="center">5</td>
+      <td>Ramirez Gutierrez, Gabriel / Pérez Vásquez, Ariana Valeria</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-031</td>
+      <td>Historial de interacciones y notas de atención al cliente</td>
+      <td>ET34</td>
+      <td>Implementar dominio, servicios y endpoints de clientes e interacciones</td>
+      <td>Implementar el agregado Customer y la entidad de interacción (canal, nota, fecha y responsable), junto con los servicios de aplicación, el repositorio y los endpoints para registrar clientes y consultar su historial de interacciones.</td>
+      <td align="center">8</td>
+      <td>Ramirez Gutierrez, Gabriel</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-031</td>
+      <td>Historial de interacciones y notas de atención al cliente</td>
+      <td>ET35</td>
+      <td>Integrar el historial de interacciones en el detalle del cliente</td>
+      <td>Conectar la gestión de clientes del frontend a la API y agregar en el detalle del cliente el historial unificado de comunicaciones y notas de atención.</td>
+      <td align="center">4</td>
+      <td>Ramirez Gutierrez, Gabriel / Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-032</td>
+      <td>Emisión y descarga de comprobantes de pago digitales</td>
+      <td>ET36</td>
+      <td>Implementar dominio y persistencia de pagos y comprobantes</td>
+      <td>Implementar las entidades Payment y Receipt con su número correlativo, montos e impuestos, junto con el servicio de aplicación que emite el comprobante al registrarse un pago y su repositorio en Entity Framework Core.</td>
+      <td align="center">8</td>
+      <td>Tufiño Argüelles, Luis Angel</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-032</td>
+      <td>Emisión y descarga de comprobantes de pago digitales</td>
+      <td>ET37</td>
+      <td>Implementar endpoints de pagos y descarga de comprobantes</td>
+      <td>Implementar los endpoints para registrar el pago de un pedido, consultar los pagos realizados y descargar el comprobante en formato PDF.</td>
+      <td align="center">6</td>
+      <td>Tufiño Argüelles, Luis Angel / Ramirez Gutierrez, Gabriel</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-032</td>
+      <td>Emisión y descarga de comprobantes de pago digitales</td>
+      <td>ET38</td>
+      <td>Integrar la vista de comprobantes de pago con la API</td>
+      <td>Agregar en el frontend la vista de pagos del pedido con la visualización del comprobante y el botón de descarga, consumiendo los endpoints de pagos.</td>
+      <td align="center">5</td>
+      <td>Tufiño Argüelles, Luis Angel / Pérez Vásquez, Ariana Valeria</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-033</td>
+      <td>Módulo de auditoría y registro de acciones del personal</td>
+      <td>ET39</td>
+      <td>Implementar el registro de auditoría de acciones críticas</td>
+      <td>Implementar la entidad AuditLog y el mecanismo que registra automáticamente las acciones críticas del personal (creación y cancelación de pedidos, cambios de estado y registro de pagos), junto con el endpoint de consulta restringido al propietario.</td>
+      <td align="center">7</td>
+      <td>Pérez Vásquez, Ariana Valeria / Ramirez Gutierrez, Gabriel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-033</td>
+      <td>Módulo de auditoría y registro de acciones del personal</td>
+      <td>ET40</td>
+      <td>Implementar la vista de bitácora de auditoría</td>
+      <td>Implementar en el frontend la vista de bitácora de actividad del personal, con filtros por usuario, tipo de acción y rango de fechas, visible solo para el rol propietario.</td>
+      <td align="center">4</td>
+      <td>Pérez Vásquez, Ariana Valeria / Ramirez Gutierrez, Gabriel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-016</td>
+      <td>Gestionar usuarios y roles (pendiente del Sprint 2)</td>
+      <td>ET41</td>
+      <td>Completar la vista de gestión de usuarios y roles</td>
+      <td>Retomar la tarea ET04 del Sprint 2: implementar la vista para que el propietario liste al personal y le asigne un rol, conectada a los endpoints de IAM.</td>
+      <td align="center">5</td>
+      <td>Ramirez Gutierrez, Gabriel / Tufiño Argüelles, Luis Angel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-007</td>
+      <td>Registrar prendas (pendiente del Sprint 2)</td>
+      <td>ET42</td>
+      <td>Completar el registro de prendas del pedido</td>
+      <td>Retomar la tarea ET08 del Sprint 2: completar el registro de prendas con su tipo, cantidad y observaciones de cuidado, persistiéndolas mediante los endpoints de pedidos.</td>
+      <td align="center">5</td>
+      <td>Pérez Vásquez, Ariana Valeria / Ramirez Gutierrez, Gabriel</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>US-019</td>
+      <td>Gestionar suscripción (pendiente del Sprint 2)</td>
+      <td>ET43</td>
+      <td>Completar los planes y la selección de suscripción</td>
+      <td>Retomar las tareas ET12 y ET13 del Sprint 2: implementar en los Web Services los planes y suscripciones con sus endpoints, y completar la vista de planes para que el propietario seleccione uno.</td>
+      <td align="center">7</td>
+      <td>Tufiño Argüelles, Luis Angel / Pérez Vásquez, Ariana Valeria</td>
+      <td>To-Review</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET44</td>
+      <td>Integrar un servicio externo de terceros</td>
+      <td>Consumir desde los Web Services un servicio externo de terceros (envío de correo electrónico) para notificar al cliente los cambios de estado de su pedido, configurando sus credenciales mediante variables de entorno.</td>
+      <td align="center">5</td>
+      <td>Ramos Fuentes Rivera, Adriana Nicole / Tufiño Argüelles, Luis Angel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET45</td>
+      <td>Publicar una nueva versión de la Landing Page</td>
+      <td>Incrustar los videos About-the-Product y About-the-Team en la Landing Page y actualizar los call-to-action de cada segmento objetivo para que redirijan a la vista correspondiente de la Web Application desplegada.</td>
+      <td align="center">5</td>
+      <td>Pérez Vásquez, Ariana Valeria / Ramos Fuentes Rivera, Adriana Nicole</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET46</td>
+      <td>Desplegar los Web Services y la base de datos</td>
+      <td>Desplegar la primera versión de los Web Services y la base de datos MySQL en la nube, configurar las variables de entorno y CORS, y actualizar la URL base de la API en el frontend desplegado.</td>
+      <td align="center">7</td>
+      <td>Tufiño Argüelles, Luis Angel / Ramirez Gutierrez, Gabriel</td>
+      <td>To-do</td>
+    </tr>
+    <tr>
+      <td>Sprint 3</td>
+      <td>-</td>
+      <td>Tarea técnica</td>
+      <td>ET47</td>
+      <td>Integrar Pull Requests y desplegar la nueva versión de la Web Application</td>
+      <td>Revisar los Pull Requests de cada bounded context, integrarlos en la rama develop siguiendo GitFlow, generar la versión del Sprint en main y desplegar la nueva versión del frontend conectada a los Web Services.</td>
+      <td align="center">6</td>
+      <td>Pérez Vásquez, Ariana Valeria / Ramirez Gutierrez, Gabriel / Ramos Fuentes Rivera, Adriana Nicole / Tufiño Argüelles, Luis Angel</td>
+      <td>In-Process</td>
+    </tr>
+  </tbody>
+</table>
+
+El Sprint Backlog 3 está compuesto por **28 Engineering Tasks**, con una estimación total de **167 horas**: 17 tareas asociadas a las siete User Stories del Sprint Planning 3, 3 tareas que retoman el trabajo pendiente del Sprint 2 y 8 tareas técnicas sin User Story asociada. Cada integrante lidera las tareas de su aspecto en la Leadership-and-Collaboration Matrix y colabora en las tareas de integración de los demás bounded contexts, lo que permite que todos participen en la implementación de los Web Services, de la Web Application y de la Landing Page durante este Sprint.
+
+##### 5.2.3.4. Development Evidence for Sprint Review
+
+<p align="justify">
+  En este Sprint se implementó la primera versión de los Web Services de WashTrack con ASP.NET Core y Entity Framework Core sobre MySQL, organizada con Domain-Driven Design por bounded contexts. Se construyó el Shared Kernel (agregados base, repositorio base, Unit of Work, interceptores de auditoría y de eventos de dominio, manejo global de excepciones y convención de rutas kebab-case) y se implementaron los bounded contexts Laundry Operations, Order Management y Pickups &amp; Deliveries con sus agregados, comandos, consultas, repositorios, controladores REST y migraciones, integrados en la rama develop. En paralelo se desarrollaron Subscription &amp; Payment (pagos, suscripciones, planes y la pasarela de pago externa mediante una Anti-Corruption Layer) y Customer Management en sus ramas feature, y se documentaron los endpoints con OpenAPI y descripciones localizadas en español e inglés.
+</p>
+
+<p align="justify">
+  En la Web Application se completó el inicio de sesión con guard de autenticación y sesión persistente en IAM, el flujo de registro de pagos y la integración de los pedidos con el tablero de producción, el seguimiento y las entregas a domicilio. En la Landing Page se publicó una nueva versión con internacionalización en-US/es-419 (inglés por defecto), meta tags de SEO, navegación accesible, call-to-action por segmento hacia la Web Application, términos y condiciones bilingües y el video About-the-Product del Sprint 3. La siguiente tabla presenta los commits realizados en cada repositorio desde el cierre del Sprint 2.
+</p>
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| --- | --- | --- | --- | --- | --- |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2 | feature/video | 8fcae00 | docs: update video about the product in youtube for sprint 3 | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2 | feature/video | 2c3ed31 | docs: add video about the product for sprint 3 | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2 | feature/landing-rubric | 288914b | docs(readme): update project info, team and rubric compliance | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2 | feature/landing-rubric | 8067ff3 | feat(legal): add bilingual terms and conditions and privacy policy page | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2 | feature/landing-rubric | 33fbeed | style(landing): align typography and colors with style guide and Material Design | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2 | feature/landing-rubric | b12d545 | feat(contact): add accessible bilingual validation to contact form | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2 | feature/landing-rubric | 1eaa5f6 | feat(a11y): add accessible mobile navigation with aria-current scrollspy | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2 | feature/landing-rubric | 416a6bc | feat(landing): implement rubric requirements in landing page | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2 | feature/landing-rubric | 698fc73 | feat(team): add team member photos | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2 | feature/landing-rubric | 16ac377 | feat(i18n): add en-US/es-419 translations with English as default language | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2 | feature/video | f502b5b | feat(landing): update 'Comenzar ahora' buttons to point to Firebase login | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-integration | cca6d43 | fix(server): link mock laundry orders, deliveries and trackings to real orders | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-integration | 1e50a6f | feat(order-management): send new orders to production board, tracking and deliveries | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-integration | 83d3010 | feat(tracking-notifications): start order trackings and search by customer | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-integration | ebb253f | feat(pickups-deliveries): schedule home deliveries and reload list on visit | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-integration | 4969c42 | refactor(payments): use shared order code in payment catalog | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-integration | 8d59a9d | fix(laundry-operations): receive only existing orders and show customer on cards | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-integration | 311e0c2 | feat(i18n): add translations for order receiving, deliveries and tracking | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/order-integration | 1a72cba | feat(shared): add shared order code helper | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | develop | 2656b99 | fix(i18n): restore deliveries translations used by pickups-deliveries views | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | develop | f2ef17b | chore(hosting): remove Firebase placeholder index.html from public | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | develop | 6bbb7fe | fix(router): redirect pickups-deliveries to deliveries view | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 4b0eb1e | feat(iam): update translations with correct demo credentials | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 4efe130 | feat(iam): update notification toaster to use signed-in user code | — | 10/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | b99bd8b | feat(iam): update sidebar menu to show signed-in user and sign out | — | 10/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | a3d6a78 | feat(iam): update register and password recovery views to use iam store | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 6bbc9c6 | feat(iam): update login view to use iam store and redirect after sign in | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 30876af | feat(iam): update router to use authentication guard | — | 08/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 6788c7f | feat(iam): add authentication guard | — | 08/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | ad12bb0 | feat(iam): add iam store in application layer with persistent session and sign out | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 665987c | feat(iam): update user assembler to map username and business code | — | 06/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 49de1da | feat(iam): update user aggregate with username and business code | — | 06/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | fb6f527 | fix(router): register payments routes | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 82032b8 | refactor(payments): update payment catalog to shared board layout and search | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 16ae4dd | feat(payments): add create payment flow and payment id validation | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | ebdb634 | feat(shared): add header search bar to layout | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | d62bc53 | feat(i18n): add board search translations | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | 409ae07 | style(shared): add shared board styles | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | ff9feb5 | feat(shared): add merge sort and board search helpers | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | c85e41f | chore(config): add routes option to json-server script | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/Subscription&Payment | c9681f6 | refactor(db.json): standardise ID format across mock entities | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | e9a8133 | feat(iam): enhance database and add i18n support | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 5a6f863 | feat(iam): enhance password recovery view with form validation and submission functionality | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 08844b0 | feat(iam): add updatePasswordByEmail method to user repository | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | be7959d | feat(iam): implement resetPassword method in identity service | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 4dba46d | feat(iam): add password reset functionality | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | f9e590c | feat(localization): add password recovery translations for EN and ES locales | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | e90fda9 | feat(router): add password recovery route | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | d3c91a6 | feat(iam): add password recovery view | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 6364f60 | i18n(auth): translate registration role options | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 55c2d53 | feat(iam): add default role parameter to register function | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | a207482 | feat(iam): add default role parameter to register function | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 003e4ac | feat(iam): add role validation and default role handling in user registration | — | 22/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | bfe7e2b | Added PrimeVue license key in .env.production | — | 10/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 8c41ec9 | Added PrimeVue license key in .env.development | — | 10/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | main | f316b48 | Allow Render host in vite preview | — | 10/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | ea0b329 | Update .env.production | — | 10/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | ad78395 | Update .env.development | — | 10/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 966dc19 | Update db.json | — | 10/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | main | 8afc39d | Remove Firebase placeholder index.html | — | 10/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2 | feature/minor-change | 60879ef | update file vite.config.js | — | 10/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 5f3ed18 | feat(shared): add order management and pickups deliveries migration | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | dc8fc59 | feat(shared): register controllers, persistence, localization and bounded context services | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 76f936b | feat(shared): apply order management and pickups deliveries configuration in app db context | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 0f8ac41 | feat(pickups-deliveries): expose pickups deliveries endpoints | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 1319121 | feat(pickups-deliveries): add localized openapi descriptions | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 5a86d36 | feat(pickups-deliveries): add resource and action result assemblers | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | b81cf75 | feat(pickups-deliveries): add schedule command assemblers | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 4e0f787 | feat(pickups-deliveries): add rest resources | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 9b20b96 | feat(shared): add english and spanish translations | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 739a611 | feat(shared): add shared localization resource | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | c2ab2b6 | feat(pickups-deliveries): add dependency injection extensions | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 2ecb494 | feat(pickups-deliveries): add pickup delivery repository | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 50e4cb3 | feat(pickups-deliveries): add pickup delivery entity configuration | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 871d6c7 | feat(pickups-deliveries): validate order readiness and delivery method on schedule | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 668b8ff | feat(pickups-deliveries): add order status anti-corruption layer | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 544cd63 | feat(pickups-deliveries): define order status outbound port | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 8671061 | feat(pickups-deliveries): add order validation errors to schedule result | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 11fe84d | feat(order-management): implement and register orders context facade | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 45953ec | feat(order-management): add orders context facade contract | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 84e673f | fix(pickups-deliveries): use DevTech shared entities namespace in audit | — | 13/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | 30e5ecd | feat(order-management): implement REST resource and command assemblers | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | 59d7454 | feat(order-management): implement REST API orders controller endpoints | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | 1705327 | feat(order-management): implement REST request/response resources and attributes | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | 6d9e519 | feat(order-management): configure infrastructure persistence and service extensions | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | df662e4 | feat(order-management): implement application command and query services | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | 8056561 | feat(order-management): implement application service interfaces for orders | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | ca00072 | feat(order-management): implement order repository interface | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | b9c5ad9 | feat(order-management): implement application queries for orders | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | 7876734 | feat(order-management): implement Order aggregate root entity | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | e499eab | feat(order-management): implement domain value objects and enums | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | 1623290 | feat(order-management): implement domain events, exceptions and states for orders | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | 571b5b1 | feat(order-management): implement application command handlers for orders | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | 951807c | feat(order-management): add initial domain entities and project references | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/OrderManagement | 8f555ae | feat(order-management): add OrderError enum and project configuration | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/customerManagement | 9a87f97 | feat(customer): refactor command and query services for customer management | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/customerManagement | c643bdc | feat(customer): update query and command services for customer management | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/customerManagement | 9a88d96 | feat(customer): refactor laundry repository and commands to use aggregate roots and events | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/customerManagement | 4ba3860 | feat(customer): fix document validation and update error handling | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/customerManagement | 85419fc | feat(customer): add customer management errors and update error handling | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/customerManagement | a97ecfd | feat(customer): add customer and laundry aggregates | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/customerManagement | ab81233 | feat(customer): add events for CustomerManagement bounded context | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/customerManagement | a2eadc6 | feat(customer): add queries and commands for CustomerManagement bounded context | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/customerManagement | 80edc42 | feat(customer): add value objects for CustomerManagement bounded context | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/customerManagement | 3fde021 | feat(customer): add customer management domain and infrastructure folders | — | 12/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 0042d7f | feat(laundry): expose washing cycle endpoints | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 7fdc99d | feat(laundry): expose laundry resource endpoints | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 7833581 | feat(laundry): expose laundry order endpoints | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 1caa638 | feat(laundry): map operation results to HTTP responses | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 07097a6 | feat(laundry): add washing cycle response mapping | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 83ecde0 | feat(laundry): add assignment request mapping | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 7b71828 | feat(laundry): add order reception and priority request mapping | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | c1b45a1 | feat(laundry): add order response resources | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | dc3f72a | feat(shared): add localized API error handling | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 40a9e0c | feat(shared): configure kebab-case API routes | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 085c153 | feat(persistence): add initial laundry operations migration | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 189f3c5 | feat(laundry): add development seed data | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 07c8ae1 | feat(laundry): implement resource and washing cycle persistence | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 1344976 | feat(laundry): implement order persistence | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 211eb7a | feat(shared): configure persistence and entity interceptors | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 13e0ae3 | build: update persistence dependencies | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | e5f0796 | feat(laundry): expose operations through context facade | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 5a703f4 | refactor(shared): update application result handling | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 6ba08f2 | feat(laundry): define resource and washing cycle events | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | f787adb | feat(laundry): define priority and stage transition events | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | b808cc0 | feat(laundry): define order reception and classification events | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 4ec93dc | feat(laundry): add audit fields to orders and resources | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 744c168 | feat(laundry): add audit fields to orders and resources | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 7d781ed | feat(shared): define auditable entity contract | — | 11/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 2545fcb | feat(laundryop): fix declarations on command services for laundry order and resource management, add query services and command services for laundry operations and update dependencies | — | 10/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | e37771c | feat(subscription-payment): configure dependency injection and Azure SQL connection | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | ff60ec0 | feat(shared): register subscription payment model configuration | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | a0f3e34 | feat(subscription-payment): add REST controllers | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | 367a68a | feat(subscription-payment): add REST resources and assemblers | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | 71c83d5 | feat(subscription-payment): add localized messages in English and Spanish | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | 9fe78d1 | feat(subscription-payment): add payment gateway adapter, ACL and simulated provider | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | e42c902 | feat(subscription-payment): add EF Core mapping and repositories | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 879be76 | chore: update dependency injection | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | bd6285b | feat(laundryop): update query services and command services for laundry operations and update dependencies | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 68200fe | feat(laundryop): add laundry order command service | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | f71264d | feat(laundryop): update command services for laundry order and resource management | — | 09/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | 4c43c68 | feat(subscription-payment): add command services, query services and event handlers | — | 08/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | 4e12333 | feat(subscription-payment): add application service interfaces and payment gateway port | — | 08/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | f5ab7b0 | feat(laundryop): add query services and command services for laundry operations and update dependencies | — | 08/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | ccab4a4 | feat(laundryop): add laundry operations domain model errors and update references | — | 08/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | 42d26a1 | feat(subscription-payment): add aggregates and repository interfaces | — | 08/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | f74b40d | feat(laundryop): add repositories for laundry order, resource, and washing cycle management | — | 08/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 836810f | feat(laundryop): update value object constructors to guid instead to int | — | 08/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 09e03f3 | feat(laundryop): add commands for laundry order management and resource management | — | 08/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | b1a19a2 | feat(subscription-payment): add domain events | — | 08/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | b8732b5 | feat(subscription-payment): add commands and queries | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | 1032cac | feat(subscription-payment): add value objects and domain errors | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 6964358 | feat(laundryop): add queries for laundry resources, orders, and statuses | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | d8941dc | feat(laundryop): add value objects for laundry resources, orders, statuses, cycles, stages, and priorities | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | 3395728 | fix(shared): dispatch domain events after saving using their runtime type | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 32d6fa8 | chore: update class diagram to reflect | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | d84f9d4 | docs: add class diagram | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/Subscription-&-Payments | 3e892a7 | feat(shared): add Money value object and DomainEvent base record | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 4efdf4f | feat(shared): add shared kernel files | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 4b8fc1d | feat(master): add initial commit message | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/LaundryOperations | 17a94c7 | chore: initial commit | — | 07/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 1e0f491 | feat(pickups-deliveries): update pickup delivery repository contract | — | 05/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | cebe5da | feat(pickups-deliveries): update pickup delivery aggregate with audit timestamps | — | 05/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 0bc4ba5 | feat(pickups-deliveries): update query by order id and service type | — | 05/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | c5b4466 | feat(pickups-deliveries): update queries by order id and by id | — | 05/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 69b5176 | feat(pickups-deliveries): update schedule pickup delivery command | — | 05/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 93f7af3 | feat(pickups-deliveries): update delivery address value object | — | 05/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 01fcf8c | feat(pickups-deliveries): add query service | — | 05/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | d8bd42a | feat(pickups-deliveries): add command service with scheduling business rules | — | 02/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 9a35b3d | feat(pickups-deliveries): add command and query service | — | 01/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 094f7be | feat(pickups-deliveries): add order status outbound port | — | 01/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | a56351a | feat(pickups-deliveries): add schedule pickup delivery errors | — | 01/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | fd05051 | feat(shared): add result pattern with success and failure outcomes | — | 01/11/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | a0908bb | feat(pickups-deliveries): add pickup delivery repository | — | 31/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | d69a184 | feat(pickups-deliveries): add pickup delivery aggregate | — | 31/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 2fcd9f1 | feat(pickups-deliveries): add query by order id and service type | — | 31/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 1be8a60 | feat(pickups-deliveries): add queries by order id and by id | — | 31/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 572df43 | feat(pickups-deliveries): add schedule pickup delivery command | — | 31/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | d186691 | feat(PickupsDeliveries): add pickups delivery status value object | — | 31/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | cec7911 | feat(PickupsDeliveries): add service type value object | — | 31/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | 494bf6f | feat(PickupsDeliveries): add delivery address value object | — | 31/10/2026 |
+| 1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2 | feature/pickups-deliveries | c7eae76 | feat(shared): update interface auditable entity and auditable entity interceptor | — | 07/11/2026 |
+
+##### 5.2.3.5. Execution Evidence for Sprint Review
+
+<p align="justify">
+  En este Sprint se logró ejecutar la primera versión de los Web Services de WashTrack, desarrollados con ASP.NET Core y Entity Framework Core sobre MySQL. La API expone los endpoints de los bounded contexts Order Management, Laundry Operations, Pickups &amp; Deliveries y Subscription &amp; Payment, documentados con OpenAPI 3.1 y consultables desde la interfaz de Scalar. Las pruebas realizadas con datos de muestra permitieron recorrer el ciclo principal de un pedido: se registra el pedido con sus prendas, se avanza su estado, Laundry Operations lo recibe en el tablero de producción, se programa su recojo a domicilio y se registra su pago a través de la pasarela de pago simulada. Toda la información queda persistida en la base de datos, cuyas tablas se generan mediante las migraciones de Entity Framework Core. Asimismo, se publicó una nueva versión de la Landing Page con la sección del equipo, los planes de suscripción y la presentación del seguimiento en tiempo real.
+</p>
+<br>
+
+**Web Services**
+
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/01-scalar-endpoints.png" width="700px" alt="Documentación de la API en Scalar con los endpoints de cada bounded context">
+  <p>Documentación de la API en Scalar (OpenAPI 3.1) con los endpoints de cada bounded context</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/02-api-create-order.png" width="700px" alt="Registro de un pedido con sus prendas mediante POST /api/v1/orders">
+  <p>Registro de un pedido con sus prendas mediante <code>POST /api/v1/orders</code> (201 Created, estado CREATED)</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/03-api-order-status.png" width="700px" alt="Avance del estado del pedido mediante PUT /api/v1/orders/{orderId}/status">
+  <p>Avance del estado del mismo pedido a RECEIVED mediante <code>PUT /api/v1/orders/{orderId}/status</code> (200 OK)</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/04-api-laundry-orders.png" width="700px" alt="Consulta de las órdenes en taller mediante GET /api/v1/laundry-orders">
+  <p>Consulta de las órdenes recibidas en el tablero de producción mediante <code>GET /api/v1/laundry-orders</code> (200 OK)</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/05-api-pickups-deliveries.png" width="700px" alt="Programación de un recojo a domicilio mediante POST /api/v1/pickups-deliveries">
+  <p>Programación de un recojo a domicilio para el pedido mediante <code>POST /api/v1/pickups-deliveries</code> (201 Created, estado Scheduled)</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/06-api-payments.png" width="700px" alt="Registro de un pago mediante POST /api/v1/payments">
+  <p>Registro de un pago mediante <code>POST /api/v1/payments</code>, procesado por la pasarela de pago simulada (201 Created)</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/06b-api-subscription-plans.png" width="700px" alt="Consulta de los planes de suscripción mediante GET /api/v1/subscription-plans">
+  <p>Consulta de los planes de suscripción mediante <code>GET /api/v1/subscription-plans</code> (200 OK)</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/07-mysql-tables.png" width="700px" alt="Tablas y registros persistidos en la base de datos MySQL">
+  <p>Tablas generadas por las migraciones y registros persistidos por la API en la base de datos MySQL <code>washtrack</code></p>
+</div>
+<br>
+
+**Landing Page**
+
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/08-landing-team.png" width="700px" alt="Sección Sobre nosotros con el equipo DevTech">
+  <p>Sección "Sobre nosotros" con la presentación del equipo</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/09-landing-plans.png" width="700px" alt="Sección de planes de suscripción">
+  <p>Sección de planes de suscripción, con call-to-action hacia el registro en la Web Application</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/execution/10-landing-tracking.png" width="700px" alt="Sección de seguimiento en tiempo real">
+  <p>Sección de seguimiento en tiempo real del pedido por etapas</p>
+</div>
+<br>
+
+#### 5.2.3.7 Software Deployment Evidence for Sprint Review.
+
+##### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3, el equipo DevTech continuó con el desarrollo colaborativo de WashTrack, enfocándose en la implementación de nuevos componentes del backend, mejoras en la aplicación frontend y actualización de los contenidos del Landing Page.
+
+Para organizar las actividades de desarrollo, el equipo utilizó GitHub como plataforma de control de versiones, manteniendo repositorios independientes para los productos digitales. La utilización de ramas de trabajo y Pull Requests permitió registrar las modificaciones realizadas, facilitar la integración de funcionalidades y mantener la trazabilidad de los cambios.
+
+Las evidencias de colaboración se presentan a continuación, considerando los repositorios de Landing Page, Frontend Web Application y Backend Web Services.
+
+**Landing Page Collaboration**
+
+Durante este periodo se registraron contribuciones relacionadas con la incorporación de contenido audiovisual al Landing Page de WashTrack, incluyendo actividades de integración del video About-the-Product.
+
+Entre los Pull Requests identificados se encuentran:
+
+- [PR #6 - Video About-the-Product para Sprint 3](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2/pull/6)
+- [PR #7 - Feature/video](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2/pull/7)
+- [PR #8 - Merge video about the product](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2/pull/8)
+
+Estas contribuciones reflejan el trabajo de actualización e integración de recursos del producto, manteniendo el Landing Page como punto de presentación de la propuesta de valor de WashTrack.
+
+**Evidencias de colaboración en GitHub**
+
+![GitHub Insights - Contributors Landing Page](assets/img/Chapter5/sprint3/landing-insights-contributors.png)
+
+*Figura 1. Analíticos de contribución de los integrantes en el repositorio Landing Page durante el Sprint 3.*
+
+![GitHub Insights - Pulse Landing Page](assets/img/Chapter5/sprint3/landing-insights-pulse.png)
+
+*Figura 2. Actividad y Pull Requests del repositorio Landing Page.*
+
+**Frontend Web Application Collaboration**
+
+En el repositorio de la aplicación frontend se identificaron actividades relacionadas con la integración de funcionalidades, corrección de errores y mantenimiento de la aplicación.
+
+El trabajo colaborativo se organizó mediante ramas de desarrollo y Pull Requests, permitiendo gestionar modificaciones sobre los componentes de la aplicación.
+
+Entre las evidencias identificadas se encuentran:
+
+- [PR #13 - Hotfix/iam fix](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2/pull/13)
+- [PR #14 - Hotfix/recover password](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2/pull/14)
+- [PR #15 - Feature/minor change](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2/pull/15)
+
+Estas actividades muestran la continuidad del mantenimiento y mejora de la aplicación web, especialmente en funcionalidades vinculadas con la gestión de identidad y acceso.
+
+**Evidencias de colaboración en GitHub**
+
+![GitHub Insights - Contributors Frontend](assets/img/Chapter5/sprint3/frontend-insights-contributors.png)
+
+*Figura 3. Contribuciones individuales en el repositorio Frontend durante el Sprint 3.*
+
+![GitHub Insights - Pulse Frontend](assets/img/Chapter5/sprint3/frontend-insights-pulse.png)
+
+*Figura 4. Actividad y Pull Requests del repositorio Frontend.*
+
+**Backend Web Services Collaboration**
+
+Durante el desarrollo del backend, el equipo trabajó en la implementación de componentes organizados bajo el enfoque Domain-Driven Design (DDD), considerando diferentes Bounded Contexts asociados a los procesos de negocio de WashTrack.
+
+La actividad registrada en GitHub incluye Pull Requests para la incorporación de funcionalidades de operaciones de lavandería, gestión de pedidos, recojos y entregas, así como suscripciones y pagos.
+
+Entre las contribuciones identificadas se encuentran:
+
+- [PR #2 - Laundry Operations](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2/pull/2)
+- [PR #3 - Order Management](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2/pull/3)
+- [PR #4 - Pickups Deliveries](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2/pull/4)
+- [PR #5 - Subscription and Payment](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2/pull/5)
+
+La separación de funcionalidades por Bounded Contexts favoreció la organización del código y permitió trabajar sobre diferentes componentes de la solución.
+
+**Evidencias de colaboración en GitHub**
+
+![GitHub Insights - Contributors Backend](assets/img/Chapter5/sprint3/backend-insights-contributors.png)
+
+*Figura 5. Contribuciones individuales en el repositorio Backend durante el Sprint 3.*
+
+![GitHub Insights - Pulse Backend](assets/img/Chapter5/sprint3/backend-insights-pulse.png)
+
+*Figura 6. Actividad y Pull Requests del repositorio Backend.*
+
+**Análisis general de colaboración**
+
+La actividad registrada en los repositorios evidencia la utilización de GitHub para organizar el desarrollo de los distintos productos que conforman WashTrack.
+
+La separación del proyecto en repositorios independientes permitió gestionar los cambios correspondientes al Landing Page, Frontend Web Application y Backend Web Services. Asimismo, los Pull Requests proporcionan un registro de las funcionalidades incorporadas y las actividades de integración realizadas.
+
+Para completar la evaluación cuantitativa de colaboración del Sprint 3, se incorporarán las estadísticas de GitHub Insights correspondientes al periodo del Sprint, incluyendo la cantidad de commits, líneas añadidas, líneas eliminadas y participación individual de los integrantes.
+
+Estas métricas permitirán complementar las evidencias técnicas con un análisis de la distribución del trabajo y la contribución de cada participante al incremento del producto.
+
+
+
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas
+
+<p align="justify">
+En esta sección se definen, para cada segmento objetivo, los elementos que forman parte de la sesión de validación: la Landing Page, la aplicación web de WashTrack y los user flows que el entrevistado realizará durante la sesión.
+</p>
+
+
+**1. Primer Segmento: Propietarios de lavanderías independientes**
+
+**Criterios de Evaluación:**
+
+* Evaluar si el usuario comprende la propuesta de valor de WashTrack a partir de la Landing Page, en especial la centralización de la gestión de pedidos y el seguimiento de las entregas.
+* Evaluar si el usuario puede navegar por la aplicación web con facilidad: familiarización con el Dashboard y el sidebar de navegación.
+* Medir el tiempo que toma al usuario registrar un nuevo pedido, desde la selección del cliente hasta la confirmación del registro.
+* Evaluar si el usuario puede filtrar los pedidos por estado desde la Lista de Pedidos sin necesidad de revisar la tabla fila por fila.
+* Evaluar si el usuario puede identificar y acceder a la sección de Recojos y Entregas, y comprender la información del Seguimiento de Entrega (mapa, ruta, etapa y tiempo estimado de llegada).
+
+**Se considerarán los siguientes User Flows:**
+
+* User Flow 1: Registrar un nuevo pedido.
+* User Flow 2: Consultar el estado de un pedido.
+* User Flow 3: Monitorear el envío de ropa al domicilio del cliente.
+
+<p align="justify">
+Los User Flows propuestos corresponden a las funcionalidades core de la aplicación web para el rol de propietario de lavandería. Abarcan el ciclo principal de un pedido, desde su registro en el sistema y la consulta de su estado hasta el monitoreo de su entrega en el domicilio del cliente.
+</p>
+
+**Preguntas:**
+
+1. Al revisar la landing page, ¿qué entiendes que WashTrack puede hacer por tu lavandería?
+2. ¿La información presentada responde a los problemas que hoy tienes en tu negocio? ¿Qué agregarías o quitarías?
+3. Después de ver la página, ¿qué tan interesado(a) estarías en probar la aplicación con tu lavandería? ¿Qué te motivaría o te haría dudar?
+4. Comparado con tu forma actual de trabajar, ¿qué te pareció registrar un pedido en la aplicación? ¿Te ahorraría tiempo o te agregaría pasos?
+5. ¿Qué tan fácil te resultó encontrar los pedidos según su estado?
+6. ¿Qué funcionalidad te gustó más y por qué?
+7. ¿Qué funcionalidad te gustó menos y por qué?
+8. ¿Qué mejorarías de esa funcionalidad para que realmente la uses en tu negocio?
+
+<br>
+
+**2. Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
+
+**Criterios de Evaluación:**
+
+* Evaluar si el usuario comprende la propuesta de valor de WashTrack a partir de la Landing Page, en especial la solicitud digital de pedidos y el seguimiento de sus prendas.
+* Evaluar si el usuario puede navegar por la aplicación web con facilidad: familiarización con la pantalla principal y la sección "Mis pedidos".
+* Medir el tiempo que toma al usuario solicitar un nuevo pedido, desde la selección del servicio y la cantidad de prendas hasta la confirmación.
+* Evaluar si el usuario puede seleccionar la fecha y el tipo de entrega (en local o a domicilio) sin ambigüedades.
+* Evaluar si el usuario puede ubicar su pedido activo desde "Mis pedidos" y comprender su estado actual (por ejemplo, "En proceso", "Listo para entrega") junto con la fecha estimada de entrega.
+* Evaluar si el usuario percibe que la aplicación le evita tener que llamar o escribir a la lavandería para conocer el estado de sus prendas.
+
+**Se considerarán los siguientes User Flows:**
+
+* User Flow 4: Solicitar un nuevo pedido de lavandería.
+* User Flow 5: Consultar el estado de su pedido sin llamar a la lavandería.
+
+<p align="justify">
+Los User Flows propuestos corresponden a las funcionalidades core de la aplicación web para el rol de cliente. Abarcan el ciclo completo del servicio desde la perspectiva del usuario final y desde la solicitud digital del pedido hasta la consulta de su estado, sin necesidad de comunicarse directamente con la lavandería.
+</p>
+
+**Preguntas:**
+
+1. Al ver la landing page por primera vez, ¿qué entiendes que ofrece WashTrack?
+2. ¿Qué información de la página te resultó más útil o atractiva? ¿Faltó algo que te gustaría saber antes de usar la aplicación?
+3. Según lo que viste, ¿qué tan dispuesto(a) estarías a probar la aplicación? ¿Por qué?
+4. ¿Cómo describirías tu experiencia al solicitar un pedido en la aplicación? ¿Te pareció más práctico que llamar o escribir a la lavandería?
+5. ¿La información que se muestra sobre el estado de tu pedido es suficiente? ¿Qué más te gustaría saber?
+6. ¿Qué tan útil te parece poder ver el estado de tu pedido y recibir notificaciones? ¿En qué situación concreta lo usarías?
+7. ¿Qué funcionalidad te gustó más y por qué?
+8. ¿Qué funcionalidad te gustó menos y por qué?
+9. ¿Qué cambiarías para mejorar esa funcionalidad?
+
 #### 5.3.2. Registro de Entrevistas
+
+En esta sección se presenta el registro de las entrevistas de validación realizadas a los segmentos objetivo de WashTrack. Estas entrevistas tuvieron como finalidad evaluar la comprensión de la propuesta de valor presentada en la Landing Page, la experiencia de navegación en la aplicación web y la utilidad de las funcionalidades implementadas.
+
+Durante las sesiones, los participantes revisaron la plataforma y proporcionaron sus opiniones sobre los procesos de registro y seguimiento de pedidos, gestión de pagos, notificaciones y entregas. Asimismo, identificaron oportunidades de mejora relacionadas con la usabilidad, la presentación de información y la incorporación de nuevas funcionalidades.
+
+Las entrevistas se organizaron en dos segmentos objetivo: propietarios de lavanderías independientes y personas que utilizan servicios de lavandería.
+
+### Primer Segmento: Propietarios de lavanderías independientes
+
+**Entrevista 1:**
+
+**Entrevistador:** Luis Angel Tufiño Argüelles
+
+**Datos del entrevistado:**
+
+- **Nombre:** Leonardo
+- **Apellidos:** Cumba
+- **Edad:** 21 años
+- **Distrito:** Pueblo Libre
+- **Timing:** 00:00:10 - 00:10:11
+- **Duración:** 10 minutos y 1 segundo
+
+**Evidencia de la entrevista:**
+
+![Entrevista de Leonardo Cumba](assets/img/Chapter5/sprint3/entrevista-leonardo-cumba.png)
+
+**Resumen descriptivo:**
+
+El entrevistado Leonardo Cumba, quien es dueño de una lavandería independiente, revisó la Landing Page de WashTrack y comprendió que la plataforma le permitiría centralizar los pedidos, consultar sus estados y realizar el seguimiento de las entregas. Consideró que estas funcionalidades responden a una de las principales dificultades de su negocio, debido a que actualmente registra los pedidos en un cuaderno y no siempre puede identificar con facilidad qué prendas faltan lavar o entregar.
+
+Por esta razón, manifestó un alto interés en probar la aplicación, aunque señaló que el costo del servicio y el tiempo necesario para migrar la información de sus clientes podrían representar dificultades para su adopción. Asimismo, recomendó que los precios de los planes sean más visibles en la Landing Page y que se incorpore un video corto que explique el funcionamiento de la plataforma.
+
+Respecto al registro de pedidos, consideró que WashTrack le permitiría ahorrar tiempo en comparación con su procedimiento manual. También indicó que encontrar pedidos según su estado le resultó sencillo gracias a los filtros disponibles, aunque sugirió utilizar colores diferentes para facilitar la identificación de cada estado.
+
+La funcionalidad que más le gustó fue el seguimiento de entregas mediante un mapa, ya que actualmente necesita comunicarse directamente con el repartidor para proporcionar información sobre la ubicación de los pedidos a sus clientes.
+
+Por otro lado, identificó como principal limitación la ausencia de un campo para registrar observaciones sobre las prendas, información que considera importante para atender posibles reclamos. Por ello, recomendó incorporar un apartado de observaciones que permita adjuntar fotografías y señalar claramente los campos obligatorios.
+
+Finalmente, afirmó que, si se implementaran estas mejoras, estaría dispuesto a reemplazar el registro manual en cuadernos y utilizar WashTrack para gestionar todos los pedidos durante su turno de trabajo.
+
+---
+
+**Entrevista 2:**
+
+**Entrevistador:** Adriana Nicole Ramos Fuentes Rivera
+
+**Datos del entrevistado:**
+
+- **Nombre:** Jorge
+- **Apellidos:** Laines
+- **Edad:** 54 años
+- **Distrito:** Comas
+- **Timing:** 00:10:12 - 00:27:03
+- **Duración:** 16 minutos y 51 segundos
+
+**Evidencia de la entrevista:**
+
+![Entrevista de Jorge Laines](assets/img/Chapter5/sprint3/entrevista-jorge-laines.png)
+
+**Resumen descriptivo:**
+
+El entrevistado Jorge Laines, propietario de una lavandería, revisó la Landing Page de WashTrack y comprendió que la plataforma permite obtener información puntual sobre las operaciones diarias del negocio, como la cantidad de pedidos recibidos y aquellos que permanecen pendientes. Consideró que la información presentada responde a las necesidades de su lavandería y destacó que el seguimiento de pedidos le parece bastante completo. Como oportunidad de mejora, sugirió incorporar una funcionalidad de gestión de costos que permita conocer las ganancias obtenidas por cada pedido.
+
+Asimismo, manifestó un alto interés en probar la aplicación debido a su disposición a incorporar nuevas tecnologías en su negocio. Indicó que inicialmente utilizaría el plan gratuito y que consideraría migrar al plan básico conforme compruebe los beneficios de la plataforma.
+
+En relación con el registro de pedidos, reconoció que la implementación del sistema añadiría algunos pasos a su proceso actual y requeriría capacitar al personal encargado de la recepción. Sin embargo, consideró que los beneficios serían mayores, debido a que los procedimientos le parecieron sencillos y su personal joven podría adaptarse rápidamente.
+
+También destacó la posibilidad de supervisar las operaciones desde su teléfono móvil sin necesidad de encontrarse físicamente en el establecimiento, lo que le permitiría mantener una mayor visibilidad sobre las actividades de su negocio.
+
+La funcionalidad que más valoró fue la visualización de pedidos organizados por columnas según su estado, debido a que le resultó más clara e intuitiva que una tabla convencional. No identificó funcionalidades que le generaran insatisfacción, pues considera que la plataforma ofrece una solución bastante completa para tratarse de su primera experiencia con un sistema de este tipo.
+
+Finalmente, recomendó automatizar el cálculo del precio al registrar un pedido, tomando en cuenta el servicio seleccionado y la cantidad de prendas. Esta mejora permitiría reducir los cálculos manuales del personal de atención y agilizar el proceso de registro.
+
+---
+
+### Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías
+
+**Entrevista 1:**
+
+**Entrevistador:** Adriana Nicole Ramos Fuentes Rivera
+
+**Datos del entrevistado:**
+
+- **Nombre:** Andrea
+- **Apellidos:** Arias
+- **Edad:** 28 años
+- **Distrito:** Comas
+- **Timing:** 00:27:04 - 00:43:22
+- **Duración:** 16 minutos y 18 segundos
+
+**Evidencia de la entrevista:**
+
+![Entrevista de Andrea Arias](assets/img/Chapter5/sprint3/entrevista-andrea-arias.png)
+
+**Resumen descriptivo:**
+
+La entrevistada Andrea Arias, quien utiliza servicios de lavandería, comprendió WashTrack como una solución digital que permite realizar el seguimiento de los pedidos y organizar mejor los tiempos de recojo de sus prendas. Al revisar la Landing Page, destacó especialmente la información relacionada con los métodos de pago, las etapas del procesamiento de los pedidos y la disponibilidad del servicio de delivery con fechas y horarios estimados. Sin embargo, señaló que no comprendió con claridad la finalidad de los sensores IoT mencionados en la plataforma.
+
+Asimismo, manifestó que estaría dispuesta a probar la aplicación, debido a que le permitiría evitar desplazamientos innecesarios a la lavandería para consultar el estado de su ropa.
+
+En cuanto a la experiencia de solicitar un pedido, la describió como buena y eficaz, comparándola con el proceso de realizar un pedido de comida mediante una aplicación digital. También consideró que las notificaciones sobre los cambios de estado serían especialmente útiles para organizar sus actividades y evitar olvidar sus prendas.
+
+Como oportunidad de mejora, sugirió incorporar opciones que permitan personalizar las preferencias de lavado, como seleccionar el uso de suavizante durante el procesamiento de las prendas.
+
+La funcionalidad que más le gustó fue el mapa de seguimiento del servicio de delivery, aunque recomendó agregar información sobre la ruta del repartidor y la distancia entre su domicilio y la lavandería.
+
+Por otro lado, identificó como principal aspecto negativo la visualización de las etapas del pedido, debido a que considera que existen demasiados pasos y que estos podrían generar confusión. Por ello, recomendó simplificar la cantidad de etapas visibles y asignar un color diferente a cada una para facilitar su identificación.
+
+En general, su evaluación destacó la utilidad del seguimiento digital y las notificaciones como herramientas que permiten mejorar la organización personal y reducir la necesidad de comunicarse constantemente con la lavandería.
+
+---
+
+**Entrevista 2:**
+
+**Entrevistador:** Ramirez Gutierrez Gabriel
+
+**Datos del entrevistado:**
+
+- **Nombre:** Santiago
+- **Apellidos:** Vargas
+- **Edad:** 19 años
+- **Distrito:** San Miguel
+- **Timing:** 00:43:23 - 00:50:18
+- **Duración:** 6 minutos y 55 segundos
+
+**Evidencia de la entrevista:**
+
+![Entrevista de Santiago Vargas](assets/img/Chapter5/sprint3/entrevista-santiago-vargas.png)
+
+**Resumen descriptivo:**
+
+Durante la sesión de validación correspondiente a Santiago Vargas se revisaron la Landing Page y diferentes funcionalidades de WashTrack, identificando que la plataforma permite centralizar información relacionada con pedidos, pagos, prendas y clientes. Entre los aspectos destacados durante la evaluación se encontró la sección de pagos, especialmente por la presencia de una gráfica lineal que se actualiza dinámicamente según los registros realizados.
+
+Respecto a la experiencia de solicitar un pedido, se consideró que el procedimiento resulta sencillo al permitir ingresar los datos necesarios, como el nombre y la fecha, y posteriormente consultar el progreso del servicio. No obstante, se señaló que la facilidad de uso puede variar dependiendo de la familiaridad de cada cliente con las herramientas tecnológicas.
+
+En relación con el seguimiento de pedidos, se valoró positivamente la organización del proceso en diferentes etapas, como creado, clasificado, en proceso y listo para entrega, junto con la disponibilidad de información sobre pagos y entregas. Asimismo, se consideró que las notificaciones relacionadas con el estado de las prendas representan una funcionalidad efectiva para mantener informado al usuario sobre el avance del servicio.
+
+Por otro lado, durante la revisión se identificó un inconveniente relacionado con el botón de cambio de idioma. Al seleccionar dos veces el mismo idioma, la opción activa puede deseleccionarse y provocar problemas en el funcionamiento de la página, debido a que la aplicación deja de reconocer correctamente el idioma seleccionado.
+
+Como propuesta de mejora, se planteó mantener siempre un idioma activo, evitando que el usuario pueda deseleccionarlo sin elegir previamente una alternativa diferente. De esta manera, se reducirían los errores de navegación y se ofrecería una experiencia más estable.
+
+En general, la sesión permitió destacar la utilidad de la información de pagos, el seguimiento de pedidos y las notificaciones, además de identificar la necesidad de mejorar el comportamiento del selector de idioma.
+
+**Nota de verificación:** Las notas de la sesión intercambian los roles de Santiago y Gabriel. Antes de la entrega, debe comprobarse en el video qué observaciones corresponden específicamente al entrevistado.
+
+---
+
+**Entrevista 3:**
+
+**Entrevistador:** Perez Vasquez Ariana Valeria
+
+**Datos del entrevistado:**
+
+- **Nombre:** Renzo
+- **Apellidos:** Mongrut
+- **Edad:** 20 años
+- **Distrito:** Jesús María
+- **Timing:** 00:50:19 - 00:57:54
+- **Duración:** 7 minutos y 35 segundos
+
+**Evidencia de la entrevista:**
+
+![Entrevista de Renzo Mongrut](assets/img/Chapter5/sprint3/entrevista-renzo-mongrut.png)
+
+**Resumen descriptivo:**
+
+El entrevistado Renzo Mongrut, usuario de servicios de lavandería, describió WashTrack como una plataforma útil, bien estructurada y con información clara sobre las funcionalidades disponibles. Al revisar la Landing Page, comprendió que la aplicación permite conocer el estado del procesamiento de las prendas y determinar el momento adecuado para recogerlas, evitando tiempos de espera innecesarios.
+
+En cuanto a la información presentada, destacó especialmente la sección de etapas del pedido, debido a que permite identificar si las prendas se encuentran en procesos de lavado, secado, planchado o empaquetado. Asimismo, valoró que la plataforma utilice una señal visual de color verde para indicar que un pedido está listo para ser recogido.
+
+También manifestó una disposición favorable a utilizar WashTrack, ya que considera que le permitiría ahorrar tiempo y dinero en desplazamientos, especialmente cuando se encuentra lejos de la lavandería. Además, señaló que disponer de información actualizada sobre sus prendas le proporcionaría mayor confianza en el servicio.
+
+Respecto a la experiencia de solicitar un pedido, la describió como práctica e intuitiva, debido a que la aplicación presenta instrucciones claras durante cada paso. Por esta razón, consideró que utilizar WashTrack sería más conveniente que comunicarse telefónicamente con la lavandería.
+
+Asimismo, destacó la utilidad de recibir notificaciones sobre los cambios de estado del pedido, especialmente cuando necesita una prenda para una ocasión importante. Consideró que esta funcionalidad le permitiría mantenerse informado sin tener que consultar constantemente la aplicación.
+
+En relación con las funcionalidades disponibles, indicó que todas le parecieron útiles, aunque destacó especialmente el seguimiento por etapas, debido a la claridad con la que presenta el progreso de cada pedido.
+
+Finalmente, señaló que no realizaría cambios significativos en la plataforma, pero enfatizó la importancia de que las notificaciones lleguen directamente al teléfono móvil para garantizar que el usuario reciba oportunamente la información sobre sus prendas.
+
+---
+
+**Registro de todas las entrevistas**
+
+<p align="center">
+  <img src="assets/img/Chapter2/Interview/Registro_Entrevistas.png" alt="Video de registro de entrevistas de validacion de ambos segmentos" width="500"/>
+  <br/><i>Evidencia de entrevistas de validación</i>
+</p>
+<br>
+
+Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQDsvZv0oIhFSZqUH6tDfdxQAX3WArJfVPmBE-3BZ5l_LD0?e=HuXQhE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQDsvZv0oIhFSZqUH6tDfdxQAX3WArJfVPmBE-3BZ5l_LD0?e=HuXQhE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+<br>
+
+---
+
+### Síntesis de los resultados de las entrevistas de validación
+
+A partir de las cinco entrevistas registradas, se identificaron percepciones favorables hacia la propuesta de valor de WashTrack, especialmente en relación con la centralización de información, el seguimiento de pedidos y la reducción de consultas presenciales o telefónicas.
+
+En el segmento de propietarios de lavanderías independientes, los participantes destacaron la utilidad de organizar los pedidos según su estado y supervisar las operaciones del negocio. No obstante, también identificaron oportunidades de mejora relacionadas con el registro de observaciones de las prendas, la automatización de precios, la gestión de costos y la capacitación necesaria para incorporar la plataforma en sus procesos habituales.
+
+En el segmento de personas que utilizan servicios de lavandería, se valoraron especialmente las notificaciones, el seguimiento por etapas y la posibilidad de conocer el estado de los pedidos sin desplazarse al establecimiento. Entre las mejoras identificadas se encuentran la simplificación visual de las etapas, la personalización de preferencias de lavado, la presentación de información adicional sobre el delivery y la corrección del selector de idioma.
+
+En conjunto, los resultados sugieren que WashTrack responde a necesidades relevantes de ambos segmentos objetivo. Sin embargo, también evidencian la importancia de continuar mejorando la usabilidad, la claridad de la información y la automatización de determinados procesos para facilitar su adopción.
+
 #### 5.3.3. Evaluaciones según heurísticas
 
+**UX Heuristics & Principles Evaluation**
+ 
+**Usability – Inclusive Design – Information Architecture**
+ 
+**CARRERA:** Ingeniería de Software
+
+**CURSO:** Aplicaciones Web
+
+**SECCIÓN:** 16129
+
+**PROFESORES:** Todos
+
+**AUDITOR:**
+
+**CLIENTE(S):** DevTech
+ 
+---
+*SITE o APP A EVALUAR*
+ 
+**WashTrack** – Aplicación web de gestión inteligente y monitoreo de lavanderías.
+
+---
+
+*TAREAS A EVALUAR*
+ 
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+ 
+1. Registro de un usuario nuevo.
+2. Inicio de sesión y recuperación de contraseña.
+3. Navegación por el menú principal según el rol del usuario.
+4. Registro de un cliente de la lavandería.
+5. Creación de un pedido asociado a un cliente.
+6. Consulta del detalle de un pedido.
+7. Avance de un pedido en el tablero de producción.
+8. Consulta del detalle de un pago.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+ 
+1. Consulta del seguimiento de un pedido.
+2. Consulta de recojos y entregas.
+3. Registro de servicios y prendas en el catálogo.
+4. Consulta de recursos (máquinas) y ciclos de lavado.
+5. Lectura del Dashboard (indicadores, alertas y gráficos).
+6. Búsqueda global y cambio de idioma.
+7. Monitoreo IoT y gestión de alertas (módulos aún no implementados).
+8. Pago real mediante pasarela (Yape / tarjeta).
+
+---
+ 
+*ESCALA DE SEVERIDAD*
+ 
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+ 
+| Nivel | Descripción |
+|:---:|---|
+| **1** | **Problema superficial:** puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| **2** | **Problema menor:** puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| **3** | **Problema mayor:** ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta. |
+| **4** | **Problema muy grave:** un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+ 
+---
+
+*TABLA RESUMEN*
+ 
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|:---:|---|:---:|---|
+| 1 | Cualquier persona puede registrarse con el rol "Administrador" | 3 | Usability: Prevención de errores |
+| 2 | La pantalla de recuperación de contraseña no muestra el botón para confirmar en producción | 4 | Information Architecture: Is it usable? |
+| 3 | El menú muestra los mismos módulos a todos los roles | 3 | Information Architecture: Is it findable? |
+| 4 | Un cliente registrado no se puede editar ni eliminar | 3 | Usability: Libertad y control del usuario |
+| 5 | Las fechas del pedido siempre se muestran en formato peruano, aunque la app esté en inglés | 1 | Inclusive Design: Ofrece opciones |
+| 6 | Avanzar un pedido en el tablero de producción es irreversible y no pide confirmación | 3 | Usability: Prevención de errores |
+| 7 | El detalle de un pago solo se abre con doble clic, sin ninguna indicación | 3 | Usability: Reconocer antes que recordar |
+ 
+---
+ 
+*DESCRIPCIÓN DE PROBLEMAS*
+ 
+**PROBLEMA #1: Cualquier persona puede registrarse con el rol "Administrador"**
+ 
+**Severidad:** 3
+**Heurística violada:** Usability – Prevención de errores
+ 
+**Problema:**
+En la pantalla de registro se puede elegir entre "Cliente" y "Administrador" con un solo clic. Un cliente puede escoger el rol de administrador por error (o a propósito) y obtener acceso a la gestión de toda la lavandería, sin que la aplicación lo valide ni lo advierta.
+ 
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/crear_cuenta_p1_cliente.png" alt="Creación de cuenta como cliente" width="500"/>
+  <br/><i>Creación de cuenta como cliente</i>
+</p>
+<br>
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/crear_cuenta_p1_lavanderia.png" alt="Creación de cuenta como administrador" width="500"/>
+  <br/><i>Creación de cuenta como administrador</i>
+</p>
+
+ 
+**Recomendación:**
+Que el registro público cree solo cuentas de cliente. Las cuentas de administración deberían crearse desde un módulo interno por el propietario, o requerir un código de invitación de la lavandería.
+ 
+---
+ 
+**PROBLEMA #2: La recuperación de contraseña no muestra el botón para confirmar en producción**
+ 
+**Severidad:** 4
+**Heurística violada:** Information Architecture – Is it usable?
+ 
+**Problema:**
+Desde el login el usuario puede entrar a "¿Olvidaste tu contraseña?", ingresar su correo y escribir dos veces la nueva contraseña. Sin embargo, el botón para enviar el formulario no aparece en la versión desplegada ya que el usuario llena todo y no tiene cómo confirmar, por lo que no puede recuperar el acceso a su cuenta.
+ 
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p2_restablecer_contraseña.png" alt="Restablecer la contraseña" width="500"/>
+  <br/><i>Restablecer la contraseña</i>
+</p>
+ 
+**Recomendación:**
+Mostrar siempre el botón "Restablecer contraseña". Si la funcionalidad no está lista para producción, ocultar el enlace desde el login. A futuro, enviar un código o enlace de verificación al correo antes de permitir el cambio.
+ 
+---
+ 
+**PROBLEMA #3: El menú muestra los mismos módulos a todos los roles**
+ 
+**Severidad:** 3
+**Heurística violada:** Information Architecture – Is it findable?
+ 
+**Problema:**
+Al iniciar sesión como "Cliente", el menú lateral muestra exactamente las mismas opciones que al administrador: Pedidos, Clientes, Operaciones de lavandería, Prendas, Servicios, Pagos, etc. El cliente no encuentra fácilmente lo que le interesa (el seguimiento de su propio pedido) entre opciones que no le corresponden, y además puede ver información de otros clientes.
+ 
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p3_pedidos.png" alt="Modulo de pedidos" width="500"/>
+  <br/><i>Módulo de pedidos (vista del cliente)</i>
+</p>
+<br>
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p3_clientes.png" alt="Modulo de clientes" width="500"/>
+  <br/><i>Módulo de clientes (vista del cliente)</i>
+</p>
+<br>
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p3_operaciones.png" alt="Modulo de operaciones de lavanderia" width="500"/>
+  <br/><i>Módulo de operaciones de lavanderia (vista del cliente)</i>
+</p>
+<br>
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p3_entrega.png" alt="Modulo de recojos y entregas" width="500"/>
+  <br/><i>Módulo de operaciones de recojos y entregas (vista del cliente)</i>
+</p>
+
+**Recomendación:**
+Filtrar las opciones del menú según el rol del usuario y proteger las rutas con el mismo criterio. Para el cliente, priorizar "Mis pedidos", "Seguimiento" y "Recojos y entregas".
+ 
+---
+ 
+**PROBLEMA #4: Un cliente registrado no se puede editar ni eliminar**
+ 
+**Severidad:** 3
+**Heurística violada:** Usability – Libertad y control del usuario
+ 
+**Problema:**
+En el módulo de Clientes solo existe el botón "Nuevo cliente". Si el encargado se equivoca al escribir el teléfono, el documento o la dirección, no hay forma de corregirlo ni de eliminar el registro duplicado o incorrecto. La historia de usuario US-005 indica que el perfil del cliente debe poder "consultarse y editarse posteriormente".
+ 
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p4_editar_clientes.png" alt="Modulo de clientes" width="500"/>
+  <br/><i>Módulo de clientes (vista del administrador)</i>
+</p>
+ 
+**Recomendación:**
+Agregar una columna de acciones (Editar / Eliminar) en cada fila, reutilizando el diálogo de registro en modo edición y pidiendo confirmación antes de eliminar.
+ 
+
+---
+ 
+**PROBLEMA #5: Las fechas del pedido siempre se muestran en formato peruano**
+
+**Severidad:** 1
+**Heurística violada:** Inclusive Design – Ofrece opciones
+ 
+**Problema:**
+La aplicación ofrece cambiar el idioma a inglés, pero las fechas de recepción y de entrega estimada del pedido siguen mostrándose en formato peruano (por ejemplo "12 Nov"), porque están fijadas en `es-PE` en el código. Además, el idioma elegido no se guarda y vuelve a español al recargar la página. Un usuario que prefiere el inglés recibe una experiencia a medias, aunque puede entender las fechas sin mayor dificultad.
+
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p5_pedidos_es.png" alt="Modulo de pedidos en español" width="500"/>
+  <br/><i>Módulo de pedidos (en español)</i>
+</p>
+<br>
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p5_pedidos_en.png" alt="Modulo de pedidos en ingles" width="500"/>
+  <br/><i>Módulo de pedidos (en ingles)</i>
+</p>
+
+**Recomendación:**
+Formatear las fechas con el idioma activo de la aplicación (el `locale` de vue-i18n) en lugar de `es-PE`, y guardar el idioma elegido en `localStorage` para que se mantenga al recargar.
+ 
+---
+ 
+**PROBLEMA #6: Avanzar un pedido en el tablero de producción es irreversible y no pide confirmación**
+ 
+
+**Severidad:** 3
+**Heurística violada:** Usability – Prevención de errores
+ 
+**Problema:**
+En el tablero de producción, los botones "Clasificar" y "Avanzar" de cada tarjeta cambian la etapa del pedido de inmediato. No se pide confirmación y no existe forma de regresar a la etapa anterior, por lo que un clic accidental deja el pedido en una etapa incorrecta (por ejemplo, "Empaquetado" cuando aún se está lavando), y esa información es la que luego ve el cliente.
+ 
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p6_avanzar_pedido.png" alt="Modulo de operaciones de lavanderia (pedido en lavado)" width="500"/>
+  <br/><i>Módulo de operaciones de lavanderia (pedido en lavado)</i>
+</p>
+<br>
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p6_pedido_avanzado.png" alt="Modulo de operaciones de lavanderia (pedido en secado/planchado)" width="500"/>
+  <br/><i>Módulo de operaciones de lavanderia (pedido en secado/planchado)</i>
+</p>
+ 
+**Recomendación:**
+Pedir confirmación antes de cambiar la etapa ("¿Avanzar el pedido #A1B2C3 a Lavado?") o mostrar un mensaje con la opción "Deshacer" durante unos segundos.
+ 
+---
+ 
+**PROBLEMA #7: El detalle de un pago solo se abre con doble clic**
+
+**Severidad:** 3
+**Heurística violada:** Usability – Reconocer antes que recordar
+ 
+**Problema:**
+En la tabla de Pagos, para ver el detalle hay que hacer doble clic sobre la fila. No hay ningún botón, ícono ni texto que lo indique, y en otras pantallas basta un solo clic o existe un botón "Ver". El usuario tiene que adivinar o recordar cómo abrir el detalle; en celulares el doble toque es todavía menos natural.
+ 
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p7_pagos.png" alt="Modulo de pagos" width="500"/>
+  <br/><i>Módulo de pagos</i>
+</p>
+<br>
+<p align="center">
+  <img src="assets/img/Chapter5/sprint3/heuristics/p7_pagos_qr.png" alt="Modulo de pagos despues del doble click en la fila" width="500"/>
+  <br/><i>Módulo de pagos despues del doble click en la fila</i>
+</p>
+
+**Recomendación:**
+Abrir el detalle con un solo clic y agregar un botón "Ver detalle" al final de cada fila, igual que en la pantalla de Seguimiento.
+
 ### 5.4. Video About-the-Product
+
+<p align="justify">
+  En esta sección presentamos el video About the Product de nuestra solución para la gestión de lavanderías. Está dirigido a dos públicos. El primero son los visitantes del Landing Page que quieren conocer el modelo de negocio y las principales funcionalidades de la plataforma. El segundo son los usuarios de la aplicación que quieren saber cómo realizar tareas como registrar pedidos, hacer seguimiento a su estado, coordinar entregas y gestionar pagos.
+</p>
+<p align="justify">
+  El video usa un tono cercano, claro y profesional, igual al del producto. Muestra cómo la solución ayuda a ordenar la operación diaria de la lavandería y mejora la experiencia de sus clientes.
+</p>
+
+<div align="center">
+  <img src="./assets/img/Chapter5/inicio_video_about_the_product.png" width="700px" alt="Video-about-the-product">
+  <p>DevTech - WashTrack: Video about the product</p>
+  <p></p>
+</div>
+<br>
+
+Link del video (Microsoft): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQCd2MxUqQFNRKVqZMzl8-anATdsy-j-NHwSKU2QKzxrkqo?e=QfvdvK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQCd2MxUqQFNRKVqZMzl8-anATdsy-j-NHwSKU2QKzxrkqo?e=QfvdvK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Link del video (Youtube): [https://youtu.be/1HnxbQQjbfU](https://youtu.be/1HnxbQQjbfU)
 
 ---
 
 ## Conclusiones
 
-A partir del desarrollo del proyecto **WashTrack** que desarrollo nuestro equipo <b>DevTech</b>, se logró avanzar desde la identificación de las necesidades de los usuarios hasta la implementación y despliegue de una primera versión de la Landing Page. El proyecto permitió integrar las actividades de levantamiento y análisis de requisitos, especificación de requisitos, diseño del producto, gestión de configuración, implementación y despliegue, manteniendo una relación directa entre las necesidades identificadas y las funcionalidades propuestas para la solución.
+El equipo DevTech desarrolló el proyecto WashTrack en tres sprints. Partió de la identificación de las necesidades de los usuarios y llegó a una primera versión de los Web Services con persistencia en base de datos. Durante el proceso integró el levantamiento y análisis de requisitos, la especificación, el diseño del producto, la gestión de configuración, la implementación y el despliegue. En cada etapa, las funcionalidades implementadas se mantuvieron alineadas con las necesidades identificadas al inicio.
+ 
+- **En relación con los Problem Statements:** Se identificaron varias dificultades de los clientes de lavanderías: la falta de información sobre el estado de sus prendas, la coordinación de los recojos y entregas, y la necesidad de ver el avance de sus pedidos. Por su parte, las lavanderías necesitaban mejorar la gestión y el seguimiento de sus operaciones. En el Sprint 3 estas problemáticas pasaron a resolverse con servicios backend funcionales. La API permite registrar pedidos con sus prendas, avanzar su estado, recibirlos en el tablero de producción, programar recojos a domicilio y registrar pagos. Con ello, la idea de centralizar la gestión de pedidos dejó de ser solo una interfaz y se convirtió en una solución que procesa y almacena información real.
+- **Respecto a los Assumptions:** Los supuestos de la etapa de Requirements Elicitation & Analysis se contrastaron mediante entrevistas. Estas confirmaron que es crítico conocer el estado de las prendas y coordinar el recojo y la entrega. A partir de esos supuestos se eligieron los bounded contexts que se desarrollaron primero en el backend: Order Management, Laundry Operations, Pickups & Deliveries y Subscription & Payment. Así, el esfuerzo de desarrollo se concentró en las capacidades de mayor valor para el segmento objetivo.
+- **En cuanto a los Hypotheses Statements:** Las hipótesis sobre el seguimiento de pedidos, la gestión digital del servicio y la coordinación entre clientes y lavanderías se llevaron progresivamente a elementos concretos. En el Sprint 1 se plasmaron en la Landing Page, en el Sprint 2 en la interfaz del Frontend Web Application y en el Sprint 3 en endpoints REST que recorren el ciclo principal de un pedido con datos persistidos. Gracias a esto, las hipótesis ya pueden validarse con información real y no solo con datos simulados.
+- **Criterios de éxito definidos mediante Lean UX:** El producto avanzó en la comprobación de la propuesta de valor, la identificación de las funcionalidades principales y la experiencia orientada al segmento. La nueva versión de la Landing Page incorpora internacionalización en-US/es-419, meta tags de SEO, navegación accesible, call-to-action por segmento hacia la Web Application, términos y condiciones bilingües y el video About-the-Product. La Web Application, por su parte, cuenta con inicio de sesión con guard de autenticación y sesión persistente, el flujo de registro de pagos y la integración de pedidos con el tablero de producción, el seguimiento y las entregas. Sin embargo, los criterios cuantitativos, como los tiempos de consulta del estado, la adopción y la frecuencia de uso, solo podrán medirse cuando la Web Application consuma los Web Services desplegados en un entorno accesible para usuarios reales.
+- **Product Implementation, Validation & Deployment:** Se consolidó la base técnica de los tres productos digitales de WashTrack. La Landing Page se construyó con HTML5, CSS3 y JavaScript, y el Frontend Web Application con Vue 3. Los Web Services se desarrollaron con ASP.NET Core y Entity Framework Core sobre MySQL, organizados con Domain-Driven Design por bounded contexts. En el backend se construyó un Shared Kernel con agregados y repositorio base, Unit of Work, interceptores de auditoría y de eventos de dominio, manejo global de excepciones localizado y convención de rutas kebab-case. Los bounded contexts Laundry Operations, Order Management y Pickups & Deliveries se integraron en la rama develop con sus agregados, comandos, consultas, repositorios, controladores REST y migraciones. Subscription & Payment y Customer Management se desarrollaron en sus respectivas ramas feature. La pasarela de pago externa se incorporó mediante una Anti-Corruption Layer, lo que protege el modelo de dominio frente a servicios de terceros. Los endpoints se documentaron con OpenAPI 3.1, con descripciones en español e inglés consultables desde Scalar.
+- **Ejecución de los Sprints:** Los tres sprints se organizaron mediante Sprint Planning, un Sprint Backlog en Trello y una Leadership-and-Collaboration Matrix que distribuyó el liderazgo de cada bounded context entre los integrantes. En el Sprint 3 el equipo planificó 34 Story Points, repartidos en 28 Engineering Tasks con un total de 167 horas. El trabajo se organizó en ramas feature por bounded context y se integró mediante Pull Requests siguiendo GitFlow, lo que permitió avanzar en paralelo y mantener la trazabilidad de los cambios. Algunas tareas pasan al siguiente incremento: la autenticación con JWT en el backend, las notificaciones, la inspección de prendas, la auditoría, la integración completa del frontend con la API y el despliegue de los Web Services.
 
-* **En relación con los Problem Statements:** Se identificaron dificultades en los clientes de lavanderías relacionadas con la falta de información sobre el estado de sus prendas, la coordinación de los servicios de recojo y entrega, y la necesidad de contar con mayor visibilidad durante el procesamiento de sus pedidos. Desde la perspectiva de las lavanderías, también se identificó la necesidad de mejorar la gestión y seguimiento de sus operaciones. Frente a estas problemáticas, WashTrack plantea una solución digital orientada a centralizar la gestión de pedidos, facilitar el seguimiento de las prendas y mejorar la interacción entre clientes y proveedores del servicio.
+---
 
-* **Respecto a los Assumptions:** Los supuestos establecidos durante la etapa de *Requirements Elicitation & Analysis* fueron contrastados mediante entrevistas. La información obtenida permitió validar las necesidades inicialmente planteadas con el comportamiento y la voz real de los usuarios. Se identificó la importancia crítica de conocer el estado de las prendas durante el servicio y de contar con mecanismos que faciliten la coordinación del recojo y la entrega, orientando la propuesta hacia necesidades concretas del segmento objetivo.
+## Video About the Team
 
-* **En cuanto a los Hypotheses Statements:** Las necesidades identificadas se transformaron en hipótesis relacionadas principalmente con el seguimiento de pedidos, la gestión digital del servicio y la coordinación entre clientes y lavanderías. La primera versión implementada permitió llevar estas hipótesis a elementos concretos de la solución y establecer una base sólida para continuar validándolas en las siguientes iteraciones del producto.
+<p align="justify">
+  En esta sección presentamos el video About The Team, en el que el equipo DevTech muestra cómo trabajó durante el desarrollo del proyecto. El video reúne escenas e imágenes de nuestras reuniones y sesiones de trabajo reales.
+</p>
 
-* **Criterios de éxito definidos mediante Lean UX:** La primera versión de WashTrack permitió avanzar en la comprobación de aspectos relacionados con la comprensión de la propuesta de valor, la identificación de las funcionalidades principales y la presentación de una experiencia orientada a las necesidades del segmento. La Landing Page presenta la propuesta de WashTrack, sus características principales, los usuarios a los que se dirige y el funcionamiento general del servicio. Sin embargo, se concluye que algunos criterios cuantitativos requieren continuar siendo validados en futuras iteraciones mediante la implementación de las funcionalidades correspondientes al *Frontend Web Application* y los *Web Services*.
+<div align="center">
+  <img src="./assets/img/Chapter5/devtech_video_team.png" width="700px" alt="Video-about-the-team">
+  <p>DevTech - WashTrack: Video about the team</p>
+  <p></p>
+</div>
+<br>
 
-* **Product Implementation, Validation & Deployment:** Se estableció una base técnica para continuar con la evolución del proyecto. Se utilizaron herramientas y prácticas para la gestión del código fuente mediante GitHub, se definió un flujo de trabajo basado en ramas y se establecieron convenciones de desarrollo. Asimismo, se implementó la primera versión de la Landing Page utilizando HTML5, CSS3 y JavaScript, incorporando navegación responsive, cambio de idioma e interacción. Finalmente, se configuró su despliegue mediante GitHub Pages, permitiendo disponer de una versión accesible del producto.
+Link del video (Microsoft): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAWFRdCY4iJS4vOmlQPI7OlAfVjCQKRC_WJIN0Ml-a0bn4?e=XFhrDx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAWFRdCY4iJS4vOmlQPI7OlAfVjCQKRC_WJIN0Ml-a0bn4?e=XFhrDx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-* **Ejecución del Sprint 1:** El desarrollo del primer sprint permitió organizar las actividades mediante *Sprint Planning*, *Sprint Backlog* y una correcta distribución de responsabilidades entre los integrantes del equipo. Las evidencias de desarrollo, ejecución, documentación y despliegue permitieron realizar un seguimiento riguroso al avance de los entregables y establecer la base de trabajo para los siguientes sprints.
+Link del video (Youtube): [https://youtu.be/5xmmLuuTdew](https://youtu.be/5xmmLuuTdew)
 
 ---
 
 ## Recomendaciones
 
-Como parte de los siguientes pasos en el **Roadmap** de los productos digitales que forman parte del alcance del negocio, se recomienda:
-
-1. **Desarrollo del Frontend Web Application:** Priorizar la implementación de la aplicación web comenzando por las funcionalidades principales del cliente, tales como la creación de pedidos, la consulta del estado de las prendas y el seguimiento del servicio.
-2. **Implementación de Web Services RESTful API:** Desarrollar e integrar los servicios backend utilizando ASP.NET Core, Entity Framework Core y C#, permitiendo conectar la aplicación con la persistencia de datos en la base de datos y soportar la lógica del negocio.
-3. **Módulo para Proveedores (Lavanderías):** Continuar con el desarrollo de las funcionalidades destinadas a las lavanderías, incorporando la gestión de pedidos, la actualización de las etapas del procesamiento y la administración de la información de los servicios.
-4. **Validación Continua con Usuarios:** Realizar pruebas y validaciones con usuarios del segmento objetivo tras cada incremento significativo del producto. Los resultados obtenidos deberán utilizarse para reevaluar los *Assumptions* y *Hypotheses Statements*, contrastar los criterios de éxito de Lean UX y actualizar la priorización del *Product Backlog*, asegurando que WashTrack evolucione progresivamente hacia una solución digital integral.
+Como siguientes pasos en el Roadmap de los productos digitales de WashTrack, se recomienda:
+ 
+- **Completar la seguridad en IAM:** Implementar en los Web Services el registro e inicio de sesión con contraseñas cifradas, la emisión y validación de tokens JWT y la autorización por rol (propietario, encargado y cliente). Después, conectar a estos endpoints el guard de autenticación ya existente en el frontend, para que el control de accesos de la plataforma se gestione desde el backend.
+- **Migrar el frontend de JSON Server a la API REST:** Reemplazar progresivamente el servidor simulado por los endpoints reales en las vistas de seguimiento, rutas y asignación de repartidores, recepción de prendas, gestión de clientes y comprobantes de pago. Así, la Web Application operará con datos persistidos y reflejará el comportamiento real del negocio.
+- **Desplegar los Web Services y la base de datos:** Publicar la API y la base de datos MySQL en la nube, configurar las variables de entorno y las políticas CORS, y actualizar la URL base de la API en el frontend desplegado. Con ello se contará con una versión integrada de WashTrack, accesible de punta a punta, que podrá usarse en las validaciones con usuarios.
+- **Completar los bounded contexts pendientes:** Integrar Customer Management y Subscription & Payment en la rama develop, y desarrollar Tracking & Notifications para generar avisos automáticos ante cada cambio de estado del pedido. Asimismo, implementar el registro de inspección de prendas (US-030) y la bitácora de auditoría de las acciones del personal (US-033), que completan la trazabilidad del servicio y fortalecen la confianza entre clientes y lavanderías.
+- **Integrar servicios externos reales:** Reemplazar el proveedor de pago simulado por una pasarela real, aprovechando la Anti-Corruption Layer existente para que el cambio no afecte al modelo de dominio. También se recomienda incorporar un servicio de correo electrónico para notificar al cliente los cambios de estado de su pedido.
+- **Incorporar pruebas automatizadas:** Agregar pruebas unitarias para las reglas de dominio, como las transiciones de estado, las validaciones de programación de recojos y la emisión de comprobantes, y pruebas de integración para los endpoints. Esto reducirá el riesgo de regresiones a medida que se integren nuevos bounded contexts.
+- **Validación continua con usuarios:** Realizar pruebas con usuarios del segmento objetivo sobre la versión desplegada después de cada incremento significativo del producto. Los resultados deberán usarse para reevaluar los Assumptions y Hypotheses Statements, medir los criterios cuantitativos de Lean UX y actualizar la priorización del Product Backlog. De esta forma, WashTrack evolucionará progresivamente hacia una solución digital integral.
 
 ---
 
@@ -4613,7 +6054,15 @@ URL de exposición (AV1): [Exposición AV1](https://upcedupe-my.sharepoint.com/:
 
 URL de exposición (TB1): [Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAEU2mWS13ARaBtw6ssyqQrAfnx2Z1jKFVLDnw-L3yIBA4?e=8zIsLP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+URL de validation interviews (Microsoft): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQDsvZv0oIhFSZqUH6tDfdxQAX3WArJfVPmBE-3BZ5l_LD0?e=aZFEnG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQDsvZv0oIhFSZqUH6tDfdxQAX3WArJfVPmBE-3BZ5l_LD0?e=aZFEnG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+URL del video about the product (Microsoft): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQCd2MxUqQFNRKVqZMzl8-anATdsy-j-NHwSKU2QKzxrkqo?e=QfvdvK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQCd2MxUqQFNRKVqZMzl8-anATdsy-j-NHwSKU2QKzxrkqo?e=QfvdvK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+URL del video about the product (Youtube): [https://youtu.be/1HnxbQQjbfU](https://youtu.be/1HnxbQQjbfU)
+
+URL del video about the team  (Microsoft): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAWFRdCY4iJS4vOmlQPI7OlAfVjCQKRC_WJIN0Ml-a0bn4?e=XFhrDx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAWFRdCY4iJS4vOmlQPI7OlAfVjCQKRC_WJIN0Ml-a0bn4?e=XFhrDx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+URL del video about the team: [https://youtu.be/5xmmLuuTdew](https://youtu.be/5xmmLuuTdew)
 
 
 ---

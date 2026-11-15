@@ -198,6 +198,125 @@ URL del frontend desplegado: [https://washtrack-eb717.web.app](https://washtrack
   <br/><i>Network graph Frontend of DevTech (TB1)</i>
 </p>
 
+**Tercera entrega (AV2)**
+
+<p align="justify">
+  Para la entrega AV2 desarrollamos el Sprint 3. Empezamos con la planificación del ciclo (<em>Sprint Planning 3</em>), donde fijamos los objetivos del sprint, asignamos a los líderes y colaboradores de cada aspecto técnico y armamos el Sprint Backlog 3. Seguimos usando Trello para organizar las tareas, darles visibilidad a todos y hacer seguimiento al avance del equipo.
+</p>
+
+<p align="justify">
+  En la parte de desarrollo, construimos una primera parte del backend de la aplicación. Implementamos los servicios principales respetando los principios de Diseño Guiado por el Dominio (<em>Domain-Driven Design - DDD</em>) y la separación de los <em>Bounded Contexts</em>, para que la lógica de negocio quede bien estructurada y se integre con el frontend construido en el sprint anterior. También actualizamos la landing page con mejoras de contenido y diseño para que refleje mejor la propuesta de valor del producto.
+</p>
+
+<p align="justify">
+  Del lado de la validación, hicimos entrevistas de validación con usuarios del segmento objetivo para comprobar si la solución propuesta responde a sus necesidades, y registramos sus resultados y hallazgos. Además, grabamos dos videos: uno sobre el producto (<em>About the Product</em>), que presenta la solución y sus funcionalidades principales, y otro sobre el equipo (<em>About the Team</em>), que muestra a los integrantes y cómo trabajamos.
+</p>
+
+<p align="justify">
+  Para cerrar la entrega, desplegamos los servicios desarrollados y documentamos el proceso con evidencias de desarrollo, ejecución, documentación de los servicios y despliegue, listas para la revisión del sprint (<em>Sprint Review</em>). Al final, hicimos una reflexión en equipo sobre cómo colaboramos durante este ciclo, usando como base el historial de contribuciones del repositorio.
+</p>
+<br>
+
+**Evidencias de colaboración y analíticos en GitHub**
+
+
+<p align="justify">
+  Para garantizar la participación equitativa de todos los integrantes del equipo TechNova, se adjuntan los analíticos y registros de actividad extraídos directamente de las métricas internas del repositorio en GitHub.
+</p>
+
+**Report**
+
+
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/report_contributors_1_av2_DevTech.png" alt="Contributors-DevTech-AV2" width="500"/>
+  <br/><i>Report: Contributors of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/report_contributors_2_av2_DevTech.png" alt="Contributors-DevTech-AV2" width="500"/>
+  <br/><i>Report: Contributors of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/report_pulse_av2_DevTech.png" alt="pulse-DevTech-AV2" width="500"/>
+  <br/><i>Report: Pulse of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/report_network_av2_DevTech.png" alt="Networkgraph-DevTech-AV2" width="500"/>
+  <br/><i>Report: Network graph of DevTech (AV2)</i>
+</p>
+<br>
+
+**Landing Page**
+
+<p align="center">
+<img src="assets" alt="Contributors-DevTech-LandingPage-AV2" width="500"/>
+  <br/><i>Landing Page: Contributors of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="Pulse-DevTech-LandingPage-AV2" width="500"/>
+  <br/><i>Landing Page: Pulse of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="Pulse-DevTech-LandingPage-AV2" width="500"/>
+  <br/><i>Landing Page: Pulse of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="Networkgraph-DevTech-LandingPage-AV2" width="500"/>
+  <br/><i>Landing Page: Network graph of DevTech (AV2)</i>
+</p>
+<br>
+
+**Frontend**
+
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/front_contributors_1_av2_DevTech.png" alt="Contributors-DevTech-Frontend-AV2" width="500"/>
+  <br/><i>Frontend: Contributors of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/front_contributors_2_av2_DevTech.png" alt="Pulse-DevTech-Frontend-AV2" width="500"/>
+  <br/><i>Frontend: Pulse of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/front_pulse_av2_DevTech.png" alt="Pulse-DevTech-Frontend-AV2" width="500"/>
+  <br/><i>Frontend: Pulse of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/front_network_av2_DevTech.png" alt="Networkgraph-DevTech-Frontend-AV2" width="500"/>
+  <br/><i>Frontend: Network graph of DevTech (AV2)</i>
+</p>
+<br>
+
+**Backend**
+
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/back_contributors_1_av2_DevTech.png" alt="Contributors-DevTech-Backend-AV2" width="500"/>
+  <br/><i>Backend: Contributors of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/back_contributors_2_av2_DevTech.png" alt="Pulse-DevTech-Backend-TB1" width="500"/>
+  <br/><i>Backend: Pulse of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/back_pulse_av2_DevTech.png" alt="Pulse-DevTech-Backend-TB1" width="500"/>
+  <br/><i>Backend: Pulse of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/back_network_av2_DevTech.png" alt="Networkgraph-DevTech-Backend-AV2" width="500"/>
+  <br/><i>Backend: Network graph of DevTech (AV2)</i>
+</p>
+<br>
+
 
 <div style="page-break-after: always;"></div>
 

@@ -5182,6 +5182,25 @@ A partir del desarrollo del proyecto **WashTrack** que desarrollo nuestro equipo
 
 ---
 
+## Video About the Team
+
+<p align="justify">
+  En esta sección presentamos el video About The Team, en el que el equipo DevTech muestra cómo trabajó durante el desarrollo del proyecto. El video reúne escenas e imágenes de nuestras reuniones y sesiones de trabajo reales.
+</p>
+
+<div align="center">
+  <img src="./assets/img/Chapter5/devtech_video_team.png" width="700px" alt="Video-about-the-team">
+  <p>DevTech - WashTrack: Video about the team</p>
+  <p></p>
+</div>
+<br>
+
+Link del video (Microsoft): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAWFRdCY4iJS4vOmlQPI7OlAfVjCQKRC_WJIN0Ml-a0bn4?e=XFhrDx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAWFRdCY4iJS4vOmlQPI7OlAfVjCQKRC_WJIN0Ml-a0bn4?e=XFhrDx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Link del video (Youtube): [https://youtu.be/5xmmLuuTdew](https://youtu.be/5xmmLuuTdew)
+
+---
+
 ## Recomendaciones
 
 Como parte de los siguientes pasos en el **Roadmap** de los productos digitales que forman parte del alcance del negocio, se recomienda:

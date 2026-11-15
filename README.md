@@ -86,7 +86,17 @@ URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-D
 
 URL del repositorio (frontend): [https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2)
 
-URL del frontend desplegado: [https://washtrack-eb717.web.app](https://washtrack-eb717.web.app)
+URL del repositorio (backend): [https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2)
+
+URL del frontend desplegado (Firebase): [https://washtrack-devtech.web.app](https://washtrack-devtech.web.app)
+
+URL de la API desplegada (Render): [https://washtrack-api.onrender.com/api/v1](https://washtrack-api.onrender.com/api/v1)
+
+URL de la documentación de la API (Scalar): [https://washtrack-api.onrender.com/scalar](https://washtrack-api.onrender.com/scalar)
+
+URL de la Fake API (Render): [https://washtrack-fake-api.onrender.com/api/v1](https://washtrack-fake-api.onrender.com/api/v1)
+
+Base de datos: MySQL en la nube (Aiven), utilizada por la API desplegada.
 
 <br>
 
@@ -6162,11 +6172,17 @@ URL del repositorio (landing-page): [Repositorio Landing Page](https://github.co
 
 URL de landing page (GithubPage): [Landing Page](https://1asi0730-2620-16129-g2-devtech.github.io/DevTech-LandingPage-16129-G2/)
 
-URL del repositorio (fronend): [Repositorio Frontend](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2)
+URL del repositorio (frontend): [Repositorio Frontend](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2)
 
-URL del frontend (Firebase): [Frontend](https://washtrack-eb717.web.app)
+URL del repositorio (backend): [Repositorio Backend](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2)
 
-URL del fake api (Render):[https://washtrack-fake-api.onrender.com/](https://washtrack-fake-api.onrender.com/)
+URL del frontend (Firebase): [Frontend](https://washtrack-devtech.web.app)
+
+URL de la API (Render): [https://washtrack-api.onrender.com/api/v1](https://washtrack-api.onrender.com/api/v1)
+
+URL de la documentación de la API (Scalar): [https://washtrack-api.onrender.com/scalar](https://washtrack-api.onrender.com/scalar)
+
+URL del fake api (Render): [https://washtrack-fake-api.onrender.com/](https://washtrack-fake-api.onrender.com/)
 
 URL de exposición (AV1): [Exposición AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216240_upc_edu_pe/IQB8Lru5xw1VRrAGy9Q_qwScAV3r_sKot-0D0TGgiGEB6A4?e=8FrI0h&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 

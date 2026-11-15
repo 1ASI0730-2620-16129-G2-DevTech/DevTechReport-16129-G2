@@ -208,6 +208,125 @@ Base de datos: MySQL en la nube (Aiven), utilizada por la API desplegada.
   <br/><i>Network graph Frontend of DevTech (TB1)</i>
 </p>
 
+**Tercera entrega (AV2)**
+
+<p align="justify">
+  Para la entrega AV2 desarrollamos el Sprint 3. Empezamos con la planificación del ciclo (<em>Sprint Planning 3</em>), donde fijamos los objetivos del sprint, asignamos a los líderes y colaboradores de cada aspecto técnico y armamos el Sprint Backlog 3. Seguimos usando Trello para organizar las tareas, darles visibilidad a todos y hacer seguimiento al avance del equipo.
+</p>
+
+<p align="justify">
+  En la parte de desarrollo, construimos una primera parte del backend de la aplicación. Implementamos los servicios principales respetando los principios de Diseño Guiado por el Dominio (<em>Domain-Driven Design - DDD</em>) y la separación de los <em>Bounded Contexts</em>, para que la lógica de negocio quede bien estructurada y se integre con el frontend construido en el sprint anterior. También actualizamos la landing page con mejoras de contenido y diseño para que refleje mejor la propuesta de valor del producto.
+</p>
+
+<p align="justify">
+  Del lado de la validación, hicimos entrevistas de validación con usuarios del segmento objetivo para comprobar si la solución propuesta responde a sus necesidades, y registramos sus resultados y hallazgos. Además, grabamos dos videos: uno sobre el producto (<em>About the Product</em>), que presenta la solución y sus funcionalidades principales, y otro sobre el equipo (<em>About the Team</em>), que muestra a los integrantes y cómo trabajamos.
+</p>
+
+<p align="justify">
+  Para cerrar la entrega, desplegamos los servicios desarrollados y documentamos el proceso con evidencias de desarrollo, ejecución, documentación de los servicios y despliegue, listas para la revisión del sprint (<em>Sprint Review</em>). Al final, hicimos una reflexión en equipo sobre cómo colaboramos durante este ciclo, usando como base el historial de contribuciones del repositorio.
+</p>
+<br>
+
+**Evidencias de colaboración y analíticos en GitHub**
+
+
+<p align="justify">
+  Para garantizar la participación equitativa de todos los integrantes del equipo TechNova, se adjuntan los analíticos y registros de actividad extraídos directamente de las métricas internas del repositorio en GitHub.
+</p>
+
+**Report**
+
+
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/report_contributors_1_av2_DevTech.png" alt="Contributors-DevTech-AV2" width="500"/>
+  <br/><i>Report: Contributors of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/report_contributors_2_av2_DevTech.png" alt="Contributors-DevTech-AV2" width="500"/>
+  <br/><i>Report: Contributors of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/report_pulse_av2_DevTech.png" alt="pulse-DevTech-AV2" width="500"/>
+  <br/><i>Report: Pulse of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/report_network_av2_DevTech.png" alt="Networkgraph-DevTech-AV2" width="500"/>
+  <br/><i>Report: Network graph of DevTech (AV2)</i>
+</p>
+<br>
+
+**Landing Page**
+
+<p align="center">
+<img src="assets" alt="Contributors-DevTech-LandingPage-AV2" width="500"/>
+  <br/><i>Landing Page: Contributors of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="Pulse-DevTech-LandingPage-AV2" width="500"/>
+  <br/><i>Landing Page: Pulse of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="Pulse-DevTech-LandingPage-AV2" width="500"/>
+  <br/><i>Landing Page: Pulse of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="Networkgraph-DevTech-LandingPage-AV2" width="500"/>
+  <br/><i>Landing Page: Network graph of DevTech (AV2)</i>
+</p>
+<br>
+
+**Frontend**
+
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/front_contributors_1_av2_DevTech.png" alt="Contributors-DevTech-Frontend-AV2" width="500"/>
+  <br/><i>Frontend: Contributors of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/front_contributors_2_av2_DevTech.png" alt="Pulse-DevTech-Frontend-AV2" width="500"/>
+  <br/><i>Frontend: Pulse of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/front_pulse_av2_DevTech.png" alt="Pulse-DevTech-Frontend-AV2" width="500"/>
+  <br/><i>Frontend: Pulse of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/front_network_av2_DevTech.png" alt="Networkgraph-DevTech-Frontend-AV2" width="500"/>
+  <br/><i>Frontend: Network graph of DevTech (AV2)</i>
+</p>
+<br>
+
+**Backend**
+
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/back_contributors_1_av2_DevTech.png" alt="Contributors-DevTech-Backend-AV2" width="500"/>
+  <br/><i>Backend: Contributors of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/back_contributors_2_av2_DevTech.png" alt="Pulse-DevTech-Backend-TB1" width="500"/>
+  <br/><i>Backend: Pulse of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/back_pulse_av2_DevTech.png" alt="Pulse-DevTech-Backend-TB1" width="500"/>
+  <br/><i>Backend: Pulse of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/back_network_av2_DevTech.png" alt="Networkgraph-DevTech-Backend-AV2" width="500"/>
+  <br/><i>Backend: Network graph of DevTech (AV2)</i>
+</p>
+<br>
+
 
 <div style="page-break-after: always;"></div>
 
@@ -373,13 +492,12 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   También contribuí al desarrollo de componentes compartidos del backend, incluyendo configuraciones de persistencia, manejo de errores y convenciones de rutas. Finalmente, coordiné la integración de mis avances con la estructura general del proyecto mediante ramas de desarrollo y Pull Requests, facilitando la incorporación del módulo de Laundry Operations junto con los demás bounded contexts implementados por el equipo.
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
-        Participé en el desarrollo de los entregables relacionados con la definición de la startup y la solución, elaborando el Startup Profile, los perfiles de los integrantes del equipo y el Solution Profile. Asimismo, desarrollé el análisis de antecedentes y problemática mediante el Lean UX Process, incluyendo los Problem Statements, Assumptions, Hypothesis Statements y Lean UX Canvas. Complementé este trabajo con el análisis de competidores, entrevistas y técnicas de Needfinding, como User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping. Finalmente, trabajé en la construcción del Big Picture EventStorming y el Ubiquitous Language, aportando estos resultados al desarrollo conjunto del proyecto y facilitando una visión compartida de la solución y de las necesidades de los usuarios.<br>
+        Participé en el desarrollo de los entregables relacionados con la definición de la startup y la solución, elaborando el Startup Profile, los perfiles de los integrantes del equipo y el Solution Profile. Asimismo, desarrollé el análisis de antecedentes y problemática mediante el Lean UX Process, incluyendo los Problem Statements, Assumptions, Hypothesis Statements y Lean UX Canvas. Complementé este trabajo con el análisis de competidores, entrevistas y técnicas de Needfinding, como User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping. Finalmente, trabajé en la construcción del Big Picture EventStorming y el Ubiquitous Language, aportando estos resultados al desarrollo conjunto del proyecto y facilitando una visión compartida de la solución y de las necesidades de los usuarios.<br><br>
+        <em><b>TB1</b></em><br>
+        Me encargué de desarrollar el frontend del bounded context PickupsDeliveries de WashTrack. Implementé las vistas, los componentes y los servicios para gestionar las recogidas y entregas de prendas. Asumí ese módulo de principio a fin y coordiné con mis compañeros para mantener una estructura de carpetas, convenciones de código y estilos visuales en común, de modo que mi parte encajara con los demás módulos de la aplicación.<br>
+        <em><b>AV2</b></em><br>
+        Desarrollé el backend del bounded context PickupsDeliveries siguiendo la arquitectura DDD acordada por el equipo. Definí las entidades, los servicios y los endpoints que luego consume el frontend. También tomé la iniciativa de producir el video About the Product y el video About the Team, con lo que contribuí a la presentación del proyecto y a mostrar el trabajo de todos los integrantes.
         <br>
-        <b>Sayago Vidal, Sebastián Leonardo</b><br>
-        <em><b>AV1</b></em><br>
-        Participé activamente en el desarrollo del proyecto WashTrack, asumiendo responsabilidades relacionadas con el diseño y documentación técnica del sistema.
-        Desarrollé y estructuré los contenidos correspondientes a la arquitectura de software, EventStorming, diagramas C4, diagramas de componentes, diseño orientado a objetos y diseño de base de datos.
-        ...<br>
         <b>Tufiño Argüelles, Luis Angel</b><br>
         <em><b>AV1</b></em><br>
         - Propuso y sustentó ante el equipo los criterios de usabilidad y arquitectura de información aplicados en el diseño de las pantallas de WashTrack (Dashboard, Pedidos, Clientes, Pagos), argumentando cada decisión con heurísticas de Nielsen y principios de Gestalt.<br>

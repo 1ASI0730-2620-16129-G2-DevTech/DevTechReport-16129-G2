@@ -7,27 +7,28 @@ Universidad Peruana de Ciencias Aplicadas
 Carrera de Ingeniería de Software
 <br>
 
-**1ASI030**
+##### 1ASI030
 
-**Aplicaciones Web**
+##### Aplicaciones Web
 
 NRC
-**16129**
+##### 16129
 
 #### Informe del Trabajo Final
 
 Docente
 
-**Sanchez Seña, Alberto Wilmer**
+#### Sanchez Seña, Alberto Wilmer
+
 <br>
 
 Equipo
 
-**DevTech**
+#### DevTech
 
 Proyecto
 
-**WashTrack**
+#### WashTrack
 
 <br>
 

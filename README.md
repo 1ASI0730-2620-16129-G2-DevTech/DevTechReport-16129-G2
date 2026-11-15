@@ -355,6 +355,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <em><b>TB1</b></em><br>
         En el Sprint 2 asumí la responsabilidad del bounded context de Identity and Access Management (IAM) para la primera versión del frontend de WashTrack. Implementé el modelo de usuario y el contrato del repositorio, las vistas y rutas de inicio de sesión y registro, el estado de autenticación y su integración con la API mock. También desarrollé los servicios de aplicación y el controlador de autenticación, coordinando su integración con la estructura compartida de la aplicación y las traducciones en español e inglés. El trabajo se incorporó a la rama de desarrollo mediante `feature/iam` y su Pull Request, contribuyendo a integrar el módulo con los demás componentes del equipo.<br>
         <br>
+        <em><b>AV2</b></em><br>
+        Durante el Sprint 3, asumí la responsabilidad del desarrollo del bounded context de Laundry Operations en el backend de WashTrack, contribuyendo a la implementación de una arquitectura basada en Domain-Driven Design (DDD). Desarrollé los componentes del Domain Model, incluyendo Value Objects, Commands, Queries, repositorios y eventos de dominio relacionados con la gestión de pedidos, recursos y ciclos de lavado. Asimismo, implementé los Command Services y Query Services de la capa Application, los mecanismos de persistencia de Infrastructure y los endpoints REST para exponer las funcionalidades del módulo.
+
+  También contribuí al desarrollo de componentes compartidos del backend, incluyendo configuraciones de persistencia, manejo de errores y convenciones de rutas. Finalmente, coordiné la integración de mis avances con la estructura general del proyecto mediante ramas de desarrollo y Pull Requests, facilitando la incorporación del módulo de Laundry Operations junto con los demás bounded contexts implementados por el equipo.
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
         Participé en el desarrollo de los entregables relacionados con la definición de la startup y la solución, elaborando el Startup Profile, los perfiles de los integrantes del equipo y el Solution Profile. Asimismo, desarrollé el análisis de antecedentes y problemática mediante el Lean UX Process, incluyendo los Problem Statements, Assumptions, Hypothesis Statements y Lean UX Canvas. Complementé este trabajo con el análisis de competidores, entrevistas y técnicas de Needfinding, como User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping. Finalmente, trabajé en la construcción del Big Picture EventStorming y el Ubiquitous Language, aportando estos resultados al desarrollo conjunto del proyecto y facilitando una visión compartida de la solución y de las necesidades de los usuarios.<br>
@@ -396,6 +400,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Contribuí a la organización del trabajo del equipo al revisar la prioridad de las User Stories y validar que el Product Backlog y la implementación de la Landing Page estuvieran alineados con los objetivos del Sprint. Además, apoyé la coordinación técnica y la revisión funcional para asegurar que cada tarea cumpliera con los criterios de aceptación y se entregara dentro de los plazos establecidos.<br>
         <em><b>TB1</b></em><br>
         Para el Sprint 2, enfoqué mi aporte en el alcance acordado para el frontend y en el desarrollo del módulo IAM: autenticación, registro de usuarios y conexión de esos flujos con la API mock. Organicé los cambios en la rama `feature/iam` y coordiné su integración con `develop` mediante Pull Request. También contribuí a la revisión de las rutas y vistas de acceso en la versión integrada, apoyando el objetivo común de incorporar los distintos bounded contexts en una primera versión del frontend.<br>
+        <em><b>AV2</b></em><br>
+  Durante el Sprint 3, organicé mis actividades de desarrollo de acuerdo con los objetivos establecidos para el backend de WashTrack, dividiendo la implementación del bounded context de Laundry Operations en tareas correspondientes a las capas Domain, Application, Infrastructure e Interfaces. Este enfoque permitió desarrollar progresivamente los modelos de dominio, servicios de aplicación, repositorios, persistencia y endpoints REST, manteniendo una estructura coherente con la arquitectura acordada por el equipo.
+
+Utilicé GitHub para registrar los avances mediante commits descriptivos y gestionar la integración del código a través de la rama feature/LaundryOperations y su respectivo Pull Request. Asimismo, realicé ajustes en las dependencias, configuración de servicios y componentes compartidos para favorecer la compatibilidad con los demás módulos del backend. Estas actividades contribuyeron a mantener una colaboración organizada, facilitar la integración de funcionalidades y cumplir con los objetivos técnicos asignados para el incremento del producto en el Sprint 3.
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
         Desarrollé los diferentes componentes del proyecto siguiendo una estructura organizada, comenzando por la definición de la Startup Profile, la identificación de la problemática y los segmentos objetivo, y continuando con el levantamiento y análisis de requerimientos. Para ello, elaboré el análisis competitivo, el diseño, registro y análisis de entrevistas, y las herramientas de Needfinding, como User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping. Además, desarrollé el Big Picture EventStorming y el Ubiquitous Language, permitiendo organizar y consolidar la información obtenida durante el análisis. Estas acciones contribuyeron al cumplimiento progresivo de los objetivos y entregables establecidos para el proyecto.
@@ -5614,6 +5622,198 @@ Los User Flows propuestos corresponden a las funcionalidades core de la aplicaci
 9. ¿Qué cambiarías para mejorar esa funcionalidad?
 
 #### 5.3.2. Registro de Entrevistas
+
+En esta sección se presenta el registro de las entrevistas de validación realizadas a los segmentos objetivo de WashTrack. Estas entrevistas tuvieron como finalidad evaluar la comprensión de la propuesta de valor presentada en la Landing Page, la experiencia de navegación en la aplicación web y la utilidad de las funcionalidades implementadas.
+
+Durante las sesiones, los participantes revisaron la plataforma y proporcionaron sus opiniones sobre los procesos de registro y seguimiento de pedidos, gestión de pagos, notificaciones y entregas. Asimismo, identificaron oportunidades de mejora relacionadas con la usabilidad, la presentación de información y la incorporación de nuevas funcionalidades.
+
+Las entrevistas se organizaron en dos segmentos objetivo: propietarios de lavanderías independientes y personas que utilizan servicios de lavandería.
+
+### Primer Segmento: Propietarios de lavanderías independientes
+
+**Entrevista 1:**
+
+**Entrevistador:** Luis Angel Tufiño Argüelles
+
+**Datos del entrevistado:**
+
+- **Nombre:** Leonardo
+- **Apellidos:** Cumba
+- **Edad:** 21 años
+- **Distrito:** Pueblo Libre
+- **Timing:** 00:00:10 - 00:10:11
+- **Duración:** 10 minutos y 1 segundo
+
+**Evidencia de la entrevista:**
+
+![Entrevista de Leonardo Cumba](assets/img/Chapter5/sprint3/entrevista-leonardo-cumba.png)
+
+**Resumen descriptivo:**
+
+El entrevistado Leonardo Cumba, quien es dueño de una lavandería independiente, revisó la Landing Page de WashTrack y comprendió que la plataforma le permitiría centralizar los pedidos, consultar sus estados y realizar el seguimiento de las entregas. Consideró que estas funcionalidades responden a una de las principales dificultades de su negocio, debido a que actualmente registra los pedidos en un cuaderno y no siempre puede identificar con facilidad qué prendas faltan lavar o entregar.
+
+Por esta razón, manifestó un alto interés en probar la aplicación, aunque señaló que el costo del servicio y el tiempo necesario para migrar la información de sus clientes podrían representar dificultades para su adopción. Asimismo, recomendó que los precios de los planes sean más visibles en la Landing Page y que se incorpore un video corto que explique el funcionamiento de la plataforma.
+
+Respecto al registro de pedidos, consideró que WashTrack le permitiría ahorrar tiempo en comparación con su procedimiento manual. También indicó que encontrar pedidos según su estado le resultó sencillo gracias a los filtros disponibles, aunque sugirió utilizar colores diferentes para facilitar la identificación de cada estado.
+
+La funcionalidad que más le gustó fue el seguimiento de entregas mediante un mapa, ya que actualmente necesita comunicarse directamente con el repartidor para proporcionar información sobre la ubicación de los pedidos a sus clientes.
+
+Por otro lado, identificó como principal limitación la ausencia de un campo para registrar observaciones sobre las prendas, información que considera importante para atender posibles reclamos. Por ello, recomendó incorporar un apartado de observaciones que permita adjuntar fotografías y señalar claramente los campos obligatorios.
+
+Finalmente, afirmó que, si se implementaran estas mejoras, estaría dispuesto a reemplazar el registro manual en cuadernos y utilizar WashTrack para gestionar todos los pedidos durante su turno de trabajo.
+
+---
+
+**Entrevista 2:**
+
+**Entrevistador:** Adriana Nicole Ramos Fuentes Rivera
+
+**Datos del entrevistado:**
+
+- **Nombre:** Jorge
+- **Apellidos:** Laines
+- **Edad:** 54 años
+- **Distrito:** Comas
+- **Timing:** 00:10:12 - 00:27:03
+- **Duración:** 16 minutos y 51 segundos
+
+**Evidencia de la entrevista:**
+
+![Entrevista de Jorge Laines](assets/img/Chapter5/sprint3/entrevista-jorge-laines.png)
+
+**Resumen descriptivo:**
+
+El entrevistado Jorge Laines, propietario de una lavandería, revisó la Landing Page de WashTrack y comprendió que la plataforma permite obtener información puntual sobre las operaciones diarias del negocio, como la cantidad de pedidos recibidos y aquellos que permanecen pendientes. Consideró que la información presentada responde a las necesidades de su lavandería y destacó que el seguimiento de pedidos le parece bastante completo. Como oportunidad de mejora, sugirió incorporar una funcionalidad de gestión de costos que permita conocer las ganancias obtenidas por cada pedido.
+
+Asimismo, manifestó un alto interés en probar la aplicación debido a su disposición a incorporar nuevas tecnologías en su negocio. Indicó que inicialmente utilizaría el plan gratuito y que consideraría migrar al plan básico conforme compruebe los beneficios de la plataforma.
+
+En relación con el registro de pedidos, reconoció que la implementación del sistema añadiría algunos pasos a su proceso actual y requeriría capacitar al personal encargado de la recepción. Sin embargo, consideró que los beneficios serían mayores, debido a que los procedimientos le parecieron sencillos y su personal joven podría adaptarse rápidamente.
+
+También destacó la posibilidad de supervisar las operaciones desde su teléfono móvil sin necesidad de encontrarse físicamente en el establecimiento, lo que le permitiría mantener una mayor visibilidad sobre las actividades de su negocio.
+
+La funcionalidad que más valoró fue la visualización de pedidos organizados por columnas según su estado, debido a que le resultó más clara e intuitiva que una tabla convencional. No identificó funcionalidades que le generaran insatisfacción, pues considera que la plataforma ofrece una solución bastante completa para tratarse de su primera experiencia con un sistema de este tipo.
+
+Finalmente, recomendó automatizar el cálculo del precio al registrar un pedido, tomando en cuenta el servicio seleccionado y la cantidad de prendas. Esta mejora permitiría reducir los cálculos manuales del personal de atención y agilizar el proceso de registro.
+
+---
+
+### Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías
+
+**Entrevista 1:**
+
+**Entrevistador:** Adriana Nicole Ramos Fuentes Rivera
+
+**Datos del entrevistado:**
+
+- **Nombre:** Andrea
+- **Apellidos:** Arias
+- **Edad:** 28 años
+- **Distrito:** Comas
+- **Timing:** 00:27:04 - 00:43:22
+- **Duración:** 16 minutos y 18 segundos
+
+**Evidencia de la entrevista:**
+
+![Entrevista de Andrea Arias](assets/img/Chapter5/sprint3/entrevista-andrea-arias.png)
+
+**Resumen descriptivo:**
+
+La entrevistada Andrea Arias, quien utiliza servicios de lavandería, comprendió WashTrack como una solución digital que permite realizar el seguimiento de los pedidos y organizar mejor los tiempos de recojo de sus prendas. Al revisar la Landing Page, destacó especialmente la información relacionada con los métodos de pago, las etapas del procesamiento de los pedidos y la disponibilidad del servicio de delivery con fechas y horarios estimados. Sin embargo, señaló que no comprendió con claridad la finalidad de los sensores IoT mencionados en la plataforma.
+
+Asimismo, manifestó que estaría dispuesta a probar la aplicación, debido a que le permitiría evitar desplazamientos innecesarios a la lavandería para consultar el estado de su ropa.
+
+En cuanto a la experiencia de solicitar un pedido, la describió como buena y eficaz, comparándola con el proceso de realizar un pedido de comida mediante una aplicación digital. También consideró que las notificaciones sobre los cambios de estado serían especialmente útiles para organizar sus actividades y evitar olvidar sus prendas.
+
+Como oportunidad de mejora, sugirió incorporar opciones que permitan personalizar las preferencias de lavado, como seleccionar el uso de suavizante durante el procesamiento de las prendas.
+
+La funcionalidad que más le gustó fue el mapa de seguimiento del servicio de delivery, aunque recomendó agregar información sobre la ruta del repartidor y la distancia entre su domicilio y la lavandería.
+
+Por otro lado, identificó como principal aspecto negativo la visualización de las etapas del pedido, debido a que considera que existen demasiados pasos y que estos podrían generar confusión. Por ello, recomendó simplificar la cantidad de etapas visibles y asignar un color diferente a cada una para facilitar su identificación.
+
+En general, su evaluación destacó la utilidad del seguimiento digital y las notificaciones como herramientas que permiten mejorar la organización personal y reducir la necesidad de comunicarse constantemente con la lavandería.
+
+---
+
+**Entrevista 2:**
+
+**Entrevistador:** Ramirez Gutierrez Gabriel
+
+**Datos del entrevistado:**
+
+- **Nombre:** Santiago
+- **Apellidos:** Vargas
+- **Edad:** 19 años
+- **Distrito:** San Miguel
+- **Timing:** 00:43:23 - 00:50:18
+- **Duración:** 6 minutos y 55 segundos
+
+**Evidencia de la entrevista:**
+
+![Entrevista de Santiago Vargas](assets/img/Chapter5/sprint3/entrevista-santiago-vargas.png)
+
+**Resumen descriptivo:**
+
+Durante la sesión de validación correspondiente a Santiago Vargas se revisaron la Landing Page y diferentes funcionalidades de WashTrack, identificando que la plataforma permite centralizar información relacionada con pedidos, pagos, prendas y clientes. Entre los aspectos destacados durante la evaluación se encontró la sección de pagos, especialmente por la presencia de una gráfica lineal que se actualiza dinámicamente según los registros realizados.
+
+Respecto a la experiencia de solicitar un pedido, se consideró que el procedimiento resulta sencillo al permitir ingresar los datos necesarios, como el nombre y la fecha, y posteriormente consultar el progreso del servicio. No obstante, se señaló que la facilidad de uso puede variar dependiendo de la familiaridad de cada cliente con las herramientas tecnológicas.
+
+En relación con el seguimiento de pedidos, se valoró positivamente la organización del proceso en diferentes etapas, como creado, clasificado, en proceso y listo para entrega, junto con la disponibilidad de información sobre pagos y entregas. Asimismo, se consideró que las notificaciones relacionadas con el estado de las prendas representan una funcionalidad efectiva para mantener informado al usuario sobre el avance del servicio.
+
+Por otro lado, durante la revisión se identificó un inconveniente relacionado con el botón de cambio de idioma. Al seleccionar dos veces el mismo idioma, la opción activa puede deseleccionarse y provocar problemas en el funcionamiento de la página, debido a que la aplicación deja de reconocer correctamente el idioma seleccionado.
+
+Como propuesta de mejora, se planteó mantener siempre un idioma activo, evitando que el usuario pueda deseleccionarlo sin elegir previamente una alternativa diferente. De esta manera, se reducirían los errores de navegación y se ofrecería una experiencia más estable.
+
+En general, la sesión permitió destacar la utilidad de la información de pagos, el seguimiento de pedidos y las notificaciones, además de identificar la necesidad de mejorar el comportamiento del selector de idioma.
+
+**Nota de verificación:** Las notas de la sesión intercambian los roles de Santiago y Gabriel. Antes de la entrega, debe comprobarse en el video qué observaciones corresponden específicamente al entrevistado.
+
+---
+
+**Entrevista 3:**
+
+**Entrevistador:** Perez Vasquez Ariana Valeria
+
+**Datos del entrevistado:**
+
+- **Nombre:** Renzo
+- **Apellidos:** Mongrut
+- **Edad:** 20 años
+- **Distrito:** Jesús María
+- **Timing:** 00:50:19 - 00:57:54
+- **Duración:** 7 minutos y 35 segundos
+
+**Evidencia de la entrevista:**
+
+![Entrevista de Renzo Mongrut](assets/img/Chapter5/sprint3/entrevista-renzo-mongrut.png)
+
+**Resumen descriptivo:**
+
+El entrevistado Renzo Mongrut, usuario de servicios de lavandería, describió WashTrack como una plataforma útil, bien estructurada y con información clara sobre las funcionalidades disponibles. Al revisar la Landing Page, comprendió que la aplicación permite conocer el estado del procesamiento de las prendas y determinar el momento adecuado para recogerlas, evitando tiempos de espera innecesarios.
+
+En cuanto a la información presentada, destacó especialmente la sección de etapas del pedido, debido a que permite identificar si las prendas se encuentran en procesos de lavado, secado, planchado o empaquetado. Asimismo, valoró que la plataforma utilice una señal visual de color verde para indicar que un pedido está listo para ser recogido.
+
+También manifestó una disposición favorable a utilizar WashTrack, ya que considera que le permitiría ahorrar tiempo y dinero en desplazamientos, especialmente cuando se encuentra lejos de la lavandería. Además, señaló que disponer de información actualizada sobre sus prendas le proporcionaría mayor confianza en el servicio.
+
+Respecto a la experiencia de solicitar un pedido, la describió como práctica e intuitiva, debido a que la aplicación presenta instrucciones claras durante cada paso. Por esta razón, consideró que utilizar WashTrack sería más conveniente que comunicarse telefónicamente con la lavandería.
+
+Asimismo, destacó la utilidad de recibir notificaciones sobre los cambios de estado del pedido, especialmente cuando necesita una prenda para una ocasión importante. Consideró que esta funcionalidad le permitiría mantenerse informado sin tener que consultar constantemente la aplicación.
+
+En relación con las funcionalidades disponibles, indicó que todas le parecieron útiles, aunque destacó especialmente el seguimiento por etapas, debido a la claridad con la que presenta el progreso de cada pedido.
+
+Finalmente, señaló que no realizaría cambios significativos en la plataforma, pero enfatizó la importancia de que las notificaciones lleguen directamente al teléfono móvil para garantizar que el usuario reciba oportunamente la información sobre sus prendas.
+
+---
+
+### Síntesis de los resultados de las entrevistas de validación
+
+A partir de las cinco entrevistas registradas, se identificaron percepciones favorables hacia la propuesta de valor de WashTrack, especialmente en relación con la centralización de información, el seguimiento de pedidos y la reducción de consultas presenciales o telefónicas.
+
+En el segmento de propietarios de lavanderías independientes, los participantes destacaron la utilidad de organizar los pedidos según su estado y supervisar las operaciones del negocio. No obstante, también identificaron oportunidades de mejora relacionadas con el registro de observaciones de las prendas, la automatización de precios, la gestión de costos y la capacitación necesaria para incorporar la plataforma en sus procesos habituales.
+
+En el segmento de personas que utilizan servicios de lavandería, se valoraron especialmente las notificaciones, el seguimiento por etapas y la posibilidad de conocer el estado de los pedidos sin desplazarse al establecimiento. Entre las mejoras identificadas se encuentran la simplificación visual de las etapas, la personalización de preferencias de lavado, la presentación de información adicional sobre el delivery y la corrección del selector de idioma.
+
+En conjunto, los resultados sugieren que WashTrack responde a necesidades relevantes de ambos segmentos objetivo. Sin embargo, también evidencian la importancia de continuar mejorando la usabilidad, la claridad de la información y la automatización de determinados procesos para facilitar su adopción.
+
 #### 5.3.3. Evaluaciones según heurísticas
 
 **UX Heuristics & Principles Evaluation**

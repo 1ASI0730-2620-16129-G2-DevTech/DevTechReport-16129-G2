@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eec808d-f32c-4fd1-8532-744e50699add" name="Changes" comment="">
+    <list default="true" id="7eec808d-f32c-4fd1-8532-744e50699add" name="Changes" comment="docs: add student outcome second criteria for Gabriel Ramirez">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -27,69 +27,69 @@
     &quot;assignee&quot;: &quot;adriana832&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTechReport-16129-G2.git",
-    "accountId": "fe59631a-4498-4f96-b53a-b5fafdeecd5d"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTechReport-16129-G2.git&quot;,
+    &quot;accountId&quot;: &quot;cde7bd97-a274-43dd-a88b-c7571ae4cfdc&quot;
   }
-}]]></component>
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.2515161637889185E-113" />
-      <entry key="S5" value="1.330420725906579E-45" />
-      <entry key="S10" value="6.314619189937593E-23" />
-      <entry key="S30" value="8.290335136162968E-8" />
-      <entry key="S60" value="5.541520409460874E-4" />
-      <entry key="M2" value="0.08519125481502597" />
-      <entry key="M5" value="3.1655683884997163" />
-      <entry key="M10" value="11.401178029741756" />
-      <entry key="M15" value="17.571125139412786" />
-      <entry key="M30" value="27.139668804168856" />
-      <entry key="H1" value="33.75426927969853" />
-      <entry key="H2" value="37.65002390039844" />
-      <entry key="H4" value="39.765041108526965" />
-      <entry key="D1" value="41.61889181711229" />
-      <entry key="W1" value="41.945341163789685" />
+      <entry key="MS100" value="1.0122591268368586" />
+      <entry key="MS500" value="1.4271772348872336" />
+      <entry key="S2" value="2.168915194912462" />
+      <entry key="S5" value="2.993745036945258" />
+      <entry key="S10" value="4.155793921467903" />
+      <entry key="S30" value="6.9048715665637825" />
+      <entry key="S60" value="9.319090971647768" />
+      <entry key="M2" value="12.539957566350067" />
+      <entry key="M5" value="21.99953405203933" />
+      <entry key="M10" value="36.29839321549805" />
+      <entry key="M15" value="45.87895300309851" />
+      <entry key="M30" value="60.20658195804246" />
+      <entry key="H1" value="69.94479448039542" />
+      <entry key="H2" value="75.6483505099751" />
+      <entry key="H4" value="78.73839326089292" />
+      <entry key="D1" value="81.44405593163727" />
+      <entry key="W1" value="81.92027138268435" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0" />
-      <entry key="M2" value="1.0" />
-      <entry key="M5" value="1.0" />
-      <entry key="M10" value="1.0" />
-      <entry key="M15" value="1.0" />
-      <entry key="M30" value="1.0" />
-      <entry key="H1" value="1.0" />
-      <entry key="H2" value="1.0" />
-      <entry key="H4" value="1.0" />
-      <entry key="D1" value="1.0" />
-      <entry key="W1" value="1.0" />
+      <entry key="MS100" value="1.4854307961183814E-99" />
+      <entry key="MS500" value="1.715439090310146E-20" />
+      <entry key="S2" value="1.2104860924093242E-5" />
+      <entry key="S5" value="0.013926905958372919" />
+      <entry key="S10" value="0.16083535506404223" />
+      <entry key="S30" value="0.8858910825652946" />
+      <entry key="S60" value="1.4806952580649373" />
+      <entry key="M2" value="2.0332978924471727" />
+      <entry key="M5" value="2.541347392539843" />
+      <entry key="M10" value="2.756041587152243" />
+      <entry key="M15" value="2.833876594950147" />
+      <entry key="M30" value="2.915133624515711" />
+      <entry key="H1" value="2.9571035149104623" />
+      <entry key="H2" value="2.97843437892525" />
+      <entry key="H4" value="2.989187648125578" />
+      <entry key="D1" value="2.9981938215809305" />
+      <entry key="W1" value="2.9997418733991816" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="4.037596284687644E-7" />
-      <entry key="MS500" value="0.052628934600525985" />
-      <entry key="S2" value="0.4789676091113482" />
-      <entry key="S5" value="0.7449419952922329" />
-      <entry key="S10" value="0.863100223202516" />
-      <entry key="S30" value="0.9521099724696763" />
-      <entry key="S60" value="0.976314591581573" />
-      <entry key="M2" value="1.0729573720316194" />
-      <entry key="M5" value="4.160201108254878" />
-      <entry key="M10" value="12.397899646810789" />
-      <entry key="M15" value="18.568642675698737" />
-      <entry key="M30" value="28.138196480457275" />
-      <entry key="H1" value="34.7534529164581" />
-      <entry key="H2" value="38.649592042306324" />
-      <entry key="H4" value="40.76481874379924" />
-      <entry key="D1" value="42.61885381534909" />
-      <entry key="W1" value="42.945335711284116" />
+      <entry key="MS100" value="0.4175619802321765" />
+      <entry key="MS500" value="0.954673880914417" />
+      <entry key="S2" value="1.788413560874249" />
+      <entry key="S5" value="2.74508986446107" />
+      <entry key="S10" value="4.096943247014704" />
+      <entry key="S30" value="7.637810064677345" />
+      <entry key="S60" value="10.69137071904564" />
+      <entry key="M2" value="14.501706270853468" />
+      <entry key="M5" value="24.502045323764218" />
+      <entry key="M10" value="39.03086371955234" />
+      <entry key="M15" value="48.69568975972769" />
+      <entry key="M30" value="63.11222528042966" />
+      <entry key="H1" value="72.89687156057322" />
+      <entry key="H2" value="78.62419356515512" />
+      <entry key="H4" value="81.72626464387588" />
+      <entry key="D1" value="84.4420274174536" />
+      <entry key="W1" value="84.91998142008671" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -108,23 +108,12 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "feature/teamCollaborationsInsights",
+    "git-widget-placeholder": "feature/validationInterviews",
     "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-30f59d01ecdd-ac68fc9d2b05-intellij.indexing.shared.core-IU-263.7307.200" />
-        <option value="bundled-js-predefined-d6986cc7102b-56aff7b04f6f-JavaScript-IU-263.7307.200" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7eec808d-f32c-4fd1-8532-744e50699add" name="Changes" comment="" />
@@ -148,5 +137,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="docs: add interview 2 for Segmento Objetivo 1" />
+    <MESSAGE value="docs: add student outcome first criteria for Gabriel Ramirez" />
+    <MESSAGE value="docs: add student outcome second criteria for Gabriel Ramirez" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: add student outcome second criteria for Gabriel Ramirez" />
   </component>
 </project>

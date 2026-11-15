@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eec808d-f32c-4fd1-8532-744e50699add" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="7eec808d-f32c-4fd1-8532-744e50699add" name="Changes" comment="docs: add interview 2 for Segmento Objetivo 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -28,6 +30,65 @@
     &quot;accountId&quot;: &quot;cde7bd97-a274-43dd-a88b-c7571ae4cfdc&quot;
   }
 }</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.000001118383059" />
+      <entry key="MS500" value="1.1070856192517355" />
+      <entry key="S2" value="2.9376947610587845" />
+      <entry key="S5" value="5.901132783691859" />
+      <entry key="S10" value="8.759224544191992" />
+      <entry key="S30" value="17.616856431657354" />
+      <entry key="S60" value="24.545113585777308" />
+      <entry key="M2" value="29.84969657184682" />
+      <entry key="M5" value="33.87946071944731" />
+      <entry key="M10" value="35.39259856388896" />
+      <entry key="M15" value="35.91762969080172" />
+      <entry key="M30" value="36.45335428490057" />
+      <entry key="H1" value="36.72529758396778" />
+      <entry key="H2" value="36.86230208324802" />
+      <entry key="H4" value="36.93106413599089" />
+      <entry key="D1" value="36.988498599665554" />
+      <entry key="W1" value="36.99835664648211" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9592651996118405" />
+      <entry key="MS500" value="1.0980475591243977" />
+      <entry key="S2" value="2.9319899041600115" />
+      <entry key="S5" value="5.89650834048152" />
+      <entry key="S10" value="8.754396009938972" />
+      <entry key="S30" value="17.60740084230554" />
+      <entry key="S60" value="24.536458779346592" />
+      <entry key="M2" value="29.84377220450109" />
+      <entry key="M5" value="33.876591575028876" />
+      <entry key="M10" value="35.39106896828468" />
+      <entry key="M15" value="35.91658788287101" />
+      <entry key="M30" value="36.45282209273875" />
+      <entry key="H1" value="36.72502861818663" />
+      <entry key="H2" value="36.86216687689754" />
+      <entry key="H4" value="36.93099635119138" />
+      <entry key="D1" value="36.9884872769087" />
+      <entry key="W1" value="36.998355028325214" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
@@ -44,7 +105,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "feature/validationInterviews",
     "kotlin-language-version-configured": "true",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
@@ -73,5 +134,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="docs: add interview 2 for Segmento Objetivo 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: add interview 2 for Segmento Objetivo 1" />
   </component>
 </project>

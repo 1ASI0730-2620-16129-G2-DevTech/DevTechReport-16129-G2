@@ -371,8 +371,11 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>Tufiño Argüelles, Luis Angel</b><br>
         <em><b>AV1</b></em><br>
         - Propuso y sustentó ante el equipo los criterios de usabilidad y arquitectura de información aplicados en el diseño de las pantallas de WashTrack (Dashboard, Pedidos, Clientes, Pagos), argumentando cada decisión con heurísticas de Nielsen y principios de Gestalt.<br>
-        - Lideró la identificación de los User Goals a partir de los User Persona del proyecto, coordinando con el equipo la priorización de los flujos por segmento (Propietario de lavandería y Cliente).
-        ...
+        - Lideró la identificación de los User Goals a partir de los User Persona del proyecto, coordinando con el equipo la priorización de los flujos por segmento (Propietario de lavandería y Cliente).<br>
+        <em><b>TB1</b></em><br>
+        En el Sprint 2 asumí la responsabilidad del bounded context de Subscription &amp; Payment en la primera versión del frontend de WashTrack, desarrollando el catálogo de pagos, el flujo de registro de pagos y la validación de sus identificadores. Además, propuse e implementé componentes compartidos que adoptaron los demás módulos, como la barra de búsqueda del encabezado, el algoritmo Merge Sort, los helpers de búsqueda y los estilos comunes de los tableros, lo que dio una experiencia uniforme a toda la aplicación. También lideré la integración de los módulos del equipo en una sola versión del frontend y configuré su despliegue en Render.<br>
+        <em><b>AV2</b></em><br>
+        Durante el Sprint 3 lideré el bounded context de Subscription &amp; Payment: desarrollé en el backend los módulos de Payments y Subscriptions aplicando Domain-Driven Design y actualicé el frontend de este bounded context para que consuma la API. Además, creé la base de datos MySQL en la nube que utiliza el equipo y actualicé la Landing Page.
       </td>
       <td>
         <b>AV1</b><br>
@@ -416,7 +419,11 @@ Utilicé GitHub para registrar los avances mediante commits descriptivos y gesti
         <b>Tufiño Argüelles, Luis Angel</b><br>
         <em><b>AV1</b></em><br>
         - Elaboró los Wireframes, Wireflow Diagrams y Mock-ups correspondientes a los principales módulos de WashTrack y de la App Cliente, organizando el avance por pantalla para cumplir con el alcance planteado para AV1.<br>
-        - Incorporó la retroalimentación del equipo para ajustar los flujos propuestos (por ejemplo, separar el goal de asignar un repartidor del de monitorear un envío en curso), cumpliendo con los plazos acordados para esta entrega.
+        - Incorporó la retroalimentación del equipo para ajustar los flujos propuestos (por ejemplo, separar el goal de asignar un repartidor del de monitorear un envío en curso), cumpliendo con los plazos acordados para esta entrega.<br>
+        <em><b>TB1</b></em><br>
+        Para el Sprint 2 organicé mi trabajo en la rama `feature/Subscription&Payment`, registrando los avances del módulo de pagos y de los componentes compartidos mediante commits descriptivos. Estandaricé el formato de los identificadores en la API mock y configuré sus rutas para que todos los módulos trabajaran sobre los mismos datos. Al integrar mi rama con `develop` resolví los conflictos conservando el trabajo de mis compañeros, de modo que la versión integrada incorporara los aportes de todo el equipo.<br>
+        <em><b>AV2</b></em><br>
+        En el Sprint 3 me encargué de las secciones del informe correspondientes al Sprint 3, entre ellas Aspect Leaders and Collaborators y Development Evidence for Sprint Review, documentando la distribución de roles y el avance del equipo. Organicé mi desarrollo en la rama `feature/Subscription-&-Payments` y lo integré a `develop` mediante Pull Request, cumpliendo con los objetivos planificados para el sprint.
       <br>
       </td>
       <td>

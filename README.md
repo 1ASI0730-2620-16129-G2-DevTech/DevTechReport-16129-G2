@@ -43,7 +43,6 @@ Proyecto
 u20241D338&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pérez Vásquez, Ariana Valeria<br>
 u202416053&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ramirez Gutierrez, Gabriel<br>
 u202018427&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ramos Fuentes Rivera, Adriana Nicole<br>
-u202422642&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sayago Vidal, Sebastián Leonardo<br>
 u202216240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tufiño Argüelles, Luis Angel<br>
 </p>
 <br>
@@ -86,7 +85,17 @@ URL del repositorio (landing-page): [https://github.com/1ASI0730-2620-16129-G2-D
 
 URL del repositorio (frontend): [https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2)
 
-URL del frontend desplegado: [https://washtrack-eb717.web.app](https://washtrack-eb717.web.app)
+URL del repositorio (backend): [https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2)
+
+URL del frontend desplegado (Firebase): [https://washtrack-devtech.web.app](https://washtrack-devtech.web.app)
+
+URL de la API desplegada (Render): [https://washtrack-api.onrender.com/api/v1](https://washtrack-api.onrender.com/api/v1)
+
+URL de la documentación de la API (Scalar): [https://washtrack-api.onrender.com/scalar](https://washtrack-api.onrender.com/scalar)
+
+URL de la Fake API (Render): [https://washtrack-fake-api.onrender.com/api/v1](https://washtrack-fake-api.onrender.com/api/v1)
+
+Base de datos: MySQL en la nube (Aiven), utilizada por la API desplegada.
 
 <br>
 
@@ -197,6 +206,125 @@ URL del frontend desplegado: [https://washtrack-eb717.web.app](https://washtrack
 <img src="assets/img/Chapter5/Sprint%202/frontend-insights-network-3.png" alt="Network-3-DevTech-Frontend-TB1" width="500"/>
   <br/><i>Network graph Frontend of DevTech (TB1)</i>
 </p>
+
+**Tercera entrega (AV2)**
+
+<p align="justify">
+  Para la entrega AV2 desarrollamos el Sprint 3. Empezamos con la planificación del ciclo (<em>Sprint Planning 3</em>), donde fijamos los objetivos del sprint, asignamos a los líderes y colaboradores de cada aspecto técnico y armamos el Sprint Backlog 3. Seguimos usando Trello para organizar las tareas, darles visibilidad a todos y hacer seguimiento al avance del equipo.
+</p>
+
+<p align="justify">
+  En la parte de desarrollo, construimos una primera parte del backend de la aplicación. Implementamos los servicios principales respetando los principios de Diseño Guiado por el Dominio (<em>Domain-Driven Design - DDD</em>) y la separación de los <em>Bounded Contexts</em>, para que la lógica de negocio quede bien estructurada y se integre con el frontend construido en el sprint anterior. También actualizamos la landing page con mejoras de contenido y diseño para que refleje mejor la propuesta de valor del producto.
+</p>
+
+<p align="justify">
+  Del lado de la validación, hicimos entrevistas de validación con usuarios del segmento objetivo para comprobar si la solución propuesta responde a sus necesidades, y registramos sus resultados y hallazgos. Además, grabamos dos videos: uno sobre el producto (<em>About the Product</em>), que presenta la solución y sus funcionalidades principales, y otro sobre el equipo (<em>About the Team</em>), que muestra a los integrantes y cómo trabajamos.
+</p>
+
+<p align="justify">
+  Para cerrar la entrega, desplegamos los servicios desarrollados y documentamos el proceso con evidencias de desarrollo, ejecución, documentación de los servicios y despliegue, listas para la revisión del sprint (<em>Sprint Review</em>). Al final, hicimos una reflexión en equipo sobre cómo colaboramos durante este ciclo, usando como base el historial de contribuciones del repositorio.
+</p>
+<br>
+
+**Evidencias de colaboración y analíticos en GitHub**
+
+
+<p align="justify">
+  Para garantizar la participación equitativa de todos los integrantes del equipo TechNova, se adjuntan los analíticos y registros de actividad extraídos directamente de las métricas internas del repositorio en GitHub.
+</p>
+
+**Report**
+
+
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/report_contributors_1_av2_DevTech.png" alt="Contributors-DevTech-AV2" width="500"/>
+  <br/><i>Report: Contributors of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/report_contributors_2_av2_DevTech.png" alt="Contributors-DevTech-AV2" width="500"/>
+  <br/><i>Report: Contributors of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/report_pulse_av2_DevTech.png" alt="pulse-DevTech-AV2" width="500"/>
+  <br/><i>Report: Pulse of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/report_network_av2_DevTech.png" alt="Networkgraph-DevTech-AV2" width="500"/>
+  <br/><i>Report: Network graph of DevTech (AV2)</i>
+</p>
+<br>
+
+**Landing Page**
+
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/landing_contributors_1_av2_DevTech.png" alt="Contributors-DevTech-LandingPage-AV2" width="500"/>
+  <br/><i>Landing Page: Contributors of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/landing_contributors_2_av2_DevTech.png" alt="Pulse-DevTech-LandingPage-AV2" width="500"/>
+  <br/><i>Landing Page: Contributors of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/landing_pulse_av2_DevTech.png" alt="Pulse-DevTech-LandingPage-AV2" width="500"/>
+  <br/><i>Landing Page: Pulse of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/landing_pulse_av2_DevTech.png" alt="Networkgraph-DevTech-LandingPage-AV2" width="500"/>
+  <br/><i>Landing Page: Network graph of DevTech (AV2)</i>
+</p>
+<br>
+
+**Frontend**
+
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/front_contributors_1_av2_DevTech.png" alt="Contributors-DevTech-Frontend-AV2" width="500"/>
+  <br/><i>Frontend: Contributors of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/front_contributors_2_av2_DevTech.png" alt="Pulse-DevTech-Frontend-AV2" width="500"/>
+  <br/><i>Frontend: Pulse of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/front_pulse_av2_DevTech.png" alt="Pulse-DevTech-Frontend-AV2" width="500"/>
+  <br/><i>Frontend: Pulse of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/front_network_av2_DevTech.png" alt="Networkgraph-DevTech-Frontend-AV2" width="500"/>
+  <br/><i>Frontend: Network graph of DevTech (AV2)</i>
+</p>
+<br>
+
+**Backend**
+
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/back_contributors_1_av2_DevTech.png" alt="Contributors-DevTech-Backend-AV2" width="500"/>
+  <br/><i>Backend: Contributors of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/back_contributors_2_av2_DevTech.png" alt="Pulse-DevTech-Backend-TB1" width="500"/>
+  <br/><i>Backend: Pulse of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/back_pulse_av2_DevTech.png" alt="Pulse-DevTech-Backend-TB1" width="500"/>
+  <br/><i>Backend: Pulse of DevTech (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/img/Chapter5/sprint3/back_network_av2_DevTech.png" alt="Networkgraph-DevTech-Backend-AV2" width="500"/>
+  <br/><i>Backend: Network graph of DevTech (AV2)</i>
+</p>
+<br>
 
 
 <div style="page-break-after: always;"></div>
@@ -363,13 +491,12 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   También contribuí al desarrollo de componentes compartidos del backend, incluyendo configuraciones de persistencia, manejo de errores y convenciones de rutas. Finalmente, coordiné la integración de mis avances con la estructura general del proyecto mediante ramas de desarrollo y Pull Requests, facilitando la incorporación del módulo de Laundry Operations junto con los demás bounded contexts implementados por el equipo.
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
-        Participé en el desarrollo de los entregables relacionados con la definición de la startup y la solución, elaborando el Startup Profile, los perfiles de los integrantes del equipo y el Solution Profile. Asimismo, desarrollé el análisis de antecedentes y problemática mediante el Lean UX Process, incluyendo los Problem Statements, Assumptions, Hypothesis Statements y Lean UX Canvas. Complementé este trabajo con el análisis de competidores, entrevistas y técnicas de Needfinding, como User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping. Finalmente, trabajé en la construcción del Big Picture EventStorming y el Ubiquitous Language, aportando estos resultados al desarrollo conjunto del proyecto y facilitando una visión compartida de la solución y de las necesidades de los usuarios.<br>
+        Participé en el desarrollo de los entregables relacionados con la definición de la startup y la solución, elaborando el Startup Profile, los perfiles de los integrantes del equipo y el Solution Profile. Asimismo, desarrollé el análisis de antecedentes y problemática mediante el Lean UX Process, incluyendo los Problem Statements, Assumptions, Hypothesis Statements y Lean UX Canvas. Complementé este trabajo con el análisis de competidores, entrevistas y técnicas de Needfinding, como User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping. Finalmente, trabajé en la construcción del Big Picture EventStorming y el Ubiquitous Language, aportando estos resultados al desarrollo conjunto del proyecto y facilitando una visión compartida de la solución y de las necesidades de los usuarios.<br><br>
+        <em><b>TB1</b></em><br>
+        Me encargué de desarrollar el frontend del bounded context PickupsDeliveries de WashTrack. Implementé las vistas, los componentes y los servicios para gestionar las recogidas y entregas de prendas. Asumí ese módulo de principio a fin y coordiné con mis compañeros para mantener una estructura de carpetas, convenciones de código y estilos visuales en común, de modo que mi parte encajara con los demás módulos de la aplicación.<br>
+        <em><b>AV2</b></em><br>
+        Desarrollé el backend del bounded context PickupsDeliveries siguiendo la arquitectura DDD acordada por el equipo. Definí las entidades, los servicios y los endpoints que luego consume el frontend. También tomé la iniciativa de producir el video About the Product y el video About the Team, con lo que contribuí a la presentación del proyecto y a mostrar el trabajo de todos los integrantes.
         <br>
-        <b>Sayago Vidal, Sebastián Leonardo</b><br>
-        <em><b>AV1</b></em><br>
-        Participé activamente en el desarrollo del proyecto WashTrack, asumiendo responsabilidades relacionadas con el diseño y documentación técnica del sistema.
-        Desarrollé y estructuré los contenidos correspondientes a la arquitectura de software, EventStorming, diagramas C4, diagramas de componentes, diseño orientado a objetos y diseño de base de datos.
-        ...<br>
         <b>Tufiño Argüelles, Luis Angel</b><br>
         <em><b>AV1</b></em><br>
         - Propuso y sustentó ante el equipo los criterios de usabilidad y arquitectura de información aplicados en el diseño de las pantallas de WashTrack (Dashboard, Pedidos, Clientes, Pagos), argumentando cada decisión con heurísticas de Nielsen y principios de Gestalt.<br>
@@ -3674,7 +3801,7 @@ De acuerdo con la arquitectura planteada para WashTrack, el despliegue considera
 * **Frontend Web Applications:** desarrollada utilizando Vue Framework, HTML5, CSS3 y JavaScript.
 * **Web Services:** desarrollados mediante ASP.NET Core, Entity Framework Core y C# bajo el estilo arquitectónico RESTful API.
 
-En el presente avance se evidencia el despliegue de la primera versión de la Landing Page, mientras que el despliegue del Frontend Web Application y de los Web Services será realizado conforme avance la implementación de estos productos.
+La Landing Page se publica en GitHub Pages, el Frontend Web Application en Firebase Hosting y los Web Services en Render, con una base de datos MySQL en Aiven. A continuación se describe la configuración y los pasos de despliegue de cada producto.
 
 ---
 
@@ -3715,36 +3842,35 @@ Finalmente, se accede al enlace generado por GitHub Pages para comprobar que la 
 
 ### Configuración de despliegue del Frontend Web Application
 
-El Frontend Web Application de WashTrack será desplegado a partir de su repositorio correspondiente una vez finalizada su primera versión funcional. El proceso partirá del código fuente almacenado en GitHub y considerará la construcción de la aplicación mediante Vue Framework.
+El Frontend Web Application de WashTrack, desarrollado con Vue Framework, se publica en **Firebase Hosting** a partir de su repositorio en GitHub. El repositorio incluye `firebase.json`, que define `dist` como carpeta pública y redirige todas las rutas a `/index.html` (necesario para el enrutamiento de Vue Router), y `.firebaserc`, que indica el proyecto de Firebase (`washtrack-devtech`).
 
-El flujo general será:
-1. Obtener la versión estable del código desde el repositorio.
-2. Instalar las dependencias definidas para el proyecto.
-3. Ejecutar el proceso de construcción (*build*) de la aplicación.
-4. Generar los archivos necesarios para producción.
-5. Publicar los archivos generados en el servicio de alojamiento seleccionado.
-6. Verificar el funcionamiento de las rutas, componentes, estilos y comunicación con los Web Services.
-7. Validar la aplicación desde el navegador en diferentes tamaños de pantalla.
+Antes de compilar se configura en `.env.production` la URL de los Web Services desplegados (`VITE_WASHTRACK_BACKEND_API_URL`), que consumen los módulos de Pedidos, Operaciones de lavandería, Recojos y entregas, Pagos y Seguimiento.
 
-El despliegue de este producto será documentado con evidencias cuando se encuentre implementada su primera versión, de acuerdo con el avance correspondiente del proyecto.
+Pasos de despliegue:
+1. Obtener la versión estable del código desde la rama `develop` del repositorio (`git pull`).
+2. Instalar las dependencias del proyecto con `npm install`.
+3. Generar la versión de producción con `npm run build`, que crea la carpeta `dist`.
+4. Iniciar sesión en Firebase con `firebase login`.
+5. Publicar la aplicación con `firebase deploy --only hosting`.
+6. Verificar desde el navegador las rutas, los estilos y la comunicación con los Web Services en la URL pública ([https://washtrack-devtech.web.app](https://washtrack-devtech.web.app)).
 
 ---
 
 ### Configuración de despliegue de los Web Services
 
-Los Web Services de WashTrack serán desarrollados utilizando ASP.NET Core, Entity Framework Core y C#, siguiendo el estilo arquitectónico RESTful API. Su despliegue partirá del repositorio de código fuente y requerirá configurar el entorno de ejecución, las dependencias de la aplicación y la conexión con el sistema de base de datos.
+Los Web Services de WashTrack, desarrollados con ASP.NET Core, Entity Framework Core y C# bajo el estilo RESTful API, se publican en **Render** como un contenedor Docker y utilizan una base de datos **MySQL en Aiven**.
 
-El flujo general de despliegue será:
-1. Obtener desde GitHub la versión estable del Web Service.
-2. Configurar las dependencias necesarias del proyecto ASP.NET Core.
-3. Configurar las variables y parámetros correspondientes al entorno de producción.
-4. Configurar la conexión con la base de datos.
-5. Compilar y publicar la aplicación.
-6. Ejecutar el servicio en el entorno de despliegue seleccionado.
-7. Verificar los endpoints disponibles mediante la documentación OpenAPI/Swagger.
-8. Comprobar la comunicación entre el Web Service y el Frontend Web Application.
+* **Base de datos:** servicio MySQL administrado en Aiven, con conexión cifrada (SSL obligatorio). Las tablas se crean al iniciar la API mediante las migraciones de Entity Framework Core.
+* **Contenedor:** el repositorio incluye un `Dockerfile` de dos etapas: la primera restaura y publica el proyecto con el SDK de .NET 10 y la segunda lo ejecuta con el runtime de ASP.NET Core, escuchando en el puerto que asigna la plataforma (`PORT`).
+* **Credenciales:** la cadena de conexión nunca se guarda en el repositorio. Se configura como variable de entorno del servicio (`ConnectionStrings__DefaultConnection`) y, en el entorno local, con .NET User Secrets.
 
-Al igual que el Frontend Web Application, esta configuración será complementada con las evidencias de despliegue correspondientes cuando el producto alcance la etapa de implementación requerida.
+Pasos de despliegue:
+1. Crear el servicio MySQL en Aiven y obtener sus datos de conexión.
+2. En Render, crear un Web Service conectado al repositorio del backend y seleccionar Docker como entorno de ejecución.
+3. Configurar las variables de entorno del servicio, incluida la cadena de conexión a la base de datos.
+4. Iniciar el despliegue: Render construye la imagen a partir del `Dockerfile` y publica la API en una URL pública con HTTPS. Cada actualización de la rama configurada genera un nuevo despliegue.
+5. Verificar los endpoints desde la documentación OpenAPI publicada con Scalar ([https://washtrack-api.onrender.com/scalar](https://washtrack-api.onrender.com/scalar)).
+6. Comprobar la comunicación entre los Web Services y el Frontend Web Application desplegado.
 
 ---
 
@@ -5339,7 +5465,52 @@ El Sprint Backlog 3 está compuesto por **28 Engineering Tasks**, con una estima
 </div>
 <br>
 
-#### 5.2.3.7 Software Deployment Evidence for Sprint Review.
+##### 5.2.3.7. Software Deployment Evidence for Sprint Review
+<p align="justify">
+  En el Sprint 3 se desplegó por primera vez la versión real de los Web Services de WashTrack y se publicó la nueva versión de la Web Application conectada a ellos. Para ello se creó una base de datos MySQL en la nube con <strong>Aiven</strong>, se publicó la API RESTful desarrollada con ASP.NET Core en <strong>Render</strong> mediante un contenedor Docker y se desplegó la Web Application en un nuevo proyecto de <strong>Firebase Hosting</strong>. Los módulos de Pedidos, Operaciones de lavandería, Recojos y entregas, Pagos y Seguimiento consumen directamente la API desplegada.
+</p>
+
+**Actividades de despliegue realizadas**
+
+* **Base de datos en la nube (Aiven):** creación de la cuenta y del servicio `washtrack-mysql` (MySQL 8.4) con conexión cifrada (SSL obligatorio). Las tablas de cada bounded context se crean automáticamente al iniciar la API, mediante las migraciones de Entity Framework Core.
+* **Gestión de credenciales:** la cadena de conexión no se guarda en el repositorio. En el entorno local se configura con .NET User Secrets y en Render como variable de entorno del servicio.
+* **Contenerización de la API:** se añadió un `Dockerfile` de dos etapas al repositorio del backend (commit `3964397`, `chore(deploy): add Dockerfile to deploy the Web API on Render`). La primera etapa restaura y publica el proyecto con el SDK de .NET 10 y la segunda ejecuta la aplicación con el runtime de ASP.NET Core, escuchando en el puerto que asigna Render.
+* **Publicación de los Web Services (Render):** creación del Web Service `washtrack-api` conectado al repositorio del backend, con despliegue automático al actualizar la rama configurada. Render construye la imagen a partir del `Dockerfile` y publica la API en una URL pública con HTTPS.
+* **Documentación de la API:** la documentación OpenAPI se expone con Scalar en la misma URL de la API, lo que permite probar los endpoints desplegados de todos los bounded contexts.
+* **Integración frontend–API:** en `.env.production` de la Web Application se configuró la URL pública de la API (`VITE_WASHTRACK_BACKEND_API_URL`), que utilizan los módulos de Pedidos, Operaciones de lavandería, Recojos y entregas, Pagos y Seguimiento.
+* **Publicación de la Web Application (Firebase):** creación del proyecto `washtrack-devtech` en Firebase, actualización de `.firebaserc` con el nuevo proyecto, generación de la versión de producción con `npm run build` y publicación con `firebase deploy --only hosting`.
+<br>
+
+| Producto | Plataforma | Estado | URL |
+| --- | --- | --- | --- |
+| Web Application (frontend) | Firebase Hosting | Desplegada | [https://washtrack-devtech.web.app](https://washtrack-devtech.web.app) |
+| Web Services (API RESTful) | Render (Docker) | Desplegada | [https://washtrack-api.onrender.com/api/v1](https://washtrack-api.onrender.com/api/v1) |
+| Documentación de la API | Render (Scalar / OpenAPI) | Publicada | [https://washtrack-api.onrender.com/scalar](https://washtrack-api.onrender.com/scalar) |
+| Landing Page | GitHub Pages | Desplegada | [https://1asi0730-2620-16129-g2-devtech.github.io/DevTech-LandingPage-16129-G2/](https://1asi0730-2620-16129-g2-devtech.github.io/DevTech-LandingPage-16129-G2/) |
+
+<br>
+
+**Evidencias**
+
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/deployment/03-render-api-deploy.png" width="700px" alt="Despliegue de la API en Render">
+  <p>Despliegue exitoso del Web Service <code>washtrack-api</code> en Render a partir del commit del <code>Dockerfile</code>. El log muestra la API escuchando en el puerto asignado y disponible en su URL pública.</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/deployment/04-render-api-scalar.png" width="700px" alt="Documentación de la API desplegada">
+  <p>Documentación de la API desplegada (Scalar / OpenAPI), con los endpoints agrupados por bounded context.</p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/img/Chapter5/sprint3/deployment/01-frontend-firebase-login.png" width="700px" alt="Web Application desplegada en Firebase">
+  <p>Nueva versión de la Web Application publicada en Firebase Hosting (<code>washtrack-devtech.web.app</code>).</p>
+</div>
+
+URL del repositorio (backend): [https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2)
+
+URL del repositorio (frontend): [https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2)
+
 
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -6044,15 +6215,23 @@ URL del repositorio (landing-page): [Repositorio Landing Page](https://github.co
 
 URL de landing page (GithubPage): [Landing Page](https://1asi0730-2620-16129-g2-devtech.github.io/DevTech-LandingPage-16129-G2/)
 
-URL del repositorio (fronend): [Repositorio Frontend](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2)
+URL del repositorio (frontend): [Repositorio Frontend](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2)
 
-URL del frontend (Firebase): [Frontend](https://washtrack-eb717.web.app)
+URL del repositorio (backend): [Repositorio Backend](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2)
 
-URL del fake api (Render):[https://washtrack-fake-api.onrender.com/](https://washtrack-fake-api.onrender.com/)
+URL del frontend (Firebase): [Frontend](https://washtrack-devtech.web.app)
 
-URL de exposición (AV1): [Exposición AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216240_upc_edu_pe/IQB8Lru5xw1VRrAGy9Q_qwScAV3r_sKot-0D0TGgiGEB6A4?e=8FrI0h&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+URL de la API (Render): [https://washtrack-api.onrender.com/api/v1](https://washtrack-api.onrender.com/api/v1)
 
-URL de exposición (TB1): [Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAEU2mWS13ARaBtw6ssyqQrAfnx2Z1jKFVLDnw-L3yIBA4?e=8zIsLP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+URL de la documentación de la API (Scalar): [https://washtrack-api.onrender.com/scalar](https://washtrack-api.onrender.com/scalar)
+
+URL del fake api (Render): [https://washtrack-fake-api.onrender.com/](https://washtrack-fake-api.onrender.com/)
+
+URL de exposición (AV1): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216240_upc_edu_pe/IQB8Lru5xw1VRrAGy9Q_qwScAXSkBgyBkCHO6kS9-f8Lklc?e=qW0uZI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216240_upc_edu_pe/IQB8Lru5xw1VRrAGy9Q_qwScAV3r_sKot-0D0TGgiGEB6A4?e=8FrI0h&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+URL de exposición (TB1): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAEU2mWS13ARaBtw6ssyqQrAdgZTPmtGPCYkoXFfD0YP2M?e=lnqIXH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAEU2mWS13ARaBtw6ssyqQrAfnx2Z1jKFVLDnw-L3yIBA4?e=8zIsLP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+URL de exposición (AV2): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQBVb8QiXUwbRb6Una_ZTLM9AaH_WvPcP-oexxyu_TZTTEQ?e=fmSbYy&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQBVb8QiXUwbRb6Una_ZTLM9AaH_WvPcP-oexxyu_TZTTEQ?e=fmSbYy&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 URL de validation interviews (Microsoft): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQDsvZv0oIhFSZqUH6tDfdxQAX3WArJfVPmBE-3BZ5l_LD0?e=aZFEnG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQDsvZv0oIhFSZqUH6tDfdxQAX3WArJfVPmBE-3BZ5l_LD0?e=aZFEnG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 

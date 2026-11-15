@@ -5446,6 +5446,96 @@ El Sprint Backlog 3 está compuesto por **28 Engineering Tasks**, con una estima
 </div>
 <br>
 
+#### 5.2.3.7 Software Deployment Evidence for Sprint Review.
+
+##### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3, el equipo DevTech continuó con el desarrollo colaborativo de WashTrack, enfocándose en la implementación de nuevos componentes del backend, mejoras en la aplicación frontend y actualización de los contenidos del Landing Page.
+
+Para organizar las actividades de desarrollo, el equipo utilizó GitHub como plataforma de control de versiones, manteniendo repositorios independientes para los productos digitales. La utilización de ramas de trabajo y Pull Requests permitió registrar las modificaciones realizadas, facilitar la integración de funcionalidades y mantener la trazabilidad de los cambios.
+
+Las evidencias de colaboración se presentan a continuación, considerando los repositorios de Landing Page, Frontend Web Application y Backend Web Services.
+
+**Landing Page Collaboration**
+
+Durante este periodo se registraron contribuciones relacionadas con la incorporación de contenido audiovisual al Landing Page de WashTrack, incluyendo actividades de integración del video About-the-Product.
+
+Entre los Pull Requests identificados se encuentran:
+
+- [PR #6 - Video About-the-Product para Sprint 3](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2/pull/6)
+- [PR #7 - Feature/video](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2/pull/7)
+- [PR #8 - Merge video about the product](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2/pull/8)
+
+Estas contribuciones reflejan el trabajo de actualización e integración de recursos del producto, manteniendo el Landing Page como punto de presentación de la propuesta de valor de WashTrack.
+
+**Evidencias de colaboración en GitHub**
+
+![GitHub Insights - Contributors Landing Page](assets/img/Chapter5/sprint3/landing-insights-contributors.png)
+
+*Figura 1. Analíticos de contribución de los integrantes en el repositorio Landing Page durante el Sprint 3.*
+
+![GitHub Insights - Pulse Landing Page](assets/img/Chapter5/sprint3/landing-insights-pulse.png)
+
+*Figura 2. Actividad y Pull Requests del repositorio Landing Page.*
+
+**Frontend Web Application Collaboration**
+
+En el repositorio de la aplicación frontend se identificaron actividades relacionadas con la integración de funcionalidades, corrección de errores y mantenimiento de la aplicación.
+
+El trabajo colaborativo se organizó mediante ramas de desarrollo y Pull Requests, permitiendo gestionar modificaciones sobre los componentes de la aplicación.
+
+Entre las evidencias identificadas se encuentran:
+
+- [PR #13 - Hotfix/iam fix](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2/pull/13)
+- [PR #14 - Hotfix/recover password](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2/pull/14)
+- [PR #15 - Feature/minor change](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Frontend-16129-G2/pull/15)
+
+Estas actividades muestran la continuidad del mantenimiento y mejora de la aplicación web, especialmente en funcionalidades vinculadas con la gestión de identidad y acceso.
+
+**Evidencias de colaboración en GitHub**
+
+![GitHub Insights - Contributors Frontend](assets/img/Chapter5/sprint3/frontend-insights-contributors.png)
+
+*Figura 3. Contribuciones individuales en el repositorio Frontend durante el Sprint 3.*
+
+![GitHub Insights - Pulse Frontend](assets/img/Chapter5/sprint3/frontend-insights-pulse.png)
+
+*Figura 4. Actividad y Pull Requests del repositorio Frontend.*
+
+**Backend Web Services Collaboration**
+
+Durante el desarrollo del backend, el equipo trabajó en la implementación de componentes organizados bajo el enfoque Domain-Driven Design (DDD), considerando diferentes Bounded Contexts asociados a los procesos de negocio de WashTrack.
+
+La actividad registrada en GitHub incluye Pull Requests para la incorporación de funcionalidades de operaciones de lavandería, gestión de pedidos, recojos y entregas, así como suscripciones y pagos.
+
+Entre las contribuciones identificadas se encuentran:
+
+- [PR #2 - Laundry Operations](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2/pull/2)
+- [PR #3 - Order Management](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2/pull/3)
+- [PR #4 - Pickups Deliveries](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2/pull/4)
+- [PR #5 - Subscription and Payment](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-Backend-16129-G2/pull/5)
+
+La separación de funcionalidades por Bounded Contexts favoreció la organización del código y permitió trabajar sobre diferentes componentes de la solución.
+
+**Evidencias de colaboración en GitHub**
+
+![GitHub Insights - Contributors Backend](assets/img/Chapter5/sprint3/backend-insights-contributors.png)
+
+*Figura 5. Contribuciones individuales en el repositorio Backend durante el Sprint 3.*
+
+![GitHub Insights - Pulse Backend](assets/img/Chapter5/sprint3/backend-insights-pulse.png)
+
+*Figura 6. Actividad y Pull Requests del repositorio Backend.*
+
+**Análisis general de colaboración**
+
+La actividad registrada en los repositorios evidencia la utilización de GitHub para organizar el desarrollo de los distintos productos que conforman WashTrack.
+
+La separación del proyecto en repositorios independientes permitió gestionar los cambios correspondientes al Landing Page, Frontend Web Application y Backend Web Services. Asimismo, los Pull Requests proporcionan un registro de las funcionalidades incorporadas y las actividades de integración realizadas.
+
+Para completar la evaluación cuantitativa de colaboración del Sprint 3, se incorporarán las estadísticas de GitHub Insights correspondientes al periodo del Sprint, incluyendo la cantidad de commits, líneas añadidas, líneas eliminadas y participación individual de los integrantes.
+
+Estas métricas permitirán complementar las evidencias técnicas con un análisis de la distribución del trabajo y la contribución de cada participante al incremento del producto.
 
 
 

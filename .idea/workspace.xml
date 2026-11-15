@@ -1,31 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eec808d-f32c-4fd1-8532-744e50699add" name="Changes" comment="" />
+    <list default="true" id="7eec808d-f32c-4fd1-8532-744e50699add" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "adriana832"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;adriana832&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTechReport-16129-G2.git",
-    "accountId": "cde7bd97-a274-43dd-a88b-c7571ae4cfdc"
+    "accountId": "fe59631a-4498-4f96-b53a-b5fafdeecd5d"
   }
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.2515161637889185E-113" />
+      <entry key="S5" value="1.330420725906579E-45" />
+      <entry key="S10" value="6.314619189937593E-23" />
+      <entry key="S30" value="8.290335136162968E-8" />
+      <entry key="S60" value="5.541520409460874E-4" />
+      <entry key="M2" value="0.08519125481502597" />
+      <entry key="M5" value="3.1655683884997163" />
+      <entry key="M10" value="11.401178029741756" />
+      <entry key="M15" value="17.571125139412786" />
+      <entry key="M30" value="27.139668804168856" />
+      <entry key="H1" value="33.75426927969853" />
+      <entry key="H2" value="37.65002390039844" />
+      <entry key="H4" value="39.765041108526965" />
+      <entry key="D1" value="41.61889181711229" />
+      <entry key="W1" value="41.945341163789685" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0" />
+      <entry key="M2" value="1.0" />
+      <entry key="M5" value="1.0" />
+      <entry key="M10" value="1.0" />
+      <entry key="M15" value="1.0" />
+      <entry key="M30" value="1.0" />
+      <entry key="H1" value="1.0" />
+      <entry key="H2" value="1.0" />
+      <entry key="H4" value="1.0" />
+      <entry key="D1" value="1.0" />
+      <entry key="W1" value="1.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="4.037596284687644E-7" />
+      <entry key="MS500" value="0.052628934600525985" />
+      <entry key="S2" value="0.4789676091113482" />
+      <entry key="S5" value="0.7449419952922329" />
+      <entry key="S10" value="0.863100223202516" />
+      <entry key="S30" value="0.9521099724696763" />
+      <entry key="S60" value="0.976314591581573" />
+      <entry key="M2" value="1.0729573720316194" />
+      <entry key="M5" value="4.160201108254878" />
+      <entry key="M10" value="12.397899646810789" />
+      <entry key="M15" value="18.568642675698737" />
+      <entry key="M30" value="28.138196480457275" />
+      <entry key="H1" value="34.7534529164581" />
+      <entry key="H2" value="38.649592042306324" />
+      <entry key="H4" value="40.76481874379924" />
+      <entry key="D1" value="42.61885381534909" />
+      <entry key="W1" value="42.945335711284116" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="3JF7tMDDbNqfJ0k2LkL6KfA6eof" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,11 +108,23 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "feature/teamCollaborationsInsights",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-ac68fc9d2b05-intellij.indexing.shared.core-IU-263.7307.200" />
+        <option value="bundled-js-predefined-d6986cc7102b-56aff7b04f6f-JavaScript-IU-263.7307.200" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7eec808d-f32c-4fd1-8532-744e50699add" name="Changes" comment="" />

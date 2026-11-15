@@ -7,27 +7,28 @@ Universidad Peruana de Ciencias Aplicadas
 Carrera de Ingeniería de Software
 <br>
 
-**1ASI030**
+##### 1ASI030
 
-**Aplicaciones Web**
+##### Aplicaciones Web
 
 NRC
-**16129**
+##### 16129
 
 #### Informe del Trabajo Final
 
 Docente
 
-**Sanchez Seña, Alberto Wilmer**
+#### Sanchez Seña, Alberto Wilmer
+
 <br>
 
 Equipo
 
-**DevTech**
+#### DevTech
 
 Proyecto
 
-**WashTrack**
+#### WashTrack
 
 <br>
 
@@ -5806,6 +5807,19 @@ Finalmente, señaló que no realizaría cambios significativos en la plataforma,
 
 ---
 
+**Registro de todas las entrevistas**
+
+<p align="center">
+  <img src="assets/img/Chapter2/Interview/Registro_Entrevistas.png" alt="Video de registro de entrevistas de validacion de ambos segmentos" width="500"/>
+  <br/><i>Evidencia de entrevistas de validación</i>
+</p>
+<br>
+
+Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQDsvZv0oIhFSZqUH6tDfdxQAX3WArJfVPmBE-3BZ5l_LD0?e=HuXQhE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQDsvZv0oIhFSZqUH6tDfdxQAX3WArJfVPmBE-3BZ5l_LD0?e=HuXQhE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+<br>
+
+---
+
 ### Síntesis de los resultados de las entrevistas de validación
 
 A partir de las cinco entrevistas registradas, se identificaron percepciones favorables hacia la propuesta de valor de WashTrack, especialmente en relación con la centralización de información, el seguimiento de pedidos y la reducción de consultas presenciales o telefónicas.
@@ -5823,10 +5837,15 @@ En conjunto, los resultados sugieren que WashTrack responde a necesidades releva
 **Usability – Inclusive Design – Information Architecture**
  
 **CARRERA:** Ingeniería de Software
+
 **CURSO:** Aplicaciones Web
+
 **SECCIÓN:** 16129
+
 **PROFESORES:** Todos
+
 **AUDITOR:**
+
 **CLIENTE(S):** DevTech
  
 ---

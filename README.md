@@ -5248,7 +5248,9 @@ URL del video about the product (Microsoft): [https://upcedupe-my.sharepoint.com
 
 URL del video about the product (Youtube): [https://youtu.be/1HnxbQQjbfU](https://youtu.be/1HnxbQQjbfU)
 
+URL del video about the team  (Microsoft): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAWFRdCY4iJS4vOmlQPI7OlAfVjCQKRC_WJIN0Ml-a0bn4?e=XFhrDx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAWFRdCY4iJS4vOmlQPI7OlAfVjCQKRC_WJIN0Ml-a0bn4?e=XFhrDx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+Link del video (Youtube): [https://youtu.be/5xmmLuuTdew](https://youtu.be/5xmmLuuTdew)
 
 
 ---

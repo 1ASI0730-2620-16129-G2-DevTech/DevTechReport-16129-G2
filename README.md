@@ -52,7 +52,7 @@ u202216240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tufiño Ar
 **Periodo 202620**
 <br>
 
-**Octubre 2026**
+**Noviembre 2026**
 
 </div>
 <br>
@@ -71,6 +71,7 @@ u202216240&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tufiño Ar
 |---|---|---|---|
 | **AV1** | 28/08/2026 | Pérez Vásquez, Ariana Valeria<br><br>Ramirez Gutierrez, Gabriel<br><br>Ramos Fuentes Rivera, Adriana Nicole<br><br>Sayago Vidal, Sebastián Leonardo<br><br>Tufiño Argüelles, Luis Angel | **Capítulo I: Introducción**<br>1.1. Startup Profile<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1. Antecedentes y problemática<br>1.2.2. Lean UX Process<br>1.2.2.1. Lean UX Problem Statements<br>1.2.2.2. Lean UX Assumptions<br>1.2.2.3. Lean UX Hypothesis Statements<br>1.2.2.4. Lean UX Canvas<br>1.3. Segmentos objetivo<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores<br>2.1.1. Análisis competitivo<br>2.1.2. Estrategias y tácticas frente a competidores<br>2.2. Entrevistas<br>2.2.1. Diseño de entrevistas<br>2.2.2. Registro de entrevistas<br>2.2.3. Análisis de entrevistas<br>2.3. Needfinding<br>2.3.1. User Personas<br>2.3.2. User Task Matrix<br>2.3.3. User Journey Mapping<br>2.3.4. Empathy Mapping<br>2.4. Big Picture EventStorming<br>2.5. Ubiquitous Language<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories<br>3.2. Impact Mapping<br>3.3. Product Backlog<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines<br>4.1.1. General Style Guidelines<br>4.1.2. Web Style Guidelines<br>4.2. Information Architecture<br>4.2.1. Organization Systems<br>4.2.2. Labeling Systems<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems<br>4.2.5. Navigation Systems<br>4.3. Landing Page UI Design<br>4.3.1. Landing Page Wireframe<br>4.3.2. Landing Page Mock-up<br>4.4. Web Applications UX/UI Design<br>4.4.1. Web Applications Wireframes<br>4.4.2. Web Applications Wireflow Diagrams<br>4.4.2. Web Applications Mock-ups<br>4.4.3. Web Applications User Flow Diagrams<br>4.5. Web Applications Prototyping<br>4.6. Domain-Driven Software Architecture<br>4.6.1. Design-Level EventStorming<br>4.6.2. Software Architecture Context Diagram<br>4.6.3. Software Architecture Container Diagrams<br>4.6.4. Software Architecture Components Diagrams<br>4.7. Software Object-Oriented Design<br>4.7.1. Class Diagrams<br>4.8. Database Design<br>4.8.1. Database Diagrams<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management<br>5.1.1. Software Development Environment Configuration<br>5.1.2. Source Code Management<br>5.1.3. Source Code Style Guide & Conventions<br>5.1.4. Software Deployment Configuration<br>5.2. Landing Page, Services & Applications Implementation<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1<br>5.2.1.2. Aspect Leaders and Collaborators<br>5.2.1.3. Sprint Backlog 1<br>5.2.1.4. Development Evidence for Sprint Review<br>5.2.1.5. Execution Evidence for Sprint Review<br>5.2.1.6. Services Documentation Evidence for Sprint Review<br>5.2.1.7. Software Deployment Evidence for Sprint Review<br>5.2.1.8. Team Collaboration Insights during Sprint |
 | **TB1** | 08/10/2026 | Pérez Vásquez, Ariana Valeria<br><br>Ramirez Gutierrez, Gabriel<br><br>Ramos Fuentes Rivera, Adriana Nicole<br><br>Sayago Vidal, Sebastián Leonardo<br><br>Tufiño Argüelles, Luis Angel | 5.2.2. Sprint 2<br>5.2.2.1. Sprint Planning 2<br>5.2.2.2. Aspect Leaders and Collaborators<br>5.2.2.3. Sprint Backlog 2<br>5.2.2.4. Development Evidence for Sprint Review<br>5.2.2.5. Execution Evidence for Sprint Review<br>5.2.2.6. Services Documentation Evidence for Sprint Review<br>5.2.2.7. Software Deployment Evidence for Sprint Review<br>5.2.2.8. Team Collaboration Insights during Sprint |
+| **AV2** | 15/11/2026 | Pérez Vásquez, Ariana Valeria<br><br>Ramirez Gutierrez, Gabriel<br><br>Ramos Fuentes Rivera, Adriana Nicole<br><br>Tufiño Argüelles, Luis Angel | 5.2.3. Sprint 3<br>5.2.3.1. Sprint Planning 3<br>5.2.3.2. Aspect Leaders and Collaborators<br>5.2.3.3. Sprint Backlog 3<br>5.2.3.4. Development Evidence for Sprint Review<br>5.2.3.5. Execution Evidence for Sprint Review<br>5.2.3.6. Services Documentation Evidence for Sprint Review<br>5.2.3.7. Software Deployment Evidence for Sprint Review<br>5.2.3.8. Team Collaboration Insights during Sprint |
 
 <div style="page-break-after: always;"></div>
 
@@ -4835,12 +4836,6 @@ El objetivo del Sprint se encuentra enfocado en consolidar la experiencia visual
 
 ##### 5.2.3.2. Aspect Leaders and Collaborators
 
-Para organizar el desarrollo del Sprint 3, el equipo distribuyó responsabilidades según los diferentes aspectos necesarios para implementar y validar las nuevas funcionalidades del sistema. La asignación de un **Aspect Leader** representa al integrante que concentra la responsabilidad de coordinar o desarrollar principalmente dicho aspecto, mientras que los **Collaborators** brindan apoyo en las actividades relacionadas.
-
-Esta distribución no representa una jerarquía dentro del equipo, sino una forma de organizar el trabajo y facilitar la coordinación de las actividades del Sprint.
-
-#### 5.2.3.2. Aspect Leaders and Collaborators
-
 En esta sección, se establecen los aspectos clave del *Aspect Leaders and Collaborators* correspondiente al Sprint 3 del proyecto **WashTrack** en **DevTech**. Se incluye información como los aspectos técnicos identificados para este sprint (desarrollo del backend y API REST, persistencia de datos, y servicios de los bounded contexts), los líderes responsables de cada aspecto y los colaboradores que apoyan su desarrollo. A continuación se presenta el resumen de la distribución de roles por aspecto.
 
 | Team Member | Github Username | Coordinación del equipo y revisión de documento | Desarrollo del backend y API REST para Order Management | Gestión de Laundry Operations y Customer Management | Logística de Pickups & Deliveries | Implementación de Payment y Catalog (Billing & Subscriptions) |
@@ -5831,7 +5826,7 @@ En conjunto, los resultados sugieren que WashTrack responde a necesidades releva
 **CURSO:** Aplicaciones Web
 **SECCIÓN:** 16129
 **PROFESORES:** Todos
-**AUDITOR:** FuelPoint
+**AUDITOR:**
 **CLIENTE(S):** DevTech
  
 ---
@@ -6060,34 +6055,69 @@ Abrir el detalle con un solo clic y agregar un botón "Ver detalle" al final de 
 
 ### 5.4. Video About-the-Product
 
+<p align="justify">
+  En esta sección presentamos el video About the Product de nuestra solución para la gestión de lavanderías. Está dirigido a dos públicos. El primero son los visitantes del Landing Page que quieren conocer el modelo de negocio y las principales funcionalidades de la plataforma. El segundo son los usuarios de la aplicación que quieren saber cómo realizar tareas como registrar pedidos, hacer seguimiento a su estado, coordinar entregas y gestionar pagos.
+</p>
+<p align="justify">
+  El video usa un tono cercano, claro y profesional, igual al del producto. Muestra cómo la solución ayuda a ordenar la operación diaria de la lavandería y mejora la experiencia de sus clientes.
+</p>
+
+<div align="center">
+  <img src="./assets/img/Chapter5/inicio_video_about_the_product.png" width="700px" alt="Video-about-the-product">
+  <p>DevTech - WashTrack: Video about the product</p>
+  <p></p>
+</div>
+<br>
+
+Link del video (Microsoft): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQCd2MxUqQFNRKVqZMzl8-anATdsy-j-NHwSKU2QKzxrkqo?e=QfvdvK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQCd2MxUqQFNRKVqZMzl8-anATdsy-j-NHwSKU2QKzxrkqo?e=QfvdvK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Link del video (Youtube): [https://youtu.be/1HnxbQQjbfU](https://youtu.be/1HnxbQQjbfU)
+
 ---
 
 ## Conclusiones
 
-A partir del desarrollo del proyecto **WashTrack** que desarrollo nuestro equipo <b>DevTech</b>, se logró avanzar desde la identificación de las necesidades de los usuarios hasta la implementación y despliegue de una primera versión de la Landing Page. El proyecto permitió integrar las actividades de levantamiento y análisis de requisitos, especificación de requisitos, diseño del producto, gestión de configuración, implementación y despliegue, manteniendo una relación directa entre las necesidades identificadas y las funcionalidades propuestas para la solución.
+El equipo DevTech desarrolló el proyecto WashTrack en tres sprints. Partió de la identificación de las necesidades de los usuarios y llegó a una primera versión de los Web Services con persistencia en base de datos. Durante el proceso integró el levantamiento y análisis de requisitos, la especificación, el diseño del producto, la gestión de configuración, la implementación y el despliegue. En cada etapa, las funcionalidades implementadas se mantuvieron alineadas con las necesidades identificadas al inicio.
+ 
+- **En relación con los Problem Statements:** Se identificaron varias dificultades de los clientes de lavanderías: la falta de información sobre el estado de sus prendas, la coordinación de los recojos y entregas, y la necesidad de ver el avance de sus pedidos. Por su parte, las lavanderías necesitaban mejorar la gestión y el seguimiento de sus operaciones. En el Sprint 3 estas problemáticas pasaron a resolverse con servicios backend funcionales. La API permite registrar pedidos con sus prendas, avanzar su estado, recibirlos en el tablero de producción, programar recojos a domicilio y registrar pagos. Con ello, la idea de centralizar la gestión de pedidos dejó de ser solo una interfaz y se convirtió en una solución que procesa y almacena información real.
+- **Respecto a los Assumptions:** Los supuestos de la etapa de Requirements Elicitation & Analysis se contrastaron mediante entrevistas. Estas confirmaron que es crítico conocer el estado de las prendas y coordinar el recojo y la entrega. A partir de esos supuestos se eligieron los bounded contexts que se desarrollaron primero en el backend: Order Management, Laundry Operations, Pickups & Deliveries y Subscription & Payment. Así, el esfuerzo de desarrollo se concentró en las capacidades de mayor valor para el segmento objetivo.
+- **En cuanto a los Hypotheses Statements:** Las hipótesis sobre el seguimiento de pedidos, la gestión digital del servicio y la coordinación entre clientes y lavanderías se llevaron progresivamente a elementos concretos. En el Sprint 1 se plasmaron en la Landing Page, en el Sprint 2 en la interfaz del Frontend Web Application y en el Sprint 3 en endpoints REST que recorren el ciclo principal de un pedido con datos persistidos. Gracias a esto, las hipótesis ya pueden validarse con información real y no solo con datos simulados.
+- **Criterios de éxito definidos mediante Lean UX:** El producto avanzó en la comprobación de la propuesta de valor, la identificación de las funcionalidades principales y la experiencia orientada al segmento. La nueva versión de la Landing Page incorpora internacionalización en-US/es-419, meta tags de SEO, navegación accesible, call-to-action por segmento hacia la Web Application, términos y condiciones bilingües y el video About-the-Product. La Web Application, por su parte, cuenta con inicio de sesión con guard de autenticación y sesión persistente, el flujo de registro de pagos y la integración de pedidos con el tablero de producción, el seguimiento y las entregas. Sin embargo, los criterios cuantitativos, como los tiempos de consulta del estado, la adopción y la frecuencia de uso, solo podrán medirse cuando la Web Application consuma los Web Services desplegados en un entorno accesible para usuarios reales.
+- **Product Implementation, Validation & Deployment:** Se consolidó la base técnica de los tres productos digitales de WashTrack. La Landing Page se construyó con HTML5, CSS3 y JavaScript, y el Frontend Web Application con Vue 3. Los Web Services se desarrollaron con ASP.NET Core y Entity Framework Core sobre MySQL, organizados con Domain-Driven Design por bounded contexts. En el backend se construyó un Shared Kernel con agregados y repositorio base, Unit of Work, interceptores de auditoría y de eventos de dominio, manejo global de excepciones localizado y convención de rutas kebab-case. Los bounded contexts Laundry Operations, Order Management y Pickups & Deliveries se integraron en la rama develop con sus agregados, comandos, consultas, repositorios, controladores REST y migraciones. Subscription & Payment y Customer Management se desarrollaron en sus respectivas ramas feature. La pasarela de pago externa se incorporó mediante una Anti-Corruption Layer, lo que protege el modelo de dominio frente a servicios de terceros. Los endpoints se documentaron con OpenAPI 3.1, con descripciones en español e inglés consultables desde Scalar.
+- **Ejecución de los Sprints:** Los tres sprints se organizaron mediante Sprint Planning, un Sprint Backlog en Trello y una Leadership-and-Collaboration Matrix que distribuyó el liderazgo de cada bounded context entre los integrantes. En el Sprint 3 el equipo planificó 34 Story Points, repartidos en 28 Engineering Tasks con un total de 167 horas. El trabajo se organizó en ramas feature por bounded context y se integró mediante Pull Requests siguiendo GitFlow, lo que permitió avanzar en paralelo y mantener la trazabilidad de los cambios. Algunas tareas pasan al siguiente incremento: la autenticación con JWT en el backend, las notificaciones, la inspección de prendas, la auditoría, la integración completa del frontend con la API y el despliegue de los Web Services.
 
-* **En relación con los Problem Statements:** Se identificaron dificultades en los clientes de lavanderías relacionadas con la falta de información sobre el estado de sus prendas, la coordinación de los servicios de recojo y entrega, y la necesidad de contar con mayor visibilidad durante el procesamiento de sus pedidos. Desde la perspectiva de las lavanderías, también se identificó la necesidad de mejorar la gestión y seguimiento de sus operaciones. Frente a estas problemáticas, WashTrack plantea una solución digital orientada a centralizar la gestión de pedidos, facilitar el seguimiento de las prendas y mejorar la interacción entre clientes y proveedores del servicio.
+---
 
-* **Respecto a los Assumptions:** Los supuestos establecidos durante la etapa de *Requirements Elicitation & Analysis* fueron contrastados mediante entrevistas. La información obtenida permitió validar las necesidades inicialmente planteadas con el comportamiento y la voz real de los usuarios. Se identificó la importancia crítica de conocer el estado de las prendas durante el servicio y de contar con mecanismos que faciliten la coordinación del recojo y la entrega, orientando la propuesta hacia necesidades concretas del segmento objetivo.
+## Video About the Team
 
-* **En cuanto a los Hypotheses Statements:** Las necesidades identificadas se transformaron en hipótesis relacionadas principalmente con el seguimiento de pedidos, la gestión digital del servicio y la coordinación entre clientes y lavanderías. La primera versión implementada permitió llevar estas hipótesis a elementos concretos de la solución y establecer una base sólida para continuar validándolas en las siguientes iteraciones del producto.
+<p align="justify">
+  En esta sección presentamos el video About The Team, en el que el equipo DevTech muestra cómo trabajó durante el desarrollo del proyecto. El video reúne escenas e imágenes de nuestras reuniones y sesiones de trabajo reales.
+</p>
 
-* **Criterios de éxito definidos mediante Lean UX:** La primera versión de WashTrack permitió avanzar en la comprobación de aspectos relacionados con la comprensión de la propuesta de valor, la identificación de las funcionalidades principales y la presentación de una experiencia orientada a las necesidades del segmento. La Landing Page presenta la propuesta de WashTrack, sus características principales, los usuarios a los que se dirige y el funcionamiento general del servicio. Sin embargo, se concluye que algunos criterios cuantitativos requieren continuar siendo validados en futuras iteraciones mediante la implementación de las funcionalidades correspondientes al *Frontend Web Application* y los *Web Services*.
+<div align="center">
+  <img src="./assets/img/Chapter5/devtech_video_team.png" width="700px" alt="Video-about-the-team">
+  <p>DevTech - WashTrack: Video about the team</p>
+  <p></p>
+</div>
+<br>
 
-* **Product Implementation, Validation & Deployment:** Se estableció una base técnica para continuar con la evolución del proyecto. Se utilizaron herramientas y prácticas para la gestión del código fuente mediante GitHub, se definió un flujo de trabajo basado en ramas y se establecieron convenciones de desarrollo. Asimismo, se implementó la primera versión de la Landing Page utilizando HTML5, CSS3 y JavaScript, incorporando navegación responsive, cambio de idioma e interacción. Finalmente, se configuró su despliegue mediante GitHub Pages, permitiendo disponer de una versión accesible del producto.
+Link del video (Microsoft): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAWFRdCY4iJS4vOmlQPI7OlAfVjCQKRC_WJIN0Ml-a0bn4?e=XFhrDx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAWFRdCY4iJS4vOmlQPI7OlAfVjCQKRC_WJIN0Ml-a0bn4?e=XFhrDx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-* **Ejecución del Sprint 1:** El desarrollo del primer sprint permitió organizar las actividades mediante *Sprint Planning*, *Sprint Backlog* y una correcta distribución de responsabilidades entre los integrantes del equipo. Las evidencias de desarrollo, ejecución, documentación y despliegue permitieron realizar un seguimiento riguroso al avance de los entregables y establecer la base de trabajo para los siguientes sprints.
+Link del video (Youtube): [https://youtu.be/5xmmLuuTdew](https://youtu.be/5xmmLuuTdew)
 
 ---
 
 ## Recomendaciones
 
-Como parte de los siguientes pasos en el **Roadmap** de los productos digitales que forman parte del alcance del negocio, se recomienda:
-
-1. **Desarrollo del Frontend Web Application:** Priorizar la implementación de la aplicación web comenzando por las funcionalidades principales del cliente, tales como la creación de pedidos, la consulta del estado de las prendas y el seguimiento del servicio.
-2. **Implementación de Web Services RESTful API:** Desarrollar e integrar los servicios backend utilizando ASP.NET Core, Entity Framework Core y C#, permitiendo conectar la aplicación con la persistencia de datos en la base de datos y soportar la lógica del negocio.
-3. **Módulo para Proveedores (Lavanderías):** Continuar con el desarrollo de las funcionalidades destinadas a las lavanderías, incorporando la gestión de pedidos, la actualización de las etapas del procesamiento y la administración de la información de los servicios.
-4. **Validación Continua con Usuarios:** Realizar pruebas y validaciones con usuarios del segmento objetivo tras cada incremento significativo del producto. Los resultados obtenidos deberán utilizarse para reevaluar los *Assumptions* y *Hypotheses Statements*, contrastar los criterios de éxito de Lean UX y actualizar la priorización del *Product Backlog*, asegurando que WashTrack evolucione progresivamente hacia una solución digital integral.
+Como siguientes pasos en el Roadmap de los productos digitales de WashTrack, se recomienda:
+ 
+- **Completar la seguridad en IAM:** Implementar en los Web Services el registro e inicio de sesión con contraseñas cifradas, la emisión y validación de tokens JWT y la autorización por rol (propietario, encargado y cliente). Después, conectar a estos endpoints el guard de autenticación ya existente en el frontend, para que el control de accesos de la plataforma se gestione desde el backend.
+- **Migrar el frontend de JSON Server a la API REST:** Reemplazar progresivamente el servidor simulado por los endpoints reales en las vistas de seguimiento, rutas y asignación de repartidores, recepción de prendas, gestión de clientes y comprobantes de pago. Así, la Web Application operará con datos persistidos y reflejará el comportamiento real del negocio.
+- **Desplegar los Web Services y la base de datos:** Publicar la API y la base de datos MySQL en la nube, configurar las variables de entorno y las políticas CORS, y actualizar la URL base de la API en el frontend desplegado. Con ello se contará con una versión integrada de WashTrack, accesible de punta a punta, que podrá usarse en las validaciones con usuarios.
+- **Completar los bounded contexts pendientes:** Integrar Customer Management y Subscription & Payment en la rama develop, y desarrollar Tracking & Notifications para generar avisos automáticos ante cada cambio de estado del pedido. Asimismo, implementar el registro de inspección de prendas (US-030) y la bitácora de auditoría de las acciones del personal (US-033), que completan la trazabilidad del servicio y fortalecen la confianza entre clientes y lavanderías.
+- **Integrar servicios externos reales:** Reemplazar el proveedor de pago simulado por una pasarela real, aprovechando la Anti-Corruption Layer existente para que el cambio no afecte al modelo de dominio. También se recomienda incorporar un servicio de correo electrónico para notificar al cliente los cambios de estado de su pedido.
+- **Incorporar pruebas automatizadas:** Agregar pruebas unitarias para las reglas de dominio, como las transiciones de estado, las validaciones de programación de recojos y la emisión de comprobantes, y pruebas de integración para los endpoints. Esto reducirá el riesgo de regresiones a medida que se integren nuevos bounded contexts.
+- **Validación continua con usuarios:** Realizar pruebas con usuarios del segmento objetivo sobre la versión desplegada después de cada incremento significativo del producto. Los resultados deberán usarse para reevaluar los Assumptions y Hypotheses Statements, medir los criterios cuantitativos de Lean UX y actualizar la priorización del Product Backlog. De esta forma, WashTrack evolucionará progresivamente hacia una solución digital integral.
 
 ---
 
@@ -6123,7 +6153,15 @@ URL de exposición (AV1): [Exposición AV1](https://upcedupe-my.sharepoint.com/:
 
 URL de exposición (TB1): [Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAEU2mWS13ARaBtw6ssyqQrAfnx2Z1jKFVLDnw-L3yIBA4?e=8zIsLP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+URL de validation interviews (Microsoft): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQDsvZv0oIhFSZqUH6tDfdxQAX3WArJfVPmBE-3BZ5l_LD0?e=aZFEnG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQDsvZv0oIhFSZqUH6tDfdxQAX3WArJfVPmBE-3BZ5l_LD0?e=aZFEnG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+URL del video about the product (Microsoft): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQCd2MxUqQFNRKVqZMzl8-anATdsy-j-NHwSKU2QKzxrkqo?e=QfvdvK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQCd2MxUqQFNRKVqZMzl8-anATdsy-j-NHwSKU2QKzxrkqo?e=QfvdvK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+URL del video about the product (Youtube): [https://youtu.be/1HnxbQQjbfU](https://youtu.be/1HnxbQQjbfU)
+
+URL del video about the team  (Microsoft): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAWFRdCY4iJS4vOmlQPI7OlAfVjCQKRC_WJIN0Ml-a0bn4?e=XFhrDx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAWFRdCY4iJS4vOmlQPI7OlAfVjCQKRC_WJIN0Ml-a0bn4?e=XFhrDx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+URL del video about the team: [https://youtu.be/5xmmLuuTdew](https://youtu.be/5xmmLuuTdew)
 
 
 ---

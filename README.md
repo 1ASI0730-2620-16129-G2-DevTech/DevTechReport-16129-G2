@@ -5198,12 +5198,15 @@ Link del video (Youtube): [https://youtu.be/5xmmLuuTdew](https://youtu.be/5xmmLu
 
 ## Recomendaciones
 
-Como parte de los siguientes pasos en el **Roadmap** de los productos digitales que forman parte del alcance del negocio, se recomienda:
-
-1. **Desarrollo del Frontend Web Application:** Priorizar la implementación de la aplicación web comenzando por las funcionalidades principales del cliente, tales como la creación de pedidos, la consulta del estado de las prendas y el seguimiento del servicio.
-2. **Implementación de Web Services RESTful API:** Desarrollar e integrar los servicios backend utilizando ASP.NET Core, Entity Framework Core y C#, permitiendo conectar la aplicación con la persistencia de datos en la base de datos y soportar la lógica del negocio.
-3. **Módulo para Proveedores (Lavanderías):** Continuar con el desarrollo de las funcionalidades destinadas a las lavanderías, incorporando la gestión de pedidos, la actualización de las etapas del procesamiento y la administración de la información de los servicios.
-4. **Validación Continua con Usuarios:** Realizar pruebas y validaciones con usuarios del segmento objetivo tras cada incremento significativo del producto. Los resultados obtenidos deberán utilizarse para reevaluar los *Assumptions* y *Hypotheses Statements*, contrastar los criterios de éxito de Lean UX y actualizar la priorización del *Product Backlog*, asegurando que WashTrack evolucione progresivamente hacia una solución digital integral.
+Como siguientes pasos en el Roadmap de los productos digitales de WashTrack, se recomienda:
+ 
+- **Completar la seguridad en IAM:** Implementar en los Web Services el registro e inicio de sesión con contraseñas cifradas, la emisión y validación de tokens JWT y la autorización por rol (propietario, encargado y cliente). Después, conectar a estos endpoints el guard de autenticación ya existente en el frontend, para que el control de accesos de la plataforma se gestione desde el backend.
+- **Migrar el frontend de JSON Server a la API REST:** Reemplazar progresivamente el servidor simulado por los endpoints reales en las vistas de seguimiento, rutas y asignación de repartidores, recepción de prendas, gestión de clientes y comprobantes de pago. Así, la Web Application operará con datos persistidos y reflejará el comportamiento real del negocio.
+- **Desplegar los Web Services y la base de datos:** Publicar la API y la base de datos MySQL en la nube, configurar las variables de entorno y las políticas CORS, y actualizar la URL base de la API en el frontend desplegado. Con ello se contará con una versión integrada de WashTrack, accesible de punta a punta, que podrá usarse en las validaciones con usuarios.
+- **Completar los bounded contexts pendientes:** Integrar Customer Management y Subscription & Payment en la rama develop, y desarrollar Tracking & Notifications para generar avisos automáticos ante cada cambio de estado del pedido. Asimismo, implementar el registro de inspección de prendas (US-030) y la bitácora de auditoría de las acciones del personal (US-033), que completan la trazabilidad del servicio y fortalecen la confianza entre clientes y lavanderías.
+- **Integrar servicios externos reales:** Reemplazar el proveedor de pago simulado por una pasarela real, aprovechando la Anti-Corruption Layer existente para que el cambio no afecte al modelo de dominio. También se recomienda incorporar un servicio de correo electrónico para notificar al cliente los cambios de estado de su pedido.
+- **Incorporar pruebas automatizadas:** Agregar pruebas unitarias para las reglas de dominio, como las transiciones de estado, las validaciones de programación de recojos y la emisión de comprobantes, y pruebas de integración para los endpoints. Esto reducirá el riesgo de regresiones a medida que se integren nuevos bounded contexts.
+- **Validación continua con usuarios:** Realizar pruebas con usuarios del segmento objetivo sobre la versión desplegada después de cada incremento significativo del producto. Los resultados deberán usarse para reevaluar los Assumptions y Hypotheses Statements, medir los criterios cuantitativos de Lean UX y actualizar la priorización del Product Backlog. De esta forma, WashTrack evolucionará progresivamente hacia una solución digital integral.
 
 ---
 
